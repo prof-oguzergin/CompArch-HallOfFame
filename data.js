@@ -450,6 +450,18 @@ toppicks_papers: [
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"Tandem Processor: Grappling With Emerging Operators in Neural Networks",authors:[]},
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"SpotServe: Serving Generative Large Language Models on Preemptible Instances",authors:[]},
   {year:2024,type:"HM",conf:"MICRO 2024",title:"MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker",authors:[]},
+  // 2006 conferences (IEEE Micro vol.27 no.1, Jan/Feb 2007) - no HM data available
+  {year:2006,type:"TP",conf:"MICRO 2006",title:"Patching Processor Design Errors with Programmable Hardware",authors:["Smruti Sarangi","Satish Narayanasamy","Bruce Carneal","Abhishek Tiwari","Brad Calder","Josep Torrellas"]},
+  {year:2006,type:"TP",conf:"ASPLOS 2006",title:"AVIO: Detecting Atomicity Violations via Access-Interleaving Invariants",authors:["Shan Lu","Joseph Tucek","Feng Qin","Yuanyuan Zhou"]},
+  {year:2006,type:"TP",conf:"ASPLOS 2006",title:"Automatic Instruction-Level Software-Only Recovery",authors:["George A. Reis","Jonathan Chang","David I. August"]},
+  {year:2006,type:"TP",conf:"ISCA 2006",title:"A Hardware Memory Race Recorder for Deterministic Replay",authors:["Min Xu","Rastislav Bodik","Mark D. Hill"]},
+  {year:2006,type:"TP",conf:"ISCA 2006",title:"On-Chip Optical Technology in Future Bus-Based Multicore Designs",authors:["Nevin Kirman","Meyrem Kirman","Rajeev K. Dokania","Jose F. Martinez","Alyssa B. Apsel","Matthew A. Watkins","David H. Albonesi"]},
+  {year:2006,type:"TP",conf:"ISCA 2006",title:"Transactional Memory: The Hardware-Software Interface",authors:["Austen McDonald","Brian D. Carlstrom","JaeWoong Chung","Chi Cao Minh","Hassan Chafi","Christos Kozyrakis","Kunle Olukotun"]},
+  {year:2006,type:"TP",conf:"ISCA 2006",title:"3D Integration for Introspection",authors:["Shashidhar Mysore","Banit Agrawal","Navin Srivastava","Sheng-Chih Lin","Kaustav Banerjee","Timothy Sherwood"]},
+  {year:2006,type:"TP",conf:"ISCA 2006",title:"A Top-Down Approach to Architecting CPI Component Performance Counters",authors:["Stijn Eyerman","Lieven Eeckhout","Tejas Karkhanis","James E. Smith"]},
+  {year:2006,type:"TP",conf:"MICRO 2006",title:"Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication",authors:["Hyesoon Kim","Jose A. Joao","Onur Mutlu","Yale N. Patt"]},
+  {year:2006,type:"TP",conf:"MICRO 2006",title:"NoSQ: Store-Load Communication without a Store Queue",authors:["Tingting Sha","Milo M.K. Martin","Amir Roth"]},
+  {year:2006,type:"TP",conf:"MICRO 2006",title:"SODA: A High-Performance DSP Architecture for Software-Defined Radio",authors:["Yuan Lin","Hyunseok Lee","Mark Woh","Yoav Harel","Scott Mahlke","Trevor Mudge","Chaitali Chakrabarti","Krisztian Flautner"]},
   // 2007 conferences (IEEE Micro vol.28 no.3, May/Jun 2008) - no HM data available
   {year:2007,type:"TP",conf:"ASPLOS 2008",title:"Revisiting the Sequential Programming Model for the Multicore Era",authors:["Matthew J. Bridges","Neil Vachharajani","Yun Zhang","Thomas Jablin","David I. August"]},
   {year:2007,type:"TP",conf:"MICRO 2007",title:"Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation",authors:["Naveen Neelakantam","Ravi Rajwar","Suresh Srinivas","Uma Srinivasan","Craig Zilles"]},
