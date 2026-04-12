@@ -364,9 +364,11 @@ function renderTopPicks() {
         if (!confYearData[c]) confYearData[c] = {};
         confYearData[c][p.year] = (confYearData[c][p.year]||0) + 1;
     });
-    const confList = ['ISCA','MICRO','HPCA','ASPLOS'].filter(c=>allConfs.has(c));
-    // add any remaining
-    allConfs.forEach(c => { if (!confList.includes(c)) confList.push(c); });
+    const confList = [...allConfs].sort((a,b) => {
+        const ta = tpYears.reduce((s,y) => s + ((confYearData[a]||{})[y]||0), 0);
+        const tb = tpYears.reduce((s,y) => s + ((confYearData[b]||{})[y]||0), 0);
+        return tb - ta;
+    });
     const cyHeader = document.getElementById('tp-confyear-header');
     cyHeader.innerHTML = `<th>Conference</th>` + tpYears.map(y=>`<th style="width:50px;text-align:center">${String(y).slice(-2)}</th>`).join('') + `<th style="width:60px;text-align:center">Total</th>`;
     const cyBody = document.getElementById('tp-confyear-body');
