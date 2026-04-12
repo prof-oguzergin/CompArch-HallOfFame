@@ -159,12 +159,14 @@
         <div class="heatmap-wrap" id="heatmap-asplos"></div>
     </div>
     <div class="tab-panel" id="panel-toppicks">
-        <div class="conf-info"><strong>IEEE Micro Top Picks</strong> &mdash; Annual selection of ~12 most significant papers from computer architecture conferences, plus ~12 Honorable Mentions. Published since 2003. &middot; Data as of: 12 Apr 2026</div>
-        <div class="note-box">Data covers 2023&ndash;2024 conference years so far. More years being added as IEEE Micro special issues are processed.</div>
+        <div class="conf-info"><strong>IEEE Micro Top Picks</strong> &mdash; Annual selection of ~12 most significant papers from computer architecture conferences, plus ~12 Honorable Mentions. Published since 2003. &middot; Data as of: 13 Apr 2026</div>
+        <div class="note-box">Data covers 2020&ndash;2024 conference years. More years being added. <a href="#tp-paper-list" style="color:var(--gold)">See full paper list below ↓</a></div>
+        <h3 style="color:var(--gold);margin:1rem 0 0.5rem;font-size:1.1rem">Conference Breakdown by Year</h3>
+        <div class="heatmap-wrap"><table class="simple-table" id="table-toppicks-confyear"><thead><tr id="tp-confyear-header"></tr></thead><tbody id="tp-confyear-body"></tbody></table></div>
         <h3 style="color:var(--gold);margin:1rem 0 0.5rem;font-size:1.1rem">Researcher Summary</h3>
         <div class="heatmap-wrap"><table class="heatmap toppicks" id="table-toppicks-authors"><thead><tr id="tp-author-header">
         </tr></thead><tbody></tbody></table></div>
-        <h3 style="color:var(--gold);margin:1.5rem 0 0.5rem;font-size:1.1rem">Paper List</h3>
+        <h3 id="tp-paper-list" style="color:var(--gold);margin:1.5rem 0 0.5rem;font-size:1.1rem">Paper List</h3>
         <div class="heatmap-wrap"><table class="simple-table" id="table-toppicks-papers"><thead><tr>
             <th style="width:50px">Year</th><th>Title</th><th>Authors</th><th style="width:110px">Conference</th>
         </tr></thead><tbody></tbody></table></div>
@@ -352,6 +354,39 @@ function renderTopPicks() {
             ${yearCells}
         </tr>`;
     }).join('');
+
+    // Conference-year breakdown table
+    const confYearData = {};
+    const allConfs = new Set();
+    (DATA.toppicks_papers || []).filter(p=>p.type==='TP').forEach(p => {
+        const c = p.conf.replace(/\s*\d{4}$/,''); // strip year from "ISCA 2024" -> "ISCA"
+        allConfs.add(c);
+        if (!confYearData[c]) confYearData[c] = {};
+        confYearData[c][p.year] = (confYearData[c][p.year]||0) + 1;
+    });
+    const confList = ['ISCA','MICRO','HPCA','ASPLOS'].filter(c=>allConfs.has(c));
+    // add any remaining
+    allConfs.forEach(c => { if (!confList.includes(c)) confList.push(c); });
+    const cyHeader = document.getElementById('tp-confyear-header');
+    cyHeader.innerHTML = `<th>Conference</th>` + tpYears.map(y=>`<th style="width:50px;text-align:center">${String(y).slice(-2)}</th>`).join('') + `<th style="width:60px;text-align:center">Total</th>`;
+    const cyBody = document.getElementById('tp-confyear-body');
+    // Per-conference rows
+    let rows = confList.map(c => {
+        const yearCells = tpYears.map(y => {
+            const v = (confYearData[c]||{})[y] || 0;
+            return `<td class="count" style="text-align:center;${v?'color:var(--text)':'color:var(--text-muted)'}">${v||'-'}</td>`;
+        }).join('');
+        const total = tpYears.reduce((s,y) => s + ((confYearData[c]||{})[y]||0), 0);
+        return `<tr><td><strong>${c}</strong></td>${yearCells}<td class="count" style="text-align:center;color:var(--gold)">${total}</td></tr>`;
+    }).join('');
+    // Total row
+    const totalCells = tpYears.map(y => {
+        const v = confList.reduce((s,c) => s + ((confYearData[c]||{})[y]||0), 0);
+        return `<td class="count" style="text-align:center;color:var(--gold)"><strong>${v}</strong></td>`;
+    }).join('');
+    const grandTotal = papers.length;
+    rows += `<tr style="border-top:2px solid var(--surface2)"><td><strong>Total</strong></td>${totalCells}<td class="count" style="text-align:center;color:var(--gold)"><strong>${grandTotal}</strong></td></tr>`;
+    cyBody.innerHTML = rows;
 
     // Paper list table - sorted newest first, colored by year
     const yearColors = {};
