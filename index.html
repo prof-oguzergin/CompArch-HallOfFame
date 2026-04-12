@@ -141,7 +141,7 @@
         <div class="conf-info"><strong>Combined Hall of Fame</strong> &mdash; Researchers with 8+ papers at any venue (HPCA, MICRO, ISCA, or ASPLOS) are inducted into that venue's Hall of Fame. The Total column sums only these four venues. TP shows IEEE Micro Top Picks count (not included in Total). Click column headers to sort.</div>
         <div class="heatmap-wrap"><table class="simple-table" id="table-combined"><thead><tr>
             <th style="width:40px">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
-            <th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer">Venues</th>
+            <th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer;text-align:left">HoF Venues</th>
         </tr></thead><tbody></tbody></table></div>
     </div>
 
@@ -449,7 +449,7 @@ function renderStats() {
     document.getElementById('statsBar').innerHTML = `
         <div class="stat-item"><div class="stat-number">${n}</div><div class="stat-label">Researchers</div></div>
         <div class="stat-item"><div class="stat-number">5</div><div class="stat-label">Venues</div></div>
-        <div class="stat-item"><div class="stat-number">${four}</div><div class="stat-label">In All 4 Venues</div></div>
+        <div class="stat-item"><div class="stat-number">${four}</div><div class="stat-label">In All 4 HoFs</div></div>
         <div class="stat-item"><div class="stat-number">${tot.toLocaleString()}</div><div class="stat-label">Total Papers</div></div>`;
 }
 
