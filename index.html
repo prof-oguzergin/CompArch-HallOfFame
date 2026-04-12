@@ -35,6 +35,11 @@
         .tab { padding: 0.6rem 1.2rem; border: none; background: transparent; color: var(--text-muted); font-size: 0.9rem; font-weight: 600; cursor: pointer; border-bottom: 3px solid transparent; position: relative; bottom: -2px; transition: all 0.2s; }
         .tab:hover { color: var(--text); }
         .tab.active { color: var(--text); border-bottom-color: var(--gold); }
+        .tab[data-tab="hpca"] { color: var(--accent-hpca); }
+        .tab[data-tab="micro"] { color: var(--accent-micro); }
+        .tab[data-tab="isca"] { color: var(--accent-isca); }
+        .tab[data-tab="asplos"] { color: var(--accent-asplos); }
+        .tab[data-tab="toppicks"] { color: var(--accent-toppicks); }
         .tab .badge { font-size: 0.65rem; padding: 0.1rem 0.35rem; border-radius: 10px; margin-left: 0.25rem; background: rgba(255,255,255,0.1); }
 
         .controls { display: flex; gap: 0.75rem; margin: 0.75rem 0; flex-wrap: wrap; align-items: center; }
@@ -54,6 +59,7 @@
 
         /* Heatmap table */
         .heatmap-wrap { overflow-x: auto; background: var(--surface); border-radius: 6px; }
+        .heatmap-wrap.sticky-scroll { max-height: 80vh; overflow-y: auto; }
         .heatmap { border-collapse: collapse; font-size: 0.75rem; width: max-content; min-width: 100%; }
         .heatmap thead { position: sticky; top: 0; z-index: 2; }
         .heatmap th { background: var(--surface2); padding: 0.3rem 0.25rem; font-weight: 600; color: var(--text-muted); white-space: nowrap; text-align: center; }
@@ -139,7 +145,7 @@
 
     <div class="tab-panel active" id="panel-combined">
         <div class="conf-info"><strong>Combined Hall of Fame</strong> &mdash; Researchers with 8+ papers at any venue (HPCA, MICRO, ISCA, or ASPLOS) are inducted into that venue's Hall of Fame. The Total column sums only these four venues. TP shows IEEE Micro Top Picks count (not included in Total). Click column headers to sort.</div>
-        <div class="heatmap-wrap"><table class="simple-table" id="table-combined"><thead><tr>
+        <div class="heatmap-wrap sticky-scroll"><table class="simple-table" id="table-combined"><thead><tr>
             <th style="width:40px">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
             <th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer;text-align:left">HoF Venues</th>
         </tr></thead><tbody></tbody></table></div>
