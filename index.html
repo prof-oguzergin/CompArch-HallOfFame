@@ -310,10 +310,10 @@ function renderCombined() {
     tbody.innerHTML = combined.filter(d => !filter || d.name.toLowerCase().includes(filter)).map((d,i) => {
         const cls = (hl && d.vc >= 4) ? ' class="highlight"' : '';
         const badges = [];
-        if (d.hpca) badges.push('<span class="conf-badge hpca">HPCA</span>');
-        if (d.micro) badges.push('<span class="conf-badge micro">MICRO</span>');
-        if (d.isca) badges.push('<span class="conf-badge isca">ISCA</span>');
-        if (d.asplos) badges.push('<span class="conf-badge asplos">ASPLOS</span>');
+        if (d.hpca>=8) badges.push('<span title="HPCA" style="color:var(--accent-hpca)">★</span>');
+        if (d.micro>=8) badges.push('<span title="MICRO" style="color:var(--accent-micro)">★</span>');
+        if (d.isca>=8) badges.push('<span title="ISCA" style="color:var(--accent-isca)">★</span>');
+        if (d.asplos>=8) badges.push('<span title="ASPLOS" style="color:var(--accent-asplos)">★</span>');
         return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td>${d.name}</td>
             <td class="count">${d.total}</td>
             <td class="count" style="color:var(--accent-hpca)">${d.hpca||'-'}</td>
