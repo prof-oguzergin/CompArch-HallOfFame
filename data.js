@@ -429,6 +429,7 @@ asplos: [
 // These are NOT in that venue's HoF but we show the count in the combined table
 crossvenue: {
   "Yale N. Patt": {hpca:7, asplos:6},
+  "Wen-Mei W. Hwu": {hpca:2},
 },
 toppicks_papers: [
   // 2024 conferences (IEEE Micro vol.45 no.4, Jul/Aug 2025)
