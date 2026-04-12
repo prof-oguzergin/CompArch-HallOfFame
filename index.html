@@ -86,6 +86,9 @@
         .simple-table { border-collapse: collapse; width: 100%; }
         .simple-table th { background: var(--surface2); padding: 0.5rem 0.6rem; text-align: left; font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); cursor: pointer; user-select: none; }
         .simple-table th:hover { color: var(--text); }
+        .simple-table th.sorted { color: var(--gold); }
+        .simple-table th.sorted::after { content: ' \u25BC'; font-size: 0.6rem; }
+        .simple-table th.sorted.asc::after { content: ' \u25B2'; font-size: 0.6rem; }
         .simple-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; }
         .simple-table td.count { font-weight: 700; font-variant-numeric: tabular-nums; }
         .simple-table tr:hover { background: rgba(255,255,255,0.03); }
@@ -134,8 +137,8 @@
     <div class="tab-panel active" id="panel-combined">
         <div class="conf-info"><strong>Combined Hall of Fame</strong> &mdash; All researchers appearing in at least one venue's Hall of Fame, sorted by total papers across venues.</div>
         <div class="heatmap-wrap"><table class="simple-table" id="table-combined"><thead><tr>
-            <th style="width:40px">#</th><th>Name</th><th style="width:60px">Total</th>
-            <th style="width:55px">HPCA</th><th style="width:55px">MICRO</th><th style="width:55px">ISCA</th><th style="width:55px">ASPLOS</th><th>Venues</th>
+            <th style="width:40px">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
+            <th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer">Venues</th>
         </tr></thead><tbody></tbody></table></div>
     </div>
 
@@ -267,10 +270,28 @@ function renderHeatmap(venue) {
 }
 
 // Render combined
+// Combined sorting state
+let combinedSort = {key:'total', asc:false};
+function sortCombined(key) {
+    if (combinedSort.key === key) combinedSort.asc = !combinedSort.asc;
+    else { combinedSort.key = key; combinedSort.asc = false; }
+    combined.sort((a,b) => {
+        if (key === 'name') return combinedSort.asc ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);
+        const va = a[key]||0, vb = b[key]||0;
+        return combinedSort.asc ? va-vb : vb-va;
+    });
+    renderCombined();
+}
 function renderCombined() {
     const tbody = document.querySelector('#table-combined tbody');
     const filter = document.getElementById('searchBox').value.toLowerCase();
     const hl = document.getElementById('highlightMulti').checked;
+    // Update header sort indicators
+    document.querySelectorAll('#table-combined thead th[data-sort]').forEach(th => {
+        const k = th.dataset.sort;
+        th.classList.toggle('sorted', combinedSort.key===k);
+        th.classList.toggle('asc', combinedSort.key===k && combinedSort.asc);
+    });
     tbody.innerHTML = combined.filter(d => !filter || d.name.toLowerCase().includes(filter)).map((d,i) => {
         const cls = (hl && d.vc >= 4) ? ' class="highlight"' : '';
         const badges = [];
@@ -332,9 +353,14 @@ function renderTopPicks() {
         </tr>`;
     }).join('');
 
-    // Paper list table
+    // Paper list table - sorted newest first, colored by year
+    const yearColors = {};
+    const palette = ['rgba(245,158,11,0.12)','rgba(59,130,246,0.12)','rgba(16,185,129,0.12)','rgba(139,92,246,0.12)','rgba(244,63,94,0.12)','rgba(148,163,184,0.1)'];
+    const sortedYears = [...new Set(papers.map(p=>p.year))].sort((a,b)=>b-a);
+    sortedYears.forEach((y,i) => yearColors[y] = palette[i % palette.length]);
+    const sortedPapers = papers.slice().sort((a,b) => b.year - a.year || a.title.localeCompare(b.title));
     const ptbody = document.querySelector('#table-toppicks-papers tbody');
-    ptbody.innerHTML = papers.map(p => `<tr>
+    ptbody.innerHTML = sortedPapers.map(p => `<tr style="background:${yearColors[p.year]}">
         <td>${p.year}</td>
         <td style="font-size:0.85rem">${p.title}</td>
         <td class="tp-authors">${p.authors.join(', ')}</td>
