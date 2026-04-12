@@ -90,7 +90,7 @@
         .simple-table th.sorted::after { content: ' ↓'; }
         .simple-table th.sorted.asc::after { content: ' ↑'; }
         .simple-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; }
-        .simple-table td.count { font-weight: 700; font-variant-numeric: tabular-nums; }
+        .simple-table td.count { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
         .simple-table tr:hover { background: rgba(255,255,255,0.03); }
         .highlight { background: rgba(245,158,11,0.12) !important; }
         .conf-badge { font-size: 0.6rem; padding: 0.1rem 0.35rem; border-radius: 4px; font-weight: 700; letter-spacing: 0.5px; margin-right: 2px; }
@@ -102,7 +102,7 @@
         footer { text-align: center; padding: 1.5rem; color: var(--text-muted); font-size: 0.75rem; border-top: 1px solid var(--surface2); margin-top: 1.5rem; }
         footer a { color: var(--gold); text-decoration: none; }
 
-        .medal { font-size: 1rem; }
+        .medal { font-size: 1rem; vertical-align: middle; }
         .tp-badge { display:inline-block; padding:0.15rem 0.5rem; border-radius:4px; font-size:0.7rem; font-weight:700; }
         .tp-badge.tp { background:rgba(245,158,11,0.25); color:var(--gold); }
         .tp-badge.hm { background:rgba(148,163,184,0.2); color:var(--text-muted); }
@@ -311,7 +311,7 @@ function renderCombined() {
         if (d.micro) badges.push('<span class="conf-badge micro">MICRO</span>');
         if (d.isca) badges.push('<span class="conf-badge isca">ISCA</span>');
         if (d.asplos) badges.push('<span class="conf-badge asplos">ASPLOS</span>');
-        return `<tr${cls}><td>${medal(i+1)}</td><td>${d.name}</td>
+        return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td>${d.name}</td>
             <td class="count">${d.total}</td>
             <td class="count" style="color:var(--accent-hpca)">${d.hpca||'-'}</td>
             <td class="count" style="color:var(--accent-micro)">${d.micro||'-'}</td>
