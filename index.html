@@ -166,6 +166,7 @@
         <h3 style="color:var(--gold);margin:1rem 0 0.5rem;font-size:1.1rem">Researcher Summary</h3>
         <div class="heatmap-wrap"><table class="heatmap toppicks" id="table-toppicks-authors"><thead><tr id="tp-author-header">
         </tr></thead><tbody></tbody></table></div>
+        <button id="tp-show-all-btn" onclick="toggleTPAll()" style="display:none;margin:0.5rem auto;padding:0.4rem 1.2rem;border:1px solid var(--gold);background:transparent;color:var(--gold);border-radius:6px;cursor:pointer;font-size:0.85rem"></button>
         <h3 id="tp-paper-list" style="color:var(--gold);margin:1.5rem 0 0.5rem;font-size:1.1rem">Paper List</h3>
         <div class="heatmap-wrap"><table class="simple-table" id="table-toppicks-papers"><thead><tr>
             <th style="width:50px">Year</th><th>Title</th><th>Authors</th><th style="width:110px">Conference</th>
@@ -339,11 +340,18 @@ function buildTopPicksAuthors() {
     return {list, allYears};
 }
 
+let tpShowAll = false;
+function toggleTPAll() { tpShowAll = !tpShowAll; renderTopPicks(); }
+
 function renderTopPicks() {
     const filter = document.getElementById('searchBox').value.toLowerCase();
     const papers = (DATA.toppicks_papers || []).filter(p => p.type==='TP' && (!filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter)));
     const {list: authorList, allYears: tpYears} = buildTopPicksAuthors();
     const authorData = authorList.filter(a => !filter || a.name.toLowerCase().includes(filter));
+    const TP_THRESHOLD = 5;
+    const showAll = tpShowAll || !!filter;
+    const visible = showAll ? authorData : authorData.filter(a => a.tp >= TP_THRESHOLD);
+    const hiddenCount = authorData.length - authorData.filter(a => a.tp >= TP_THRESHOLD).length;
 
     // Build header with year columns
     const hdr = document.getElementById('tp-author-header');
@@ -352,7 +360,7 @@ function renderTopPicks() {
 
     // Author summary table
     const atbody = document.querySelector('#table-toppicks-authors tbody');
-    atbody.innerHTML = authorData.map((a,i) => {
+    atbody.innerHTML = visible.map((a,i) => {
         const yearCells = tpYears.map(y => {
             const v = a.byYear[y] || 0;
             return `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
@@ -364,6 +372,15 @@ function renderTopPicks() {
             ${yearCells}
         </tr>`;
     }).join('');
+
+    // Show/hide toggle button
+    const btn = document.getElementById('tp-show-all-btn');
+    if (hiddenCount > 0 && !filter) {
+        btn.style.display = 'block';
+        btn.textContent = showAll ? 'Show only 5+ Top Picks' : `Show all researchers (${hiddenCount} more with 1-4 Top Picks)`;
+    } else {
+        btn.style.display = 'none';
+    }
 
     // Conference-year breakdown table
     const confYearData = {};
