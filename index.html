@@ -138,7 +138,7 @@
         <div class="conf-info"><strong>Combined Hall of Fame</strong> &mdash; All researchers appearing in at least one venue's Hall of Fame, sorted by total papers across venues.</div>
         <div class="heatmap-wrap"><table class="simple-table" id="table-combined"><thead><tr>
             <th style="width:40px">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
-            <th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer">Venues</th>
+            <th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer">Venues</th>
         </tr></thead><tbody></tbody></table></div>
     </div>
 
@@ -207,15 +207,24 @@ function buildCombined() {
     ['hpca','micro','isca','asplos'].forEach(v => {
         DATA[v].forEach(e => {
             const k = norm(e.name);
-            if (!m[k]) m[k] = {names:[], hpca:0, micro:0, isca:0, asplos:0};
+            if (!m[k]) m[k] = {names:[], hpca:0, micro:0, isca:0, asplos:0, tp:0};
             m[k].names.push(e.name);
             m[k][v] = e.total;
         });
     });
+    // Add Top Picks counts
+    const tpCounts = {};
+    (DATA.toppicks_papers||[]).filter(p=>p.type==='TP').forEach(p => {
+        p.authors.forEach(a => { tpCounts[a] = (tpCounts[a]||0) + 1; });
+    });
+    Object.entries(tpCounts).forEach(([name, count]) => {
+        const k = norm(name);
+        if (m[k]) m[k].tp = count;
+    });
     return Object.values(m).map(e => {
         const total = e.hpca + e.micro + e.isca + e.asplos;
         const vc = [e.hpca,e.micro,e.isca,e.asplos].filter(x=>x>0).length;
-        return {name:bestName(e.names), total, hpca:e.hpca, micro:e.micro, isca:e.isca, asplos:e.asplos, vc};
+        return {name:bestName(e.names), total, hpca:e.hpca, micro:e.micro, isca:e.isca, asplos:e.asplos, tp:e.tp, vc};
     }).sort((a,b) => b.total - a.total || b.vc - a.vc);
 }
 const combined = buildCombined();
@@ -307,6 +316,7 @@ function renderCombined() {
             <td class="count" style="color:var(--accent-micro)">${d.micro||'-'}</td>
             <td class="count" style="color:var(--accent-isca)">${d.isca||'-'}</td>
             <td class="count" style="color:var(--accent-asplos)">${d.asplos||'-'}</td>
+            <td class="count" style="color:var(--accent-toppicks)">${d.tp||'-'}</td>
             <td>${badges.join('')}</td></tr>`;
     }).join('');
 }
