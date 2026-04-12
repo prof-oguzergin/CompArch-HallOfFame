@@ -222,6 +222,16 @@ function buildCombined() {
             m[k][v] = e.total;
         });
     });
+    // Add cross-venue counts (sub-8 papers at other venues)
+    const cv = DATA.crossvenue || {};
+    Object.entries(cv).forEach(([name, counts]) => {
+        const k = norm(name);
+        if (m[k]) {
+            ['hpca','micro','isca','asplos'].forEach(v => {
+                if (counts[v] && !m[k][v]) m[k][v] = counts[v];
+            });
+        }
+    });
     // Add Top Picks counts
     const tpCounts = {};
     (DATA.toppicks_papers||[]).filter(p=>p.type==='TP').forEach(p => {
@@ -233,7 +243,7 @@ function buildCombined() {
     });
     return Object.values(m).map(e => {
         const total = e.hpca + e.micro + e.isca + e.asplos;
-        const vc = [e.hpca,e.micro,e.isca,e.asplos].filter(x=>x>0).length;
+        const vc = [e.hpca,e.micro,e.isca,e.asplos].filter(x=>x>=8).length;
         return {name:bestName(e.names), total, hpca:e.hpca, micro:e.micro, isca:e.isca, asplos:e.asplos, tp:e.tp, vc};
     }).sort((a,b) => b.total - a.total || b.vc - a.vc);
 }

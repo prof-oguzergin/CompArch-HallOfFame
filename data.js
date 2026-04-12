@@ -425,6 +425,11 @@ asplos: [
   {name:"Mendel Rosenblum",total:8,y:{1994:2,1996:2,1998:1,2006:1,2008:1,2017:1}},
   {name:"John L. Hennessy",total:8,y:{1982:1,1987:1,1989:1,1991:1,1992:1,1994:2,1996:1}}
 ],
+// Cross-venue counts for HoF members at venues where they have <8 papers
+// These are NOT in that venue's HoF but we show the count in the combined table
+crossvenue: {
+  "Yale N. Patt": {hpca:7, asplos:6},
+},
 toppicks_papers: [
   // 2024 conferences (IEEE Micro vol.45 no.4, Jul/Aug 2025)
   {year:2024,type:"TP",conf:"ISCA 2024",title:"Assessing processor sustainability using the first-order FOCAL carbon model",authors:["Lieven Eeckhout"]},
