@@ -450,6 +450,18 @@ toppicks_papers: [
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"Tandem Processor: Grappling With Emerging Operators in Neural Networks",authors:[]},
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"SpotServe: Serving Generative Large Language Models on Preemptible Instances",authors:[]},
   {year:2024,type:"HM",conf:"MICRO 2024",title:"MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker",authors:[]},
+  // 2010 conferences (IEEE Micro vol.31 no.3, May/Jun 2011) - no HM data available
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"Virtualized ECC: Flexible Reliability in Main Memory",authors:["Doe Hyun Yoon","Mattan Erez"]},
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"Voltage Noise in Production Processors",authors:["Vijay Janapa Reddi","Svilen Kanev","Wonyoung Kim","Simone Campanoni","Michael D. Smith","Gu-Yeon Wei","David Brooks"]},
+  {year:2010,type:"TP",conf:"MICRO 2010",title:"Aergia: A Network-on-Chip Exploiting Packet Latency Slack",authors:["Reetuparna Das","Onur Mutlu","Thomas Moscibroda","Chita R. Das"]},
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"Cohesion: An Adaptive Hybrid Memory Model for Accelerators",authors:["John H. Kelm","Daniel R. Johnson","William Tuohy","Steven S. Lumetta","Sanjay J. Patel"]},
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"Data Marshaling for Multicore Systems",authors:["M. Aater Suleman","Onur Mutlu","Jose A. Joao","Khubaib","Yale N. Patt"]},
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"ReMAP: A Reconfigurable Architecture for Chip Multiprocessors",authors:["Matthew A. Watkins","David H. Albonesi"]},
+  {year:2010,type:"TP",conf:"MICRO 2010",title:"Thread Cluster Memory Scheduling",authors:["Yoongu Kim","Michael Papamichael","Onur Mutlu","Mor Harchol-Balter"]},
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"Coordinating DRAM and Last-Level-Cache Policies with the Virtual Write Queue",authors:["Jeffrey Stuecheli","Dimitris Kaseridis","Lizy K. John","David Daly","Hillery C. Hunter"]},
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"CHOP: Integrating DRAM Caches for CMP Server Platforms",authors:["Xiaowei Jiang","Niti Madan","Li Zhao","Mike Upton","Ravi Iyer","Srihari Makineni","Don Newell","Yan Solihin","Rajeev Balasubramonian"]},
+  {year:2010,type:"TP",conf:"ASPLOS 2010",title:"Address Translation Aware Memory Consistency",authors:["Bogdan F. Romanescu","Alvin R. Lebeck","Daniel J. Sorin"]},
+  {year:2010,type:"TP",conf:"ISCA 2010",title:"Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out",authors:["Nak Hee Seong","Dong Hyuk Woo","Hsien-Hsin S. Lee"]},
   // 2011 conferences (IEEE Micro vol.32 no.3, May/Jun 2012) - no HM data available
   {year:2011,type:"TP",conf:"MICRO 2011",title:"Kilo TM: Hardware Transactional Memory for GPU Architectures",authors:["Wilson W.L. Fung","Inderpreet Singh","Andrew Brownsword","Tor M. Aamodt"]},
   {year:2011,type:"TP",conf:"MICRO 2011",title:"A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips",authors:["Onur Mutlu","Stephen W. Keckler","Joe Hestness","Boris Grot"]},
