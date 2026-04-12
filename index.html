@@ -84,7 +84,7 @@
 
         /* Combined simple table */
         .simple-table { border-collapse: collapse; width: 100%; }
-        .simple-table th { background: var(--surface2); padding: 0.5rem 0.6rem; text-align: left; font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); cursor: pointer; user-select: none; }
+        .simple-table th { background: var(--surface2); padding: 0.5rem 0.6rem; text-align: left; font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); cursor: pointer; user-select: none; position: sticky; top: 0; z-index: 2; }
         .simple-table th:hover { color: var(--text); }
         .simple-table th[data-sort] { text-align: right; }
         .simple-table th[data-sort="name"] { text-align: left; }
