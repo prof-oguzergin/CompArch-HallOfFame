@@ -450,6 +450,18 @@ toppicks_papers: [
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"Tandem Processor: Grappling With Emerging Operators in Neural Networks",authors:[]},
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"SpotServe: Serving Generative Large Language Models on Preemptible Instances",authors:[]},
   {year:2024,type:"HM",conf:"MICRO 2024",title:"MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker",authors:[]},
+  // 2012 conferences (IEEE Micro vol.33 no.3, May/Jun 2013) - no HM data available
+  {year:2012,type:"TP",conf:"HPCA 2012",title:"Designing for Responsiveness with Computational Sprinting",authors:["Arun Raghavan","Yixin Luo","Anuj Chandawalla","Marios Papaefthymiou","Kevin P. Pipe","Thomas F. Wenisch","Milo M.K. Martin"]},
+  {year:2012,type:"TP",conf:"MICRO 2012",title:"Neural Acceleration for General-Purpose Approximate Programs",authors:["Hadi Esmaeilzadeh","Adrian Sampson","Luis Ceze","Doug Burger"]},
+  {year:2012,type:"TP",conf:"ISCA 2012",title:"Scaling the Energy Proportionality Wall with KnightShift",authors:["Daniel Wong","Murali Annavaram"]},
+  {year:2012,type:"TP",conf:"ISCA 2012",title:"Hardware-Enforced Comprehensive Memory Safety",authors:["Santosh Nagarakatte","Milo M.K. Martin","Steve Zdancewic"]},
+  {year:2012,type:"TP",conf:"ISCA 2012",title:"Inspection-Resistant Memory Architectures",authors:["Jonathan Kaveh Valamehr","Melissa Chase","Seny Kamara","Andrew Putnam","Daniel Shumow","Vinod Vaikuntanathan","Timothy Sherwood"]},
+  {year:2012,type:"TP",conf:"ISCA 2012",title:"Relyzer: Application Resiliency Analyzer for Transient Faults",authors:["Siva Kumar Sastry Hari","Sarita V. Adve","Helia Naeimi","Pradeep Ramachandran"]},
+  {year:2012,type:"TP",conf:"ISCA 2012",title:"A Quantitative, Experimental Approach to Measuring Processor Side-Channel Security",authors:["John Demme","Robert Martin","Adam Waksman","Simha Sethumadhavan"]},
+  {year:2012,type:"TP",conf:"MICRO 2012",title:"Cache-Conscious Thread Scheduling for Massively Multithreaded Processors",authors:["Timothy G. Rogers","Mike O'Connor","Tor M. Aamodt"]},
+  {year:2012,type:"TP",conf:"ISCA 2012",title:"Parallel Block Vectors: Collection, Analysis, and Uses",authors:["Melanie Kambadur","Kui Tang","Martha A. Kim"]},
+  {year:2012,type:"TP",conf:"ASPLOS 2012",title:"A Safety-First Approach to Memory Models",authors:["Abhayendra Singh","Satish Narayanasamy","Daniel Marino","Todd Millstein","Madanlal Musuvathi"]},
+  {year:2012,type:"TP",conf:"ISCA 2012",title:"Programmable DDRx Controllers",authors:["Mahdi Nazm Bojnordi","Engin Ipek"]},
   // 2013 conferences (IEEE Micro vol.34 no.3, May/Jun 2014) - no HM data available
   {year:2013,type:"TP",conf:"ISCA 2013",title:"Designing and Managing Data Centers Powered by Renewable Energy",authors:["Inigo Goiri","William Katsak","Kien Le","Thu D. Nguyen","Ricardo Bianchini"]},
   {year:2013,type:"TP",conf:"ASPLOS 2013",title:"Quality-of-Service-Aware Scheduling in Heterogeneous Datacenters with Paragon",authors:["Christina Delimitrou","Christos Kozyrakis"]},
