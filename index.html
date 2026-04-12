@@ -87,6 +87,8 @@
         .simple-table th { background: var(--surface2); padding: 0.5rem 0.6rem; text-align: left; font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); cursor: pointer; user-select: none; }
         .simple-table th:hover { color: var(--text); }
         .simple-table th[data-sort] { text-align: right; }
+        .simple-table th[data-sort="name"] { text-align: left; }
+        .simple-table th:first-child { text-align: center; }
         .simple-table th.sorted { color: var(--gold); border-bottom: 2px solid var(--gold); }
         .simple-table th.sorted::after { content: ''; }
         .simple-table th.sorted.asc::after { content: ''; }
