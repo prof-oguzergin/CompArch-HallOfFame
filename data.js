@@ -450,6 +450,16 @@ toppicks_papers: [
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"Tandem Processor: Grappling With Emerging Operators in Neural Networks",authors:[]},
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"SpotServe: Serving Generative Large Language Models on Preemptible Instances",authors:[]},
   {year:2024,type:"HM",conf:"MICRO 2024",title:"MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker",authors:[]},
+  // 2007 conferences (IEEE Micro vol.28 no.3, May/Jun 2008) - no HM data available
+  {year:2007,type:"TP",conf:"ASPLOS 2008",title:"Revisiting the Sequential Programming Model for the Multicore Era",authors:["Matthew J. Bridges","Neil Vachharajani","Yun Zhang","Thomas Jablin","David I. August"]},
+  {year:2007,type:"TP",conf:"MICRO 2007",title:"Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation",authors:["Naveen Neelakantam","Ravi Rajwar","Suresh Srinivas","Uma Srinivasan","Craig Zilles"]},
+  {year:2007,type:"TP",conf:"MICRO 2007",title:"MetaTM/TxLinux: Transactional Memory for an Operating System",authors:["Hany E. Ramadan","Christopher J. Rossbach","Donald E. Porter","Owen S. Hofmann","Aditya Bhandari","Emmett Witchel"]},
+  {year:2007,type:"TP",conf:"MICRO 2007",title:"Argus: Low-Cost, Comprehensive Error Detection in Simple Cores",authors:["Albert Meixner","Michael E. Bauer","Daniel J. Sorin"]},
+  {year:2007,type:"TP",conf:"ISCA 2007",title:"Replacing 6T SRAMs with 3T1D DRAMs in the L1 Data Cache to Combat Process Variability",authors:["Xiaoyao Liang","Ramon Canal","Gu-Yeon Wei","David Brooks"]},
+  {year:2007,type:"TP",conf:"ISCA 2007",title:"Architecting Efficient Interconnects for Large Caches with CACTI 6.0",authors:["Naveen Muralimanohar","Rajeev Balasubramonian","Norman P. Jouppi"]},
+  {year:2007,type:"TP",conf:"MICRO 2007",title:"Toward Ideal On-Chip Communication Using Express Virtual Channels",authors:["Amit Kumar","Li-Shiuan Peh","Partha Kundu","Niraj K. Jha"]},
+  {year:2007,type:"TP",conf:"ISCA 2007",title:"Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching",authors:["Moinuddin K. Qureshi","Aamer Jaleel","Yale N. Patt","Simon C. Steely Jr.","Joel Emer"]},
+  {year:2007,type:"TP",conf:"ISCA 2007",title:"Virtual Hierarchies",authors:["Michael R. Marty","Mark D. Hill"]},
   // 2008 conferences (IEEE Micro vol.29 no.3, May/Jun 2009) - no HM data available
   {year:2008,type:"TP",conf:"SIGGRAPH 2008",title:"Larrabee: A Many-Core x86 Architecture for Visual Computing",authors:["Larry Seiler","Doug Carmean","Eric Sprangle","Tom Forsyth","Pradeep Dubey","Stephen Junkins","Adam Lake","Robert Cavin","Roger Espasa","Ed Grochowski","Toni Juan","Michael Abrash","Jeremy Sugerman","Pat Hanrahan"]},
   {year:2008,type:"TP",conf:"ISCA 2008",title:"Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Memory Controllers",authors:["Onur Mutlu","Thomas Moscibroda"]},
