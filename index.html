@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Architecture Hall of Fame</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface2: #334155;
+            --gold: #f59e0b;
+            --gold-light: #fbbf24;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent-hpca: #3b82f6;
+            --accent-micro: #8b5cf6;
+            --accent-isca: #10b981;
+            --accent-asplos: #f43f5e;
+            --accent-toppicks: #f59e0b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem 2rem;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border-bottom: 2px solid var(--gold);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .hero p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .hero .subtitle {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* Stats bar */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin: 1.5rem 0;
+            padding: 1rem;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--gold);
+        }
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 0.25rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--surface2);
+            padding-bottom: 0;
+        }
+        .tab {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+            position: relative;
+            bottom: -2px;
+        }
+        .tab:hover { color: var(--text); }
+        .tab.active {
+            color: var(--text);
+            border-bottom-color: var(--gold);
+        }
+        .tab .badge {
+            font-size: 0.7rem;
+            padding: 0.1rem 0.4rem;
+            border-radius: 10px;
+            margin-left: 0.3rem;
+            vertical-align: middle;
+        }
+
+        /* Search & Controls */
+        .controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+            padding: 0.6rem 1rem;
+            border: 1px solid var(--surface2);
+            border-radius: 8px;
+            background: var(--surface);
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+        .search-box:focus { outline: none; border-color: var(--gold); }
+        .search-box::placeholder { color: var(--text-muted); }
+        .controls label {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            cursor: pointer;
+        }
+        .controls input[type="checkbox"] {
+            accent-color: var(--gold);
+        }
+
+        /* Conference info */
+        .conf-info {
+            background: var(--surface);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--gold);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        .conf-info strong { color: var(--text); }
+        .conf-info a { color: var(--gold); text-decoration: none; }
+        .conf-info a:hover { text-decoration: underline; }
+
+        /* Table */
+        .table-container {
+            background: var(--surface);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead th {
+            background: var(--surface2);
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            cursor: pointer;
+            user-select: none;
+        }
+        thead th:hover { color: var(--text); }
+        thead th.sorted::after { content: ' \u25BC'; font-size: 0.7rem; }
+        thead th.sorted.asc::after { content: ' \u25B2'; font-size: 0.7rem; }
+        tbody tr {
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            transition: background 0.15s;
+        }
+        tbody tr:hover { background: rgba(255,255,255,0.03); }
+        td {
+            padding: 0.6rem 1rem;
+            font-size: 0.95rem;
+        }
+        td.rank {
+            width: 50px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        td.rank .medal { font-size: 1.2rem; }
+        td.name { font-weight: 500; }
+        td.count {
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+        }
+        .bar-cell {
+            position: relative;
+        }
+        .bar {
+            height: 6px;
+            border-radius: 3px;
+            opacity: 0.6;
+            margin-top: 4px;
+        }
+
+        /* Combined view */
+        .combined-badges {
+            display: flex;
+            gap: 0.3rem;
+            flex-wrap: wrap;
+        }
+        .conf-badge {
+            font-size: 0.65rem;
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .conf-badge.hpca { background: rgba(59,130,246,0.2); color: var(--accent-hpca); }
+        .conf-badge.micro { background: rgba(139,92,246,0.2); color: var(--accent-micro); }
+        .conf-badge.isca { background: rgba(16,185,129,0.2); color: var(--accent-isca); }
+        .conf-badge.asplos { background: rgba(244,63,94,0.2); color: var(--accent-asplos); }
+        .conf-badge.toppicks { background: rgba(245,158,11,0.2); color: var(--accent-toppicks); }
+
+        /* Panel for tab content */
+        .tab-panel { display: none; }
+        .tab-panel.active { display: block; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--surface2);
+            margin-top: 2rem;
+        }
+        footer a { color: var(--gold); text-decoration: none; }
+
+        /* Highlight */
+        .highlight { background: rgba(245,158,11,0.15); }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .tab { padding: 0.5rem 0.75rem; font-size: 0.85rem; }
+            td, thead th { padding: 0.4rem 0.5rem; font-size: 0.85rem; }
+            .stats-bar { gap: 1rem; }
+        }
+
+        /* Cross-conference chip in combined view */
+        .conf-count {
+            display: inline-block;
+            min-width: 28px;
+            text-align: center;
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-right: 2px;
+        }
+
+        .note-box {
+            background: rgba(245,158,11,0.1);
+            border: 1px solid rgba(245,158,11,0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: var(--gold-light);
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Computer Architecture Hall of Fame</h1>
+    <p>Researchers with 8+ papers at top computer architecture venues</p>
+    <p class="subtitle">HPCA &middot; MICRO &middot; ISCA &middot; ASPLOS &middot; IEEE Top Picks</p>
+</div>
+
+<div class="container">
+    <div class="stats-bar" id="statsBar"></div>
+
+    <div class="tabs" id="tabsContainer">
+        <button class="tab active" data-tab="combined">Combined</button>
+        <button class="tab" data-tab="hpca">HPCA</button>
+        <button class="tab" data-tab="micro">MICRO</button>
+        <button class="tab" data-tab="isca">ISCA</button>
+        <button class="tab" data-tab="asplos">ASPLOS</button>
+        <button class="tab" data-tab="toppicks">Top Picks</button>
+    </div>
+
+    <div class="controls">
+        <input type="text" class="search-box" id="searchBox" placeholder="Search by name...">
+        <label><input type="checkbox" id="highlightMulti" checked> Highlight multi-venue</label>
+    </div>
+
+    <!-- COMBINED -->
+    <div class="tab-panel active" id="panel-combined">
+        <div class="conf-info">
+            <strong>Combined Hall of Fame</strong> &mdash; Researchers appearing in at least one venue's Hall of Fame (8+ papers).
+            Sorted by total paper count across all venues.
+        </div>
+        <div class="table-container">
+            <table id="table-combined">
+                <thead>
+                    <tr>
+                        <th style="width:50px">#</th>
+                        <th>Name</th>
+                        <th style="width:70px">Total</th>
+                        <th style="width:70px">HPCA</th>
+                        <th style="width:70px">MICRO</th>
+                        <th style="width:70px">ISCA</th>
+                        <th style="width:70px">ASPLOS</th>
+                        <th>Venues</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Individual panels -->
+    <div class="tab-panel" id="panel-hpca">
+        <div class="conf-info">
+            <strong>HPCA Hall of Fame</strong> &mdash; Authors with 8+ papers at the International Symposium on High-Performance Computer Architecture.
+            <br>Source: <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/" target="_blank">IEEE TCCA</a>
+        </div>
+        <div class="table-container"><table id="table-hpca"><thead><tr><th style="width:50px">#</th><th>Name</th><th style="width:80px">Papers</th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <div class="tab-panel" id="panel-micro">
+        <div class="conf-info">
+            <strong>MICRO Hall of Fame</strong> &mdash; Authors with 8+ papers at the International Symposium on Microarchitecture. Founded in 2008 by Erik Altman and Amir Roth.
+            <br>Source: <a href="https://www.sigmicro.org/awards/microhof.php" target="_blank">ACM SIGMICRO</a>
+        </div>
+        <div class="table-container"><table id="table-micro"><thead><tr><th style="width:50px">#</th><th>Name</th><th style="width:80px">Papers</th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <div class="tab-panel" id="panel-isca">
+        <div class="conf-info">
+            <strong>ISCA Hall of Fame</strong> &mdash; Authors with 8+ papers at the International Symposium on Computer Architecture.
+            <br>Source: <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html" target="_blank">UW-Madison</a>
+        </div>
+        <div class="table-container"><table id="table-isca"><thead><tr><th style="width:50px">#</th><th>Name</th><th style="width:80px">Papers</th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <div class="tab-panel" id="panel-asplos">
+        <div class="conf-info">
+            <strong>ASPLOS Hall of Fame</strong> &mdash; Authors with 8+ papers at the International Conference on Architectural Support for Programming Languages and Operating Systems.
+            <br>Source: <a href="https://liberty.princeton.edu/Fame/ASPLOS/" target="_blank">Princeton</a> (data through ~2023, updates in progress)
+        </div>
+        <div class="note-box">
+            Note: ASPLOS data covers through approximately 2023. We are working on updating it with ASPLOS 2024-2026 data. Contributions welcome!
+        </div>
+        <div class="table-container"><table id="table-asplos"><thead><tr><th style="width:50px">#</th><th>Name</th><th style="width:80px">Papers</th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <div class="tab-panel" id="panel-toppicks">
+        <div class="conf-info">
+            <strong>IEEE Micro Top Picks Hall of Fame</strong> &mdash; Researchers with multiple selections in the annual IEEE Micro Top Picks special issue (since ~2003).
+            <br>This is a new compilation &mdash; no official Top Picks Hall of Fame existed before.
+        </div>
+        <div class="note-box">
+            Note: IEEE Micro Top Picks data is being compiled from annual special issues (2003&ndash;2026).
+            This is a community effort &mdash; if you have data to contribute, please open a PR!
+        </div>
+        <div class="table-container"><table id="table-toppicks"><thead><tr><th style="width:50px">#</th><th>Name</th><th style="width:80px">Selections</th></tr></thead><tbody></tbody></table></div>
+    </div>
+</div>
+
+<footer>
+    <p>Computer Architecture Hall of Fame &mdash; A community compilation by <a href="https://oguzergin.net" target="_blank">Oguz Ergin</a></p>
+    <p style="margin-top:0.5rem">Data sources: <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/">IEEE TCCA (HPCA)</a> &middot;
+    <a href="https://www.sigmicro.org/awards/microhof.php">ACM SIGMICRO (MICRO)</a> &middot;
+    <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html">UW-Madison (ISCA)</a> &middot;
+    <a href="https://liberty.princeton.edu/Fame/ASPLOS/">Princeton (ASPLOS)</a></p>
+    <p style="margin-top:0.5rem">Last updated: April 2026 &middot; <a href="https://github.com/oguzergin/CompArch-HallOfFame">GitHub</a></p>
+</footer>
+
+<script>
+// ============================================================
+// DATA
+// ============================================================
+const DATA = {
+    hpca: [
+        {name:"Josep Torrellas",count:39},{name:"Onur Mutlu",count:38},{name:"Nam Sung Kim",count:22},
+        {name:"David Brooks",count:21},{name:"Yan Solihin",count:20},{name:"Yuan Xie",count:19},
+        {name:"Antonio Gonzalez",count:18},{name:"Mateo Valero Cortes",count:17},{name:"Youtao Zhang",count:17},
+        {name:"Jun Yang",count:16},{name:"Anand Sivasubramaniam",count:15},
+        {name:"Rajeev Balasubramonian",count:14},{name:"Alper Buyuktosunoglu",count:14},
+        {name:"Mattan Erez",count:14},{name:"Xuehai Qian",count:14},{name:"Dean M. Tullsen",count:14},
+        {name:"Jung Ho Ahn",count:13},{name:"William J. Dally",count:13},{name:"Stephen W. Keckler",count:13},
+        {name:"Tao Li",count:13},{name:"Vijaykrishnan Narayanan",count:13},{name:"Moinuddin K. Qureshi",count:13},
+        {name:"Murali Annavaram",count:12},{name:"Pradip Bose",count:12},{name:"Chita R. Das",count:12},
+        {name:"Lieven Eeckhout",count:12},{name:"Mark D. Hill",count:12},{name:"Aamer Jaleel",count:12},
+        {name:"Mahmut Taylan Kandemir",count:12},{name:"John Kim",count:12},{name:"Mikko H. Lipasti",count:12},
+        {name:"Vijay Janapa Reddi",count:12},{name:"Gu-Yeon Wei",count:12},{name:"David A. Wood",count:12},
+        {name:"Huiyang Zhou",count:12},{name:"Lizy Kurian John",count:11},{name:"Tushar Krishna",count:11},
+        {name:"Gabriel H. Loh",count:11},{name:"Scott A. Mahlke",count:11},{name:"Margaret Martonosi",count:11},
+        {name:"G. Edward Suh",count:11},{name:"Guangyu Sun",count:11},{name:"Carole-Jean Wu",count:11},
+        {name:"Amro Awad",count:10},{name:"Babak Falsafi",count:10},{name:"Ravishankar R. Iyer",count:10},
+        {name:"Natalie D. Enright Jerger",count:10},{name:"Xiaowei Jiang",count:10},{name:"Hyesoon Kim",count:10},
+        {name:"Rakesh Kumar",count:10},{name:"Jose F. Martinez",count:10},{name:"Milos Prvulovic",count:10},
+        {name:"Minsoo Rhu",count:10},{name:"Thomas F. Wenisch",count:10},{name:"A. Giray Yaglikci",count:10},
+        {name:"Brad Calder",count:9},{name:"Yiran Chen",count:9},{name:"Frederic T. Chong",count:9},
+        {name:"Jose Duato",count:9},{name:"Michael C. Huang",count:9},{name:"Daniel A. Jimenez",count:9},
+        {name:"Hai Jin",count:9},{name:"Christos Kozyrakis",count:9},{name:"Donghyuk Lee",count:9},
+        {name:"Hsien-Hsin S. Lee",count:9},{name:"Hai Helen Li",count:9},{name:"Ataberk Olgun",count:9},
+        {name:"Parthasarathy Ranganathan",count:9},{name:"Andre Seznec",count:9},{name:"Kevin Skadron",count:9},
+        {name:"Per Stenstrom",count:9},{name:"John B. Carter",count:8},{name:"Lizhong Chen",count:8},
+        {name:"Adrian Cristal",count:8},{name:"Reetuparna Das",count:8},{name:"Mingyu Gao",count:8},
+        {name:"Saugata Ghose",count:8},{name:"Boris Grot",count:8},{name:"Minyi Guo",count:8},
+        {name:"Rui Hou",count:8},{name:"Benjamin C. Lee",count:8},{name:"Xiaofei Liao",count:8},
+        {name:"Ahmed Louri",count:8},{name:"Trevor N. Mudge",count:8},{name:"Prashant J. Nair",count:8},
+        {name:"David W. Nellans",count:8},{name:"Mike O'Connor",count:8},{name:"Daniel J. Sorin",count:8},
+        {name:"Daniel Sanchez",count:8},{name:"Lixin Zhang",count:8}
+    ],
+    micro: [
+        {name:"Onur Mutlu",count:58},{name:"Yale N. Patt",count:53},{name:"Josep Torrellas",count:37},
+        {name:"Wen-Mei W. Hwu",count:35},{name:"Scott A. Mahlke",count:35},{name:"Mahmut Taylan Kandemir",count:34},
+        {name:"Nam Sung Kim",count:25},{name:"Yuan Xie",count:25},{name:"Joel Emer",count:24},
+        {name:"Antonio Gonzalez",count:24},{name:"Daniel Sanchez",count:23},{name:"Moinuddin K. Qureshi",count:22},
+        {name:"Stephen W. Keckler",count:20},{name:"Margaret Martonosi",count:20},{name:"Andreas Moshovos",count:20},
+        {name:"Tor M. Aamodt",count:19},{name:"Babak Falsafi",count:19},{name:"Trevor N. Mudge",count:19},
+        {name:"Mateo Valero",count:19},{name:"Gurindar S. Sohi",count:18},{name:"Jangwoo Kim",count:17},
+        {name:"Gabriel H. Loh",count:17},{name:"John Kim",count:16},{name:"James E. Smith",count:16},
+        {name:"Dean M. Tullsen",count:16},{name:"Rajiv Gupta",count:15},{name:"T. N. Vijaykumar",count:15},
+        {name:"Todd M. Austin",count:14},{name:"Frederic T. Chong",count:14},{name:"Chita R. Das",count:14},
+        {name:"Aamer Jaleel",count:14},{name:"Hyesoon Kim",count:14},{name:"Jun Yang",count:14},
+        {name:"Doug Burger",count:13},{name:"Reetuparna Das",count:13},{name:"Boris Grot",count:13},
+        {name:"Daniel A. Jimenez",count:13},{name:"Changhee Jung",count:13},{name:"Mikko H. Lipasti",count:13},
+        {name:"Nael Abu-Ghazaleh",count:12},{name:"Murali Annavaram",count:12},{name:"David I. August",count:12},
+        {name:"David Brooks",count:12},{name:"Matthew Farrens",count:12},{name:"Natalie D. Enright Jerger",count:12},
+        {name:"Minsoo Rhu",count:12},{name:"Bogong Su",count:12},{name:"Gary S. Tyson",count:12},
+        {name:"Rajeev Balasubramonian",count:11},{name:"Christopher Batten",count:11},{name:"Brad Calder",count:11},
+        {name:"Jeremie S. Kim",count:11},{name:"Christos A. Papachristou",count:11},{name:"Alberto Ros",count:11},
+        {name:"Yiannakis Sazeides",count:11},{name:"John Paul Shen",count:11},{name:"David Wentzlaff",count:11},
+        {name:"Youtao Zhang",count:11},
+        {name:"David H. Albonesi",count:10},{name:"Nathan Beckmann",count:10},{name:"Alper Buyuktosunoglu",count:10},
+        {name:"Tianshi Chen",count:10},{name:"Christopher W. Fletcher",count:10},{name:"Juan Gomez-Luna",count:10},
+        {name:"Xing Hu",count:10},{name:"Jian Huang",count:10},{name:"Norman P. Jouppi",count:10},
+        {name:"Prashant J. Nair",count:10},{name:"Vijaykrishnan Narayanan",count:10},{name:"Li-Shiuan Peh",count:10},
+        {name:"Gilles Pokam",count:10},{name:"Vijay Janapa Reddi",count:10},{name:"Won Woo Ro",count:10},
+        {name:"Timothy G. Rogers",count:10},{name:"Eric Rotenberg",count:10},{name:"Mohammad Sadrosadati",count:10},
+        {name:"Sreenivas Subramoney",count:10},{name:"Swamit Tannu",count:10},{name:"Youfeng Wu",count:10},
+        {name:"Jishen Zhao",count:10},
+        {name:"Vicki H. Allan",count:9},{name:"Eduard Ayguade",count:9},{name:"Thomas M. Conte",count:9},
+        {name:"William J. Dally",count:9},{name:"Zidong Du",count:9},{name:"Lieven Eeckhout",count:9},
+        {name:"Qi Guo",count:9},{name:"Mark D. Hill",count:9},{name:"Konstantinos Kanellopoulos",count:9},
+        {name:"Ang Li",count:9},{name:"Shuangchen Li",count:9},{name:"Tao Li",count:9},
+        {name:"Robert A. Mueller",count:9},{name:"Bob Ramakrishna Rau",count:9},
+        {name:"Karthikeyan Sankaralingam",count:9},{name:"Michael Schlansker",count:9},
+        {name:"Andre Seznec",count:9},{name:"Thomas F. Wenisch",count:9},{name:"Chris Wilkerson",count:9},
+        {name:"Jung Ho Ahn",count:8},{name:"Jorge Albericio",count:8},{name:"Mohammad Alian",count:8},
+        {name:"Arkaprava Basu",count:8},{name:"David Blaauw",count:8},{name:"Pradip Bose",count:8},
+        {name:"Zeshan Chishti",count:8},{name:"Yufei Ding",count:8},{name:"Ronald G. Dreslinski",count:8},
+        {name:"Timothy M. Jones",count:8},{name:"Stefanos Kaxiras",count:8},{name:"Daehoon Kim",count:8},
+        {name:"Tushar Krishna",count:8},{name:"Rakesh Kumar",count:8},{name:"Hsien-Hsin S. Lee",count:8},
+        {name:"Jingwen Leng",count:8},{name:"Xiaoyao Liang",count:8},{name:"Jason Mars",count:8},
+        {name:"Todd C. Mowry",count:8},{name:"Sanjay J. Patel",count:8},{name:"Xuehai Qian",count:8},
+        {name:"Amir Roth",count:8},{name:"Lingjia Tang",count:8},{name:"Gu-Yeon Wei",count:8},
+        {name:"Shaojun Wei",count:8},{name:"David A. Wood",count:8},{name:"Yuhao Zhu",count:8}
+    ],
+    isca: [
+        {name:"Onur Mutlu",count:48},{name:"Josep Torrellas",count:42},{name:"Yale N. Patt",count:30},
+        {name:"Mark D. Hill",count:25},{name:"Babak Falsafi",count:24},
+        {name:"Frederic T. Chong",count:23},{name:"James E. Smith",count:23},{name:"Yuan Xie",count:23},
+        {name:"David A. Wood",count:22},{name:"Nam Sung Kim",count:22},{name:"Norman P. Jouppi",count:22},
+        {name:"Trevor N. Mudge",count:22},
+        {name:"Gurindar S. Sohi",count:21},{name:"Joel Emer",count:21},{name:"William J. Dally",count:21},
+        {name:"Christos Kozyrakis",count:20},{name:"David A. Patterson",count:20},
+        {name:"Mark Horowitz",count:19},
+        {name:"Kunle Olukotun",count:18},{name:"Mateo Valero",count:18},{name:"Moinuddin K. Qureshi",count:18},
+        {name:"Chita R. Das",count:17},{name:"Dean M. Tullsen",count:17},{name:"Doug Burger",count:17},
+        {name:"Stephen W. Keckler",count:17},{name:"T. N. Vijaykumar",count:17},
+        {name:"G. Jack Lipovski",count:16},{name:"John Kim",count:16},{name:"Krste Asanovic",count:16},
+        {name:"Margaret Martonosi",count:16},{name:"Parthasarathy Ranganathan",count:16},
+        {name:"Sarita V. Adve",count:16},{name:"Steven K. Reinhardt",count:16},{name:"Timothy Sherwood",count:16},
+        {name:"Andre Seznec",count:15},{name:"Antonio Gonzalez",count:15},{name:"Mahmut Taylan Kandemir",count:15},
+        {name:"Scott A. Mahlke",count:15},{name:"Thomas F. Wenisch",count:15},
+        {name:"Anoop Gupta",count:14},{name:"Gabriel H. Loh",count:14},{name:"Mikko H. Lipasti",count:14},
+        {name:"Wen-Mei W. Hwu",count:14},
+        {name:"Anand Sivasubramaniam",count:13},{name:"David Brooks",count:13},{name:"Edward S. Davidson",count:13},
+        {name:"Jangwoo Kim",count:13},{name:"John L. Hennessy",count:13},{name:"Mattan Erez",count:13},
+        {name:"Susan J. Eggers",count:13},{name:"Won Woo Ro",count:13},{name:"Yan Solihin",count:13},
+        {name:"Amir Yazdanbakhsh",count:12},{name:"Anant Agarwal",count:12},{name:"Hadi Esmaeilzadeh",count:12},
+        {name:"Jung Ho Ahn",count:12},{name:"Lieven Eeckhout",count:12},{name:"Mark Oskin",count:12},
+        {name:"Michel Dubois",count:12},{name:"Rakesh Kumar",count:12},{name:"Reetuparna Das",count:12},
+        {name:"Satish Narayanasamy",count:12},{name:"Shaojun Wei",count:12},{name:"Stefanos Kaxiras",count:12},
+        {name:"Todd M. Austin",count:12},{name:"Yufei Ding",count:12},{name:"Yuhao Zhu",count:12},
+        {name:"Aamer Jaleel",count:11},{name:"Abhishek Bhattacharjee",count:11},{name:"Arvind",count:11},
+        {name:"David Blaauw",count:11},{name:"Gu-Yeon Wei",count:11},{name:"Henry M. Levy",count:11},
+        {name:"James R. Goodman",count:11},{name:"Janak H. Patel",count:11},{name:"Jason Mars",count:11},
+        {name:"John Paul Shen",count:11},{name:"Murali Annavaram",count:11},{name:"Rajeev Balasubramonian",count:11},
+        {name:"Shouyi Yin",count:11},{name:"Sreenivas Subramoney",count:11},
+        {name:"Alberto Ros",count:10},{name:"Brad Calder",count:10},{name:"Chao Li",count:10},
+        {name:"Daniel A. Jimenez",count:10},{name:"David Wentzlaff",count:10},{name:"Jae W. Lee",count:10},
+        {name:"Jaehyuk Huh",count:10},{name:"Jeremie S. Kim",count:10},{name:"Kourosh Gharachorloo",count:10},
+        {name:"Lingjia Tang",count:10},{name:"Minsoo Rhu",count:10},{name:"Vijaykrishnan Narayanan",count:10},
+        {name:"Sandhya Dwarkadas",count:10},{name:"Todd C. Mowry",count:10},{name:"Tor M. Aamodt",count:10},
+        {name:"Yang Hu",count:10},
+        {name:"Andreas Moshovos",count:9},{name:"Andrew R. Pleszkun",count:9},{name:"Christopher W. Fletcher",count:9},
+        {name:"Daniel J. Sorin",count:9},{name:"Daniel Sanchez",count:9},{name:"Engin Ipek",count:9},
+        {name:"G. Edward Suh",count:9},{name:"Howard Jay Siegel",count:9},{name:"Jayesh Gaur",count:9},
+        {name:"Jean-Loup Baer",count:9},{name:"Karthikeyan Sankaralingam",count:9},{name:"Leibo Liu",count:9},
+        {name:"Lizy Kurian John",count:9},{name:"Luis Ceze",count:9},{name:"Michael C. Huang",count:9},
+        {name:"Milos Prvulovic",count:9},{name:"Per Stenstrom",count:9},{name:"Prashant J. Nair",count:9},
+        {name:"Sanjay J. Patel",count:9},{name:"Shubhendu S. Mukherjee",count:9},{name:"Simha Sethumadhavan",count:9},
+        {name:"Tushar Krishna",count:9},{name:"Xuehai Qian",count:9},
+        {name:"A. Giray Yaglikci",count:8},{name:"Carole-Jean Wu",count:8},{name:"Chris Wilkerson",count:8},
+        {name:"Christopher J. Hughes",count:8},{name:"David E. Culler",count:8},{name:"David I. August",count:8},
+        {name:"Dirk Grunwald",count:8},{name:"Gennady Pekhimenko",count:8},{name:"John Kubiatowicz",count:8},
+        {name:"Jose-Maria Arnau",count:8},{name:"Karin Strauss",count:8},{name:"Luiz Andre Barroso",count:8},
+        {name:"Mengjia Yan",count:8},{name:"Minesh Patel",count:8},{name:"Minyi Guo",count:8},
+        {name:"Mohammad Sadrosadati",count:8},{name:"Myoungsoo Jung",count:8},{name:"Nandita Vijaykumar",count:8},
+        {name:"Natalie D. Enright Jerger",count:8},{name:"Naveen Muralimanohar",count:8},{name:"Pen-Chung Yew",count:8},
+        {name:"Phillip B. Gibbons",count:8},{name:"Pradip Bose",count:8},{name:"Ronald G. Dreslinski",count:8},
+        {name:"Saugata Ghose",count:8},{name:"Sudhanva Gurumurthi",count:8},{name:"Tianshi Chen",count:8}
+    ],
+    asplos: [
+        {name:"Luis Ceze",count:15},
+        {name:"Christos Kozyrakis",count:14},{name:"Shan Lu",count:14},{name:"Xuehai Qian",count:14},
+        {name:"Josep Torrellas",count:13},{name:"Kathryn S. McKinley",count:13},
+        {name:"Onur Mutlu",count:12},{name:"Mark D. Hill",count:12},
+        {name:"Trevor N. Mudge",count:11},{name:"Michael M. Swift",count:11},
+        {name:"Timothy Sherwood",count:10},{name:"Margaret Martonosi",count:10},{name:"Yuanyuan Zhou",count:10},
+        {name:"Scott A. Mahlke",count:10},{name:"Anoop Gupta",count:10},{name:"Ricardo Bianchini",count:10},
+        {name:"Gurindar S. Sohi",count:10},
+        {name:"Sarita V. Adve",count:9},{name:"Babak Falsafi",count:9},{name:"Parthasarathy Ranganathan",count:9},
+        {name:"Alvin R. Lebeck",count:9},{name:"Steven Swanson",count:9},{name:"Dan Tsafrir",count:9},
+        {name:"Keshav Pingali",count:9},
+        {name:"Doug Burger",count:8},{name:"Brandon Lucia",count:8},{name:"Todd C. Mowry",count:8},
+        {name:"Joseph Devietti",count:8},{name:"Mark Horowitz",count:8},{name:"Mendel Rosenblum",count:8},
+        {name:"Thomas F. Wenisch",count:8},{name:"Frederic T. Chong",count:8},{name:"David A. Wood",count:8},
+        {name:"Christina Delimitrou",count:8},{name:"Henry Hoffmann",count:8},
+        {name:"Abhishek Bhattacharjee",count:8},{name:"Satish Narayanasamy",count:8}
+    ],
+    toppicks: [
+        // Placeholder - data being compiled from IEEE Xplore annual issues
+    ]
+};
+
+// ============================================================
+// Name normalization for cross-venue matching
+// ============================================================
+function normalizeName(name) {
+    return name
+        .replace(/\./g, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase()
+        // Handle common variations
+        .replace('mateo valero cortes', 'mateo valero')
+        .replace('jose f martinez', 'jose f. martinez')
+        .replace('jose-maria arnau', 'jose maria arnau');
+}
+
+// Canonical display name: pick the longest version
+function canonicalName(names) {
+    return names.sort((a, b) => b.length - a.length)[0];
+}
+
+// ============================================================
+// Build combined data
+// ============================================================
+function buildCombined() {
+    const map = {};
+    const venues = ['hpca', 'micro', 'isca', 'asplos'];
+    venues.forEach(v => {
+        DATA[v].forEach(entry => {
+            const key = normalizeName(entry.name);
+            if (!map[key]) map[key] = { names: [], hpca: 0, micro: 0, isca: 0, asplos: 0, toppicks: 0 };
+            map[key].names.push(entry.name);
+            map[key][v] = entry.count;
+        });
+    });
+    // Top Picks
+    DATA.toppicks.forEach(entry => {
+        const key = normalizeName(entry.name);
+        if (!map[key]) map[key] = { names: [], hpca: 0, micro: 0, isca: 0, asplos: 0, toppicks: 0 };
+        map[key].names.push(entry.name);
+        map[key].toppicks = entry.count;
+    });
+
+    return Object.values(map).map(m => {
+        const total = m.hpca + m.micro + m.isca + m.asplos;
+        const venueCount = [m.hpca, m.micro, m.isca, m.asplos].filter(x => x > 0).length;
+        return {
+            name: canonicalName(m.names),
+            total,
+            hpca: m.hpca,
+            micro: m.micro,
+            isca: m.isca,
+            asplos: m.asplos,
+            toppicks: m.toppicks,
+            venueCount
+        };
+    }).sort((a, b) => b.total - a.total || b.venueCount - a.venueCount);
+}
+
+const combinedData = buildCombined();
+
+// ============================================================
+// Rendering
+// ============================================================
+function medal(rank) {
+    if (rank === 1) return '<span class="medal" title="1st">\u{1F947}</span>';
+    if (rank === 2) return '<span class="medal" title="2nd">\u{1F948}</span>';
+    if (rank === 3) return '<span class="medal" title="3rd">\u{1F949}</span>';
+    return rank;
+}
+
+function renderSingleTable(venue) {
+    const tbody = document.querySelector(`#table-${venue} tbody`);
+    const data = DATA[venue].slice().sort((a, b) => b.count - a.count);
+    const max = data.length > 0 ? data[0].count : 1;
+    const colors = { hpca: 'var(--accent-hpca)', micro: 'var(--accent-micro)', isca: 'var(--accent-isca)', asplos: 'var(--accent-asplos)', toppicks: 'var(--accent-toppicks)' };
+    const filter = document.getElementById('searchBox').value.toLowerCase();
+
+    tbody.innerHTML = data
+        .filter(d => !filter || d.name.toLowerCase().includes(filter))
+        .map((d, i) => `
+        <tr>
+            <td class="rank">${medal(i + 1)}</td>
+            <td class="name">${d.name}</td>
+            <td class="count bar-cell">${d.count}<div class="bar" style="width:${(d.count / max * 100)}%;background:${colors[venue]}"></div></td>
+        </tr>
+    `).join('');
+}
+
+function renderCombined() {
+    const tbody = document.querySelector('#table-combined tbody');
+    const filter = document.getElementById('searchBox').value.toLowerCase();
+    const highlight = document.getElementById('highlightMulti').checked;
+
+    tbody.innerHTML = combinedData
+        .filter(d => !filter || d.name.toLowerCase().includes(filter))
+        .map((d, i) => {
+            const cls = (highlight && d.venueCount >= 4) ? ' class="highlight"' : '';
+            const badges = [];
+            if (d.hpca) badges.push(`<span class="conf-badge hpca">HPCA</span>`);
+            if (d.micro) badges.push(`<span class="conf-badge micro">MICRO</span>`);
+            if (d.isca) badges.push(`<span class="conf-badge isca">ISCA</span>`);
+            if (d.asplos) badges.push(`<span class="conf-badge asplos">ASPLOS</span>`);
+            if (d.toppicks) badges.push(`<span class="conf-badge toppicks">TP</span>`);
+            return `<tr${cls}>
+                <td class="rank">${medal(i + 1)}</td>
+                <td class="name">${d.name}</td>
+                <td class="count">${d.total}</td>
+                <td class="count" style="color:var(--accent-hpca)">${d.hpca || '-'}</td>
+                <td class="count" style="color:var(--accent-micro)">${d.micro || '-'}</td>
+                <td class="count" style="color:var(--accent-isca)">${d.isca || '-'}</td>
+                <td class="count" style="color:var(--accent-asplos)">${d.asplos || '-'}</td>
+                <td><div class="combined-badges">${badges.join('')}</div></td>
+            </tr>`;
+        }).join('');
+}
+
+function renderAll() {
+    renderCombined();
+    ['hpca', 'micro', 'isca', 'asplos', 'toppicks'].forEach(renderSingleTable);
+}
+
+// Stats
+function renderStats() {
+    const uniqueResearchers = combinedData.length;
+    const fourVenue = combinedData.filter(d => d.venueCount >= 4).length;
+    const totalPapers = combinedData.reduce((s, d) => s + d.total, 0);
+    document.getElementById('statsBar').innerHTML = `
+        <div class="stat-item"><div class="stat-number">${uniqueResearchers}</div><div class="stat-label">Researchers</div></div>
+        <div class="stat-item"><div class="stat-number">5</div><div class="stat-label">Venues</div></div>
+        <div class="stat-item"><div class="stat-number">${fourVenue}</div><div class="stat-label">In All 4 Venues</div></div>
+        <div class="stat-item"><div class="stat-number">${totalPapers.toLocaleString()}</div><div class="stat-label">Total Papers</div></div>
+    `;
+}
+
+// Tab switching
+document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById(`panel-${tab.dataset.tab}`).classList.add('active');
+    });
+});
+
+// Search
+document.getElementById('searchBox').addEventListener('input', renderAll);
+document.getElementById('highlightMulti').addEventListener('change', renderAll);
+
+// Column sorting for combined table
+document.querySelectorAll('#table-combined thead th').forEach((th, i) => {
+    th.addEventListener('click', () => {
+        const keys = ['rank', 'name', 'total', 'hpca', 'micro', 'isca', 'asplos', 'venueCount'];
+        const key = keys[i];
+        if (!key || key === 'rank') return;
+        const asc = th.classList.contains('sorted') && !th.classList.contains('asc');
+        document.querySelectorAll('#table-combined thead th').forEach(t => { t.classList.remove('sorted', 'asc'); });
+        th.classList.add('sorted');
+        if (asc) th.classList.add('asc');
+        combinedData.sort((a, b) => {
+            if (key === 'name') return asc ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);
+            return asc ? a[key] - b[key] : b[key] - a[key];
+        });
+        renderCombined();
+    });
+});
+
+// Init
+renderStats();
+renderAll();
+
+// Add badge counts to tabs
+const counts = { hpca: DATA.hpca.length, micro: DATA.micro.length, isca: DATA.isca.length, asplos: DATA.asplos.length, toppicks: DATA.toppicks.length };
+document.querySelectorAll('.tab').forEach(tab => {
+    const v = tab.dataset.tab;
+    if (v !== 'combined' && counts[v] !== undefined) {
+        tab.innerHTML += ` <span class="badge" style="background:rgba(255,255,255,0.1)">${counts[v]}</span>`;
+    }
+});
+</script>
+</body>
+</html>
