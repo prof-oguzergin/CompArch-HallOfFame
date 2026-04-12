@@ -100,6 +100,10 @@
         footer a { color: var(--gold); text-decoration: none; }
 
         .medal { font-size: 1rem; }
+        .tp-badge { display:inline-block; padding:0.15rem 0.5rem; border-radius:4px; font-size:0.7rem; font-weight:700; }
+        .tp-badge.tp { background:rgba(245,158,11,0.25); color:var(--gold); }
+        .tp-badge.hm { background:rgba(148,163,184,0.2); color:var(--text-muted); }
+        .tp-authors { font-size:0.8rem; color:var(--text-muted); }
         @media (max-width: 768px) {
             .hero h1 { font-size: 1.5rem; }
             .tab { padding: 0.4rem 0.6rem; font-size: 0.8rem; }
@@ -152,13 +156,20 @@
         <div class="heatmap-wrap" id="heatmap-asplos"></div>
     </div>
     <div class="tab-panel" id="panel-toppicks">
-        <div class="conf-info"><strong>IEEE Micro Top Picks Hall of Fame</strong> &mdash; Researchers with multiple Top Picks selections (since ~2003). This is a new compilation.</div>
-        <div class="note-box">Data being compiled from annual IEEE Micro Top Picks special issues (2003&ndash;2026). PRs welcome!</div>
-        <div class="heatmap-wrap" id="heatmap-toppicks"></div>
+        <div class="conf-info"><strong>IEEE Micro Top Picks</strong> &mdash; Annual selection of ~12 most significant papers from computer architecture conferences, plus ~12 Honorable Mentions. Published since 2003. &middot; Data as of: 12 Apr 2026</div>
+        <div class="note-box">Data covers 2023&ndash;2024 conference years so far. More years being added as IEEE Micro special issues are processed.</div>
+        <h3 style="color:var(--gold);margin:1rem 0 0.5rem;font-size:1.1rem">Researcher Summary</h3>
+        <div class="heatmap-wrap"><table class="simple-table" id="table-toppicks-authors"><thead><tr>
+            <th style="width:40px">#</th><th>Name</th><th style="width:80px">Top Picks</th><th style="width:80px">Hon. Mentions</th><th style="width:60px">Total</th><th>Years</th>
+        </tr></thead><tbody></tbody></table></div>
+        <h3 style="color:var(--gold);margin:1.5rem 0 0.5rem;font-size:1.1rem">Paper List</h3>
+        <div class="heatmap-wrap"><table class="simple-table" id="table-toppicks-papers"><thead><tr>
+            <th style="width:50px">Year</th><th style="width:70px">Type</th><th>Title</th><th>Authors</th><th style="width:110px">Conference</th>
+        </tr></thead><tbody></tbody></table></div>
     </div>
 </div>
 <footer>
-    <p>Computer Architecture Hall of Fame &mdash; <a href="https://oguzergin.net" target="_blank">Oguz Ergin</a>, University of Sharjah</p>
+    <p>Computer Architecture Hall of Fame &mdash; <a href="https://oguzergin.net" target="_blank">Oğuz Ergin</a>, University of Sharjah</p>
     <p style="margin-top:0.3rem">Sources: <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/">HPCA</a> &middot; <a href="https://www.sigmicro.org/awards/microhof.php">MICRO</a> &middot; <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html">ISCA</a> &middot; <a href="https://liberty.princeton.edu/Fame/ASPLOS/">ASPLOS</a></p>
     <p style="margin-top:0.3rem">Last updated: 12 April 2026 &middot; <a href="https://github.com/prof-oguzergin/CompArch-HallOfFame">GitHub</a></p>
 </footer>
@@ -278,15 +289,54 @@ function renderCombined() {
     }).join('');
 }
 
+// Top Picks rendering
+function buildTopPicksAuthors() {
+    const papers = DATA.toppicks_papers || [];
+    const authors = {};
+    papers.forEach(p => {
+        p.authors.forEach(a => {
+            if (!authors[a]) authors[a] = {tp:0, hm:0, years:new Set()};
+            if (p.type === 'TP') authors[a].tp++;
+            else authors[a].hm++;
+            authors[a].years.add(p.year);
+        });
+    });
+    return Object.entries(authors).map(([name, d]) => ({
+        name, tp:d.tp, hm:d.hm, total:d.tp+d.hm, years:Array.from(d.years).sort()
+    })).sort((a,b) => b.tp - a.tp || b.total - a.total);
+}
+
+function renderTopPicks() {
+    const filter = document.getElementById('searchBox').value.toLowerCase();
+    const papers = (DATA.toppicks_papers || []).filter(p => !filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter));
+    const authorData = buildTopPicksAuthors().filter(a => !filter || a.name.toLowerCase().includes(filter));
+
+    // Author summary table
+    const atbody = document.querySelector('#table-toppicks-authors tbody');
+    atbody.innerHTML = authorData.map((a,i) => `<tr>
+        <td>${medal(i+1)}</td>
+        <td>${a.name}</td>
+        <td class="count" style="color:var(--gold)">${a.tp}</td>
+        <td class="count" style="color:var(--text-muted)">${a.hm || '-'}</td>
+        <td class="count">${a.total}</td>
+        <td style="font-size:0.85rem;color:var(--text-muted)">${a.years.join(', ')}</td>
+    </tr>`).join('');
+
+    // Paper list table
+    const ptbody = document.querySelector('#table-toppicks-papers tbody');
+    ptbody.innerHTML = papers.map(p => `<tr>
+        <td>${p.year}</td>
+        <td><span class="tp-badge ${p.type.toLowerCase()}">${p.type === 'TP' ? 'Top Pick' : 'Hon. Mention'}</span></td>
+        <td style="font-size:0.85rem">${p.title}</td>
+        <td class="tp-authors">${p.authors.length ? p.authors.join(', ') : '<em style="color:var(--text-muted)">authors pending</em>'}</td>
+        <td style="font-size:0.8rem;color:var(--text-muted)">${p.conf}</td>
+    </tr>`).join('');
+}
+
 function renderAll() {
     renderCombined();
     ['hpca','micro','isca','asplos'].forEach(renderHeatmap);
-    // toppicks placeholder
-    if (DATA.toppicks.length === 0) {
-        document.getElementById('heatmap-toppicks').innerHTML = '<p style="padding:2rem;text-align:center;color:var(--text-muted)">Data compilation in progress...</p>';
-    } else {
-        renderHeatmap('toppicks');
-    }
+    renderTopPicks();
 }
 
 // Stats
@@ -316,7 +366,8 @@ document.getElementById('searchBox').addEventListener('input', renderAll);
 document.getElementById('highlightMulti').addEventListener('change', renderAll);
 
 // Tab badges
-const counts = {hpca:DATA.hpca.length, micro:DATA.micro.length, isca:DATA.isca.length, asplos:DATA.asplos.length, toppicks:DATA.toppicks.length};
+const tpPapers = (DATA.toppicks_papers||[]).filter(p=>p.type==='TP').length;
+const counts = {hpca:DATA.hpca.length, micro:DATA.micro.length, isca:DATA.isca.length, asplos:DATA.asplos.length, toppicks:tpPapers};
 document.querySelectorAll('.tab').forEach(tab => {
     const v = tab.dataset.tab;
     if (v !== 'combined' && counts[v] !== undefined) tab.innerHTML += ` <span class="badge">${counts[v]}</span>`;
