@@ -759,7 +759,7 @@ crossvenue: {
   "Jeremie S. Kim": {asplos:1,hpca:5},
   "Jingwen Leng": {isca:7},
   "Jishen Zhao": {asplos:2,hpca:3,isca:4},
-  "John B. Carter": {isca:4,micro:1},
+  "John B. Carter": {isca:3,micro:1},
   "John Kim": {asplos:5},
   "John Kubiatowicz": {asplos:4,hpca:3},
   "John L. Hennessy": {hpca:1,micro:2},
