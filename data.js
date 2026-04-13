@@ -506,6 +506,7 @@ crossvenue: {
   "John Kubiatowicz": {asplos:4,hpca:3},
   "John L. Hennessy": {hpca:1,micro:2},
   "John Paul Shen": {asplos:5,hpca:5},
+  "Joel S. Emer": {hpca:7},
   "Jorge Albericio": {isca:1},
   "Joseph Devietti": {hpca:1,isca:4,micro:6},
   "José Duato": {isca:3,micro:3},
