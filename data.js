@@ -97,7 +97,8 @@ hpca: [
   {name:"Mohammad Sadrosadati",total:8,y:{2024:2,2025:2,2026:4}},
   {name:"Jingwen Leng",total:10,y:{2015:1,2020:1,2022:1,2023:1,2025:2,2026:4}},
   {name:"Shouyi Yin",total:12,y:{2021:1,2022:2,2024:1,2025:1,2026:7}},
-  {name:"Yang Hu",total:11,y:{2017:1,2018:2,2025:1,2026:7}}
+  {name:"Yang Hu",total:11,y:{2017:1,2018:2,2025:1,2026:7}},
+  {name:"Chao Li",total:9,y:{2011:1,2013:1,2018:1,2022:1,2026:5}}
 ],
 micro: [
   {name:"Onur Mutlu",total:58,y:{2004:1,2005:2,2006:1,2007:2,2008:2,2009:4,2010:1,2011:3,2013:2,2014:2,2015:3,2016:2,2017:4,2018:1,2019:4,2020:4,2021:6,2022:7,2023:3,2024:2,2025:2}},
@@ -443,7 +444,8 @@ asplos: [
   {name:"Rajiv Gupta",total:8,y:{1989:1,2000:1,2012:1,2017:2,2019:1,2023:2}},
   {name:"Mingyu Gao",total:12,y:{2017:1,2019:1,2020:1,2022:2,2023:3,2024:1,2025:3}},
   {name:"Jangwoo Kim",total:8,y:{2004:1,2018:1,2020:1,2021:1,2022:1,2024:1,2026:2}},
-  {name:"G. Edward Suh",total:10,y:{2004:1,2010:1,2015:1,2017:1,2021:2,2024:2,2025:1,2026:1}}
+  {name:"G. Edward Suh",total:10,y:{2004:1,2010:1,2015:1,2017:1,2021:2,2024:2,2025:1,2026:1}},
+  {name:"Chao Li",total:8,y:{2022:1,2023:1,2024:4,2025:1,2026:1}}
 ],
 // Researcher affiliations and DBLP PIDs
 affiliations: {
@@ -521,7 +523,7 @@ affiliations: {
   "Tor M. Aamodt": {inst:"UBC",pid:"a/TorMAamodt"},
   "Hai Jin": {inst:"HUST",pid:"98/4156"},
   "Mingyu Gao": {inst:"Tsinghua",pid:"61/7672-1"},
-  "Chao Li": {inst:"SJTU",pid:"49/1019-24"},
+  "Chao Li": {inst:"SJTU",pid:"66/190-9"},
   "Minyi Guo": {inst:"SJTU",pid:"99/6797"},
   "Jingwen Leng": {inst:"SJTU",pid:"131/5131"},
   "Xing Hu": {inst:"ICT-CAS",pid:"49/10052-1"},
@@ -712,6 +714,7 @@ crossvenue: {
   "Brandon Lucia": {hpca:2,isca:7,micro:5},
   "Changhee Jung": {asplos:4,hpca:2,isca:4},
   "Carole-Jean Wu": {micro:5,asplos:4},
+  "Chao Li": {micro:5},
   "Chita R. Das": {asplos:6},
   "Chris Wilkerson": {asplos:2,hpca:5},
   "Christina Delimitrou": {hpca:6,isca:4,micro:1},
