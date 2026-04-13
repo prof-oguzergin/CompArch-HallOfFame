@@ -646,7 +646,7 @@ affiliations: {
   "Guangyu Sun": {inst:"Peking U",pid:"29/6473-3"},
   "Hai Helen Li": {inst:"Duke",pid:"l/HaiHelenLi"},
   "Yiran Chen": {inst:"Duke",pid:"c/YiranChen"},
-  "Engin Ipek": {inst:"U Rochester",pid:"i/EnginIpek"},
+  "Engin Ipek": {inst:"Micron",pid:"i/EnginIpek"},
   "Naveen Muralimanohar": {inst:"HP Labs / Micron",pid:"m/NaveenMuralimanohar"},
   "Sudhanva Gurumurthi": {inst:"AMD",pid:"g/SudhanvaGurumurthi"},
   "Jishen Zhao": {inst:"UCSD",pid:"z/JishenZhao"},
