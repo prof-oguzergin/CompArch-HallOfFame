@@ -676,7 +676,7 @@ affiliations: {
   "Xiaowei Jiang": {inst:"NUDT",pid:"172/3818"},
   "John B. Carter": {inst:"IBM",pid:"c/JohnBCarter"},
   "José Duato": {inst:"UPV Valencia",pid:"76/2766"},
-  "Luiz André Barroso": {inst:"Google (retired)",pid:""},
+  "Luiz André Barroso": {inst:"Google (retired)",pid:"b/LuizAndreBarroso"},
   "Tao Li": {inst:"U Florida (deceased)",pid:"75/4601-6"},
   "Lizy Kurian John": {inst:"UT Austin",pid:"j/LizyKurianJohn"},
   "Andreas Moshovos": {inst:"U Toronto",pid:"m/AndreasMoshovos"},
