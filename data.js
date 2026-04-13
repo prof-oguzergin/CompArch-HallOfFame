@@ -98,7 +98,8 @@ hpca: [
   {name:"Jingwen Leng",total:10,y:{2015:1,2020:1,2022:1,2023:1,2025:2,2026:4}},
   {name:"Shouyi Yin",total:12,y:{2021:1,2022:2,2024:1,2025:1,2026:7}},
   {name:"Yang Hu",total:11,y:{2017:1,2018:2,2025:1,2026:7}},
-  {name:"Chao Li",total:9,y:{2011:1,2013:1,2018:1,2022:1,2026:5}}
+  {name:"Chao Li",total:9,y:{2011:1,2013:1,2018:1,2022:1,2026:5}},
+  {name:"Jae W. Lee",total:8,y:{2016:1,2017:1,2020:1,2021:1,2022:2,2025:1,2026:1}}
 ],
 micro: [
   {name:"Onur Mutlu",total:58,y:{2004:1,2005:2,2006:1,2007:2,2008:2,2009:4,2010:1,2011:3,2013:2,2014:2,2015:3,2016:2,2017:4,2018:1,2019:4,2020:4,2021:6,2022:7,2023:3,2024:2,2025:2}},
@@ -530,7 +531,7 @@ affiliations: {
   "Qi Guo": {inst:"ICT-CAS",pid:"93/6082-1"},
   "Jian Huang": {inst:"UIUC",pid:"51/494-6"},
   "James E. Smith": {inst:"UW-Madison (emeritus)",pid:"17/1987-1"},
-  "Jae W. Lee": {inst:"SNU",pid:"59/127"},
+  "Jae W. Lee": {inst:"SNU",pid:"21/4685"},
   "Yufei Ding": {inst:"UCSD",pid:"89/10461"},
   "Jangwoo Kim": {inst:"SNU",pid:"04/2187"},
   "Henry M. Levy": {inst:"UW (emeritus)",pid:"l/HenryMLevy"},
@@ -756,6 +757,7 @@ crossvenue: {
   "Henry M. Levy": {hpca:2,micro:1},
   "Huiyang Zhou": {asplos:3,isca:5,micro:3},
   "Hyesoon Kim": {asplos:5,isca:7},
+  "Jae W. Lee": {micro:5,asplos:7},
   "Jian Huang": {isca:7,asplos:7,hpca:1},
   "Jaehyuk Huh": {asplos:3,hpca:4,micro:7},
   "James E. Smith": {asplos:5,hpca:7},
