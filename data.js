@@ -762,6 +762,7 @@ crossvenue: {
   "José Duato": {isca:3,micro:3},
   "José F. Martínez": {asplos:6},
   "José-María Arnau": {hpca:2,micro:4},
+  "Jun Yang": {isca:7,asplos:6},
   "Juan Gomez-Luna": {asplos:2,hpca:3,isca:6},
   "Karin Strauss": {asplos:6,hpca:1,micro:3},
   "Karthikeyan Sankaralingam": {asplos:3,hpca:6},
