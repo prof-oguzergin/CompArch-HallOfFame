@@ -426,7 +426,13 @@ asplos: [
   {name:"Jung Ho Ahn",total:8,y:{2017:1,2021:1,2024:2,2025:2,2026:2}},
   {name:"Doug Burger",total:8,y:{2002:1,2004:2,2006:1,2009:1,2010:1,2011:1,2012:1}},
   {name:"Mendel Rosenblum",total:8,y:{1994:2,1996:2,1998:1,2006:1,2008:1,2017:1}},
-  {name:"John L. Hennessy",total:8,y:{1982:1,1987:1,1989:1,1991:1,1992:1,1994:2,1996:1}}
+  {name:"John L. Hennessy",total:8,y:{1982:1,1987:1,1989:1,1991:1,1992:1,1994:2,1996:1}},
+  {name:"Hai Jin",total:9,y:{2019:1,2020:2,2023:3,2024:1,2025:1,2026:1}},
+  {name:"Minyi Guo",total:17,y:{2017:1,2022:3,2023:3,2024:6,2025:3,2026:1}},
+  {name:"Yufei Ding",total:15,y:{2014:1,2019:1,2020:2,2022:2,2024:5,2025:3,2026:1}},
+  {name:"Jingwen Leng",total:12,y:{2022:2,2023:1,2024:5,2025:2,2026:2}},
+  {name:"Anand Sivasubramaniam",total:8,y:{2002:1,2006:1,2012:1,2014:1,2017:1,2024:1,2025:1,2026:1}},
+  {name:"Henry M. Levy",total:8,y:{1991:1,1994:2,1996:2,2000:1,2024:1,2025:1}}
 ],
 // Researcher affiliations and DBLP PIDs
 affiliations: {
@@ -503,7 +509,7 @@ affiliations: {
   "Mark Horowitz": {inst:"Stanford",pid:"h/MarkHorowitz"},
   "Tor M. Aamodt": {inst:"UBC",pid:"a/TorMAamodt"},
   "Hai Jin": {inst:"HUST",pid:"98/4156"},
-  "Mingyu Gao": {inst:"Tsinghua",pid:"g/MingyuGao"},
+  "Mingyu Gao": {inst:"Tsinghua",pid:"61/7672"},
   "Chao Li": {inst:"SJTU",pid:"49/1019-24"},
   "Minyi Guo": {inst:"SJTU",pid:"g/MinyiGuo"},
   "Jingwen Leng": {inst:"SJTU",pid:"189/5006"},
