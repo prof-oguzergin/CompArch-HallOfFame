@@ -663,7 +663,7 @@ affiliations: {
   "Minesh Patel": {inst:"ETH Zurich",pid:"147/0857"},
   "Ataberk Olgun": {inst:"ETH Zurich",pid:"285/5355"},
   "Christopher Batten": {inst:"Cornell",pid:"20/4601"},
-  "Daehoon Kim": {inst:"Yonsei U",pid:"147/5131"},
+  "Daehoon Kim": {inst:"Yonsei U",pid:"97/7677-1"},
   "Daniel A. Jiménez": {inst:"Texas A&M",pid:""},
   "G. Edward Suh": {inst:"Cornell / Meta",pid:"09/5657"},
   "José F. Martínez": {inst:"Cornell",pid:"m/JFMartinez"},
