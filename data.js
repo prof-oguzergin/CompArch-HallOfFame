@@ -601,7 +601,7 @@ affiliations: {
   "Rajiv Gupta": {inst:"UC Riverside",pid:"g/RajivGupta"},
   "Joseph Devietti": {inst:"U Penn",pid:"d/JosephDevietti"},
   "Kathryn S. McKinley": {inst:"Google",pid:"m/KathrynSMcKinley"},
-  "Keshav Pingali": {inst:"UT Austin",pid:"p/KeshavPingali"},
+  "Keshav Pingali": {inst:"UT Austin",pid:"71/5735"},
   "Mendel Rosenblum": {inst:"Stanford",pid:"r/MendelRosenblum"},
   "Michael M. Swift": {inst:"UW-Madison",pid:"s/MichaelMSwift"},
   "Steven Swanson": {inst:"UCSD",pid:"s/StevenSwanson"},
