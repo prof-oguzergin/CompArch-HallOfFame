@@ -572,7 +572,7 @@ affiliations: {
   "Li-Shiuan Peh": {inst:"NUS",pid:"86/2160"},
   "Ang Li": {inst:"PNNL",pid:""},
   "Benjamin C. Lee": {inst:"U Penn",pid:"l/BenjaminCLee"},
-  "Donghyuk Lee": {inst:"NVIDIA",pid:"37/7554"},
+  "Donghyuk Lee": {inst:"NVIDIA",pid:"00/10253"},
   "Michael C. Huang": {inst:"U Rochester",pid:"40/1854"},
   "David H. Albonesi": {inst:"Cornell",pid:"a/DavidHAlbonesi"},
   "Jason Mars": {inst:"U Michigan",pid:"m/JasonMars"},
