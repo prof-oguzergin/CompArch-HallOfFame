@@ -375,7 +375,8 @@ isca: [
   {name:"Saugata Ghose",total:8,y:{2013:1,2018:1,2019:2,2020:1,2021:1,2022:1,2025:1}},
   {name:"Sudhanva Gurumurthi",total:8,y:{2003:1,2004:1,2005:1,2007:1,2008:1,2014:1,2023:1,2024:1}},
   {name:"Tianshi Chen",total:8,y:{2010:1,2014:1,2015:1,2016:1,2019:1,2021:1,2024:1,2025:1}},
-  {name:"Guangyu Sun",total:10,y:{2011:2,2013:1,2014:2,2015:2,2021:1,2025:2}}
+  {name:"Guangyu Sun",total:10,y:{2011:2,2013:1,2014:2,2015:2,2021:1,2025:2}},
+  {name:"Ricardo Bianchini",total:8,y:{1995:1,1998:1,2007:1,2021:2,2024:3}}
 ],
 asplos: [
   {name:"Josep Torrellas",total:23,y:{1992:1,2002:1,2008:1,2009:1,2013:3,2014:1,2015:1,2016:2,2019:1,2020:1,2021:2,2022:2,2023:1,2024:3,2025:2}},
@@ -386,7 +387,7 @@ asplos: [
   {name:"Xuehai Qian",total:18,y:{2013:1,2017:2,2018:3,2019:3,2020:5,2022:1,2023:3}},
   {name:"Parthasarathy Ranganathan",total:18,y:{1996:1,1998:1,2008:1,2012:1,2018:2,2019:1,2020:2,2021:2,2022:1,2023:2,2024:2,2025:1,2026:1}},
   {name:"Michael M. Swift",total:17,y:{2006:1,2008:1,2011:1,2012:3,2013:1,2017:1,2018:1,2020:2,2022:2,2023:3,2024:1}},
-  {name:"Ricardo Bianchini",total:17,y:{1996:1,2006:1,2011:1,2012:1,2013:1,2015:3,2017:1,2018:1,2020:1,2022:2,2023:1,2024:1,2025:2}},
+  {name:"Ricardo Bianchini",total:16,y:{1996:1,2006:1,2011:1,2012:1,2013:1,2015:3,2017:1,2020:1,2022:2,2023:1,2024:1,2025:2}},
   {name:"Frederic T. Chong",total:17,y:{2006:1,2009:1,2014:1,2015:1,2018:1,2019:3,2021:1,2023:5,2024:2,2026:1}},
   {name:"Christopher W. Fletcher",total:16,y:{2015:1,2019:2,2020:2,2021:4,2023:2,2024:2,2025:2,2026:1}},
   {name:"Timothy Sherwood",total:15,y:{2002:1,2006:1,2008:1,2009:1,2014:1,2017:1,2019:3,2020:2,2021:1,2023:1,2024:2}},
@@ -533,7 +534,7 @@ affiliations: {
   "Shouyi Yin": {inst:"Tsinghua",pid:"98/3428"},
   "Carole-Jean Wu": {inst:"Meta",pid:"26/9655"},
   "Vijay Janapa Reddi": {inst:"Harvard",pid:"r/VijayJanapaReddi"},
-  "Ricardo Bianchini": {inst:"Microsoft",pid:"b/RicardoBianchini"},
+  "Ricardo Bianchini": {inst:"Microsoft",pid:"85/2722"},
   "Boris Grot": {inst:"U Edinburgh",pid:"g/BorisGrot"},
   "Hadi Esmaeilzadeh": {inst:"UCSD",pid:"e/HadiEsmaeilzadeh"},
   "Daniel J. Sorin": {inst:"Duke",pid:"s/DanielJSorin"},
@@ -823,7 +824,7 @@ crossvenue: {
   "Rakesh Kumar": {asplos:3},
   "Ravishankar R. Iyer": {asplos:4,isca:6,micro:5},
   "Reetuparna Das": {asplos:3},
-  "Ricardo Bianchini": {micro:2},
+  "Ricardo Bianchini": {micro:2,hpca:6},
   "Robert A. Mueller": {isca:5},
   "Ronald G. Dreslinski": {asplos:4,hpca:6},
   "Rui Hou": {asplos:4,isca:6,micro:3},
