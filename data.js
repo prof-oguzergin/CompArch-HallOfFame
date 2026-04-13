@@ -528,7 +528,7 @@ crossvenue: {
   "Lizy Kurian John": {asplos:2,micro:7},
   "Luis Ceze": {hpca:4,micro:4},
   "Luiz André Barroso": {asplos:1,hpca:1},
-  "Mark Horowitz": {micro:7},
+  "Mark Horowitz": {micro:6},
   "Mark Oskin": {asplos:3,hpca:2,micro:3},
   "Mateo Valero Cortés": {asplos:1},
   "Mattan Erez": {asplos:2,micro:4},
