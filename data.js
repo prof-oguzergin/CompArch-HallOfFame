@@ -436,7 +436,8 @@ asplos: [
   {name:"Henry M. Levy",total:8,y:{1991:1,1994:2,1996:2,2000:1,2024:1,2025:1}},
   {name:"Rajiv Gupta",total:8,y:{1989:1,2000:1,2012:1,2017:2,2019:1,2023:2}},
   {name:"Mingyu Gao",total:12,y:{2017:1,2019:1,2020:1,2022:2,2023:3,2024:1,2025:3}},
-  {name:"Jangwoo Kim",total:8,y:{2004:1,2018:1,2020:1,2021:1,2022:1,2024:1,2026:2}}
+  {name:"Jangwoo Kim",total:8,y:{2004:1,2018:1,2020:1,2021:1,2022:1,2024:1,2026:2}},
+  {name:"G. Edward Suh",total:10,y:{2004:1,2010:1,2015:1,2017:1,2021:2,2024:2,2025:1,2026:1}}
 ],
 // Researcher affiliations and DBLP PIDs
 affiliations: {
@@ -734,6 +735,7 @@ crossvenue: {
   "Gilles Pokam": {asplos:7,hpca:1,isca:4},
   "Guangyu Sun": {asplos:3,micro:5},
   "Gu-Yeon Wei": {asplos:4},
+  "G. Edward Suh": {micro:7},
   "Gurindar S. Sohi": {hpca:6},
   "Hadi Esmaeilzadeh": {asplos:6,hpca:5,micro:6},
   "Hai Helen Li": {asplos:2,micro:4},
