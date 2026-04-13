@@ -786,6 +786,7 @@ crossvenue: {
   "Kourosh Gharachorloo": {asplos:6,hpca:4},
   "Krste Asanovic": {asplos:5,hpca:3,micro:7},
   "Kunle Olukotun": {hpca:5,micro:3},
+  "Li-Shiuan Peh": {hpca:6,isca:4,asplos:3},
   "Leibo Liu": {asplos:1,hpca:5,micro:6},
   "Lingjia Tang": {asplos:7,hpca:4},
   "Lixin Zhang": {asplos:1,isca:2},
