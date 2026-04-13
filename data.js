@@ -613,7 +613,7 @@ affiliations: {
   "Thomas M. Conte": {inst:"Georgia Tech",pid:"c/ThomasMConte"},
   "Dirk Grunwald": {inst:"U Colorado",pid:"g/DirkGrunwald"},
   "Bogong Su": {inst:"NUDT (retired)",pid:"64/3897"},
-  "Christos A. Papachristou": {inst:"Case Western",pid:"p/ChristosAPapachristou"},
+  "Christos A. Papachristou": {inst:"Case Western",pid:"80/4532"},
   "Vicki H. Allan": {inst:"Utah State",pid:"a/VickiHAllan"},
   "Robert A. Mueller": {inst:"Colorado State (retired)",pid:"26/3630"},
   "Matthew K. Farrens": {inst:"UC Davis",pid:"41/4899"},
