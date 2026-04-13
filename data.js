@@ -701,7 +701,7 @@ crossvenue: {
   "André Seznec": {asplos:2},
   "Arkaprava Basu": {asplos:3,hpca:2,isca:5},
   "Ataberk Olgun": {asplos:1,isca:4,micro:7},
-  "Benjamin C. Lee": {micro:5},
+  "Benjamin C. Lee": {micro:5,isca:7,asplos:5},
   "Bob Ramakrishna Rau": {asplos:2,isca:3},
   "Boris Grot": {asplos:6,isca:6},
   "Brad Calder": {asplos:6},
