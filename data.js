@@ -45,7 +45,7 @@ hpca: [
   {name:"Scott A. Mahlke",total:11,y:{2006:1,2007:2,2008:1,2009:1,2011:2,2013:1,2015:1,2021:1,2025:1}},
   {name:"Margaret Martonosi",total:11,y:{1999:1,2001:1,2003:2,2004:1,2005:1,2006:1,2013:1,2014:1,2022:1,2023:1}},
   {name:"G. Edward Suh",total:12,y:{2002:1,2003:1,2014:2,2015:1,2016:1,2017:1,2022:1,2023:1,2024:1,2025:1,2026:1}},
-  {name:"Guangyu Sun",total:13,y:{2009:1,2010:1,2014:2,2015:1,2018:2,2022:1,2023:1,2024:1,2025:1,2026:2}},
+  {name:"Guangyu Sun",total:12,y:{2009:1,2010:1,2014:2,2015:1,2018:2,2022:1,2023:1,2024:1,2025:1,2026:1}},
   {name:"Carole-Jean Wu",total:11,y:{2016:1,2018:1,2019:2,2020:1,2021:2,2022:2,2025:2}},
   {name:"Amro Awad",total:10,y:{2014:1,2021:2,2022:2,2023:3,2024:1,2025:1}},
   {name:"Babak Falsafi",total:10,y:{1997:1,1999:1,2001:2,2002:1,2004:1,2009:1,2011:1,2014:1,2023:1}},
@@ -373,7 +373,8 @@ isca: [
   {name:"Ronald G. Dreslinski",total:8,y:{2010:1,2013:1,2015:2,2017:1,2022:2,2025:1}},
   {name:"Saugata Ghose",total:8,y:{2013:1,2018:1,2019:2,2020:1,2021:1,2022:1,2025:1}},
   {name:"Sudhanva Gurumurthi",total:8,y:{2003:1,2004:1,2005:1,2007:1,2008:1,2014:1,2023:1,2024:1}},
-  {name:"Tianshi Chen",total:8,y:{2010:1,2014:1,2015:1,2016:1,2019:1,2021:1,2024:1,2025:1}}
+  {name:"Tianshi Chen",total:8,y:{2010:1,2014:1,2015:1,2016:1,2019:1,2021:1,2024:1,2025:1}},
+  {name:"Guangyu Sun",total:10,y:{2011:2,2013:1,2014:2,2015:2,2021:1,2025:2}}
 ],
 asplos: [
   {name:"Josep Torrellas",total:23,y:{1992:1,2002:1,2008:1,2009:1,2013:3,2014:1,2015:1,2016:2,2019:1,2020:1,2021:2,2022:2,2023:1,2024:3,2025:2}},
@@ -642,7 +643,7 @@ affiliations: {
   "Swamit Tannu": {inst:"UW-Madison",pid:"t/SwamitTannu"},
   "Yuhao Zhu": {inst:"U Rochester",pid:"z/YuhaoZhu"},
   "Changhee Jung": {inst:"Purdue",pid:"j/ChangheeJung"},
-  "Guangyu Sun": {inst:"Peking U",pid:"s/GuangyuSun"},
+  "Guangyu Sun": {inst:"Peking U",pid:"29/6473-3"},
   "Hai Helen Li": {inst:"Duke",pid:"l/HaiHelenLi"},
   "Yiran Chen": {inst:"Duke",pid:"c/YiranChen"},
   "Engin Ipek": {inst:"U Rochester",pid:"i/EnginIpek"},
