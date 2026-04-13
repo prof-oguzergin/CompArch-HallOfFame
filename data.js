@@ -378,7 +378,8 @@ isca: [
   {name:"Sudhanva Gurumurthi",total:8,y:{2003:1,2004:1,2005:1,2007:1,2008:1,2014:1,2023:1,2024:1}},
   {name:"Tianshi Chen",total:8,y:{2010:1,2014:1,2015:1,2016:1,2019:1,2021:1,2024:1,2025:1}},
   {name:"Guangyu Sun",total:10,y:{2011:2,2013:1,2014:2,2015:2,2021:1,2025:2}},
-  {name:"Ricardo Bianchini",total:8,y:{1995:1,1998:1,2007:1,2021:2,2024:3}}
+  {name:"Ricardo Bianchini",total:8,y:{1995:1,1998:1,2007:1,2021:2,2024:3}},
+  {name:"Ahmed Louri",total:8,y:{1988:1,1992:2,2008:1,2019:1,2021:1,2023:1,2025:1}}
 ],
 asplos: [
   {name:"Josep Torrellas",total:23,y:{1992:1,2002:1,2008:1,2009:1,2013:3,2014:1,2015:1,2016:2,2019:1,2020:1,2021:2,2022:2,2023:1,2024:3,2025:2}},
@@ -618,7 +619,7 @@ affiliations: {
   "Matthew K. Farrens": {inst:"UC Davis",pid:"41/4899"},
   "Jorge Albericio": {inst:"NVIDIA",pid:"a/JorgeAlbericio"},
   "David W. Nellans": {inst:"NVIDIA",pid:"n/DavidWNellans"},
-  "Ahmed Louri": {inst:"GWU",pid:"l/AhmedLouri"},
+  "Ahmed Louri": {inst:"GWU",pid:"17/5827"},
   "Rui Hou": {inst:"ICT-CAS",pid:"h/RuiHou"},
   "Lixin Zhang": {inst:"ICT-CAS",pid:"z/LixinZhang"},
   "Xiaofei Liao": {inst:"HUST",pid:"l/XiaofeiLiao"},
