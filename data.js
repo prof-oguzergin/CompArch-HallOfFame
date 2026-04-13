@@ -864,7 +864,7 @@ crossvenue: {
   "William J. Dally": {asplos:5},
   "Xiaofei Liao": {asplos:5,isca:6,micro:4},
   "Xiaowei Jiang": {asplos:1,isca:1,micro:1},
-  "Xiaoyao Liang": {asplos:3,hpca:3},
+  "Xiaoyao Liang": {asplos:3,hpca:3,isca:7},
   "Yale N. Patt": {asplos:6,hpca:7},
   "Yan Solihin": {asplos:5,micro:7},
   "Yang Hu": {micro:3},
