@@ -649,7 +649,7 @@ affiliations: {
   "Hai Helen Li": {inst:"Duke",pid:"30/5330-1"},
   "Yiran Chen": {inst:"Duke",pid:"80/1641"},
   "Engin Ipek": {inst:"Micron",pid:"i/EnginIpek"},
-  "Naveen Muralimanohar": {inst:"HP Labs / Micron",pid:"m/NaveenMuralimanohar"},
+  "Naveen Muralimanohar": {inst:"HP Labs / Micron",pid:"74/2786"},
   "Sudhanva Gurumurthi": {inst:"AMD",pid:"g/SudhanvaGurumurthi"},
   "Jishen Zhao": {inst:"UCSD",pid:"z/JishenZhao"},
   "David Blaauw": {inst:"U Michigan",pid:"b/DBlaauw"},
