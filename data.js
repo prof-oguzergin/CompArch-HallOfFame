@@ -636,7 +636,7 @@ affiliations: {
   "Huiyang Zhou": {inst:"NC State",pid:"z/HuiyangZhou"},
   "Amro Awad": {inst:"NC State",pid:"a/AmroAwad"},
   "Adrián Cristal": {inst:"BSC Barcelona",pid:"c/AdrianCristal"},
-  "Jayesh Gaur": {inst:"Intel",pid:"g/JayeshGaur"},
+  "Jayesh Gaur": {inst:"Intel",pid:"46/6130"},
   "Joel Emer": {inst:"MIT / NVIDIA",pid:"e/JoelSEmer"},
   "John Kubiatowicz": {inst:"UC Berkeley",pid:"k/JohnKubiatowicz"},
   "Mengjia Yan": {inst:"MIT",pid:"y/MengjiaYan"},
