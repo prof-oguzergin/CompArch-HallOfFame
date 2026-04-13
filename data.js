@@ -96,7 +96,8 @@ hpca: [
   {name:"Lixin Zhang",total:8,y:{1999:1,2001:1,2009:1,2011:2,2016:1,2019:1,2022:1}},
   {name:"Mohammad Sadrosadati",total:8,y:{2024:2,2025:2,2026:4}},
   {name:"Jingwen Leng",total:10,y:{2015:1,2020:1,2022:1,2023:1,2025:2,2026:4}},
-  {name:"Shouyi Yin",total:12,y:{2021:1,2022:2,2024:1,2025:1,2026:7}}
+  {name:"Shouyi Yin",total:12,y:{2021:1,2022:2,2024:1,2025:1,2026:7}},
+  {name:"Yang Hu",total:11,y:{2017:1,2018:2,2025:1,2026:7}}
 ],
 micro: [
   {name:"Onur Mutlu",total:58,y:{2004:1,2005:2,2006:1,2007:2,2008:2,2009:4,2010:1,2011:3,2013:2,2014:2,2015:3,2016:2,2017:4,2018:1,2019:4,2020:4,2021:6,2022:7,2023:3,2024:2,2025:2}},
@@ -640,7 +641,7 @@ affiliations: {
   "Joel Emer": {inst:"MIT / NVIDIA",pid:"e/JoelSEmer"},
   "John Kubiatowicz": {inst:"UC Berkeley",pid:"k/JohnKubiatowicz"},
   "Mengjia Yan": {inst:"MIT",pid:"y/MengjiaYan"},
-  "Yang Hu": {inst:"U Rochester",pid:"h/YangHu2"},
+  "Yang Hu": {inst:"Tsinghua",pid:"43/4685-1"},
   "Mohammad Alian": {inst:"U Kansas",pid:"a/MohammadAlian"},
   "Swamit Tannu": {inst:"UW-Madison",pid:"207/1837"},
   "Yuhao Zhu": {inst:"U Rochester",pid:"z/YuhaoZhu"},
@@ -867,7 +868,7 @@ crossvenue: {
   "Xiaoyao Liang": {asplos:3,hpca:3,isca:7},
   "Yale N. Patt": {asplos:6,hpca:7},
   "Yan Solihin": {asplos:5,micro:7},
-  "Yang Hu": {micro:3},
+  "Yang Hu": {micro:6,hpca:11,asplos:3},
   "Yiannakis Sazeides": {hpca:4,isca:4},
   "Yiran Chen": {asplos:3,micro:4,isca:7},
   "Youfeng Wu": {asplos:1,isca:2},
