@@ -588,7 +588,7 @@ affiliations: {
   "Konstantinos Kanellopoulos": {inst:"ETH Zurich",pid:"k/KonstantinosKanellopoulos"},
   "Juan Gomez-Luna": {inst:"ETH Zurich",pid:"g/JuanGomezLuna"},
   "Saugata Ghose": {inst:"UIUC",pid:"g/SaugataGhose"},
-  "Eduard Ayguade": {inst:"UPC Barcelona",pid:"a/EduardAyguade"},
+  "Eduard Ayguade": {inst:"UPC Barcelona",pid:"62/6835"},
   "Simha Sethumadhavan": {inst:"Columbia",pid:"46/652"},
   "Shubhendu S. Mukherjee": {inst:"Nvidia",pid:"m/ShubhenduSMukherjee"},
   "Steven K. Reinhardt": {inst:"AMD",pid:"r/StevenKReinhardt"},
