@@ -433,7 +433,8 @@ asplos: [
   {name:"Jingwen Leng",total:12,y:{2022:2,2023:1,2024:5,2025:2,2026:2}},
   {name:"Anand Sivasubramaniam",total:8,y:{2002:1,2006:1,2012:1,2014:1,2017:1,2024:1,2025:1,2026:1}},
   {name:"Henry M. Levy",total:8,y:{1991:1,1994:2,1996:2,2000:1,2024:1,2025:1}},
-  {name:"Rajiv Gupta",total:8,y:{1989:1,2000:1,2012:1,2017:2,2019:1,2023:2}}
+  {name:"Rajiv Gupta",total:8,y:{1989:1,2000:1,2012:1,2017:2,2019:1,2023:2}},
+  {name:"Mingyu Gao",total:12,y:{2017:1,2019:1,2020:1,2022:2,2023:3,2024:1,2025:3}}
 ],
 // Researcher affiliations and DBLP PIDs
 affiliations: {
@@ -510,7 +511,7 @@ affiliations: {
   "Mark Horowitz": {inst:"Stanford",pid:"h/MarkHorowitz"},
   "Tor M. Aamodt": {inst:"UBC",pid:"a/TorMAamodt"},
   "Hai Jin": {inst:"HUST",pid:"98/4156"},
-  "Mingyu Gao": {inst:"Tsinghua",pid:"61/7672"},
+  "Mingyu Gao": {inst:"Tsinghua",pid:"61/7672-1"},
   "Chao Li": {inst:"SJTU",pid:"49/1019-24"},
   "Minyi Guo": {inst:"SJTU",pid:"g/MinyiGuo"},
   "Jingwen Leng": {inst:"SJTU",pid:"189/5006"},
