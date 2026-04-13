@@ -919,7 +919,7 @@ toppicks_papers: [
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"Tandem Processor: Grappling With Emerging Operators in Neural Networks",authors:["Soroush Ghodrati","Sean Kinzer","Hanyang Xu","Rohan Mahapatra","Yoonsung Kim","Byung Hoon Ahn","Dong Kai Wang","Lavanya Karthikeyan","Amir Yazdanbakhsh","Jongse Park","Nam Sung Kim","Hadi Esmaeilzadeh"]},
   {year:2024,type:"HM",conf:"ASPLOS 2024",title:"SpotServe: Serving Generative Large Language Models on Preemptible Instances",authors:["Xupeng Miao","Chunan Shi","Jiangfei Duan","Xiaoli Xi","Dahua Lin","Bin Cui","Zhihao Jia"]},
   {year:2024,type:"HM",conf:"MICRO 2024",title:"MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker",authors:["Moinuddin K. Qureshi","Salman Qazi","Aamer Jaleel"]},
-  // 2003 conferences (IEEE Micro vol.24 no.1, Jan/Feb 2004) - FIRST Top Picks issue, no HM
+  // 2003 conferences (IEEE Micro vol.24 no.1, Jan/Feb 2004) - FIRST Top Picks issue, HM did not exist yet
   {year:2003,type:"TP",conf:"MICRO 2003",title:"Checkpoint Processing and Recovery: An Efficient, Scalable Alternative to Reorder Buffers",authors:["Haitham Akkary","Ravi Rajwar","Srikanth T. Srinivasan"]},
   {year:2003,type:"TP",conf:"MICRO 2003",title:"Runahead Execution: An Effective Alternative to Large Instruction Windows",authors:["Onur Mutlu","Jared Stark","Chris Wilkerson","Yale N. Patt"]},
   {year:2003,type:"TP",conf:"ASPLOS 2002",title:"The Jrpm System for Dynamically Parallelizing Sequential Java Programs",authors:["Michael K. Chen","Kunle Olukotun"]},
@@ -935,7 +935,7 @@ toppicks_papers: [
   {year:2003,type:"TP",conf:"ISCA 2003",title:"Token Coherence: A New Framework for Shared-Memory Multiprocessors",authors:["Milo M.K. Martin","Mark D. Hill","David A. Wood"]},
   {year:2003,type:"TP",conf:"ISCA 2003",title:"Transactional Execution: Toward Reliable, High-Performance Multithreading",authors:["Ravi Rajwar","James Goodman"]},
   {year:2003,type:"TP",conf:"ASPLOS 2002",title:"Speculative Synchronization: Programmability and Performance for Parallel Codes",authors:["Jose F. Martinez","Josep Torrellas"]},
-  // 2004 conferences (IEEE Micro vol.25 no.1, Jan/Feb 2005) - no HM data available
+  // 2004 conferences (IEEE Micro vol.25 no.1, Jan/Feb 2005) - HM did not exist yet (started in 2014)
   {year:2004,type:"TP",conf:"MICRO 2004",title:"Razor: Circuit-Level Correction of Timing Errors for Low-Power Operation",authors:["Dan Ernst","Shidhartha Das","Seokwoo Lee","David Blaauw","Todd Austin","Trevor Mudge","Nam Sung Kim","Krisztian Flautner"]},
   {year:2004,type:"TP",conf:"ASPLOS 2004",title:"Fingerprinting: Bounding Soft-Error-Detection Latency and Bandwidth",authors:["Jared C. Smolens","Brian T. Gold","Jangwoo Kim","Babak Falsafi","James C. Hoe","Andreas G. Nowatzyk"]},
   {year:2004,type:"TP",conf:"ISCA 2004",title:"Reducing the Soft-Error Rate of a High-Performance Microprocessor",authors:["Christopher T. Weaver","Joel Emer","Shubhendu S. Mukherjee","Steven K. Reinhardt"]},
@@ -948,7 +948,7 @@ toppicks_papers: [
   {year:2004,type:"TP",conf:"MICRO 2004",title:"Speculative Incoherent Cache Protocols",authors:["Jaehyuk Huh","Doug Burger","Jichuan Chang","Gurindar S. Sohi"]},
   {year:2004,type:"TP",conf:"ISCA 2004",title:"Memory Ordering: A Value-Based Approach",authors:["Harold W. Cain","Mikko H. Lipasti"]},
   {year:2004,type:"TP",conf:"ISCA 2004",title:"Scalable Hardware Memory Disambiguation for High-ILP Processors",authors:["Simha Sethumadhavan","Rajagopalan Desikan","Doug Burger","Charles R. Moore","Stephen W. Keckler"]},
-  // 2005 conferences (IEEE Micro vol.26 no.2, Mar/Apr 2006) - no HM data available
+  // 2005 conferences (IEEE Micro vol.26 no.2, Mar/Apr 2006) - HM did not exist yet (started in 2014)
   {year:2005,type:"TP",conf:"ISCA 2005",title:"Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance",authors:["Onur Mutlu","Hyesoon Kim","Yale N. Patt"]},
   {year:2005,type:"TP",conf:"ISCA 2005",title:"Adaptive History-Based Memory Schedulers for Modern Processors",authors:["Ibrahim Hur","Calvin Lin"]},
   {year:2005,type:"TP",conf:"MICRO 2005",title:"Scalable Load and Store Processing in Latency-Tolerant Processors",authors:["Amit Gandhi","Haitham Akkary","Ravi Rajwar","Srikanth T. Srinivasan","Konrad Lai"]},
@@ -962,7 +962,7 @@ toppicks_papers: [
   {year:2005,type:"TP",conf:"ISCA 2005",title:"Architectures for Bit-Split String Scanning in Intrusion Detection",authors:["Lin Tan","Timothy Sherwood"]},
   {year:2005,type:"TP",conf:"ASPLOS 2005",title:"Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance",authors:["Qiang Wu","Margaret Martonosi","Douglas W. Clark","Vijay Janapa Reddi","Dan Connors","Youfeng Wu","Jin Lee","David Brooks"]},
   {year:2005,type:"TP",conf:"MICRO 2005",title:"Temperature-Aware On-Chip Networks",authors:["Li Shang","Li-Shiuan Peh","Amit Kumar","Niraj K. Jha"]},
-  // 2006 conferences (IEEE Micro vol.27 no.1, Jan/Feb 2007) - no HM data available
+  // 2006 conferences (IEEE Micro vol.27 no.1, Jan/Feb 2007) - HM did not exist yet (started in 2014)
   {year:2006,type:"TP",conf:"MICRO 2006",title:"Patching Processor Design Errors with Programmable Hardware",authors:["Smruti Sarangi","Satish Narayanasamy","Bruce Carneal","Abhishek Tiwari","Brad Calder","Josep Torrellas"]},
   {year:2006,type:"TP",conf:"ASPLOS 2006",title:"AVIO: Detecting Atomicity Violations via Access-Interleaving Invariants",authors:["Shan Lu","Joseph Tucek","Feng Qin","Yuanyuan Zhou"]},
   {year:2006,type:"TP",conf:"ASPLOS 2006",title:"Automatic Instruction-Level Software-Only Recovery",authors:["George A. Reis","Jonathan Chang","David I. August"]},
@@ -974,7 +974,7 @@ toppicks_papers: [
   {year:2006,type:"TP",conf:"MICRO 2006",title:"Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication",authors:["Hyesoon Kim","Jose A. Joao","Onur Mutlu","Yale N. Patt"]},
   {year:2006,type:"TP",conf:"MICRO 2006",title:"NoSQ: Store-Load Communication without a Store Queue",authors:["Tingting Sha","Milo M.K. Martin","Amir Roth"]},
   {year:2006,type:"TP",conf:"MICRO 2006",title:"SODA: A High-Performance DSP Architecture for Software-Defined Radio",authors:["Yuan Lin","Hyunseok Lee","Mark Woh","Yoav Harel","Scott Mahlke","Trevor Mudge","Chaitali Chakrabarti","Krisztian Flautner"]},
-  // 2007 conferences (IEEE Micro vol.28 no.3, May/Jun 2008) - no HM data available
+  // 2007 conferences (IEEE Micro vol.28 no.3, May/Jun 2008) - HM did not exist yet (started in 2014)
   {year:2007,type:"TP",conf:"ASPLOS 2008",title:"Revisiting the Sequential Programming Model for the Multicore Era",authors:["Matthew J. Bridges","Neil Vachharajani","Yun Zhang","Thomas Jablin","David I. August"]},
   {year:2007,type:"TP",conf:"MICRO 2007",title:"Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation",authors:["Naveen Neelakantam","Ravi Rajwar","Suresh Srinivas","Uma Srinivasan","Craig Zilles"]},
   {year:2007,type:"TP",conf:"MICRO 2007",title:"MetaTM/TxLinux: Transactional Memory for an Operating System",authors:["Hany E. Ramadan","Christopher J. Rossbach","Donald E. Porter","Owen S. Hofmann","Aditya Bhandari","Emmett Witchel"]},
@@ -984,7 +984,7 @@ toppicks_papers: [
   {year:2007,type:"TP",conf:"MICRO 2007",title:"Toward Ideal On-Chip Communication Using Express Virtual Channels",authors:["Amit Kumar","Li-Shiuan Peh","Partha Kundu","Niraj K. Jha"]},
   {year:2007,type:"TP",conf:"ISCA 2007",title:"Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching",authors:["Moinuddin K. Qureshi","Aamer Jaleel","Yale N. Patt","Simon C. Steely Jr.","Joel Emer"]},
   {year:2007,type:"TP",conf:"ISCA 2007",title:"Virtual Hierarchies",authors:["Michael R. Marty","Mark D. Hill"]},
-  // 2008 conferences (IEEE Micro vol.29 no.3, May/Jun 2009) - no HM data available
+  // 2008 conferences (IEEE Micro vol.29 no.3, May/Jun 2009) - HM did not exist yet (started in 2014)
   {year:2008,type:"TP",conf:"SIGGRAPH 2008",title:"Larrabee: A Many-Core x86 Architecture for Visual Computing",authors:["Larry Seiler","Doug Carmean","Eric Sprangle","Tom Forsyth","Pradeep Dubey","Stephen Junkins","Adam Lake","Robert Cavin","Roger Espasa","Ed Grochowski","Toni Juan","Michael Abrash","Jeremy Sugerman","Pat Hanrahan"]},
   {year:2008,type:"TP",conf:"ISCA 2008",title:"Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Memory Controllers",authors:["Onur Mutlu","Thomas Moscibroda"]},
   {year:2008,type:"TP",conf:"ISCA 2008",title:"Cost-Efficient Dragonfly Topology for Large-Scale Systems",authors:["John Kim","William Dally","Steve Scott","Dennis Abts"]},
@@ -997,7 +997,7 @@ toppicks_papers: [
   {year:2008,type:"TP",conf:"MICRO 2008",title:"Mixed-Signal Approximate Computation: A Neural Predictor Case Study",authors:["Renee St. Amant","Daniel A. Jimenez","Doug Burger"]},
   {year:2008,type:"TP",conf:"ISCA 2008",title:"Temperature Variation Characterization and Thermal Management of Multicore Architectures",authors:["Eren Kursun","Chen-Yong Cher"]},
   {year:2008,type:"TP",conf:"ISCA 2008",title:"Revival: A Variation-Tolerant Architecture Using Voltage Interpolation and Variable Latency",authors:["Xiaoyao Liang","Gu-Yeon Wei","David Brooks"]},
-  // 2009 conferences (IEEE Micro vol.30 no.3, May/Jun 2010) - no HM data available
+  // 2009 conferences (IEEE Micro vol.30 no.3, May/Jun 2010) - HM did not exist yet (started in 2014)
   {year:2009,type:"TP",conf:"ISCA 2009",title:"iCFP: Tolerating All-Level Cache Misses in In-Order Processors",authors:["Andrew Hilton","Santosh Nagarakatte","Amir Roth"]},
   {year:2009,type:"TP",conf:"ISCA 2009",title:"Near-Optimal Cache Block Placement with Reactive Nonuniform Cache Architectures",authors:["Nikos Hardavellas","Michael Ferdman","Babak Falsafi","Anastasia Ailamaki"]},
   {year:2009,type:"TP",conf:"ISCA 2009",title:"A Task-Centric Memory Model for Scalable Accelerator Architectures",authors:["John H. Kelm","Daniel R. Johnson","Steven S. Lumetta","Sanjay J. Patel","Matthew I. Frank"]},
@@ -1011,7 +1011,7 @@ toppicks_papers: [
   {year:2009,type:"TP",conf:"ASPLOS 2009",title:"Architectural Implications of Nanoscale-Integrated Sensing and Computing",authors:["Constantin Pistol","Wutichai Chongchitmate","Christopher Dwyer","Alvin R. Lebeck"]},
   {year:2009,type:"TP",conf:"ASPLOS 2009",title:"Gordon: An Improved Architecture for Data-Intensive Applications",authors:["Adrian M. Caulfield","Laura M. Grupp","Steven Swanson"]},
   {year:2009,type:"TP",conf:"ISCA 2009",title:"Phase-Change Technology and the Future of Main Memory",authors:["Benjamin C. Lee","Ping Zhou","Jun Yang","Youtao Zhang","Bo Zhao","Engin Ipek","Onur Mutlu","Doug Burger"]},
-  // 2010 conferences (IEEE Micro vol.31 no.3, May/Jun 2011) - no HM data available
+  // 2010 conferences (IEEE Micro vol.31 no.3, May/Jun 2011) - HM did not exist yet (started in 2014)
   {year:2010,type:"TP",conf:"ISCA 2010",title:"Virtualized ECC: Flexible Reliability in Main Memory",authors:["Doe Hyun Yoon","Mattan Erez"]},
   {year:2010,type:"TP",conf:"ISCA 2010",title:"Voltage Noise in Production Processors",authors:["Vijay Janapa Reddi","Svilen Kanev","Wonyoung Kim","Simone Campanoni","Michael D. Smith","Gu-Yeon Wei","David Brooks"]},
   {year:2010,type:"TP",conf:"MICRO 2010",title:"Aergia: A Network-on-Chip Exploiting Packet Latency Slack",authors:["Reetuparna Das","Onur Mutlu","Thomas Moscibroda","Chita R. Das"]},
@@ -1023,7 +1023,7 @@ toppicks_papers: [
   {year:2010,type:"TP",conf:"ISCA 2010",title:"CHOP: Integrating DRAM Caches for CMP Server Platforms",authors:["Xiaowei Jiang","Niti Madan","Li Zhao","Mike Upton","Ravi Iyer","Srihari Makineni","Don Newell","Yan Solihin","Rajeev Balasubramonian"]},
   {year:2010,type:"TP",conf:"ASPLOS 2010",title:"Address Translation Aware Memory Consistency",authors:["Bogdan F. Romanescu","Alvin R. Lebeck","Daniel J. Sorin"]},
   {year:2010,type:"TP",conf:"ISCA 2010",title:"Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out",authors:["Nak Hee Seong","Dong Hyuk Woo","Hsien-Hsin S. Lee"]},
-  // 2011 conferences (IEEE Micro vol.32 no.3, May/Jun 2012) - no HM data available
+  // 2011 conferences (IEEE Micro vol.32 no.3, May/Jun 2012) - HM did not exist yet (started in 2014)
   {year:2011,type:"TP",conf:"MICRO 2011",title:"Kilo TM: Hardware Transactional Memory for GPU Architectures",authors:["Wilson W.L. Fung","Inderpreet Singh","Andrew Brownsword","Tor M. Aamodt"]},
   {year:2011,type:"TP",conf:"MICRO 2011",title:"A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips",authors:["Onur Mutlu","Stephen W. Keckler","Joe Hestness","Boris Grot"]},
   {year:2011,type:"TP",conf:"ISCA 2011",title:"Scalable and Efficient Fine-Grained Cache Partitioning with Vantage",authors:["Daniel Sanchez","Christos Kozyrakis"]},
@@ -1036,7 +1036,7 @@ toppicks_papers: [
   {year:2011,type:"TP",conf:"ISCA 2011",title:"Optical High Radix Switch Design",authors:["Jung Ho Ahn","Rob Schreiber","Naveen Muralimanohar","Norman P. Jouppi","Mike McLaren","Al Davis","Norm Binkert"]},
   {year:2011,type:"TP",conf:"ASPLOS 2011",title:"What is Happening to Power, Performance, and Software?",authors:["Hadi Esmaeilzadeh","Ting Cao","Xi Yang","Stephen M. Blackburn","Kathryn S. McKinley"]},
   {year:2011,type:"TP",conf:"ISCA 2011",title:"Dark Silicon and the End of Multicore Scaling",authors:["Hadi Esmaeilzadeh","Emily Blem","Renee St. Amant","Karthikeyan Sankaralingam","Doug Burger"]},
-  // 2012 conferences (IEEE Micro vol.33 no.3, May/Jun 2013) - no HM data available
+  // 2012 conferences (IEEE Micro vol.33 no.3, May/Jun 2013) - HM did not exist yet (started in 2014)
   {year:2012,type:"TP",conf:"HPCA 2012",title:"Designing for Responsiveness with Computational Sprinting",authors:["Arun Raghavan","Yixin Luo","Anuj Chandawalla","Marios Papaefthymiou","Kevin P. Pipe","Thomas F. Wenisch","Milo M.K. Martin"]},
   {year:2012,type:"TP",conf:"MICRO 2012",title:"Neural Acceleration for General-Purpose Approximate Programs",authors:["Hadi Esmaeilzadeh","Adrian Sampson","Luis Ceze","Doug Burger"]},
   {year:2012,type:"TP",conf:"ISCA 2012",title:"Scaling the Energy Proportionality Wall with KnightShift",authors:["Daniel Wong","Murali Annavaram"]},
@@ -1048,7 +1048,7 @@ toppicks_papers: [
   {year:2012,type:"TP",conf:"ISCA 2012",title:"Parallel Block Vectors: Collection, Analysis, and Uses",authors:["Melanie Kambadur","Kui Tang","Martha A. Kim"]},
   {year:2012,type:"TP",conf:"ASPLOS 2012",title:"A Safety-First Approach to Memory Models",authors:["Abhayendra Singh","Satish Narayanasamy","Daniel Marino","Todd Millstein","Madanlal Musuvathi"]},
   {year:2012,type:"TP",conf:"ISCA 2012",title:"Programmable DDRx Controllers",authors:["Mahdi Nazm Bojnordi","Engin Ipek"]},
-  // 2013 conferences (IEEE Micro vol.34 no.3, May/Jun 2014) - no HM data available
+  // 2013 conferences (IEEE Micro vol.34 no.3, May/Jun 2014) - HM did not exist yet (started in 2014)
   {year:2013,type:"TP",conf:"ISCA 2013",title:"Designing and Managing Data Centers Powered by Renewable Energy",authors:["Inigo Goiri","William Katsak","Kien Le","Thu D. Nguyen","Ricardo Bianchini"]},
   {year:2013,type:"TP",conf:"ASPLOS 2013",title:"Quality-of-Service-Aware Scheduling in Heterogeneous Datacenters with Paragon",authors:["Christina Delimitrou","Christos Kozyrakis"]},
   {year:2013,type:"TP",conf:"ISCA 2013",title:"A Case for Specialized Processors for Scale-Out Workloads",authors:["Michael Ferdman","Almutaz Adileh","Onur Kocberber","Stavros Volos","Mohammad Alisafaee","Djordje Jevdjic","Cansu Kaynak","Adrian Daniel Popescu","Anastasia Ailamaki","Babak Falsafi"]},
