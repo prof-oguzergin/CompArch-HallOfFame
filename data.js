@@ -621,7 +621,7 @@ affiliations: {
   "David W. Nellans": {inst:"NVIDIA",pid:"n/DavidWNellans"},
   "Ahmed Louri": {inst:"GWU",pid:"17/5827"},
   "Rui Hou": {inst:"ICT-CAS",pid:"h/RuiHou"},
-  "Lixin Zhang": {inst:"ICT-CAS",pid:"z/LixinZhang"},
+  "Lixin Zhang": {inst:"ICT-CAS",pid:"52/5615-2"},
   "Xiaofei Liao": {inst:"HUST",pid:"l/XiaofeiLiao"},
   "Lizhong Chen": {inst:"Oregon State",pid:"c/LizhongChen"},
   "Mike O'Connor": {inst:"NVIDIA / UT Austin",pid:"o/MikeOConnor"},
