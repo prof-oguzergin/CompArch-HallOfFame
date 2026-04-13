@@ -296,7 +296,7 @@ function renderHeatmap(venue) {
     html += `</tr></thead><tbody>`;
 
     filtered.forEach((d, i) => {
-        html += `<tr><td class="rank-cell">${medal(i+1)}</td><td class="name-cell">${d.name}</td><td class="total-cell">${d.total}</td>`;
+        html += `<tr><td class="rank-cell">${medal(i+1)}</td><td class="name-cell"><a href="https://dblp.org/search?q=${encodeURIComponent(d.name)}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${d.name}</a></td><td class="total-cell">${d.total}</td>`;
         years.forEach(y => {
             const v = d.y[y] || 0;
             html += `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
@@ -337,7 +337,7 @@ function renderCombined() {
         if (d.micro>=8) badges.push('<span title="MICRO" style="color:var(--accent-micro)">★</span>');
         if (d.asplos>=8) badges.push('<span title="ASPLOS" style="color:var(--accent-asplos)">★</span>');
         if (d.hpca>=8) badges.push('<span title="HPCA" style="color:var(--accent-hpca)">★</span>');
-        return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td>${d.name}</td>
+        return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td><a href="https://dblp.org/search?q=${encodeURIComponent(d.name)}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${d.name}</a></td>
             <td class="count">${d.total}</td>
             <td class="count" style="color:var(--accent-isca)">${d.isca||'-'}</td>
             <td class="count" style="color:var(--accent-micro)">${d.micro||'-'}</td>
@@ -393,7 +393,7 @@ function renderTopPicks() {
         }).join('');
         return `<tr>
             <td class="rank-cell">${medal(i+1)}</td>
-            <td class="name-cell">${a.name}</td>
+            <td class="name-cell"><a href="https://dblp.org/search?q=${encodeURIComponent(a.name)}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${a.name}</a></td>
             <td class="total-cell">${a.tp}</td>
             ${yearCells}
         </tr>`;
