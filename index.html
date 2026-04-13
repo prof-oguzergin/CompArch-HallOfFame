@@ -213,7 +213,8 @@ function norm(n) {
         .replace('daniel sánchez','daniel sanchez')
         .replace('andré seznec','andre seznec')
         .replace('per stenström','per stenstrom')
-        .replace('a giray yaglikci','abdullah giray yaglikci');
+        .replace('a giray yaglikci','abdullah giray yaglikci')
+        .replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ç/g,'c').replace(/ş/g,'s').replace(/ö/g,'o').replace(/ü/g,'u');
 }
 function bestName(names) { return names.sort((a,b)=>b.length-a.length)[0]; }
 
