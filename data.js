@@ -712,7 +712,7 @@ crossvenue: {
   "Chris Wilkerson": {asplos:2,hpca:5},
   "Christina Delimitrou": {hpca:6,isca:4,micro:1},
   "Christoforos E. Kozyrakis": {micro:2},
-  "Christopher Batten": {asplos:1,hpca:3},
+  "Christopher Batten": {asplos:1,hpca:3,isca:7},
   "Christopher J. Hughes": {asplos:1,hpca:4,micro:5},
   "Christopher W. Fletcher": {hpca:1},
   "Daehoon Kim": {hpca:3},
