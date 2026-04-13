@@ -695,7 +695,7 @@ crossvenue: {
   "Amir Yazdanbakhsh": {asplos:3,hpca:1,micro:2},
   "Amro Awad": {asplos:1,isca:6,micro:7},
   "Anand Sivasubramaniam": {micro:7},
-  "Anant Agarwal": {hpca:4},
+  "Anant Agarwal": {hpca:4,asplos:6},
   "Andreas Moshovos": {asplos:6,hpca:6},
   "Andrew R. Pleszkun": {micro:5},
   "André Seznec": {asplos:2},
