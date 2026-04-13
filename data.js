@@ -623,7 +623,7 @@ affiliations: {
   "Leibo Liu": {inst:"Tsinghua",pid:"l/LeiboLiu"},
   "Shaojun Wei": {inst:"Tsinghua",pid:"w/ShaojunWei"},
   "Tianshi Chen": {inst:"CASIA",pid:"c/TianshiChen"},
-  "Yiannakis Sazeides": {inst:"U Cyprus",pid:"s/YiannakisSazeides"},
+  "Yiannakis Sazeides": {inst:"U Cyprus",pid:"38/1130"},
   "Timothy G. Rogers": {inst:"Purdue",pid:"r/TimothyGRogers"},
   "Nathan Beckmann": {inst:"CMU",pid:"b/NathanBeckmann"},
   "Arkaprava Basu": {inst:"IISc Bangalore",pid:"b/ArkapravaBasu"},
