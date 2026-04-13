@@ -640,7 +640,7 @@ affiliations: {
   "Mengjia Yan": {inst:"MIT",pid:"y/MengjiaYan"},
   "Yang Hu": {inst:"U Rochester",pid:"h/YangHu2"},
   "Mohammad Alian": {inst:"U Kansas",pid:"a/MohammadAlian"},
-  "Swamit Tannu": {inst:"UW-Madison",pid:"t/SwamitTannu"},
+  "Swamit Tannu": {inst:"UW-Madison",pid:"207/1837"},
   "Yuhao Zhu": {inst:"U Rochester",pid:"z/YuhaoZhu"},
   "Changhee Jung": {inst:"Purdue",pid:"j/ChangheeJung"},
   "Guangyu Sun": {inst:"Peking U",pid:"29/6473-3"},
