@@ -589,7 +589,7 @@ affiliations: {
   "Juan Gomez-Luna": {inst:"ETH Zurich",pid:"g/JuanGomezLuna"},
   "Saugata Ghose": {inst:"UIUC",pid:"g/SaugataGhose"},
   "Eduard Ayguade": {inst:"UPC Barcelona",pid:"a/EduardAyguade"},
-  "Simha Sethumadhavan": {inst:"Columbia",pid:"s/SimhaSethumadhavan"},
+  "Simha Sethumadhavan": {inst:"Columbia",pid:"46/652"},
   "Shubhendu S. Mukherjee": {inst:"Nvidia",pid:"m/ShubhenduSMukherjee"},
   "Steven K. Reinhardt": {inst:"AMD",pid:"r/StevenKReinhardt"},
   "Phillip B. Gibbons": {inst:"CMU",pid:"g/PhillipBGibbons"},
