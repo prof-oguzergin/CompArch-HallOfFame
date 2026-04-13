@@ -429,6 +429,7 @@ asplos: [
 // Cross-venue counts for HoF members at venues where they have <8 papers
 // These are NOT in that venue's HoF but we show the count in the combined table
 crossvenue: {
+  "A. Giray Yaglikci": {micro:7},
   "Aamer Jaleel": {asplos:2},
   "Abhishek Bhattacharjee": {hpca:3,micro:7},
   "Adrián Cristal": {asplos:2,isca:5,micro:6},
