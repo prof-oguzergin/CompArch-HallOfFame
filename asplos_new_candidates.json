@@ -1,0 +1,2953 @@
+[
+  {
+    "name": "A. Giray Yaglikci",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Aamer Jaleel",
+    "total": 2,
+    "years": {
+      "2023": 1,
+      "2012": 1
+    },
+    "titles": [
+      "  [2023] Accelerating Sparse Data Orchestration via Dynamic Reflexive Tiling.",
+      "  [2012] CRUISE: cache replacement and utility-aware scheduling."
+    ]
+  },
+  {
+    "name": "Adrián Cristal",
+    "total": 2,
+    "years": {
+      "2022": 1,
+      "2010": 1
+    },
+    "titles": [
+      "  [2022] BiSon-e: a lightweight and high-performance accelerator for narrow integer linear algebra computing on the edge.",
+      "  [2010] Dynamic filtering: multi-purpose architecture support for language runtime systems."
+    ]
+  },
+  {
+    "name": "Ahmed Louri",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Alberto Ros",
+    "total": 2,
+    "years": {
+      "2026": 1,
+      "2024": 1
+    },
+    "titles": [
+      "  [2026] ICARUS: Criticality and Reuse based Instruction Caching for Datacenter Applications.",
+      "  [2024] Bounding Speculative Execution of Atomic Regions to a Single Retry."
+    ]
+  },
+  {
+    "name": "Alper Buyuktosunoglu",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Amir Roth",
+    "total": 1,
+    "years": {
+      "1998": 1
+    },
+    "titles": [
+      "  [1998] Dependance Based Prefetching for Linked Data Structures."
+    ]
+  },
+  {
+    "name": "Amir Yazdanbakhsh",
+    "total": 3,
+    "years": {
+      "2024": 2,
+      "2023": 1
+    },
+    "titles": [
+      "  [2024] Tandem Processor: Grappling with Emerging Operators in Neural Networks.",
+      "  [2024] In-Storage Domain-Specific Acceleration for Serverless Computing.",
+      "  [2023] FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks."
+    ]
+  },
+  {
+    "name": "Amro Awad",
+    "total": 1,
+    "years": {
+      "2016": 1
+    },
+    "titles": [
+      "  [2016] Silent Shredder: Zero-Cost Shredding for Secure Non-Volatile Main Memory Controllers."
+    ]
+  },
+  {
+    "name": "Anand Sivasubramaniam",
+    "total": 8,
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2024": 1,
+      "2017": 1,
+      "2014": 1,
+      "2012": 1,
+      "2006": 1,
+      "2002": 1
+    },
+    "titles": [
+      "  [2026] Asynchrony and GPUs: Bridging this Dichotomy for I/O with AGIO.",
+      "  [2025] Pirate: No Compromise Low-Bandwidth VR Streaming for Edge Devices.",
+      "  [2024] GMT: GPU Orchestrated Memory Tiering for the Big Data Era.",
+      "  [2017] Exploiting Intra-Request Slack to Improve SSD Performance.",
+      "  [2014] Underprovisioning backup power infrastructure for datacenters.",
+      "  [2012] Leveraging stored energy for handling power emergencies in aggressively provisioned datacenters.",
+      "  [2006] SlicK: slice-based locality exploitation for efficient redundant multithreading.",
+      "  [2002] Understanding and improving operating system effects in control flow prediction."
+    ]
+  },
+  {
+    "name": "Anant Agarwal",
+    "total": 7,
+    "years": {
+      "2011": 1,
+      "2006": 1,
+      "1998": 1,
+      "1994": 1,
+      "1992": 1,
+      "1991": 1,
+      "1989": 1
+    },
+    "titles": [
+      "  [2011] Dynamic knobs for responsive power-aware computing.",
+      "  [2006] Software-based instruction caching for embedded processors.",
+      "  [1998] ASPLOS-VIII Proceedings of the 8th International Conference on Architectural Support for Programming Languages and Operating Systems, San Jose, California, USA, October 3-7, 1998.",
+      "  [1994] Reactive Synchronization Algorithms for Multiprocessors.",
+      "  [1992] Closing the Window of Vulnerability in Multiphase Memory Transactions.",
+      "  [1991] LimitLESS Directories: A Scalable Cache Coherence Scheme.",
+      "  [1989] Evaluating the Performance of Software Cache Coherence."
+    ]
+  },
+  {
+    "name": "Andre Seznec",
+    "total": 2,
+    "years": {
+      "2024": 1,
+      "1996": 1
+    },
+    "titles": [
+      "  [2024] PDIP: Priority Directed Instruction Prefetching.",
+      "  [1996] Multiple-Block Ahead Branch Predictors."
+    ]
+  },
+  {
+    "name": "Andreas Moshovos",
+    "total": 6,
+    "years": {
+      "2024": 2,
+      "2019": 1,
+      "2009": 1,
+      "2008": 1,
+      "1998": 1
+    },
+    "titles": [
+      "  [2024] Atalanta: A Bit is Worth a &quot;Thousand&quot; Tensor Values.",
+      "  [2024] Marple: Scalable Spike Sorting for Untethered Brain-Machine Interfacing.",
+      "  [2019] Bit-Tactical: A Software/Hardware Approach to Exploiting Value and Bit Sparsity in Neural Networks.",
+      "  [2009] Phantom-BTB: a virtualized branch target buffer design.",
+      "  [2008] Predictor virtualization.",
+      "  [1998] Dependance Based Prefetching for Linked Data Structures."
+    ]
+  },
+  {
+    "name": "Andrew R. Pleszkun",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "André Seznec",
+    "total": 2,
+    "years": {
+      "2024": 1,
+      "1996": 1
+    },
+    "titles": [
+      "  [2024] PDIP: Priority Directed Instruction Prefetching.",
+      "  [1996] Multiple-Block Ahead Branch Predictors."
+    ]
+  },
+  {
+    "name": "Ang Li",
+    "total": 12,
+    "years": {
+      "2026": 3,
+      "2025": 3,
+      "2024": 2,
+      "2020": 1,
+      "2017": 1,
+      "2013": 1,
+      "1998": 1
+    },
+    "titles": [
+      "  [2026] Static Analysis for Efficient Streaming Tokenization.",
+      "  [2026] CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting.",
+      "  [2026] TetriServe: Efficiently Serving Mixed DiT Workloads.",
+      "  [2025] PowerMove: Optimizing Compilation for Neutral Atom Quantum Computers with Zoned Architecture.",
+      "  [2025] HetEC: Architectures for Heterogeneous Quantum Error Correction Codes.",
+      "  [2025] QECC-Synth: A Layout Synthesizer for Quantum Error Correction Codes on Sparse Architectures.",
+      "  [2024] Red-QAOA: Efficient Variational Optimization through Circuit Reduction.",
+      "  [2024] RAP: Resource-aware Automated GPU Sharing for Multi-GPU Recommendation Model Training and Input Preprocessing.",
+      "  [2020] BYOC: A &quot;Bring Your Own Core&quot; Framework for Heterogeneous-ISA Research.",
+      "  [2017] Locality-Aware CTA Clustering for Modern GPUs.",
+      "  [2013] ConAir: featherweight concurrency bug recovery via single-threaded idempotent execution.",
+      "  [1998] UTLB: A Mechanism for Address Translation on Network Interfaces."
+    ]
+  },
+  {
+    "name": "Antonio Gonzalez",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Antonio González",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Arkaprava Basu",
+    "total": 3,
+    "years": {
+      "2023": 1,
+      "2022": 1,
+      "2021": 1
+    },
+    "titles": [
+      "  [2023] Scoped Buffered Persistency Model for GPUs.",
+      "  [2022] GPM: leveraging persistent memory from a GPU.",
+      "  [2021] Fast local page-tables for virtualized NUMA servers with vMitosis."
+    ]
+  },
+  {
+    "name": "Arvind",
+    "total": 10,
+    "years": {
+      "2021": 1,
+      "2019": 1,
+      "2012": 1,
+      "2026": 1,
+      "2024": 1,
+      "2017": 1,
+      "2016": 2,
+      "2008": 1,
+      "1996": 1
+    },
+    "titles": [
+      "  [2021] Effective simulation and debugging for a high-level hardware language using software compilers.",
+      "  [2019] LightStore: Software-defined Network-attached Key-value Drives.",
+      "  [2012] Automatic generation of hardware/software interfaces.",
+      "  [2026] SG-IOV: Socket-Granular I/O Virtualization for SmartNIC-Based Container Networks.",
+      "  [2024] CC-NIC: a Cache-Coherent Interface to the NIC.",
+      "  [2017] IncBricks: Toward In-Network Computation with an In-Network Cache.",
+      "  [2016] Specifying and Checking File System Crash-Consistency Models.",
+      "  [2016] High Performance Packet Processing with FlexNIC.",
+      "  [2008] How low can you go?: recommendations for hardware-supported minimal TCB code execution.",
+      "  [1996] Evaluation of Architectural Support for Global Address-Based Communication in Large-Scale Parallel Machines."
+    ]
+  },
+  {
+    "name": "Ataberk Olgun",
+    "total": 1,
+    "years": {
+      "2022": 1
+    },
+    "titles": [
+      "  [2022] GenStore: a high-performance in-storage processing system for genome sequence analysis."
+    ]
+  },
+  {
+    "name": "Benjamin C. Lee",
+    "total": 10,
+    "years": {
+      "2011": 1,
+      "2010": 1,
+      "2026": 2,
+      "2023": 1,
+      "2016": 1,
+      "2014": 1,
+      "2008": 1,
+      "2006": 1,
+      "1998": 1
+    },
+    "titles": [
+      "  [2011] DoublePlay: parallelizing sequential logging and replay.",
+      "  [2010] Respec: efficient online multiprocessor replayvia speculation and external determinism.",
+      "  [2026] Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1, ASPLOS 2026, Pittsburgh, PA, USA, March 22-26, 2026",
+      "  [2026] Proceedings of the 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2, ASPLOS 2026, Pittsburgh, PA, USA, March 22-26, 2026",
+      "  [2023] Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters.",
+      "  [2016] The Computational Sprinting Game.",
+      "  [2014] REF: resource elasticity fairness with sharing incentives for multiprocessors.",
+      "  [2008] Efficiency trends and limits from comprehensive microarchitectural adaptivity.",
+      "  [2006] Accurate and efficient regression modeling for microarchitectural performance and power prediction.",
+      "  [1998] Overlapping Execution with Transfer Using Non-Strict Execution for Mobile Programs."
+    ]
+  },
+  {
+    "name": "Bob Ramakrishna Rau",
+    "total": 3,
+    "years": {
+      "1992": 1,
+      "1991": 1,
+      "1982": 1
+    },
+    "titles": [
+      "  [1992] Sentinel Scheduling for VLIW and Superscalar Processors.",
+      "  [1991] ASPLOS-IV Proceedings - Forth International Conference on Architectural Support for Programming Languages and Operating Systems, Santa Clara, California, USA, April 8-11, 1991.",
+      "  [1982] Architectural Support for the Efficient Generation of Code for Horizontal Architectures."
+    ]
+  },
+  {
+    "name": "Bogong Su",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Boris Grot",
+    "total": 6,
+    "years": {
+      "2025": 1,
+      "2021": 2,
+      "2020": 1,
+      "2018": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2025] Hierarchical Prefetching: A Software-Hardware Instruction Prefetcher for Server Applications.",
+      "  [2021] PTEMagnet: fine-grained physical memory reservation for faster page walks in public clouds.",
+      "  [2021] Benchmarking, analysis, and optimization of serverless function snapshots.",
+      "  [2020] Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol.",
+      "  [2018] Blasting through the Front-End Bottleneck with Shotgun.",
+      "  [2014] Scale-out NUMA."
+    ]
+  },
+  {
+    "name": "Brad Calder",
+    "total": 7,
+    "years": {
+      "2014": 1,
+      "2006": 2,
+      "2002": 1,
+      "1998": 2,
+      "1994": 1
+    },
+    "titles": [
+      "  [2014] Inside windows azure: the challenges and opportunities of a cloud operating system.",
+      "  [2006] Unbounded page-based transactional memory.",
+      "  [2006] Recording shared memory dependencies using strata.",
+      "  [2002] Automatically characterizing large scale program behavior.",
+      "  [1998] Cache-Conscious Data Placement.",
+      "  [1998] Overlapping Execution with Transfer Using Non-Strict Execution for Mobile Programs.",
+      "  [1994] Reducing Branch Costs via Branch Alignment."
+    ]
+  },
+  {
+    "name": "Carole-Jean Wu",
+    "total": 4,
+    "years": {
+      "2023": 2,
+      "2022": 1,
+      "2021": 1
+    },
+    "titles": [
+      "  [2023] Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters.",
+      "  [2023] MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation.",
+      "  [2022] RecShard: statistical feature-based memory optimization for industry-scale neural recommendation.",
+      "  [2021] RecSSD: near data processing for solid state drive based recommendation inference."
+    ]
+  },
+  {
+    "name": "Changhee Jung",
+    "total": 4,
+    "years": {
+      "2021": 1,
+      "2019": 1,
+      "2017": 1,
+      "2016": 1
+    },
+    "titles": [
+      "  [2021] PMEM-spec: persistent memory speculation (strict persistency can trump relaxed persistency).",
+      "  [2019] BOGO: Buy Spatial Memory Safety, Get Temporal Memory Safety (Almost) Free.",
+      "  [2017] ProRace: Practical Data Race Detection for Production Use.",
+      "  [2016] TxRace: Efficient Data Race Detection Using Commodity Hardware Transactional Memory."
+    ]
+  },
+  {
+    "name": "Chao Li",
+    "total": 15,
+    "years": {
+      "2025": 2,
+      "2023": 3,
+      "2024": 6,
+      "2026": 2,
+      "2022": 1,
+      "2015": 1
+    },
+    "titles": [
+      "  [2025] Fault Escaping: Improving Robustness of DPU Enhanced Platform with Mutual Assisted VM Recovery.",
+      "  [2023] Persistent Memory Disaggregation for Cloud-Native Relational Databases.",
+      "  [2025] EXIST: Enabling Extremely Efficient Intra-Service Tracing Observability in Datacenters.",
+      "  [2024] FaaSGraph: Enabling Scalable, Efficient, and Cost-Effective Graph Processing with Serverless Computing.",
+      "  [2023] uGrapher: High-Performance Graph Operator Computation via Unified Abstraction for Graph Neural Networks.",
+      "  [2026] MoE-APEX: An Efficient MoE Inference System with Adaptive Precision Expert Offloading.",
+      "  [2024] Centauri: Enabling Efficient Scheduling for Communication-Computation Overlap in Large Model Training via Communication Partitioning.",
+      "  [2024] Amanda: Unified Instrumentation Framework for Deep Neural Networks.",
+      "  [2024] Fractal: Joint Multi-Level Sparse Pattern Tuning of Accuracy and Performance for DNN Pruning.",
+      "  [2024] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.",
+      "  [2023] LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives.",
+      "  [2022] VELTAIR: towards high-performance multi-tenant deep learning services via adaptive compilation and scheduling.",
+      "  [2026] JOSer: Just-In-Time Object Serialization for Heavy Java Serialization Workloads.",
+      "  [2024] NetRen: Service Migration-Driven Network Renascence with Synthesizing Updated Configuration.",
+      "  [2015] Automated OS-level Device Runtime Power Management."
+    ]
+  },
+  {
+    "name": "Chita R. Das",
+    "total": 6,
+    "years": {
+      "2013": 1,
+      "2025": 2,
+      "2019": 1,
+      "2017": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2013] OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance.",
+      "  [2025] Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs.",
+      "  [2025] Pirate: No Compromise Low-Bandwidth VR Streaming for Edge Devices.",
+      "  [2019] SOML Read: Rethinking the Read Operation Granularity of 3D NAND SSDs.",
+      "  [2017] Exploiting Intra-Request Slack to Improve SSD Performance.",
+      "  [2014] Application-aware Memory System for Fair and Efficient Execution of Concurrent GPGPU Applications."
+    ]
+  },
+  {
+    "name": "Chris Wilkerson",
+    "total": 2,
+    "years": {
+      "2017": 1,
+      "1996": 1
+    },
+    "titles": [
+      "  [2017] Kill the Program Counter: Reconstructing Program Behavior in the Processor Cache Hierarchy.",
+      "  [1996] Value Locality and Load Value Prediction."
+    ]
+  },
+  {
+    "name": "Christoforos E. Kozyrakis",
+    "total": 19,
+    "years": {
+      "2025": 1,
+      "2022": 3,
+      "2021": 1,
+      "2020": 2,
+      "2019": 1,
+      "2017": 3,
+      "2016": 2,
+      "2014": 1,
+      "2013": 1,
+      "2011": 1,
+      "2010": 1,
+      "2006": 1,
+      "2004": 1
+    },
+    "titles": [
+      "  [2025] Wave: Offloading Resource Management to SmartNIC Cores.",
+      "  [2022] RecShard: statistical feature-based memory optimization for industry-scale neural recommendation.",
+      "  [2022] SOL: safe on-node learning in cloud platforms.",
+      "  [2022] ShEF: shielded enclaves for cloud FPGAs.",
+      "  [2021] ASPLOS &apos;21: 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Virtual Event, USA, April 19-23, 2021",
+      "  [2020] Classifying Memory Access Patterns for Prefetching.",
+      "  [2020] Interstellar: Using Halide&apos;s Scheduling Language to Analyze DNN Accelerators.",
+      "  [2019] TANGRAM: Optimized Coarse-Grained Dataflow for Scalable NN Accelerators.",
+      "  [2017] Bolt: I Know What You Did Last Summer... In The Cloud.",
+      "  [2017] TETRIS: Scalable and Efficient Neural Network Acceleration with 3D Memory.",
+      "  [2017] ReFlex: Remote Flash ≈ Local Flash.",
+      "  [2016] HCloud: Resource-Efficient Provisioning in Shared Cloud Systems.",
+      "  [2016] Generating Configurable Hardware from Parallel Patterns.",
+      "  [2014] Quasar: resource-efficient and QoS-aware cluster management.",
+      "  [2013] Paragon: QoS-aware scheduling for heterogeneous datacenters.",
+      "  [2011] Hardware acceleration of transactional memory on commodity systems.",
+      "  [2010] Flexible architectural support for fine-grain scheduling.",
+      "  [2006] Tradeoffs in transactional memory virtualization.",
+      "  [2004] Programming with transactional coherence and consistency (TCC)."
+    ]
+  },
+  {
+    "name": "Christopher Batten",
+    "total": 1,
+    "years": {
+      "2023": 1
+    },
+    "titles": [
+      "  [2023] Beyond Static Parallel Loops: Supporting Dynamic Task Parallelism on Manycore Architectures with Software-Managed Scratchpad Memories."
+    ]
+  },
+  {
+    "name": "Christopher J. Hughes",
+    "total": 1,
+    "years": {
+      "2002": 1
+    },
+    "titles": [
+      "  [2002] Joint local and global hardware adaptations for energy."
+    ]
+  },
+  {
+    "name": "Christos A. Papachristou",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Daehoon Kim",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Daniel A. Jimenez",
+    "total": 3,
+    "years": {
+      "2025": 2,
+      "2017": 1
+    },
+    "titles": [
+      "  [2025] Skia: Exposing Shadow Branches.",
+      "  [2025] Instruction-Aware Cooperative TLB and Cache Replacement Policies.",
+      "  [2017] Kill the Program Counter: Reconstructing Program Behavior in the Processor Cache Hierarchy."
+    ]
+  },
+  {
+    "name": "Daniel A. Jiménez",
+    "total": 3,
+    "years": {
+      "2025": 2,
+      "2017": 1
+    },
+    "titles": [
+      "  [2025] Skia: Exposing Shadow Branches.",
+      "  [2025] Instruction-Aware Cooperative TLB and Cache Replacement Policies.",
+      "  [2017] Kill the Program Counter: Reconstructing Program Behavior in the Processor Cache Hierarchy."
+    ]
+  },
+  {
+    "name": "Daniel J. Sorin",
+    "total": 2,
+    "years": {
+      "2000": 1,
+      "2010": 1
+    },
+    "titles": [
+      "  [2000] Timestamp snooping: an approach for extending SMPs.",
+      "  [2010] Specifying and dynamically verifying address translation-aware memory consistency."
+    ]
+  },
+  {
+    "name": "Daniel Sánchez",
+    "total": 10,
+    "years": {
+      "2020": 3,
+      "2025": 1,
+      "2024": 1,
+      "2021": 1,
+      "2019": 1,
+      "2016": 1,
+      "2014": 1,
+      "2010": 1
+    },
+    "titles": [
+      "  [2020] Safecracker: Leaking Secrets through Compressed Caches.",
+      "  [2025] Hopps: Leveraging Sparsity to Accelerate Automata Processing.",
+      "  [2024] BitPacker: Enabling High Arithmetic Efficiency in Fully Homomorphic Encryption Accelerators.",
+      "  [2021] Gamma: leveraging Gustavson&apos;s algorithm to accelerate sparse matrix multiplication.",
+      "  [2020] Chronos: Efficient Speculative Parallelism for Accelerators.",
+      "  [2020] Livia: Data-Centric Computing Throughout the Memory Hierarchy.",
+      "  [2019] Compress Objects, Not Cache Lines: An Object-Based Compressed Memory Hierarchy.",
+      "  [2016] Whirlpool: Improving Dynamic Cache Management with Static Data Classification.",
+      "  [2014] Ubik: efficient cache sharing with strict qos for latency-critical workloads.",
+      "  [2010] Flexible architectural support for fine-grain scheduling."
+    ]
+  },
+  {
+    "name": "David A. Patterson",
+    "total": 3,
+    "years": {
+      "2015": 1,
+      "1989": 1,
+      "1991": 1
+    },
+    "titles": [
+      "  [2015] DIABLO: A Warehouse-Scale Computer Network Simulator using FPGAs.",
+      "  [1989] Failure Correction Techniques for Large Disk Arrays.",
+      "  [1991] ASPLOS-IV Proceedings - Forth International Conference on Architectural Support for Programming Languages and Operating Systems, Santa Clara, California, USA, April 8-11, 1991."
+    ]
+  },
+  {
+    "name": "David Blaauw",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "David E. Culler",
+    "total": 7,
+    "years": {
+      "2025": 1,
+      "2024": 1,
+      "1996": 1,
+      "1991": 1,
+      "2023": 1,
+      "2002": 1,
+      "2000": 1
+    },
+    "titles": [
+      "  [2025] Wave: Offloading Resource Management to SmartNIC Cores.",
+      "  [2024] CC-NIC: a Cache-Coherent Interface to the NIC.",
+      "  [1996] Evaluation of Architectural Support for Global Address-Based Communication in Large-Scale Parallel Machines.",
+      "  [1991] Fine-Grain Parallelism with Minimal Hardware Support: A Compiler-Controlled Threaded Abstract Machine.",
+      "  [2023] Towards an Adaptable Systems Architecture for Memory Tiering at Warehouse-Scale.",
+      "  [2002] Maté: a tiny virtual machine for sensor networks.",
+      "  [2000] System Architecture Directions for Networked Sensors."
+    ]
+  },
+  {
+    "name": "David H. Albonesi",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "David T. Blaauw",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "David W. Nellans",
+    "total": 3,
+    "years": {
+      "2015": 1,
+      "2019": 1,
+      "2010": 1
+    },
+    "titles": [
+      "  [2015] Page Placement Strategies for GPUs within Heterogeneous Memory Systems.",
+      "  [2019] Nimble Page Management for Tiered Memory Systems.",
+      "  [2010] Micro-pages: increasing DRAM efficiency with locality-aware data placement."
+    ]
+  },
+  {
+    "name": "David Wentzlaff",
+    "total": 4,
+    "years": {
+      "2023": 1,
+      "2020": 1,
+      "2016": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2023] SMAPPIC: Scalable Multi-FPGA Architecture Prototype Platform in the Cloud.",
+      "  [2020] BYOC: A &quot;Bring Your Own Core&quot; Framework for Heterogeneous-ISA Research.",
+      "  [2016] OpenPiton: An Open Source Manycore Research Framework.",
+      "  [2014] The sharing architecture: sub-core configurability for IaaS clouds."
+    ]
+  },
+  {
+    "name": "Dirk Grunwald",
+    "total": 3,
+    "years": {
+      "2002": 1,
+      "1996": 1,
+      "1994": 1
+    },
+    "titles": [
+      "  [2002] A stateless, content-directed data prefetching mechanism.",
+      "  [1996] Whole-Program Optimization for Time and Space Efficient Threads.",
+      "  [1994] Reducing Branch Costs via Branch Alignment."
+    ]
+  },
+  {
+    "name": "Donghyuk Lee",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Eduard Ayguade",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Edward S. Davidson",
+    "total": 1,
+    "years": {
+      "1991": 1
+    },
+    "titles": [
+      "  [1991] Vector Register Design for Polycyclic Vector Scheduling."
+    ]
+  },
+  {
+    "name": "Engin Ipek",
+    "total": 3,
+    "years": {
+      "2017": 1,
+      "2010": 1,
+      "2006": 1
+    },
+    "titles": [
+      "  [2017] Voltage Regulator Efficiency Aware Power Management.",
+      "  [2010] Dynamically replicated memory: building reliable systems from nanoscale resistive memories.",
+      "  [2006] Efficiently exploring architectural design spaces via predictive modeling."
+    ]
+  },
+  {
+    "name": "Eric Rotenberg",
+    "total": 2,
+    "years": {
+      "2006": 1,
+      "2000": 1
+    },
+    "titles": [
+      "  [2006] Understanding prediction-based partial redundant threading for low-overhead, high- coverage fault tolerance.",
+      "  [2000] Slipstream Processors: Improving both Performance and Fault Tolerance."
+    ]
+  },
+  {
+    "name": "G. Edward Suh",
+    "total": 10,
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2024": 2,
+      "2021": 2,
+      "2017": 1,
+      "2015": 1,
+      "2010": 1,
+      "2004": 1
+    },
+    "titles": [
+      "  [2026] Sequential Specifications for Precise Hardware Exceptions.",
+      "  [2025] Practical Federated Recommendation Model Learning Using ORAM with Controlled Privacy.",
+      "  [2024] GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "  [2024] LazyDP: Co-Designing Algorithm-Software for Scalable Training of Differentially Private Recommendation Models.",
+      "  [2021] BCD deduplication: effective memory compression using partial cache-line deduplication.",
+      "  [2021] Sinan: ML-based and QoS-aware resource management for cloud microservices.",
+      "  [2017] Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis.",
+      "  [2015] A Hardware Design Language for Timing-Sensitive Information-Flow Security.",
+      "  [2010] Orthrus: efficient software integrity protection on multi-cores.",
+      "  [2004] Secure program execution via dynamic information flow tracking."
+    ]
+  },
+  {
+    "name": "G. Jack Lipovski",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Gabriel H. Loh",
+    "total": 1,
+    "years": {
+      "2025": 1
+    },
+    "titles": [
+      "  [2025] Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs."
+    ]
+  },
+  {
+    "name": "Gary S. Tyson",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Gennady Pekhimenko",
+    "total": 7,
+    "years": {
+      "2026": 1,
+      "2025": 2,
+      "2023": 2,
+      "2021": 1,
+      "2019": 1
+    },
+    "titles": [
+      "  [2026] Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation.",
+      "  [2025] HybridTier: an Adaptive and Lightweight CXL-Memory Tiering System.",
+      "  [2025] Tally: Non-Intrusive Performance Isolation for Concurrent Deep Learning Workloads.",
+      "  [2023] Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs.",
+      "  [2023] TiLT: A Time-Centric Approach for Stream Query Optimization and Parallelization.",
+      "  [2021] LifeStream: a high-performance stream processing engine for periodic streams.",
+      "  [2019] StreamBox-HBM: Stream Analytics on High Bandwidth Hybrid Memory."
+    ]
+  },
+  {
+    "name": "Gilles Pokam",
+    "total": 7,
+    "years": {
+      "2025": 1,
+      "2024": 2,
+      "2020": 1,
+      "2017": 1,
+      "2013": 1,
+      "2006": 1
+    },
+    "titles": [
+      "  [2025] Skia: Exposing Shadow Branches.",
+      "  [2024] PDIP: Priority Directed Instruction Prefetching.",
+      "  [2024] RPG2: Robust Profile-Guided Runtime Prefetch Generation.",
+      "  [2020] Hurdle: Securing Jump Instructions Against Code Reuse Attacks.",
+      "  [2017] AsyncClock: Scalable Inference of Asynchronous Event Causality.",
+      "  [2013] Cyrus: unintrusive application-level record-replay for replay parallelism.",
+      "  [2006] Unbounded page-based transactional memory."
+    ]
+  },
+  {
+    "name": "Gu-Yeon Wei",
+    "total": 4,
+    "years": {
+      "2024": 1,
+      "2023": 1,
+      "2021": 1,
+      "2017": 1
+    },
+    "titles": [
+      "  [2024] GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "  [2023] MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation.",
+      "  [2021] RecSSD: near data processing for solid state drive based recommendation inference.",
+      "  [2017] Mallacc: Accelerating Memory Allocation."
+    ]
+  },
+  {
+    "name": "Guangyu Sun",
+    "total": 3,
+    "years": {
+      "2025": 1,
+      "2024": 2
+    },
+    "titles": [
+      "  [2025] CTXNL: A Software-Hardware Co-designed Solution for Efficient CXL-Based Transaction Processing.",
+      "  [2024] PIM-DL: Expanding the Applicability of Commodity DRAM-PIMs for Deep Learning via Algorithm-System Co-Optimization.",
+      "  [2024] SpecPIM: Accelerating Speculative Inference on PIM-Enabled System via Architecture-Dataflow Co-Exploration."
+    ]
+  },
+  {
+    "name": "Hai Helen Li",
+    "total": 2,
+    "years": {
+      "2023": 1,
+      "2025": 1
+    },
+    "titles": [
+      "  [2023] DefT: Boosting Scalability of Deformable Convolution Operations on GPUs.",
+      "  [2025] Concurrency-Informed Orchestration for Serverless Functions."
+    ]
+  },
+  {
+    "name": "Hai Jin",
+    "total": 15,
+    "years": {
+      "2024": 3,
+      "2025": 1,
+      "2023": 3,
+      "2019": 1,
+      "2026": 3,
+      "2020": 2,
+      "2018": 1,
+      "2013": 1
+    },
+    "titles": [
+      "  [2024] NetRen: Service Migration-Driven Network Renascence with Synthesizing Updated Configuration.",
+      "  [2025] TempGraph: An Efficient Chain-driven Temporal Graph Computing Framework on the GPU.",
+      "  [2023] Revisiting Log-Structured Merging for KV Stores in Hybrid Memory Systems.",
+      "  [2023] GZKP: A GPU Accelerated Zero-Knowledge Proof System.",
+      "  [2019] DiGraph: An Efficient Path-based Iterative Directed Graph Processing System on Multiple GPUs.",
+      "  [2026] CPU-Oblivious Offloading of Failure-Atomic Transactions for Disaggregated Memory.",
+      "  [2026] History Doesn&apos;t Repeat Itself but Rollouts Rhyme: Accelerating Reinforcement Learning with RhymeRL.",
+      "  [2026] EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse.",
+      "  [2024] Merlin: Multi-tier Optimization of eBPF Code for Performance and Compactness.",
+      "  [2024] Validating JVM Compilers via Maximizing Optimization Interactions.",
+      "  [2023] SpecPMT: Speculative Logging for Resolving Crash Consistency Overhead of Persistent Memory.",
+      "  [2020] Capuchin: Tensor-based GPU Memory Management for Deep Learning.",
+      "  [2020] Klotski: Efficient Obfuscated Execution against Controlled-Channel Attacks.",
+      "  [2018] Highly Efficient 8-bit Low Precision Inference of Convolutional Neural Networks with IntelCaffe.",
+      "  [2013] Accelerating simulation of agent-based models on heterogeneous architectures."
+    ]
+  },
+  {
+    "name": "Henry M. Levy",
+    "total": 8,
+    "years": {
+      "2024": 1,
+      "1996": 2,
+      "2025": 1,
+      "2000": 1,
+      "1994": 2,
+      "1991": 1
+    },
+    "titles": [
+      "  [2024] CC-NIC: a Cache-Coherent Interface to the NIC.",
+      "  [1996] Reducing Network Latency Using Subpages in a Global Memory Environment.",
+      "  [1996] The Structure and Performance of Interpreters.",
+      "  [2025] Wave: Offloading Resource Management to SmartNIC Cores.",
+      "  [2000] An Analysis of Operating System Behavior on a Simultaneous Multithreaded Architecture.",
+      "  [1994] Hardware and Software Support for Efficient Exception Handling.",
+      "  [1994] Separating Data and Control Transfer in Distributed Operating Systems.",
+      "  [1991] The Interaction of Architecture and Operating System Design."
+    ]
+  },
+  {
+    "name": "Howard Jay Siegel",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Hsien-Hsin S. Lee",
+    "total": 3,
+    "years": {
+      "2008": 1,
+      "2024": 1,
+      "2010": 1
+    },
+    "titles": [
+      "  [2008] Exploiting access semantics and program behavior to reduce snoop power in chip multiprocessors.",
+      "  [2024] GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "  [2010] COMPASS: a programmable data prefetcher using idle GPU shaders."
+    ]
+  },
+  {
+    "name": "Huiyang Zhou",
+    "total": 3,
+    "years": {
+      "2020": 1,
+      "2019": 1,
+      "2009": 1
+    },
+    "titles": [
+      "  [2020] Quantum Circuits for Dynamic Runtime Assertions in Quantum Computation.",
+      "  [2019] Scatter-and-Gather Revisited: High-Performance Side-Channel-Resistant AES on GPUs.",
+      "  [2009] Anomaly-based bug prediction, isolation, and validation: an automated approach for software debugging."
+    ]
+  },
+  {
+    "name": "Jae W. Lee",
+    "total": 12,
+    "years": {
+      "2024": 2,
+      "2020": 1,
+      "2017": 2,
+      "2026": 1,
+      "2021": 1,
+      "2013": 1,
+      "2011": 1,
+      "2010": 1,
+      "2004": 1,
+      "2019": 1
+    },
+    "titles": [
+      "  [2024] IANUS: Integrated Accelerator based on NPU-PIM Unified Memory System.",
+      "  [2020] IIU: Specialized Architecture for Inverted Index Search.",
+      "  [2017] Typed Architectures: Architectural Support for Lightweight Scripting.",
+      "  [2026] GS-Scale: Unlocking Large-Scale 3D Gaussian Splatting Training via Host Offloading.",
+      "  [2024] GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "  [2021] MERCI: efficient embedding reduction on commodity hardware via sub-query memoization.",
+      "  [2017] History-Based Arbitration for Fairness in Processor-Interconnect of NUMA Servers.",
+      "  [2013] Practical automatic loop specialization.",
+      "  [2011] DoublePlay: parallelizing sequential logging and replay.",
+      "  [2010] Respec: efficient online multiprocessor replayvia speculation and external determinism.",
+      "  [2004] Secure program execution via dynamic information flow tracking.",
+      "  [2019] FA3C: FPGA-Accelerated Deep Reinforcement Learning."
+    ]
+  },
+  {
+    "name": "Jaehyuk Huh",
+    "total": 3,
+    "years": {
+      "2019": 1,
+      "2016": 1,
+      "2004": 1
+    },
+    "titles": [
+      "  [2019] Heterogeneous Isolated Execution for Commodity GPUs.",
+      "  [2016] Interference Management for Distributed Parallel Applications in Consolidated Clusters.",
+      "  [2004] Coherence decoupling: making use of incoherence."
+    ]
+  },
+  {
+    "name": "James E. Smith",
+    "total": 5,
+    "years": {
+      "1987": 2,
+      "2009": 1,
+      "2006": 2
+    },
+    "titles": [
+      "  [1987] The ZS-1 Central Processor.",
+      "  [2009] An evaluation of the TRIPS computer system.",
+      "  [2006] Stealth prefetching.",
+      "  [2006] A performance counter architecture for computing accurate CPI components.",
+      "  [1987] A Study of Scalar Compilation Techniques for Pipelined Supercomputers."
+    ]
+  },
+  {
+    "name": "James R. Goodman",
+    "total": 3,
+    "years": {
+      "2002": 1,
+      "1989": 1,
+      "1987": 1
+    },
+    "titles": [
+      "  [2002] Transactional lock-free execution of lock-based programs.",
+      "  [1989] Efficent Synchronization Primitives for Large-Scale Cache-Coherent Multiprocessors.",
+      "  [1987] Coherency for Multiprocessor Virtual Address Caches."
+    ]
+  },
+  {
+    "name": "Janak H. Patel",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Jangwoo Kim",
+    "total": 8,
+    "years": {
+      "2026": 2,
+      "2024": 1,
+      "2022": 1,
+      "2021": 1,
+      "2018": 1,
+      "2020": 1,
+      "2004": 1
+    },
+    "titles": [
+      "  [2026] TierX: A Simulation Framework for Multi-tier BCI System Design Evaluation and Exploration.",
+      "  [2026] Accelerating Computation in Quantum LDPC Code.",
+      "  [2024] A Fault-Tolerant Million Qubit-Scale Distributed Quantum Computer.",
+      "  [2022] CryoWire: wire-driven microarchitecture designs for cryogenic computing.",
+      "  [2021] NeuroEngine: a hardware-based event-driven simulation system for advanced brain-inspired computing.",
+      "  [2018] WSMeter: A Performance Evaluation Methodology for Google&apos;s Production Warehouse-Scale Computers.",
+      "  [2020] CryoCache: A Fast, Large, and Cost-Effective Cache Architecture for Cryogenic Computing.",
+      "  [2004] Fingerprinting: bounding soft-error detection latency and bandwidth."
+    ]
+  },
+  {
+    "name": "Jayesh Gaur",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Jean-Loup Baer",
+    "total": 2,
+    "years": {
+      "1996": 1,
+      "1992": 1
+    },
+    "titles": [
+      "  [1996] The Structure and Performance of Interpreters.",
+      "  [1992] Reducing Memory Latency via Non-blocking and Prefetching Caches."
+    ]
+  },
+  {
+    "name": "Jeremie S. Kim",
+    "total": 1,
+    "years": {
+      "2022": 1
+    },
+    "titles": [
+      "  [2022] GenStore: a high-performance in-storage processing system for genome sequence analysis."
+    ]
+  },
+  {
+    "name": "Jian Huang",
+    "total": 11,
+    "years": {
+      "2025": 5,
+      "2026": 1,
+      "2024": 1,
+      "2023": 1,
+      "2022": 1,
+      "2019": 1,
+      "2017": 1
+    },
+    "titles": [
+      "  [2025] BQSim: GPU-accelerated Batch Quantum Circuit Simulation using Decision Diagram.",
+      "  [2025] Mosaic: Exploiting Instruction-Level Parallelism on Deep Learning Accelerators with iTex Tessellation.",
+      "  [2026] Reconfigurable Quantum Instruction Set Computers for High Performance Attainable on Hardware.",
+      "  [2025] ByteFS: System Support for (CXL-based) Memory-Semantic Solid-State Drives.",
+      "  [2025] Coach: Exploiting Temporal Patterns for All-Resource Oversubscription in Cloud Platforms.",
+      "  [2025] FleetIO: Managing Multi-Tenant Cloud Storage with Multi-Agent Reinforcement Learning.",
+      "  [2024] One Gate Scheme to Rule Them All: Introducing a Complex Yet Reduced Instruction Set for Quantum Computing.",
+      "  [2023] LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives.",
+      "  [2022] RSSD: defend against ransomware with hardware-isolated network-storage codesign and post-attack analysis.",
+      "  [2019] FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy.",
+      "  [2017] Pallas: Semantic-Aware Checking for Finding Deep Bugs in Fast Path."
+    ]
+  },
+  {
+    "name": "Jim Smith",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Jingwen Leng",
+    "total": 12,
+    "years": {
+      "2026": 2,
+      "2025": 2,
+      "2024": 5,
+      "2023": 1,
+      "2022": 2
+    },
+    "titles": [
+      "  [2026] M2XFP: A Metadata-Augmented Microscaling Data Format for Efficient Low-bit Quantization.",
+      "  [2026] Nebula: Infinite-Scale 3D Gaussian Splatting in VR via Collaborative Rendering and Accelerated Stereo Rasterization.",
+      "  [2025] Voyager: Input-Adaptive Algebraic Transformations for High-Performance Graph Neural Networks.",
+      "  [2025] StreamGrid: Streaming Point Cloud Analytics via Compulsory Splitting and Deterministic Termination.",
+      "  [2024] GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching.",
+      "  [2024] MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for DNN.",
+      "  [2024] Amanda: Unified Instrumentation Framework for Deep Neural Networks.",
+      "  [2024] Fractal: Joint Multi-Level Sparse Pattern Tuning of Accuracy and Performance for DNN Pruning.",
+      "  [2024] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.",
+      "  [2023] uGrapher: High-Performance Graph Operator Computation via Unified Abstraction for Graph Neural Networks.",
+      "  [2022] VELTAIR: towards high-performance multi-tenant deep learning services via adaptive compilation and scheduling.",
+      "  [2022] Astraea: towards QoS-aware and resource-efficient multi-stage GPU services."
+    ]
+  },
+  {
+    "name": "Jishen Zhao",
+    "total": 2,
+    "years": {
+      "2025": 1,
+      "2019": 1
+    },
+    "titles": [
+      "  [2025] HybridTier: an Adaptive and Lightweight CXL-Memory Tiering System.",
+      "  [2019] PMTest: A Fast and Flexible Testing Framework for Persistent Memory Programs."
+    ]
+  },
+  {
+    "name": "Joel Emer",
+    "total": 11,
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2023": 3,
+      "2022": 1,
+      "2021": 1,
+      "2019": 1,
+      "2012": 1,
+      "2002": 1,
+      "1989": 1
+    },
+    "titles": [
+      "  [2026] Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums.",
+      "  [2025] Hopps: Leveraging Sparsity to Accelerate Automata Processing.",
+      "  [2023] The Sparse Abstract Machine.",
+      "  [2023] Accelerating Sparse Data Orchestration via Dynamic Reflexive Tiling.",
+      "  [2023] WACO: Learning Workload-Aware Co-optimization of the Format and Schedule of a Sparse Tensor Program.",
+      "  [2022] DAGguise: mitigating memory timing side channels.",
+      "  [2021] Gamma: leveraging Gustavson&apos;s algorithm to accelerate sparse matrix multiplication.",
+      "  [2019] Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration.",
+      "  [2012] CRUISE: cache replacement and utility-aware scheduling.",
+      "  [2002] A comparative study of arbitration algorithms for the Alpha 21364 pipelined router.",
+      "  [1989] ASPLOS-III Proceedings - Third International Conference on Architectural Support for Programming Languages and Operating Systems, Boston, Massachusetts, USA, April 3-6, 1989."
+    ]
+  },
+  {
+    "name": "Joel S. Emer",
+    "total": 11,
+    "years": {
+      "2021": 1,
+      "2012": 1,
+      "2002": 1,
+      "2026": 1,
+      "2025": 1,
+      "2023": 3,
+      "2022": 1,
+      "2019": 1,
+      "1989": 1
+    },
+    "titles": [
+      "  [2021] Gamma: leveraging Gustavson&apos;s algorithm to accelerate sparse matrix multiplication.",
+      "  [2012] CRUISE: cache replacement and utility-aware scheduling.",
+      "  [2002] A comparative study of arbitration algorithms for the Alpha 21364 pipelined router.",
+      "  [2026] Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums.",
+      "  [2025] Hopps: Leveraging Sparsity to Accelerate Automata Processing.",
+      "  [2023] The Sparse Abstract Machine.",
+      "  [2023] Accelerating Sparse Data Orchestration via Dynamic Reflexive Tiling.",
+      "  [2023] WACO: Learning Workload-Aware Co-optimization of the Format and Schedule of a Sparse Tensor Program.",
+      "  [2022] DAGguise: mitigating memory timing side channels.",
+      "  [2019] Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration.",
+      "  [1989] ASPLOS-III Proceedings - Third International Conference on Architectural Support for Programming Languages and Operating Systems, Boston, Massachusetts, USA, April 3-6, 1989."
+    ]
+  },
+  {
+    "name": "John B. Carter",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "John Kim",
+    "total": 5,
+    "years": {
+      "2024": 1,
+      "2017": 1,
+      "2020": 1,
+      "2013": 1,
+      "2004": 1
+    },
+    "titles": [
+      "  [2024] IANUS: Integrated Accelerator based on NPU-PIM Unified Memory System.",
+      "  [2017] History-Based Arbitration for Fairness in Processor-Interconnect of NUMA Servers.",
+      "  [2020] NeuMMU: Architectural Support for Efficient Address Translations in Neural Processing Units.",
+      "  [2013] Practical automatic loop specialization.",
+      "  [2004] Helper threads via virtual multithreading on an experimental itanium® 2 processor-based platform."
+    ]
+  },
+  {
+    "name": "John Kubiatowicz",
+    "total": 4,
+    "years": {
+      "2016": 1,
+      "2000": 1,
+      "1992": 1,
+      "1991": 1
+    },
+    "titles": [
+      "  [2016] Taurus: A Holistic Language Runtime System for Coordinating Distributed Managed-Language Applications.",
+      "  [2000] OceanStore: An Architecture for Global-Scale Persistent Storage.",
+      "  [1992] Closing the Window of Vulnerability in Multiphase Memory Transactions.",
+      "  [1991] LimitLESS Directories: A Scalable Cache Coherence Scheme."
+    ]
+  },
+  {
+    "name": "John P. Shen",
+    "total": 6,
+    "years": {
+      "2026": 1,
+      "2006": 1,
+      "2004": 1,
+      "1996": 2,
+      "1991": 1
+    },
+    "titles": [
+      "  [2026] Mugi: Value Level Parallelism For Efficient LLMs.",
+      "  [2006] Proceedings of the 12th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS 2006, San Jose, CA, USA, October 21-25, 2006",
+      "  [2004] Helper threads via virtual multithreading on an experimental itanium® 2 processor-based platform.",
+      "  [1996] The Intrinsic Bandwidth Requirements of Ordinary Programs.",
+      "  [1996] Value Locality and Load Value Prediction.",
+      "  [1991] A Variable Instruction Stream Extension to the VLIW Architecture."
+    ]
+  },
+  {
+    "name": "John Paul Shen",
+    "total": 6,
+    "years": {
+      "2026": 1,
+      "2006": 1,
+      "2004": 1,
+      "1996": 2,
+      "1991": 1
+    },
+    "titles": [
+      "  [2026] Mugi: Value Level Parallelism For Efficient LLMs.",
+      "  [2006] Proceedings of the 12th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS 2006, San Jose, CA, USA, October 21-25, 2006",
+      "  [2004] Helper threads via virtual multithreading on an experimental itanium® 2 processor-based platform.",
+      "  [1996] The Intrinsic Bandwidth Requirements of Ordinary Programs.",
+      "  [1996] Value Locality and Load Value Prediction.",
+      "  [1991] A Variable Instruction Stream Extension to the VLIW Architecture."
+    ]
+  },
+  {
+    "name": "Jorge Albericio",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "José Duato",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "José F. Martínez",
+    "total": 6,
+    "years": {
+      "2002": 1,
+      "2023": 1,
+      "2019": 1,
+      "2016": 1,
+      "2010": 2
+    },
+    "titles": [
+      "  [2002] Speculative synchronization: applying thread-level speculation to explicitly parallel applications.",
+      "  [2023] Flexagon: A Multi-dataflow Sparse-Sparse Matrix Multiplication Accelerator for Efficient DNN Processing.",
+      "  [2019] PARTIES: QoS-Aware Resource Partitioning for Multiple Interactive Services.",
+      "  [2016] ReBudget: Trading Off Efficiency vs. Fairness in Market-Based Multicore Resource Allocation via Runtime Budget Reassignment.",
+      "  [2010] A power-efficient all-optical on-chip interconnect using wavelength-based oblivious routing.",
+      "  [2010] Characterizing processor thermal behavior."
+    ]
+  },
+  {
+    "name": "José-María Arnau",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Juan Gomez-Luna",
+    "total": 2,
+    "years": {
+      "2025": 1,
+      "2021": 1
+    },
+    "titles": [
+      "  [2025] PAPI: Exploiting Dynamic Parallelism in Large Language Model Decoding with a Processing-In-Memory-Enabled Computing System.",
+      "  [2021] SIMDRAM: a framework for bit-serial SIMD processing using DRAM."
+    ]
+  },
+  {
+    "name": "Jun Yang",
+    "total": 20,
+    "years": {
+      "2026": 6,
+      "2022": 2,
+      "2019": 2,
+      "2025": 3,
+      "2024": 2,
+      "2020": 2,
+      "2015": 1,
+      "2013": 1,
+      "2000": 1
+    },
+    "titles": [
+      "  [2026] REPA: Reconfigurable PIM for the Joint Acceleration of KV Cache Offloading and Processing.",
+      "  [2022] Eavesdropping user credentials via GPU side channels on smartphones.",
+      "  [2022] AStitch: enabling a new multi-dimensional optimization space for memory-intensive ML training and inference on modern SIMT architectures.",
+      "  [2019] A Framework for Memory Oversubscription Management in Graphics Processing Units.",
+      "  [2026] Neura: A Unified Framework for Hierarchical and Adaptive CGRAs.",
+      "  [2026] Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter.",
+      "  [2026] DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU.",
+      "  [2026] RedFuser: An Automatic Operator Fusion Framework for Cascaded Reductions on AI Accelerators.",
+      "  [2026] Radshield: Software Radiation Protection for Commodity Hardware in Space.",
+      "  [2025] Nazar: Monitoring and Adapting ML Models on Mobile Devices.",
+      "  [2025] Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow.",
+      "  [2025] Fault Escaping: Improving Robustness of DPU Enhanced Platform with Mutual Assisted VM Recovery.",
+      "  [2024] FMCC: Flexible Measurement-based Quantum Computation over Cluster State.",
+      "  [2024] QRCC: Evaluating Large Quantum Circuits on Small Quantum Computers through Integrated Qubit Reuse and Circuit Cutting.",
+      "  [2020] Egalito: Layout-Agnostic Binary Recompilation.",
+      "  [2020] Effective Concurrency Testing for Distributed Systems.",
+      "  [2019] Fast and Scalable VMM Live Upgrade in Large Cloud Infrastructure.",
+      "  [2015] SD-PCM: Constructing Reliable Super Dense Phase Change Memory under Write Disturbance.",
+      "  [2013] Verifying systems rules using rule-directed symbolic execution.",
+      "  [2000] Frequent Value Locality and Value-Centric Data Cache Design."
+    ]
+  },
+  {
+    "name": "Jung Ho Ahn",
+    "total": 8,
+    "years": {
+      "2026": 2,
+      "2017": 1,
+      "2025": 2,
+      "2024": 2,
+      "2021": 1
+    },
+    "titles": [
+      "  [2026] RowArmor: Efficient and Comprehensive Protection Against DRAM Disturbance Attacks.",
+      "  [2017] History-Based Arbitration for Fairness in Processor-Interconnect of NUMA Servers.",
+      "  [2026] Cheddar: A Swift Fully Homomorphic Encryption Library Designed for GPU Architectures.",
+      "  [2025] Marionette: A RowHammer Attack via Row Coupling.",
+      "  [2025] M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems.",
+      "  [2024] AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference.",
+      "  [2024] TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks.",
+      "  [2021] BCD deduplication: effective memory compression using partial cache-line deduplication."
+    ]
+  },
+  {
+    "name": "Karin Strauss",
+    "total": 7,
+    "years": {
+      "2020": 1,
+      "2019": 1,
+      "2017": 1,
+      "2016": 2,
+      "2012": 1,
+      "2011": 1
+    },
+    "titles": [
+      "  [2020] ASPLOS &apos;20: Architectural Support for Programming Languages and Operating Systems, Lausanne, Switzerland, March 16-20, 2020.",
+      "  [2019] Puddle: A Dynamic, Error-Correcting, Full-Stack Microfluidics Platform.",
+      "  [2017] Approximate Storage of Compressed and Encrypted Videos.",
+      "  [2016] A DNA-Based Archival Storage System.",
+      "  [2016] High-Density Image Storage Using Approximate Memory Cells.",
+      "  [2012] PocketWeb: instant web browsing for mobile devices.",
+      "  [2011] Pocket cloudlets."
+    ]
+  },
+  {
+    "name": "Karthikeyan Sankaralingam",
+    "total": 3,
+    "years": {
+      "2024": 1,
+      "2016": 1,
+      "2013": 1
+    },
+    "titles": [
+      "  [2024] A Journey of a 1, 000 Kernels Begins with a Single Step: A Retrospective of Deep Learning on GPUs.",
+      "  [2016] Analyzing Behavior Specialized Acceleration.",
+      "  [2013] ConAir: featherweight concurrency bug recovery via single-threaded idempotent execution."
+    ]
+  },
+  {
+    "name": "Kevin Skadron",
+    "total": 3,
+    "years": {
+      "2019": 1,
+      "2016": 1,
+      "2020": 1
+    },
+    "titles": [
+      "  [2019] Debugging Support for Pattern-Matching Languages and Accelerators.",
+      "  [2016] RAPID Programming of Pattern-Recognition Processors.",
+      "  [2020] FlexAmata: A Universal and Efficient Adaption of Applications to Spatial Automata Processing Accelerators."
+    ]
+  },
+  {
+    "name": "Konstantinos Kanellopoulos",
+    "total": 1,
+    "years": {
+      "2025": 1
+    },
+    "titles": [
+      "  [2025] Virtuoso: Enabling Fast and Accurate Virtual Memory Research via an Imitation-based Operating System Simulation Methodology."
+    ]
+  },
+  {
+    "name": "Kourosh Gharachorloo",
+    "total": 7,
+    "years": {
+      "2002": 1,
+      "2000": 1,
+      "1998": 1,
+      "1996": 1,
+      "1994": 2,
+      "1991": 1
+    },
+    "titles": [
+      "  [2002] Proceedings of the 10th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS-X), San Jose, California, USA, October 5-9, 2002.",
+      "  [2000] Architecture and design of AlphaServer GS320.",
+      "  [1998] Performance of Database Workloads on Shared-Memory Systems with Out-of-Order Processors.",
+      "  [1996] Shasta: A Low Overhead, Software-Only Approach for Supporting Fine-Grain Shared Memory.",
+      "  [1994] Integration of Message Passing and Shared Memory in the Stanford FLASH Multiprocessor.",
+      "  [1994] The Performance Impact of Flexibility in the Stanford FLASH Multiprocessor.",
+      "  [1991] Performance Evaluation of Memory Consistency Models for Shared Memory Multiprocessors."
+    ]
+  },
+  {
+    "name": "Krste Asanovic",
+    "total": 5,
+    "years": {
+      "2024": 1,
+      "2020": 1,
+      "2016": 1,
+      "2015": 1,
+      "2002": 1
+    },
+    "titles": [
+      "  [2024] Zoomie: A Software-like Debugging Tool for FPGAs.",
+      "  [2020] FirePerf: FPGA-Accelerated Full-System Hardware/Software Performance Profiling and Co-Design.",
+      "  [2016] Taurus: A Holistic Language Runtime System for Coordinating Distributed Managed-Language Applications.",
+      "  [2015] DIABLO: A Warehouse-Scale Computer Network Simulator using FPGAs.",
+      "  [2002] Mondrian memory protection."
+    ]
+  },
+  {
+    "name": "Leibo Liu",
+    "total": 1,
+    "years": {
+      "2024": 1
+    },
+    "titles": [
+      "  [2024] Harp: Leveraging Quasi-Sequential Characteristics to Accelerate Sequence-to-Graph Mapping of Long Reads."
+    ]
+  },
+  {
+    "name": "Li-Shiuan Peh",
+    "total": 3,
+    "years": {
+      "2022": 1,
+      "2014": 1,
+      "2002": 1
+    },
+    "titles": [
+      "  [2022] REVAMP: a systematic framework for heterogeneous CGRA realization.",
+      "  [2014] Locality-oblivious cache organization leveraging single-cycle multi-hop NoCs.",
+      "  [2002] Energy-efficient computing for wildlife tracking: design tradeoffs and early experiences with ZebraNet."
+    ]
+  },
+  {
+    "name": "Lixin Zhang",
+    "total": 1,
+    "years": {
+      "2015": 1
+    },
+    "titles": [
+      "  [2015] Supporting Differentiated Services in Computers via Programmable Architecture for Resourcing-on-Demand (PARD)."
+    ]
+  },
+  {
+    "name": "Lizhong Chen",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Lizy Kurian John",
+    "total": 2,
+    "years": {
+      "2023": 1,
+      "2002": 1
+    },
+    "titles": [
+      "  [2023] Infinity Stream: Portable and Programmer-Friendly In-/Near-Memory Fusion.",
+      "  [2002] Understanding and improving operating system effects in control flow prediction."
+    ]
+  },
+  {
+    "name": "Luiz André Barroso",
+    "total": 1,
+    "years": {
+      "1998": 1
+    },
+    "titles": [
+      "  [1998] Performance of Database Workloads on Shared-Memory Systems with Out-of-Order Processors."
+    ]
+  },
+  {
+    "name": "Mahmut T. Kandemir",
+    "total": 13,
+    "years": {
+      "2025": 3,
+      "2021": 1,
+      "2020": 1,
+      "2019": 1,
+      "2018": 1,
+      "2017": 2,
+      "2014": 2,
+      "2013": 1,
+      "2008": 1
+    },
+    "titles": [
+      "  [2025] AnyKey: A Key-Value SSD for All Workload Types.",
+      "  [2025] Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs.",
+      "  [2025] Pirate: No Compromise Low-Bandwidth VR Streaming for Edge Devices.",
+      "  [2021] Prolonging 3D NAND SSD lifetime via read latency relaxation.",
+      "  [2020] Fair Write Attribution and Allocation for Consolidated Flash Cache.",
+      "  [2019] SOML Read: Rethinking the Read Operation Granularity of 3D NAND SSDs.",
+      "  [2018] NEOFog: Nonvolatility-Exploiting Optimizations for Fog Computing.",
+      "  [2017] Exploiting Intra-Request Slack to Improve SSD Performance.",
+      "  [2017] Hardware-Software Co-design to Mitigate DRAM Refresh Overheads: A Case for Refresh-Aware Process Scheduling.",
+      "  [2014] Application-aware Memory System for Fair and Efficient Execution of Concurrent GPGPU Applications.",
+      "  [2014] Triple-A: a Non-SSD based autonomic all-flash array for high performance storage systems.",
+      "  [2013] OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance.",
+      "  [2008] Adaptive set pinning: managing shared caches in chip multiprocessors."
+    ]
+  },
+  {
+    "name": "Mahmut Taylan Kandemir",
+    "total": 13,
+    "years": {
+      "2025": 3,
+      "2021": 1,
+      "2020": 1,
+      "2019": 1,
+      "2018": 1,
+      "2017": 2,
+      "2014": 2,
+      "2013": 1,
+      "2008": 1
+    },
+    "titles": [
+      "  [2025] AnyKey: A Key-Value SSD for All Workload Types.",
+      "  [2025] Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs.",
+      "  [2025] Pirate: No Compromise Low-Bandwidth VR Streaming for Edge Devices.",
+      "  [2021] Prolonging 3D NAND SSD lifetime via read latency relaxation.",
+      "  [2020] Fair Write Attribution and Allocation for Consolidated Flash Cache.",
+      "  [2019] SOML Read: Rethinking the Read Operation Granularity of 3D NAND SSDs.",
+      "  [2018] NEOFog: Nonvolatility-Exploiting Optimizations for Fog Computing.",
+      "  [2017] Exploiting Intra-Request Slack to Improve SSD Performance.",
+      "  [2017] Hardware-Software Co-design to Mitigate DRAM Refresh Overheads: A Case for Refresh-Aware Process Scheduling.",
+      "  [2014] Application-aware Memory System for Fair and Efficient Execution of Concurrent GPGPU Applications.",
+      "  [2014] Triple-A: a Non-SSD based autonomic all-flash array for high performance storage systems.",
+      "  [2013] OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance.",
+      "  [2008] Adaptive set pinning: managing shared caches in chip multiprocessors."
+    ]
+  },
+  {
+    "name": "Mark Oskin",
+    "total": 3,
+    "years": {
+      "2023": 1,
+      "2009": 1,
+      "2006": 1
+    },
+    "titles": [
+      "  [2023] Beyond Static Parallel Loops: Supporting Dynamic Task Parallelism on Manycore Architectures with Software-Managed Scratchpad Memories.",
+      "  [2009] DMP: deterministic shared memory multiprocessing.",
+      "  [2006] Instruction scheduling for a tiled dataflow architecture."
+    ]
+  },
+  {
+    "name": "Mateo Valero",
+    "total": 1,
+    "years": {
+      "2012": 1
+    },
+    "titles": [
+      "  [2012] Optimal task assignment in multithreaded processors: a statistical approach."
+    ]
+  },
+  {
+    "name": "Mateo Valero Cortés",
+    "total": 1,
+    "years": {
+      "2012": 1
+    },
+    "titles": [
+      "  [2012] Optimal task assignment in multithreaded processors: a statistical approach."
+    ]
+  },
+  {
+    "name": "Mattan Erez",
+    "total": 2,
+    "years": {
+      "2016": 1,
+      "2010": 1
+    },
+    "titles": [
+      "  [2016] Dirigent: Enforcing QoS for Latency-Critical Tasks on Shared Multicore Systems.",
+      "  [2010] Virtualized and flexible ECC for main memory."
+    ]
+  },
+  {
+    "name": "Matthew Farrens",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Mengjia Yan",
+    "total": 3,
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2022": 1
+    },
+    "titles": [
+      "  [2026] Compass: Navigating the Design Space of Taint Schemes for RTL Security Verification.",
+      "  [2025] RTL Verification for Secure Speculation Using Contract Shadow Logic.",
+      "  [2022] DAGguise: mitigating memory timing side channels."
+    ]
+  },
+  {
+    "name": "Michael C. Huang",
+    "total": 4,
+    "years": {
+      "2024": 2,
+      "2019": 1,
+      "2022": 1
+    },
+    "titles": [
+      "  [2024] PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation.",
+      "  [2019] Bootstrapping: Using SMT Hardware to Improve Single-Thread Performance.",
+      "  [2024] TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks.",
+      "  [2022] CARAT CAKE: replacing paging via compiler/kernel cooperation."
+    ]
+  },
+  {
+    "name": "Michael Schlansker",
+    "total": 1,
+    "years": {
+      "1992": 1
+    },
+    "titles": [
+      "  [1992] Sentinel Scheduling for VLIW and Superscalar Processors."
+    ]
+  },
+  {
+    "name": "Michel Dubois",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Mike O'Connor",
+    "total": 2,
+    "years": {
+      "2015": 1,
+      "2013": 1
+    },
+    "titles": [
+      "  [2015] Page Placement Strategies for GPUs within Heterogeneous Memory Systems.",
+      "  [2013] GPUDet: a deterministic GPU architecture."
+    ]
+  },
+  {
+    "name": "Mikko H. Lipasti",
+    "total": 4,
+    "years": {
+      "2011": 1,
+      "2006": 1,
+      "2002": 1,
+      "1996": 1
+    },
+    "titles": [
+      "  [2011] A case for neuromorphic ISAs.",
+      "  [2006] Stealth prefetching.",
+      "  [2002] Temporally silent stores.",
+      "  [1996] Value Locality and Load Value Prediction."
+    ]
+  },
+  {
+    "name": "Milos Prvulovic",
+    "total": 1,
+    "years": {
+      "2006": 1
+    },
+    "titles": [
+      "  [2006] Comprehensively and efficiently protecting the heap."
+    ]
+  },
+  {
+    "name": "Minesh Patel",
+    "total": 1,
+    "years": {
+      "2021": 1
+    },
+    "titles": [
+      "  [2021] SIMDRAM: a framework for bit-serial SIMD processing using DRAM."
+    ]
+  },
+  {
+    "name": "Mingyu Gao",
+    "total": 13,
+    "years": {
+      "2025": 3,
+      "2024": 1,
+      "2023": 4,
+      "2022": 2,
+      "2020": 1,
+      "2019": 1,
+      "2017": 1
+    },
+    "titles": [
+      "  [2025] UniZK: Accelerating Zero-Knowledge Proof with Unified Hardware and Flexible Kernel Mapping.",
+      "  [2025] PUSHtap: PIM-based In-Memory HTAP with Unified Data Storage Format.",
+      "  [2025] Syno: Structured Synthesis for Neural Operators.",
+      "  [2024] Salus: A Practical Trusted Execution Environment for CPU-FPGA Heterogeneous Cloud Platforms.",
+      "  [2023] Probabilistic Concurrency Testing for Weak Memory Programs.",
+      "  [2023] Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow.",
+      "  [2023] GZKP: A GPU Accelerated Zero-Knowledge Proof System.",
+      "  [2023] ABNDP: Co-optimizing Data Access and Load Balance in Near-Data Processing.",
+      "  [2022] FINGERS: exploiting fine-grained parallelism in graph mining accelerators.",
+      "  [2022] ShEF: shielded enclaves for cloud FPGAs.",
+      "  [2020] Interstellar: Using Halide&apos;s Scheduling Language to Analyze DNN Accelerators.",
+      "  [2019] TANGRAM: Optimized Coarse-Grained Dataflow for Scalable NN Accelerators.",
+      "  [2017] TETRIS: Scalable and Efficient Neural Network Acceleration with 3D Memory."
+    ]
+  },
+  {
+    "name": "Minsoo Rhu",
+    "total": 3,
+    "years": {
+      "2024": 2,
+      "2020": 1
+    },
+    "titles": [
+      "  [2024] GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "  [2024] LazyDP: Co-Designing Algorithm-Software for Scalable Training of Differentially Private Recommendation Models.",
+      "  [2020] NeuMMU: Architectural Support for Efficient Address Translations in Neural Processing Units."
+    ]
+  },
+  {
+    "name": "Minyi Guo",
+    "total": 17,
+    "years": {
+      "2025": 3,
+      "2024": 6,
+      "2022": 3,
+      "2026": 1,
+      "2023": 3,
+      "2017": 1
+    },
+    "titles": [
+      "  [2025] EXIST: Enabling Extremely Efficient Intra-Service Tracing Observability in Datacenters.",
+      "  [2024] GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching.",
+      "  [2024] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.",
+      "  [2022] FaaSFlow: enable efficient workflow execution for function-as-a-service.",
+      "  [2026] MoE-APEX: An Efficient MoE Inference System with Adaptive Precision Expert Offloading.",
+      "  [2025] Voyager: Input-Adaptive Algebraic Transformations for High-Performance Graph Neural Networks.",
+      "  [2025] StreamGrid: Streaming Point Cloud Analytics via Compulsory Splitting and Deterministic Termination.",
+      "  [2024] Amanda: Unified Instrumentation Framework for Deep Neural Networks.",
+      "  [2024] Fractal: Joint Multi-Level Sparse Pattern Tuning of Accuracy and Performance for DNN Pruning.",
+      "  [2024] FaaSGraph: Enabling Scalable, Efficient, and Cost-Effective Graph Processing with Serverless Computing.",
+      "  [2024] FaaSMem: Improving Memory Efficiency of Serverless Computing with Memory Pool Architecture.",
+      "  [2023] uGrapher: High-Performance Graph Operator Computation via Unified Abstraction for Graph Neural Networks.",
+      "  [2023] DataFlower: Exploiting the Data-flow Paradigm for Serverless Workflow Orchestration.",
+      "  [2023] Efficient Scheduler Live Update for Linux Kernel with Modularization.",
+      "  [2022] VELTAIR: towards high-performance multi-tenant deep learning services via adaptive compilation and scheduling.",
+      "  [2022] Astraea: towards QoS-aware and resource-efficient multi-stage GPU services.",
+      "  [2017] Prophet: Precise QoS Prediction on Non-Preemptive Accelerators to Improve Utilization in Warehouse-Scale Computers."
+    ]
+  },
+  {
+    "name": "Mohammad Alian",
+    "total": 2,
+    "years": {
+      "2025": 1,
+      "2024": 1
+    },
+    "titles": [
+      "  [2025] Accelerating Retrieval-Augmented Generation.",
+      "  [2024] In-Storage Domain-Specific Acceleration for Serverless Computing."
+    ]
+  },
+  {
+    "name": "Mohammad Sadrosadati",
+    "total": 4,
+    "years": {
+      "2025": 3,
+      "2018": 1
+    },
+    "titles": [
+      "  [2025] PAPI: Exploiting Dynamic Parallelism in Large Language Model Decoding with a Processing-In-Memory-Enabled Computing System.",
+      "  [2025] CIPHERMATCH: Accelerating Homomorphic Encryption-Based String Matching via Memory-Efficient Data Packing and In-Flash Processing.",
+      "  [2025] Virtuoso: Enabling Fast and Accurate Virtual Memory Research via an Imitation-based Operating System Simulation Methodology.",
+      "  [2018] LTRF: Enabling High-Capacity Register Files for GPUs via Hardware/Software Cooperative Register Prefetching."
+    ]
+  },
+  {
+    "name": "Murali Annavaram",
+    "total": 1,
+    "years": {
+      "2024": 1
+    },
+    "titles": [
+      "  [2024] MPC-Pipe: an Efficient Pipeline Scheme for Semi-honest MPC Machine Learning."
+    ]
+  },
+  {
+    "name": "Myoungsoo Jung",
+    "total": 5,
+    "years": {
+      "2021": 1,
+      "2020": 1,
+      "2019": 1,
+      "2017": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2021] Prolonging 3D NAND SSD lifetime via read latency relaxation.",
+      "  [2020] Fair Write Attribution and Allocation for Consolidated Flash Cache.",
+      "  [2019] SOML Read: Rethinking the Read Operation Granularity of 3D NAND SSDs.",
+      "  [2017] Exploiting Intra-Request Slack to Improve SSD Performance.",
+      "  [2014] Triple-A: a Non-SSD based autonomic all-flash array for high performance storage systems."
+    ]
+  },
+  {
+    "name": "Nael Abu-Ghazaleh",
+    "total": 8,
+    "years": {
+      "2024": 4,
+      "2023": 1,
+      "2021": 1,
+      "2019": 1,
+      "2018": 1
+    },
+    "titles": [
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1, ASPLOS 2024, La Jolla, CA, USA, 27 April 2024- 1 May 2024",
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2, ASPLOS 2024, La Jolla, CA, USA, 27 April 2024- 1 May 2024",
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3, ASPLOS 2024, La Jolla, CA, USA, 27 April 2024- 1 May 2024",
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 4, ASPLOS 2024, Hilton La Jolla Torrey Pines, La Jolla, CA, USA, 27 April 2024 - 1 May 2024",
+      "  [2023] CommonGraph: Graph Analytics on Evolving Data.",
+      "  [2021] Defensive approximation: securing CNNs using approximate computing.",
+      "  [2019] CORF: Coalescing Operand Register File for GPUs.",
+      "  [2018] BranchScope: A New Side-Channel Attack on Directional Branch Predictor."
+    ]
+  },
+  {
+    "name": "Nandita Vijaykumar",
+    "total": 3,
+    "years": {
+      "2025": 2,
+      "2022": 1
+    },
+    "titles": [
+      "  [2025] ARC: Warp-level Adaptive Atomic Reduction in GPUs to Accelerate Differentiable Rendering.",
+      "  [2025] Virtuoso: Enabling Fast and Accurate Virtual Memory Research via an Imitation-based Operating System Simulation Methodology.",
+      "  [2022] GenStore: a high-performance in-storage processing system for genome sequence analysis."
+    ]
+  },
+  {
+    "name": "Natalie D. Enright Jerger",
+    "total": 6,
+    "years": {
+      "2023": 3,
+      "2022": 1,
+      "2018": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2023] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2023] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2023] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 4, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2022] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2018] Proceedings of the 1st on Reproducible Quality-Efficient Systems Tournament on Co-designing Pareto-efficient Deep Learning, ReQuEST@ASPLOS 2018, Williamsburg, VA, USA, March 24, 2018",
+      "  [2014] Power Modeling for Heterogeneous Processors."
+    ]
+  },
+  {
+    "name": "Nathan Beckmann",
+    "total": 3,
+    "years": {
+      "2020": 1,
+      "2019": 1,
+      "2016": 1
+    },
+    "titles": [
+      "  [2020] Livia: Data-Centric Computing Throughout the Memory Hierarchy.",
+      "  [2019] Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems.",
+      "  [2016] Whirlpool: Improving Dynamic Cache Management with Static Data Classification."
+    ]
+  },
+  {
+    "name": "Naveen Muralimanohar",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Norman P. Jouppi",
+    "total": 4,
+    "years": {
+      "2023": 1,
+      "1989": 2,
+      "1982": 1
+    },
+    "titles": [
+      "  [2023] Hyperscale Hardware Optimized Neural Architecture Search.",
+      "  [1989] A Unified Vector/Scalar Floating-Point Architecture.",
+      "  [1989] Available Instruction-Level Parallelism for Superscalar and Superpipelined Machines.",
+      "  [1982] Hardware/Software Tradeoffs for Increased Performance."
+    ]
+  },
+  {
+    "name": "Pen-Chung Yew",
+    "total": 1,
+    "years": {
+      "2018": 1
+    },
+    "titles": [
+      "  [2018] Enhancing Cross-ISA DBT Through Automatically Learned Translation Rules."
+    ]
+  },
+  {
+    "name": "Per Stenström",
+    "total": 1,
+    "years": {
+      "1994": 1
+    },
+    "titles": [
+      "  [1994] Simple Compiler Algorithms to Reduce Ownership Operhead in Cache Coherence Protocols."
+    ]
+  },
+  {
+    "name": "Phillip B. Gibbons",
+    "total": 4,
+    "years": {
+      "2021": 1,
+      "2014": 1,
+      "2010": 2
+    },
+    "titles": [
+      "  [2021] HerQules: securing programs via hardware-enforced message queues.",
+      "  [2014] Guardrail: a high fidelity approach to protecting hardware devices from buggy drivers.",
+      "  [2010] Butterfly analysis: adapting dataflow analysis to dynamic parallel monitoring.",
+      "  [2010] ParaLog: enabling and accelerating online parallel monitoring of multithreaded applications."
+    ]
+  },
+  {
+    "name": "Pradip Bose",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Prashant J. Nair",
+    "total": 5,
+    "years": {
+      "2024": 1,
+      "2023": 1,
+      "2022": 1,
+      "2020": 1,
+      "2015": 1
+    },
+    "titles": [
+      "  [2024] Red-QAOA: Efficient Variational Optimization through Circuit Reduction.",
+      "  [2023] HuffDuff: Stealing Pruned DNNs from Sparse Accelerators.",
+      "  [2022] Randomized row-swap: mitigating Row Hammer by breaking spatial correlation between aggressor and victim rows.",
+      "  [2020] Thesaurus: Efficient Cache Compression via Dynamic Clustering.",
+      "  [2015] DEUCE: Write-Efficient Encryption for Non-Volatile Memories."
+    ]
+  },
+  {
+    "name": "Qi Guo",
+    "total": 13,
+    "years": {
+      "2026": 3,
+      "2023": 2,
+      "2025": 1,
+      "2024": 4,
+      "2022": 1,
+      "2017": 1,
+      "2016": 1
+    },
+    "titles": [
+      "  [2026] Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates.",
+      "  [2023] Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators.",
+      "  [2026] GFS: A Preemption-aware Scheduling Framework for GPU Clusters with Predictive Spot Instance Management.",
+      "  [2025] Mosaic: Exploiting Instruction-Level Parallelism on Deep Learning Accelerators with iTex Tessellation.",
+      "  [2024] TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing.",
+      "  [2022] HeteroGen: transpiling C to heterogeneous HLS code with automated test generation and program repair.",
+      "  [2026] Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter.",
+      "  [2024] Amanda: Unified Instrumentation Framework for Deep Neural Networks.",
+      "  [2024] FaaSMem: Improving Memory Efficiency of Serverless Computing with Memory Pool Architecture.",
+      "  [2024] FEASTA: A Flexible and Efficient Accelerator for Sparse Tensor Algebra in Machine Learning.",
+      "  [2023] Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models.",
+      "  [2017] Distributed SAR Image Change Detection with OpenCL-Enabled Spark.",
+      "  [2016] High-Density Image Storage Using Approximate Memory Cells."
+    ]
+  },
+  {
+    "name": "Rajeev Balasubramonian",
+    "total": 8,
+    "years": {
+      "2025": 1,
+      "2024": 1,
+      "2019": 1,
+      "2018": 3,
+      "2014": 1,
+      "2010": 1
+    },
+    "titles": [
+      "  [2025] FLEXPROF: Flexible, Side-Channel-Free Memory Access.",
+      "  [2024] PATHFINDER: Practical Real-Time Learning for Data Prefetching.",
+      "  [2019] ρ: Relaxed Hierarchical ORAM.",
+      "  [2018] VAULT: Reducing Paging Overheads in SGX with Efficient Integrity Verification Structures.",
+      "  [2018] Moving CNN Accelerator Computations Closer to Data.",
+      "  [2018] A Case for Dynamic Activation Quantization in CNNs.",
+      "  [2014] Architectural Support for Programming Languages and Operating Systems, ASPLOS 2014, Salt Lake City, UT, USA, March 1-5, 2014",
+      "  [2010] Micro-pages: increasing DRAM efficiency with locality-aware data placement."
+    ]
+  },
+  {
+    "name": "Rajiv Gupta",
+    "total": 13,
+    "years": {
+      "2024": 4,
+      "2023": 2,
+      "2019": 1,
+      "2017": 2,
+      "2012": 1,
+      "2011": 1,
+      "2000": 1,
+      "1989": 1
+    },
+    "titles": [
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1, ASPLOS 2024, La Jolla, CA, USA, 27 April 2024- 1 May 2024",
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2, ASPLOS 2024, La Jolla, CA, USA, 27 April 2024- 1 May 2024",
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3, ASPLOS 2024, La Jolla, CA, USA, 27 April 2024- 1 May 2024",
+      "  [2024] Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 4, ASPLOS 2024, Hilton La Jolla Torrey Pines, La Jolla, CA, USA, 27 April 2024 - 1 May 2024",
+      "  [2023] CommonGraph: Graph Analytics on Evolving Data.",
+      "  [2023] Glign: Taming Misaligned Graph Traversals in Concurrent Graph Processing.",
+      "  [2019] PnP: Pruning and Prediction for Point-To-Point Iterative Graph Analytics.",
+      "  [2017] KickStarter: Fast and Accurate Computations on Streaming Graphs via Trimmed Approximations.",
+      "  [2017] CoRAL: Confined Recovery in Distributed Asynchronous Graph Processing.",
+      "  [2012] Efficient sequential consistency via conflict ordering.",
+      "  [2011] Proceedings of the 16th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS 2011, Newport Beach, CA, USA, March 5-11, 2011",
+      "  [2000] Frequent Value Locality and Value-Centric Data Cache Design.",
+      "  [1989] The Fuzzy Barrier: A Mechanism for High Speed Synchronization of Processors."
+    ]
+  },
+  {
+    "name": "Ravishankar R. Iyer",
+    "total": 4,
+    "years": {
+      "2013": 1,
+      "2025": 1,
+      "2021": 1,
+      "2019": 1
+    },
+    "titles": [
+      "  [2013] OWL: cooperative thread array aware scheduling techniques for improving GPGPU performance.",
+      "  [2025] PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference.",
+      "  [2021] BayesPerf: minimizing performance monitoring errors using Bayesian statistics.",
+      "  [2019] AcMC 2 : Accelerating Markov Chain Monte Carlo Algorithms for Probabilistic Models."
+    ]
+  },
+  {
+    "name": "Reetuparna Das",
+    "total": 3,
+    "years": {
+      "2025": 1,
+      "2018": 1,
+      "2016": 1
+    },
+    "titles": [
+      "  [2025] PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference.",
+      "  [2018] In-Memory Data Parallel Processor.",
+      "  [2016] ANVIL: Software-Based Protection Against Next-Generation Rowhammer Attacks."
+    ]
+  },
+  {
+    "name": "Robert A. Mueller",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Ronald G. Dreslinski",
+    "total": 4,
+    "years": {
+      "2006": 1,
+      "2023": 1,
+      "2015": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2006] PicoServer: using 3D stacking technology to enable a compact energy efficient chip multiprocessor.",
+      "  [2023] GRACE: A Scalable Graph-Based Approach to Accelerating Recommendation Model Inference.",
+      "  [2015] Sirius: An Open End-to-End Voice and Vision Personal Assistant and Its Implications for Future Warehouse Scale Computers.",
+      "  [2014] Integrated 3D-stacked server designs for increasing physical density of key-value stores."
+    ]
+  },
+  {
+    "name": "Rui Hou",
+    "total": 4,
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2023": 1,
+      "2020": 1
+    },
+    "titles": [
+      "  [2026] Maverick: Rethinking TFHE Bootstrapping on GPUs via Algorithm-Hardware Co-Design.",
+      "  [2025] Relax: Composable Abstractions for End-to-End Dynamic Machine Learning.",
+      "  [2023] TensorIR: An Abstraction for Automatic Tensorized Program Optimization.",
+      "  [2020] DNNGuard: An Elastic Heterogeneous DNN Accelerator Architecture against Adversarial Attacks."
+    ]
+  },
+  {
+    "name": "Sandhya Dwarkadas",
+    "total": 4,
+    "years": {
+      "2015": 1,
+      "2013": 1,
+      "2008": 1,
+      "1996": 1
+    },
+    "titles": [
+      "  [2015] Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS 2015, Istanbul, Turkey, March 14-18, 2015",
+      "  [2013] Power containers: an OS facility for fine-grained power and energy management on multicore servers.",
+      "  [2008] Hardware counter driven on-the-fly request signatures.",
+      "  [1996] An Integrated Compile-Time/Run-Time Software Distributed Shared Memory System."
+    ]
+  },
+  {
+    "name": "Sanjay J. Patel",
+    "total": 1,
+    "years": {
+      "2010": 1
+    },
+    "titles": [
+      "  [2010] An asymmetric distributed shared memory model for heterogeneous parallel systems."
+    ]
+  },
+  {
+    "name": "Saugata Ghose",
+    "total": 4,
+    "years": {
+      "2026": 1,
+      "2021": 1,
+      "2018": 2
+    },
+    "titles": [
+      "  [2026] DARTH-PUM: A Hybrid Processing-Using-Memory Architecture.",
+      "  [2021] SIMDRAM: a framework for bit-serial SIMD processing using DRAM.",
+      "  [2018] MASK: Redesigning the GPU Memory Hierarchy to Support Multi-Application Concurrency.",
+      "  [2018] Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks."
+    ]
+  },
+  {
+    "name": "Scott Mahlke",
+    "total": 13,
+    "years": {
+      "2026": 1,
+      "2024": 1,
+      "2018": 1,
+      "2017": 1,
+      "2015": 1,
+      "2014": 1,
+      "2012": 2,
+      "2011": 1,
+      "2010": 2,
+      "1994": 1,
+      "1992": 1
+    },
+    "titles": [
+      "  [2026] SNIP: An Adaptive Mixed Precision Framework for Subbyte Large Language Model Training.",
+      "  [2024] SlimSLAM: An Adaptive Runtime for Visual-Inertial Simultaneous Localization and Mapping.",
+      "  [2018] In-Memory Data Parallel Processor.",
+      "  [2017] Dynamic Resource Management for Efficient Utilization of Multitasking GPUs.",
+      "  [2015] Chimera: Collaborative Preemption for Multitasking on a Shared GPU.",
+      "  [2014] Paraprox: pattern-based approximation for data parallel applications.",
+      "  [2012] SIMD defragmenter: efficient ILP realization on data-parallel architectures.",
+      "  [2012] Paragon: collaborative speculative loop execution on GPU and CPU.",
+      "  [2011] Sponge: portable stream programming on graphics engines.",
+      "  [2010] Shoestring: probabilistic soft error reliability on the cheap.",
+      "  [2010] MacroSS: macro-SIMDization of streaming applications.",
+      "  [1994] Dynamic Memory Disambiguation Using the Memory Conflict Buffer.",
+      "  [1992] Sentinel Scheduling for VLIW and Superscalar Processors."
+    ]
+  },
+  {
+    "name": "Shaojun Wei",
+    "total": 1,
+    "years": {
+      "2024": 1
+    },
+    "titles": [
+      "  [2024] Harp: Leveraging Quasi-Sequential Characteristics to Accelerate Sequence-to-Graph Mapping of Long Reads."
+    ]
+  },
+  {
+    "name": "Shouyi Yin",
+    "total": 1,
+    "years": {
+      "2026": 1
+    },
+    "titles": [
+      "  [2026] XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads."
+    ]
+  },
+  {
+    "name": "Shuangchen Li",
+    "total": 2,
+    "years": {
+      "2020": 1,
+      "2019": 1
+    },
+    "titles": [
+      "  [2020] DeepSniffer: A DNN Model Extraction Framework Based on Learning Architectural Hints.",
+      "  [2019] FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture."
+    ]
+  },
+  {
+    "name": "Shubhendu S. Mukherjee",
+    "total": 1,
+    "years": {
+      "2002": 1
+    },
+    "titles": [
+      "  [2002] A comparative study of arbitration algorithms for the Alpha 21364 pipelined router."
+    ]
+  },
+  {
+    "name": "Simha Sethumadhavan",
+    "total": 2,
+    "years": {
+      "2019": 1,
+      "2004": 1
+    },
+    "titles": [
+      "  [2019] Heterogeneous Isolated Execution for Commodity GPUs.",
+      "  [2004] Scalable selective re-execution for EDGE architectures."
+    ]
+  },
+  {
+    "name": "Sreenivas Subramoney",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Stefanos Kaxiras",
+    "total": 1,
+    "years": {
+      "2024": 1
+    },
+    "titles": [
+      "  [2024] Bounding Speculative Execution of Atomic Regions to a Single Retry."
+    ]
+  },
+  {
+    "name": "Stephen W. Keckler",
+    "total": 7,
+    "years": {
+      "2015": 1,
+      "2019": 1,
+      "2014": 1,
+      "2009": 1,
+      "2004": 1,
+      "2002": 1,
+      "1994": 1
+    },
+    "titles": [
+      "  [2015] Page Placement Strategies for GPUs within Heterogeneous Memory Systems.",
+      "  [2019] Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration.",
+      "  [2014] Application-aware Memory System for Fair and Efficient Execution of Concurrent GPGPU Applications.",
+      "  [2009] An evaluation of the TRIPS computer system.",
+      "  [2004] Scalable selective re-execution for EDGE architectures.",
+      "  [2002] An adaptive, non-uniform cache structure for wire-delay dominated on-chip caches.",
+      "  [1994] Hardware Support for Fast Capability-based Addressing."
+    ]
+  },
+  {
+    "name": "Steven K. Reinhardt",
+    "total": 6,
+    "years": {
+      "2014": 1,
+      "2006": 2,
+      "2000": 1,
+      "1994": 1,
+      "1992": 1
+    },
+    "titles": [
+      "  [2014] Heterogeneous-race-free memory models.",
+      "  [2006] Integrated network interfaces for high-bandwidth TCP/IP.",
+      "  [2006] PicoServer: using 3D stacking technology to enable a compact energy efficient chip multiprocessor.",
+      "  [2000] Thread Level Parallelism and Interactive Performance of Desktop Applications.",
+      "  [1994] Fine-grain Access Control for Distributed Shared Memory.",
+      "  [1992] Cooperative Shared Memory: Software and Hardware Support for Scalable Multiprocesors."
+    ]
+  },
+  {
+    "name": "Sudhanva Gurumurthi",
+    "total": 2,
+    "years": {
+      "2015": 1,
+      "2006": 1
+    },
+    "titles": [
+      "  [2015] Memory Errors in Modern Systems: The Good, The Bad, and The Ugly.",
+      "  [2006] SlicK: slice-based locality exploitation for efficient redundant multithreading."
+    ]
+  },
+  {
+    "name": "Susan J. Eggers",
+    "total": 8,
+    "years": {
+      "1996": 1,
+      "1992": 1,
+      "2008": 1,
+      "2006": 1,
+      "2000": 1,
+      "1994": 1,
+      "1991": 1,
+      "1989": 1
+    },
+    "titles": [
+      "  [1996] ASPLOS-VII Proceedings - Seventh International Conference on Architectural Support for Programming Languages and Operating Systems, Cambridge, Massachusetts, USA, October 1-5, 1996.",
+      "  [1992] Architectural Support for Single Address Space Operating Systems.",
+      "  [2008] Proceedings of the 13th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS 2008, Seattle, WA, USA, March 1-5, 2008",
+      "  [2006] Instruction scheduling for a tiled dataflow architecture.",
+      "  [2000] An Analysis of Operating System Behavior on a Simultaneous Multithreaded Architecture.",
+      "  [1994] The Effectiveness of Multiple Hardware Contexts.",
+      "  [1991] Integrating Register Allocation and Instruction Scheduling for RISCs.",
+      "  [1989] The Effect of Sharing on the Cache and Bus Performance of Parallel Programs."
+    ]
+  },
+  {
+    "name": "Swamit Tannu",
+    "total": 5,
+    "years": {
+      "2026": 2,
+      "2025": 1,
+      "2022": 1,
+      "2019": 1
+    },
+    "titles": [
+      "  [2026] Reducing T Gates with Unitary Synthesis.",
+      "  [2026] PropHunt: Automated Optimization of Quantum Syndrome Measurement Circuits.",
+      "  [2025] Optimizing Quantum Circuits, Fast and Slow.",
+      "  [2022] HAMMER: boosting fidelity of noisy Quantum circuits by exploiting Hamming behavior of erroneous outcomes.",
+      "  [2019] Not All Qubits Are Created Equal: A Case for Variability-Aware Policies for NISQ-Era Quantum Computers."
+    ]
+  },
+  {
+    "name": "T. N. Vijaykumar",
+    "total": 7,
+    "years": {
+      "2013": 1,
+      "2012": 1,
+      "2014": 1,
+      "2010": 1,
+      "2006": 1,
+      "2004": 2
+    },
+    "titles": [
+      "  [2013] Wait-n-GoTM: improving HTM performance by serializing cyclic dependencies.",
+      "  [2012] Tarazu: optimizing MapReduce on heterogeneous clusters.",
+      "  [2014] High-performance fractal coherence.",
+      "  [2010] Joint optimization of idle and cooling power in data centers while maintaining response time.",
+      "  [2006] A program transformation and architecture support for quantum uncomputation.",
+      "  [2004] Software prefetching for mark-sweep garbage collection: hardware analysis and software redesign.",
+      "  [2004] Heat-and-run: leveraging SMT and CMP to manage power density through the operating system."
+    ]
+  },
+  {
+    "name": "Tao Li",
+    "total": 9,
+    "years": {
+      "2023": 1,
+      "2025": 3,
+      "2026": 1,
+      "2018": 2,
+      "2017": 1,
+      "2002": 1
+    },
+    "titles": [
+      "  [2023] Hyperscale Hardware Optimized Neural Architecture Search.",
+      "  [2025] Fault Escaping: Improving Robustness of DPU Enhanced Platform with Mutual Assisted VM Recovery.",
+      "  [2025] Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme.",
+      "  [2026] History Doesn&apos;t Repeat Itself but Rollouts Rhyme: Accelerating Reinforcement Learning with RhymeRL.",
+      "  [2018] Exploiting Dynamic Thermal Energy Harvesting for Reusing in Smartphone with Mobile Applications.",
+      "  [2017] Towards &quot;Full Containerization&quot; in Containerized Network Function Virtualization.",
+      "  [2002] Understanding and improving operating system effects in control flow prediction.",
+      "  [2025] Enabling Efficient Mobile Tracing with BTrace.",
+      "  [2018] A Quantization-Friendly Separable Convolution for MobileNets."
+    ]
+  },
+  {
+    "name": "Thomas M. Conte",
+    "total": 3,
+    "years": {
+      "2025": 1,
+      "2016": 1,
+      "1998": 1
+    },
+    "titles": [
+      "  [2025] RASSM: Residue-based Acceleration of Single Sparse Matrix Computation via Adaptive Tiling.",
+      "  [2016] Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS 2016, Atlanta, GA, USA, April 2-6, 2016",
+      "  [1998] Value Speculation Scheduling for High Performance Processors."
+    ]
+  },
+  {
+    "name": "Tianshi Chen",
+    "total": 4,
+    "years": {
+      "2026": 1,
+      "2014": 1,
+      "2023": 1,
+      "2015": 1
+    },
+    "titles": [
+      "  [2026] Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates.",
+      "  [2014] DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning.",
+      "  [2023] Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators.",
+      "  [2015] PuDianNao: A Polyvalent Machine Learning Accelerator."
+    ]
+  },
+  {
+    "name": "Timothy G. Rogers",
+    "total": 2,
+    "years": {
+      "2021": 1,
+      "2020": 1
+    },
+    "titles": [
+      "  [2021] Judging a type by its pointer: optimizing GPU virtual functions.",
+      "  [2020] Dimensionality-Aware Redundant SIMT Instruction Elimination."
+    ]
+  },
+  {
+    "name": "Timothy M. Jones",
+    "total": 4,
+    "years": {
+      "2026": 1,
+      "2022": 1,
+      "2020": 1,
+      "2018": 1
+    },
+    "titles": [
+      "  [2026] CHERI-SIMT: Implementing Capability Memory Protection in GPUs.",
+      "  [2022] MineSweeper: a &quot;clean sweep&quot; for drop-in use-after-free prevention.",
+      "  [2020] The Guardian Council: Parallel Programmable Hardware Security.",
+      "  [2018] An Event-Triggered Programmable Prefetcher for Irregular Workloads."
+    ]
+  },
+  {
+    "name": "Todd Austin",
+    "total": 6,
+    "years": {
+      "2019": 1,
+      "2016": 1,
+      "2012": 1,
+      "2006": 1,
+      "2000": 1,
+      "1998": 1
+    },
+    "titles": [
+      "  [2019] Morpheus: A Vulnerability-Tolerant Secure Architecture Based on Ensembles of Moving Target Defenses with Churn.",
+      "  [2016] ANVIL: Software-Based Protection Against Next-Generation Rowhammer Attacks.",
+      "  [2012] A case for unlimited watchpoints.",
+      "  [2006] Ultra low-cost defect protection for microprocessor pipelines.",
+      "  [2000] Architectural Support for Fast Symmetric-Key Cryptography.",
+      "  [1998] Cache-Conscious Data Placement."
+    ]
+  },
+  {
+    "name": "Todd M. Austin",
+    "total": 6,
+    "years": {
+      "2019": 1,
+      "2016": 1,
+      "2012": 1,
+      "2006": 1,
+      "2000": 1,
+      "1998": 1
+    },
+    "titles": [
+      "  [2019] Morpheus: A Vulnerability-Tolerant Secure Architecture Based on Ensembles of Moving Target Defenses with Churn.",
+      "  [2016] ANVIL: Software-Based Protection Against Next-Generation Rowhammer Attacks.",
+      "  [2012] A case for unlimited watchpoints.",
+      "  [2006] Ultra low-cost defect protection for microprocessor pipelines.",
+      "  [2000] Architectural Support for Fast Symmetric-Key Cryptography.",
+      "  [1998] Cache-Conscious Data Placement."
+    ]
+  },
+  {
+    "name": "Tor M. Aamodt",
+    "total": 6,
+    "years": {
+      "2023": 3,
+      "2022": 1,
+      "2025": 1,
+      "2013": 1
+    },
+    "titles": [
+      "  [2023] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2023] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2023] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 4, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2022] Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1, ASPLOS 2023, Vancouver, BC, Canada, March 25-29, 2023",
+      "  [2025] Treelet Accelerated Ray Tracing on GPUs.",
+      "  [2013] GPUDet: a deterministic GPU architecture."
+    ]
+  },
+  {
+    "name": "Trevor Mudge",
+    "total": 12,
+    "years": {
+      "2023": 1,
+      "2017": 1,
+      "2015": 1,
+      "2014": 1,
+      "2011": 1,
+      "2010": 1,
+      "2006": 1,
+      "2000": 1,
+      "1998": 1,
+      "1996": 1,
+      "1994": 2
+    },
+    "titles": [
+      "  [2023] GRACE: A Scalable Graph-Based Approach to Accelerating Recommendation Model Inference.",
+      "  [2017] Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge.",
+      "  [2015] Sirius: An Open End-to-End Voice and Vision Personal Assistant and Its Implications for Future Warehouse Scale Computers.",
+      "  [2014] Integrated 3D-stacked server designs for increasing physical density of key-value stores.",
+      "  [2011] Sponge: portable stream programming on graphics engines.",
+      "  [2010] MacroSS: macro-SIMDization of streaming applications.",
+      "  [2006] PicoServer: using 3D stacking technology to enable a compact energy efficient chip multiprocessor.",
+      "  [2000] Thread Level Parallelism and Interactive Performance of Desktop Applications.",
+      "  [1998] A Look at Several Memory Management Units, TLB-Refill Mechanisms, and Page Table Organizations.",
+      "  [1996] Analysis of Branch Prediction Via Data Compression.",
+      "  [1994] Trap-driven Simulation with Tapeworm II.",
+      "  [1994] Resource Allocation in a High Clock Rate Microprocessor."
+    ]
+  },
+  {
+    "name": "Vicki H. Allan",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Vijay Janapa Reddi",
+    "total": 6,
+    "years": {
+      "2026": 1,
+      "2025": 2,
+      "2024": 2,
+      "2021": 1
+    },
+    "titles": [
+      "  [2026] Lifetime-Aware Design for Item-Level Intelligence at the Extreme Edge.",
+      "  [2025] OctoCache: Caching Voxels for Accelerating 3D Occupancy Mapping in Autonomous Systems.",
+      "  [2025] ReCA: Integrated Acceleration for Real-Time and Efficient Cooperative Embodied Autonomous Agents.",
+      "  [2024] GPU-based Private Information Retrieval for On-Device Machine Learning Inference.",
+      "  [2024] MulBERRY: Enabling Bit-Error Robustness for Energy-Efficient Multi-Agent Autonomous Systems.",
+      "  [2021] Robomorphic computing: a design methodology for domain-specific accelerators parameterized by robot morphology."
+    ]
+  },
+  {
+    "name": "Vijaykrishnan Narayanan",
+    "total": 2,
+    "years": {
+      "2018": 1,
+      "2002": 1
+    },
+    "titles": [
+      "  [2018] NEOFog: Nonvolatility-Exploiting Optimizations for Fog Computing.",
+      "  [2002] Understanding and improving operating system effects in control flow prediction."
+    ]
+  },
+  {
+    "name": "Wen-Mei W. Hwu",
+    "total": 13,
+    "years": {
+      "2016": 2,
+      "2026": 1,
+      "2024": 2,
+      "2023": 1,
+      "2019": 2,
+      "2013": 1,
+      "2010": 1,
+      "2000": 1,
+      "1994": 1,
+      "1992": 1
+    },
+    "titles": [
+      "  [2016] DySel: Lightweight Dynamic Selection for Kernel-based Data-parallel Programming Model.",
+      "  [2026] Asynchrony and GPUs: Bridging this Dichotomy for I/O with AGIO.",
+      "  [2024] GMT: GPU Orchestrated Memory Tiering for the Big Data Era.",
+      "  [2024] Hector: An Efficient Programming and Compilation Framework for Implementing Relational Graph Neural Networks in GPU Architectures.",
+      "  [2023] GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture.",
+      "  [2019] FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy.",
+      "  [2019] PUMA: A Programmable Ultra-efficient Memristor-based Accelerator for Machine Learning Inference.",
+      "  [2016] SpaceJMP: Programming with Multiple Virtual Address Spaces.",
+      "  [2013] Comparison based sorting for systems with multiple GPUs.",
+      "  [2010] An asymmetric distributed shared memory model for heterogeneous parallel systems.",
+      "  [2000] Hardware Support for Dynamic Management of Compiler-Directed Computation Reuse.",
+      "  [1994] Dynamic Memory Disambiguation Using the Memory Conflict Buffer.",
+      "  [1992] Sentinel Scheduling for VLIW and Superscalar Processors."
+    ]
+  },
+  {
+    "name": "William J. Dally",
+    "total": 6,
+    "years": {
+      "2023": 1,
+      "2000": 1,
+      "1996": 1,
+      "2018": 1,
+      "1994": 1,
+      "1989": 1
+    },
+    "titles": [
+      "  [2023] GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture.",
+      "  [2000] Communication Scheduling.",
+      "  [1996] ASPLOS-VII Proceedings - Seventh International Conference on Architectural Support for Programming Languages and Operating Systems, Cambridge, Massachusetts, USA, October 1-5, 1996.",
+      "  [2018] Darwin: A Genomics Co-processor Provides up to 15, 000X Acceleration on Long Read Assembly.",
+      "  [1994] Hardware Support for Fast Capability-based Addressing.",
+      "  [1989] Micro-Optimization of Floating Point Operations."
+    ]
+  },
+  {
+    "name": "Won Woo Ro",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Xiaofei Liao",
+    "total": 5,
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2023": 2,
+      "2019": 1
+    },
+    "titles": [
+      "  [2026] CPU-Oblivious Offloading of Failure-Atomic Transactions for Disaggregated Memory.",
+      "  [2025] TempGraph: An Efficient Chain-driven Temporal Graph Computing Framework on the GPU.",
+      "  [2023] Revisiting Log-Structured Merging for KV Stores in Hybrid Memory Systems.",
+      "  [2023] SpecPMT: Speculative Logging for Resolving Crash Consistency Overhead of Persistent Memory.",
+      "  [2019] DiGraph: An Efficient Path-based Iterative Directed Graph Processing System on Multiple GPUs."
+    ]
+  },
+  {
+    "name": "Xiaowei Jiang",
+    "total": 1,
+    "years": {
+      "2006": 1
+    },
+    "titles": [
+      "  [2006] Comprehensively and efficiently protecting the heap."
+    ]
+  },
+  {
+    "name": "Xiaoyao Liang",
+    "total": 3,
+    "years": {
+      "2026": 1,
+      "2024": 2
+    },
+    "titles": [
+      "  [2026] AGS: Accelerating 3D Gaussian Splatting SLAM via CODEC-Assisted Frame Covisibility Detection.",
+      "  [2024] CMC: Video Transformer Acceleration via CODEC Assisted Matrix Condensing.",
+      "  [2024] FastGL: A GPU-Efficient Framework for Accelerating Sampling-Based GNN Training at Large Scale."
+    ]
+  },
+  {
+    "name": "Xing Hu",
+    "total": 8,
+    "years": {
+      "2026": 2,
+      "2025": 1,
+      "2024": 1,
+      "2023": 1,
+      "2020": 1,
+      "2019": 1,
+      "2022": 1
+    },
+    "titles": [
+      "  [2026] Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates.",
+      "  [2026] DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline.",
+      "  [2025] Mosaic: Exploiting Instruction-Level Parallelism on Deep Learning Accelerators with iTex Tessellation.",
+      "  [2024] TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing.",
+      "  [2023] Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators.",
+      "  [2020] DeepSniffer: A DNN Model Extraction Framework Based on Learning Architectural Hints.",
+      "  [2019] FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture.",
+      "  [2022] INFless: a native serverless system for low-latency, high-throughput inference."
+    ]
+  },
+  {
+    "name": "Yale N. Patt",
+    "total": 6,
+    "years": {
+      "2012": 1,
+      "2010": 1,
+      "2009": 1,
+      "2008": 2,
+      "1998": 1
+    },
+    "titles": [
+      "  [2012] Bottleneck identification and scheduling in multithreaded applications.",
+      "  [2010] Fairness via source throttling: a configurable and high-performance fairness substrate for multi-core memory systems.",
+      "  [2009] Accelerating critical section execution with asymmetric multi-core architectures.",
+      "  [2008] Improving the performance of object-oriented languages with dynamic predication of indirect jumps.",
+      "  [2008] Feedback-driven threading: power-efficient and high-performance execution of multi-threaded workloads on CMPs.",
+      "  [1998] Variable Length Path Branch Prediction."
+    ]
+  },
+  {
+    "name": "Yan Solihin",
+    "total": 5,
+    "years": {
+      "2023": 1,
+      "2026": 1,
+      "2020": 1,
+      "2016": 1,
+      "2006": 1
+    },
+    "titles": [
+      "  [2023] SpecPMT: Speculative Logging for Resolving Crash Consistency Overhead of Persistent Memory.",
+      "  [2026] CPU-Oblivious Offloading of Failure-Atomic Transactions for Disaggregated Memory.",
+      "  [2020] MERR: Improving Security of Persistent Memory Objects via Efficient Memory Exposure Reduction and Randomization.",
+      "  [2016] Silent Shredder: Zero-Cost Shredding for Secure Non-Volatile Main Memory Controllers.",
+      "  [2006] Comprehensively and efficiently protecting the heap."
+    ]
+  },
+  {
+    "name": "Yang Hu",
+    "total": 19,
+    "years": {
+      "2026": 6,
+      "2024": 2,
+      "2022": 2,
+      "2021": 1,
+      "2017": 1,
+      "2013": 1,
+      "2025": 2,
+      "2023": 3,
+      "2020": 1
+    },
+    "titles": [
+      "  [2026] Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates.",
+      "  [2026] GFS: A Preemption-aware Scheduling Framework for GPU Clusters with Predictive Spot Instance Management.",
+      "  [2024] FEASTA: A Flexible and Efficient Accelerator for Sparse Tensor Algebra in Machine Learning.",
+      "  [2026] Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter.",
+      "  [2026] XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads.",
+      "  [2026] Nemo: A Low-Write-Amplification Cache for Tiny Objects on Log-Structured Flash Devices.",
+      "  [2022] Eavesdropping user credentials via GPU side channels on smartphones.",
+      "  [2022] INFless: a native serverless system for low-latency, high-throughput inference.",
+      "  [2021] Q-VR: system-level design for future mobile collaborative virtual reality.",
+      "  [2017] Towards &quot;Full Containerization&quot; in Containerized Network Function Virtualization.",
+      "  [2013] Verifying systems rules using rule-directed symbolic execution.",
+      "  [2026] Reconfigurable Quantum Instruction Set Computers for High Performance Attainable on Hardware.",
+      "  [2025] Simplifying and Accelerating NOR Flash I/O Stack for RAM-Restricted Microcontrollers.",
+      "  [2025] Fast On-device LLM Inference with NPUs.",
+      "  [2024] PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation.",
+      "  [2023] ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning.",
+      "  [2023] Hyperscale Hardware Optimized Neural Architecture Search.",
+      "  [2023] Erms: Efficient Resource Management for Shared Microservices with SLA Guarantees.",
+      "  [2020] Capuchin: Tensor-based GPU Memory Management for Deep Learning."
+    ]
+  },
+  {
+    "name": "Yiannakis Sazeides",
+    "total": 0,
+    "years": {},
+    "titles": []
+  },
+  {
+    "name": "Yiran Chen",
+    "total": 3,
+    "years": {
+      "2018": 2,
+      "2023": 1
+    },
+    "titles": [
+      "  [2018] PANEL: Open panel and discussion on tackling complexity, reproducibility and tech transfer challenges in a rapidly evolving AI/ML/systems research.",
+      "  [2023] DefT: Boosting Scalability of Deformable Convolution Operations on GPUs.",
+      "  [2018] Keynote."
+    ]
+  },
+  {
+    "name": "Youfeng Wu",
+    "total": 1,
+    "years": {
+      "2013": 1
+    },
+    "titles": [
+      "  [2013] TSO_ATOMICITY: efficient hardware primitive for TSO-preserving region optimizations."
+    ]
+  },
+  {
+    "name": "Youtao Zhang",
+    "total": 6,
+    "years": {
+      "2025": 1,
+      "2024": 2,
+      "2019": 1,
+      "2015": 1,
+      "2000": 1
+    },
+    "titles": [
+      "  [2025] Cascade: A Dependency-aware Efficient Training Framework for Temporal Graph Neural Network.",
+      "  [2024] FMCC: Flexible Measurement-based Quantum Computation over Cluster State.",
+      "  [2024] QRCC: Evaluating Large Quantum Circuits on Small Quantum Computers through Integrated Qubit Reuse and Circuit Cutting.",
+      "  [2019] A Framework for Memory Oversubscription Management in Graphics Processing Units.",
+      "  [2015] SD-PCM: Constructing Reliable Super Dense Phase Change Memory under Write Disturbance.",
+      "  [2000] Frequent Value Locality and Value-Centric Data Cache Design."
+    ]
+  },
+  {
+    "name": "Yufei Ding",
+    "total": 15,
+    "years": {
+      "2025": 3,
+      "2026": 1,
+      "2024": 5,
+      "2022": 2,
+      "2020": 2,
+      "2019": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2025] HetEC: Architectures for Heterogeneous Quantum Error Correction Codes.",
+      "  [2026] iSwitch: QEC on Demand via In-Situ Encoding of Bare Qubits for Ion Trap Architectures.",
+      "  [2025] PowerMove: Optimizing Compilation for Neutral Atom Quantum Computers with Zoned Architecture.",
+      "  [2025] QECC-Synth: A Layout Synthesizer for Quantum Error Correction Codes on Sparse Architectures.",
+      "  [2024] EVT: Accelerating Deep Learning Training with Epilogue Visitor Tree.",
+      "  [2024] ZENO: A Type-based Optimization Framework for Zero Knowledge Neural Network Inference.",
+      "  [2024] RAP: Resource-aware Automated GPU Sharing for Multi-GPU Recommendation Model Training and Input Preprocessing.",
+      "  [2024] OnePerc: A Randomness-aware Compiler for Photonic Quantum Computing.",
+      "  [2024] MECH: Multi-Entry Communication Highway for Superconducting Quantum Chiplets.",
+      "  [2022] Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels.",
+      "  [2022] DOTA: detect and omit weak attentions for scalable transformer acceleration.",
+      "  [2020] DeepSniffer: A DNN Model Extraction Framework Based on Learning Architectural Hints.",
+      "  [2020] Towards Efficient Superconducting Quantum Processor Architecture Design.",
+      "  [2019] Tackling the Qubit Mapping Problem for NISQ-Era Quantum Devices.",
+      "  [2014] Finding the limit: examining the potential and complexity of compilation scheduling for JIT-based runtime systems."
+    ]
+  },
+  {
+    "name": "Yuhao Zhu",
+    "total": 5,
+    "years": {
+      "2025": 2,
+      "2024": 3
+    },
+    "titles": [
+      "  [2025] StreamGrid: Streaming Point Cloud Analytics via Compulsory Splitting and Deterministic Termination.",
+      "  [2025] MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering.",
+      "  [2024] Amanda: Unified Instrumentation Framework for Deep Neural Networks.",
+      "  [2024] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.",
+      "  [2024] Exploiting Human Color Discrimination for Memory- and Energy-Efficient Image Encoding in Virtual Reality."
+    ]
+  },
+  {
+    "name": "Zeshan Chishti",
+    "total": 1,
+    "years": {
+      "2017": 1
+    },
+    "titles": [
+      "  [2017] Hardware-Software Co-design to Mitigate DRAM Refresh Overheads: A Case for Refresh-Aware Process Scheduling."
+    ]
+  },
+  {
+    "name": "Zidong Du",
+    "total": 5,
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2024": 1,
+      "2023": 1,
+      "2014": 1
+    },
+    "titles": [
+      "  [2026] Hardwired-Neuron Language Processing Units as General-Purpose Cognitive Substrates.",
+      "  [2025] Mosaic: Exploiting Instruction-Level Parallelism on Deep Learning Accelerators with iTex Tessellation.",
+      "  [2024] TensorTEE: Unifying Heterogeneous TEE Granularity for Efficient Secure Collaborative Tensor Computing.",
+      "  [2023] Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators.",
+      "  [2014] DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning."
+    ]
+  }
+]

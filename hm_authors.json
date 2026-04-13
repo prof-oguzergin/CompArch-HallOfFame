@@ -1,0 +1,691 @@
+[
+  {
+    "year": 2024,
+    "conf": "ISCA 2024",
+    "title": "MAD Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems",
+    "authors": [
+      "Samuel Hsia",
+      "Alicia Golden",
+      "Bilge Acun",
+      "Newsha Ardalani",
+      "Zachary DeVito",
+      "Gu-Yeon Wei",
+      "David Brooks",
+      "Carole-Jean Wu"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "USENIX Security 2024",
+    "title": "Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor",
+    "authors": [
+      "Luyi Li",
+      "Hosein Yavarzadeh",
+      "Dean M. Tullsen"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "MICRO 2024",
+    "title": "Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design",
+    "authors": [
+      "Nikola Samardzic",
+      "Simon Langowski",
+      "Srinivas Devadas",
+      "Daniel Sánchez"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "ISCA 2024",
+    "title": "Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms",
+    "authors": [
+      "Qijing Huang",
+      "Po-An Tsai",
+      "Joel S. Emer",
+      "Angshuman Parashar"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "ISCA 2024",
+    "title": "Native DRAM Cache: Re-Architecting DRAM as a Large-Scale Cache for Data Centers",
+    "authors": [
+      "Yesin Ryu",
+      "Yoojin Kim",
+      "Giyong Jung",
+      "Jung Ho Ahn",
+      "Jungrae Kim"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "HPCA 2024",
+    "title": "uPIMulator: A Fast and Flexible Simulation Framework for General Purpose PIM Architectures",
+    "authors": [
+      "Bongjoon Hyun",
+      "Taehun Kim",
+      "Dongjae Lee",
+      "Minsoo Rhu"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "ASPLOS 2024",
+    "title": "Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs",
+    "authors": [
+      "Zhewen Pan",
+      "Joshua San Miguel",
+      "Di Wu"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "MICRO 2024",
+    "title": "DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults",
+    "authors": [
+      "Peter W. Deutsch",
+      "Vincent Quentin Ulitzsch",
+      "Sudhanva Gurumurthi",
+      "Vilas Sridharan",
+      "Joel S. Emer",
+      "Mengjia Yan"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "MICRO 2024",
+    "title": "A Case for Speculative Address Translation With Rapid Validation for GPUs",
+    "authors": [
+      "Junhyeok Park",
+      "Osang Kwon",
+      "Yongho Lee",
+      "Seongwook Kim",
+      "Gwangeun Byeon",
+      "Jihun Yoon",
+      "Prashant J. Nair",
+      "Seokin Hong"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "ASPLOS 2024",
+    "title": "Tandem Processor: Grappling With Emerging Operators in Neural Networks",
+    "authors": [
+      "Soroush Ghodrati",
+      "Sean Kinzer",
+      "Hanyang Xu",
+      "Rohan Mahapatra",
+      "Yoonsung Kim",
+      "Byung Hoon Ahn",
+      "Dong Kai Wang",
+      "Lavanya Karthikeyan",
+      "Amir Yazdanbakhsh",
+      "Jongse Park",
+      "Nam Sung Kim",
+      "Hadi Esmaeilzadeh"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "ASPLOS 2024",
+    "title": "SpotServe: Serving Generative Large Language Models on Preemptible Instances",
+    "authors": [
+      "Xupeng Miao",
+      "Chunan Shi",
+      "Jiangfei Duan",
+      "Xiaoli Xi",
+      "Dahua Lin",
+      "Bin Cui",
+      "Zhihao Jia"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2024,
+    "conf": "MICRO 2024",
+    "title": "MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker",
+    "authors": [
+      "Moinuddin Qureshi",
+      "Salman Qazi",
+      "Aamer Jaleel"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "ASPLOS 2020",
+    "title": "NeuMMU: Architectural Support for Efficient Address Translations in Neural Processing Units",
+    "authors": [
+      "Bongjoon Hyun",
+      "Youngeun Kwon",
+      "Yujeong Choi",
+      "John Kim",
+      "Minsoo Rhu"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "ASPLOS 2020",
+    "title": "Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol",
+    "authors": [
+      "Antonios Katsarakis",
+      "Vasilis Gavrielatos",
+      "M. R. Siavash Katebzadeh",
+      "Arpit Joshi",
+      "Aleksandar Dragojevic",
+      "Boris Grot",
+      "Vijay Nagarajan"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "ISCA 2020",
+    "title": "DSAGEN: Synthesizing Programmable Spatial Accelerators",
+    "authors": [
+      "Jian Weng",
+      "Sihao Liu",
+      "Vidushi Dadu",
+      "Zhengrong Wang",
+      "Preyas Shah",
+      "Tony Nowatzki"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "MICRO 2020",
+    "title": "Printed Machine Learning Classifiers",
+    "authors": [
+      "Muhammad Husnain Mubarik",
+      "Dennis D. Weller",
+      "Nathaniel Bleier",
+      "Matthew Tomei",
+      "Jasmin Aghassi-Hagmann",
+      "Mehdi B. Tahoori",
+      "Rakesh Kumar"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "OSDI 2020",
+    "title": "Agamotto: How Persistent is your Persistent Memory Application?",
+    "authors": [
+      "Ian Neal",
+      "Ben Reeves",
+      "Ben Stoler",
+      "Andrew Quinn",
+      "Youngjin Kwon",
+      "Simon Peter",
+      "Baris Kasikci"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "MICRO 2020",
+    "title": "Graphene: Strong yet Lightweight Row Hammer Protection",
+    "authors": [
+      "Yeonhong Park",
+      "Woosuk Kwon",
+      "Eojin Lee",
+      "Tae Jun Ham",
+      "Jung Ho Ahn",
+      "Jae W. Lee"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "MICRO 2020",
+    "title": "Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware Compilation",
+    "authors": [
+      "Yongshan Ding",
+      "Pranav Gokhale",
+      "Sophia Fuhui Lin",
+      "Richard Rines",
+      "Thomas Propson",
+      "Frederic T. Chong"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "S&P 2020",
+    "title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+    "authors": [
+      "Pietro Frigo",
+      "Emanuele Vannacci",
+      "Hasan Hassan",
+      "Victor van der Veen",
+      "Onur Mutlu",
+      "Cristiano Giuffrida",
+      "Herbert Bos",
+      "Kaveh Razavi"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "ISCA 2020",
+    "title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+    "authors": [
+      "Yongshan Ding",
+      "Xin-Chuan Wu",
+      "Adam Holmes",
+      "Ash Wiseth",
+      "Diana Franklin",
+      "Margaret Martonosi",
+      "Frederic T. Chong"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "HPCA 2020",
+    "title": "Leaking Information Through Cache LRU States",
+    "authors": [
+      "Wenjie Xiong",
+      "Jakub Szefer"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "ASPLOS 2020",
+    "title": "Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism",
+    "authors": [
+      "Dimitrios Skarlatos",
+      "Apostolos Kokolis",
+      "Tianyin Xu",
+      "Josep Torrellas"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2020,
+    "conf": "HPCA 2020",
+    "title": "The Architectural Implications of Facebook's DNN-based Personalized Recommendation",
+    "authors": [
+      "Udit Gupta",
+      "Carole-Jean Wu",
+      "Xiaodong Wang",
+      "Maxim Naumov",
+      "Brandon Reagen",
+      "David Brooks",
+      "Bradford Cottel",
+      "Kim M. Hazelwood",
+      "Mark Hempstead",
+      "Bill Jia",
+      "Hsien-Hsin S. Lee",
+      "Andrey Malevich",
+      "Dheevatsa Mudigere",
+      "Mikhail Smelyanskiy",
+      "Liang Xiong",
+      "Xuan Zhang"
+    ],
+    "score": 0.875
+  },
+  {
+    "year": 2021,
+    "conf": "MICRO 2021",
+    "title": "GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management",
+    "authors": [
+      "Harini Muthukrishnan",
+      "Daniel Lustig",
+      "David W. Nellans",
+      "Thomas F. Wenisch"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "ASPLOS 2021",
+    "title": "Logical Abstractions for Noisy Variational Quantum Algorithm Simulation",
+    "authors": [
+      "Yipeng Huang",
+      "Steven Holtzen",
+      "Todd D. Millstein",
+      "Guy Van den Broeck",
+      "Margaret Martonosi"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "MICRO 2021",
+    "title": "A Hardware Accelerator for Protocol Buffers",
+    "authors": [
+      "Sagar Karandikar",
+      "Chris Leary",
+      "Chris Kennelly",
+      "Jerry Zhao",
+      "Dinesh Parimi",
+      "Borivoje Nikolic",
+      "Krste Asanovic",
+      "Parthasarathy Ranganathan"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "MICRO 2021",
+    "title": "SquiggleFilter: An Accelerator for Portable Virus Detection",
+    "authors": [
+      "Timothy Dunn",
+      "Harisankar Sadasivan",
+      "Jack Wadden",
+      "Kush Goliya",
+      "Kuan-Yu Chen",
+      "David T. Blaauw",
+      "Reetuparna Das",
+      "Satish Narayanasamy"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "ISCA 2021",
+    "title": "Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology",
+    "authors": [
+      "Sukhan Lee",
+      "Shinhaeng Kang",
+      "Jaehoon Lee",
+      "Hyeonsu Kim",
+      "Eojin Lee",
+      "Seungwoo Seo",
+      "Hosang Yoon",
+      "Seungwon Lee",
+      "Kyounghwan Lim",
+      "Hyunsung Shin",
+      "Jinhyun Kim",
+      "Seongil O",
+      "Anand Iyer",
+      "David Wang",
+      "Kyomin Sohn",
+      "Nam Sung Kim"
+    ],
+    "score": 0.857
+  },
+  {
+    "year": 2021,
+    "conf": "ASPLOS 2021",
+    "title": "Dagger: Efficient and Fast RPCs in Cloud Microservices With Near-Memory Reconfigurable NICs",
+    "authors": [
+      "Nikita Lazarev",
+      "Shaojie Xiang",
+      "Neil Adit",
+      "Zhiru Zhang",
+      "Christina Delimitrou"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "ASPLOS 2021",
+    "title": "A Hierarchical Neural Model of Data Prefetching",
+    "authors": [
+      "Zhan Shi",
+      "Akanksha Jain",
+      "Kevin Swersky",
+      "Milad Hashemi",
+      "Parthasarathy Ranganathan",
+      "Calvin Lin"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "HPCA 2021",
+    "title": "Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference",
+    "authors": [
+      "Brandon Reagen",
+      "Wooseok Choi",
+      "Yeongil Ko",
+      "Vincent T. Lee",
+      "Hsien-Hsin S. Lee",
+      "Gu-Yeon Wei",
+      "David Brooks"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "ISCA 2021",
+    "title": "Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures",
+    "authors": [
+      "Jonathan M. Baker",
+      "Andrew Litteken",
+      "Casey Duckering",
+      "Henry Hoffmann",
+      "Hannes Bernien",
+      "Frederic T. Chong"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "ISCA 2021",
+    "title": "Superconducting Computing With Alternating Logic Elements",
+    "authors": [
+      "Georgios Tzimpragos",
+      "Jennifer Volk",
+      "Alex Wynn",
+      "James E. Smith",
+      "Timothy Sherwood"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "ASPLOS 2021",
+    "title": "Robomorphic Computing: A Design Methodology for Domain-Specific Accelerators Parameterized by Robot Morphology",
+    "authors": [
+      "Sabrina M. Neuman",
+      "Brian Plancher",
+      "Thomas Bourgeat",
+      "Thierry Tambe",
+      "Srinivas Devadas",
+      "Vijay Janapa Reddi"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2021,
+    "conf": "MICRO 2021",
+    "title": "ITSLF: Inter-Thread Store-to-Load Forwarding in Simultaneous Multithreading",
+    "authors": [
+      "Tanvir Ahmed Khan",
+      "Darius Suresh",
+      "Neeraj Aggarwal",
+      "Baris Kasikci"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ASPLOS 2023",
+    "title": "Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers",
+    "authors": [
+      "Haocheng Xiao",
+      "Sam Ainsworth"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ISCA 2023",
+    "title": "Astrea: Accurate Quantum Error-Decoding Via Practical Minimum-Weight Perfect-Matching",
+    "authors": [
+      "Suhas Vittal",
+      "Poulami Das",
+      "Moinuddin K. Qureshi"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ISCA 2023",
+    "title": "SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM",
+    "authors": [
+      "Gerasimos Gerogiannis",
+      "Serif Yesil",
+      "Damitha Lenadora",
+      "Dingyuan Cao",
+      "Charith Mendis",
+      "Josep Torrellas"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ISCA 2023",
+    "title": "uManycore: A Cloud-Native CPU for Tail at Scale",
+    "authors": [
+      "Pouya Dormiani",
+      "Saiful A. Mojumder",
+      "Joseph Zuckerman",
+      "Luca P. Carloni",
+      "Martha A. Kim"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ASPLOS 2023",
+    "title": "Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",
+    "authors": [
+      "Bilge Acun",
+      "Benjamin C. Lee",
+      "Fiodar Kazhamiaka",
+      "Kiwan Maeng",
+      "Udit Gupta",
+      "Manoj Chakkaravarthy",
+      "David Brooks",
+      "Carole-Jean Wu"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "MICRO 2023",
+    "title": "Space Microdatacenters",
+    "authors": [
+      "Nathaniel Bleier",
+      "Muhammad Husnain Mubarik",
+      "Gary R. Swenson",
+      "Rakesh Kumar"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ASPLOS 2023",
+    "title": "Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes",
+    "authors": [
+      "Zirui Neil Zhao",
+      "Adam Morrison",
+      "Christopher W. Fletcher",
+      "Josep Torrellas"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ASPLOS 2023",
+    "title": "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms",
+    "authors": [
+      "Huaicheng Li",
+      "Daniel S. Berger",
+      "Lisa Hsu",
+      "Daniel Ernst",
+      "Pantea Zardoshti",
+      "Stanko Novakovic",
+      "Monish Shah",
+      "Samir Rajadnya",
+      "Scott Lee",
+      "Ishwar Agarwal",
+      "Mark D. Hill",
+      "Marcus Fontoura",
+      "Ricardo Bianchini"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ASPLOS 2023",
+    "title": "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory",
+    "authors": [
+      "Hasan Al Maruf",
+      "Hao Wang",
+      "Abhishek Dhanotia",
+      "Johannes Weiner",
+      "Niket Agarwal",
+      "Pallab Bhattacharya",
+      "Chris Petersen",
+      "Mosharaf Chowdhury",
+      "Shobhit O. Kanaujia",
+      "Prakash Chauhan"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "MICRO 2023",
+    "title": "Clockhands: Rename-Free Instruction Set Architecture for Out-of-Order Processors",
+    "authors": [
+      "Toru Koizumi",
+      "Ryota Shioya",
+      "Shu Sugita",
+      "Taichi Amano",
+      "Yuya Degawa",
+      "Junichiro Kadomoto",
+      "Hidetsugu Irie",
+      "Shuichi Sakai"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "ASPLOS 2023",
+    "title": "MP-Rec: Hardware-Software Co-design to Enable Multi-Path Recommendation",
+    "authors": [
+      "Samuel Hsia",
+      "Udit Gupta",
+      "Bilge Acun",
+      "Newsha Ardalani",
+      "Pan Zhong",
+      "Gu-Yeon Wei",
+      "David Brooks",
+      "Carole-Jean Wu"
+    ],
+    "score": 1.0
+  },
+  {
+    "year": 2023,
+    "conf": "MICRO 2023",
+    "title": "TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators",
+    "authors": [
+      "Nandeeka Nayak",
+      "Toluwanimi O. Odemuyiwa",
+      "Shubham Ugare",
+      "Christopher W. Fletcher",
+      "Michael Pellauer",
+      "Joel S. Emer"
+    ],
+    "score": 1.0
+  }
+]

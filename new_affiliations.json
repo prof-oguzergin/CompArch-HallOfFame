@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Per Stenström",
+    "inst": "Chalmers",
+    "pid": "48/2905",
+    "dblp_name": null
+  },
+  {
+    "name": "John L. Hennessy",
+    "inst": "Stanford",
+    "pid": "h/JohnLHennessy",
+    "dblp_name": null
+  },
+  {
+    "name": "Anant Agarwal",
+    "inst": "MIT",
+    "pid": "a/AAgarwal",
+    "dblp_name": null
+  },
+  {
+    "name": "Arvind",
+    "inst": "MIT",
+    "pid": "313/9858",
+    "dblp_name": null
+  },
+  {
+    "name": "Susan J. Eggers",
+    "inst": "UW (emeritus)",
+    "pid": "e/SJEggers",
+    "dblp_name": null
+  },
+  {
+    "name": "Todd C. Mowry",
+    "inst": "CMU",
+    "pid": "65/4120",
+    "dblp_name": "Todd C. Mowry"
+  },
+  {
+    "name": "Kourosh Gharachorloo",
+    "inst": "Google (retired)",
+    "pid": "79/3674",
+    "dblp_name": "Kourosh Gharachorloo"
+  },
+  {
+    "name": "James R. Goodman",
+    "inst": "UW-Madison (emeritus)",
+    "pid": "g/JamesRGoodman",
+    "dblp_name": "James R. Goodman"
+  },
+  {
+    "name": "Jean-Loup Baer",
+    "inst": "UW (emeritus)",
+    "pid": "b/JLBaer",
+    "dblp_name": "Jean-Loup Baer"
+  },
+  {
+    "name": "G. Jack Lipovski",
+    "inst": "UT Austin (emeritus)",
+    "pid": "41/6119",
+    "dblp_name": "G. Jack Lipovski"
+  },
+  {
+    "name": "Janak H. Patel",
+    "inst": "UIUC (emeritus)",
+    "pid": "21/127",
+    "dblp_name": "Janak H. Patel"
+  },
+  {
+    "name": "Edward S. Davidson",
+    "inst": "U Michigan (emeritus)",
+    "pid": "d/ESDavidson",
+    "dblp_name": "Edward S. Davidson"
+  },
+  {
+    "name": "Howard Jay Siegel",
+    "inst": "Colorado State",
+    "pid": "s/HowardJaySiegel",
+    "dblp_name": "Howard Jay Siegel"
+  },
+  {
+    "name": "Michel Dubois",
+    "inst": "USC (emeritus)",
+    "pid": "80/1836",
+    "dblp_name": "Michel Dubois"
+  },
+  {
+    "name": "Andrew R. Pleszkun",
+    "inst": "U Colorado",
+    "pid": "58/6514",
+    "dblp_name": "Andrew R. Pleszkun"
+  },
+  {
+    "name": "Pen-Chung Yew",
+    "inst": "U Minnesota",
+    "pid": "y/PenChungYew",
+    "dblp_name": "Pen-Chung Yew"
+  },
+  {
+    "name": "John Paul Shen",
+    "inst": "CMU",
+    "pid": "99/1477",
+    "dblp_name": "John Paul Shen"
+  },
+  {
+    "name": "David E. Culler",
+    "inst": "UC Berkeley / Google",
+    "pid": "c/DavidECuller",
+    "dblp_name": "David E. Culler"
+  },
+  {
+    "name": "Anoop Gupta",
+    "inst": "Google",
+    "pid": "g/AnoopGupta",
+    "dblp_name": "Anoop Gupta"
+  },
+  {
+    "name": "Bob Ramakrishna Rau",
+    "inst": "HP Labs (deceased)",
+    "pid": "83/5996",
+    "dblp_name": "Bob Rau"
+  },
+  {
+    "name": "Mark Oskin",
+    "inst": "UW",
+    "pid": "o/MarkOskin",
+    "dblp_name": "Mark Oskin"
+  },
+  {
+    "name": "David Wentzlaff",
+    "inst": "Princeton",
+    "pid": "49/4239",
+    "dblp_name": "David Wentzlaff"
+  },
+  {
+    "name": "Karthikeyan Sankaralingam",
+    "inst": "UW-Madison",
+    "pid": "22/858",
+    "dblp_name": "Karthikeyan Sankaralingam"
+  },
+  {
+    "name": "Sanjay J. Patel",
+    "inst": "UIUC",
+    "pid": "05/6203",
+    "dblp_name": "Sanjay J. Patel"
+  },
+  {
+    "name": "Chris Wilkerson",
+    "inst": "Intel",
+    "pid": "99/769",
+    "dblp_name": "Chris Wilkerson"
+  },
+  {
+    "name": "Christopher J. Hughes",
+    "inst": "Intel",
+    "pid": "43/3660",
+    "dblp_name": "Christopher J. Hughes"
+  },
+  {
+    "name": "Eric Rotenberg",
+    "inst": "NC State",
+    "pid": "87/6036",
+    "dblp_name": "Eric Rotenberg"
+  },
+  {
+    "name": "Gary S. Tyson",
+    "inst": "FSU",
+    "pid": "99/123",
+    "dblp_name": "Gary S. Tyson"
+  },
+  {
+    "name": "Li-Shiuan Peh",
+    "inst": "NUS",
+    "pid": "86/2160",
+    "dblp_name": "Li-Shiuan Peh"
+  },
+  {
+    "name": "Ang Li",
+    "inst": "PNNL",
+    "pid": "02/6150",
+    "dblp_name": "Li-Minn Ang"
+  },
+  {
+    "name": "Benjamin C. Lee",
+    "inst": "U Penn",
+    "pid": "l/BenjaminCLee",
+    "dblp_name": "Benjamin C. Lee"
+  },
+  {
+    "name": "Donghyuk Lee",
+    "inst": "NVIDIA",
+    "pid": "37/7554",
+    "dblp_name": "Dong-Hyuk Lee"
+  },
+  {
+    "name": "Michael C. Huang",
+    "inst": "U Rochester",
+    "pid": "40/1854",
+    "dblp_name": "Michael C. Huang 0001"
+  },
+  {
+    "name": "David H. Albonesi",
+    "inst": "Cornell",
+    "pid": "a/DavidHAlbonesi",
+    "dblp_name": null
+  },
+  {
+    "name": "Jason Mars",
+    "inst": "U Michigan",
+    "pid": "m/JasonMars",
+    "dblp_name": null
+  },
+  {
+    "name": "Lingjia Tang",
+    "inst": "U Michigan",
+    "pid": "t/LingjiaTang",
+    "dblp_name": null
+  },
+  {
+    "name": "Jaehyuk Huh",
+    "inst": "KAIST",
+    "pid": "h/JaehyukHuh",
+    "dblp_name": null
+  },
+  {
+    "name": "Jeremie S. Kim",
+    "inst": "ETH Zurich",
+    "pid": "k/JeremieSKim",
+    "dblp_name": null
+  },
+  {
+    "name": "Stefanos Kaxiras",
+    "inst": "Uppsala",
+    "pid": "k/StefanosKaxiras",
+    "dblp_name": null
+  },
+  {
+    "name": "Sreenivas Subramoney",
+    "inst": "Intel",
+    "pid": "s/SreenivasSubramoney",
+    "dblp_name": null
+  },
+  {
+    "name": "Alberto Ros",
+    "inst": "U Murcia",
+    "pid": "r/AlbertoRos",
+    "dblp_name": null
+  },
+  {
+    "name": "Ronald G. Dreslinski",
+    "inst": "U Michigan",
+    "pid": "d/RonaldGDreslinski",
+    "dblp_name": null
+  },
+  {
+    "name": "T. N. Vijaykumar",
+    "inst": "Purdue",
+    "pid": "v/TNVijaykumar",
+    "dblp_name": null
+  },
+  {
+    "name": "Nandita Vijaykumar",
+    "inst": "U Toronto",
+    "pid": "v/NanditaVijaykumar",
+    "dblp_name": null
+  },
+  {
+    "name": "Konstantinos Kanellopoulos",
+    "inst": "ETH Zurich",
+    "pid": "k/KonstantinosKanellopoulos",
+    "dblp_name": null
+  },
+  {
+    "name": "Juan Gomez-Luna",
+    "inst": "ETH Zurich",
+    "pid": "g/JuanGomezLuna",
+    "dblp_name": null
+  },
+  {
+    "name": "Saugata Ghose",
+    "inst": "UIUC",
+    "pid": "g/SaugataGhose",
+    "dblp_name": null
+  },
+  {
+    "name": "Eduard Ayguade",
+    "inst": "UPC Barcelona",
+    "pid": "a/EduardAyguade",
+    "dblp_name": null
+  },
+  {
+    "name": "Simha Sethumadhavan",
+    "inst": "Columbia",
+    "pid": "s/SimhaSethumadhavan",
+    "dblp_name": null
+  },
+  {
+    "name": "Shubhendu S. Mukherjee",
+    "inst": "Nvidia",
+    "pid": "m/ShubhenduSMukherjee",
+    "dblp_name": null
+  },
+  {
+    "name": "Steven K. Reinhardt",
+    "inst": "AMD",
+    "pid": "r/StevenKReinhardt",
+    "dblp_name": null
+  },
+  {
+    "name": "Phillip B. Gibbons",
+    "inst": "CMU",
+    "pid": "g/PhillipBGibbons",
+    "dblp_name": null
+  },
+  {
+    "name": "Sandhya Dwarkadas",
+    "inst": "U Rochester / Yale",
+    "pid": "d/SandhyaDwarkadas",
+    "dblp_name": null
+  },
+  {
+    "name": "Satish Narayanasamy",
+    "inst": "U Michigan",
+    "pid": "n/SatishNarayanasamy",
+    "dblp_name": null
+  },
+  {
+    "name": "Brandon Lucia",
+    "inst": "CMU",
+    "pid": "l/BrandonLucia",
+    "dblp_name": null
+  },
+  {
+    "name": "Rajiv Gupta",
+    "inst": "UC Riverside",
+    "pid": "g/RajivGupta",
+    "dblp_name": null
+  },
+  {
+    "name": "Joseph Devietti",
+    "inst": "U Penn",
+    "pid": "d/JosephDevietti",
+    "dblp_name": null
+  },
+  {
+    "name": "Kathryn S. McKinley",
+    "inst": "Google",
+    "pid": "m/KathrynSMcKinley",
+    "dblp_name": null
+  },
+  {
+    "name": "Keshav Pingali",
+    "inst": "UT Austin",
+    "pid": "p/KeshavPingali",
+    "dblp_name": null
+  },
+  {
+    "name": "Mendel Rosenblum",
+    "inst": "Stanford",
+    "pid": "r/MendelRosenblum",
+    "dblp_name": null
+  },
+  {
+    "name": "Michael M. Swift",
+    "inst": "UW-Madison",
+    "pid": "s/MichaelMSwift",
+    "dblp_name": null
+  },
+  {
+    "name": "Steven Swanson",
+    "inst": "UCSD",
+    "pid": "s/StevenSwanson",
+    "dblp_name": null
+  },
+  {
+    "name": "Yuanyuan Zhou",
+    "inst": "UCSD",
+    "pid": "z/YuanyuanZhou",
+    "dblp_name": null
+  },
+  {
+    "name": "Henry Hoffmann",
+    "inst": "U Chicago",
+    "pid": "h/HenryHoffmann",
+    "dblp_name": null
+  },
+  {
+    "name": "Dan Tsafrir",
+    "inst": "Technion",
+    "pid": "t/DanTsafrir",
+    "dblp_name": null
+  },
+  {
+    "name": "Alvin R. Lebeck",
+    "inst": "Duke",
+    "pid": "l/AlvinRLebeck",
+    "dblp_name": null
+  },
+  {
+    "name": "Thomas M. Conte",
+    "inst": "Georgia Tech",
+    "pid": "c/ThomasMConte",
+    "dblp_name": null
+  },
+  {
+    "name": "Dirk Grunwald",
+    "inst": "U Colorado",
+    "pid": "g/DirkGrunwald",
+    "dblp_name": null
+  },
+  {
+    "name": "Bogong Su",
+    "inst": "retired",
+    "pid": "s/BogongSu",
+    "dblp_name": null
+  },
+  {
+    "name": "Christos A. Papachristou",
+    "inst": "Case Western",
+    "pid": "p/ChristosAPapachristou",
+    "dblp_name": null
+  },
+  {
+    "name": "Vicki H. Allan",
+    "inst": "Utah State",
+    "pid": "a/VickiHAllan",
+    "dblp_name": null
+  },
+  {
+    "name": "Robert A. Mueller",
+    "inst": "retired",
+    "pid": "m/RobertAMueller",
+    "dblp_name": null
+  },
+  {
+    "name": "Matthew Farrens",
+    "inst": "UC Davis",
+    "pid": "f/MatthewFarrens",
+    "dblp_name": null
+  },
+  {
+    "name": "Jorge Albericio",
+    "inst": "NVIDIA",
+    "pid": "a/JorgeAlbericio",
+    "dblp_name": null
+  },
+  {
+    "name": "David W. Nellans",
+    "inst": "NVIDIA",
+    "pid": "n/DavidWNellans",
+    "dblp_name": null
+  },
+  {
+    "name": "Ahmed Louri",
+    "inst": "GWU",
+    "pid": "l/AhmedLouri",
+    "dblp_name": null
+  },
+  {
+    "name": "Rui Hou",
+    "inst": "ICT-CAS",
+    "pid": "h/RuiHou",
+    "dblp_name": null
+  },
+  {
+    "name": "Lixin Zhang",
+    "inst": "ICT-CAS",
+    "pid": "z/LixinZhang",
+    "dblp_name": null
+  },
+  {
+    "name": "Xiaofei Liao",
+    "inst": "HUST",
+    "pid": "l/XiaofeiLiao",
+    "dblp_name": null
+  },
+  {
+    "name": "Lizhong Chen",
+    "inst": "Oregon State",
+    "pid": "c/LizhongChen",
+    "dblp_name": null
+  },
+  {
+    "name": "Mike O'Connor",
+    "inst": "NVIDIA / UT Austin",
+    "pid": "o/MikeOConnor",
+    "dblp_name": null
+  },
+  {
+    "name": "Leibo Liu",
+    "inst": "Tsinghua",
+    "pid": "l/LeiboLiu",
+    "dblp_name": null
+  },
+  {
+    "name": "Shaojun Wei",
+    "inst": "Tsinghua",
+    "pid": "w/ShaojunWei",
+    "dblp_name": null
+  },
+  {
+    "name": "Tianshi Chen",
+    "inst": "CASIA",
+    "pid": "c/TianshiChen",
+    "dblp_name": null
+  },
+  {
+    "name": "Yiannakis Sazeides",
+    "inst": "U Cyprus",
+    "pid": "s/YiannakisSazeides",
+    "dblp_name": null
+  },
+  {
+    "name": "Timothy G. Rogers",
+    "inst": "Purdue",
+    "pid": "r/TimothyGRogers",
+    "dblp_name": null
+  },
+  {
+    "name": "Nathan Beckmann",
+    "inst": "CMU",
+    "pid": "b/NathanBeckmann",
+    "dblp_name": null
+  },
+  {
+    "name": "Arkaprava Basu",
+    "inst": "IISc Bangalore",
+    "pid": "b/ArkapravaBasu",
+    "dblp_name": null
+  },
+  {
+    "name": "Nael Abu-Ghazaleh",
+    "inst": "UC Riverside",
+    "pid": "a/NaelAbuGhazaleh",
+    "dblp_name": null
+  },
+  {
+    "name": "Gennady Pekhimenko",
+    "inst": "U Toronto",
+    "pid": "p/GennadyPekhimenko",
+    "dblp_name": null
+  },
+  {
+    "name": "Gilles Pokam",
+    "inst": "Intel",
+    "pid": "p/GillesPokam",
+    "dblp_name": null
+  },
+  {
+    "name": "Hsien-Hsin S. Lee",
+    "inst": "TSMC / Georgia Tech",
+    "pid": "l/HsienHsinSLee",
+    "dblp_name": null
+  },
+  {
+    "name": "Huiyang Zhou",
+    "inst": "NC State",
+    "pid": "z/HuiyangZhou",
+    "dblp_name": null
+  },
+  {
+    "name": "Amro Awad",
+    "inst": "NC State",
+    "pid": "a/AmroAwad",
+    "dblp_name": null
+  },
+  {
+    "name": "Adrián Cristal",
+    "inst": "BSC Barcelona",
+    "pid": "c/AdrianCristal",
+    "dblp_name": null
+  },
+  {
+    "name": "Jayesh Gaur",
+    "inst": "Intel",
+    "pid": "g/JayeshGaur",
+    "dblp_name": null
+  },
+  {
+    "name": "Joel Emer",
+    "inst": "MIT / NVIDIA",
+    "pid": "e/JoelSEmer",
+    "dblp_name": null
+  },
+  {
+    "name": "John Kubiatowicz",
+    "inst": "UC Berkeley",
+    "pid": "k/JohnKubiatowicz",
+    "dblp_name": null
+  },
+  {
+    "name": "Mengjia Yan",
+    "inst": "MIT",
+    "pid": "y/MengjiaYan",
+    "dblp_name": null
+  },
+  {
+    "name": "Yang Hu",
+    "inst": "U Rochester",
+    "pid": "h/YangHu2",
+    "dblp_name": null
+  },
+  {
+    "name": "Mohammad Alian",
+    "inst": "U Kansas",
+    "pid": "a/MohammadAlian",
+    "dblp_name": null
+  },
+  {
+    "name": "Swamit Tannu",
+    "inst": "UW-Madison",
+    "pid": "t/SwamitTannu",
+    "dblp_name": null
+  },
+  {
+    "name": "Yuhao Zhu",
+    "inst": "U Rochester",
+    "pid": "z/YuhaoZhu",
+    "dblp_name": null
+  },
+  {
+    "name": "Changhee Jung",
+    "inst": "Purdue",
+    "pid": "j/ChangheeJung",
+    "dblp_name": null
+  },
+  {
+    "name": "Guangyu Sun",
+    "inst": "Peking U",
+    "pid": "s/GuangyuSun",
+    "dblp_name": null
+  },
+  {
+    "name": "Hai Helen Li",
+    "inst": "Duke",
+    "pid": "l/HaiHelenLi",
+    "dblp_name": null
+  },
+  {
+    "name": "Yiran Chen",
+    "inst": "Duke",
+    "pid": "c/YiranChen",
+    "dblp_name": null
+  },
+  {
+    "name": "Engin Ipek",
+    "inst": "U Rochester",
+    "pid": "i/EnginIpek",
+    "dblp_name": null
+  },
+  {
+    "name": "Naveen Muralimanohar",
+    "inst": "HP Labs / Micron",
+    "pid": "m/NaveenMuralimanohar",
+    "dblp_name": null
+  },
+  {
+    "name": "Sudhanva Gurumurthi",
+    "inst": "AMD",
+    "pid": "g/SudhanvaGurumurthi",
+    "dblp_name": null
+  },
+  {
+    "name": "Jishen Zhao",
+    "inst": "UCSD",
+    "pid": "z/JishenZhao",
+    "dblp_name": null
+  },
+  {
+    "name": "David Blaauw",
+    "inst": "U Michigan",
+    "pid": "b/DBlaauw",
+    "dblp_name": "David T. Blaauw"
+  },
+  {
+    "name": "Xiaoyao Liang",
+    "inst": "SJTU",
+    "pid": "88/6436",
+    "dblp_name": "Xiaoyao Liang"
+  },
+  {
+    "name": "Shuangchen Li",
+    "inst": "Samsung",
+    "pid": "91/9920",
+    "dblp_name": "Shuangchen Li"
+  },
+  {
+    "name": "Zeshan Chishti",
+    "inst": "Intel",
+    "pid": "80/4789",
+    "dblp_name": "Zeshan Chishti"
+  },
+  {
+    "name": "Youfeng Wu",
+    "inst": "Intel",
+    "pid": "291/7167",
+    "dblp_name": "You-Feng Wu"
+  },
+  {
+    "name": "Minesh Patel",
+    "inst": "ETH Zurich",
+    "pid": "147/0857",
+    "dblp_name": "Minesh Patel"
+  },
+  {
+    "name": "Ataberk Olgun",
+    "inst": "ETH Zurich",
+    "pid": "285/5355",
+    "dblp_name": "Ataberk Olgun"
+  },
+  {
+    "name": "Christopher Batten",
+    "inst": "Cornell",
+    "pid": "20/4601",
+    "dblp_name": "Christopher Batten"
+  },
+  {
+    "name": "Daehoon Kim",
+    "inst": "Yonsei U",
+    "pid": "147/5131",
+    "dblp_name": "Da-Hoon Kim"
+  },
+  {
+    "name": "Daniel A. Jiménez",
+    "inst": "Texas A&M",
+    "pid": "270/8916",
+    "dblp_name": "Daniel Antuña-Jiménez"
+  },
+  {
+    "name": "G. Edward Suh",
+    "inst": "Cornell / Meta",
+    "pid": "09/5657",
+    "dblp_name": "G. Edward Suh"
+  },
+  {
+    "name": "José F. Martínez",
+    "inst": "Cornell",
+    "pid": "00/6614",
+    "dblp_name": "José-Fernán Martínez"
+  },
+  {
+    "name": "José-María Arnau",
+    "inst": "UPC Barcelona",
+    "pid": "117/0577",
+    "dblp_name": "José-María Arnau"
+  },
+  {
+    "name": "Milos Prvulovic",
+    "inst": "Georgia Tech",
+    "pid": "77/4185",
+    "dblp_name": "Milos Prvulovic"
+  },
+  {
+    "name": "Ravishankar R. Iyer",
+    "inst": "Intel",
+    "pid": "i/RaviRIyer",
+    "dblp_name": "Ravi R. Iyer 0001"
+  },
+  {
+    "name": "Xiaowei Jiang",
+    "inst": "NUDT",
+    "pid": "172/3818",
+    "dblp_name": "Xiao-Wei Jiang"
+  },
+  {
+    "name": "John B. Carter",
+    "inst": "IBM",
+    "pid": "c/JohnBCarter",
+    "dblp_name": "John B. Carter"
+  },
+  {
+    "name": "José Duato",
+    "inst": "UPV Valencia",
+    "pid": "76/2766",
+    "dblp_name": "José Duato"
+  },
+  {
+    "name": "Luiz André Barroso",
+    "inst": "Google (retired)",
+    "pid": "210/3777",
+    "dblp_name": "André Luíz Barroso Almeida"
+  }
+]

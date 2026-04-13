@@ -138,9 +138,13 @@
         <button class="tab" data-tab="asplos">ASPLOS</button>
         <button class="tab" data-tab="hpca">HPCA</button>
         <button class="tab" data-tab="toppicks">Top Picks</button>
+        <button class="tab" data-tab="hm">Honorable Mentions</button>
     </div>
     <div class="controls">
         <input type="text" class="search-box" id="searchBox" placeholder="Search by name...">
+        <select id="instFilter" style="padding:0.5rem 0.8rem;border:1px solid var(--surface2);border-radius:6px;background:var(--surface);color:var(--text);font-size:0.85rem;min-width:160px;cursor:pointer">
+            <option value="">All Institutions</option>
+        </select>
         <label><input type="checkbox" id="highlightMulti" checked> Highlight 4-venue</label>
     </div>
 
@@ -182,6 +186,19 @@
             <th style="width:50px">Year</th><th>Title</th><th>Authors</th><th style="width:110px">Conference</th>
         </tr></thead><tbody></tbody></table></div>
     </div>
+    <div class="tab-panel" id="panel-hm">
+        <div class="conf-info"><strong>IEEE Micro Top Picks &mdash; Honorable Mentions</strong> &mdash; Each year ~12 papers receive Honorable Mention alongside the Top Picks selection. Data covers years with available HM information. &middot; Data as of: 13 Apr 2026</div>
+        <h3 style="color:var(--text-muted);margin:1rem 0 0.5rem;font-size:1.1rem">Conference Breakdown by Year</h3>
+        <div class="heatmap-wrap"><table class="simple-table" id="table-hm-confyear"><thead><tr id="hm-confyear-header"></tr></thead><tbody id="hm-confyear-body"></tbody></table></div>
+        <h3 style="color:var(--text-muted);margin:1rem 0 0.5rem;font-size:1.1rem">Researcher Summary</h3>
+        <div class="heatmap-wrap"><table class="heatmap" id="table-hm-authors"><thead><tr id="hm-author-header">
+        </tr></thead><tbody></tbody></table></div>
+        <button id="hm-show-all-btn" onclick="toggleHMAll()" style="display:none;margin:0.5rem auto;padding:0.4rem 1.2rem;border:1px solid var(--text-muted);background:transparent;color:var(--text-muted);border-radius:6px;cursor:pointer;font-size:0.85rem"></button>
+        <h3 id="hm-paper-list" style="color:var(--text-muted);margin:1.5rem 0 0.5rem;font-size:1.1rem">Paper List</h3>
+        <div class="heatmap-wrap"><table class="simple-table" id="table-hm-papers"><thead><tr>
+            <th style="width:50px">Year</th><th>Title</th><th>Authors</th><th style="width:110px">Conference</th>
+        </tr></thead><tbody></tbody></table></div>
+    </div>
 </div>
 <footer>
     <p>Computer Architecture Hall of Fame &mdash; <a href="https://oguzergin.net" target="_blank">Oğuz Ergin</a>, University of Sharjah</p>
@@ -193,15 +210,20 @@
 <script>
 // Name normalization
 function norm(n) {
-    return n.replace(/\./g,'').replace(/\s+/g,' ').trim().toLowerCase()
-        .replace('mateo valero cortes','mateo valero').replace('mateo valero cortés','mateo valero')
+    // First: lowercase, remove dots/extra spaces, then Turkish chars
+    let s = n.replace(/\./g,'').replace(/\s+/g,' ').trim().toLowerCase()
+        .replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ç/g,'c').replace(/ş/g,'s').replace(/ö/g,'o').replace(/ü/g,'u')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+    // Then: name-specific mappings (all ASCII now)
+    return s
+        .replace('mateo valero cortes','mateo valero')
         .replace('christoforos e kozyrakis','christos kozyrakis')
         .replace('jim smith','james e smith')
-        .replace('josé-maría arnau','jose maria arnau')
-        .replace('josé f martínez','jose f martinez')
+        .replace('jose-maria arnau','jose maria arnau')
+        .replace('jose f martinez','jose f martinez')
         .replace('mahmut t kandemir','mahmut taylan kandemir')
         .replace('mahmut kandemir','mahmut taylan kandemir')
-        .replace('antonio gonzalez','antonio gonzález')
+        .replace('antonio gonzalez','antonio gonzalez')
         .replace('joel emer','joel s emer')
         .replace('todd austin','todd m austin')
         .replace('john p shen','john paul shen')
@@ -210,11 +232,10 @@ function norm(n) {
         .replace('narayanan vijaykrishnan','vijaykrishnan narayanan')
         .replace('natalie enright jerger','natalie d enright jerger')
         .replace('david t blaauw','david blaauw')
-        .replace('daniel sánchez','daniel sanchez')
-        .replace('andré seznec','andre seznec')
-        .replace('per stenström','per stenstrom')
-        .replace('a giray yaglikci','abdullah giray yaglikci')
-        .replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ç/g,'c').replace(/ş/g,'s').replace(/ö/g,'o').replace(/ü/g,'u');
+        .replace('daniel sanchez','daniel sanchez')
+        .replace('andre seznec','andre seznec')
+        .replace('per stenstrom','per stenstrom')
+        .replace('a giray yaglikci','abdullah giray yaglikci');
 }
 function bestName(names) { return names.sort((a,b)=>b.length-a.length)[0]; }
 
@@ -258,13 +279,18 @@ const combined = buildCombined();
 
 // Medal
 const AFF = DATA.affiliations || {};
+// Build normalized affiliation lookup
+const AFF_NORM = {};
+Object.entries(AFF).forEach(([name, val]) => { AFF_NORM[norm(name)] = val; });
+function getAff(name) { return AFF[name] || AFF_NORM[norm(name)] || null; }
 function dblpUrl(name) {
-    const a = AFF[name];
+    const a = getAff(name);
     return a && a.pid ? `https://dblp.org/pid/${a.pid}.html` : `https://dblp.org/search?q=${encodeURIComponent(name)}`;
 }
 function nameLink(name, showInst) {
     const url = dblpUrl(name);
-    const inst = showInst && AFF[name]?.inst ? ` <span style="font-size:0.7rem;color:var(--text-muted)">${AFF[name].inst}</span>` : '';
+    const a = getAff(name);
+    const inst = showInst && a?.inst ? ` <span style="font-size:0.7rem;color:var(--text-muted)">${a.inst}</span>` : '';
     return `<a href="${url}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${name}</a>${inst}`;
 }
 function medal(r) {
@@ -298,7 +324,7 @@ function renderHeatmap(venue) {
     const years = yearRange(venue);
     const data = DATA[venue].slice().sort((a,b) => b.total - a.total);
     const filter = document.getElementById('searchBox').value.toLowerCase();
-    const filtered = data.filter(d => !filter || d.name.toLowerCase().includes(filter));
+    const filtered = data.filter(d => (!filter || d.name.toLowerCase().includes(filter)) && matchesInst(d.name));
 
     let html = `<table class="heatmap ${venue}"><thead><tr>`;
     html += `<th class="rank-col">#</th><th class="name-col">Name</th><th class="total-col">Total</th>`;
@@ -306,7 +332,7 @@ function renderHeatmap(venue) {
     html += `</tr></thead><tbody>`;
 
     filtered.forEach((d, i) => {
-        html += `<tr><td class="rank-cell">${medal(i+1)}</td><td class="name-cell">${nameLink(d.name,false)}</td><td class="total-cell">${d.total}</td>`;
+        html += `<tr><td class="rank-cell">${medal(i+1)}</td><td class="name-cell">${nameLink(d.name,true)}</td><td class="total-cell">${d.total}</td>`;
         years.forEach(y => {
             const v = d.y[y] || 0;
             html += `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
@@ -340,7 +366,7 @@ function renderCombined() {
         th.classList.toggle('sorted', combinedSort.key===k);
         th.classList.toggle('asc', combinedSort.key===k && combinedSort.asc);
     });
-    tbody.innerHTML = combined.filter(d => !filter || d.name.toLowerCase().includes(filter)).map((d,i) => {
+    tbody.innerHTML = combined.filter(d => (!filter || d.name.toLowerCase().includes(filter)) && matchesInst(d.name)).map((d,i) => {
         const cls = (hl && d.vc >= 4) ? ' class="highlight"' : '';
         const badges = [];
         if (d.isca>=8) badges.push('<span title="ISCA" style="color:var(--accent-isca)">★</span>');
@@ -383,7 +409,7 @@ function renderTopPicks() {
     const filter = document.getElementById('searchBox').value.toLowerCase();
     const papers = (DATA.toppicks_papers || []).filter(p => p.type==='TP' && (!filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter)));
     const {list: authorList, allYears: tpYears} = buildTopPicksAuthors();
-    const authorData = authorList.filter(a => !filter || a.name.toLowerCase().includes(filter));
+    const authorData = authorList.filter(a => (!filter || a.name.toLowerCase().includes(filter)) && matchesInst(a.name));
     const TP_THRESHOLD = 5;
     const showAll = tpShowAll || !!filter;
     const visible = showAll ? authorData : authorData.filter(a => a.tp >= TP_THRESHOLD);
@@ -403,7 +429,7 @@ function renderTopPicks() {
         }).join('');
         return `<tr>
             <td class="rank-cell">${medal(i+1)}</td>
-            <td class="name-cell">${nameLink(a.name,false)}</td>
+            <td class="name-cell">${nameLink(a.name,true)}</td>
             <td class="total-cell">${a.tp}</td>
             ${yearCells}
         </tr>`;
@@ -468,10 +494,120 @@ function renderTopPicks() {
     </tr>`).join('');
 }
 
+// Honorable Mentions — mirrors Top Picks logic for HM papers
+function buildHMAuthors() {
+    const papers = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.authors && p.authors.length > 0);
+    const allYears = [...new Set(papers.map(p=>p.year))].sort();
+    const authors = {};
+    papers.forEach(p => {
+        p.authors.forEach(a => {
+            if (!authors[a]) authors[a] = {hm:0, byYear:{}};
+            authors[a].hm++;
+            authors[a].byYear[p.year] = (authors[a].byYear[p.year]||0) + 1;
+        });
+    });
+    const list = Object.entries(authors).map(([name, d]) => ({
+        name, hm:d.hm, byYear:d.byYear
+    })).sort((a,b) => b.hm - a.hm || a.name.localeCompare(b.name));
+    return {list, allYears};
+}
+
+let hmShowAll = false;
+function toggleHMAll() { hmShowAll = !hmShowAll; renderHM(); }
+
+function renderHM() {
+    const filter = document.getElementById('searchBox').value.toLowerCase();
+    const hmPapers = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.authors && p.authors.length > 0 && (!filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter)));
+    const {list: authorList, allYears: hmYears} = buildHMAuthors();
+    const authorData = authorList.filter(a => (!filter || a.name.toLowerCase().includes(filter)) && matchesInst(a.name));
+    const HM_THRESHOLD = 3;
+    const showAll = hmShowAll || !!filter;
+    const visible = showAll ? authorData : authorData.filter(a => a.hm >= HM_THRESHOLD);
+    const hiddenCount = authorData.length - authorData.filter(a => a.hm >= HM_THRESHOLD).length;
+
+    // Author header
+    const hdr = document.getElementById('hm-author-header');
+    hdr.innerHTML = `<th class="rank-col">#</th><th class="name-col">Name</th><th class="total-col">Total</th>` +
+        hmYears.map(y => `<th class="year-col">${String(y).slice(-2)}</th>`).join('');
+
+    // Author summary table
+    const atbody = document.querySelector('#table-hm-authors tbody');
+    atbody.innerHTML = visible.map((a,i) => {
+        const yearCells = hmYears.map(y => {
+            const v = a.byYear[y] || 0;
+            return `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
+        }).join('');
+        return `<tr>
+            <td class="rank-cell">${medal(i+1)}</td>
+            <td class="name-cell">${nameLink(a.name,true)}</td>
+            <td class="total-cell">${a.hm}</td>
+            ${yearCells}
+        </tr>`;
+    }).join('');
+
+    // Show/hide toggle
+    const btn = document.getElementById('hm-show-all-btn');
+    if (hiddenCount > 0 && !filter) {
+        btn.style.display = 'block';
+        btn.textContent = showAll ? 'Show only 3+ Honorable Mentions' : `Show all researchers (${hiddenCount} more with 1-2 HMs)`;
+    } else {
+        btn.style.display = 'none';
+    }
+
+    // Conference-year breakdown
+    const confYearData = {};
+    const allConfs = new Set();
+    (DATA.toppicks_papers || []).filter(p=>p.type==='HM' && p.authors && p.authors.length > 0).forEach(p => {
+        const c = p.conf.replace(/\s*\d{4}$/,'');
+        allConfs.add(c);
+        if (!confYearData[c]) confYearData[c] = {};
+        confYearData[c][p.year] = (confYearData[c][p.year]||0) + 1;
+    });
+    const confList = [...allConfs].sort((a,b) => {
+        const ta = hmYears.reduce((s,y) => s + ((confYearData[a]||{})[y]||0), 0);
+        const tb = hmYears.reduce((s,y) => s + ((confYearData[b]||{})[y]||0), 0);
+        return tb - ta;
+    });
+    const cyHeader = document.getElementById('hm-confyear-header');
+    cyHeader.innerHTML = `<th>Conference</th>` + hmYears.map(y=>`<th style="width:50px;text-align:center">${String(y).slice(-2)}</th>`).join('') + `<th style="width:60px;text-align:center">Total</th>`;
+    const cyBody = document.getElementById('hm-confyear-body');
+    let rows = confList.map(c => {
+        const yearCells = hmYears.map(y => {
+            const v = (confYearData[c]||{})[y] || 0;
+            return `<td class="count" style="text-align:center;${v?'color:var(--text)':'color:var(--text-muted)'}">${v||'-'}</td>`;
+        }).join('');
+        const total = hmYears.reduce((s,y) => s + ((confYearData[c]||{})[y]||0), 0);
+        return `<tr><td><strong>${c}</strong></td>${yearCells}<td class="count" style="text-align:center;color:var(--text-muted)">${total}</td></tr>`;
+    }).join('');
+    const totalCells = hmYears.map(y => {
+        const v = confList.reduce((s,c) => s + ((confYearData[c]||{})[y]||0), 0);
+        return `<td class="count" style="text-align:center;color:var(--text-muted)"><strong>${v}</strong></td>`;
+    }).join('');
+    const allHM = (DATA.toppicks_papers || []).filter(p=>p.type==='HM' && p.authors && p.authors.length > 0);
+    const grandTotal = allHM.length;
+    rows += `<tr style="border-top:2px solid var(--surface2)"><td><strong>Total</strong></td>${totalCells}<td class="count" style="text-align:center;color:var(--text-muted)"><strong>${grandTotal}</strong></td></tr>`;
+    cyBody.innerHTML = rows;
+
+    // Paper list
+    const yearColors = {};
+    const palette = ['rgba(148,163,184,0.12)','rgba(59,130,246,0.12)','rgba(16,185,129,0.12)','rgba(139,92,246,0.12)','rgba(244,63,94,0.12)','rgba(245,158,11,0.1)'];
+    const sortedYears = [...new Set(hmPapers.map(p=>p.year))].sort((a,b)=>b-a);
+    sortedYears.forEach((y,i) => yearColors[y] = palette[i % palette.length]);
+    const sortedPapers = hmPapers.slice().sort((a,b) => b.year - a.year || a.title.localeCompare(b.title));
+    const ptbody = document.querySelector('#table-hm-papers tbody');
+    ptbody.innerHTML = sortedPapers.map(p => `<tr style="background:${yearColors[p.year]}">
+        <td>${p.year}</td>
+        <td style="font-size:0.85rem">${p.title}</td>
+        <td class="tp-authors">${p.authors.join(', ')}</td>
+        <td style="font-size:0.8rem;color:var(--text-muted)">${p.conf}</td>
+    </tr>`).join('');
+}
+
 function renderAll() {
     renderCombined();
     ['hpca','micro','isca','asplos'].forEach(renderHeatmap);
     renderTopPicks();
+    renderHM();
 }
 
 // Stats
@@ -495,13 +631,34 @@ document.querySelectorAll('.tab').forEach(tab => {
     });
 });
 
+// Populate institution filter
+(function populateInstFilter() {
+    const insts = new Set();
+    Object.values(AFF).forEach(a => { if (a.inst) insts.add(a.inst); });
+    const sel = document.getElementById('instFilter');
+    [...insts].sort((a,b) => a.localeCompare(b)).forEach(inst => {
+        const opt = document.createElement('option');
+        opt.value = inst; opt.textContent = inst;
+        sel.appendChild(opt);
+    });
+})();
+function getInstFilter() { return document.getElementById('instFilter').value; }
+function matchesInst(name) {
+    const inst = getInstFilter();
+    if (!inst) return true;
+    const a = getAff(name);
+    return a && a.inst === inst;
+}
+
 // Search
 document.getElementById('searchBox').addEventListener('input', renderAll);
 document.getElementById('highlightMulti').addEventListener('change', renderAll);
+document.getElementById('instFilter').addEventListener('change', renderAll);
 
 // Tab badges
 const tpPapers = (DATA.toppicks_papers||[]).filter(p=>p.type==='TP').length;
-const counts = {hpca:DATA.hpca.length, micro:DATA.micro.length, isca:DATA.isca.length, asplos:DATA.asplos.length, toppicks:tpPapers};
+const hmPapersCount = (DATA.toppicks_papers||[]).filter(p=>p.type==='HM' && p.authors && p.authors.length > 0).length;
+const counts = {hpca:DATA.hpca.length, micro:DATA.micro.length, isca:DATA.isca.length, asplos:DATA.asplos.length, toppicks:tpPapers, hm:hmPapersCount};
 document.querySelectorAll('.tab').forEach(tab => {
     const v = tab.dataset.tab;
     if (v !== 'combined' && counts[v] !== undefined) tab.innerHTML += ` <span class="badge">${counts[v]}</span>`;
