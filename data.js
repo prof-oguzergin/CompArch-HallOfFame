@@ -503,7 +503,7 @@ affiliations: {
   "Abhishek Bhattacharjee": {inst:"Yale",pid:"b/AbhishekBhattacharjee"},
   "Christina Delimitrou": {inst:"Cornell / MIT",pid:"d/ChristinaDelimitrou"},
   "Luis Ceze": {inst:"UW / OctoAI",pid:"c/LuisCeze"},
-  "Shan Lu": {inst:"U Chicago",pid:"l/ShanLu"},
+  "Shan Lu": {inst:"U Chicago",pid:"31/5916-1"},
   "Krste Asanovic": {inst:"UC Berkeley",pid:"a/KrsteAsanovic"},
   "Kunle Olukotun": {inst:"Stanford",pid:"o/KunleOlukotun"},
   "Sarita V. Adve": {inst:"UIUC",pid:"a/SaritaVAdve"},
