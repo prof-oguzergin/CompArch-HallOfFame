@@ -38,10 +38,20 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
 - `find_new_hpca.py` - Yeni HPCA HoF üyelerini bulma
 - `create_toppicks_xlsx.py` - Top Picks Excel oluşturma
 
-## Yapılacaklar
-- [ ] ASPLOS HoF'u tamamla (Rajiv Gupta, Benjamin C. Lee, Tao Li, Ang Li kontrol et)
-- [ ] Diğer venue'lar için de yeni HoF girişlerini bul (MICRO 2025, ISCA 2025)
-- [ ] Affiliations listesini tamamla (şu an ~90 kişi, toplam ~240)
-- [ ] Top Picks Honorable Mention yazarlarını web'den bul
-- [ ] Excel dosyasını 22 yıla genişlet
-- [ ] Kurumları da sayfada göster (filtreleme?)
+## Yapılacaklar (Öncelik sırasına göre)
+- [ ] **PID'leri tamamla**: ~90 kişinin DBLP PID'si eksik. PID olmadan güvenilir sorgu yapılamıyor. Affiliations'a PID ekle.
+- [ ] **Affiliation denetimi**: Tüm sekmelerde (HPCA/MICRO/ISCA/ASPLOS/Top Picks) affiliation göster, sadece combined'da değil.
+- [ ] **DBLP bağlantıları düzelt**: Çalışmayan PID'leri bul ve düzelt (ör: `k/JangwooKim` -> `04/2187`).
+- [ ] **HPCA/ASPLOS boş sütunları doldur**: 37 HPCA + 53 ASPLOS boş. PID ile DBLP XML sorgula.
+- [ ] **ASPLOS şüpheliler**: Benjamin C. Lee (7), Tao Li (9?), Ang Li (12?), Chao Li (15?) - PID ile doğrula
+- [ ] **Yeni HoF girişleri**: MICRO 2025, ISCA 2025 verilerini çek
+- [ ] **Top Picks HM yazarları**: Web'den tam yazar listelerini bul
+- [ ] **Excel güncelle**: 22 yıla genişlet
+- [ ] **Kurum filtreleme**: Sayfada kuruma göre filtreleme özelliği
+
+## Öğrenilen Dersler
+- DBLP `author:Name:` sorgusu yaygın isimlerde GÜVENİLMEZ. PID ile XML sorgusu kullan.
+- PID format: disambiguated isimler `-1`, `-2` suffix alıyor (ör: `61/7672-1`)
+- Proceedings editörlükleri ve keynote'lar makale sayısına DAHİL EDİLMEMELİ
+- Resmi HoF'ta yoksa o venue'da max 7 olabilir (≤7 kuralı)
+- Kontrol grubu: Patt (HPCA 7, ASPLOS 6), Hwu (HPCA 2), Valero (ASPLOS 1)
