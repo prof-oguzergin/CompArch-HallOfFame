@@ -152,7 +152,7 @@
         <div class="conf-info"><strong>Combined Hall of Fame</strong> &mdash; Researchers with 8+ papers at any venue (HPCA, MICRO, ISCA, or ASPLOS) are inducted into that venue's Hall of Fame. The Total column sums only these four venues. TP shows IEEE Micro Top Picks count (not included in Total). Click column headers to sort.</div>
         <div class="heatmap-wrap sticky-scroll"><table class="simple-table" id="table-combined"><thead><tr>
             <th style="width:40px">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
-            <th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer;text-align:left">HoF Venues</th>
+            <th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="hm" onclick="sortCombined('hm')" style="width:40px;cursor:pointer">HM</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer;text-align:left">HoF Venues</th>
         </tr></thead><tbody></tbody></table></div>
     </div>
 
@@ -239,13 +239,40 @@ function norm(n) {
 }
 function bestName(names) { return names.sort((a,b)=>b.length-a.length)[0]; }
 
+// Abbreviated name mapping for older HM data (2014-2019 used initials)
+const HM_NAME_MAP = {
+    "J. Torrellas":"Josep Torrellas","O. Mutlu":"Onur Mutlu","M. Martonosi":"Margaret Martonosi",
+    "M. Qureshi":"Moinuddin K. Qureshi","M. K. Qureshi":"Moinuddin K. Qureshi",
+    "A. Bhattacharjee":"Abhishek Bhattacharjee","D. Burger":"Doug Burger","D. Lustig":"Daniel Lustig",
+    "D. J. Sorin":"Daniel J. Sorin","E. Ipek":"Engin Ipek","G. H. Loh":"Gabriel H. Loh",
+    "H. Esmaeilzadeh":"Hadi Esmaeilzadeh","H. Hoffmann":"Henry Hoffmann","J. Huang":"Jian Huang",
+    "K. McKinley":"Kathryn S. McKinley","K. Sankaralingam":"Karthikeyan Sankaralingam",
+    "L. Ceze":"Luis Ceze","M. Oskin":"Mark Oskin","M. Sinclair":"Matthew Sinclair",
+    "M. Yan":"Mengjia Yan","N. Ardalani":"Newsha Ardalani","P. J. Nair":"Prashant J. Nair",
+    "P. Nair":"Prashant J. Nair","S. Adve":"Sarita V. Adve","S. K. Reinhardt":"Steven K. Reinhardt",
+    "S. Mahlke":"Scott A. Mahlke","T. Krishna":"Tushar Krishna","V. Adve":"Vikram S. Adve",
+    "V. Nagarajan":"Vijay Nagarajan","A. Yazdanbakhsh":"Amir Yazdanbakhsh",
+    "A. Morrison":"Adam Morrison","A. Samajdar":"Ananda Samajdar","B. Lucia":"Brandon Lucia",
+    "C. W. Fletcher":"Christopher W. Fletcher","D. Skarlatos":"Dimitrios Skarlatos",
+    "H. Kwon":"Hyoukjun Kwon","J. Alsop":"Johnathan Alsop","J. Park":"Jongse Park",
+    "R. Teodorescu":"Radu Teodorescu","S. Hong":"Seokin Hong","Y. Zhu":"Yuhao Zhu",
+    "A. Basu":"Arkaprava Basu","A. Gupta":"Anoop Gupta","Y. A. Manerkar":"Yatin A. Manerkar",
+    "Joel Emer":"Joel S. Emer","P. Srivastava":"Prakalp Srivastava",
+    "G. Saileshwar":"Gururaj Saileshwar","X. Zhu":"Xiangyu Zhu",
+    "J. Ahn":"Jung Ho Ahn","T. Ham":"Tae Jun Ham","S. Blackburn":"Stephen M. Blackburn",
+    "R. Komuravelli":"Rakesh Komuravelli","M. Mattina":"Matthew Mattina",
+    "P. Whatmough":"Paul Whatmough","S. Yoo":"Sungjin Yoo",
+    "D. Richins":"Daniel Richins","J. Vesely":"Jan Vesely",
+};
+function hmNormName(name) { return HM_NAME_MAP[name] || name; }
+
 // Build combined
 function buildCombined() {
     const m = {};
     ['hpca','micro','isca','asplos'].forEach(v => {
         DATA[v].forEach(e => {
             const k = norm(e.name);
-            if (!m[k]) m[k] = {names:[], hpca:0, micro:0, isca:0, asplos:0, tp:0};
+            if (!m[k]) m[k] = {names:[], hpca:0, micro:0, isca:0, asplos:0, tp:0, hm:0};
             m[k].names.push(e.name);
             m[k][v] = e.total;
         });
@@ -260,19 +287,28 @@ function buildCombined() {
             });
         }
     });
-    // Add Top Picks counts
-    const tpCounts = {};
-    (DATA.toppicks_papers||[]).filter(p=>p.type==='TP').forEach(p => {
-        p.authors.forEach(a => { tpCounts[a] = (tpCounts[a]||0) + 1; });
+    // Add Top Picks and HM counts
+    const tpCounts = {}, hmCounts = {};
+    (DATA.toppicks_papers||[]).forEach(p => {
+        if (!p.authors || !p.authors.length) return;
+        p.authors.forEach(rawA => {
+            const a = (typeof hmNormName==='function') ? hmNormName(rawA) : rawA;
+            if (p.type==='TP') tpCounts[a] = (tpCounts[a]||0) + 1;
+            if (p.type==='HM') hmCounts[a] = (hmCounts[a]||0) + 1;
+        });
     });
     Object.entries(tpCounts).forEach(([name, count]) => {
         const k = norm(name);
         if (m[k]) m[k].tp = count;
     });
+    Object.entries(hmCounts).forEach(([name, count]) => {
+        const k = norm(name);
+        if (m[k]) m[k].hm = count;
+    });
     return Object.values(m).map(e => {
         const total = e.hpca + e.micro + e.isca + e.asplos;
         const vc = [e.hpca,e.micro,e.isca,e.asplos].filter(x=>x>=8).length;
-        return {name:bestName(e.names), total, hpca:e.hpca, micro:e.micro, isca:e.isca, asplos:e.asplos, tp:e.tp, vc};
+        return {name:bestName(e.names), total, hpca:e.hpca, micro:e.micro, isca:e.isca, asplos:e.asplos, tp:e.tp, hm:e.hm||0, vc};
     }).sort((a,b) => b.total - a.total || b.vc - a.vc);
 }
 const combined = buildCombined();
@@ -380,6 +416,7 @@ function renderCombined() {
             <td class="count" style="color:var(--accent-asplos)">${d.asplos||'-'}</td>
             <td class="count" style="color:var(--accent-hpca)">${d.hpca||'-'}</td>
             <td class="count" style="color:var(--accent-toppicks)">${d.tp||'-'}</td>
+            <td class="count" style="color:var(--text-muted)">${d.hm||'-'}</td>
             <td>${badges.join('')}</td></tr>`;
     }).join('');
 }
@@ -500,7 +537,8 @@ function buildHMAuthors() {
     const allYears = [...new Set(papers.map(p=>p.year))].sort();
     const authors = {};
     papers.forEach(p => {
-        p.authors.forEach(a => {
+        p.authors.forEach(rawA => {
+            const a = hmNormName(rawA);
             if (!authors[a]) authors[a] = {hm:0, byYear:{}};
             authors[a].hm++;
             authors[a].byYear[p.year] = (authors[a].byYear[p.year]||0) + 1;
