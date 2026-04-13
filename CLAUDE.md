@@ -49,9 +49,21 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
 - [ ] **Excel güncelle**: 22 yıla genişlet
 - [ ] **Kurum filtreleme**: Sayfada kuruma göre filtreleme özelliği
 
+## KRİTİK KURALLAR — VERİ DOĞRULUĞU
+1. **ASLA tahmin etme!** Veri eklerken/güncellerken mutlaka DBLP XML'den doğrula. Yıl/sayı tahmin edilmez.
+2. **Venue eşleşmesinde STRICT MATCH kullan!** DBLP key'lerinde `conf/isca/` ile `conf/iscas/` FARKLI konferanslar:
+   - `conf/isca/` = ISCA (International Symposium on Computer Architecture) ✓
+   - `conf/iscas/` = ISCAS (International Symposium on Circuits and Systems) ✗
+   - Python'da: `re.search(r'conf/isca/', key)` kullan, `'conf/isca' in key` KULLANMA!
+   - Aynı şekilde: `conf/hpca/` vs `conf/hpcasia/` (HPCAsia farklı konferans)
+   - `conf/micro/` vs `conf/micropro/` gibi durumlar olabilir
+3. **Proceedings editörlükleri ve keynote'lar** makale sayısına DAHİL EDİLMEMELİ
+4. **Workshop makaleleri** ana konferans sayısına dahil edilmez (ör: "ISCA Workshops" ≠ ISCA)
+
 ## Öğrenilen Dersler
 - DBLP `author:Name:` sorgusu yaygın isimlerde GÜVENİLMEZ. PID ile XML sorgusu kullan.
 - PID format: disambiguated isimler `-1`, `-2` suffix alıyor (ör: `61/7672-1`)
-- Proceedings editörlükleri ve keynote'lar makale sayısına DAHİL EDİLMEMELİ
+- Eski stil PID'ler (`x/IsimSoyisim`) çoğu bozuk, sayısal PID (`XX/YYYY`) daha güvenilir
 - Resmi HoF'ta yoksa o venue'da max 7 olabilir (≤7 kuralı)
 - Kontrol grubu: Patt (HPCA 7, ASPLOS 6), Hwu (HPCA 2), Valero (ASPLOS 1)
+- ISCAS/ISCA karışması: `in` operatörü alt-string eşleşmesi yapar, `re.search` ile `/` dahil eşleştir
