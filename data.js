@@ -225,7 +225,8 @@ micro: [
   {name:"Gu-Yeon Wei",total:8,y:{2007:1,2009:1,2010:1,2016:1,2019:1,2021:2,2022:1}},
   {name:"Shaojun Wei",total:8,y:{2019:1,2020:2,2023:2,2025:3}},
   {name:"David A. Wood",total:8,y:{2003:1,2004:1,2006:1,2013:2,2014:1,2015:1,2016:1}},
-  {name:"Yuhao Zhu",total:8,y:{2015:1,2019:2,2020:3,2021:1,2022:1}}
+  {name:"Yuhao Zhu",total:8,y:{2015:1,2019:2,2020:3,2021:1,2022:1}},
+  {name:"Mengjia Yan",total:9,y:{2016:1,2018:1,2019:3,2020:2,2023:1,2024:1}}
 ],
 isca: [
   {name:"Onur Mutlu",total:48,y:{2005:1,2006:1,2007:1,2008:2,2009:3,2010:2,2011:2,2012:3,2013:3,2014:2,2015:4,2016:2,2017:1,2018:3,2019:2,2020:4,2021:3,2022:2,2023:2,2024:3,2025:2}},
@@ -640,7 +641,7 @@ affiliations: {
   "Jayesh Gaur": {inst:"Intel",pid:"46/6130"},
   "Joel Emer": {inst:"MIT / NVIDIA",pid:"e/JoelSEmer"},
   "John Kubiatowicz": {inst:"UC Berkeley",pid:"k/JohnKubiatowicz"},
-  "Mengjia Yan": {inst:"MIT",pid:"y/MengjiaYan"},
+  "Mengjia Yan": {inst:"MIT",pid:"137/0590"},
   "Yang Hu": {inst:"Tsinghua",pid:"43/4685-1"},
   "Mohammad Alian": {inst:"U Kansas",pid:"a/MohammadAlian"},
   "Swamit Tannu": {inst:"UW-Madison",pid:"207/1837"},
