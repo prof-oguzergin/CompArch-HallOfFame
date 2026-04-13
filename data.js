@@ -432,7 +432,8 @@ asplos: [
   {name:"Yufei Ding",total:15,y:{2014:1,2019:1,2020:2,2022:2,2024:5,2025:3,2026:1}},
   {name:"Jingwen Leng",total:12,y:{2022:2,2023:1,2024:5,2025:2,2026:2}},
   {name:"Anand Sivasubramaniam",total:8,y:{2002:1,2006:1,2012:1,2014:1,2017:1,2024:1,2025:1,2026:1}},
-  {name:"Henry M. Levy",total:8,y:{1991:1,1994:2,1996:2,2000:1,2024:1,2025:1}}
+  {name:"Henry M. Levy",total:8,y:{1991:1,1994:2,1996:2,2000:1,2024:1,2025:1}},
+  {name:"Rajiv Gupta",total:8,y:{1989:1,2000:1,2012:1,2017:2,2019:1,2023:2}}
 ],
 // Researcher affiliations and DBLP PIDs
 affiliations: {
