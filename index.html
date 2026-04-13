@@ -257,6 +257,16 @@ function buildCombined() {
 const combined = buildCombined();
 
 // Medal
+const AFF = DATA.affiliations || {};
+function dblpUrl(name) {
+    const a = AFF[name];
+    return a && a.pid ? `https://dblp.org/pid/${a.pid}.html` : `https://dblp.org/search?q=${encodeURIComponent(name)}`;
+}
+function nameLink(name, showInst) {
+    const url = dblpUrl(name);
+    const inst = showInst && AFF[name]?.inst ? ` <span style="font-size:0.7rem;color:var(--text-muted)">${AFF[name].inst}</span>` : '';
+    return `<a href="${url}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${name}</a>${inst}`;
+}
 function medal(r) {
     if (r===1) return '<span class="medal">\u{1F947}</span>';
     if (r===2) return '<span class="medal">\u{1F948}</span>';
@@ -296,7 +306,7 @@ function renderHeatmap(venue) {
     html += `</tr></thead><tbody>`;
 
     filtered.forEach((d, i) => {
-        html += `<tr><td class="rank-cell">${medal(i+1)}</td><td class="name-cell"><a href="https://dblp.org/search?q=${encodeURIComponent(d.name)}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${d.name}</a></td><td class="total-cell">${d.total}</td>`;
+        html += `<tr><td class="rank-cell">${medal(i+1)}</td><td class="name-cell">${nameLink(d.name,false)}</td><td class="total-cell">${d.total}</td>`;
         years.forEach(y => {
             const v = d.y[y] || 0;
             html += `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
@@ -337,7 +347,7 @@ function renderCombined() {
         if (d.micro>=8) badges.push('<span title="MICRO" style="color:var(--accent-micro)">★</span>');
         if (d.asplos>=8) badges.push('<span title="ASPLOS" style="color:var(--accent-asplos)">★</span>');
         if (d.hpca>=8) badges.push('<span title="HPCA" style="color:var(--accent-hpca)">★</span>');
-        return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td><a href="https://dblp.org/search?q=${encodeURIComponent(d.name)}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${d.name}</a></td>
+        return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td>${nameLink(d.name,true)}</td>
             <td class="count">${d.total}</td>
             <td class="count" style="color:var(--accent-isca)">${d.isca||'-'}</td>
             <td class="count" style="color:var(--accent-micro)">${d.micro||'-'}</td>
@@ -393,7 +403,7 @@ function renderTopPicks() {
         }).join('');
         return `<tr>
             <td class="rank-cell">${medal(i+1)}</td>
-            <td class="name-cell"><a href="https://dblp.org/search?q=${encodeURIComponent(a.name)}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${a.name}</a></td>
+            <td class="name-cell">${nameLink(a.name,false)}</td>
             <td class="total-cell">${a.tp}</td>
             ${yearCells}
         </tr>`;
