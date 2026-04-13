@@ -521,7 +521,7 @@ affiliations: {
   "James E. Smith": {inst:"UW-Madison (emeritus)",pid:"17/1987-1"},
   "Jae W. Lee": {inst:"SNU",pid:"59/127"},
   "Yufei Ding": {inst:"UCSD",pid:"89/10461"},
-  "Jangwoo Kim": {inst:"SNU",pid:"k/JangwooKim"},
+  "Jangwoo Kim": {inst:"SNU",pid:"04/2187"},
   "Henry M. Levy": {inst:"UW (emeritus)",pid:"l/HenryMLevy"},
   "Won Woo Ro": {inst:"Yonsei U",pid:"r/WonWooRo"},
   "Myoungsoo Jung": {inst:"KAIST",pid:"j/MyoungsooJung"},
