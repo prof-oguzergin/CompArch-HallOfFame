@@ -57,8 +57,17 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
    - Python'da: `re.search(r'conf/isca/', key)` kullan, `'conf/isca' in key` KULLANMA!
    - Aynı şekilde: `conf/hpca/` vs `conf/hpcasia/` (HPCAsia farklı konferans)
    - `conf/micro/` vs `conf/micropro/` gibi durumlar olabilir
-3. **Proceedings editörlükleri ve keynote'lar** makale sayısına DAHİL EDİLMEMELİ
-4. **Workshop makaleleri** ana konferans sayısına dahil edilmez (ör: "ISCA Workshops" ≠ ISCA)
+3. **Aşağıdakiler bildiri sayısına DAHİL EDİLMEMELİ:**
+   - Keynote / invited talk (genelde 1-3 sayfa)
+   - Program chair / general chair proceedings editörlüğü
+   - Tutorial
+   - Panel
+   - Retrospective (ör: ISCA 1998 25th Anniversary reprints)
+   - Workshop bildirisi (ör: "ISCA Workshops" ≠ ISCA)
+   - DBLP hepsini `inproceedings` olarak kaydediyor, ayırt etmek için sayfa sayısına ve başlığa bak
+   - Tam bildiriler genelde 10+ sayfa, keynote/editörlük 1-3 sayfa
+4. **DBLP sayılarını körü körüne güncelleme!** Resmi HoF kaynaklarıyla (IEEE TCCA, SIGMICRO, UW-Madison, Princeton) karşılaştır. DBLP'de fazla çıkıyorsa keynote/editörlük karışmış olabilir, eksik çıkıyorsa eski yıllar DBLP'de olmayabilir.
+5. **audit.json** dosyasında her araştırmacının doğrulama tarihi tutulur. Doğrulanmamış kişilerin sayıları güvenilmez olabilir.
 
 ## Öğrenilen Dersler
 - DBLP `author:Name:` sorgusu yaygın isimlerde GÜVENİLMEZ. PID ile XML sorgusu kullan.
