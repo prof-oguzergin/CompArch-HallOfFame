@@ -1,0 +1,942 @@
+{
+  "Onur Mutlu": {
+    "verified": null,
+    "source": null
+  },
+  "Josep Torrellas": {
+    "verified": null,
+    "source": null
+  },
+  "Yale N. Patt": {
+    "verified": null,
+    "source": null
+  },
+  "Nam Sung Kim": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Yuan Xie": {
+    "verified": null,
+    "source": null
+  },
+  "Scott A. Mahlke": {
+    "verified": null,
+    "source": null
+  },
+  "Moinuddin K. Qureshi": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Babak Falsafi": {
+    "verified": null,
+    "source": null
+  },
+  "Frederic T. Chong": {
+    "verified": null,
+    "source": null
+  },
+  "Wen-Mei W. Hwu": {
+    "verified": null,
+    "source": null
+  },
+  "Margaret Martonosi": {
+    "verified": null,
+    "source": null
+  },
+  "Trevor N. Mudge": {
+    "verified": null,
+    "source": null
+  },
+  "David Brooks": {
+    "verified": null,
+    "source": null
+  },
+  "Dean M. Tullsen": {
+    "verified": null,
+    "source": null
+  },
+  "Mark D. Hill": {
+    "verified": null,
+    "source": null
+  },
+  "David A. Wood": {
+    "verified": null,
+    "source": null
+  },
+  "Daniel Sanchez": {
+    "verified": null,
+    "source": null
+  },
+  "Xuehai Qian": {
+    "verified": null,
+    "source": null
+  },
+  "Lieven Eeckhout": {
+    "verified": null,
+    "source": null
+  },
+  "Thomas F. Wenisch": {
+    "verified": null,
+    "source": null
+  },
+  "Mahmut Taylan Kandemir": {
+    "verified": null,
+    "source": null
+  },
+  "Stephen W. Keckler": {
+    "verified": null,
+    "source": null
+  },
+  "Gurindar S. Sohi": {
+    "verified": null,
+    "source": null
+  },
+  "Christos Kozyrakis": {
+    "verified": null,
+    "source": null
+  },
+  "John Kim": {
+    "verified": null,
+    "source": null
+  },
+  "William J. Dally": {
+    "verified": null,
+    "source": null
+  },
+  "Chita R. Das": {
+    "verified": null,
+    "source": null
+  },
+  "Parthasarathy Ranganathan": {
+    "verified": null,
+    "source": null
+  },
+  "Gabriel H. Loh": {
+    "verified": null,
+    "source": null
+  },
+  "Mikko H. Lipasti": {
+    "verified": null,
+    "source": null
+  },
+  "Doug Burger": {
+    "verified": null,
+    "source": null
+  },
+  "Jung Ho Ahn": {
+    "verified": null,
+    "source": null
+  },
+  "Aamer Jaleel": {
+    "verified": null,
+    "source": null
+  },
+  "Rajeev Balasubramonian": {
+    "verified": null,
+    "source": null
+  },
+  "Murali Annavaram": {
+    "verified": null,
+    "source": null
+  },
+  "Minsoo Rhu": {
+    "verified": null,
+    "source": null
+  },
+  "Christopher W. Fletcher": {
+    "verified": null,
+    "source": null
+  },
+  "Vijaykrishnan Narayanan": {
+    "verified": null,
+    "source": null
+  },
+  "André Seznec": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Reetuparna Das": {
+    "verified": null,
+    "source": null
+  },
+  "Gu-Yeon Wei": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Tushar Krishna": {
+    "verified": null,
+    "source": null
+  },
+  "Rakesh Kumar": {
+    "verified": null,
+    "source": null
+  },
+  "Natalie D. Enright Jerger": {
+    "verified": null,
+    "source": null
+  },
+  "Brad Calder": {
+    "verified": null,
+    "source": null
+  },
+  "David I. August": {
+    "verified": null,
+    "source": null
+  },
+  "Pradip Bose": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Prashant J. Nair": {
+    "verified": null,
+    "source": null
+  },
+  "Joel S. Emer": {
+    "verified": null,
+    "source": null
+  },
+  "Timothy Sherwood": {
+    "verified": null,
+    "source": null
+  },
+  "Antonio González": {
+    "verified": null,
+    "source": null
+  },
+  "Mateo Valero": {
+    "verified": null,
+    "source": null
+  },
+  "Yan Solihin": {
+    "verified": null,
+    "source": null
+  },
+  "Youtao Zhang": {
+    "verified": null,
+    "source": null
+  },
+  "Jun Yang": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Anand Sivasubramaniam": {
+    "verified": null,
+    "source": null
+  },
+  "Alper Buyuktosunoglu": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Mattan Erez": {
+    "verified": null,
+    "source": null
+  },
+  "Hyesoon Kim": {
+    "verified": null,
+    "source": null
+  },
+  "A. Giray Yağlıkçı": {
+    "verified": null,
+    "source": null
+  },
+  "Mohammad Sadrosadati": {
+    "verified": null,
+    "source": null
+  },
+  "Abhishek Bhattacharjee": {
+    "verified": null,
+    "source": null
+  },
+  "Christina Delimitrou": {
+    "verified": null,
+    "source": null
+  },
+  "Luis Ceze": {
+    "verified": null,
+    "source": null
+  },
+  "Shan Lu": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Krste Asanovic": {
+    "verified": null,
+    "source": null
+  },
+  "Kunle Olukotun": {
+    "verified": null,
+    "source": null
+  },
+  "Sarita V. Adve": {
+    "verified": null,
+    "source": null
+  },
+  "Norman P. Jouppi": {
+    "verified": null,
+    "source": null
+  },
+  "David A. Patterson": {
+    "verified": null,
+    "source": null
+  },
+  "Mark Horowitz": {
+    "verified": null,
+    "source": null
+  },
+  "Tor M. Aamodt": {
+    "verified": null,
+    "source": null
+  },
+  "Hai Jin": {
+    "verified": null,
+    "source": null
+  },
+  "Mingyu Gao": {
+    "verified": null,
+    "source": null
+  },
+  "Chao Li": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Minyi Guo": {
+    "verified": null,
+    "source": null
+  },
+  "Jingwen Leng": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Xing Hu": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Qi Guo": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Jian Huang": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "James E. Smith": {
+    "verified": null,
+    "source": null
+  },
+  "Jae W. Lee": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Yufei Ding": {
+    "verified": null,
+    "source": null
+  },
+  "Jangwoo Kim": {
+    "verified": null,
+    "source": null
+  },
+  "Henry M. Levy": {
+    "verified": null,
+    "source": null
+  },
+  "Won Woo Ro": {
+    "verified": null,
+    "source": null
+  },
+  "Myoungsoo Jung": {
+    "verified": null,
+    "source": null
+  },
+  "Shouyi Yin": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Carole-Jean Wu": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Vijay Janapa Reddi": {
+    "verified": null,
+    "source": null
+  },
+  "Ricardo Bianchini": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Boris Grot": {
+    "verified": null,
+    "source": null
+  },
+  "Hadi Esmaeilzadeh": {
+    "verified": null,
+    "source": null
+  },
+  "Daniel J. Sorin": {
+    "verified": null,
+    "source": null
+  },
+  "Kevin Skadron": {
+    "verified": null,
+    "source": null
+  },
+  "Todd M. Austin": {
+    "verified": null,
+    "source": null
+  },
+  "Karin Strauss": {
+    "verified": null,
+    "source": null
+  },
+  "Per Stenström": {
+    "verified": null,
+    "source": null
+  },
+  "John L. Hennessy": {
+    "verified": null,
+    "source": null
+  },
+  "Anant Agarwal": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Arvind": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Susan J. Eggers": {
+    "verified": null,
+    "source": null
+  },
+  "Todd C. Mowry": {
+    "verified": null,
+    "source": null
+  },
+  "Kourosh Gharachorloo": {
+    "verified": null,
+    "source": null
+  },
+  "James R. Goodman": {
+    "verified": null,
+    "source": null
+  },
+  "Jean-Loup Baer": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "G. Jack Lipovski": {
+    "verified": null,
+    "source": null
+  },
+  "Janak H. Patel": {
+    "verified": null,
+    "source": null
+  },
+  "Edward S. Davidson": {
+    "verified": null,
+    "source": null
+  },
+  "Howard Jay Siegel": {
+    "verified": null,
+    "source": null
+  },
+  "Michel Dubois": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Andrew R. Pleszkun": {
+    "verified": null,
+    "source": null
+  },
+  "Pen-Chung Yew": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "John Paul Shen": {
+    "verified": null,
+    "source": null
+  },
+  "David E. Culler": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Anoop Gupta": {
+    "verified": null,
+    "source": null
+  },
+  "Bob Ramakrishna Rau": {
+    "verified": null,
+    "source": null
+  },
+  "Mark Oskin": {
+    "verified": null,
+    "source": null
+  },
+  "David Wentzlaff": {
+    "verified": null,
+    "source": null
+  },
+  "Karthikeyan Sankaralingam": {
+    "verified": null,
+    "source": null
+  },
+  "Sanjay J. Patel": {
+    "verified": null,
+    "source": null
+  },
+  "Chris Wilkerson": {
+    "verified": null,
+    "source": null
+  },
+  "Christopher J. Hughes": {
+    "verified": null,
+    "source": null
+  },
+  "Eric Rotenberg": {
+    "verified": null,
+    "source": null
+  },
+  "Gary S. Tyson": {
+    "verified": null,
+    "source": null
+  },
+  "Li-Shiuan Peh": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Ang Li": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Benjamin C. Lee": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Donghyuk Lee": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Michael C. Huang": {
+    "verified": null,
+    "source": null
+  },
+  "David H. Albonesi": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Jason Mars": {
+    "verified": null,
+    "source": null
+  },
+  "Lingjia Tang": {
+    "verified": null,
+    "source": null
+  },
+  "Jaehyuk Huh": {
+    "verified": null,
+    "source": null
+  },
+  "Jeremie S. Kim": {
+    "verified": null,
+    "source": null
+  },
+  "Stefanos Kaxiras": {
+    "verified": null,
+    "source": null
+  },
+  "Sreenivas Subramoney": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Alberto Ros": {
+    "verified": null,
+    "source": null
+  },
+  "Ronald G. Dreslinski": {
+    "verified": null,
+    "source": null
+  },
+  "T. N. Vijaykumar": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Nandita Vijaykumar": {
+    "verified": null,
+    "source": null
+  },
+  "Konstantinos Kanellopoulos": {
+    "verified": null,
+    "source": null
+  },
+  "Juan Gomez-Luna": {
+    "verified": null,
+    "source": null
+  },
+  "Saugata Ghose": {
+    "verified": null,
+    "source": null
+  },
+  "Eduard Ayguade": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Simha Sethumadhavan": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Shubhendu S. Mukherjee": {
+    "verified": null,
+    "source": null
+  },
+  "Steven K. Reinhardt": {
+    "verified": null,
+    "source": null
+  },
+  "Phillip B. Gibbons": {
+    "verified": null,
+    "source": null
+  },
+  "Sandhya Dwarkadas": {
+    "verified": null,
+    "source": null
+  },
+  "Satish Narayanasamy": {
+    "verified": null,
+    "source": null
+  },
+  "Brandon Lucia": {
+    "verified": null,
+    "source": null
+  },
+  "Rajiv Gupta": {
+    "verified": null,
+    "source": null
+  },
+  "Joseph Devietti": {
+    "verified": null,
+    "source": null
+  },
+  "Kathryn S. McKinley": {
+    "verified": null,
+    "source": null
+  },
+  "Keshav Pingali": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Mendel Rosenblum": {
+    "verified": null,
+    "source": null
+  },
+  "Michael M. Swift": {
+    "verified": null,
+    "source": null
+  },
+  "Steven Swanson": {
+    "verified": null,
+    "source": null
+  },
+  "Yuanyuan Zhou": {
+    "verified": null,
+    "source": null
+  },
+  "Henry Hoffmann": {
+    "verified": null,
+    "source": null
+  },
+  "Dan Tsafrir": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Alvin R. Lebeck": {
+    "verified": null,
+    "source": null
+  },
+  "Thomas M. Conte": {
+    "verified": null,
+    "source": null
+  },
+  "Dirk Grunwald": {
+    "verified": null,
+    "source": null
+  },
+  "Bogong Su": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Christos A. Papachristou": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Vicki H. Allan": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Robert A. Mueller": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Matthew K. Farrens": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Jorge Albericio": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "David W. Nellans": {
+    "verified": null,
+    "source": null
+  },
+  "Ahmed Louri": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Rui Hou": {
+    "verified": null,
+    "source": null
+  },
+  "Lixin Zhang": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Xiaofei Liao": {
+    "verified": null,
+    "source": null
+  },
+  "Lizhong Chen": {
+    "verified": null,
+    "source": null
+  },
+  "Mike O'Connor": {
+    "verified": null,
+    "source": null
+  },
+  "Leibo Liu": {
+    "verified": null,
+    "source": null
+  },
+  "Shaojun Wei": {
+    "verified": null,
+    "source": null
+  },
+  "Tianshi Chen": {
+    "verified": null,
+    "source": null
+  },
+  "Yiannakis Sazeides": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Timothy G. Rogers": {
+    "verified": null,
+    "source": null
+  },
+  "Nathan Beckmann": {
+    "verified": null,
+    "source": null
+  },
+  "Arkaprava Basu": {
+    "verified": null,
+    "source": null
+  },
+  "Nael Abu-Ghazaleh": {
+    "verified": null,
+    "source": null
+  },
+  "Gennady Pekhimenko": {
+    "verified": null,
+    "source": null
+  },
+  "Gilles Pokam": {
+    "verified": null,
+    "source": null
+  },
+  "Hsien-Hsin S. Lee": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Huiyang Zhou": {
+    "verified": null,
+    "source": null
+  },
+  "Amro Awad": {
+    "verified": null,
+    "source": null
+  },
+  "Adrián Cristal": {
+    "verified": null,
+    "source": null
+  },
+  "Jayesh Gaur": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Joel Emer": {
+    "verified": null,
+    "source": null
+  },
+  "John Kubiatowicz": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Mengjia Yan": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Yang Hu": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Mohammad Alian": {
+    "verified": null,
+    "source": null
+  },
+  "Swamit Tannu": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Yuhao Zhu": {
+    "verified": null,
+    "source": null
+  },
+  "Changhee Jung": {
+    "verified": null,
+    "source": null
+  },
+  "Guangyu Sun": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Hai Helen Li": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Yiran Chen": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Engin Ipek": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Naveen Muralimanohar": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Sudhanva Gurumurthi": {
+    "verified": null,
+    "source": null
+  },
+  "Jishen Zhao": {
+    "verified": null,
+    "source": null
+  },
+  "David Blaauw": {
+    "verified": null,
+    "source": null
+  },
+  "Xiaoyao Liang": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Shuangchen Li": {
+    "verified": null,
+    "source": null
+  },
+  "Zeshan Chishti": {
+    "verified": null,
+    "source": null
+  },
+  "Youfeng Wu": {
+    "verified": null,
+    "source": null
+  },
+  "Minesh Patel": {
+    "verified": null,
+    "source": null
+  },
+  "Ataberk Olgun": {
+    "verified": null,
+    "source": null
+  },
+  "Christopher Batten": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Daehoon Kim": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Daniel A. Jiménez": {
+    "verified": null,
+    "source": null
+  },
+  "G. Edward Suh": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "José F. Martínez": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "José-María Arnau": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Milos Prvulovic": {
+    "verified": null,
+    "source": null
+  },
+  "Ravishankar R. Iyer": {
+    "verified": null,
+    "source": null
+  },
+  "Xiaowei Jiang": {
+    "verified": null,
+    "source": null
+  },
+  "John B. Carter": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "José Duato": {
+    "verified": null,
+    "source": null
+  },
+  "Luiz André Barroso": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Tao Li": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Lizy Kurian John": {
+    "verified": null,
+    "source": null
+  },
+  "Andreas Moshovos": {
+    "verified": null,
+    "source": null
+  },
+  "Zidong Du": {
+    "verified": null,
+    "source": null
+  },
+  "Michael Schlansker": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Timothy M. Jones": {
+    "verified": "2026-04-14",
+    "source": "dblp-xml"
+  },
+  "Amir Roth": {
+    "verified": null,
+    "source": null
+  },
+  "Amir Yazdanbakhsh": {
+    "verified": null,
+    "source": null
+  }
+}
