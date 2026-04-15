@@ -453,7 +453,7 @@ affiliations: {
   "Onur Mutlu": {inst:"ETH Zurich",pid:"m/OnurMutlu"},
   "Josep Torrellas": {inst:"UIUC",pid:"t/JosepTorrellas"},
   "Yale N. Patt": {inst:"UT Austin",pid:"p/YaleNPatt"},
-  "Nam Sung Kim": {inst:"UIUC",pid:"13/6350"},
+  "Nam Sung Kim": {inst:"UIUC",pid:"18/1402"},
   "Yuan Xie": {inst:"HKUST",pid:"x/YuanXie"},
   "Scott A. Mahlke": {inst:"U Michigan",pid:"m/SAMahlke"},
   "Moinuddin K. Qureshi": {inst:"Georgia Tech",pid:"60/6934"},
