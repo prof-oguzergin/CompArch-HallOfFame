@@ -66,7 +66,7 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
    - Workshop bildirisi (ör: "ISCA Workshops" ≠ ISCA). DİKKAT: DBLP bazen workshop bildirilerini ana konferans key'i altında kaydediyor (ör: conf/isca/GrotKM10 aslında ISCA Workshops 2010). Resmi HoF kaynağıyla çapraz kontrol şart!
    - DBLP hepsini `inproceedings` olarak kaydediyor, ayırt etmek için sayfa sayısına ve başlığa bak
    - Tam bildiriler genelde 10+ sayfa, keynote/editörlük 1-3 sayfa
-4. **DBLP sayılarını körü körüne güncelleme!** Resmi HoF kaynaklarıyla (IEEE TCCA, SIGMICRO, UW-Madison, Princeton) karşılaştır. DBLP'de fazla çıkıyorsa keynote/editörlük karışmış olabilir, eksik çıkıyorsa eski yıllar DBLP'de olmayabilir.
+4. **DBLP sayılarını körü körüne güncelleme!** Resmi HoF kaynaklarıyla (IEEE TCCA, SIGMICRO, UW-Madison, Princeton) karşılaştır. DBLP'de fazla çıkıyorsa keynote/editörlük karışmış olabilir, eksik çıkıyorsa eski yıllar DBLP'de olmayabilir. DİKKAT: Resmi HoF kaynakları da hatalı olabilir — isim karışıklığı (ör: Yuan Xie HKUST vs Yuan Xie Alibaba) nedeniyle farklı kişilerin bildirilerini birleştirebilirler. DBLP PID'li sorgu daha güvenilir çünkü disambiguated.
 5. **audit.json** dosyasında her araştırmacının doğrulama tarihi tutulur. Doğrulanmamış kişilerin sayıları güvenilmez olabilir.
 
 ## Öğrenilen Dersler
