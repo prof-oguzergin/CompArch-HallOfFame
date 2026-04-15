@@ -63,7 +63,7 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
    - Tutorial
    - Panel
    - Retrospective (ör: ISCA 1998 25th Anniversary reprints)
-   - Workshop bildirisi (ör: "ISCA Workshops" ≠ ISCA)
+   - Workshop bildirisi (ör: "ISCA Workshops" ≠ ISCA). DİKKAT: DBLP bazen workshop bildirilerini ana konferans key'i altında kaydediyor (ör: conf/isca/GrotKM10 aslında ISCA Workshops 2010). Resmi HoF kaynağıyla çapraz kontrol şart!
    - DBLP hepsini `inproceedings` olarak kaydediyor, ayırt etmek için sayfa sayısına ve başlığa bak
    - Tam bildiriler genelde 10+ sayfa, keynote/editörlük 1-3 sayfa
 4. **DBLP sayılarını körü körüne güncelleme!** Resmi HoF kaynaklarıyla (IEEE TCCA, SIGMICRO, UW-Madison, Princeton) karşılaştır. DBLP'de fazla çıkıyorsa keynote/editörlük karışmış olabilir, eksik çıkıyorsa eski yıllar DBLP'de olmayabilir.
