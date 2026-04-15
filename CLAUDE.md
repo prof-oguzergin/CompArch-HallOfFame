@@ -58,7 +58,7 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
    - Aynı şekilde: `conf/hpca/` vs `conf/hpcasia/` (HPCAsia farklı konferans)
    - `conf/micro/` vs `conf/micropro/` gibi durumlar olabilir
 3. **Aşağıdakiler bildiri sayısına DAHİL EDİLMEMELİ:**
-   - Keynote / invited talk (genelde 1-3 sayfa)
+   - Keynote / invited talk (genelde 1 sayfa veya sayfa numarası tek rakam, ör: pp:1, pp:322)
    - Program chair / general chair proceedings editörlüğü
    - Tutorial
    - Panel
