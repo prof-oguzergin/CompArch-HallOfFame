@@ -1,6 +1,6 @@
 // Computer Architecture Hall of Fame — Data
 // Sources: IEEE TCCA (HPCA), ACM SIGMICRO (MICRO), UW-Madison (ISCA), Princeton (ASPLOS)
-// Last updated: 13 April 2026
+// Last updated: 15 April 2026
 
 const DATA = {
 hpca: [
