@@ -38,16 +38,19 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
 - `find_new_hpca.py` - Yeni HPCA HoF üyelerini bulma
 - `create_toppicks_xlsx.py` - Top Picks Excel oluşturma
 
-## Yapılacaklar (Öncelik sırasına göre)
-- [ ] **PID'leri tamamla**: ~90 kişinin DBLP PID'si eksik. PID olmadan güvenilir sorgu yapılamıyor. Affiliations'a PID ekle.
-- [ ] **Affiliation denetimi**: Tüm sekmelerde (HPCA/MICRO/ISCA/ASPLOS/Top Picks) affiliation göster, sadece combined'da değil.
-- [ ] **DBLP bağlantıları düzelt**: Çalışmayan PID'leri bul ve düzelt (ör: `k/JangwooKim` -> `04/2187`).
-- [ ] **HPCA/ASPLOS boş sütunları doldur**: 37 HPCA + 53 ASPLOS boş. PID ile DBLP XML sorgula.
+## Yapılacaklar
+### Tamamlananlar
+- [x] **PID'leri tamamla**: 235/235 tamamlandı
+- [x] **Affiliation denetimi**: Tüm sekmelerde (HPCA/MICRO/ISCA/ASPLOS/Top Picks) gösteriliyor
+- [x] **HPCA/ASPLOS boş sütunları doldur**: Crossvenue yapısıyla çözüldü
+- [x] **Yeni HoF girişleri**: MICRO/ISCA 2025 + HPCA/ASPLOS 2026 verileri eklendi
+- [x] **Top Picks HM yazarları**: 130 HM girişi tamamlandı
+- [x] **Kurum filtreleme**: Dropdown ile çalışıyor
+
+### Devam Eden / Bekleyen
+- [ ] **DBLP bağlantıları**: 90 eski stil PID (`x/Name`) hâlâ var, sayısal formata (`XX/YYYY`) geçirilmeli
 - [ ] **ASPLOS şüpheliler**: Benjamin C. Lee (7), Tao Li (9?), Ang Li (12?), Chao Li (15?) - PID ile doğrula
-- [ ] **Yeni HoF girişleri**: MICRO 2025, ISCA 2025 verilerini çek
-- [ ] **Top Picks HM yazarları**: Web'den tam yazar listelerini bul
 - [ ] **Excel güncelle**: 22 yıla genişlet
-- [ ] **Kurum filtreleme**: Sayfada kuruma göre filtreleme özelliği
 
 ## KRİTİK KURALLAR — VERİ DOĞRULUĞU
 1. **ASLA tahmin etme!** Veri eklerken/güncellerken mutlaka DBLP XML'den doğrula. Yıl/sayı tahmin edilmez.
