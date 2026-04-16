@@ -238,9 +238,10 @@
         <div style="background:var(--surface);border-radius:8px;padding:1rem;max-width:1200px">
             <canvas id="accChart" height="400"></canvas>
         </div>
-        <div style="margin-top:1rem;overflow-x:auto">
-            <table class="simple-table" id="accTable"><thead></thead><tbody></tbody></table>
-        </div>
+        <h3 style="color:var(--text-muted);margin:1.5rem 0 0.3rem;font-size:0.95rem">Acceptance Rate (%)</h3>
+        <div class="heatmap-wrap" style="overflow-x:auto" id="accRateHeatmap"></div>
+        <h3 style="color:var(--text-muted);margin:1.5rem 0 0.3rem;font-size:0.95rem">Submissions (Accepted)</h3>
+        <div class="heatmap-wrap" style="overflow-x:auto" id="accSubHeatmap"></div>
     </div>
 </div>
 <footer>
@@ -872,24 +873,68 @@ function renderAccChart() {
     renderAccTable(years, venues, labels);
 }
 
-function renderAccTable(years, venues, labels) {
-    const thead = document.querySelector('#accTable thead');
-    const tbody = document.querySelector('#accTable tbody');
-    thead.innerHTML = '<tr><th>Year</th>' + venues.map(v =>
-        `<th colspan="3" style="text-align:center">${labels[v]}</th>`
-    ).join('') + '</tr><tr><th></th>' + venues.map(() =>
-        '<th style="font-size:0.7rem">Sub</th><th style="font-size:0.7rem">Acc</th><th style="font-size:0.7rem">Rate</th>'
-    ).join('') + '</tr>';
+function rateColor(r) {
+    if (r === null) return '';
+    if (r < 15) return 'background:rgba(239,68,68,0.35);color:#fca5a5';
+    if (r < 18) return 'background:rgba(245,158,11,0.3);color:#fcd34d';
+    if (r < 22) return 'background:rgba(234,179,8,0.25);color:#fde68a';
+    if (r < 26) return 'background:rgba(16,185,129,0.25);color:#6ee7b7';
+    return 'background:rgba(16,185,129,0.4);color:#6ee7b7';
+}
+function subColor(s, maxSub) {
+    if (s === null) return '';
+    const t = Math.min(s / maxSub, 1);
+    const a = (0.1 + t * 0.45).toFixed(2);
+    return `background:rgba(59,130,246,${a});color:#93c5fd`;
+}
 
-    tbody.innerHTML = [...years].reverse().map(y => {
-        const cells = venues.map(v => {
-            const d = DATA.acceptance[v] ? DATA.acceptance[v].find(x => x.year === y) : null;
-            if (!d) return '<td>-</td><td>-</td><td>-</td>';
-            const rate = (d.acc/d.sub*100).toFixed(1);
-            return `<td>${d.sub}</td><td>${d.acc}</td><td>${rate}%</td>`;
-        }).join('');
-        return `<tr><td style="font-weight:600">${y}</td>${cells}</tr>`;
-    }).join('');
+function renderAccTable(years, venues, labels) {
+    const revYears = [...years].reverse();
+    const colors = {hpca:'#3b82f6',micro:'#8b5cf6',isca:'#10b981',asplos:'#f43f5e'};
+
+    // Build lookup maps
+    const maps = {};
+    let maxSub = 0;
+    venues.forEach(v => {
+        maps[v] = {};
+        if (DATA.acceptance[v]) DATA.acceptance[v].forEach(d => {
+            maps[v][d.year] = d;
+            if (d.sub > maxSub) maxSub = d.sub;
+        });
+    });
+
+    // Rate heatmap
+    let rh = '<table class="heatmap"><thead><tr><th class="name-col" style="min-width:80px">Venue</th>';
+    revYears.forEach(y => { rh += `<th class="year-col" style="writing-mode:vertical-rl;height:50px;font-size:0.65rem">${y}</th>`; });
+    rh += '</tr></thead><tbody>';
+    venues.forEach(v => {
+        rh += `<tr><td class="name-cell" style="font-weight:700;color:${colors[v]}">${labels[v]}</td>`;
+        revYears.forEach(y => {
+            const d = maps[v][y];
+            if (!d) { rh += '<td class="year-cell"></td>'; return; }
+            const r = d.acc/d.sub*100;
+            rh += `<td class="year-cell" style="${rateColor(r)};font-size:0.7rem">${r.toFixed(1)}</td>`;
+        });
+        rh += '</tr>';
+    });
+    rh += '</tbody></table>';
+    document.getElementById('accRateHeatmap').innerHTML = rh;
+
+    // Submission heatmap
+    let sh = '<table class="heatmap"><thead><tr><th class="name-col" style="min-width:80px">Venue</th>';
+    revYears.forEach(y => { sh += `<th class="year-col" style="writing-mode:vertical-rl;height:50px;font-size:0.65rem">${y}</th>`; });
+    sh += '</tr></thead><tbody>';
+    venues.forEach(v => {
+        sh += `<tr><td class="name-cell" style="font-weight:700;color:${colors[v]}">${labels[v]}</td>`;
+        revYears.forEach(y => {
+            const d = maps[v][y];
+            if (!d) { sh += '<td class="year-cell"></td>'; return; }
+            sh += `<td class="year-cell" style="${subColor(d.sub, maxSub)};font-size:0.65rem">${d.sub}<br><span style="font-size:0.55rem;opacity:0.7">(${d.acc})</span></td>`;
+        });
+        sh += '</tr>';
+    });
+    sh += '</tbody></table>';
+    document.getElementById('accSubHeatmap').innerHTML = sh;
 }
 
 // Initialize chart when tab is shown
