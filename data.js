@@ -1375,7 +1375,7 @@ toppicks_papers: [
   {year:2023,type:"HM",conf:"ASPLOS 2023",title:"Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers",authors:["Haocheng Xiao","Sam Ainsworth"],cites:17},
   {year:2023,type:"HM",conf:"ISCA 2023",title:"Astrea: Accurate Quantum Error-Decoding Via Practical Minimum-Weight Perfect-Matching",authors:["Suhas Vittal","Poulami Das","Moinuddin K. Qureshi"],cites:57},
   {year:2023,type:"HM",conf:"ISCA 2023",title:"SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM",authors:["Gerasimos Gerogiannis","Serif Yesil","Damitha Lenadora","Dingyuan Cao","Charith Mendis","Josep Torrellas"],cites:27},
-  {year:2023,type:"HM",conf:"ISCA 2023",title:"μManycore: A Cloud-Native CPU for Tail at Scale",authors:["Pouya Dormiani","Saiful A. Mojumder","Joseph Zuckerman","Luca P. Carloni","Martha A. Kim"],cites:null},
+  {year:2023,type:"HM",conf:"ISCA 2023",title:"μManycore: A Cloud-Native CPU for Tail at Scale",authors:["Jovan Stojkovic","Chunao Liu","Muhammad Shahbaz","Josep Torrellas"],cites:15},
   {year:2023,type:"HM",conf:"ASPLOS 2023",title:"Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",authors:["Bilge Acun","Benjamin C. Lee","Fiodar Kazhamiaka","Kiwan Maeng","Udit Gupta","Manoj Chakkaravarthy","David Brooks","Carole-Jean Wu"],cites:166},
   {year:2023,type:"HM",conf:"MICRO 2023",title:"Space Microdatacenters",authors:["Nathaniel Bleier","Muhammad Husnain Mubarik","Gary R. Swenson","Rakesh Kumar"],cites:1},
   {year:2023,type:"HM",conf:"ASPLOS 2023",title:"Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes",authors:["Zirui Neil Zhao","Adam Morrison","Christopher W. Fletcher","Josep Torrellas"],cites:9},
