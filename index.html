@@ -881,7 +881,7 @@ function renderAccTable(years, venues, labels) {
         '<th style="font-size:0.7rem">Sub</th><th style="font-size:0.7rem">Acc</th><th style="font-size:0.7rem">Rate</th>'
     ).join('') + '</tr>';
 
-    tbody.innerHTML = years.map(y => {
+    tbody.innerHTML = [...years].reverse().map(y => {
         const cells = venues.map(v => {
             const d = DATA.acceptance[v] ? DATA.acceptance[v].find(x => x.year === y) : null;
             if (!d) return '<td>-</td><td>-</td><td>-</td>';
