@@ -903,17 +903,24 @@ function renderAccTable(years, venues, labels) {
         });
     });
 
+    const colW = 42;
+    const nameW = 80;
+    const tblW = nameW + revYears.length * colW;
+    const tblStyle = `table-layout:fixed;width:${tblW}px`;
+    const nameStyle = `width:${nameW}px;min-width:${nameW}px`;
+    const colStyle = `width:${colW}px;min-width:${colW}px`;
+
     // Rate heatmap
-    let rh = '<table class="heatmap"><thead><tr><th class="name-col" style="min-width:80px">Venue</th>';
-    revYears.forEach(y => { rh += `<th class="year-col" style="writing-mode:vertical-rl;height:50px;font-size:0.65rem">${y}</th>`; });
+    let rh = `<table class="heatmap" style="${tblStyle}"><thead><tr><th class="name-col" style="${nameStyle}">Venue</th>`;
+    revYears.forEach(y => { rh += `<th class="year-col" style="${colStyle};writing-mode:vertical-rl;height:50px;font-size:0.65rem">${y}</th>`; });
     rh += '</tr></thead><tbody>';
     venues.forEach(v => {
         rh += `<tr><td class="name-cell" style="font-weight:700;color:${colors[v]}">${labels[v]}</td>`;
         revYears.forEach(y => {
             const d = maps[v][y];
-            if (!d) { rh += '<td class="year-cell"></td>'; return; }
+            if (!d) { rh += `<td class="year-cell" style="${colStyle}"></td>`; return; }
             const r = d.acc/d.sub*100;
-            rh += `<td class="year-cell" style="${rateColor(r)};font-size:0.7rem">${r.toFixed(1)}</td>`;
+            rh += `<td class="year-cell" style="${colStyle};${rateColor(r)};font-size:0.7rem">${r.toFixed(1)}</td>`;
         });
         rh += '</tr>';
     });
@@ -921,15 +928,15 @@ function renderAccTable(years, venues, labels) {
     document.getElementById('accRateHeatmap').innerHTML = rh;
 
     // Submission heatmap
-    let sh = '<table class="heatmap"><thead><tr><th class="name-col" style="min-width:80px">Venue</th>';
-    revYears.forEach(y => { sh += `<th class="year-col" style="writing-mode:vertical-rl;height:50px;font-size:0.65rem">${y}</th>`; });
+    let sh = `<table class="heatmap" style="${tblStyle}"><thead><tr><th class="name-col" style="${nameStyle}">Venue</th>`;
+    revYears.forEach(y => { sh += `<th class="year-col" style="${colStyle};writing-mode:vertical-rl;height:50px;font-size:0.65rem">${y}</th>`; });
     sh += '</tr></thead><tbody>';
     venues.forEach(v => {
         sh += `<tr><td class="name-cell" style="font-weight:700;color:${colors[v]}">${labels[v]}</td>`;
         revYears.forEach(y => {
             const d = maps[v][y];
-            if (!d) { sh += '<td class="year-cell"></td>'; return; }
-            sh += `<td class="year-cell" style="${subColor(d.sub, maxSub)};font-size:0.65rem">${d.sub}<br><span style="font-size:0.55rem;opacity:0.7">(${d.acc})</span></td>`;
+            if (!d) { sh += `<td class="year-cell" style="${colStyle}"></td>`; return; }
+            sh += `<td class="year-cell" style="${colStyle};${subColor(d.sub, maxSub)};font-size:0.65rem">${d.sub}<br><span style="font-size:0.55rem;opacity:0.7">(${d.acc})</span></td>`;
         });
         sh += '</tr>';
     });
