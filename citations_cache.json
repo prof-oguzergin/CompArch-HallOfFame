@@ -1,0 +1,4527 @@
+{
+ "ISCA 2024::Assessing processor sustainability using the first-order FOCAL carbon model": {
+  "citations": 1,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/Eeckhout25",
+   "DOI": "10.1109/MM.2025.3576714",
+   "CorpusId": 279198595
+  },
+  "matched_title": "Assessing Processor Sustainability Using the First-Order FOCAL Carbon Model",
+  "score": 250.48332
+ },
+ "ASPLOS 2024::Enabling sustainable cloud computing with low-carbon server design": {
+  "citations": 1,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/WangBKIZCFFWBSBS25",
+   "DOI": "10.1109/MM.2025.3572955",
+   "CorpusId": 278882775
+  },
+  "matched_title": "Enabling Sustainable Cloud Computing With Low-Carbon Server Design",
+  "score": 227.34872
+ },
+ "ASPLOS 2024::Hardware-assisted virtualization of neural processing units for cloud platforms": {
+  "citations": 6,
+  "year": 2024,
+  "ext": {
+   "ArXiv": "2408.04104",
+   "DBLP": "journals/corr/abs-2408-04104",
+   "DOI": "10.1109/MICRO61859.2024.00011",
+   "CorpusId": 271769253
+  },
+  "matched_title": "Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms",
+  "score": 237.47345
+ },
+ "ISCA 2024::Waferscale network switches": {
+  "citations": 8,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/isca/ChenPK24",
+   "DOI": "10.1109/ISCA59077.2024.00025",
+   "CorpusId": 270563876
+  },
+  "matched_title": "Waferscale Network Switches",
+  "score": 110.828415
+ },
+ "MICRO 2024::From TeAAL to FuseMax: Separation of concerns for attention accelerator design": {
+  "citations": 0,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/NayakOWPEF25",
+   "DOI": "10.1109/MM.2025.3589955",
+   "CorpusId": 281507570
+  },
+  "matched_title": "From TeAAL to FuseMax: Separation of Concerns for Attention Accelerator Design",
+  "score": 291.7212
+ },
+ "ISCA 2024::Splitwise: Efficient generative LLM inference using phase splitting": {
+  "citations": 562,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/corr/abs-2311-18677",
+   "ArXiv": "2311.18677",
+   "DOI": "10.1109/ISCA59077.2024.00019",
+   "CorpusId": 265506047
+  },
+  "matched_title": "Splitwise: Efficient Generative LLM Inference Using Phase Splitting",
+  "score": 272.65726
+ },
+ "ASPLOS 2024::Automated high-level code optimization for warehouse performance": {
+  "citations": 2,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/ShypulaMZAGHNRBY25",
+   "DOI": "10.1109/MM.2025.3590033",
+   "CorpusId": 281506741
+  },
+  "matched_title": "Automated High-Level Code Optimization for Warehouse Performance",
+  "score": 223.01459
+ },
+ "ISCA 2024::Scalar vector runahead: Removing the shackles of indirect memory chains on in-or": {
+  "citations": 0,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/RoelandtsNAJE25",
+   "DOI": "10.1109/MM.2025.3577524",
+   "CorpusId": 281508567
+  },
+  "matched_title": "Scalar Vector Runahead: Removing the Shackles of Indirect Memory Chains on In-Order Cores",
+  "score": 329.42566
+ },
+ "ISCA 2024::BlitzCoin: A decentralized hardware solution for power management of highly hete": {
+  "citations": 0,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/CochetSLZSGBJBWSCB25",
+   "DOI": "10.1109/MM.2025.3574281",
+   "CorpusId": 279035649
+  },
+  "matched_title": "BlitzCoin: A Decentralized Hardware Solution for Power Management of Highly Heterogeneous Systems on Chip",
+  "score": 274.2214
+ },
+ "ISCA 2024::Delay-space arithmetic and architecture": {
+  "citations": 0,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/GretschSMLS25",
+   "DOI": "10.1109/MM.2025.3588787",
+   "CorpusId": 281506784
+  },
+  "matched_title": "Delay-Space Arithmetic and Architecture",
+  "score": 160.37294
+ },
+ "HPCA 2024::From colocation to exfiltration: Practical cache side-channel attacks in the mod": {
+  "citations": 0,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/micro/ZhaoMFT25",
+   "DOI": "10.1109/MM.2025.3574715",
+   "CorpusId": 279033118
+  },
+  "matched_title": "From Colocation to Exfiltration: Practical Cache Side-Channel Attacks in the Modern Public Cloud",
+  "score": 317.12466
+ },
+ "ISCA 2024::MAD Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration o": {
+  "citations": 18,
+  "year": 2023,
+  "ext": {
+   "ArXiv": "2310.02784",
+   "DBLP": "journals/corr/abs-2310-02784",
+   "DOI": "10.1109/ISCA59077.2024.00064",
+   "CorpusId": 263622052
+  },
+  "matched_title": "MAD-Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems",
+  "score": 315.4732
+ },
+ "USENIX Security 2024::Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indire": {
+  "citations": 16,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/uss/LiYT24",
+   "CorpusId": 270823153
+  },
+  "matched_title": "Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor",
+  "score": 298.60504
+ },
+ "MICRO 2024::Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design": {
+  "citations": 17,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/micro/SamardzicLD024",
+   "DOI": "10.1109/MICRO61859.2024.00035",
+   "CorpusId": 273145545
+  },
+  "matched_title": "Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design",
+  "score": 265.80832
+ },
+ "ISCA 2024::Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tens": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "ISCA 2024::Native DRAM Cache: Re-Architecting DRAM as a Large-Scale Cache for Data Centers": {
+  "citations": 4,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/isca/RyuKJAK24",
+   "DOI": "10.1109/ISCA59077.2024.00086",
+   "CorpusId": 271646347
+  },
+  "matched_title": "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers",
+  "score": 311.34824
+ },
+ "HPCA 2024::uPIMulator: A Fast and Flexible Simulation Framework for General Purpose PIM Arc": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "ASPLOS 2024::Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs": {
+  "citations": 6,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/asplos/0001M024",
+   "DOI": "10.1145/3620665.3640364",
+   "CorpusId": 269304568
+  },
+  "matched_title": "Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs",
+  "score": 283.056
+ },
+ "MICRO 2024::DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults": {
+  "citations": 8,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/micro/DeutschUGSE024",
+   "DOI": "10.1109/MICRO61859.2024.00026",
+   "CorpusId": 273289206
+  },
+  "matched_title": "DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults",
+  "score": 255.30624
+ },
+ "MICRO 2024::A Case for Speculative Address Translation With Rapid Validation for GPUs": {
+  "citations": 10,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/micro/ParkKLKBYNH24",
+   "DOI": "10.1109/MICRO61859.2024.00029",
+   "CorpusId": 274467182
+  },
+  "matched_title": "A Case for Speculative Address Translation with Rapid Validation for GPUs",
+  "score": 245.89767
+ },
+ "ASPLOS 2024::Tandem Processor: Grappling With Emerging Operators in Neural Networks": {
+  "citations": 29,
+  "year": 2024,
+  "ext": {
+   "DBLP": "conf/asplos/GhodratiKXMKAWK24",
+   "DOI": "10.1145/3620665.3640365",
+   "CorpusId": 269324310
+  },
+  "matched_title": "Tandem Processor: Grappling with Emerging Operators in Neural Networks",
+  "score": 223.84796
+ },
+ "ASPLOS 2024::SpotServe: Serving Generative Large Language Models on Preemptible Instances": {
+  "citations": 119,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/corr/abs-2311-15566",
+   "ArXiv": "2311.15566",
+   "DOI": "10.1145/3620665.3640411",
+   "CorpusId": 265456256
+  },
+  "matched_title": "SpotServe: Serving Generative Large Language Models on Preemptible Instances",
+  "score": 247.9747
+ },
+ "MICRO 2024::MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker": {
+  "citations": 25,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/corr/abs-2407-16038",
+   "ArXiv": "2407.16038",
+   "DOI": "10.1109/MICRO61859.2024.00071",
+   "CorpusId": 271334515
+  },
+  "matched_title": "MINT: Securely Mitigating Rowhammer with a Minimalist in-DRAM Tracker",
+  "score": 305.79517
+ },
+ "MICRO 2003::Checkpoint Processing and Recovery: An Efficient, Scalable Alternative to Reorde": {
+  "citations": 19,
+  "year": 2003,
+  "ext": {
+   "DBLP": "journals/micro/AkkaryRS03",
+   "MAG": "2103993233",
+   "DOI": "10.1109/MM.2003.1261382",
+   "CorpusId": 8908842
+  },
+  "matched_title": "Checkpoint Processing and Recovery: An Efficient, Scalable Alternative to Reorder Buffers",
+  "score": 275.5331
+ },
+ "MICRO 2003::Runahead Execution: An Effective Alternative to Large Instruction Windows": {
+  "citations": 107,
+  "year": 2001,
+  "ext": {
+   "CorpusId": 685985
+  },
+  "matched_title": "RUNAHEAD EXECUTION : AN EFFECTIVE ALTERNATIVE TO LARGE INSTRUCTION WINDOWS",
+  "score": 238.32799
+ },
+ "ASPLOS 2002::The Jrpm System for Dynamically Parallelizing Sequential Java Programs": {
+  "citations": 3,
+  "year": 2001,
+  "ext": {
+   "CorpusId": 5774954
+  },
+  "matched_title": "THE JRPM SYSTEM FOR DYNAMICALLY PARALLELIZING SEQUENTIAL JAVA PROGRAMS",
+  "score": 252.91042
+ },
+ "ISCA 2003::Scalable Vector Processors for Embedded Systems": {
+  "citations": 93,
+  "year": 2003,
+  "ext": {
+   "DBLP": "journals/micro/KozyrakisP03",
+   "MAG": "2040073568",
+   "DOI": "10.1109/MM.2003.1261385",
+   "CorpusId": 206472143
+  },
+  "matched_title": "Scalable Vector Processors for Embedded Systems",
+  "score": 154.1068
+ },
+ "ISCA 2003::Exploiting ILP, TLP, and DLP with the Polymorphous TRIPS Architecture": {
+  "citations": 218,
+  "year": 2003,
+  "ext": {
+   "MAG": "2044831861",
+   "DBLP": "journals/micro/SankaralingamNLKHBKM03",
+   "DOI": "10.1145/859618.859667",
+   "CorpusId": 269503413
+  },
+  "matched_title": "Exploiting ILP, TLP, and DLP with the polymorphous TRIPS architecture",
+  "score": 303.38684
+ },
+ "ISCA 2003::Temperature-Aware Computer Systems: Opportunities and Challenges": {
+  "citations": 133,
+  "year": 2003,
+  "ext": {
+   "MAG": "2062554267",
+   "DBLP": "journals/micro/SkadronSHVST03",
+   "DOI": "10.1109/MM.2003.1261387",
+   "CorpusId": 14960999
+  },
+  "matched_title": "Temperature-Aware Computer Systems: Opportunities and Challenges",
+  "score": 185.60773
+ },
+ "MICRO 2003::Dynamic Frequency and Voltage Scaling for a Multiple-Clock-Domain Microprocessor": {
+  "citations": 112,
+  "year": 2003,
+  "ext": {
+   "DBLP": "journals/micro/MagklisSADDS03",
+   "MAG": "2097653958",
+   "DOI": "10.1109/MM.2003.1261388",
+   "CorpusId": 206472169
+  },
+  "matched_title": "Dynamic Frequency and Voltage Scaling for a Multiple-Clock-Domain Microprocessor",
+  "score": 245.04956
+ },
+ "MICRO 2003::Measuring Architectural Vulnerability Factors": {
+  "citations": 91,
+  "year": 2003,
+  "ext": {
+   "DBLP": "journals/micro/MukherjeeWERA03",
+   "MAG": "2047171058",
+   "DOI": "10.1109/MM.2003.1261389",
+   "CorpusId": 206472178
+  },
+  "matched_title": "Measuring Architectural Vulnerability Factors",
+  "score": 141.99779
+ },
+ "MICRO 2003::Transient-Fault Recovery for Chip Multiprocessors": {
+  "citations": 371,
+  "year": 2003,
+  "ext": {
+   "DBLP": "conf/isca/GomaaSPV03",
+   "MAG": "2086551977",
+   "DOI": "10.1109/ISCA.2003.1206992",
+   "CorpusId": 6246704
+  },
+  "matched_title": "Transient-fault recovery for chip multiprocessors",
+  "score": 178.3583
+ },
+ "ASPLOS 2002::Discovering and Exploiting Program Phases": {
+  "citations": 288,
+  "year": 2003,
+  "ext": {
+   "DBLP": "journals/micro/SherwoodPHSC03",
+   "MAG": "1986465830",
+   "DOI": "10.1109/MM.2003.1261391",
+   "CorpusId": 206472189
+  },
+  "matched_title": "Discovering and Exploiting Program Phases",
+  "score": 154.5096
+ },
+ "ISCA 2003::Addressing Workload Variability in Architectural Simulations": {
+  "citations": 23,
+  "year": 2003,
+  "ext": {
+   "MAG": "2100741508",
+   "DBLP": "journals/micro/AlameldeenW03",
+   "DOI": "10.1109/MM.2003.1261392",
+   "CorpusId": 206472202
+  },
+  "matched_title": "Addressing Workload Variability in Architectural Simulations",
+  "score": 191.18869
+ },
+ "ISCA 2003::Nonuniform Cache Architectures for Wire-Delay Dominated On-Chip Caches": {
+  "citations": 111,
+  "year": 2003,
+  "ext": {
+   "DBLP": "journals/micro/KimBK03",
+   "MAG": "2077192574",
+   "DOI": "10.1109/MM.2003.1261393",
+   "CorpusId": 206472213
+  },
+  "matched_title": "Nonuniform Cache Architectures for Wire-Delay Dominated On-Chip Caches",
+  "score": 287.5677
+ },
+ "ISCA 2003::Token Coherence: A New Framework for Shared-Memory Multiprocessors": {
+  "citations": 36,
+  "year": 2003,
+  "ext": {
+   "MAG": "1966887456",
+   "DBLP": "journals/micro/MartinHW03",
+   "DOI": "10.1109/MM.2003.1261394",
+   "CorpusId": 8602225
+  },
+  "matched_title": "Token Coherence: A New Framework for Shared-Memory Multiprocessors",
+  "score": 209.6079
+ },
+ "ISCA 2003::Transactional Execution: Toward Reliable, High-Performance Multithreading": {
+  "citations": 37,
+  "year": 2003,
+  "ext": {
+   "MAG": "2168291305",
+   "DBLP": "journals/micro/RajwarG03",
+   "DOI": "10.1109/MM.2003.1261395",
+   "CorpusId": 6697457
+  },
+  "matched_title": "Transactional Execution: Toward Reliable, High-Performance Multithreading",
+  "score": 238.15173
+ },
+ "ASPLOS 2002::Speculative Synchronization: Programmability and Performance for Parallel Codes": {
+  "citations": 11,
+  "year": 2003,
+  "ext": {
+   "MAG": "1977963994",
+   "DBLP": "journals/micro/MartinezT03",
+   "DOI": "10.1109/MM.2003.1261396",
+   "CorpusId": 18490556
+  },
+  "matched_title": "Speculative Synchronization: Programmability and Performance for Parallel Codes",
+  "score": 202.8152
+ },
+ "MICRO 2004::Razor: Circuit-Level Correction of Timing Errors for Low-Power Operation": {
+  "citations": 297,
+  "year": 2011,
+  "ext": {
+   "CorpusId": 14935960
+  },
+  "matched_title": "RAZOR: circuit-level correction of timing errors for low-power operation",
+  "score": 268.13907
+ },
+ "ASPLOS 2004::Fingerprinting: Bounding Soft-Error-Detection Latency and Bandwidth": {
+  "citations": 197,
+  "year": 2004,
+  "ext": {
+   "DBLP": "journals/micro/SmolensGKFHN04",
+   "MAG": "2129673456",
+   "DOI": "10.1145/1024393.1024420",
+   "CorpusId": 230730
+  },
+  "matched_title": "Fingerprinting: bounding soft-error detection latency and bandwidth",
+  "score": 258.33063
+ },
+ "ISCA 2004::Reducing the Soft-Error Rate of a High-Performance Microprocessor": {
+  "citations": 30,
+  "year": 2004,
+  "ext": {
+   "CorpusId": 11355318
+  },
+  "matched_title": "Reducing the soft-error rate of a high-performance microprocessor",
+  "score": 187.62369
+ },
+ "ASPLOS 2004::Performance-Directed Energy Management for Storage Systems": {
+  "citations": 5,
+  "year": 2004,
+  "ext": {
+   "CorpusId": 14889690
+  },
+  "matched_title": "Performance-directed energy management for storage systems",
+  "score": 161.08873
+ },
+ "ASPLOS 2004::iWatcher: Simple, General Architectural Support for Software Debugging": {
+  "citations": 21,
+  "year": 2004,
+  "ext": {
+   "DBLP": "journals/micro/ZhouQLZT04",
+   "MAG": "2019463941",
+   "DOI": "10.1109/MM.2004.79",
+   "CorpusId": 2077924
+  },
+  "matched_title": "iWatcher: simple, general architectural support for software debugging",
+  "score": 253.9235
+ },
+ "ISCA 2004::Interaction Cost: For When Event Counts Just Don't Add Up": {
+  "citations": 4,
+  "year": 2004,
+  "ext": {
+   "DBLP": "journals/micro/FieldsBHN04",
+   "MAG": "2169955069",
+   "DOI": "10.1109/MM.2004.78",
+   "CorpusId": 2301941
+  },
+  "matched_title": "Interaction cost: for when event counts just don't add up",
+  "score": 295.63495
+ },
+ "MICRO 2004::Continual Flow Pipelines: Achieving Resource-Efficient Latency Tolerance": {
+  "citations": 29,
+  "year": 2004,
+  "ext": {
+   "MAG": "2061894527",
+   "DBLP": "journals/micro/SrinivasanRAGU04",
+   "DOI": "10.1109/MM.2004.71",
+   "CorpusId": 15217251
+  },
+  "matched_title": "Continual flow pipelines: achieving resource-efficient latency tolerance",
+  "score": 281.4231
+ },
+ "ISCA 2004::The Vector-Thread Architecture": {
+  "citations": 202,
+  "year": 2004,
+  "ext": {
+   "DBLP": "conf/isca/KrashinskyBHGPCA04",
+   "MAG": "2012252449",
+   "DOI": "10.1109/MM.2004.90",
+   "CorpusId": 946510
+  },
+  "matched_title": "The vector-thread architecture",
+  "score": 130.16402
+ },
+ "ASPLOS 2004::Transactional Coherence and Consistency: Simplifying Parallel Hardware and Softw": {
+  "citations": 73,
+  "year": 2004,
+  "ext": {
+   "DBLP": "journals/micro/HammondCWCKO04",
+   "MAG": "1969885689",
+   "DOI": "10.1109/MM.2004.91",
+   "CorpusId": 1791437
+  },
+  "matched_title": "Transactional coherence and consistency: simplifying parallel hardware and software",
+  "score": 256.90787
+ },
+ "MICRO 2004::Speculative Incoherent Cache Protocols": {
+  "citations": 5,
+  "year": 2004,
+  "ext": {
+   "CorpusId": 17161223
+  },
+  "matched_title": "Speculative incoherent cache protocols",
+  "score": 163.01569
+ },
+ "ISCA 2004::Memory Ordering: A Value-Based Approach": {
+  "citations": 97,
+  "year": 2004,
+  "ext": {
+   "MAG": "2028292906",
+   "DBLP": "journals/micro/CainL04",
+   "DOI": "10.1109/MM.2004.81",
+   "CorpusId": 5392461
+  },
+  "matched_title": "Memory ordering: a value-based approach",
+  "score": 146.50812
+ },
+ "ISCA 2004::Scalable Hardware Memory Disambiguation for High-ILP Processors": {
+  "citations": 156,
+  "year": 2003,
+  "ext": {
+   "MAG": "2135742449",
+   "DBLP": "journals/micro/SethumadhavanDBMK04",
+   "DOI": "10.1109/MM.2004.87",
+   "CorpusId": 5322584
+  },
+  "matched_title": "Scalable hardware memory disambiguation for high-ILP processors",
+  "score": 260.2254
+ },
+ "ISCA 2005::Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance": {
+  "citations": 74,
+  "year": 2006,
+  "ext": {
+   "MAG": "2066503894",
+   "DBLP": "journals/micro/MutluKP06",
+   "DOI": "10.1109/MM.2006.10",
+   "CorpusId": 2673557
+  },
+  "matched_title": "Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance",
+  "score": 293.36823
+ },
+ "ISCA 2005::Adaptive History-Based Memory Schedulers for Modern Processors": {
+  "citations": 30,
+  "year": 2006,
+  "ext": {
+   "CorpusId": 14900153
+  },
+  "matched_title": "Adaptive History-Based Memory Schedulers for Modern Processors",
+  "score": 233.91107
+ },
+ "MICRO 2005::Scalable Load and Store Processing in Latency-Tolerant Processors": {
+  "citations": 51,
+  "year": 2005,
+  "ext": {
+   "DBLP": "conf/isca/GandhiARSL05",
+   "MAG": "2145148711",
+   "DOI": "10.1109/ISCA.2005.46",
+   "CorpusId": 124250
+  },
+  "matched_title": "Scalable Load and Store Processing in Latency-Tolerant Processors",
+  "score": 233.98825
+ },
+ "ISCA 2005::Tolerating Cache-Miss Latency with Multipass Pipelines": {
+  "citations": 4,
+  "year": 2006,
+  "ext": {
+   "MAG": "2119764734",
+   "DBLP": "journals/micro/BarnesRH06",
+   "DOI": "10.1109/MM.2006.25",
+   "CorpusId": 206472512
+  },
+  "matched_title": "Tolerating Cache-Miss Latency with Multipass Pipelines",
+  "score": 244.46466
+ },
+ "MICRO 2005::Wish Branches: Enabling Adaptive and Aggressive Predicated Execution": {
+  "citations": 10,
+  "year": 2006,
+  "ext": {
+   "DBLP": "journals/micro/KimMPS06",
+   "MAG": "2078584104",
+   "DOI": "10.1109/MM.2006.27",
+   "CorpusId": 6838785
+  },
+  "matched_title": "Wish Branches: Enabling Adaptive and Aggressive Predicated Execution",
+  "score": 278.81177
+ },
+ "ISCA 2005::Unbounded Transactional Memory": {
+  "citations": 553,
+  "year": 2005,
+  "ext": {
+   "MAG": "2032204694",
+   "DBLP": "journals/micro/AnanianAKLL06",
+   "DOI": "10.1109/MM.2006.26",
+   "CorpusId": 446559
+  },
+  "matched_title": "Unbounded transactional memory",
+  "score": 109.18563
+ },
+ "ISCA 2005::Coarse-Grain Coherence Tracking: RegionScout and Region Coherence Arrays": {
+  "citations": 46,
+  "year": 2006,
+  "ext": {
+   "DBLP": "journals/micro/CantinSLMF06",
+   "MAG": "2023972921",
+   "DOI": "10.1109/MM.2006.8",
+   "CorpusId": 5667362
+  },
+  "matched_title": "Coarse-Grain Coherence Tracking: RegionScout and Region Coherence Arrays",
+  "score": 286.93808
+ },
+ "MICRO 2005::Energy-Efficient Thread-Level Speculation": {
+  "citations": 24,
+  "year": 2006,
+  "ext": {
+   "CorpusId": 206472480
+  },
+  "matched_title": "Energy-Efficient Thread-Level Speculation",
+  "score": 178.53857
+ },
+ "MICRO 2005::Opportunistic Transient-Fault Detection": {
+  "citations": 129,
+  "year": 2005,
+  "ext": {
+   "DBLP": "conf/isca/GomaaV05",
+   "MAG": "2118629573",
+   "DOI": "10.1109/ISCA.2005.38",
+   "CorpusId": 7050976
+  },
+  "matched_title": "Opportunistic transient-fault detection",
+  "score": 135.57346
+ },
+ "ASPLOS 2005::BugNet: Recording Application-Level Execution for Deterministic Replay Debugging": {
+  "citations": 26,
+  "year": 2006,
+  "ext": {
+   "MAG": "2071486761",
+   "DBLP": "journals/micro/NarayanasamyPC06",
+   "DOI": "10.1109/MM.2006.7",
+   "CorpusId": 223057
+  },
+  "matched_title": "BugNet: Recording Application-Level Execution for Deterministic Replay Debugging",
+  "score": 279.3982
+ },
+ "ISCA 2005::Architectures for Bit-Split String Scanning in Intrusion Detection": {
+  "citations": 51,
+  "year": 2006,
+  "ext": {
+   "MAG": "2086923710",
+   "DBLP": "journals/micro/TanS06",
+   "DOI": "10.1109/MM.2006.5",
+   "CorpusId": 233491
+  },
+  "matched_title": "Architectures for Bit-Split String Scanning in Intrusion Detection",
+  "score": 237.00476
+ },
+ "ASPLOS 2005::Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance": {
+  "citations": 44,
+  "year": 2006,
+  "ext": {
+   "DBLP": "journals/micro/WuMCRCWLB06",
+   "MAG": "2017472544",
+   "DOI": "10.1109/MM.2006.9",
+   "CorpusId": 13225508
+  },
+  "matched_title": "Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance",
+  "score": 223.61021
+ },
+ "MICRO 2005::Temperature-Aware On-Chip Networks": {
+  "citations": 44,
+  "year": 2006,
+  "ext": {
+   "CorpusId": 3116704
+  },
+  "matched_title": "Temperature-Aware On-Chip Networks",
+  "score": 141.0368
+ },
+ "MICRO 2006::Patching Processor Design Errors with Programmable Hardware": {
+  "citations": 54,
+  "year": 2007,
+  "ext": {
+   "MAG": "2119913792",
+   "DBLP": "journals/micro/SarangiNCTCT07",
+   "DOI": "10.1109/MM.2007.19",
+   "CorpusId": 1841272
+  },
+  "matched_title": "Patching Processor Design Errors with Programmable Hardware",
+  "score": 200.62834
+ },
+ "ASPLOS 2006::AVIO: Detecting Atomicity Violations via Access-Interleaving Invariants": {
+  "citations": 461,
+  "year": 2006,
+  "ext": {
+   "DBLP": "conf/asplos/LuTQZ06",
+   "MAG": "2153229512",
+   "DOI": "10.1145/1168857.1168864",
+   "CorpusId": 2797202
+  },
+  "matched_title": "AVIO: detecting atomicity violations via access interleaving invariants",
+  "score": 303.63263
+ },
+ "ASPLOS 2006::Automatic Instruction-Level Software-Only Recovery": {
+  "citations": 202,
+  "year": 2006,
+  "ext": {
+   "MAG": "2116613705",
+   "DBLP": "conf/dsn/ChangRA06",
+   "DOI": "10.1109/DSN.2006.15",
+   "CorpusId": 8516789
+  },
+  "matched_title": "Automatic Instruction-Level Software-Only Recovery",
+  "score": 222.75304
+ },
+ "ISCA 2006::A Hardware Memory Race Recorder for Deterministic Replay": {
+  "citations": 8,
+  "year": 2007,
+  "ext": {
+   "MAG": "2101058763",
+   "DBLP": "journals/micro/XuBH07",
+   "DOI": "10.1109/MM.2007.2",
+   "CorpusId": 6266080
+  },
+  "matched_title": "A Hardware Memory Race Recorder for Deterministic Replay",
+  "score": 263.3593
+ },
+ "ISCA 2006::On-Chip Optical Technology in Future Bus-Based Multicore Designs": {
+  "citations": 50,
+  "year": 2007,
+  "ext": {
+   "MAG": "1981432979",
+   "DBLP": "journals/micro/KirmanKDMAWA07",
+   "DOI": "10.1109/MM.2007.18",
+   "CorpusId": 27633779
+  },
+  "matched_title": "On-Chip Optical Technology in Future Bus-Based Multicore Designs",
+  "score": 257.38022
+ },
+ "ISCA 2006::Transactional Memory: The Hardware-Software Interface": {
+  "citations": 22,
+  "year": 2007,
+  "ext": {
+   "CorpusId": 11902622
+  },
+  "matched_title": "Transactional Memory: The Hardware-Software Interface",
+  "score": 174.89706
+ },
+ "ISCA 2006::3D Integration for Introspection": {
+  "citations": 4,
+  "year": 2007,
+  "ext": {
+   "MAG": "1972320813",
+   "DBLP": "journals/micro/MysoreASLBS07",
+   "DOI": "10.1109/MM.2007.1",
+   "CorpusId": 6177155
+  },
+  "matched_title": "3D Integration for Introspection",
+  "score": 111.65277
+ },
+ "ISCA 2006::A Top-Down Approach to Architecting CPI Component Performance Counters": {
+  "citations": 28,
+  "year": 2007,
+  "ext": {
+   "DBLP": "journals/micro/EyermanEKS07",
+   "MAG": "2025922761",
+   "DOI": "10.1109/MM.2007.3",
+   "CorpusId": 8198557
+  },
+  "matched_title": "A Top-Down Approach to Architecting CPI Component Performance Counters",
+  "score": 265.73193
+ },
+ "MICRO 2006::Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication": {
+  "citations": 5,
+  "year": 2007,
+  "ext": {
+   "CorpusId": 206472649
+  },
+  "matched_title": "Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication",
+  "score": 248.10098
+ },
+ "MICRO 2006::NoSQ: Store-Load Communication without a Store Queue": {
+  "citations": 70,
+  "year": 2006,
+  "ext": {
+   "DBLP": "conf/micro/ShaMR06",
+   "MAG": "2145483435",
+   "DOI": "10.1109/MICRO.2006.39",
+   "CorpusId": 7177876
+  },
+  "matched_title": "NoSQ: Store-Load Communication without a Store Queue",
+  "score": 284.71924
+ },
+ "MICRO 2006::SODA: A High-Performance DSP Architecture for Software-Defined Radio": {
+  "citations": 91,
+  "year": 2007,
+  "ext": {
+   "DBLP": "journals/micro/LinLWHMMCF07",
+   "MAG": "2034971312",
+   "DOI": "10.1109/MM.2007.22",
+   "CorpusId": 12376349
+  },
+  "matched_title": "SODA: A High-Performance DSP Architecture for Software-Defined Radio",
+  "score": 232.14798
+ },
+ "ASPLOS 2008::Revisiting the Sequential Programming Model for the Multicore Era": {
+  "citations": 56,
+  "year": 2008,
+  "ext": {
+   "DBLP": "journals/micro/BridgesVZJA08",
+   "MAG": "2056702832",
+   "DOI": "10.1109/MM.2008.13",
+   "CorpusId": 10909724
+  },
+  "matched_title": "Revisiting the Sequential Programming Model for the Multicore Era",
+  "score": 209.49332
+ },
+ "MICRO 2007::Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation": {
+  "citations": 4,
+  "year": 2008,
+  "ext": {
+   "MAG": "2051875751",
+   "DBLP": "journals/micro/NeelakantamRSSZ08",
+   "DOI": "10.1109/MM.2008.7",
+   "CorpusId": 35798360
+  },
+  "matched_title": "Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation",
+  "score": 251.82541
+ },
+ "MICRO 2007::MetaTM/TxLinux: Transactional Memory for an Operating System": {
+  "citations": 215,
+  "year": 2007,
+  "ext": {
+   "DBLP": "conf/isca/RamadanRPHBW07",
+   "MAG": "2112143545",
+   "DOI": "10.1145/1250662.1250675",
+   "CorpusId": 2467804
+  },
+  "matched_title": "MetaTM/TxLinux: Transactional Memory for an Operating System",
+  "score": 213.26396
+ },
+ "MICRO 2007::Argus: Low-Cost, Comprehensive Error Detection in Simple Cores": {
+  "citations": 253,
+  "year": 2007,
+  "ext": {
+   "MAG": "2128941141",
+   "DBLP": "conf/micro/MeixnerBS07",
+   "DOI": "10.1109/MICRO.2007.8",
+   "CorpusId": 15742268
+  },
+  "matched_title": "Argus: Low-Cost, Comprehensive Error Detection in Simple Cores",
+  "score": 236.0784
+ },
+ "ISCA 2007::Replacing 6T SRAMs with 3T1D DRAMs in the L1 Data Cache to Combat Process Variab": {
+  "citations": 45,
+  "year": 2008,
+  "ext": {
+   "DBLP": "journals/micro/LiangCWB08",
+   "MAG": "1966565831",
+   "DOI": "10.1109/MM.2008.12",
+   "CorpusId": 206472663
+  },
+  "matched_title": "Replacing 6T SRAMs with 3T1D DRAMs in the L1 Data Cache to Combat Process Variability",
+  "score": 352.8338
+ },
+ "ISCA 2007::Architecting Efficient Interconnects for Large Caches with CACTI 6.0": {
+  "citations": 91,
+  "year": 2008,
+  "ext": {
+   "DBLP": "journals/micro/MuralimanoharBJ08",
+   "MAG": "2072730350",
+   "DOI": "10.1109/MM.2008.2",
+   "CorpusId": 8272611
+  },
+  "matched_title": "Architecting Efficient Interconnects for Large Caches with CACTI 6.0",
+  "score": 268.82715
+ },
+ "MICRO 2007::Toward Ideal On-Chip Communication Using Express Virtual Channels": {
+  "citations": 96,
+  "year": 2008,
+  "ext": {
+   "MAG": "2056620549",
+   "DBLP": "journals/micro/KumarPKJ08",
+   "DOI": "10.1109/MM.2008.18",
+   "CorpusId": 206472673
+  },
+  "matched_title": "Toward Ideal On-Chip Communication Using Express Virtual Channels",
+  "score": 248.49518
+ },
+ "ISCA 2007::Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching": {
+  "citations": 40,
+  "year": 2008,
+  "ext": {
+   "MAG": "2159222581",
+   "DBLP": "journals/micro/QureshiJPSE08",
+   "DOI": "10.1109/MM.2008.14",
+   "CorpusId": 7839554
+  },
+  "matched_title": "Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching",
+  "score": 245.49666
+ },
+ "ISCA 2007::Virtual Hierarchies": {
+  "citations": 10,
+  "year": 2014,
+  "ext": {
+   "MAG": "2012431398",
+   "DBLP": "conf/sigmod/DyresonBG14",
+   "DOI": "10.1145/2588555.2610506",
+   "CorpusId": 5001968
+  },
+  "matched_title": "Querying virtual hierarchies using virtual prefix-based numbers",
+  "score": 64.97534
+ },
+ "SIGGRAPH 2008::Larrabee: A Many-Core x86 Architecture for Visual Computing": {
+  "citations": 878,
+  "year": 2008,
+  "ext": {
+   "MAG": "2169150396",
+   "DBLP": "journals/tog/SeilerCSFADJLSCEGJH08",
+   "DOI": "10.1145/1399504.1360617",
+   "CorpusId": 2288064
+  },
+  "matched_title": "Larrabee: a many-core x86 architecture for visual computing",
+  "score": 254.42252
+ },
+ "ISCA 2008::Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Me": {
+  "citations": 38,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/MutluM09",
+   "MAG": "2542159098",
+   "DOI": "10.1109/MM.2009.12",
+   "CorpusId": 8762073
+  },
+  "matched_title": "Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Memory Controllers",
+  "score": 279.3296
+ },
+ "ISCA 2008::Cost-Efficient Dragonfly Topology for Large-Scale Systems": {
+  "citations": 74,
+  "year": 2009,
+  "ext": {
+   "MAG": "1971490020",
+   "DBLP": "journals/micro/KimDSA09",
+   "DOI": "10.1109/MM.2009.5",
+   "CorpusId": 14424512
+  },
+  "matched_title": "Cost-efficient dragonfly topology for large-scale systems",
+  "score": 222.24698
+ },
+ "ISCA 2008::Server Designs for Warehouse-Computing Environments": {
+  "citations": 8,
+  "year": 2009,
+  "ext": {
+   "MAG": "1998379174",
+   "DBLP": "journals/micro/LimRCPMR09",
+   "DOI": "10.1109/MM.2009.14",
+   "CorpusId": 14513326
+  },
+  "matched_title": "Server Designs for Warehouse-Computing Environments",
+  "score": 192.65958
+ },
+ "ISCA 2008::Using Intradisk Parallelism to Build Energy-Efficient Storage Systems": {
+  "citations": 10,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/GurumurthiSS09",
+   "MAG": "2144159141",
+   "DOI": "10.1109/MM.2009.21",
+   "CorpusId": 206472756
+  },
+  "matched_title": "Using Intradisk Parallelism to Build Energy-Efficient Storage Systems",
+  "score": 246.8011
+ },
+ "ASPLOS 2008::Flexible Hardware Acceleration for Instruction-Grain Lifeguards": {
+  "citations": 16,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/ChenKGRSMRVFR09",
+   "MAG": "2027354643",
+   "DOI": "10.1109/MM.2009.6",
+   "CorpusId": 11882550
+  },
+  "matched_title": "Flexible Hardware Acceleration for Instruction-Grain Lifeguards",
+  "score": 230.40077
+ },
+ "ASPLOS 2008::Atom-Aid: Detecting and Surviving Atomicity Violations": {
+  "citations": 156,
+  "year": 2008,
+  "ext": {
+   "MAG": "2160983664",
+   "DBLP": "journals/micro/LuciaDCS09",
+   "DOI": "10.1145/1394608.1382145",
+   "CorpusId": 9597565
+  },
+  "matched_title": "Atom-Aid: Detecting and Surviving Atomicity Violations",
+  "score": 231.8673
+ },
+ "ASPLOS 2008::SoftSig: Software-Exposed Hardware Signatures for Code Analysis and Optimization": {
+  "citations": 32,
+  "year": 2008,
+  "ext": {
+   "MAG": "2105138864",
+   "DBLP": "conf/asplos/TuckACT08",
+   "DOI": "10.1145/1346281.1346300",
+   "CorpusId": 13411454
+  },
+  "matched_title": "SoftSig: Software-Exposed Hardware Signatures for Code Analysis and Optimization",
+  "score": 254.30853
+ },
+ "ISCA 2008::Trading Off Cache Capacity for Low-Voltage Operation": {
+  "citations": 11,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/WilkersonGACKL09",
+   "MAG": "2163234350",
+   "DOI": "10.1109/MM.2009.20",
+   "CorpusId": 29660499
+  },
+  "matched_title": "Trading Off Cache Capacity for Low-Voltage Operation",
+  "score": 219.1051
+ },
+ "MICRO 2008::Mixed-Signal Approximate Computation: A Neural Predictor Case Study": {
+  "citations": 14,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/AmantJB09",
+   "MAG": "2062664368",
+   "DOI": "10.1109/MM.2009.10",
+   "CorpusId": 13944118
+  },
+  "matched_title": "Mixed-Signal Approximate Computation: A Neural Predictor Case Study",
+  "score": 222.46454
+ },
+ "ISCA 2008::Temperature Variation Characterization and Thermal Management of Multicore Archi": {
+  "citations": 55,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/KursunC09",
+   "MAG": "1980622359",
+   "DOI": "10.1109/MM.2009.18",
+   "CorpusId": 7091872
+  },
+  "matched_title": "Temperature Variation Characterization and Thermal Management of Multicore Architectures",
+  "score": 197.31815
+ },
+ "ISCA 2008::Revival: A Variation-Tolerant Architecture Using Voltage Interpolation and Varia": {
+  "citations": 105,
+  "year": 2008,
+  "ext": {
+   "DBLP": "conf/isca/LiangWB08",
+   "MAG": "2127036509",
+   "DOI": "10.1145/1394608.1382138",
+   "CorpusId": 2409533
+  },
+  "matched_title": "ReVIVaL: A Variation-Tolerant Architecture Using Voltage Interpolation and Variable Latency",
+  "score": 292.52115
+ },
+ "ISCA 2009::iCFP: Tolerating All-Level Cache Misses in In-Order Processors": {
+  "citations": 53,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/HiltonNR10",
+   "MAG": "2153022014",
+   "DOI": "10.1109/MM.2010.20",
+   "CorpusId": 7776883
+  },
+  "matched_title": "iCFP: Tolerating all-level cache misses in in-order processors",
+  "score": 269.31186
+ },
+ "ISCA 2009::Near-Optimal Cache Block Placement with Reactive Nonuniform Cache Architectures": {
+  "citations": 22,
+  "year": 2010,
+  "ext": {
+   "DBLP": "journals/micro/HardavellasFFA10",
+   "MAG": "2158781267",
+   "DOI": "10.1109/MM.2010.22",
+   "CorpusId": 260686210
+  },
+  "matched_title": "Near-Optimal Cache Block Placement with Reactive Nonuniform Cache Architectures",
+  "score": 297.4403
+ },
+ "ISCA 2009::A Task-Centric Memory Model for Scalable Accelerator Architectures": {
+  "citations": 22,
+  "year": 2009,
+  "ext": {
+   "DBLP": "conf/IEEEpact/KelmJLFP09",
+   "MAG": "2132877867",
+   "DOI": "10.1109/MM.2010.6",
+   "CorpusId": 12636477
+  },
+  "matched_title": "A Task-Centric Memory Model for Scalable Accelerator Architectures",
+  "score": 226.93925
+ },
+ "ASPLOS 2009::DMP: Deterministic Shared-Memory Multiprocessing": {
+  "citations": 349,
+  "year": 2009,
+  "ext": {
+   "MAG": "2134440791",
+   "DBLP": "journals/micro/DeviettiLCO10",
+   "DOI": "10.1145/1508244.1508255",
+   "CorpusId": 12103464
+  },
+  "matched_title": "DMP: deterministic shared memory multiprocessing",
+  "score": 202.96689
+ },
+ "ISCA 2009::Making Address-Correlated Prefetching Practical": {
+  "citations": 27,
+  "year": 2010,
+  "ext": {
+   "DBLP": "journals/micro/WenischFAFM10",
+   "MAG": "2048849600",
+   "DOI": "10.1109/MM.2010.21",
+   "CorpusId": 33820176
+  },
+  "matched_title": "Making Address-Correlated Prefetching Practical",
+  "score": 211.59106
+ },
+ "ASPLOS 2009::Accelerating Critical Section Execution with Asymmetric Multicore Architectures": {
+  "citations": 28,
+  "year": 2010,
+  "ext": {
+   "DBLP": "journals/micro/SulemanMQP10",
+   "MAG": "2152455393",
+   "DOI": "10.1109/MM.2010.7",
+   "CorpusId": 260686209
+  },
+  "matched_title": "Accelerating Critical Section Execution with Asymmetric Multicore Architectures",
+  "score": 259.73822
+ },
+ "MICRO 2009::Per-Thread Cycle Accounting": {
+  "citations": 69,
+  "year": 2009,
+  "ext": {
+   "MAG": "2999194476",
+   "DBLP": "conf/asplos/EyermanE09",
+   "DOI": "10.1145/1508244.1508260",
+   "CorpusId": 7009549
+  },
+  "matched_title": "Per-thread cycle accounting in SMT processors",
+  "score": 153.46315
+ },
+ "ISCA 2009::AnySP: Anytime Anywhere Anyway Signal Processing": {
+  "citations": 146,
+  "year": 2009,
+  "ext": {
+   "DBLP": "journals/micro/WohSMMCF10",
+   "MAG": "2114440707",
+   "DOI": "10.1145/1555754.1555773",
+   "CorpusId": 12997290
+  },
+  "matched_title": "AnySP: Anytime Anywhere Anyway Signal Processing",
+  "score": 234.65288
+ },
+ "MICRO 2009::Gate-Level Information-Flow Tracking for Secure Architectures": {
+  "citations": 14,
+  "year": 2010,
+  "ext": {
+   "DBLP": "journals/micro/TiwariLWMMCS10",
+   "MAG": "2029293935",
+   "DOI": "10.1109/MM.2010.17",
+   "CorpusId": 10784499
+  },
+  "matched_title": "Gate-Level Information-Flow Tracking for Secure Architectures",
+  "score": 226.78954
+ },
+ "ASPLOS 2009::Predicting Voltage Droops Using Recurring Program and Microarchitectural Event A": {
+  "citations": 25,
+  "year": 2010,
+  "ext": {
+   "DBLP": "journals/micro/ReddiGHSWB10",
+   "MAG": "1977476862",
+   "DOI": "10.1109/MM.2010.25",
+   "CorpusId": 602064
+  },
+  "matched_title": "Predicting Voltage Droops Using Recurring Program and Microarchitectural Event Activity",
+  "score": 309.02924
+ },
+ "ASPLOS 2009::Architectural Implications of Nanoscale-Integrated Sensing and Computing": {
+  "citations": 22,
+  "year": 2009,
+  "ext": {
+   "MAG": "2112118453",
+   "DBLP": "conf/asplos/PistolDL09",
+   "DOI": "10.1145/1508244.1508247",
+   "CorpusId": 6824495
+  },
+  "matched_title": "Architectural Implications of Nanoscale-Integrated Sensing and Computing",
+  "score": 202.74792
+ },
+ "ASPLOS 2009::Gordon: An Improved Architecture for Data-Intensive Applications": {
+  "citations": 17,
+  "year": 2010,
+  "ext": {
+   "MAG": "2009727218",
+   "DBLP": "journals/micro/CaulfieldGS10",
+   "DOI": "10.1109/MM.2010.18",
+   "CorpusId": 8283105
+  },
+  "matched_title": "Gordon: An Improved Architecture for Data-Intensive Applications",
+  "score": 198.21243
+ },
+ "ISCA 2009::Phase-Change Technology and the Future of Main Memory": {
+  "citations": 424,
+  "year": 2010,
+  "ext": {
+   "MAG": "2028802049",
+   "DBLP": "journals/micro/LeeZYZZIMB10",
+   "DOI": "10.1109/MM.2010.24",
+   "CorpusId": 5775168
+  },
+  "matched_title": "Phase-Change Technology and the Future of Main Memory",
+  "score": 175.2731
+ },
+ "ISCA 2010::Virtualized ECC: Flexible Reliability in Main Memory": {
+  "citations": 33,
+  "year": 2011,
+  "ext": {
+   "MAG": "2043596839",
+   "DBLP": "journals/micro/YoonE11",
+   "DOI": "10.1109/MM.2010.103",
+   "CorpusId": 35256660
+  },
+  "matched_title": "Virtualized ECC: Flexible Reliability in Main Memory",
+  "score": 211.4095
+ },
+ "ISCA 2010::Voltage Noise in Production Processors": {
+  "citations": 21,
+  "year": 2011,
+  "ext": {
+   "MAG": "229630678",
+   "CorpusId": 11238140
+  },
+  "matched_title": "Voltage Noise in Production Processors",
+  "score": 129.69759
+ },
+ "MICRO 2010::Aergia: A Network-on-Chip Exploiting Packet Latency Slack": {
+  "citations": 21,
+  "year": 2011,
+  "ext": {
+   "MAG": "2085078824",
+   "DBLP": "journals/micro/DasMMD11",
+   "DOI": "10.1109/MM.2010.98",
+   "CorpusId": 262237391
+  },
+  "matched_title": "Aérgia: A Network-on-Chip Exploiting Packet Latency Slack",
+  "score": 262.51288
+ },
+ "ISCA 2010::Cohesion: An Adaptive Hybrid Memory Model for Accelerators": {
+  "citations": 27,
+  "year": 2011,
+  "ext": {
+   "DBLP": "journals/micro/KelmJTLP11",
+   "MAG": "1974183555",
+   "DOI": "10.1109/MM.2011.8",
+   "CorpusId": 28130365
+  },
+  "matched_title": "Cohesion: An Adaptive Hybrid Memory Model for Accelerators",
+  "score": 199.20074
+ },
+ "ISCA 2010::Data Marshaling for Multicore Systems": {
+  "citations": 5,
+  "year": 2011,
+  "ext": {
+   "MAG": "2084120585",
+   "DBLP": "journals/micro/SulemanMJKP11",
+   "DOI": "10.1109/MM.2010.105",
+   "CorpusId": 261730374
+  },
+  "matched_title": "Data Marshaling for Multicore Systems",
+  "score": 176.70331
+ },
+ "ISCA 2010::ReMAP: A Reconfigurable Architecture for Chip Multiprocessors": {
+  "citations": 9,
+  "year": 2011,
+  "ext": {
+   "DBLP": "journals/micro/WatkinsA11",
+   "MAG": "2045767708",
+   "DOI": "10.1109/MM.2011.14",
+   "CorpusId": 2743388
+  },
+  "matched_title": "ReMAP: A Reconfigurable Architecture for Chip Multiprocessors",
+  "score": 199.89902
+ },
+ "MICRO 2010::Thread Cluster Memory Scheduling": {
+  "citations": 438,
+  "year": 2010,
+  "ext": {
+   "MAG": "2159908132",
+   "DBLP": "conf/micro/KimPMH10",
+   "DOI": "10.1109/MICRO.2010.51",
+   "CorpusId": 2206841
+  },
+  "matched_title": "Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior",
+  "score": 158.41599
+ },
+ "ISCA 2010::Coordinating DRAM and Last-Level-Cache Policies with the Virtual Write Queue": {
+  "citations": 19,
+  "year": 2011,
+  "ext": {
+   "DBLP": "journals/micro/StuecheliKDHJ11",
+   "MAG": "2020165975",
+   "DOI": "10.1109/MM.2010.102",
+   "CorpusId": 19811582
+  },
+  "matched_title": "Coordinating DRAM and Last-Level-Cache Policies with the Virtual Write Queue",
+  "score": 310.82446
+ },
+ "ISCA 2010::CHOP: Integrating DRAM Caches for CMP Server Platforms": {
+  "citations": 35,
+  "year": 2011,
+  "ext": {
+   "DBLP": "journals/micro/JiangMZUIMNSB11",
+   "MAG": "2167414164",
+   "DOI": "10.1109/MM.2010.100",
+   "CorpusId": 12371992
+  },
+  "matched_title": "CHOP: Integrating DRAM Caches for CMP Server Platforms",
+  "score": 284.11816
+ },
+ "ASPLOS 2010::Address Translation Aware Memory Consistency": {
+  "citations": 8,
+  "year": 2011,
+  "ext": {
+   "MAG": "2172229451",
+   "DBLP": "journals/micro/RomanescuLS11",
+   "DOI": "10.1109/MM.2010.99",
+   "CorpusId": 1231342
+  },
+  "matched_title": "Address Translation Aware Memory Consistency",
+  "score": 185.44206
+ },
+ "ISCA 2010::Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out": {
+  "citations": 23,
+  "year": 2011,
+  "ext": {
+   "DBLP": "journals/micro/SeongWL11",
+   "MAG": "2053735247",
+   "DOI": "10.1109/MM.2010.101",
+   "CorpusId": 8819192
+  },
+  "matched_title": "Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out",
+  "score": 310.67303
+ },
+ "MICRO 2011::Kilo TM: Hardware Transactional Memory for GPU Architectures": {
+  "citations": 18,
+  "year": 2012,
+  "ext": {
+   "MAG": "2014039063",
+   "DBLP": "journals/micro/FungSBA12",
+   "DOI": "10.1109/MM.2012.16",
+   "CorpusId": 8914435
+  },
+  "matched_title": "Kilo TM: Hardware Transactional Memory for GPU Architectures",
+  "score": 262.84943
+ },
+ "MICRO 2011::A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips": {
+  "citations": 13,
+  "year": 2012,
+  "ext": {
+   "MAG": "2152166204",
+   "DBLP": "journals/micro/GrotHKM12",
+   "DOI": "10.1109/MM.2012.18",
+   "CorpusId": 12247697
+  },
+  "matched_title": "A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips",
+  "score": 312.43866
+ },
+ "ISCA 2011::Scalable and Efficient Fine-Grained Cache Partitioning with Vantage": {
+  "citations": 35,
+  "year": 2012,
+  "ext": {
+   "DBLP": "journals/micro/SanchezK12",
+   "MAG": "1965259547",
+   "DOI": "10.1109/MM.2012.19",
+   "CorpusId": 7571140
+  },
+  "matched_title": "Scalable and Efficient Fine-Grained Cache Partitioning with Vantage",
+  "score": 235.69849
+ },
+ "ISCA 2011::Eliminating Redundant Computation and Exposing Parallelism through Data-Triggere": {
+  "citations": 7,
+  "year": 2012,
+  "ext": {
+   "MAG": "2085810392",
+   "DBLP": "journals/micro/TsengT12",
+   "DOI": "10.1109/MM.2012.14",
+   "CorpusId": 28315893
+  },
+  "matched_title": "Eliminating Redundant Computation and Exposing Parallelism through Data-Triggered Threads",
+  "score": 305.3721
+ },
+ "ISCA 2011::FabScalar: Automating Superscalar Core Design": {
+  "citations": 26,
+  "year": 2012,
+  "ext": {
+   "DBLP": "journals/micro/ChoudharyWSMGDNNR12",
+   "MAG": "1987003477",
+   "DOI": "10.1109/MM.2012.23",
+   "CorpusId": 17397829
+  },
+  "matched_title": "FabScalar: Automating Superscalar Core Design",
+  "score": 212.00955
+ },
+ "ISCA 2011::Active Low-Power Modes for Main Memory with MemScale": {
+  "citations": 18,
+  "year": 2012,
+  "ext": {
+   "MAG": "2061399872",
+   "DBLP": "journals/micro/DengRBMW12",
+   "DOI": "10.1109/MM.2012.21",
+   "CorpusId": 14130651
+  },
+  "matched_title": "Active Low-Power Modes for Main Memory with MemScale",
+  "score": 230.29478
+ },
+ "ISCA 2011::Supporting Very Large DRAM Caches with Compound-Access Scheduling and MissMap": {
+  "citations": 75,
+  "year": 2012,
+  "ext": {
+   "MAG": "2075293780",
+   "DBLP": "journals/micro/LohH12",
+   "DOI": "10.1109/MM.2012.25",
+   "CorpusId": 5546147
+  },
+  "matched_title": "Supporting Very Large DRAM Caches with Compound-Access Scheduling and MissMap",
+  "score": 320.9071
+ },
+ "ISCA 2011::Free-p: A Practical End-to-End Nonvolatile Memory Protection Mechanism": {
+  "citations": 2,
+  "year": 2012,
+  "ext": {
+   "MAG": "2019703854",
+   "DBLP": "journals/micro/YoonMCRJE12",
+   "DOI": "10.1109/MM.2012.15",
+   "CorpusId": 22648039
+  },
+  "matched_title": "Free-p: A Practical End-to-End Nonvolatile Memory Protection Mechanism",
+  "score": 286.97858
+ },
+ "MICRO 2011::Increasing Utilization in Modern Warehouse-Scale Computers Using Bubble-Up": {
+  "citations": 16,
+  "year": 2012,
+  "ext": {
+   "DBLP": "journals/micro/MarsTSSH12",
+   "MAG": "2034002727",
+   "DOI": "10.1109/MM.2012.22",
+   "CorpusId": 264345361
+  },
+  "matched_title": "Increasing Utilization in Modern Warehouse-Scale Computers Using Bubble-Up",
+  "score": 277.80896
+ },
+ "ISCA 2011::Optical High Radix Switch Design": {
+  "citations": 11,
+  "year": 2012,
+  "ext": {
+   "DBLP": "journals/micro/BinkertDJMMSA12",
+   "MAG": "2012194795",
+   "DOI": "10.1109/MM.2012.24",
+   "CorpusId": 206473143
+  },
+  "matched_title": "Optical high radix switch design",
+  "score": 190.58386
+ },
+ "ASPLOS 2011::What is Happening to Power, Performance, and Software?": {
+  "citations": 20,
+  "year": 2012,
+  "ext": {
+   "MAG": "2149611663",
+   "DBLP": "journals/micro/EsmaeilzadehCYBM12",
+   "DOI": "10.1109/MM.2012.20",
+   "CorpusId": 12661835
+  },
+  "matched_title": "What is Happening to Power, Performance, and Software?",
+  "score": 181.5523
+ },
+ "ISCA 2011::Dark Silicon and the End of Multicore Scaling": {
+  "citations": 2166,
+  "year": 2011,
+  "ext": {
+   "MAG": "2006312753",
+   "DBLP": "conf/isca/EsmaeilzadehBASB11",
+   "DOI": "10.1145/2000064.2000108",
+   "CorpusId": 62736408
+  },
+  "matched_title": "Dark silicon and the end of multicore scaling",
+  "score": 188.15446
+ },
+ "HPCA 2012::Designing for Responsiveness with Computational Sprinting": {
+  "citations": 15,
+  "year": 2013,
+  "ext": {
+   "DBLP": "journals/micro/RaghavanLCPPWM13",
+   "MAG": "1994196464",
+   "DOI": "10.1109/MM.2013.51",
+   "CorpusId": 16851657
+  },
+  "matched_title": "Designing for Responsiveness with Computational Sprinting",
+  "score": 161.9575
+ },
+ "MICRO 2012::Neural Acceleration for General-Purpose Approximate Programs": {
+  "citations": 600,
+  "year": 2012,
+  "ext": {
+   "DBLP": "journals/cacm/EsmaeilzadehSCB15",
+   "MAG": "2187230075",
+   "DOI": "10.1109/MICRO.2012.48",
+   "CorpusId": 52943205
+  },
+  "matched_title": "Neural Acceleration for General-Purpose Approximate Programs",
+  "score": 206.00797
+ },
+ "ISCA 2012::Scaling the Energy Proportionality Wall with KnightShift": {
+  "citations": 12,
+  "year": 2013,
+  "ext": {
+   "MAG": "1975585606",
+   "DBLP": "journals/micro/0001A13",
+   "DOI": "10.1109/MM.2013.31",
+   "CorpusId": 27198548
+  },
+  "matched_title": "Scaling the Energy Proportionality Wall with KnightShift",
+  "score": 198.93726
+ },
+ "ISCA 2012::Hardware-Enforced Comprehensive Memory Safety": {
+  "citations": 20,
+  "year": 2013,
+  "ext": {
+   "DBLP": "journals/micro/NagarakatteMZ13",
+   "MAG": "1984676275",
+   "DOI": "10.1109/MM.2013.26",
+   "CorpusId": 485985
+  },
+  "matched_title": "Hardware-Enforced Comprehensive Memory Safety",
+  "score": 195.63214
+ },
+ "ISCA 2012::Inspection-Resistant Memory Architectures": {
+  "citations": 0,
+  "year": 2013,
+  "ext": {
+   "DBLP": "journals/micro/ValamehrCKPSVS13",
+   "MAG": "1987098661",
+   "DOI": "10.1109/MM.2013.27",
+   "CorpusId": 5737399
+  },
+  "matched_title": "Inspection-Resistant Memory Architectures",
+  "score": 143.02864
+ },
+ "ISCA 2012::Relyzer: Application Resiliency Analyzer for Transient Faults": {
+  "citations": 38,
+  "year": 2013,
+  "ext": {
+   "MAG": "2067717709",
+   "DBLP": "journals/micro/HariANR13",
+   "DOI": "10.1109/MM.2013.30",
+   "CorpusId": 2324413
+  },
+  "matched_title": "Relyzer: Application Resiliency Analyzer for Transient Faults",
+  "score": 232.98117
+ },
+ "ISCA 2012::A Quantitative, Experimental Approach to Measuring Processor Side-Channel Securi": {
+  "citations": 13,
+  "year": 2013,
+  "ext": {
+   "DBLP": "journals/micro/DemmeMWS13",
+   "MAG": "2112853480",
+   "DOI": "10.1109/MM.2013.23",
+   "CorpusId": 6664115
+  },
+  "matched_title": "A Quantitative, Experimental Approach to Measuring Processor Side-Channel Security",
+  "score": 239.33427
+ },
+ "MICRO 2012::Cache-Conscious Thread Scheduling for Massively Multithreaded Processors": {
+  "citations": 6,
+  "year": 2013,
+  "ext": {
+   "MAG": "2054397171",
+   "DBLP": "journals/micro/RogersOA13",
+   "DOI": "10.1109/MM.2013.24",
+   "CorpusId": 29749240
+  },
+  "matched_title": "Cache-Conscious Thread Scheduling for Massively Multithreaded Processors",
+  "score": 265.60788
+ },
+ "ISCA 2012::Parallel Block Vectors: Collection, Analysis, and Uses": {
+  "citations": 2,
+  "year": 2013,
+  "ext": {
+   "MAG": "2027201519",
+   "DBLP": "journals/micro/KambadurTK13",
+   "DOI": "10.1109/MM.2013.25",
+   "CorpusId": 18597034
+  },
+  "matched_title": "Parallel Block Vectors: Collection, Analysis, and Uses",
+  "score": 188.46313
+ },
+ "ASPLOS 2012::A Safety-First Approach to Memory Models": {
+  "citations": 1,
+  "year": 2013,
+  "ext": {
+   "DBLP": "journals/micro/SinghNMMM13",
+   "MAG": "2098307372",
+   "DOI": "10.1109/MM.2013.50",
+   "CorpusId": 11930131
+  },
+  "matched_title": "A Safety-First Approach to Memory Models",
+  "score": 158.72527
+ },
+ "ISCA 2012::Programmable DDRx Controllers": {
+  "citations": 3,
+  "year": 2013,
+  "ext": {
+   "MAG": "2013296819",
+   "DBLP": "journals/micro/BojnordiI13",
+   "DOI": "10.1109/MM.2013.29",
+   "CorpusId": 15729155
+  },
+  "matched_title": "Programmable DDRx Controllers",
+  "score": 122.92377
+ },
+ "ISCA 2013::Designing and Managing Data Centers Powered by Renewable Energy": {
+  "citations": 54,
+  "year": 2014,
+  "ext": {
+   "DBLP": "journals/micro/GoiriKLNB14",
+   "MAG": "2162547691",
+   "DOI": "10.1109/MM.2014.6",
+   "CorpusId": 9076693
+  },
+  "matched_title": "Designing and Managing Data centers Powered by Renewable Energy",
+  "score": 198.04036
+ },
+ "ASPLOS 2013::Quality-of-Service-Aware Scheduling in Heterogeneous Datacenters with Paragon": {
+  "citations": 1,
+  "year": 2014,
+  "ext": {
+   "CorpusId": 15100851
+  },
+  "matched_title": "Quality-of-service-aware Scheduling in Heterogeneous Datacenters with Paragon Paragon, an Online, Scalable Datacenter Scheduler, Enables Better Cluster Utilization and Per-application Quality-of-service Guarantees by Leveraging Data Mining Techniques That Find Similarities between Known and New Appl",
+  "score": 134.44415
+ },
+ "ISCA 2013::A Case for Specialized Processors for Scale-Out Workloads": {
+  "citations": 34,
+  "year": 2014,
+  "ext": {
+   "DBLP": "journals/micro/FerdmanAKVAJKPAF14",
+   "MAG": "2069208062",
+   "DOI": "10.1109/MM.2014.41",
+   "CorpusId": 18227734
+  },
+  "matched_title": "A Case for Specialized Processors for Scale-Out Workloads",
+  "score": 195.31985
+ },
+ "ISCA 2013::SMART: Single-Cycle Multihop Traversals over a Shared Network on Chip": {
+  "citations": 56,
+  "year": 2014,
+  "ext": {
+   "MAG": "2034826265",
+   "DBLP": "journals/micro/KrishnaCKP14",
+   "DOI": "10.1109/MM.2014.48",
+   "CorpusId": 14894502
+  },
+  "matched_title": "Smart: Single-Cycle Multihop Traversals over a Shared Network on Chip",
+  "score": 287.04044
+ },
+ "ISCA 2013::Networks on Chip with Provable Security Properties": {
+  "citations": 37,
+  "year": 2014,
+  "ext": {
+   "DBLP": "journals/micro/WasselGOHKCS14",
+   "MAG": "2086037506",
+   "DOI": "10.1109/MM.2014.46",
+   "CorpusId": 6024585
+  },
+  "matched_title": "Networks on Chip with Provable Security Properties",
+  "score": 181.25781
+ },
+ "ISCA 2013::Cache Coherence for GPU Architectures": {
+  "citations": 160,
+  "year": 2013,
+  "ext": {
+   "MAG": "1997352364",
+   "DBLP": "conf/hpca/SinghSFOA13",
+   "DOI": "10.1109/HPCA.2013.6522351",
+   "CorpusId": 11959813
+  },
+  "matched_title": "Cache coherence for GPU architectures",
+  "score": 157.9242
+ },
+ "ISCA 2013::A Configurable and Strong RAS Solution for Die-Stacked DRAM Caches": {
+  "citations": 3,
+  "year": 2014,
+  "ext": {
+   "MAG": "2094992587",
+   "DBLP": "journals/micro/SimLSO14",
+   "DOI": "10.1109/MM.2014.13",
+   "CorpusId": 206473264
+  },
+  "matched_title": "A Configurable and Strong RAS Solution for Die-Stacked DRAM Caches",
+  "score": 309.16162
+ },
+ "MICRO 2013::Decoupled Compressed Cache: Exploiting Spatial Locality for Energy Optimization": {
+  "citations": 15,
+  "year": 2014,
+  "ext": {
+   "DBLP": "journals/micro/SardashtiW14",
+   "MAG": "1975804712",
+   "DOI": "10.1109/MM.2014.42",
+   "CorpusId": 12603667
+  },
+  "matched_title": "Decoupled Compressed Cache: Exploiting Spatial Locality for Energy Optimization",
+  "score": 276.3411
+ },
+ "MICRO 2013::Sonic Millip3De: An Architecture for Handheld 3D Ultrasound": {
+  "citations": 7,
+  "year": 2014,
+  "ext": {
+   "MAG": "2036144254",
+   "DBLP": "journals/micro/SampsonYWCW14",
+   "DOI": "10.1109/MM.2014.49",
+   "CorpusId": 6741381
+  },
+  "matched_title": "Sonic Millip3De: An Architecture for Handheld 3D Ultrasound",
+  "score": 251.54025
+ },
+ "ISCA 2013::Hardware Partitioning for Big Data Analytics": {
+  "citations": 13,
+  "year": 2014,
+  "ext": {
+   "DBLP": "journals/micro/WuBKR14",
+   "MAG": "1988061755",
+   "DOI": "10.1109/MM.2014.11",
+   "CorpusId": 1048178
+  },
+  "matched_title": "Hardware Partitioning for Big Data Analytics",
+  "score": 162.80289
+ },
+ "ISCA 2013::Efficient Spatial Processing Element Control via Triggered Instructions": {
+  "citations": 15,
+  "year": 2014,
+  "ext": {
+   "DBLP": "journals/micro/ParasharPAACLPZGJARME14",
+   "MAG": "2015395294",
+   "DOI": "10.1109/MM.2014.14",
+   "CorpusId": 2914032
+  },
+  "matched_title": "Efficient Spatial Processing Element Control via Triggered Instructions",
+  "score": 261.5446
+ },
+ "MICRO 2013::DeNovoND: Efficient Hardware for Disciplined Nondeterminism": {
+  "citations": 6,
+  "year": 2014,
+  "ext": {
+   "DBLP": "journals/micro/SungKA14",
+   "MAG": "1978904804",
+   "DOI": "10.1109/MM.2014.5",
+   "CorpusId": 19567171
+  },
+  "matched_title": "DeNovoND: Efficient Hardware for Disciplined Nondeterminism",
+  "score": 217.73647
+ },
+ "ISCA 2014::A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services": {
+  "citations": 1223,
+  "year": 2014,
+  "ext": {
+   "MAG": "2133156997",
+   "DBLP": "conf/isca/PutnamCCCCDEFGGHHHHKLLPPSTXB14",
+   "DOI": "10.1145/2678373.2665678",
+   "CorpusId": 3826382
+  },
+  "matched_title": "A reconfigurable fabric for accelerating large-scale datacenter services",
+  "score": 241.44426
+ },
+ "MICRO 2014::A High-Throughput Neural Network Accelerator": {
+  "citations": 32,
+  "year": 2015,
+  "ext": {
+   "DBLP": "journals/micro/ChenDSWWCT15",
+   "MAG": "1801710398",
+   "DOI": "10.1109/MM.2015.41",
+   "CorpusId": 5217217
+  },
+  "matched_title": "A High-Throughput Neural Network Accelerator",
+  "score": 155.87369
+ },
+ "ISCA 2014::The Q100 Database Processing Unit": {
+  "citations": 19,
+  "year": 2015,
+  "ext": {
+   "MAG": "2126479028",
+   "DBLP": "journals/micro/WuLPKR15",
+   "DOI": "10.1109/MM.2015.51",
+   "CorpusId": 206473482
+  },
+  "matched_title": "The Q100 Database Processing Unit",
+  "score": 190.39462
+ },
+ "ISCA 2014::Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation": {
+  "citations": 12,
+  "year": 2015,
+  "ext": {
+   "MAG": "1779838519",
+   "DBLP": "journals/micro/MadhavanSS15",
+   "DOI": "10.1109/MM.2015.43",
+   "CorpusId": 11616527
+  },
+  "matched_title": "Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation",
+  "score": 316.36307
+ },
+ "ISCA 2014::The Aladdin Approach to Accelerator Design and Modeling": {
+  "citations": 44,
+  "year": 2015,
+  "ext": {
+   "DBLP": "journals/micro/ShaoRWB15",
+   "MAG": "2128560305",
+   "DOI": "10.1109/MM.2015.50",
+   "CorpusId": 15453460
+  },
+  "matched_title": "The Aladdin Approach to Accelerator Design and Modeling",
+  "score": 197.4984
+ },
+ "MICRO 2014::Verifying Correct Microarchitectural Enforcement of Memory Consistency Models": {
+  "citations": 5,
+  "year": 2015,
+  "ext": {
+   "MAG": "1836070858",
+   "DBLP": "journals/micro/LustigPM15",
+   "DOI": "10.1109/MM.2015.47",
+   "CorpusId": 5933627
+  },
+  "matched_title": "Verifying Correct Microarchitectural Enforcement of Memory Consistency Models",
+  "score": 259.93555
+ },
+ "ISCA 2014::PVCoherence: Designing Flat Coherence Protocols for Scalable Verification": {
+  "citations": 31,
+  "year": 2014,
+  "ext": {
+   "MAG": "2075201692",
+   "DBLP": "conf/hpca/ZhangBES14",
+   "DOI": "10.1109/HPCA.2014.6835949",
+   "CorpusId": 6665804
+  },
+  "matched_title": "PVCoherence: Designing flat coherence protocols for scalable verification",
+  "score": 264.99036
+ },
+ "ASPLOS 2014::Sharing Incentives and Fair Division for Multiprocessors": {
+  "citations": 18,
+  "year": 2015,
+  "ext": {
+   "MAG": "1765763830",
+   "DBLP": "journals/micro/ZahediL15",
+   "DOI": "10.1109/MM.2015.49",
+   "CorpusId": 482663
+  },
+  "matched_title": "Sharing Incentives and Fair Division for Multiprocessors",
+  "score": 197.18417
+ },
+ "ISCA 2014::Address Translation for Throughput-Oriented Accelerators": {
+  "citations": 6,
+  "year": 2015,
+  "ext": {
+   "DBLP": "journals/micro/PichaiHB15",
+   "MAG": "2134478227",
+   "DOI": "10.1109/MM.2015.44",
+   "CorpusId": 17476095
+  },
+  "matched_title": "Address Translation for Throughput-Oriented Accelerators",
+  "score": 195.85616
+ },
+ "ISCA 2014::EOLE: Toward a Practical Implementation of Value Prediction": {
+  "citations": 6,
+  "year": 2015,
+  "ext": {
+   "MAG": "1800259027",
+   "DBLP": "journals/micro/PeraisS15",
+   "DOI": "10.1109/MM.2015.45",
+   "CorpusId": 4616052
+  },
+  "matched_title": "EOLE: Toward a Practical Implementation of Value Prediction",
+  "score": 204.32974
+ },
+ "ISCA 2014::Memory Persistency: Semantics for Byte-Addressable Nonvolatile Memory Technologi": {
+  "citations": 18,
+  "year": 2015,
+  "ext": {
+   "CorpusId": 206473463
+  },
+  "matched_title": "Memory Persistency: Semantics for Byte-Addressable Nonvolatile Memory Technologies",
+  "score": 279.11533
+ },
+ "ASPLOS 2014::Uncertain<T>: Abstractions for Uncertain Hardware and Software": {
+  "citations": 13,
+  "year": 2015,
+  "ext": {
+   "CorpusId": 260687973
+  },
+  "matched_title": "Uncertain&lt;T&gt;: Abstractions for Uncertain Hardware and Software",
+  "score": 243.31335
+ },
+ "MICRO 2014::NoC Architecture for Silicon Interposer Systems": {
+  "citations": 97,
+  "year": 2014,
+  "ext": {
+   "MAG": "2034822545",
+   "DBLP": "conf/micro/JergerKLL14",
+   "DOI": "10.1109/MICRO.2014.61",
+   "CorpusId": 16304335
+  },
+  "matched_title": "NoC Architectures for Silicon Interposer Systems: Why Pay for more Wires when you Can Get them (from your interposer) for Free?",
+  "score": 110.006744
+ },
+ "HPCA 2014::Tangle: Route-Oriented Dynamic Voltage Minimization for Variation-Afflicted, Ene": {
+  "citations": 30,
+  "year": 2014,
+  "ext": {
+   "MAG": "2043377168",
+   "DBLP": "conf/hpca/AnsariMXT14",
+   "DOI": "10.1109/HPCA.2014.6835953",
+   "CorpusId": 6938096
+  },
+  "matched_title": "Tangle: Route-oriented dynamic voltage minimization for variation-afflicted, energy-efficient on-chip networks",
+  "score": 326.51456
+ },
+ "ISCA 2014::Avoiding Core's DUE & SDC via Acoustic Wave Detectors and Tailored Error Contain": {
+  "citations": 19,
+  "year": 2014,
+  "ext": {
+   "MAG": "2133258261",
+   "DBLP": "conf/isca/UpasaniVG14",
+   "DOI": "10.1145/2678373.2665682",
+   "CorpusId": 1941993
+  },
+  "matched_title": "Avoiding core's DUE & SDC via acoustic wave detectors and tailored error containment and recovery",
+  "score": 336.0289
+ },
+ "MICRO 2014::Efficient Memory Virtualization": {
+  "citations": 17,
+  "year": 2016,
+  "ext": {
+   "MAG": "2546976105",
+   "CorpusId": 63711388
+  },
+  "matched_title": "Efficient Memory Virtualization",
+  "score": 102.256165
+ },
+ "ISCA 2014::The CHERI Capability Model: Revisiting RISC in an Age of Risk": {
+  "citations": 393,
+  "year": 2014,
+  "ext": {
+   "MAG": "2171482413",
+   "DBLP": "conf/isca/WoodruffWCMADLNNR14",
+   "DOI": "10.1145/2678373.2665740",
+   "CorpusId": 1158102
+  },
+  "matched_title": "The CHERI capability model: Revisiting RISC in an age of risk",
+  "score": 264.39673
+ },
+ "ASPLOS 2014::Heterogeneous-Race-Free Memory Models": {
+  "citations": 110,
+  "year": 2014,
+  "ext": {
+   "MAG": "2150618958",
+   "DBLP": "conf/asplos/HowerHBGHRW14",
+   "DOI": "10.1145/2541940.2541981",
+   "CorpusId": 9136205
+  },
+  "matched_title": "Heterogeneous-race-free memory models",
+  "score": 183.72775
+ },
+ "ASPLOS 2014::High-Performance Fractal Coherence": {
+  "citations": 9,
+  "year": 2014,
+  "ext": {
+   "DBLP": "conf/asplos/VoskuilenV14",
+   "MAG": "2018546523",
+   "DOI": "10.1145/2541940.2541982",
+   "CorpusId": 18618450
+  },
+  "matched_title": "High-performance fractal coherence",
+  "score": 129.41367
+ },
+ "ASPLOS 2014::ASC: Automatically Scalable Computation": {
+  "citations": 14,
+  "year": 2014,
+  "ext": {
+   "MAG": "2028826504",
+   "DBLP": "conf/asplos/WaterlandAAAS14",
+   "DOI": "10.1145/2541940.2541985",
+   "CorpusId": 7804348
+  },
+  "matched_title": "ASC: automatically scalable computation",
+  "score": 148.86745
+ },
+ "ISCA 2014::HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Ir": {
+  "citations": 53,
+  "year": 2014,
+  "ext": {
+   "MAG": "2100430002",
+   "DBLP": "conf/isca/CampanoniBKJWB14",
+   "DOI": "10.1145/2678373.2665705",
+   "CorpusId": 397532
+  },
+  "matched_title": "HELIX-RC: An architecture-compiler co-design for automatic parallelization of irregular programs",
+  "score": 293.05353
+ },
+ "HPCA 2014::Sandbox Prefetching: Safe, Run-Time Evaluation of Aggressive Prefetchers": {
+  "citations": 133,
+  "year": 2014,
+  "ext": {
+   "DBLP": "conf/hpca/PugsleyCWCSJLCB14",
+   "MAG": "1985210871",
+   "DOI": "10.1109/HPCA.2014.6835971",
+   "CorpusId": 14318296
+  },
+  "matched_title": "Sandbox Prefetching: Safe run-time evaluation of aggressive prefetchers",
+  "score": 269.79257
+ },
+ "ASPLOS 2014::Data-Parallel Finite-State Machines": {
+  "citations": 93,
+  "year": 2014,
+  "ext": {
+   "DBLP": "conf/asplos/MytkowiczMS14",
+   "MAG": "2132774949",
+   "DOI": "10.1145/2541940.2541988",
+   "CorpusId": 1949355
+  },
+  "matched_title": "Data-parallel finite-state machines",
+  "score": 154.35088
+ },
+ "ASPLOS 2014::Sapper: A Language for Hardware-Level Security Policy Enforcement": {
+  "citations": 131,
+  "year": 2014,
+  "ext": {
+   "MAG": "2145936802",
+   "DBLP": "conf/asplos/0001KOTRKSHC14",
+   "DOI": "10.1145/2541940.2541947",
+   "CorpusId": 14029336
+  },
+  "matched_title": "Sapper: a language for hardware-level security policy enforcement",
+  "score": 236.74852
+ },
+ "ISCA 2015::Practical Multidimensional Branch Prediction": {
+  "citations": 4,
+  "year": 2016,
+  "ext": {
+   "MAG": "2433819772",
+   "DBLP": "journals/micro/SeznecMA16",
+   "DOI": "10.1109/MM.2016.33",
+   "CorpusId": 1673908
+  },
+  "matched_title": "Practical Multidimensional Branch Prediction",
+  "score": 152.30518
+ },
+ "ISCA 2015::A Heterogeneous Von Neumann/Explicit Dataflow Processor": {
+  "citations": 1,
+  "year": 2016,
+  "ext": {
+   "DBLP": "journals/micro/NowatzkiGS16",
+   "MAG": "2420674287",
+   "DOI": "10.1109/MM.2016.34",
+   "CorpusId": 206473606
+  },
+  "matched_title": "A Heterogeneous Von Neumann/Explicit Dataflow Processor",
+  "score": 232.0385
+ },
+ "ISCA 2015::Accelerating the Accelerator Memory Interface with Access-Execute and Dataflow": {
+  "citations": 0,
+  "year": 2016,
+  "ext": {
+   "DBLP": "journals/micro/HoKS16",
+   "MAG": "2432817829",
+   "DOI": "10.1109/MM.2016.36",
+   "CorpusId": 12279782
+  },
+  "matched_title": "Accelerating the Accelerator Memory Interface with Access-Execute and Dataflow",
+  "score": 269.56433
+ },
+ "ISCA 2015::Sirius Implications for Future Warehouse-Scale Computers": {
+  "citations": 6,
+  "year": 2016,
+  "ext": {
+   "MAG": "2394835206",
+   "DBLP": "journals/micro/HauswaldLZLRKDM16",
+   "DOI": "10.1109/MM.2016.37",
+   "CorpusId": 11479348
+  },
+  "matched_title": "Sirius Implications for Future Warehouse-Scale Computers",
+  "score": 210.39377
+ },
+ "ISCA 2015::Profiling a Warehouse-Scale Computer": {
+  "citations": 497,
+  "year": 2015,
+  "ext": {
+   "DBLP": "journals/micro/KanevDHRMWB16",
+   "MAG": "2398646962",
+   "DOI": "10.1145/2749469.2750392",
+   "CorpusId": 9137870
+  },
+  "matched_title": "Profiling a warehouse-scale computer",
+  "score": 154.22714
+ },
+ "ISCA 2015::MBus: A System Integration Bus for the Modular Microscale Computing Class": {
+  "citations": 9,
+  "year": 2016,
+  "ext": {
+   "DBLP": "journals/micro/PannutoLKFKKDBD16",
+   "MAG": "2413966807",
+   "DOI": "10.1109/MM.2016.41",
+   "CorpusId": 16956693
+  },
+  "matched_title": "MBus: A System Integration Bus for the Modular Microscale Computing Class",
+  "score": 281.17844
+ },
+ "ISCA 2015::Nonvolatile Processor Architectures: Efficient, Reliable Progress with Unstable ": {
+  "citations": 44,
+  "year": 2016,
+  "ext": {
+   "MAG": "2436300686",
+   "DBLP": "journals/micro/MaLSZLLXSN16",
+   "DOI": "10.1109/MM.2016.35",
+   "CorpusId": 142032
+  },
+  "matched_title": "Nonvolatile Processor Architectures: Efficient, Reliable Progress with Unstable Power",
+  "score": 257.48596
+ },
+ "ISCA 2015::Exploiting Interposer Technologies to Disintegrate and Reintegrate Multicore Pro": {
+  "citations": 16,
+  "year": 2016,
+  "ext": {
+   "DBLP": "journals/micro/KannanJL16",
+   "MAG": "2415968792",
+   "DOI": "10.1109/MM.2016.53",
+   "CorpusId": 206473636
+  },
+  "matched_title": "Exploiting Interposer Technologies to Disintegrate and Reintegrate Multicore Processors",
+  "score": 268.4768
+ },
+ "ISCA 2015::Achieving One Billion Key-Value Requests per Second on a Single Server": {
+  "citations": 9,
+  "year": 2016,
+  "ext": {
+   "MAG": "2320759162",
+   "DBLP": "journals/micro/LiLLAKKAOLD16",
+   "DOI": "10.1109/MM.2016.13",
+   "CorpusId": 27959229
+  },
+  "matched_title": "Achieving One Billion Key-Value Requests per Second on a Single Server",
+  "score": 327.72125
+ },
+ "MICRO 2015::Unlocking Ordered Parallelism with the Swarm Architecture": {
+  "citations": 28,
+  "year": 2016,
+  "ext": {
+   "DBLP": "journals/micro/JeffreySYES16",
+   "MAG": "2327526361",
+   "DOI": "10.1109/MM.2016.12",
+   "CorpusId": 206473572
+  },
+  "matched_title": "Unlocking Ordered Parallelism with the Swarm Architecture",
+  "score": 214.17807
+ },
+ "ISCA 2015::Range Translations for Fast Virtual Memory": {
+  "citations": 45,
+  "year": 2016,
+  "ext": {
+   "DBLP": "journals/micro/GandhiKACHMNSU16",
+   "MAG": "2330744268",
+   "DOI": "10.1109/MM.2016.10",
+   "CorpusId": 20817908
+  },
+  "matched_title": "Range Translations for Fast Virtual Memory",
+  "score": 179.87723
+ },
+ "ISCA 2015::Stash: Have Your Scratchpad and Cache It Too": {
+  "citations": 75,
+  "year": 2015,
+  "ext": {
+   "DBLP": "conf/isca/KomuravelliSAHK15",
+   "MAG": "2099912705",
+   "DOI": "10.1145/2749469.2750374",
+   "CorpusId": 13094410
+  },
+  "matched_title": "Stash: Have your scratchpad and cache it too",
+  "score": 269.37488
+ },
+ "MICRO 2015::Efficient GPU Synchronization without Scopes: Saying No to Complex Consistency M": {
+  "citations": 74,
+  "year": 2015,
+  "ext": {
+   "DBLP": "conf/micro/SinclairAA15",
+   "MAG": "2236227338",
+   "DOI": "10.1145/2830772.2830821",
+   "CorpusId": 2569559
+  },
+  "matched_title": "Efficient GPU synchronization without scopes: Saying no to complex consistency models",
+  "score": 308.80338
+ },
+ "ISCA 2014::General-Purpose Code Acceleration with Limited-Precision Analog Computation": {
+  "citations": 183,
+  "year": 2014,
+  "ext": {
+   "DBLP": "conf/isca/AmantYPTEHCB14",
+   "MAG": "2166250385",
+   "DOI": "10.1145/2678373.2665746",
+   "CorpusId": 2050688
+  },
+  "matched_title": "General-purpose code acceleration with limited-precision analog computation",
+  "score": 256.36755
+ },
+ "MICRO 2015::Microarchitectural Implications of Event-Driven Server-Side Web Applications": {
+  "citations": 51,
+  "year": 2015,
+  "ext": {
+   "MAG": "2233205172",
+   "DBLP": "conf/micro/ZhuRHR15",
+   "DOI": "10.1145/2830772.2830792",
+   "CorpusId": 12844089
+  },
+  "matched_title": "Microarchitectural implications of event-driven server-side web applications",
+  "score": 242.80287
+ },
+ "ISCA 2015::Computer Performance Microscopy with SHIM": {
+  "citations": 28,
+  "year": 2015,
+  "ext": {
+   "DBLP": "conf/isca/YangBM15",
+   "MAG": "1973718751",
+   "DOI": "10.1145/2749469.2750401",
+   "CorpusId": 53022
+  },
+  "matched_title": "Computer performance microscopy with Shim",
+  "score": 173.61057
+ },
+ "ISCA 2015::A Scalable Processing-in-Memory Accelerator for Parallel Graph Processing": {
+  "citations": 879,
+  "year": 2015,
+  "ext": {
+   "MAG": "1981943579",
+   "DBLP": "conf/isca/AhnHYMC15",
+   "DOI": "10.1145/2749469.2750386",
+   "CorpusId": 1615412
+  },
+  "matched_title": "A scalable processing-in-memory accelerator for parallel graph processing",
+  "score": 228.12059
+ },
+ "MICRO 2015::Cross-Architecture Performance Prediction (XAPP) Using CPU Code to Predict GPU P": {
+  "citations": 115,
+  "year": 2015,
+  "ext": {
+   "MAG": "2239144794",
+   "DBLP": "conf/micro/ArdalaniLSZ15",
+   "DOI": "10.1145/2830772.2830780",
+   "CorpusId": 22100936
+  },
+  "matched_title": "Cross-architecture performance prediction (XAPP) using CPU code to predict GPU performance",
+  "score": 293.18262
+ },
+ "MICRO 2015::DeSC: Decoupled Supply-Compute Communication Management for Heterogeneous Archit": {
+  "citations": 62,
+  "year": 2015,
+  "ext": {
+   "MAG": "2239894058",
+   "DBLP": "conf/micro/HamAM15",
+   "DOI": "10.1145/2830772.2830800",
+   "CorpusId": 2616088
+  },
+  "matched_title": "DeSC: Decoupled supply-compute communication management for heterogeneous architectures",
+  "score": 255.14859
+ },
+ "ISCA 2015::Unified Address Translation for Memory-Mapped SSDs with FlashMap": {
+  "citations": 63,
+  "year": 2015,
+  "ext": {
+   "MAG": "2035752434",
+   "DBLP": "conf/isca/HuangBQS15",
+   "DOI": "10.1145/2749469.2750420",
+   "CorpusId": 2345103
+  },
+  "matched_title": "Unified address translation for memory-mapped SSDs with FlashMap",
+  "score": 266.8817
+ },
+ "ASPLOS 2015::DEUCE: Write-Efficient Encryption for Non-Volatile Memories": {
+  "citations": 145,
+  "year": 2015,
+  "ext": {
+   "MAG": "2149627879",
+   "DBLP": "conf/asplos/YoungNQ15",
+   "DOI": "10.1145/2694344.2694387",
+   "CorpusId": 3548963
+  },
+  "matched_title": "DEUCE: Write-Efficient Encryption for Non-Volatile Memories",
+  "score": 245.56262
+ },
+ "ISCA 2015::Rumba: An Online Quality Management System for Approximate Computing": {
+  "citations": 142,
+  "year": 2015,
+  "ext": {
+   "MAG": "2037898879",
+   "DBLP": "conf/isca/KhudiaZSM15",
+   "DOI": "10.1145/2749469.2750371",
+   "CorpusId": 14315563
+  },
+  "matched_title": "Rumba: An online quality management system for approximate computing",
+  "score": 211.03474
+ },
+ "MICRO 2015::Authenticache: Harnessing Cache ECC for System Authentication": {
+  "citations": 28,
+  "year": 2015,
+  "ext": {
+   "MAG": "2237177896",
+   "DBLP": "conf/micro/BachaT15",
+   "DOI": "10.1145/2830772.2830814",
+   "CorpusId": 9197411
+  },
+  "matched_title": "Authenticache: Harnessing cache ECC for system authentication",
+  "score": 240.995
+ },
+ "ISCA 2016::Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators": {
+  "citations": 122,
+  "year": 2017,
+  "ext": {
+   "DBLP": "journals/micro/ChenES17",
+   "MAG": "2626712922",
+   "DOI": "10.1109/MM.2017.54",
+   "CorpusId": 4664312
+  },
+  "matched_title": "Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators",
+  "score": 247.65742
+ },
+ "ISCA 2016::The Memristive Boltzmann Machines": {
+  "citations": 9,
+  "year": 2017,
+  "ext": {
+   "DBLP": "journals/micro/BojnordiI17",
+   "MAG": "2626837834",
+   "DOI": "10.1109/MM.2017.53",
+   "CorpusId": 12609978
+  },
+  "matched_title": "The Memristive Boltzmann Machines",
+  "score": 134.0052
+ },
+ "ISCA 2016::Analog Computing in a Modern Context: A Linear Algebra Accelerator Case Study": {
+  "citations": 27,
+  "year": 2017,
+  "ext": {
+   "MAG": "2625665398",
+   "DBLP": "journals/micro/HuangGSTS17",
+   "DOI": "10.1109/MM.2017.55",
+   "CorpusId": 37220702
+  },
+  "matched_title": "Analog Computing in a Modern Context: A Linear Algebra Accelerator Case Study",
+  "score": 261.1798
+ },
+ "ISCA 2016::Domain Specialization Is Generally Unnecessary for Accelerators": {
+  "citations": 20,
+  "year": 2017,
+  "ext": {
+   "MAG": "2624998622",
+   "DBLP": "journals/micro/NowatzkiGSW17",
+   "DOI": "10.1109/MM.2017.60",
+   "CorpusId": 9930987
+  },
+  "matched_title": "Domain Specialization Is Generally Unnecessary for Accelerators",
+  "score": 227.82314
+ },
+ "ISCA 2016::Configurable Clouds": {
+  "citations": 31,
+  "year": 2017,
+  "ext": {
+   "MAG": "2732466471",
+   "DBLP": "journals/micro/CaulfieldCPAFFH17",
+   "DOI": "10.1109/MM.2017.51",
+   "CorpusId": 3871784
+  },
+  "matched_title": "Configurable Clouds",
+  "score": 68.45308
+ },
+ "ISCA 2016::Specializing a Planet's Computation: ASIC Clouds": {
+  "citations": 13,
+  "year": 2017,
+  "ext": {
+   "DBLP": "journals/micro/KhazraeeGMT17",
+   "MAG": "2624983689",
+   "DOI": "10.1109/MM.2017.49",
+   "CorpusId": 27755005
+  },
+  "matched_title": "Specializing a Planet's Computation: ASIC Clouds",
+  "score": 211.9833
+ },
+ "MICRO 2016::DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric": {
+  "citations": 28,
+  "year": 2016,
+  "ext": {
+   "MAG": "2624843758",
+   "DBLP": "journals/micro/GaoDNMZBK17",
+   "DOI": "10.1145/3007787.3001191",
+   "CorpusId": 1511893
+  },
+  "matched_title": "DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric",
+  "score": 267.5598
+ },
+ "ISCA 2016::Agile Paging for Efficient Memory Virtualization": {
+  "citations": 5,
+  "year": 2017,
+  "ext": {
+   "MAG": "2624978482",
+   "DBLP": "journals/micro/GandhiHS17",
+   "DOI": "10.1109/MM.2017.67",
+   "CorpusId": 26734422
+  },
+  "matched_title": "Agile Paging for Efficient Memory Virtualization",
+  "score": 186.9838
+ },
+ "MICRO 2016::Transistency Models: Memory Ordering at the Hardware-OS Interface": {
+  "citations": 3,
+  "year": 2017,
+  "ext": {
+   "MAG": "2625315567",
+   "DBLP": "journals/micro/LustigSBM17",
+   "DOI": "10.1109/MM.2017.69",
+   "CorpusId": 30823158
+  },
+  "matched_title": "Transistency Models: Memory Ordering at the Hardware-OS Interface",
+  "score": 263.43622
+ },
+ "ISCA 2016::Toward a DNA-Based Archival Storage System": {
+  "citations": 48,
+  "year": 2017,
+  "ext": {
+   "DBLP": "journals/micro/BornholtLCCSS17",
+   "MAG": "2625597035",
+   "DOI": "10.1109/MM.2017.70",
+   "CorpusId": 23276558
+  },
+  "matched_title": "Toward a DNA-Based Archival Storage System",
+  "score": 179.20935
+ },
+ "ISCA 2016::T-states: Power Management in Active Timing Margin Processors": {
+  "citations": 2,
+  "year": 2017,
+  "ext": {
+   "DBLP": "journals/micro/ZuHPR17",
+   "MAG": "2626965056",
+   "DOI": "10.1109/MM.2017.68",
+   "CorpusId": 26479864
+  },
+  "matched_title": "Ti-States: Power Management in Active Timing Margin Processors",
+  "score": 202.0288
+ },
+ "ASPLOS 2016::An Energy-Aware Debugger for Intermittently Powered Systems": {
+  "citations": 12,
+  "year": 2017,
+  "ext": {
+   "DBLP": "journals/micro/ColinHSL17",
+   "MAG": "2627090928",
+   "DOI": "10.1109/MM.2017.48",
+   "CorpusId": 28241938
+  },
+  "matched_title": "An Energy-Aware Debugger for Intermittently Powered Systems",
+  "score": 211.22711
+ },
+ "MICRO 2016::Exploiting Semantic Commutativity in Hardware Speculation": {
+  "citations": 12,
+  "year": 2016,
+  "ext": {
+   "DBLP": "conf/micro/ZhangCS16",
+   "MAG": "2562493099",
+   "DOI": "10.1109/MICRO.2016.7783737",
+   "CorpusId": 3806728
+  },
+  "matched_title": "Exploiting semantic commutativity in hardware speculation",
+  "score": 215.2046
+ },
+ "ASPLOS 2016::The Computational Sprinting Game": {
+  "citations": 56,
+  "year": 2016,
+  "ext": {
+   "MAG": "2323131249",
+   "DBLP": "conf/asplos/FanZL16",
+   "DOI": "10.1145/2872362.2872383",
+   "CorpusId": 17745463
+  },
+  "matched_title": "The Computational Sprinting Game",
+  "score": 128.71956
+ },
+ "MICRO 2016::PoisonIvy: Safe Speculation for Secure Memory": {
+  "citations": 64,
+  "year": 2016,
+  "ext": {
+   "DBLP": "conf/micro/LehmanHL16",
+   "MAG": "2521042077",
+   "DOI": "10.5555/3195638.3195684",
+   "CorpusId": 3769196
+  },
+  "matched_title": "PoisonIvy: Safe speculation for secure memory",
+  "score": 216.27495
+ },
+ "MICRO 2016::Data-Centric Execution of Speculative Parallel Programs": {
+  "citations": 33,
+  "year": 2016,
+  "ext": {
+   "MAG": "2565964892",
+   "DBLP": "conf/micro/JeffreySAES16",
+   "DOI": "10.1109/MICRO.2016.7783708",
+   "CorpusId": 3783232
+  },
+  "matched_title": "Data-centric execution of speculative parallel programs",
+  "score": 211.87463
+ },
+ "ISCA 2016::Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading": {
+  "citations": 17,
+  "year": 2016,
+  "ext": {
+   "MAG": "2507809706",
+   "DBLP": "conf/isca/SleimanW16",
+   "DOI": "10.1145/3007787.3001183",
+   "CorpusId": 14594079
+  },
+  "matched_title": "Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading",
+  "score": 229.8958
+ },
+ "MICRO 2016::Racer: TSO Consistency via Race Detection": {
+  "citations": 20,
+  "year": 2016,
+  "ext": {
+   "DBLP": "conf/micro/RosK16",
+   "MAG": "2565766216",
+   "DOI": "10.1109/MICRO.2016.7783736",
+   "CorpusId": 3793804
+  },
+  "matched_title": "Racer: TSO consistency via race detection",
+  "score": 241.21951
+ },
+ "ISCA 2016::The Anytime Automaton": {
+  "citations": 30,
+  "year": 2016,
+  "ext": {
+   "DBLP": "conf/isca/MiguelJ16",
+   "MAG": "2517678212",
+   "DOI": "10.1145/3007787.3001195",
+   "CorpusId": 5538700
+  },
+  "matched_title": "The Anytime Automaton",
+  "score": 111.37433
+ },
+ "ISCA 2016::Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Samplin": {
+  "citations": 17,
+  "year": 2016,
+  "ext": {
+   "DBLP": "conf/isca/WangZLBYDL16",
+   "MAG": "2512938924",
+   "DOI": "10.1145/3007787.3001196",
+   "CorpusId": 14599963
+  },
+  "matched_title": "Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Sampling Units",
+  "score": 316.32706
+ },
+ "MICRO 2016::Stripes: Bit-Serial Deep Neural Network Computing": {
+  "citations": 405,
+  "year": 2016,
+  "ext": {
+   "MAG": "2483966489",
+   "DBLP": "conf/micro/JuddAHAM16",
+   "DOI": "10.1109/LCA.2016.2597140",
+   "CorpusId": 3784424
+  },
+  "matched_title": "Stripes: Bit-serial deep neural network computing",
+  "score": 216.28836
+ },
+ "ISCA 2016::Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL": {
+  "citations": 34,
+  "year": 2016,
+  "ext": {
+   "DBLP": "conf/isca/KimICKZLBA16",
+   "MAG": "2517156085",
+   "DOI": "10.1145/3007787.3001151",
+   "CorpusId": 15765038
+  },
+  "matched_title": "Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL",
+  "score": 283.87827
+ },
+ "ISCA 2016::Back to the Future: Leveraging Belady's Algorithm for Improved Cache Replacement": {
+  "citations": 227,
+  "year": 2016,
+  "ext": {
+   "DBLP": "conf/isca/JainL16",
+   "MAG": "2515818068",
+   "DOI": "10.1145/3007787.3001146",
+   "CorpusId": 11955533
+  },
+  "matched_title": "Back to the Future: Leveraging Belady's Algorithm for Improved Cache Replacement",
+  "score": 255.27486
+ },
+ "ISCA 2016::ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic": {
+  "citations": 1916,
+  "year": 2016,
+  "ext": {
+   "MAG": "2518281301",
+   "DBLP": "conf/isca/ShafieeNMBSHWS16",
+   "DOI": "10.1145/3007787.3001139",
+   "CorpusId": 6329628
+  },
+  "matched_title": "ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbars",
+  "score": 261.3215
+ },
+ "ISCA 2017::Motivation for and Evaluation of the First Tensor Processing Unit": {
+  "citations": 211,
+  "year": 2018,
+  "ext": {
+   "MAG": "2801748224",
+   "DBLP": "journals/micro/JouppiYPP18",
+   "DOI": "10.1109/MM.2018.032271057",
+   "CorpusId": 21657842
+  },
+  "matched_title": "Motivation for and Evaluation of the First Tensor Processing Unit",
+  "score": 186.91403
+ },
+ "ISCA 2017::Plasticine: A Reconfigurable Accelerator for Parallel Patterns": {
+  "citations": 18,
+  "year": 2018,
+  "ext": {
+   "DBLP": "journals/micro/PrabhakarZKFZHP18",
+   "MAG": "2799537975",
+   "DOI": "10.1109/MM.2018.032271058",
+   "CorpusId": 21678967
+  },
+  "matched_title": "Plasticine: A Reconfigurable Accelerator for Parallel Patterns",
+  "score": 213.75766
+ },
+ "ISCA 2017::Bespoke Processors for Applications with Ultra-Low Area and Power Constraints": {
+  "citations": 38,
+  "year": 2017,
+  "ext": {
+   "MAG": "2624991222",
+   "DBLP": "conf/isca/CherupalliDY0S17",
+   "DOI": "10.1145/3079856.3080247",
+   "CorpusId": 7764611
+  },
+  "matched_title": "Bespoke processors for applications with ultra-low area and power constraints",
+  "score": 223.05011
+ },
+ "ISCA 2017::A Microarchitecture for a Superconducting Quantum Processor": {
+  "citations": 36,
+  "year": 2018,
+  "ext": {
+   "MAG": "2802155668",
+   "DBLP": "journals/micro/FuRBSKAVSVSADB18",
+   "DOI": "10.1109/MM.2018.032271060",
+   "CorpusId": 21667914
+  },
+  "matched_title": "A Microarchitecture for a Superconducting Quantum Processor",
+  "score": 176.78462
+ },
+ "ISCA 2017::Non-Speculative Load Reordering in Total Store Ordering": {
+  "citations": 0,
+  "year": 2018,
+  "ext": {
+   "DBLP": "journals/micro/KaxirasCAR18",
+   "MAG": "2800982441",
+   "DOI": "10.1109/MM.2018.032271061",
+   "CorpusId": 21664000
+  },
+  "matched_title": "Non-Speculative Load Reordering in Total Store Ordering",
+  "score": 268.91998
+ },
+ "MICRO 2017::Full-Stack Memory Model Verification with TriCheck": {
+  "citations": 4,
+  "year": 2018,
+  "ext": {
+   "DBLP": "journals/micro/TrippelMLPM18",
+   "MAG": "2802863755",
+   "DOI": "10.1109/MM.2018.032271062",
+   "CorpusId": 21668892
+  },
+  "matched_title": "Full-Stack Memory Model Verification with TriCheck",
+  "score": 217.22803
+ },
+ "ISCA 2017::Breaking the Address Translation Wall by Accelerating Memory Replays": {
+  "citations": 10,
+  "year": 2018,
+  "ext": {
+   "DBLP": "journals/micro/Bhattacharjee18",
+   "MAG": "2800156448",
+   "DOI": "10.1109/MM.2018.032271063",
+   "CorpusId": 21666525
+  },
+  "matched_title": "Breaking the Address Translation Wall by Accelerating Memory Replays",
+  "score": 239.93646
+ },
+ "ISCA 2017::A General Methodology on Designing Acyclic Channel Dependency Graphs in Intercon": {
+  "citations": 1,
+  "year": 2018,
+  "ext": {
+   "MAG": "2799328696",
+   "DBLP": "journals/micro/EbrahimiD18",
+   "DOI": "10.1109/MM.2018.032271064",
+   "CorpusId": 21671380
+  },
+  "matched_title": "A General Methodology on Designing Acyclic Channel Dependency Graphs in Interconnection Networks",
+  "score": 267.57028
+ },
+ "MICRO 2017::Uncovering the Security Implications of Cloud Multi-Tenancy with Bolt": {
+  "citations": 0,
+  "year": 2018,
+  "ext": {
+   "DBLP": "journals/micro/DelimitrouK18",
+   "MAG": "2802711308",
+   "DOI": "10.1109/MM.2018.032271065",
+   "CorpusId": 21673483
+  },
+  "matched_title": "Uncovering the Security Implications of Cloud Multi-Tenancy with Bolt",
+  "score": 248.0322
+ },
+ "ISCA 2017::Motivating Security-Aware Energy Management": {
+  "citations": 7,
+  "year": 2018,
+  "ext": {
+   "MAG": "2800935836",
+   "DBLP": "journals/micro/TangSS18",
+   "DOI": "10.1109/MM.2018.032271066",
+   "CorpusId": 21660792
+  },
+  "matched_title": "Motivating Security-Aware Energy Management",
+  "score": 167.29803
+ },
+ "ISCA 2017::An Architecture for Analysis": {
+  "citations": 4,
+  "year": 2018,
+  "ext": {
+   "MAG": "2801316469",
+   "DBLP": "journals/micro/McMahanCNRGHS18",
+   "DOI": "10.1109/MM.2018.032271067",
+   "CorpusId": 21669930
+  },
+  "matched_title": "An Architecture for Analysis",
+  "score": 68.873856
+ },
+ "ISCA 2017::Architectural Risk": {
+  "citations": 12,
+  "year": 2017,
+  "ext": {
+   "MAG": "2766667549",
+   "DBLP": "conf/micro/CuiS17",
+   "DOI": "10.1145/3123939.3124541",
+   "CorpusId": 34546668
+  },
+  "matched_title": "Estimating and Understanding Architectural Risk",
+  "score": 62.08122
+ },
+ "MICRO 2017::Architectural Opportunities for Novel Dynamic EMI Shifting (DEMIS)": {
+  "citations": 4,
+  "year": 2017,
+  "ext": {
+   "DBLP": "conf/micro/GormanGR17",
+   "MAG": "2766463593",
+   "DOI": "10.1145/3123939.3123973",
+   "CorpusId": 5682125
+  },
+  "matched_title": "Architectural Opportunities for Novel Dynamic EMI Shifting(DEMIS)",
+  "score": 253.91498
+ },
+ "ASPLOS 2017::An Analysis of Persistent Memory Use with WHISPER": {
+  "citations": 195,
+  "year": 2017,
+  "ext": {
+   "MAG": "2604204172",
+   "DBLP": "conf/asplos/NalliHHSVK17",
+   "DOI": "10.1145/3037697.3037730",
+   "CorpusId": 10429444
+  },
+  "matched_title": "An Analysis of Persistent Memory Use with WHISPER",
+  "score": 172.77065
+ },
+ "MICRO 2017::Automated Memory Consistency Verification of Processor RTL": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "MICRO 2017::Architectural Techniques for Energy-Efficient Brain Implants Using Hardware Perc": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "MICRO 2017::Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations": {
+  "citations": 35,
+  "year": 2017,
+  "ext": {
+   "MAG": "2766623884",
+   "DBLP": "conf/micro/HuangGSTMS17",
+   "DOI": "10.1145/3123939.3124550",
+   "CorpusId": 207662021
+  },
+  "matched_title": "Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations",
+  "score": 208.93271
+ },
+ "MICRO 2017::A Many-Core Architecture for In-Memory Data Processing": {
+  "citations": 42,
+  "year": 2017,
+  "ext": {
+   "DBLP": "conf/micro/AgrawalIRVGVBGR17",
+   "MAG": "2766885499",
+   "DOI": "10.1145/3123939.3123985",
+   "CorpusId": 24929966
+  },
+  "matched_title": "A Many-core Architecture for In-Memory Data Processing",
+  "score": 197.43303
+ },
+ "HPCA 2017::NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Ar": {
+  "citations": 23,
+  "year": 2017,
+  "ext": {
+   "MAG": "2613147674",
+   "DBLP": "conf/hpca/AlianAJKK17",
+   "DOI": "10.1109/HPCA.2017.57",
+   "CorpusId": 29417608
+  },
+  "matched_title": "NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Architecture",
+  "score": 279.38284
+ },
+ "ASPLOS 2017::IncBricks: Toward In-Network Computation with an In-Network Cache": {
+  "citations": 171,
+  "year": 2017,
+  "ext": {
+   "DBLP": "conf/asplos/LiuLNCKA17",
+   "MAG": "2604553456",
+   "DOI": "10.1145/3037697.3037731",
+   "CorpusId": 1354941
+  },
+  "matched_title": "IncBricks: Toward In-Network Computation with an In-Network Cache",
+  "score": 224.92163
+ },
+ "ISCA 2017::EDDIE: EM-Based Detection of Deviations in Program Execution": {
+  "citations": 139,
+  "year": 2017,
+  "ext": {
+   "DBLP": "conf/isca/NazariSAZP17",
+   "MAG": "2625110865",
+   "DOI": "10.1145/3079856.3080223",
+   "CorpusId": 24239518
+  },
+  "matched_title": "EDDIE: EM-based detection of deviations in program execution",
+  "score": 224.85335
+ },
+ "ISCA 2018::Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks": {
+  "citations": 376,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/isca/EckertWWSISBD18",
+   "ArXiv": "1805.03718",
+   "MAG": "2952779878",
+   "DOI": "10.1109/ISCA.2018.00040",
+   "CorpusId": 13686490
+  },
+  "matched_title": "Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks",
+  "score": 296.74173
+ },
+ "ISCA 2018::Inside Project Brainwave's Cloud-Scale, Real-Time AI Processor": {
+  "citations": 13,
+  "year": 2019,
+  "ext": {
+   "MAG": "2944468162",
+   "DBLP": "journals/micro/FowersOPMLLAHAG19",
+   "DOI": "10.1109/MM.2019.2910506",
+   "CorpusId": 148572422
+  },
+  "matched_title": "Inside Project Brainwave's Cloud-Scale, Real-Time AI Processor",
+  "score": 266.4241
+ },
+ "ASPLOS 2018::Darwin: A Genomics Coprocessor": {
+  "citations": 7,
+  "year": 2019,
+  "ext": {
+   "MAG": "2943994630",
+   "DBLP": "journals/micro/TurakhiaBD19",
+   "DOI": "10.1109/MM.2019.2910009",
+   "CorpusId": 148574478
+  },
+  "matched_title": "Darwin: A Genomics Coprocessor",
+  "score": 127.97438
+ },
+ "ISCA 2018::A Hardware Accelerator for Tracing Garbage Collection": {
+  "citations": 41,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/isca/MaasAK18",
+   "MAG": "2884882316",
+   "DOI": "10.1109/ISCA.2018.00022",
+   "CorpusId": 49615395
+  },
+  "matched_title": "A Hardware Accelerator for Tracing Garbage Collection",
+  "score": 209.73283
+ },
+ "MICRO 2018::Composable Building Blocks to Open Up Processor Design": {
+  "citations": 31,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/micro/ZhangWBA18",
+   "MAG": "2904603148",
+   "DOI": "10.1109/MICRO.2018.00015",
+   "CorpusId": 53500150
+  },
+  "matched_title": "Composable Building Blocks to Open up Processor Design",
+  "score": 213.63332
+ },
+ "ISCA 2018::FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public ": {
+  "citations": 258,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/isca/KarandikarMKBAL18",
+   "MAG": "2884267664",
+   "DOI": "10.1109/ISCA.2018.00014",
+   "CorpusId": 29159820
+  },
+  "matched_title": "FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public Cloud",
+  "score": 288.2605
+ },
+ "USENIX Security 2018::Foreshadow: Breaking Virtual Memory Protection and the SGX Ecosystem": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "ISCA 2018::Mobilizing the Micro-Ops: Context-Sensitive Decoding On-Demand for Security and ": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "MICRO 2018::CheckMate: Automated Synthesis of Hardware-Aware Exploit Synthesis: The CheckMat": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "ISCA 2017::Language-Level Persistency": {
+  "citations": 94,
+  "year": 2017,
+  "ext": {
+   "MAG": "2625240777",
+   "DBLP": "conf/isca/KolliGSDCNW17",
+   "DOI": "10.1145/3079856.3080229",
+   "CorpusId": 28009229
+  },
+  "matched_title": "Language-level persistency",
+  "score": 103.39531
+ },
+ "ISCA 2018::Nonblocking DRAM Refresh": {
+  "citations": 4,
+  "year": 2019,
+  "ext": {
+   "DBLP": "journals/micro/NguyenLMSJ19",
+   "MAG": "2924367614",
+   "DOI": "10.1109/MM.2019.2907486",
+   "CorpusId": 108366620
+  },
+  "matched_title": "Nonblocking DRAM Refresh",
+  "score": 131.8929
+ },
+ "ISCA 2018::Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadl": {
+  "citations": 46,
+  "year": 2018,
+  "ext": {
+   "MAG": "2884810594",
+   "DBLP": "conf/isca/RamrakhyaniGK18",
+   "DOI": "10.1109/ISCA.2018.00064",
+   "CorpusId": 4954053
+  },
+  "matched_title": "Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadlock Freedom",
+  "score": 254.1907
+ },
+ "ISCA 2018::Euphrates: Algorithm-SoC Co-design for Low-Power Mobile Continuous Vision": {
+  "citations": 93,
+  "year": 2018,
+  "ext": {
+   "ArXiv": "1803.11232",
+   "MAG": "2963709005",
+   "DBLP": "conf/isca/ZhuSMW18",
+   "DOI": "10.1109/ISCA.2018.00052",
+   "CorpusId": 4490235
+  },
+  "matched_title": "Euphrates: Algorithm-SoC Co-Design for Low-Power Mobile Continuous Vision",
+  "score": 295.51944
+ },
+ "ISCA 2018::Generic System Calls for GPUs": {
+  "citations": 32,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/isca/VeselyBBLOR18",
+   "MAG": "2805009828",
+   "DOI": "10.1109/ISCA.2018.00075",
+   "CorpusId": 4890590
+  },
+  "matched_title": "Generic System Calls for GPUs",
+  "score": 151.52321
+ },
+ "ASPLOS 2018::MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurab": {
+  "citations": 436,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/asplos/KwonSK18",
+   "MAG": "2790925711",
+   "DOI": "10.1145/3173162.3173176",
+   "CorpusId": 3990189
+  },
+  "matched_title": "MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects",
+  "score": 349.01044
+ },
+ "ISCA 2018::Promise: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Mac": {
+  "citations": 54,
+  "year": 2018,
+  "ext": {
+   "MAG": "2884159178",
+   "DBLP": "conf/isca/SrivastavaKGLCA18",
+   "DOI": "10.1109/ISCA.2018.00015",
+   "CorpusId": 50774667
+  },
+  "matched_title": "PROMISE: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Machine-Learning Algorithms",
+  "score": 281.41293
+ },
+ "HPCA 2018::Making Memristive Neural Network Accelerators Reliable": {
+  "citations": 125,
+  "year": 2018,
+  "ext": {
+   "MAG": "2795127895",
+   "DBLP": "conf/hpca/FeinbergWI18",
+   "DOI": "10.1109/HPCA.2018.00015",
+   "CorpusId": 4625615
+  },
+  "matched_title": "Making Memristive Neural Network Accelerators Reliable",
+  "score": 199.2657
+ },
+ "ISCA 2018::ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atom": {
+  "citations": 20,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/isca/OswaldNS18",
+   "MAG": "2802339701",
+   "DOI": "10.1109/ISCA.2018.00030",
+   "CorpusId": 13985965
+  },
+  "matched_title": "ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atomic Specifications",
+  "score": 329.92255
+ },
+ "MICRO 2018::PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specificat": {
+  "citations": 20,
+  "year": 2018,
+  "ext": {
+   "DBLP": "conf/micro/ManerkarLMG18",
+   "MAG": "2904009772",
+   "DOI": "10.1109/MICRO.2018.00069",
+   "CorpusId": 52231847
+  },
+  "matched_title": "PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specifications",
+  "score": 288.1365
+ },
+ "HPCA 2018::Synergy: Rethinking Secure-Memory Design for Error-Correcting Memories": {
+  "citations": 98,
+  "year": 2018,
+  "ext": {
+   "MAG": "2795148882",
+   "DBLP": "conf/hpca/SaileshwarNREQ18",
+   "DOI": "10.1109/HPCA.2018.00046",
+   "CorpusId": 3554474
+  },
+  "matched_title": "SYNERGY: Rethinking Secure-Memory Design for Error-Correcting Memories",
+  "score": 255.73102
+ },
+ "MICRO 2018::InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy": {
+  "citations": 286,
+  "year": 2018,
+  "ext": {
+   "MAG": "2903910116",
+   "DBLP": "conf/micro/YanCS0FT18",
+   "DOI": "10.1109/MICRO.2018.00042",
+   "CorpusId": 52214256
+  },
+  "matched_title": "InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy",
+  "score": 290.88324
+ },
+ "ASPLOS 2018::A Reconfigurable Energy Storage Architecture for Energy-Harvesting Devices": {
+  "citations": 213,
+  "year": 2018,
+  "ext": {
+   "MAG": "2998009612",
+   "DBLP": "conf/asplos/ColinRL18",
+   "DOI": "10.1145/3173162.3173210",
+   "CorpusId": 3942607
+  },
+  "matched_title": "A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices",
+  "score": 214.43109
+ },
+ "ASPLOS 2018::Caloree: Learning Control for Predictable Latency and Low Energy": {
+  "citations": 112,
+  "year": 2018,
+  "ext": {
+   "MAG": "2792814682",
+   "DBLP": "conf/asplos/MishraILH18",
+   "DOI": "10.1145/3173162.3173184",
+   "CorpusId": 3963821
+  },
+  "matched_title": "CALOREE: Learning Control for Predictable Latency and Low Energy",
+  "score": 216.55862
+ },
+ "ASPLOS 2019::Unveiling the Hardware and Software Implications of Microservices in Cloud and E": {
+  "citations": 11,
+  "year": 2020,
+  "ext": {
+   "MAG": "3020113572",
+   "DBLP": "journals/micro/GanZCSRKBHRJHPH20",
+   "DOI": "10.1109/MM.2020.2985960",
+   "CorpusId": 218974582
+  },
+  "matched_title": "Unveiling the Hardware and Software Implications of Microservices in Cloud and Edge Systems",
+  "score": 251.58713
+ },
+ "ISCA 2019::MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware ": {
+  "citations": 225,
+  "year": 2020,
+  "ext": {
+   "MAG": "3017521908",
+   "DBLP": "journals/micro/KwonCSKPP20",
+   "DOI": "10.1109/MM.2020.2985963",
+   "CorpusId": 218973544
+  },
+  "matched_title": "MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings",
+  "score": 302.15485
+ },
+ "ISCA 2019::Energy-Efficient Video Processing for Virtual Reality": {
+  "citations": 64,
+  "year": 2019,
+  "ext": {
+   "MAG": "2950532338",
+   "DBLP": "conf/isca/LengCSHZ19",
+   "DOI": "10.1145/3307650.3322264",
+   "CorpusId": 156051051
+  },
+  "matched_title": "Energy-Efficient Video Processing for Virtual Reality",
+  "score": 159.70013
+ },
+ "MICRO 2019::Towards General-Purpose Acceleration: Finding Structure in Irregularity": {
+  "citations": 3,
+  "year": 2020,
+  "ext": {
+   "MAG": "3016292310",
+   "DBLP": "journals/micro/DaduWLN20",
+   "DOI": "10.1109/MM.2020.2986199",
+   "CorpusId": 218780480
+  },
+  "matched_title": "Towards General-Purpose Acceleration: Finding Structure in Irregularity",
+  "score": 254.54214
+ },
+ "ISCA 2019::Varifocal Storage: Dynamic Multiresolution Data Storage": {
+  "citations": 2,
+  "year": 2020,
+  "ext": {
+   "MAG": "3015878220",
+   "DBLP": "journals/micro/HuLIT20",
+   "DOI": "10.1109/MM.2020.2985955",
+   "CorpusId": 216501729
+  },
+  "matched_title": "Varifocal Storage: Dynamic Multiresolution Data Storage",
+  "score": 233.6419
+ },
+ "ISCA 2019::AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computer": {
+  "citations": 98,
+  "year": 2020,
+  "ext": {
+   "DBLP": "journals/micro/NagendraAACKKKL20",
+   "MAG": "3016855035",
+   "DOI": "10.1109/MM.2020.2986212",
+   "CorpusId": 189818886
+  },
+  "matched_title": "AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computers",
+  "score": 322.51733
+ },
+ "ISCA 2019::Extending the Frontier of Quantum Computers With Qutrits": {
+  "citations": 33,
+  "year": 2020,
+  "ext": {
+   "MAG": "3016803764",
+   "DBLP": "journals/micro/GokhaleBDCBB20",
+   "DOI": "10.1109/MM.2020.2985976",
+   "CorpusId": 218786513
+  },
+  "matched_title": "Extending the Frontier of Quantum Computers With Qutrits",
+  "score": 203.67133
+ },
+ "ISCA 2019::Architecting Noisy Intermediate-Scale Quantum Computers: A Real-System Study": {
+  "citations": 14,
+  "year": 2020,
+  "ext": {
+   "DBLP": "journals/micro/MuraliLMJNA20",
+   "MAG": "3015955120",
+   "DOI": "10.1109/MM.2020.2985683",
+   "CorpusId": 216432773
+  },
+  "matched_title": "Architecting Noisy Intermediate-Scale Quantum Computers: A Real-System Study",
+  "score": 264.7318
+ },
+ "ISCA 2019::Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively A": {
+  "citations": 216,
+  "year": 2019,
+  "ext": {
+   "DBLP": "journals/cacm/YuYKMTF21",
+   "MAG": "2979780468",
+   "DOI": "10.1145/3352460.3358274",
+   "CorpusId": 204732730
+  },
+  "matched_title": "Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data",
+  "score": 334.4897
+ },
+ "MICRO 2019::MicroScope: Enabling Microarchitectural Replay Attacks": {
+  "citations": 79,
+  "year": 2020,
+  "ext": {
+   "MAG": "3016293720",
+   "DBLP": "journals/micro/SkarlatosYGSTF20",
+   "DOI": "10.1109/MM.2020.2986204",
+   "CorpusId": 189818937
+  },
+  "matched_title": "MicroScope: Enabling Microarchitectural Replay Attacks",
+  "score": 209.40883
+ },
+ "MICRO 2019::Creating Foundations for Secure Microarchitectures With Data-Oblivious ISA Exten": {
+  "citations": 4,
+  "year": 2020,
+  "ext": {
+   "MAG": "3016263853",
+   "DBLP": "journals/micro/YuHHF20",
+   "DOI": "10.1109/MM.2020.2985366",
+   "CorpusId": 216339729
+  },
+  "matched_title": "Creating Foundations for Secure Microarchitectures With Data-Oblivious ISA Extensions",
+  "score": 287.8626
+ },
+ "ISCA 2019::Trace Wringing for Program Trace Privacy": {
+  "citations": 2,
+  "year": 2020,
+  "ext": {
+   "DBLP": "journals/micro/DangwalCMS20",
+   "MAG": "3016189373",
+   "DOI": "10.1109/MM.2020.2986113",
+   "CorpusId": 216500466
+  },
+  "matched_title": "Trace Wringing for Program Trace Privacy",
+  "score": 221.79434
+ },
+ "HPCA 2019::The Accelerator Wall: Limits of Chip Specialization": {
+  "citations": 67,
+  "year": 2019,
+  "ext": {
+   "MAG": "2935480346",
+   "DBLP": "conf/hpca/FuchsW19",
+   "DOI": "10.1109/HPCA.2019.00023",
+   "CorpusId": 89617702
+  },
+  "matched_title": "The Accelerator Wall: Limits of Chip Specialization",
+  "score": 207.7075
+ },
+ "MICRO 2019::TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and T": {
+  "citations": 244,
+  "year": 2019,
+  "ext": {
+   "DBLP": "conf/micro/KwonLR19",
+   "MAG": "2979719709",
+   "ArXiv": "1908.03072",
+   "DOI": "10.1145/3352460.3358284",
+   "CorpusId": 199501925
+  },
+  "matched_title": "TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and Tensor Operations in Deep Learning",
+  "score": 298.4301
+ },
+ "MICRO 2019::ComputeDRAM: In-Memory Compute Using Off-the-Shelf DRAMs": {
+  "citations": 223,
+  "year": 2019,
+  "ext": {
+   "MAG": "2979874885",
+   "DBLP": "conf/micro/GaoTW19",
+   "DOI": "10.1145/3352460.3358260",
+   "CorpusId": 204732684
+  },
+  "matched_title": "ComputeDRAM: In-Memory Compute Using Off-the-Shelf DRAMs",
+  "score": 245.38316
+ },
+ "MICRO 2019::NDA: Preventing Speculative Execution Attacks at Their Source": {
+  "citations": 144,
+  "year": 2019,
+  "ext": {
+   "MAG": "2979633637",
+   "DBLP": "conf/micro/WeisseNLWK19",
+   "DOI": "10.1145/3352460.3358306",
+   "CorpusId": 199529878
+  },
+  "matched_title": "NDA: Preventing Speculative Execution Attacks at Their Source",
+  "score": 226.37234
+ },
+ "ISCA 2019::Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems": {
+  "citations": 57,
+  "year": 2019,
+  "ext": {
+   "MAG": "2949302312",
+   "DBLP": "conf/isca/0001SPKK19",
+   "DOI": "10.1145/3307650.3322206",
+   "CorpusId": 189818746
+  },
+  "matched_title": "Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems",
+  "score": 267.0984
+ },
+ "HPCA 2019::D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low L": {
+  "citations": 116,
+  "year": 2018,
+  "ext": {
+   "ArXiv": "1808.04286",
+   "DBLP": "conf/hpca/KimPHOM19",
+   "MAG": "2905808651",
+   "DOI": "10.1109/HPCA.2019.00011",
+   "CorpusId": 56895445
+  },
+  "matched_title": "D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low Latency and High Throughput",
+  "score": 354.18115
+ },
+ "MICRO 2019::Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture": {
+  "citations": 470,
+  "year": 2019,
+  "ext": {
+   "MAG": "2980104813",
+   "DBLP": "conf/micro/ShaoCVZFJKKPRTZ19",
+   "DOI": "10.1145/3352460.3358302",
+   "CorpusId": 202547735
+  },
+  "matched_title": "Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture",
+  "score": 278.82428
+ },
+ "ASPLOS 2019::Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data O": {
+  "citations": 89,
+  "year": 2019,
+  "ext": {
+   "MAG": "2925491732",
+   "DBLP": "conf/asplos/PellauerSCCHVKF19",
+   "DOI": "10.1145/3297858.3304025",
+   "CorpusId": 102346098
+  },
+  "matched_title": "Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration",
+  "score": 299.07333
+ },
+ "MICRO 2019::ExTensor: An Accelerator for Sparse Tensor Algebra": {
+  "citations": 255,
+  "year": 2019,
+  "ext": {
+   "DBLP": "conf/micro/HegdeMPCJSEF19",
+   "MAG": "2979310060",
+   "DOI": "10.1145/3352460.3358275",
+   "CorpusId": 204728563
+  },
+  "matched_title": "ExTensor: An Accelerator for Sparse Tensor Algebra",
+  "score": 205.03017
+ },
+ "ASPLOS 2019::A Formal Analysis of the NVIDIA PTX Memory Consistency Model": {
+  "citations": 63,
+  "year": 2019,
+  "ext": {
+   "MAG": "2935389012",
+   "DBLP": "conf/asplos/LustigSG19",
+   "DOI": "10.1145/3297858.3304043",
+   "CorpusId": 102346467
+  },
+  "matched_title": "A Formal Analysis of the NVIDIA PTX Memory Consistency Model",
+  "score": 244.28195
+ },
+ "PACT 2019::SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels": {
+  "citations": 83,
+  "year": 2019,
+  "ext": {
+   "MAG": "2982776349",
+   "DBLP": "conf/IEEEpact/BarberBZZT19",
+   "DOI": "10.1109/PACT.2019.00020",
+   "CorpusId": 202716139
+  },
+  "matched_title": "SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels",
+  "score": 284.48798
+ },
+ "ISCA 2019::Designing Vertical Processors in Monolithic 3D": {
+  "citations": 36,
+  "year": 2019,
+  "ext": {
+   "MAG": "2953072311",
+   "DBLP": "conf/isca/GopireddyT19",
+   "DOI": "10.1145/3307650.3322233",
+   "CorpusId": 189818733
+  },
+  "matched_title": "Designing Vertical Processors in Monolithic 3D",
+  "score": 180.22974
+ },
+ "HPCA 2019::CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-per-Second Scal": {
+  "citations": 36,
+  "year": 2019,
+  "ext": {
+   "MAG": "2926596943",
+   "DBLP": "conf/hpca/AjdariPKKK19",
+   "DOI": "10.1109/HPCA.2019.00025",
+   "CorpusId": 89617566
+  },
+  "matched_title": "CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-Per-Second Scale SSD Arrays",
+  "score": 358.50592
+ },
+ "MICRO 2019::Practical Byte-Granular Memory Blacklisting using Califorms": {
+  "citations": 38,
+  "year": 2019,
+  "ext": {
+   "DBLP": "conf/micro/SasakiAZBSS19",
+   "MAG": "2948918099",
+   "ArXiv": "1906.01838",
+   "DOI": "10.1145/3352460.3358299",
+   "CorpusId": 174799235
+  },
+  "matched_title": "Practical Byte-Granular Memory Blacklisting using Califorms",
+  "score": 274.6063
+ },
+ "ISCA 2020::The Vision Behind MLPerf: Understanding AI Inference Performance": {
+  "citations": 16,
+  "year": 2021,
+  "ext": {
+   "MAG": "3138037053",
+   "DBLP": "journals/micro/ReddiCKMSW21",
+   "DOI": "10.1109/MM.2021.3066343",
+   "CorpusId": 234327311
+  },
+  "matched_title": "The Vision Behind MLPerf: Understanding AI Inference Performance",
+  "score": 286.8768
+ },
+ "MICRO 2020::Superconductor Computing for Neural Networks": {
+  "citations": 21,
+  "year": 2021,
+  "ext": {
+   "MAG": "3139694755",
+   "DBLP": "journals/micro/IshidaBNFTKTOKI21",
+   "DOI": "10.1109/MM.2021.3070488",
+   "CorpusId": 234163863
+  },
+  "matched_title": "Superconductor Computing for Neural Networks",
+  "score": 129.35338
+ },
+ "ISCA 2020::Leaking Secrets Through Compressed Caches": {
+  "citations": 2,
+  "year": 2021,
+  "ext": {
+   "MAG": "3140468754",
+   "DBLP": "journals/micro/TsaiSFS21",
+   "DOI": "10.1109/MM.2021.3069158",
+   "CorpusId": 234140160
+  },
+  "matched_title": "Leaking Secrets Through Compressed Caches",
+  "score": 207.94658
+ },
+ "ISCA 2020::Understanding Acceleration Opportunities at Hyperscale": {
+  "citations": 3,
+  "year": 2021,
+  "ext": {
+   "DBLP": "journals/micro/SriramanD21",
+   "MAG": "3146584298",
+   "DOI": "10.1109/MM.2021.3066615",
+   "CorpusId": 234243613
+  },
+  "matched_title": "Understanding Acceleration Opportunities at Hyperscale",
+  "score": 176.75406
+ },
+ "ISCA 2020::Accelerating Genomic Data Analytics With Composable Hardware Acceleration Framew": {
+  "citations": 8,
+  "year": 2021,
+  "ext": {
+   "MAG": "3156896167",
+   "DBLP": "journals/micro/HamLSSLBSAOW21",
+   "DOI": "10.1109/MM.2021.3072385",
+   "CorpusId": 234920985
+  },
+  "matched_title": "Accelerating Genomic Data Analytics With Composable Hardware Acceleration Framework",
+  "score": 248.9113
+ },
+ "ISCA 2020::uGEMM: Unary Computing for GEMM Applications": {
+  "citations": 11,
+  "year": 2021,
+  "ext": {
+   "MAG": "3137680490",
+   "DBLP": "journals/micro/WuLYHKM21",
+   "DOI": "10.1109/MM.2021.3065369",
+   "CorpusId": 232436235
+  },
+  "matched_title": "uGEMM: Unary Computing for GEMM Applications",
+  "score": 232.36925
+ },
+ "ASPLOS 2020::BabelFish: Fusing Address Translations for Containers": {
+  "citations": 26,
+  "year": 2020,
+  "ext": {
+   "MAG": "3043023532",
+   "DBLP": "conf/isca/SkarlatosDGKT20",
+   "DOI": "10.1109/ISCA45697.2020.00049",
+   "CorpusId": 218595015
+  },
+  "matched_title": "BabelFish: Fusing Address Translations for Containers",
+  "score": 209.77167
+ },
+ "ISCA 2020::Characterizing and Modeling Nonvolatile Memory Systems": {
+  "citations": 6,
+  "year": 2021,
+  "ext": {
+   "DBLP": "journals/micro/WangLYMSZ21",
+   "DOI": "10.1109/MM.2021.3065305",
+   "CorpusId": 235207400
+  },
+  "matched_title": "Characterizing and Modeling Nonvolatile Memory Systems",
+  "score": 166.30836
+ },
+ "ISCA 2020::Temporal Computing With Superconductors": {
+  "citations": 12,
+  "year": 2021,
+  "ext": {
+   "MAG": "3138700451",
+   "DBLP": "journals/micro/TzimpragosVVTMM21",
+   "DOI": "10.1109/MM.2021.3066377",
+   "CorpusId": 233702162
+  },
+  "matched_title": "Temporal Computing With Superconductors",
+  "score": 108.66504
+ },
+ "HPCA 2020::A Next-Generation Cryogenic Processor Architecture": {
+  "citations": 18,
+  "year": 2021,
+  "ext": {
+   "MAG": "3151271224",
+   "DBLP": "journals/micro/ByunMLNK21",
+   "DOI": "10.1109/MM.2021.3070133",
+   "CorpusId": 234225932
+  },
+  "matched_title": "A Next-Generation Cryogenic Processor Architecture",
+  "score": 177.61093
+ },
+ "ISCA 2020::Balancing Specialized Versus Flexible Computation in Brain-Computer Interfaces": {
+  "citations": 5,
+  "year": 2021,
+  "ext": {
+   "MAG": "3136225654",
+   "DBLP": "journals/micro/KarageorgosSVLW21",
+   "DOI": "10.1109/MM.2021.3065455",
+   "CorpusId": 234116885
+  },
+  "matched_title": "Balancing Specialized Versus Flexible Computation in Brain–Computer Interfaces",
+  "score": 234.97931
+ },
+ "ISCA 2020::Virtual Logical Qubits: A Compact Architecture for Fault-Tolerant Quantum Comput": {
+  "citations": 6,
+  "year": 2021,
+  "ext": {
+   "DBLP": "journals/micro/BakerDSC21",
+   "MAG": "3154480245",
+   "DOI": "10.1109/MM.2021.3072789",
+   "CorpusId": 234970422
+  },
+  "matched_title": "Virtual Logical Qubits: A Compact Architecture for Fault-Tolerant Quantum Computing",
+  "score": 285.95065
+ },
+ "ASPLOS 2020::NeuMMU: Architectural Support for Efficient Address Translations in Neural Proce": {
+  "citations": 31,
+  "year": 2019,
+  "ext": {
+   "MAG": "2982978185",
+   "ArXiv": "1911.06859",
+   "DBLP": "conf/asplos/HyunKCKR20",
+   "DOI": "10.1145/3373376.3378494",
+   "CorpusId": 208139570
+  },
+  "matched_title": "NeuMMU: Architectural Support for Efficient Address Translations in Neural Processing Units",
+  "score": 273.89206
+ },
+ "ASPLOS 2020::Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol": {
+  "citations": 74,
+  "year": 2020,
+  "ext": {
+   "MAG": "3002045478",
+   "DBLP": "journals/corr/abs-2001-09804",
+   "ArXiv": "2001.09804",
+   "DOI": "10.1145/3373376.3378496",
+   "CorpusId": 210921224
+  },
+  "matched_title": "Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol",
+  "score": 260.78354
+ },
+ "ISCA 2020::DSAGEN: Synthesizing Programmable Spatial Accelerators": {
+  "citations": 132,
+  "year": 2020,
+  "ext": {
+   "DBLP": "conf/isca/0002LDWSN20",
+   "MAG": "3042501387",
+   "DOI": "10.1109/ISCA45697.2020.00032",
+   "CorpusId": 219107596
+  },
+  "matched_title": "DSAGEN: Synthesizing Programmable Spatial Accelerators",
+  "score": 206.26022
+ },
+ "MICRO 2020::Printed Machine Learning Classifiers": {
+  "citations": 3,
+  "year": 2025,
+  "ext": {
+   "DBLP": "journals/corr/abs-2501-16828",
+   "ArXiv": "2501.16828",
+   "DOI": "10.23919/DATE64628.2025.10993127",
+   "CorpusId": 275932589
+  },
+  "matched_title": "Late Breaking Results: Energy-Efficient Printed Machine Learning Classifiers with Sequential SVMs",
+  "score": 116.518005
+ },
+ "OSDI 2020::Agamotto: How Persistent is your Persistent Memory Application?": {
+  "citations": 43,
+  "year": 2020,
+  "ext": {
+   "MAG": "3099590534",
+   "DBLP": "conf/osdi/NealRSQKPK20",
+   "CorpusId": 226260400
+  },
+  "matched_title": "AGAMOTTO: How Persistent is your Persistent Memory Application?",
+  "score": 270.3544
+ },
+ "MICRO 2020::Graphene: Strong yet Lightweight Row Hammer Protection": {
+  "citations": 161,
+  "year": 2020,
+  "ext": {
+   "DBLP": "conf/micro/ParkKLHAL20",
+   "MAG": "3105648728",
+   "DOI": "10.1109/MICRO50266.2020.00014",
+   "CorpusId": 222333202
+  },
+  "matched_title": "Graphene: Strong yet Lightweight Row Hammer Protection",
+  "score": 265.80563
+ },
+ "MICRO 2020::Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware C": {
+  "citations": 113,
+  "year": 2020,
+  "ext": {
+   "MAG": "3081216242",
+   "DBLP": "conf/micro/DingGLRPC20",
+   "ArXiv": "2008.09503",
+   "DOI": "10.1109/MICRO50266.2020.00028",
+   "CorpusId": 221246235
+  },
+  "matched_title": "Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware Compilation",
+  "score": 285.92084
+ },
+ "S&P 2020::TRRespass: Exploiting the Many Sides of Target Row Refresh": {
+  "citations": 270,
+  "year": 2020,
+  "ext": {
+   "ArXiv": "2004.01807",
+   "MAG": "3046609696",
+   "DBLP": "conf/sp/FrigoVHVMGBR20",
+   "DOI": "10.1109/SP40000.2020.00090",
+   "CorpusId": 212672573
+  },
+  "matched_title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+  "score": 260.33154
+ },
+ "ISCA 2020::SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Ef": {
+  "citations": 37,
+  "year": 2020,
+  "ext": {
+   "DBLP": "conf/isca/DingWHWFMC20",
+   "MAG": "3106041057",
+   "ArXiv": "2004.08539",
+   "DOI": "10.1109/ISCA45697.2020.00054",
+   "CorpusId": 215827749
+  },
+  "matched_title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+  "score": 332.46063
+ },
+ "HPCA 2020::Leaking Information Through Cache LRU States": {
+  "citations": 76,
+  "year": 2019,
+  "ext": {
+   "ArXiv": "1905.08348",
+   "DBLP": "journals/corr/abs-1905-08348",
+   "MAG": "3016511751",
+   "DOI": "10.1109/HPCA47549.2020.00021",
+   "CorpusId": 160009556
+  },
+  "matched_title": "Leaking Information Through Cache LRU States",
+  "score": 230.82687
+ },
+ "ASPLOS 2020::Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelis": {
+  "citations": 71,
+  "year": 2020,
+  "ext": {
+   "DBLP": "conf/asplos/SkarlatosKXT20",
+   "MAG": "3010795619",
+   "DOI": "10.1145/3373376.3378493",
+   "CorpusId": 210927720
+  },
+  "matched_title": "Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism",
+  "score": 303.0427
+ },
+ "HPCA 2020::The Architectural Implications of Facebook's DNN-based Personalized Recommendati": {
+  "citations": 322,
+  "year": 2019,
+  "ext": {
+   "MAG": "3016842236",
+   "DBLP": "journals/corr/abs-1906-03109",
+   "ArXiv": "1906.03109",
+   "DOI": "10.1109/HPCA47549.2020.00047",
+   "CorpusId": 174801216
+  },
+  "matched_title": "The Architectural Implications of Facebook's DNN-Based Personalized Recommendation",
+  "score": 234.10013
+ },
+ "ISCA 2021::Overclocking in Immersion-Cooled Datacenters": {
+  "citations": 9,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/micro/MisraMCJGRWARTB22",
+   "DOI": "10.1109/mm.2022.3163107",
+   "CorpusId": 247994662
+  },
+  "matched_title": "Overclocking in Immersion-Cooled Datacenters",
+  "score": 194.05934
+ },
+ "ASPLOS 2021::Warehouse-Scale Video Acceleration": {
+  "citations": 59,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/asplos/RanganathanSCDG21",
+   "DOI": "10.1145/3445814.3446723",
+   "CorpusId": 232165381
+  },
+  "matched_title": "Warehouse-scale video acceleration: co-design and deployment in the wild",
+  "score": 145.49106
+ },
+ "ASPLOS 2021::Practical and Scalable ML-Driven Cloud Performance Debugging With Sage": {
+  "citations": 7,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/micro/GanLDLD22",
+   "DOI": "10.1109/mm.2022.3169445",
+   "CorpusId": 248340093
+  },
+  "matched_title": "Practical and Scalable ML-Driven Cloud Performance Debugging With Sage",
+  "score": 277.42267
+ },
+ "HPCA 2021::Chasing Carbon: The Elusive Environmental Footprint of Computing": {
+  "citations": 343,
+  "year": 2020,
+  "ext": {
+   "DBLP": "journals/corr/abs-2011-02839",
+   "MAG": "3096543861",
+   "ArXiv": "2011.02839",
+   "DOI": "10.1109/HPCA51647.2021.00076",
+   "CorpusId": 226254659
+  },
+  "matched_title": "Chasing Carbon: The Elusive Environmental Footprint of Computing",
+  "score": 226.85123
+ },
+ "ISCA 2021::Maya: Using Formal Control to Obfuscate Power Side Channels": {
+  "citations": 4,
+  "year": 2019,
+  "ext": {
+   "DBLP": "conf/isca/PothukuchiPVST21",
+   "MAG": "2967800923",
+   "ArXiv": "1907.09440",
+   "DOI": "10.1109/ISCA52012.2021.00074",
+   "CorpusId": 234501368
+  },
+  "matched_title": "Maya: Using Formal Control to Obfuscate Power Side Channels",
+  "score": 247.99628
+ },
+ "MICRO 2021::An Architecture to Accelerate Computation on Encrypted Data": {
+  "citations": 1,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/micro/FeldmannSKDDPS22",
+   "DOI": "10.1109/MM.2022.3170792",
+   "CorpusId": 250119436
+  },
+  "matched_title": "An Architecture to Accelerate Computation on Encrypted Data",
+  "score": 197.32512
+ },
+ "MICRO 2021::Characterizing and Mitigating Soft Errors in GPU DRAM": {
+  "citations": 50,
+  "year": 2021,
+  "ext": {
+   "DBLP": "journals/micro/SullivanSOLRHTH22",
+   "DOI": "10.1145/3466752.3480111",
+   "CorpusId": 239011578
+  },
+  "matched_title": "Characterizing and Mitigating Soft Errors in GPU DRAM",
+  "score": 224.20901
+ },
+ "MICRO 2021::The Laplace Microarchitecture for Tracking Data Uncertainty": {
+  "citations": 5,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/micro/TsoutsourasKSBM22",
+   "DOI": "10.1109/mm.2022.3166067",
+   "CorpusId": 248133736
+  },
+  "matched_title": "The Laplace Microarchitecture for Tracking Data Uncertainty",
+  "score": 207.19638
+ },
+ "ISCA 2021::Systematically Understanding Graph Accelerator Dimensions and the Value of Hardw": {
+  "citations": 2,
+  "year": 2022,
+  "ext": {
+   "DOI": "10.1109/MM.2022.3160862",
+   "CorpusId": 247646368
+  },
+  "matched_title": "Systematically Understanding Graph Accelerator Dimensions and the Value of Hardware Flexibility",
+  "score": 266.5435
+ },
+ "IISWC 2021::ILLIXR: An Open Testbed to Enable Extended Reality Systems Research": {
+  "citations": 16,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/micro/HuzaifaDGJJLLPR22",
+   "DOI": "10.1109/mm.2022.3161018",
+   "CorpusId": 247690795
+  },
+  "matched_title": "ILLIXR: An Open Testbed to Enable Extended Reality Systems Research",
+  "score": 266.80685
+ },
+ "MICRO 2021::Distributed Data Persistency": {
+  "citations": 7,
+  "year": 2021,
+  "ext": {
+   "DBLP": "journals/micro/KokolisPRHT22",
+   "DOI": "10.1145/3466752.3480060",
+   "CorpusId": 237568778
+  },
+  "matched_title": "Distributed Data Persistency",
+  "score": 95.05033
+ },
+ "ISCA 2021::Vector Runahead for Indirect Memory Accesses": {
+  "citations": 3,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/micro/NaithaniAJE22",
+   "DOI": "10.1109/mm.2022.3163132",
+   "CorpusId": 247829610
+  },
+  "matched_title": "Vector Runahead for Indirect Memory Accesses",
+  "score": 209.28311
+ },
+ "MICRO 2021::GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management": {
+  "citations": 21,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/micro/MuthukrishnanLN21",
+   "DOI": "10.1145/3466752.3480088",
+   "CorpusId": 239011666
+  },
+  "matched_title": "GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management",
+  "score": 270.34088
+ },
+ "ASPLOS 2021::Logical Abstractions for Noisy Variational Quantum Algorithm Simulation": {
+  "citations": 23,
+  "year": 2021,
+  "ext": {
+   "DBLP": "journals/corr/abs-2103-17226",
+   "ArXiv": "2103.17226",
+   "DOI": "10.1145/3445814.3446750",
+   "CorpusId": 232053691
+  },
+  "matched_title": "Logical abstractions for noisy variational Quantum algorithm simulation",
+  "score": 251.05228
+ },
+ "MICRO 2021::A Hardware Accelerator for Protocol Buffers": {
+  "citations": 68,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/micro/KarandikarLKZPN21",
+   "DOI": "10.1145/3466752.3480051",
+   "CorpusId": 239011785
+  },
+  "matched_title": "A Hardware Accelerator for Protocol Buffers",
+  "score": 175.10419
+ },
+ "MICRO 2021::SquiggleFilter: An Accelerator for Portable Virus Detection": {
+  "citations": 54,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/micro/DunnSWGCBDN21",
+   "ArXiv": "2108.06610",
+   "DOI": "10.1145/3466752.3480117",
+   "CorpusId": 237091609
+  },
+  "matched_title": "SquiggleFilter: An Accelerator for Portable Virus Detection",
+  "score": 215.70448
+ },
+ "ISCA 2021::Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Techno": {
+  "citations": 299,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/isca/LeeKLKLSYLLSKOI21",
+   "DOI": "10.1109/ISCA52012.2021.00013",
+   "CorpusId": 235416579
+  },
+  "matched_title": "Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology : Industrial Product",
+  "score": 243.54146
+ },
+ "ASPLOS 2021::Dagger: Efficient and Fast RPCs in Cloud Microservices With Near-Memory Reconfig": {
+  "citations": 70,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/asplos/LazarevXAZD21",
+   "DOI": "10.1145/3445814.3446696",
+   "CorpusId": 232109571
+  },
+  "matched_title": "Dagger: efficient and fast RPCs in cloud microservices with near-memory reconfigurable NICs",
+  "score": 323.59515
+ },
+ "ASPLOS 2021::A Hierarchical Neural Model of Data Prefetching": {
+  "citations": 102,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/asplos/ShiJSHRL21",
+   "DOI": "10.1145/3445814.3446752",
+   "CorpusId": 232165464
+  },
+  "matched_title": "A hierarchical neural model of data prefetching",
+  "score": 169.31152
+ },
+ "HPCA 2021::Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inferenc": {
+  "citations": 180,
+  "year": 2020,
+  "ext": {
+   "MAG": "3092440493",
+   "DBLP": "conf/hpca/ReagenCKLLW021",
+   "DOI": "10.1109/HPCA51647.2021.00013",
+   "CorpusId": 222280851
+  },
+  "matched_title": "Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference",
+  "score": 236.66049
+ },
+ "ISCA 2021::Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Q": {
+  "citations": 50,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/isca/BakerLDHBC21",
+   "ArXiv": "2111.06469",
+   "DOI": "10.1109/ISCA52012.2021.00069",
+   "CorpusId": 235416441
+  },
+  "matched_title": "Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures",
+  "score": 297.86017
+ },
+ "ISCA 2021::Superconducting Computing With Alternating Logic Elements": {
+  "citations": 19,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/isca/TzimpragosVWSS21",
+   "DOI": "10.1109/ISCA52012.2021.00057",
+   "CorpusId": 235415187
+  },
+  "matched_title": "Superconducting Computing with Alternating Logic Elements",
+  "score": 191.58875
+ },
+ "ASPLOS 2021::Robomorphic Computing: A Design Methodology for Domain-Specific Accelerators Par": {
+  "citations": 51,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/asplos/NeumanPBTDR21",
+   "DOI": "10.1145/3445814.3446746",
+   "CorpusId": 232167086
+  },
+  "matched_title": "Robomorphic computing: a design methodology for domain-specific accelerators parameterized by robot morphology",
+  "score": 283.45517
+ },
+ "MICRO 2021::ITSLF: Inter-Thread Store-to-Load Forwarding in Simultaneous Multithreading": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "ISCA 2022::PACMAN: Attacking ARM Pointer Authentication With Speculative Execution": {
+  "citations": 91,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/isca/RavichandranNLY22",
+   "DOI": "10.1145/3470496.3527429",
+   "CorpusId": 249205178
+  },
+  "matched_title": "PACMAN: Attacking ARM Pointer Authentication With Speculative Execution",
+  "score": 290.72104
+ },
+ "USENIX Security 2022::Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86": {
+  "citations": 134,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/micro/WangPHSFK23",
+   "DOI": "10.1109/MM.2023.3274619",
+   "CorpusId": 251793871
+  },
+  "matched_title": "Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86",
+  "score": 310.38156
+ },
+ "ISCA 2022::There's Always a Bigger Fish: A Clarifying Analysis of a Machine-Learning-Assist": {
+  "citations": 25,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/micro/CookDBY23",
+   "DOI": "10.1145/3470496.3527416",
+   "CorpusId": 248914122
+  },
+  "matched_title": "There’s Always a Bigger Fish: A Clarifying Analysis of a Machine-Learning-Assisted Side-Channel Attack",
+  "score": 299.79868
+ },
+ "ASPLOS 2022::Revizor: Testing Black-Box CPUs Against Speculation Contracts": {
+  "citations": 53,
+  "year": 2021,
+  "ext": {
+   "DBLP": "journals/micro/OleksenkoFKS23",
+   "ArXiv": "2105.06872",
+   "DOI": "10.1145/3503222.3507729",
+   "CorpusId": 238407715
+  },
+  "matched_title": "Revizor: Testing Black-Box CPUs Against Speculation Contracts",
+  "score": 280.21088
+ },
+ "HPCA 2022::Effective Mimicry of Belady's MIN Policy": {
+  "citations": 44,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/hpca/ShahJL22",
+   "DOI": "10.1109/HPCA53966.2022.00048",
+   "CorpusId": 246995909
+  },
+  "matched_title": "Effective Mimicry of Belady’s MIN Policy",
+  "score": 231.62819
+ },
+ "MICRO 2022::Revisiting Residue Codes for Modern Memories": {
+  "citations": 28,
+  "year": 2021,
+  "ext": {
+   "DBLP": "conf/micro/ManzhosovHPPZS22",
+   "ArXiv": "2107.09245",
+   "DOI": "10.1109/MICRO56248.2022.00020",
+   "CorpusId": 253122344
+  },
+  "matched_title": "Revisiting Residue Codes for Modern Memories",
+  "score": 184.29488
+ },
+ "HPCA 2022::HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols": {
+  "citations": 14,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/hpca/OswaldNSGOC22",
+   "DOI": "10.1109/HPCA53966.2022.00061",
+   "CorpusId": 245424123
+  },
+  "matched_title": "HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols",
+  "score": 246.72585
+ },
+ "MICRO 2022::Online Code Layout Optimizations via OCOLOS": {
+  "citations": 1,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/micro/ZhangKPKLD23",
+   "DOI": "10.1109/MM.2023.3274758",
+   "CorpusId": 258648868
+  },
+  "matched_title": "Online Code Layout Optimizations via OCOLOS",
+  "score": 222.98047
+ },
+ "ASPLOS 2022::IOCost: Block Input-Output Control for Containers in Datacenters": {
+  "citations": 0,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/micro/HeoSNLDNBMTS23",
+   "DOI": "10.1109/MM.2023.3277783",
+   "CorpusId": 259278508
+  },
+  "matched_title": "IOCost: Block Input–Output Control for Containers in Datacenters",
+  "score": 245.94913
+ },
+ "ISCA 2022::EyeCoD: Eye Tracking System Acceleration via FlatCam-Based Algorithm and Hardwar": {
+  "citations": 6,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/micro/YouZWYFYWZZLBVLL23",
+   "DOI": "10.1109/MM.2023.3274736",
+   "CorpusId": 258646633
+  },
+  "matched_title": "EyeCoD: Eye Tracking System Acceleration via FlatCam-Based Algorithm and Hardware Co-Design",
+  "score": 303.5962
+ },
+ "MICRO 2022::Toward Developing High-Performance RISC-V Processors Using Agile Methodology": {
+  "citations": 1,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/micro/XuYTCHHSB23",
+   "DOI": "10.1109/MM.2023.3273562",
+   "CorpusId": 259278974
+  },
+  "matched_title": "Toward Developing High-Performance RISC-V Processors Using Agile Methodology",
+  "score": 274.03677
+ },
+ "ISCA 2022::Architectural CO2 Footprint Tool: Designing Sustainable Computer Systems With an": {
+  "citations": 8,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/micro/GuptaEHWLBW23",
+   "DOI": "10.1109/MM.2023.3275139",
+   "CorpusId": 259279487
+  },
+  "matched_title": "Architectural CO2 Footprint Tool: Designing Sustainable Computer Systems With an Architectural Carbon Modeling Tool",
+  "score": 313.46335
+ },
+ "HPCA 2022::SupermarQ: A Scalable Quantum Benchmark Suite": {
+  "citations": 178,
+  "year": 2022,
+  "ext": {
+   "DBLP": "journals/corr/abs-2202-11045",
+   "ArXiv": "2202.11045",
+   "DOI": "10.1109/HPCA53966.2022.00050",
+   "CorpusId": 247025581
+  },
+  "matched_title": "SupermarQ: A Scalable Quantum Benchmark Suite",
+  "score": 203.00903
+ },
+ "ASPLOS 2022::FlexDriver: A Network Driver for Your Accelerator": {
+  "citations": 20,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/asplos/EranFMSCHLLS22",
+   "DOI": "10.1145/3503222.3507776",
+   "CorpusId": 247026996
+  },
+  "matched_title": "FlexDriver: a network driver for your accelerator",
+  "score": 202.03387
+ },
+ "ASPLOS 2022::Taurus: A Data Plane Architecture for Per-Packet ML": {
+  "citations": 114,
+  "year": 2020,
+  "ext": {
+   "ArXiv": "2002.08987",
+   "DBLP": "conf/asplos/SwamyR0GO22",
+   "DOI": "10.1145/3503222.3507726",
+   "CorpusId": 246077311
+  },
+  "matched_title": "Taurus: a data plane architecture for per-packet ML",
+  "score": 242.45029
+ },
+ "ISCA 2022::A Software-Defined Tensor Streaming Multiprocessor for Large-Scale Machine Learn": {
+  "citations": 64,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/isca/AbtsKLKBBPADHTB22",
+   "DOI": "10.1145/3470496.3527405",
+   "CorpusId": 249205420
+  },
+  "matched_title": "A software-defined tensor streaming multiprocessor for large-scale machine learning",
+  "score": 268.72897
+ },
+ "ISCA 2022::EDAM: Edit Distance Tolerant Approximate Matching Content Addressable Memory": {
+  "citations": 34,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/isca/HanhanGJTLY22",
+   "DOI": "10.1145/3470496.3527424",
+   "CorpusId": 249205185
+  },
+  "matched_title": "EDAM: edit distance tolerant approximate matching content addressable memory",
+  "score": 293.3586
+ },
+ "ISCA 2022::Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model": {
+  "citations": 6,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/isca/LustigCG22",
+   "DOI": "10.1145/3470496.3533045",
+   "CorpusId": 249205268
+  },
+  "matched_title": "Mixed-proxy extensions for the NVIDIA PTX memory consistency model: industrial product",
+  "score": 273.6083
+ },
+ "ISCA 2022::Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore": {
+  "citations": 28,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/isca/Orenes-VeraMB0A22",
+   "DOI": "10.1145/3470496.3527400",
+   "CorpusId": 248941973
+  },
+  "matched_title": "Tiny but mighty: designing and realizing scalable latency tolerance for manycore SoCs",
+  "score": 305.10947
+ },
+ "ISCA 2022::Lukewarm Serverless Functions: Characterization and Optimization": {
+  "citations": 39,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/isca/SchallMUSG22",
+   "DOI": "10.1145/3470496.3527390",
+   "CorpusId": 248912644
+  },
+  "matched_title": "Lukewarm serverless functions: characterization and optimization",
+  "score": 187.19022
+ },
+ "ISCA 2022::SNS's Not a Synthesizer: A Deep-Learning-Based Synthesis Predictor": {
+  "citations": 32,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/isca/XuKW22",
+   "DOI": "10.1145/3470496.3527444",
+   "CorpusId": 249205402
+  },
+  "matched_title": "SNS's not a synthesizer: a deep-learning-based synthesis predictor",
+  "score": 221.75763
+ },
+ "MICRO 2022::ANT: Exploiting Adaptive Numerical Data Type for Low-Bit Deep Neural Network Qua": {
+  "citations": 106,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/micro/00030LL0LG022",
+   "ArXiv": "2208.14286",
+   "DOI": "10.1109/MICRO56248.2022.00095",
+   "CorpusId": 251928917
+  },
+  "matched_title": "ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization",
+  "score": 278.34082
+ },
+ "MICRO 2022::Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles": {
+  "citations": 29,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/micro/KrishnanWBWFNW022",
+   "DOI": "10.1109/MICRO56248.2022.00033",
+   "CorpusId": 253123272
+  },
+  "matched_title": "Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles",
+  "score": 258.22266
+ },
+ "MICRO 2022::Datamime: Generating Representative Benchmarks by Automatically Synthesizing Dat": {
+  "citations": 3,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/micro/Lee022",
+   "DOI": "10.1109/MICRO56248.2022.00082",
+   "CorpusId": 253124535
+  },
+  "matched_title": "Datamime: Generating Representative Benchmarks by Automatically Synthesizing Datasets",
+  "score": 277.68542
+ },
+ "MICRO 2023::Simultaneous and heterogenous multithreading: Exploiting simultaneous and hetero": {
+  "citations": 2,
+  "year": 2023,
+  "ext": {
+   "DBLP": "conf/micro/Hsu023",
+   "DOI": "10.1109/MM.2024.3414941",
+   "CorpusId": 266085243
+  },
+  "matched_title": "Simultaneous and Heterogenous Multithreading: Exploiting Simultaneous and Heterogeneous Parallelism in Accelerator-Rich Architectures",
+  "score": 347.07642
+ },
+ "ISCA 2023::Decoupled vector runahead for prefetching nested memory-access chains": {
+  "citations": 3,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/micro/NaithaniRAJE24",
+   "DOI": "10.1109/MM.2024.3406891",
+   "CorpusId": 270231137
+  },
+  "matched_title": "Decoupled Vector Runahead for Prefetching Nested Memory-Access Chains",
+  "score": 300.16626
+ },
+ "HPCA 2023::Per-instruction cycle stacks through time-proportional event analysis": {
+  "citations": 3,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/micro/GottschallEJ24",
+   "DOI": "10.1109/MM.2024.3407377",
+   "CorpusId": 270340346
+  },
+  "matched_title": "Per-Instruction Cycle Stacks Through Time-Proportional Event Analysis",
+  "score": 281.74173
+ },
+ "ISCA 2023::End-to-end cloud application cloning with Ditto": {
+  "citations": 0,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/micro/LiangGLTDKD24",
+   "DOI": "10.1109/MM.2024.3419067",
+   "CorpusId": 270908836
+  },
+  "matched_title": "End-to-End Cloud Application Cloning With Ditto",
+  "score": 236.22482
+ },
+ "ASPLOS 2023::Contiguitas: The pursuit of physical memory contiguity in data centers": {
+  "citations": 21,
+  "year": 2023,
+  "ext": {
+   "DBLP": "conf/isca/ZhaoXWSYMWRST023",
+   "DOI": "10.1109/MM.2024.3406933",
+   "CorpusId": 259177678
+  },
+  "matched_title": "Contiguitas: The Pursuit of Physical Memory Contiguity in Data Centers",
+  "score": 267.46732
+ },
+ "ASPLOS 2023::Mosaic pages: Big TLB reach with small pages": {
+  "citations": 29,
+  "year": 2023,
+  "ext": {
+   "DBLP": "conf/asplos/GosakanHKMMSTWB23",
+   "DOI": "10.1145/3582016.3582021",
+   "CorpusId": 257043334
+  },
+  "matched_title": "Mosaic Pages: Big TLB Reach With Small Pages",
+  "score": 271.6778
+ },
+ "ISCA 2023::RowPress vulnerability in modern DRAM chips": {
+  "citations": 6,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/corr/abs-2406-16153",
+   "ArXiv": "2406.16153",
+   "DOI": "10.1109/MM.2024.3409521",
+   "CorpusId": 270531170
+  },
+  "matched_title": "RowPress Vulnerability in Modern DRAM Chips",
+  "score": 204.32224
+ },
+ "USENIX Security 2023::Hardware-assisted fault isolation: Going beyond the limits of software-based san": {
+  "citations": 3,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/micro/NarayanGTRMJFVLSTS24",
+   "DOI": "10.1109/MM.2024.3422977",
+   "CorpusId": 272401865
+  },
+  "matched_title": "Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing",
+  "score": 272.75885
+ },
+ "MICRO 2023::Practical online reinforcement learning for microprocessors with micro-armed ban": {
+  "citations": 1,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/micro/GerogiannisT24",
+   "DOI": "10.1109/MM.2024.3408719",
+   "CorpusId": 270300548
+  },
+  "matched_title": "Practical Online Reinforcement Learning for Microprocessors With Micro-Armed Bandit",
+  "score": 256.2957
+ },
+ "ISCA 2023::Programmable olfactory computing": {
+  "citations": 1,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/micro/BleierWVK24",
+   "DOI": "10.1145/3579371.3589061",
+   "CorpusId": 259178177
+  },
+  "matched_title": "Programmable Olfactory Computing",
+  "score": 110.28411
+ },
+ "ISCA 2023::AuRORA: A full-stack solution for scalable and virtualized accelerator integrati": {
+  "citations": 4,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/micro/KimZANS24",
+   "DOI": "10.1109/MM.2024.3409546",
+   "CorpusId": 270500117
+  },
+  "matched_title": "AuRORA: A Full-Stack Solution for Scalable and Virtualized Accelerator Integration",
+  "score": 263.34796
+ },
+ "ASPLOS 2023::Distributed brain-computer interfacing with a networked multiaccelerator archite": {
+  "citations": 4,
+  "year": 2024,
+  "ext": {
+   "DBLP": "journals/micro/PothukuchiSGUMKB24",
+   "DOI": "10.1109/MM.2024.3411881",
+   "CorpusId": 270724139
+  },
+  "matched_title": "Distributed Brain–Computer Interfacing With a Networked Multiaccelerator Architecture",
+  "score": 234.82672
+ },
+ "ASPLOS 2023::Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine": {
+  "citations": 17,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/asplos/Xiao023",
+   "ArXiv": "2211.14647",
+   "DOI": "10.1145/3575693.3575700",
+   "CorpusId": 254044381
+  },
+  "matched_title": "Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers",
+  "score": 316.5952
+ },
+ "ISCA 2023::Astrea: Accurate Quantum Error-Decoding Via Practical Minimum-Weight Perfect-Mat": {
+  "citations": 57,
+  "year": 2023,
+  "ext": {
+   "DBLP": "conf/isca/Vittal0Q23",
+   "DOI": "10.1145/3579371.3589037",
+   "CorpusId": 259177939
+  },
+  "matched_title": "Astrea: Accurate Quantum Error-Decoding via Practical Minimum-Weight Perfect-Matching",
+  "score": 342.93256
+ },
+ "ISCA 2023::SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM": {
+  "citations": 27,
+  "year": 2023,
+  "ext": {
+   "DBLP": "conf/isca/GerogiannisYLCM23",
+   "DOI": "10.1145/3579371.3589054",
+   "CorpusId": 258182804
+  },
+  "matched_title": "SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM",
+  "score": 284.8946
+ },
+ "ISCA 2023::uManycore: A Cloud-Native CPU for Tail at Scale": {
+  "citations": null,
+  "matched_title": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters": {
+  "citations": 166,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/asplos/AcunLKMGC0W23",
+   "ArXiv": "2201.10036",
+   "DOI": "10.1145/3575693.3575754",
+   "CorpusId": 249018300
+  },
+  "matched_title": "Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",
+  "score": 259.082
+ },
+ "MICRO 2023::Space Microdatacenters": {
+  "citations": 1,
+  "year": 2025,
+  "ext": {
+   "DBLP": "conf/hpca/BleierELK25",
+   "DOI": "10.1109/HPCA61900.2025.00099",
+   "CorpusId": 277634950
+  },
+  "matched_title": "Architecting Space Microdatacenters: A System-level Approach",
+  "score": 73.38564
+ },
+ "ASPLOS 2023::Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic": {
+  "citations": 9,
+  "year": 2023,
+  "ext": {
+   "DBLP": "conf/asplos/Zhao0FT23",
+   "DOI": "10.1145/3582016.3582033",
+   "CorpusId": 257225297
+  },
+  "matched_title": "Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes",
+  "score": 291.81497
+ },
+ "ASPLOS 2023::Pond: CXL-Based Memory Pooling Systems for Cloud Platforms": {
+  "citations": 429,
+  "year": 2022,
+  "ext": {
+   "ArXiv": "2203.00241",
+   "DBLP": "conf/asplos/LiBHEZNSRLAHFB23",
+   "DOI": "10.1145/3575693.3578835",
+   "CorpusId": 252907213
+  },
+  "matched_title": "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms",
+  "score": 240.91376
+ },
+ "ASPLOS 2023::TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory": {
+  "citations": 300,
+  "year": 2022,
+  "ext": {
+   "DBLP": "conf/asplos/MarufWDWABPCKC23",
+   "ArXiv": "2206.02878",
+   "DOI": "10.1145/3582016.3582063",
+   "CorpusId": 249431676
+  },
+  "matched_title": "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory",
+  "score": 280.3296
+ },
+ "MICRO 2023::Clockhands: Rename-Free Instruction Set Architecture for Out-of-Order Processors": {
+  "citations": 3,
+  "year": 2023,
+  "ext": {
+   "DBLP": "conf/micro/0001SSADKIS23",
+   "DOI": "10.1145/3613424.3614272",
+   "CorpusId": 265053540
+  },
+  "matched_title": "Clockhands: Rename-free Instruction Set Architecture for Out-of-order Processors",
+  "score": 301.6504
+ },
+ "ASPLOS 2023::MP-Rec: Hardware-Software Co-design to Enable Multi-Path Recommendation": {
+  "citations": 20,
+  "year": 2023,
+  "ext": {
+   "DBLP": "journals/corr/abs-2302-10872",
+   "ArXiv": "2302.10872",
+   "DOI": "10.1145/3582016.3582068",
+   "CorpusId": 257050263
+  },
+  "matched_title": "MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation",
+  "score": 302.22827
+ },
+ "MICRO 2023::TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators": {
+  "citations": 27,
+  "year": 2023,
+  "ext": {
+   "ArXiv": "2304.07931",
+   "DBLP": "conf/micro/NayakOUFPE23",
+   "DOI": "10.1145/3613424.3623791",
+   "CorpusId": 258179238
+  },
+  "matched_title": "TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators",
+  "score": 242.58989
+ }
+}
