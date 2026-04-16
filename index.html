@@ -10,6 +10,7 @@
       gtag('js', new Date());
       gtag('config', 'G-3WQJSWMZ7Z');
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
     <title>Computer Architecture Hall of Fame</title>
     <style>
         :root {
@@ -49,6 +50,10 @@
         .updates-list li { font-size: 0.78rem; color: var(--text-muted); padding: 0.2rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
         .updates-list li:last-child { border-bottom: none; }
         .updates-list .upd-date { color: var(--gold); font-weight: 600; margin-right: 0.5rem; }
+
+        .ar-btn { background: var(--surface); border: 1px solid var(--surface2); border-radius: 6px; color: var(--text-muted); font-size: 0.8rem; padding: 0.4rem 0.8rem; cursor: pointer; transition: all 0.2s; }
+        .ar-btn:hover { color: var(--text); border-color: var(--gold); }
+        .ar-btn.active { color: var(--gold); border-color: var(--gold); background: rgba(245,158,11,0.1); }
 
         .tabs { display: flex; gap: 0.2rem; flex-wrap: wrap; border-bottom: 2px solid var(--surface2); }
         .tab { padding: 0.6rem 1.2rem; border: none; background: transparent; color: var(--text-muted); font-size: 0.9rem; font-weight: 600; cursor: pointer; border-bottom: 3px solid transparent; position: relative; bottom: -2px; transition: all 0.2s; }
@@ -163,6 +168,7 @@
         <button class="tab" data-tab="hpca">HPCA</button>
         <button class="tab" data-tab="toppicks">Top Picks</button>
         <button class="tab" data-tab="hm">Honorable Mentions</button>
+        <button class="tab" data-tab="acceptance">Acceptance Rates</button>
     </div>
     <div class="controls">
         <input type="text" class="search-box" id="searchBox" placeholder="Search by name...">
@@ -222,6 +228,19 @@
         <div class="heatmap-wrap"><table class="simple-table" id="table-hm-papers"><thead><tr>
             <th style="width:50px">Year</th><th>Title</th><th>Authors</th><th style="width:110px">Conference</th>
         </tr></thead><tbody></tbody></table></div>
+    </div>
+    <div class="tab-panel" id="panel-acceptance">
+        <div class="conf-info"><strong>Acceptance Rates</strong> &mdash; Submissions and acceptance rates for HPCA, MICRO, ISCA, and ASPLOS over the years. Sources: <a href="https://github.com/emeryberger/csconferences" target="_blank">csconferences</a>, <a href="https://openaccept.org" target="_blank">OpenAccept</a>.</div>
+        <div style="display:flex;gap:0.5rem;margin:0.5rem 0;flex-wrap:wrap">
+            <button class="ar-btn active" onclick="showAccChart('rate')">Acceptance Rate (%)</button>
+            <button class="ar-btn" onclick="showAccChart('count')">Submissions &amp; Accepted</button>
+        </div>
+        <div style="background:var(--surface);border-radius:8px;padding:1rem;max-width:1200px">
+            <canvas id="accChart" height="400"></canvas>
+        </div>
+        <div style="margin-top:1rem;overflow-x:auto">
+            <table class="simple-table" id="accTable"><thead></thead><tbody></tbody></table>
+        </div>
     </div>
 </div>
 <footer>
@@ -745,6 +764,141 @@ document.querySelectorAll('.tab').forEach(tab => {
 // Init
 renderStats();
 renderAll();
+
+// Acceptance Rates Chart
+let accChart = null;
+let accMode = 'rate';
+
+function showAccChart(mode) {
+    accMode = mode;
+    document.querySelectorAll('.ar-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    renderAccChart();
+}
+
+function renderAccChart() {
+    const ctx = document.getElementById('accChart');
+    if (!ctx) return;
+    if (accChart) accChart.destroy();
+
+    const venues = ['hpca','micro','isca','asplos'];
+    const colors = {hpca:'#3b82f6',micro:'#8b5cf6',isca:'#10b981',asplos:'#f43f5e'};
+    const labels = {hpca:'HPCA',micro:'MICRO',isca:'ISCA',asplos:'ASPLOS'};
+
+    // Collect all years
+    const allYears = new Set();
+    venues.forEach(v => {
+        if (DATA.acceptance[v]) DATA.acceptance[v].forEach(d => allYears.add(d.year));
+    });
+    const years = [...allYears].sort((a,b) => a-b);
+
+    const datasets = [];
+    if (accMode === 'rate') {
+        venues.forEach(v => {
+            const map = {};
+            if (DATA.acceptance[v]) DATA.acceptance[v].forEach(d => { map[d.year] = Math.round(d.acc/d.sub*1000)/10; });
+            datasets.push({
+                label: labels[v],
+                data: years.map(y => map[y] || null),
+                borderColor: colors[v],
+                backgroundColor: colors[v] + '33',
+                borderWidth: 2,
+                pointRadius: 3,
+                tension: 0.3,
+                spanGaps: true
+            });
+        });
+    } else {
+        venues.forEach(v => {
+            const mapS = {}, mapA = {};
+            if (DATA.acceptance[v]) DATA.acceptance[v].forEach(d => { mapS[d.year] = d.sub; mapA[d.year] = d.acc; });
+            datasets.push({
+                label: labels[v] + ' Submitted',
+                data: years.map(y => mapS[y] || null),
+                borderColor: colors[v],
+                backgroundColor: 'transparent',
+                borderWidth: 2,
+                borderDash: [5,3],
+                pointRadius: 2,
+                tension: 0.3,
+                spanGaps: true
+            });
+            datasets.push({
+                label: labels[v] + ' Accepted',
+                data: years.map(y => mapA[y] || null),
+                borderColor: colors[v],
+                backgroundColor: colors[v] + '33',
+                borderWidth: 2,
+                pointRadius: 3,
+                tension: 0.3,
+                spanGaps: true,
+                fill: true
+            });
+        });
+    }
+
+    accChart = new Chart(ctx, {
+        type: 'line',
+        data: { labels: years, datasets },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'top', labels: { color: '#94a3b8', font: { size: 11 } } },
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            if (accMode === 'rate') return ctx.dataset.label + ': ' + ctx.parsed.y + '%';
+                            return ctx.dataset.label + ': ' + ctx.parsed.y;
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+                y: {
+                    ticks: {
+                        color: '#94a3b8',
+                        callback: function(v) { return accMode === 'rate' ? v + '%' : v; }
+                    },
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // Also render table
+    renderAccTable(years, venues, labels);
+}
+
+function renderAccTable(years, venues, labels) {
+    const thead = document.querySelector('#accTable thead');
+    const tbody = document.querySelector('#accTable tbody');
+    thead.innerHTML = '<tr><th>Year</th>' + venues.map(v =>
+        `<th colspan="3" style="text-align:center">${labels[v]}</th>`
+    ).join('') + '</tr><tr><th></th>' + venues.map(() =>
+        '<th style="font-size:0.7rem">Sub</th><th style="font-size:0.7rem">Acc</th><th style="font-size:0.7rem">Rate</th>'
+    ).join('') + '</tr>';
+
+    tbody.innerHTML = years.map(y => {
+        const cells = venues.map(v => {
+            const d = DATA.acceptance[v] ? DATA.acceptance[v].find(x => x.year === y) : null;
+            if (!d) return '<td>-</td><td>-</td><td>-</td>';
+            const rate = Math.round(d.acc/d.sub*1000)/10;
+            return `<td>${d.sub}</td><td>${d.acc}</td><td>${rate}%</td>`;
+        }).join('');
+        return `<tr><td style="font-weight:600">${y}</td>${cells}</tr>`;
+    }).join('');
+}
+
+// Initialize chart when tab is shown
+const origTabClick = document.querySelectorAll('.tab');
+origTabClick.forEach(tab => {
+    tab.addEventListener('click', () => {
+        if (tab.dataset.tab === 'acceptance') setTimeout(renderAccChart, 50);
+    });
+});
 </script>
 </body>
 </html>
