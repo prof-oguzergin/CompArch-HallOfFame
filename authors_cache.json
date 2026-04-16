@@ -1,0 +1,4533 @@
+{
+ "ISCA 2024::Assessing processor sustainability using the first-order FOCAL carbon model": {
+  "ss_title": "Assessing Processor Sustainability Using the First-Order FOCAL Carbon Model",
+  "ss_authors": [
+   "L. Eeckhout"
+  ],
+  "year": 2025
+ },
+ "ASPLOS 2024::Enabling sustainable cloud computing with low-carbon server design": {
+  "ss_title": "Enabling Sustainable Cloud Computing With Low-Carbon Server Design",
+  "ss_authors": [
+   "Jaylen Wang",
+   "Daniel S. Berger",
+   "Fiodar Kazhamiaka",
+   "Celine Irvene",
+   "Chaojie Zhang",
+   "Esha Choukse",
+   "Kali Frost",
+   "Rodrigo Fonseca",
+   "Brijesh Warrier",
+   "Chetan Bansal",
+   "Jonathan Stern",
+   "Ricardo Bianchini",
+   "Akshitha Sriraman"
+  ],
+  "year": 2025
+ },
+ "ASPLOS 2024::Hardware-assisted virtualization of neural processing units for cloud platforms": {
+  "ss_title": "Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms",
+  "ss_authors": [
+   "Yu Xue",
+   "Yiqi Liu",
+   "Lifeng Nai",
+   "Jian Huang"
+  ],
+  "year": 2024
+ },
+ "ISCA 2024::Waferscale network switches": {
+  "ss_title": "Waferscale Network Switches",
+  "ss_authors": [
+   "Shuangliang Chen",
+   "Saptadeep Pal",
+   "Rakesh Kumar"
+  ],
+  "year": 2024
+ },
+ "MICRO 2024::From TeAAL to FuseMax: Separation of concerns for attention accelerator design": {
+  "ss_title": "From TeAAL to FuseMax: Separation of Concerns for Attention Accelerator Design",
+  "ss_authors": [
+   "Nandeeka Nayak",
+   "T. Odemuyiwa",
+   "Xinrui Wu",
+   "Michael Pellauer",
+   "J. Emer",
+   "Christopher W. Fletcher"
+  ],
+  "year": 2025
+ },
+ "ISCA 2024::Splitwise: Efficient generative LLM inference using phase splitting": {
+  "ss_title": "Splitwise: Efficient Generative LLM Inference Using Phase Splitting",
+  "ss_authors": [
+   "P. Patel",
+   "Esha Choukse",
+   "Chaojie Zhang",
+   "Íñigo Goiri",
+   "Aashaka Shah",
+   "Saeed Maleki",
+   "Ricardo Bianchini"
+  ],
+  "year": 2023
+ },
+ "ASPLOS 2024::Automated high-level code optimization for warehouse performance": {
+  "ss_title": "Automated High-Level Code Optimization for Warehouse Performance",
+  "ss_authors": [
+   "Alexander Shypula",
+   "Aman Madaan",
+   "Yimeng Zeng",
+   "Uri Alon",
+   "Jacob R. Gardner",
+   "Milad Hashemi",
+   "Graham Neubig",
+   "Parthasarathy Ranganathan",
+   "O. Bastani",
+   "Amir Yazdanbakhsh"
+  ],
+  "year": 2025
+ },
+ "ISCA 2024::Scalar vector runahead: Removing the shackles of indirect memory chains on in-or": {
+  "ss_title": "Scalar Vector Runahead: Removing the Shackles of Indirect Memory Chains on In-Order Cores",
+  "ss_authors": [
+   "Jaime Roelandts",
+   "Ajeya Naithani",
+   "Sam Ainsworth",
+   "Timothy M. Jones",
+   "L. Eeckhout"
+  ],
+  "year": 2025
+ },
+ "ISCA 2024::BlitzCoin: A decentralized hardware solution for power management of highly hete": {
+  "ss_title": "BlitzCoin: A Decentralized Hardware Solution for Power Management of Highly Heterogeneous Systems on Chip",
+  "ss_authors": [
+   "Martin Cochet",
+   "Karthik Swaminathan",
+   "E. Loscalzo",
+   "Joseph Zuckerman",
+   "Maico Cassel dos Santos",
+   "Davide Giri",
+   "A. Buyuktosunoglu",
+   "Tianyu Jia",
+   "David Brooks",
+   "Gu-Yeon Wei",
+   "Kenneth L. Shepard",
+   "Luca P. Carloni",
+   "P. Bose"
+  ],
+  "year": 2025
+ },
+ "ISCA 2024::Delay-space arithmetic and architecture": {
+  "ss_title": "Delay-Space Arithmetic and Architecture",
+  "ss_authors": [
+   "Rhys Gretsch",
+   "Peiyang Song",
+   "A. Madhavan",
+   "Jeremy Lau",
+   "Timothy Sherwood"
+  ],
+  "year": 2025
+ },
+ "HPCA 2024::From colocation to exfiltration: Practical cache side-channel attacks in the mod": {
+  "ss_title": "From Colocation to Exfiltration: Practical Cache Side-Channel Attacks in the Modern Public Cloud",
+  "ss_authors": [
+   "Zirui Neil Zhao",
+   "Adam Morrison",
+   "Christopher W. Fletcher",
+   "J. Torrellas"
+  ],
+  "year": 2025
+ },
+ "ISCA 2024::MAD Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration o": {
+  "ss_title": "MAD-Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems",
+  "ss_authors": [
+   "Samuel Hsia",
+   "Alicia Golden",
+   "Bilge Acun",
+   "Newsha Ardalani",
+   "Zach DeVito",
+   "Gu-Yeon Wei",
+   "David Brooks",
+   "Carole-Jean Wu"
+  ],
+  "year": 2023
+ },
+ "USENIX Security 2024::Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indire": {
+  "ss_title": "Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor",
+  "ss_authors": [
+   "Luyi Li",
+   "Hosein Yavarzadeh",
+   "D. Tullsen"
+  ],
+  "year": 2024
+ },
+ "MICRO 2024::Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design": {
+  "ss_title": "Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design",
+  "ss_authors": [
+   "Nikola Samardzic",
+   "Simon Langowski",
+   "Srinivas Devadas",
+   "Daniel Sánchez"
+  ],
+  "year": 2024
+ },
+ "ISCA 2024::Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tens": {
+  "ss_title": null,
+  "ss_authors": [],
+  "error": "404"
+ },
+ "ISCA 2024::Native DRAM Cache: Re-Architecting DRAM as a Large-Scale Cache for Data Centers": {
+  "ss_title": "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers",
+  "ss_authors": [
+   "Yesin Ryu",
+   "Yoojin Kim",
+   "Giyong Jung",
+   "Jung Ho Ahn",
+   "Jungrae Kim"
+  ],
+  "year": 2024
+ },
+ "HPCA 2024::Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology": {
+  "ss_title": "Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology",
+  "ss_authors": [
+   "Bongjoon Hyun",
+   "Taehun Kim",
+   "Dongjae Lee",
+   "Minsoo Rhu"
+  ],
+  "year": 2023
+ },
+ "ASPLOS 2024::Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs": {
+  "ss_title": "Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs",
+  "ss_authors": [
+   "Zhewen Pan",
+   "Joshua San Miguel",
+   "Di Wu"
+  ],
+  "year": 2024
+ },
+ "MICRO 2024::DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults": {
+  "ss_title": "DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults",
+  "ss_authors": [
+   "Peter W. Deutsch",
+   "V. Ulitzsch",
+   "S. Gurumurthi",
+   "Vilas Sridharan",
+   "J. Emer",
+   "Mengjia Yan"
+  ],
+  "year": 2024
+ },
+ "MICRO 2024::A Case for Speculative Address Translation With Rapid Validation for GPUs": {
+  "ss_title": "A Case for Speculative Address Translation with Rapid Validation for GPUs",
+  "ss_authors": [
+   "Junhyeok Park",
+   "Osang Kwon",
+   "Yongho Lee",
+   "Seongwook Kim",
+   "Gwang-Jun Byeon",
+   "Jihun Yoon",
+   "Prashant J. Nair",
+   "Seokin Hong"
+  ],
+  "year": 2024
+ },
+ "ASPLOS 2024::Tandem Processor: Grappling With Emerging Operators in Neural Networks": {
+  "ss_title": "Tandem Processor: Grappling with Emerging Operators in Neural Networks",
+  "ss_authors": [
+   "Soroush Ghodrati",
+   "Sean Kinzer",
+   "Hanyang Xu",
+   "R. Mahapatra",
+   "Yoonsung Kim",
+   "Byung Hoon Ahn",
+   "Dong Kai Wang",
+   "Lavanya Karthikeyan",
+   "A. Yazdanbakhsh",
+   "Jongse Park",
+   "Nam Sung Kim",
+   "H. Esmaeilzadeh"
+  ],
+  "year": 2024
+ },
+ "ASPLOS 2024::SpotServe: Serving Generative Large Language Models on Preemptible Instances": {
+  "ss_title": "SpotServe: Serving Generative Large Language Models on Preemptible Instances",
+  "ss_authors": [
+   "Xupeng Miao",
+   "Chunan Shi",
+   "Jiangfei Duan",
+   "Xiaoli Xi",
+   "Dahua Lin",
+   "Bin Cui",
+   "Zhihao Jia"
+  ],
+  "year": 2023
+ },
+ "MICRO 2024::MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker": {
+  "ss_title": "MINT: Securely Mitigating Rowhammer with a Minimalist in-DRAM Tracker",
+  "ss_authors": [
+   "Moinuddin K. Qureshi",
+   "Salman Qazi",
+   "A. Jaleel"
+  ],
+  "year": 2024
+ },
+ "MICRO 2003::Checkpoint Processing and Recovery: An Efficient, Scalable Alternative to Reorde": {
+  "ss_title": "Checkpoint Processing and Recovery: An Efficient, Scalable Alternative to Reorder Buffers",
+  "ss_authors": [
+   "Haitham Akkary",
+   "Ravi Rajwar",
+   "Srikanth T. Srinivasan"
+  ],
+  "year": 2003
+ },
+ "MICRO 2003::Runahead Execution: An Effective Alternative to Large Instruction Windows": {
+  "ss_title": "RUNAHEAD EXECUTION : AN EFFECTIVE ALTERNATIVE TO LARGE INSTRUCTION WINDOWS",
+  "ss_authors": [
+   "O. Mutlu"
+  ],
+  "year": 2001
+ },
+ "ASPLOS 2002::The Jrpm System for Dynamically Parallelizing Sequential Java Programs": {
+  "ss_title": "THE JRPM SYSTEM FOR DYNAMICALLY PARALLELIZING SEQUENTIAL JAVA PROGRAMS",
+  "ss_authors": [
+   "Michael K. Chen",
+   "K. Olukotun"
+  ],
+  "year": 2001
+ },
+ "ISCA 2003::Scalable Vector Processors for Embedded Systems": {
+  "ss_title": "Scalable Vector Processors for Embedded Systems",
+  "ss_authors": [
+   "Christos Kozyrakis",
+   "D. Patterson"
+  ],
+  "year": 2003
+ },
+ "ISCA 2003::Exploiting ILP, TLP, and DLP with the Polymorphous TRIPS Architecture": {
+  "ss_title": "Exploiting ILP, TLP, and DLP with the polymorphous TRIPS architecture",
+  "ss_authors": [
+   "Karthikeyan Sankaralingam",
+   "Ramadass Nagarajan",
+   "Haiming Liu",
+   "Changkyu Kim",
+   "Jaehyuk Huh",
+   "Doug Burger",
+   "S. Keckler",
+   "Charles R. Moore"
+  ],
+  "year": 2003
+ },
+ "ISCA 2003::Temperature-Aware Computer Systems: Opportunities and Challenges": {
+  "ss_title": "Temperature-Aware Computer Systems: Opportunities and Challenges",
+  "ss_authors": [
+   "Kevin Skadron",
+   "Mircea R. Stan",
+   "Wei Huang",
+   "S. Velusamy",
+   "K. Sankaranarayanan",
+   "D. Tarjan"
+  ],
+  "year": 2003
+ },
+ "MICRO 2003::Dynamic Frequency and Voltage Scaling for a Multiple-Clock-Domain Microprocessor": {
+  "ss_title": "Dynamic Frequency and Voltage Scaling for a Multiple-Clock-Domain Microprocessor",
+  "ss_authors": [
+   "G. Magklis",
+   "Greg Semeraro",
+   "D. Albonesi",
+   "S. Dropsho",
+   "S. Dwarkadas",
+   "M. Scott"
+  ],
+  "year": 2003
+ },
+ "MICRO 2003::Measuring Architectural Vulnerability Factors": {
+  "ss_title": "Measuring Architectural Vulnerability Factors",
+  "ss_authors": [
+   "Shubhendu S. Mukherjee",
+   "Christopher T. Weaver",
+   "J. Emer",
+   "S. Reinhardt",
+   "T. Austin"
+  ],
+  "year": 2003
+ },
+ "MICRO 2003::Transient-Fault Recovery for Chip Multiprocessors": {
+  "ss_title": "Transient-fault recovery for chip multiprocessors",
+  "ss_authors": [
+   "M. A. Gomaa",
+   "C. Scarbrough",
+   "T. N. Vijaykumar",
+   "I. Pomeranz"
+  ],
+  "year": 2003
+ },
+ "ASPLOS 2002::Discovering and Exploiting Program Phases": {
+  "ss_title": "Discovering and Exploiting Program Phases",
+  "ss_authors": [
+   "T. Sherwood",
+   "Erez Perelman",
+   "Greg Hamerly",
+   "S. Sair",
+   "Brad Calder"
+  ],
+  "year": 2003
+ },
+ "ISCA 2003::Addressing Workload Variability in Architectural Simulations": {
+  "ss_title": "Addressing Workload Variability in Architectural Simulations",
+  "ss_authors": [
+   "Alaa R. Alameldeen",
+   "D. Wood"
+  ],
+  "year": 2003
+ },
+ "ISCA 2003::Nonuniform Cache Architectures for Wire-Delay Dominated On-Chip Caches": {
+  "ss_title": "Nonuniform Cache Architectures for Wire-Delay Dominated On-Chip Caches",
+  "ss_authors": [
+   "Changkyu Kim",
+   "D. Burger",
+   "S. Keckler"
+  ],
+  "year": 2003
+ },
+ "ISCA 2003::Token Coherence: A New Framework for Shared-Memory Multiprocessors": {
+  "ss_title": "Token Coherence: A New Framework for Shared-Memory Multiprocessors",
+  "ss_authors": [
+   "Milo M. K. Martin",
+   "M. Hill",
+   "D. Wood"
+  ],
+  "year": 2003
+ },
+ "ISCA 2003::Transactional Execution: Toward Reliable, High-Performance Multithreading": {
+  "ss_title": "Transactional Execution: Toward Reliable, High-Performance Multithreading",
+  "ss_authors": [
+   "Ravi Rajwar",
+   "J. Goodman"
+  ],
+  "year": 2003
+ },
+ "ASPLOS 2002::Speculative Synchronization: Programmability and Performance for Parallel Codes": {
+  "ss_title": "Speculative Synchronization: Programmability and Performance for Parallel Codes",
+  "ss_authors": [
+   "José F. Martínez",
+   "J. Torrellas"
+  ],
+  "year": 2003
+ },
+ "MICRO 2004::Razor: Circuit-Level Correction of Timing Errors for Low-Power Operation": {
+  "ss_title": "RAZOR: circuit-level correction of timing errors for low-power operation",
+  "ss_authors": [
+   "S. Aboobacker"
+  ],
+  "year": 2011
+ },
+ "ASPLOS 2004::Fingerprinting: Bounding Soft-Error-Detection Latency and Bandwidth": {
+  "ss_title": "Fingerprinting: bounding soft-error detection latency and bandwidth",
+  "ss_authors": [
+   "Jared C. Smolens",
+   "Brian T. Gold",
+   "Jangwoo Kim",
+   "B. Falsafi",
+   "J. Hoe",
+   "A. Nowatzyk"
+  ],
+  "year": 2004
+ },
+ "ISCA 2004::Reducing the Soft-Error Rate of a High-Performance Microprocessor": {
+  "ss_title": "Reducing the soft-error rate of a high-performance microprocessor",
+  "ss_authors": [
+   "Christopher T. Weaver",
+   "J. Emer",
+   "Steven K. Reinhardt"
+  ],
+  "year": 2004
+ },
+ "ASPLOS 2004::Performance-Directed Energy Management for Storage Systems": {
+  "ss_title": "Performance-directed energy management for storage systems",
+  "ss_authors": [
+   "Xiaodong Li",
+   "Zhenmin Li",
+   "Pin Zhou",
+   "Yuanyuan Zhou",
+   "S. V. Adve",
+   "S. Kumar"
+  ],
+  "year": 2004
+ },
+ "ASPLOS 2004::iWatcher: Simple, General Architectural Support for Software Debugging": {
+  "ss_title": "iWatcher: simple, general architectural support for software debugging",
+  "ss_authors": [
+   "Pin Zhou",
+   "Feng Qin",
+   "Wei Liu",
+   "Yuanyuan Zhou",
+   "J. Torrellas"
+  ],
+  "year": 2004
+ },
+ "ISCA 2004::Interaction Cost: For When Event Counts Just Don't Add Up": {
+  "ss_title": "Interaction cost: for when event counts just don't add up",
+  "ss_authors": [
+   "Brian A. Fields",
+   "Rastislav Bodík",
+   "M. Hill",
+   "C. Newburn"
+  ],
+  "year": 2004
+ },
+ "MICRO 2004::Continual Flow Pipelines: Achieving Resource-Efficient Latency Tolerance": {
+  "ss_title": "Continual flow pipelines: achieving resource-efficient latency tolerance",
+  "ss_authors": [
+   "Srikanth T. Srinivasan",
+   "Ravi Rajwar",
+   "Haitham Akkary",
+   "A. Gandhi",
+   "Mike Upton"
+  ],
+  "year": 2004
+ },
+ "ISCA 2004::The Vector-Thread Architecture": {
+  "ss_title": "The vector-thread architecture",
+  "ss_authors": [
+   "Ronny Krashinsky",
+   "C. Batten",
+   "M. Hampton",
+   "Steve Gerding",
+   "Brian Pharris",
+   "J. Casper",
+   "K. Asanović"
+  ],
+  "year": 2004
+ },
+ "ASPLOS 2004::Transactional Coherence and Consistency: Simplifying Parallel Hardware and Softw": {
+  "ss_title": "Transactional coherence and consistency: simplifying parallel hardware and software",
+  "ss_authors": [
+   "Lance Hammond",
+   "Brian D. Carlstrom",
+   "Vicky Wong",
+   "Michael K. Chen",
+   "Christos Kozyrakis",
+   "K. Olukotun"
+  ],
+  "year": 2004
+ },
+ "MICRO 2004::Speculative Incoherent Cache Protocols": {
+  "ss_title": "Speculative incoherent cache protocols",
+  "ss_authors": [
+   "Jaehyuk Huh",
+   "D. Burger",
+   "Jichuan Chang",
+   "G. Sohi"
+  ],
+  "year": 2004
+ },
+ "ISCA 2004::Memory Ordering: A Value-Based Approach": {
+  "ss_title": "Memory ordering: a value-based approach",
+  "ss_authors": [
+   "Harold W. Cain",
+   "Mikko H. Lipasti"
+  ],
+  "year": 2004
+ },
+ "ISCA 2004::Scalable Hardware Memory Disambiguation for High-ILP Processors": {
+  "ss_title": "Scalable hardware memory disambiguation for high-ILP processors",
+  "ss_authors": [
+   "S. Sethumadhavan",
+   "R. Desikan",
+   "D. Burger",
+   "C. R. Moore",
+   "S. Keckler"
+  ],
+  "year": 2003
+ },
+ "ISCA 2005::Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance": {
+  "ss_title": "Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance",
+  "ss_authors": [
+   "O. Mutlu",
+   "Hyesoon Kim",
+   "Y. Patt"
+  ],
+  "year": 2006
+ },
+ "ISCA 2005::Adaptive History-Based Memory Schedulers for Modern Processors": {
+  "ss_title": "Adaptive History-Based Memory Schedulers for Modern Processors",
+  "ss_authors": [
+   "I. Hur",
+   "Calvin Lin"
+  ],
+  "year": 2006
+ },
+ "MICRO 2005::Scalable Load and Store Processing in Latency-Tolerant Processors": {
+  "ss_title": "Scalable Load and Store Processing in Latency-Tolerant Processors",
+  "ss_authors": [
+   "A. Gandhi",
+   "Haitham Akkary",
+   "Ravi Rajwar",
+   "Srikanth T. Srinivasan",
+   "K. Lai"
+  ],
+  "year": 2005
+ },
+ "ISCA 2005::Tolerating Cache-Miss Latency with Multipass Pipelines": {
+  "ss_title": "Tolerating Cache-Miss Latency with Multipass Pipelines",
+  "ss_authors": [
+   "R. D. Barnes",
+   "Shane Ryoo",
+   "Wen-mei W. Hwu"
+  ],
+  "year": 2006
+ },
+ "MICRO 2005::Wish Branches: Enabling Adaptive and Aggressive Predicated Execution": {
+  "ss_title": "Wish Branches: Enabling Adaptive and Aggressive Predicated Execution",
+  "ss_authors": [
+   "Hyesoon Kim",
+   "O. Mutlu",
+   "Y. Patt",
+   "Jared Stark"
+  ],
+  "year": 2006
+ },
+ "ISCA 2005::Unbounded Transactional Memory": {
+  "ss_title": "Unbounded transactional memory",
+  "ss_authors": [
+   "C. Ananian",
+   "K. Asanović",
+   "B. Kuszmaul",
+   "C. Leiserson",
+   "Sean Lie"
+  ],
+  "year": 2005
+ },
+ "ISCA 2005::Coarse-Grain Coherence Tracking: RegionScout and Region Coherence Arrays": {
+  "ss_title": "Coarse-Grain Coherence Tracking: RegionScout and Region Coherence Arrays",
+  "ss_authors": [
+   "J. F. Cantin",
+   "James E. Smith",
+   "Mikko H. Lipasti",
+   "Andreas Moshovos",
+   "B. Falsafi"
+  ],
+  "year": 2006
+ },
+ "MICRO 2005::Energy-Efficient Thread-Level Speculation": {
+  "ss_title": "Energy-Efficient Thread-Level Speculation",
+  "ss_authors": [
+   "Jose Renau",
+   "K. Strauss",
+   "L. Ceze",
+   "Wei Liu",
+   "S. Sarangi",
+   "James Tuck",
+   "J. Torrellas"
+  ],
+  "year": 2006
+ },
+ "MICRO 2005::Opportunistic Transient-Fault Detection": {
+  "ss_title": "Opportunistic transient-fault detection",
+  "ss_authors": [
+   "M. A. Gomaa",
+   "T. N. Vijaykumar"
+  ],
+  "year": 2005
+ },
+ "ASPLOS 2005::BugNet: Recording Application-Level Execution for Deterministic Replay Debugging": {
+  "ss_title": "BugNet: Recording Application-Level Execution for Deterministic Replay Debugging",
+  "ss_authors": [
+   "S. Narayanasamy",
+   "Gilles A. Pokam",
+   "Brad Calder"
+  ],
+  "year": 2006
+ },
+ "ISCA 2005::Architectures for Bit-Split String Scanning in Intrusion Detection": {
+  "ss_title": "Architectures for Bit-Split String Scanning in Intrusion Detection",
+  "ss_authors": [
+   "Lin Tan",
+   "T. Sherwood"
+  ],
+  "year": 2006
+ },
+ "ASPLOS 2005::Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance": {
+  "ss_title": "Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance",
+  "ss_authors": [
+   "Qiang Wu",
+   "M. Martonosi",
+   "D. Clark",
+   "V. Reddi",
+   "D. Connors",
+   "Youfeng Wu",
+   "Jin Lee",
+   "D. Brooks"
+  ],
+  "year": 2006
+ },
+ "MICRO 2005::Temperature-Aware On-Chip Networks": {
+  "ss_title": "Temperature-Aware On-Chip Networks",
+  "ss_authors": [
+   "Li Shang",
+   "L. Peh",
+   "Amit Kumar",
+   "N. Jha"
+  ],
+  "year": 2006
+ },
+ "MICRO 2006::Patching Processor Design Errors with Programmable Hardware": {
+  "ss_title": "Patching Processor Design Errors with Programmable Hardware",
+  "ss_authors": [
+   "S. Sarangi",
+   "S. Narayanasamy",
+   "Bruce Carneal",
+   "A. Tiwari",
+   "Brad Calder",
+   "J. Torrellas"
+  ],
+  "year": 2007
+ },
+ "ASPLOS 2006::AVIO: Detecting Atomicity Violations via Access-Interleaving Invariants": {
+  "ss_title": "AVIO: detecting atomicity violations via access interleaving invariants",
+  "ss_authors": [
+   "Shan Lu",
+   "Joseph A. Tucek",
+   "Feng Qin",
+   "Yuanyuan Zhou"
+  ],
+  "year": 2006
+ },
+ "ASPLOS 2006::Automatic Instruction-Level Software-Only Recovery": {
+  "ss_title": "Automatic Instruction-Level Software-Only Recovery",
+  "ss_authors": [
+   "J. Chang",
+   "George A. Reis",
+   "David I. August"
+  ],
+  "year": 2006
+ },
+ "ISCA 2006::A Hardware Memory Race Recorder for Deterministic Replay": {
+  "ss_title": "A Hardware Memory Race Recorder for Deterministic Replay",
+  "ss_authors": [
+   "Min Xu",
+   "Rastislav Bodík",
+   "M. Hill"
+  ],
+  "year": 2007
+ },
+ "ISCA 2006::On-Chip Optical Technology in Future Bus-Based Multicore Designs": {
+  "ss_title": "On-Chip Optical Technology in Future Bus-Based Multicore Designs",
+  "ss_authors": [
+   "Nevin Kirman",
+   "Meyrem Kirman",
+   "R. Dokania",
+   "José F. Martínez",
+   "A. Apsel",
+   "Matthew A. Watkins",
+   "D. Albonesi"
+  ],
+  "year": 2007
+ },
+ "ISCA 2006::Transactional Memory: The Hardware-Software Interface": {
+  "ss_title": "Transactional Memory: The Hardware-Software Interface",
+  "ss_authors": [
+   "Austen McDonald",
+   "Brian D. Carlstrom",
+   "Jaewoong Chung",
+   "C. Minh",
+   "Hassan Chafi",
+   "Christos Kozyrakis",
+   "K. Olukotun"
+  ],
+  "year": 2007
+ },
+ "ISCA 2006::3D Integration for Introspection": {
+  "ss_title": "3D Integration for Introspection",
+  "ss_authors": [
+   "Shashidhar Mysore",
+   "B. Agrawal",
+   "N. Srivastava",
+   "Sheng-Chih Lin",
+   "K. Banerjee",
+   "T. Sherwood"
+  ],
+  "year": 2007
+ },
+ "ISCA 2006::A Top-Down Approach to Architecting CPI Component Performance Counters": {
+  "ss_title": "A Top-Down Approach to Architecting CPI Component Performance Counters",
+  "ss_authors": [
+   "Stijn Eyerman",
+   "L. Eeckhout",
+   "Tejas Karkhanis",
+   "James E. Smith"
+  ],
+  "year": 2007
+ },
+ "MICRO 2006::Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication": {
+  "ss_title": "Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication",
+  "ss_authors": [
+   "H. Kim",
+   "J. Joao",
+   "O. Mutlu",
+   "Y. Patt"
+  ],
+  "year": 2007
+ },
+ "MICRO 2006::NoSQ: Store-Load Communication without a Store Queue": {
+  "ss_title": "NoSQ: Store-Load Communication without a Store Queue",
+  "ss_authors": [
+   "Tingting Sha",
+   "Milo M. K. Martin",
+   "A. Roth"
+  ],
+  "year": 2006
+ },
+ "MICRO 2006::SODA: A High-Performance DSP Architecture for Software-Defined Radio": {
+  "ss_title": "SODA: A High-Performance DSP Architecture for Software-Defined Radio",
+  "ss_authors": [
+   "Yuan Lin",
+   "Hyunseok Lee",
+   "M. Woh",
+   "Yoav Harel",
+   "S. Mahlke",
+   "T. Mudge",
+   "C. Chakrabarti",
+   "K. Flautner"
+  ],
+  "year": 2007
+ },
+ "ASPLOS 2008::Revisiting the Sequential Programming Model for the Multicore Era": {
+  "ss_title": "Revisiting the Sequential Programming Model for the Multicore Era",
+  "ss_authors": [
+   "Matthew J. Bridges",
+   "Neil Vachharajani",
+   "Yun Zhang",
+   "T. Jablin",
+   "David I. August"
+  ],
+  "year": 2008
+ },
+ "MICRO 2007::Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation": {
+  "ss_title": "Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation",
+  "ss_authors": [
+   "Naveen Neelakantam",
+   "Ravi Rajwar",
+   "S. Srinivas",
+   "U. Srinivasan",
+   "C. Zilles"
+  ],
+  "year": 2008
+ },
+ "MICRO 2007::MetaTM/TxLinux: Transactional Memory for an Operating System": {
+  "ss_title": "MetaTM/TxLinux: Transactional Memory for an Operating System",
+  "ss_authors": [
+   "Hany E. Ramadan",
+   "Christopher J. Rossbach",
+   "Donald E. Porter",
+   "O. S. Hofmann",
+   "Bhandari Aditya",
+   "Emmett Witchel"
+  ],
+  "year": 2007
+ },
+ "MICRO 2007::Argus: Low-Cost, Comprehensive Error Detection in Simple Cores": {
+  "ss_title": "Argus: Low-Cost, Comprehensive Error Detection in Simple Cores",
+  "ss_authors": [
+   "Albert Meixner",
+   "M. Bauer",
+   "Daniel J. Sorin"
+  ],
+  "year": 2007
+ },
+ "ISCA 2007::Replacing 6T SRAMs with 3T1D DRAMs in the L1 Data Cache to Combat Process Variab": {
+  "ss_title": "Replacing 6T SRAMs with 3T1D DRAMs in the L1 Data Cache to Combat Process Variability",
+  "ss_authors": [
+   "Xiaoyao Liang",
+   "R. Canal",
+   "Gu-Yeon Wei",
+   "D. Brooks"
+  ],
+  "year": 2008
+ },
+ "ISCA 2007::Architecting Efficient Interconnects for Large Caches with CACTI 6.0": {
+  "ss_title": "Architecting Efficient Interconnects for Large Caches with CACTI 6.0",
+  "ss_authors": [
+   "N. Muralimanohar",
+   "R. Balasubramonian",
+   "N. Jouppi"
+  ],
+  "year": 2008
+ },
+ "MICRO 2007::Toward Ideal On-Chip Communication Using Express Virtual Channels": {
+  "ss_title": "Toward Ideal On-Chip Communication Using Express Virtual Channels",
+  "ss_authors": [
+   "Ashok Kumar V",
+   "L. Peh",
+   "P. Kundu",
+   "N. Jha"
+  ],
+  "year": 2008
+ },
+ "ISCA 2007::Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching": {
+  "ss_title": "Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching",
+  "ss_authors": [
+   "Moinuddin K. Qureshi",
+   "A. Jaleel",
+   "Y. Patt",
+   "S. Steely",
+   "J. Emer"
+  ],
+  "year": 2008
+ },
+ "ISCA 2007::Virtual Hierarchies": {
+  "ss_title": "Querying virtual hierarchies using virtual prefix-based numbers",
+  "ss_authors": [
+   "Curtis E. Dyreson",
+   "S. Bhowmick",
+   "Ryan Grapp"
+  ],
+  "year": 2014
+ },
+ "SIGGRAPH 2008::Larrabee: A Many-Core x86 Architecture for Visual Computing": {
+  "ss_title": "Larrabee: a many-core x86 architecture for visual computing",
+  "ss_authors": [
+   "L. Seiler",
+   "Douglas M. Carmean",
+   "Eric Sprangle",
+   "Tom Forsyth",
+   "M. Abrash",
+   "P. Dubey",
+   "Stephen Junkins",
+   "Adam T. Lake",
+   "J. Sugerman",
+   "Robert Cavin",
+   "R. Espasa",
+   "Edward T. Grochowski",
+   "Toni Juan",
+   "P. Hanrahan"
+  ],
+  "year": 2008
+ },
+ "ISCA 2008::Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Me": {
+  "ss_title": "Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Memory Controllers",
+  "ss_authors": [
+   "O. Mutlu",
+   "T. Moscibroda"
+  ],
+  "year": 2009
+ },
+ "ISCA 2008::Cost-Efficient Dragonfly Topology for Large-Scale Systems": {
+  "ss_title": "Cost-efficient dragonfly topology for large-scale systems",
+  "ss_authors": [
+   "John Kim",
+   "W. Dally",
+   "S. Scott",
+   "D. Abts"
+  ],
+  "year": 2009
+ },
+ "ISCA 2008::Server Designs for Warehouse-Computing Environments": {
+  "ss_title": "Server Designs for Warehouse-Computing Environments",
+  "ss_authors": [
+   "Kevin T. Lim",
+   "Parthasarathy Ranganathan",
+   "Jichuan Chang",
+   "C. Patel",
+   "T. Mudge",
+   "S. Reinhardt"
+  ],
+  "year": 2009
+ },
+ "ISCA 2008::Using Intradisk Parallelism to Build Energy-Efficient Storage Systems": {
+  "ss_title": "Using Intradisk Parallelism to Build Energy-Efficient Storage Systems",
+  "ss_authors": [
+   "S. Gurumurthi",
+   "S. Sankar",
+   "Mircea R. Stan"
+  ],
+  "year": 2009
+ },
+ "ASPLOS 2008::Flexible Hardware Acceleration for Instruction-Grain Lifeguards": {
+  "ss_title": "Flexible Hardware Acceleration for Instruction-Grain Lifeguards",
+  "ss_authors": [
+   "Shimin Chen",
+   "M. Kozuch",
+   "Phillip B. Gibbons",
+   "Michael P. Ryan",
+   "Theodoros Strigkos",
+   "T. Mowry",
+   "Olatunji Ruwase",
+   "E. Vlachos",
+   "B. Falsafi",
+   "V. Ramachandran"
+  ],
+  "year": 2009
+ },
+ "ASPLOS 2008::Atom-Aid: Detecting and Surviving Atomicity Violations": {
+  "ss_title": "Atom-Aid: Detecting and Surviving Atomicity Violations",
+  "ss_authors": [
+   "Brandon Lucia",
+   "Joseph Devietti",
+   "L. Ceze",
+   "K. Strauss"
+  ],
+  "year": 2008
+ },
+ "ASPLOS 2008::SoftSig: Software-Exposed Hardware Signatures for Code Analysis and Optimization": {
+  "ss_title": "SoftSig: Software-Exposed Hardware Signatures for Code Analysis and Optimization",
+  "ss_authors": [
+   "James Tuck",
+   "Wonsun Ahn",
+   "J. Torrellas",
+   "L. Ceze"
+  ],
+  "year": 2008
+ },
+ "ISCA 2008::Trading Off Cache Capacity for Low-Voltage Operation": {
+  "ss_title": "Trading Off Cache Capacity for Low-Voltage Operation",
+  "ss_authors": [
+   "C. Wilkerson",
+   "Hongliang Gao",
+   "Alaa R. Alameldeen",
+   "Zeshan A. Chishti",
+   "M. Khellah",
+   "Shih-Lien Lu"
+  ],
+  "year": 2009
+ },
+ "MICRO 2008::Mixed-Signal Approximate Computation: A Neural Predictor Case Study": {
+  "ss_title": "Mixed-Signal Approximate Computation: A Neural Predictor Case Study",
+  "ss_authors": [
+   "Renée St. Amant",
+   "Daniel A. Jiménez",
+   "D. Burger"
+  ],
+  "year": 2009
+ },
+ "ISCA 2008::Temperature Variation Characterization and Thermal Management of Multicore Archi": {
+  "ss_title": "Temperature Variation Characterization and Thermal Management of Multicore Architectures",
+  "ss_authors": [
+   "E. Kursun",
+   "Chen-Yong Cher"
+  ],
+  "year": 2009
+ },
+ "ISCA 2008::Revival: A Variation-Tolerant Architecture Using Voltage Interpolation and Varia": {
+  "ss_title": "ReVIVaL: A Variation-Tolerant Architecture Using Voltage Interpolation and Variable Latency",
+  "ss_authors": [
+   "Xiaoyao Liang",
+   "Gu-Yeon Wei",
+   "D. Brooks"
+  ],
+  "year": 2008
+ },
+ "ISCA 2009::iCFP: Tolerating All-Level Cache Misses in In-Order Processors": {
+  "ss_title": "iCFP: Tolerating all-level cache misses in in-order processors",
+  "ss_authors": [
+   "Andrew D. Hilton",
+   "Santosh Nagarakatte",
+   "A. Roth"
+  ],
+  "year": 2009
+ },
+ "ISCA 2009::Near-Optimal Cache Block Placement with Reactive Nonuniform Cache Architectures": {
+  "ss_title": "Near-Optimal Cache Block Placement with Reactive Nonuniform Cache Architectures",
+  "ss_authors": [
+   "Nikolaos Hardavellas",
+   "M. Ferdman",
+   "B. Falsafi",
+   "A. Ailamaki"
+  ],
+  "year": 2010
+ },
+ "ISCA 2009::A Task-Centric Memory Model for Scalable Accelerator Architectures": {
+  "ss_title": "A Task-Centric Memory Model for Scalable Accelerator Architectures",
+  "ss_authors": [
+   "J. H. Kelm",
+   "Daniel R. Johnson",
+   "S. Lumetta",
+   "Sanjay J. Patel",
+   "M. Frank"
+  ],
+  "year": 2009
+ },
+ "ASPLOS 2009::DMP: Deterministic Shared-Memory Multiprocessing": {
+  "ss_title": "DMP: deterministic shared memory multiprocessing",
+  "ss_authors": [
+   "Joseph Devietti",
+   "Brandon Lucia",
+   "L. Ceze",
+   "M. Oskin"
+  ],
+  "year": 2009
+ },
+ "ISCA 2009::Making Address-Correlated Prefetching Practical": {
+  "ss_title": "Making Address-Correlated Prefetching Practical",
+  "ss_authors": [
+   "T. Wenisch",
+   "M. Ferdman",
+   "A. Ailamaki",
+   "B. Falsafi",
+   "Andreas Moshovos"
+  ],
+  "year": 2010
+ },
+ "ASPLOS 2009::Accelerating Critical Section Execution with Asymmetric Multicore Architectures": {
+  "ss_title": "Accelerating Critical Section Execution with Asymmetric Multicore Architectures",
+  "ss_authors": [
+   "M. A. Suleman",
+   "O. Mutlu",
+   "Moinuddin K. Qureshi",
+   "Y. Patt"
+  ],
+  "year": 2010
+ },
+ "MICRO 2009::Per-Thread Cycle Accounting": {
+  "ss_title": "Per-thread cycle accounting in SMT processors",
+  "ss_authors": [
+   "Stijn Eyerman",
+   "L. Eeckhout"
+  ],
+  "year": 2009
+ },
+ "ISCA 2009::AnySP: Anytime Anywhere Anyway Signal Processing": {
+  "ss_title": "AnySP: Anytime Anywhere Anyway Signal Processing",
+  "ss_authors": [
+   "M. Woh",
+   "Sangwon Seo",
+   "S. Mahlke",
+   "T. Mudge",
+   "C. Chakrabarti",
+   "K. Flautner"
+  ],
+  "year": 2009
+ },
+ "MICRO 2009::Gate-Level Information-Flow Tracking for Secure Architectures": {
+  "ss_title": "Gate-Level Information-Flow Tracking for Secure Architectures",
+  "ss_authors": [
+   "Mohit Tiwari",
+   "Xun Li",
+   "Hassan M. G. Wassel",
+   "Bita Mazloom",
+   "Shashidhar Mysore",
+   "F. Chong",
+   "T. Sherwood"
+  ],
+  "year": 2010
+ },
+ "ASPLOS 2009::Predicting Voltage Droops Using Recurring Program and Microarchitectural Event A": {
+  "ss_title": "Predicting Voltage Droops Using Recurring Program and Microarchitectural Event Activity",
+  "ss_authors": [
+   "V. Reddi",
+   "M. Gupta",
+   "G. Holloway",
+   "Michael D. Smith",
+   "Gu-Yeon Wei",
+   "D. Brooks"
+  ],
+  "year": 2010
+ },
+ "ASPLOS 2009::Architectural Implications of Nanoscale-Integrated Sensing and Computing": {
+  "ss_title": "Architectural Implications of Nanoscale-Integrated Sensing and Computing",
+  "ss_authors": [
+   "Constantin Pistol",
+   "Wutichai Chongchitmate",
+   "C. Dwyer",
+   "A. Lebeck"
+  ],
+  "year": 2009
+ },
+ "ASPLOS 2009::Gordon: An Improved Architecture for Data-Intensive Applications": {
+  "ss_title": "Gordon: An Improved Architecture for Data-Intensive Applications",
+  "ss_authors": [
+   "Adrian M. Caulfield",
+   "Laura M. Grupp",
+   "S. Swanson"
+  ],
+  "year": 2010
+ },
+ "ISCA 2009::Phase-Change Technology and the Future of Main Memory": {
+  "ss_title": "Phase-Change Technology and the Future of Main Memory",
+  "ss_authors": [
+   "Benjamin C. Lee",
+   "Ping Zhou",
+   "Jun Yang",
+   "Youtao Zhang",
+   "Bo Zhao",
+   "Engin Ipek",
+   "O. Mutlu",
+   "D. Burger"
+  ],
+  "year": 2010
+ },
+ "ISCA 2010::Virtualized ECC: Flexible Reliability in Main Memory": {
+  "ss_title": "Virtualized ECC: Flexible Reliability in Main Memory",
+  "ss_authors": [
+   "D. Yoon",
+   "M. Erez"
+  ],
+  "year": 2011
+ },
+ "ISCA 2010::Voltage Noise in Production Processors": {
+  "ss_title": "Voltage Noise in Production Processors",
+  "ss_authors": [
+   "V. Reddi",
+   "Svilen Kanev",
+   "W. Kim",
+   "Simone Campanoni",
+   "Michael D. Smith",
+   "Gu-Yeon Wei",
+   "D. Brooks"
+  ],
+  "year": 2011
+ },
+ "MICRO 2010::Aergia: A Network-on-Chip Exploiting Packet Latency Slack": {
+  "ss_title": "Aérgia: A Network-on-Chip Exploiting Packet Latency Slack",
+  "ss_authors": [
+   "Reetuparna Das",
+   "O. Mutlu",
+   "T. Moscibroda",
+   "Chita R. Das"
+  ],
+  "year": 2011
+ },
+ "ISCA 2010::Cohesion: An Adaptive Hybrid Memory Model for Accelerators": {
+  "ss_title": "Cohesion: An Adaptive Hybrid Memory Model for Accelerators",
+  "ss_authors": [
+   "J. H. Kelm",
+   "Daniel R. Johnson",
+   "W. Tuohy",
+   "S. Lumetta",
+   "Sanjay J. Patel"
+  ],
+  "year": 2011
+ },
+ "ISCA 2010::Data Marshaling for Multicore Systems": {
+  "ss_title": "Data Marshaling for Multicore Systems",
+  "ss_authors": [
+   "José A. Joao Khubaib",
+   "Y. Patt",
+   "O. Mutlu"
+  ],
+  "year": 2011
+ },
+ "ISCA 2010::ReMAP: A Reconfigurable Architecture for Chip Multiprocessors": {
+  "ss_title": "ReMAP: A Reconfigurable Architecture for Chip Multiprocessors",
+  "ss_authors": [
+   "Matthew A. Watkins",
+   "D. Albonesi"
+  ],
+  "year": 2011
+ },
+ "MICRO 2010::Thread Cluster Memory Scheduling": {
+  "ss_title": "Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior",
+  "ss_authors": [
+   "Yoongu Kim",
+   "Michael Papamichael",
+   "O. Mutlu",
+   "Mor Harchol-Balter"
+  ],
+  "year": 2010
+ },
+ "ISCA 2010::Coordinating DRAM and Last-Level-Cache Policies with the Virtual Write Queue": {
+  "ss_title": "Coordinating DRAM and Last-Level-Cache Policies with the Virtual Write Queue",
+  "ss_authors": [
+   "Jeffrey Stuecheli",
+   "Dimitris Kaseridis",
+   "D. Daly",
+   "H. Hunter",
+   "L. John"
+  ],
+  "year": 2011
+ },
+ "ISCA 2010::CHOP: Integrating DRAM Caches for CMP Server Platforms": {
+  "ss_title": "CHOP: Integrating DRAM Caches for CMP Server Platforms",
+  "ss_authors": [
+   "Xiaowei Jiang",
+   "Niti Madan",
+   "Li Zhao",
+   "Mike Upton",
+   "R. Iyer",
+   "S. Makineni",
+   "D. Newell",
+   "Yan Solihin",
+   "R. Balasubramonian"
+  ],
+  "year": 2011
+ },
+ "ASPLOS 2010::Address Translation Aware Memory Consistency": {
+  "ss_title": "Address Translation Aware Memory Consistency",
+  "ss_authors": [
+   "Bogdan F. Romanescu",
+   "A. Lebeck",
+   "Daniel J. Sorin"
+  ],
+  "year": 2011
+ },
+ "ISCA 2010::Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out": {
+  "ss_title": "Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out",
+  "ss_authors": [
+   "N. Seong",
+   "Dong Hyuk Woo",
+   "H. Lee"
+  ],
+  "year": 2011
+ },
+ "MICRO 2011::Kilo TM: Hardware Transactional Memory for GPU Architectures": {
+  "ss_title": "Kilo TM: Hardware Transactional Memory for GPU Architectures",
+  "ss_authors": [
+   "Wilson W. L. Fung",
+   "Inderpreet Singh",
+   "Andrew Brownsword",
+   "T. Aamodt"
+  ],
+  "year": 2012
+ },
+ "MICRO 2011::A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips": {
+  "ss_title": "A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips",
+  "ss_authors": [
+   "B. Grot",
+   "Joel Hestness",
+   "S. Keckler",
+   "O. Mutlu"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::Scalable and Efficient Fine-Grained Cache Partitioning with Vantage": {
+  "ss_title": "Scalable and Efficient Fine-Grained Cache Partitioning with Vantage",
+  "ss_authors": [
+   "Daniel Sánchez",
+   "Christos Kozyrakis"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::Eliminating Redundant Computation and Exposing Parallelism through Data-Triggere": {
+  "ss_title": "Eliminating Redundant Computation and Exposing Parallelism through Data-Triggered Threads",
+  "ss_authors": [
+   "Hung-Wei Tseng",
+   "D. Tullsen"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::FabScalar: Automating Superscalar Core Design": {
+  "ss_title": "FabScalar: Automating Superscalar Core Design",
+  "ss_authors": [
+   "N. Choudhary",
+   "Salil V. Wadhavkar",
+   "Tanmay A. Shah",
+   "Hiran Mayukh",
+   "Jayneel Gandhi",
+   "Brandon H. Dwiel",
+   "Sandeep Navada",
+   "H. H. Najaf-abadi",
+   "E. Rotenberg"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::Active Low-Power Modes for Main Memory with MemScale": {
+  "ss_title": "Active Low-Power Modes for Main Memory with MemScale",
+  "ss_authors": [
+   "Qingyuan Deng",
+   "Luiz E. Ramos",
+   "R. Bianchini",
+   "David Meisner",
+   "T. Wenisch"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::Supporting Very Large DRAM Caches with Compound-Access Scheduling and MissMap": {
+  "ss_title": "Supporting Very Large DRAM Caches with Compound-Access Scheduling and MissMap",
+  "ss_authors": [
+   "G. Loh",
+   "M. Hill"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::Free-p: A Practical End-to-End Nonvolatile Memory Protection Mechanism": {
+  "ss_title": "Free-p: A Practical End-to-End Nonvolatile Memory Protection Mechanism",
+  "ss_authors": [
+   "D. Yoon",
+   "N. Muralimanohar",
+   "Jichuan Chang",
+   "Parthasarathy Ranganathan",
+   "N. Jouppi",
+   "M. Erez"
+  ],
+  "year": 2012
+ },
+ "MICRO 2011::Increasing Utilization in Modern Warehouse-Scale Computers Using Bubble-Up": {
+  "ss_title": "Increasing Utilization in Modern Warehouse-Scale Computers Using Bubble-Up",
+  "ss_authors": [
+   "Jason Mars",
+   "Lingjia Tang",
+   "Kevin Skadron",
+   "M. Soffa",
+   "R. Hundt"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::Optical High Radix Switch Design": {
+  "ss_title": "Optical high radix switch design",
+  "ss_authors": [
+   "N. Binkert",
+   "A. Davis",
+   "N. Jouppi",
+   "M. McLaren",
+   "N. Muralimanohar",
+   "R. Schreiber",
+   "Jung Ho Ahn"
+  ],
+  "year": 2012
+ },
+ "ASPLOS 2011::What is Happening to Power, Performance, and Software?": {
+  "ss_title": "What is Happening to Power, Performance, and Software?",
+  "ss_authors": [
+   "H. Esmaeilzadeh",
+   "Ting Cao",
+   "Xi Yang",
+   "S. Blackburn",
+   "K. McKinley"
+  ],
+  "year": 2012
+ },
+ "ISCA 2011::Dark Silicon and the End of Multicore Scaling": {
+  "ss_title": "Dark silicon and the end of multicore scaling",
+  "ss_authors": [
+   "H. Esmaeilzadeh",
+   "Emily R. Blem",
+   "Renée St. Amant",
+   "Karthikeyan Sankaralingam",
+   "D. Burger"
+  ],
+  "year": 2011
+ },
+ "HPCA 2012::Designing for Responsiveness with Computational Sprinting": {
+  "ss_title": "Designing for Responsiveness with Computational Sprinting",
+  "ss_authors": [
+   "Arun Raghavan",
+   "Yixin Luo",
+   "Anuj Chandawalla",
+   "M. Papaefthymiou",
+   "K. Pipe",
+   "T. Wenisch",
+   "Milo M. K. Martin"
+  ],
+  "year": 2013
+ },
+ "MICRO 2012::Neural Acceleration for General-Purpose Approximate Programs": {
+  "ss_title": "Neural Acceleration for General-Purpose Approximate Programs",
+  "ss_authors": [
+   "H. Esmaeilzadeh",
+   "Adrian Sampson",
+   "L. Ceze",
+   "D. Burger"
+  ],
+  "year": 2012
+ },
+ "ISCA 2012::Scaling the Energy Proportionality Wall with KnightShift": {
+  "ss_title": "Scaling the Energy Proportionality Wall with KnightShift",
+  "ss_authors": [
+   "Daniel Wong",
+   "M. Annavaram"
+  ],
+  "year": 2013
+ },
+ "ISCA 2012::Hardware-Enforced Comprehensive Memory Safety": {
+  "ss_title": "Hardware-Enforced Comprehensive Memory Safety",
+  "ss_authors": [
+   "Santosh Nagarakatte",
+   "Milo M. K. Martin",
+   "Steve Zdancewic"
+  ],
+  "year": 2013
+ },
+ "ISCA 2012::Inspection-Resistant Memory Architectures": {
+  "ss_title": "Inspection-Resistant Memory Architectures",
+  "ss_authors": [
+   "Jonathan Valamehr",
+   "Melissa Chase",
+   "S. Kamara",
+   "Andrew Putnam",
+   "D. Shumow",
+   "V. Vaikuntanathan",
+   "T. Sherwood"
+  ],
+  "year": 2013
+ },
+ "ISCA 2012::Relyzer: Application Resiliency Analyzer for Transient Faults": {
+  "ss_title": "Relyzer: Application Resiliency Analyzer for Transient Faults",
+  "ss_authors": [
+   "S. Hari",
+   "S. Adve",
+   "Helia Naeimi",
+   "Pradeep Ramachandran"
+  ],
+  "year": 2013
+ },
+ "ISCA 2012::A Quantitative, Experimental Approach to Measuring Processor Side-Channel Securi": {
+  "ss_title": "A Quantitative, Experimental Approach to Measuring Processor Side-Channel Security",
+  "ss_authors": [
+   "J. Demme",
+   "Robert Martin",
+   "A. Waksman",
+   "S. Sethumadhavan"
+  ],
+  "year": 2013
+ },
+ "MICRO 2012::Cache-Conscious Thread Scheduling for Massively Multithreaded Processors": {
+  "ss_title": "Cache-Conscious Thread Scheduling for Massively Multithreaded Processors",
+  "ss_authors": [
+   "Timothy G. Rogers",
+   "Mike O'Connor",
+   "T. Aamodt"
+  ],
+  "year": 2013
+ },
+ "ISCA 2012::Parallel Block Vectors: Collection, Analysis, and Uses": {
+  "ss_title": "Parallel Block Vectors: Collection, Analysis, and Uses",
+  "ss_authors": [
+   "Melanie Kambadur",
+   "K. Tang",
+   "Martha A. Kim"
+  ],
+  "year": 2013
+ },
+ "ASPLOS 2012::A Safety-First Approach to Memory Models": {
+  "ss_title": "A Safety-First Approach to Memory Models",
+  "ss_authors": [
+   "Abhayendra Singh",
+   "S. Narayanasamy",
+   "Daniel Marino",
+   "T. Millstein",
+   "M. Musuvathi"
+  ],
+  "year": 2013
+ },
+ "ISCA 2012::Programmable DDRx Controllers": {
+  "ss_title": "Programmable DDRx Controllers",
+  "ss_authors": [
+   "M. N. Bojnordi",
+   "Engin Ipek"
+  ],
+  "year": 2013
+ },
+ "ISCA 2013::Designing and Managing Data Centers Powered by Renewable Energy": {
+  "ss_title": "Designing and Managing Data centers Powered by Renewable Energy",
+  "ss_authors": [
+   "Íñigo Goiri",
+   "William A. Katsak",
+   "Kien Le",
+   "Thu D. Nguyen",
+   "R. Bianchini"
+  ],
+  "year": 2014
+ },
+ "ASPLOS 2013::Quality-of-Service-Aware Scheduling in Heterogeneous Datacenters with Paragon": {
+  "ss_title": "Quality-of-service-aware Scheduling in Heterogeneous Datacenters with Paragon Paragon, an Online, Scalable Datacenter Scheduler, Enables Better Cluster Utilization and Per-application Quality-of-service Guarantees by Leveraging Data Mining Techniques That Find Similarities between Known and New Appl",
+  "ss_authors": [
+   "Christina Delimitrou",
+   "Christos Kozyrakis"
+  ],
+  "year": 2014
+ },
+ "ISCA 2013::A Case for Specialized Processors for Scale-Out Workloads": {
+  "ss_title": "A Case for Specialized Processors for Scale-Out Workloads",
+  "ss_authors": [
+   "M. Ferdman",
+   "Almutaz Adileh",
+   "Yusuf Onur Koçberber",
+   "Stavros Volos",
+   "M. Alisafaee",
+   "Djordje Jevdjic",
+   "Cansu Kaynak",
+   "Adrian Daniel Popescu",
+   "A. Ailamaki",
+   "B. Falsafi"
+  ],
+  "year": 2014
+ },
+ "ISCA 2013::SMART: Single-Cycle Multihop Traversals over a Shared Network on Chip": {
+  "ss_title": "Smart: Single-Cycle Multihop Traversals over a Shared Network on Chip",
+  "ss_authors": [
+   "T. Krishna",
+   "C. Chen",
+   "Woo-Cheol Kwon",
+   "L. Peh"
+  ],
+  "year": 2014
+ },
+ "ISCA 2013::Networks on Chip with Provable Security Properties": {
+  "ss_title": "Networks on Chip with Provable Security Properties",
+  "ss_authors": [
+   "Hassan M. G. Wassel",
+   "Ying Gao",
+   "J. Oberg",
+   "Ted Huffmire",
+   "R. Kastner",
+   "F. Chong",
+   "T. Sherwood"
+  ],
+  "year": 2014
+ },
+ "ISCA 2013::Cache Coherence for GPU Architectures": {
+  "ss_title": "Cache coherence for GPU architectures",
+  "ss_authors": [
+   "Inderpreet Singh",
+   "Arrvindh Shriraman",
+   "Wilson W. L. Fung",
+   "Mike O'Connor",
+   "T. Aamodt"
+  ],
+  "year": 2013
+ },
+ "ISCA 2013::A Configurable and Strong RAS Solution for Die-Stacked DRAM Caches": {
+  "ss_title": "A Configurable and Strong RAS Solution for Die-Stacked DRAM Caches",
+  "ss_authors": [
+   "Jaewoong Sim",
+   "G. Loh",
+   "Vilas Sridharan",
+   "Mike O'Connor"
+  ],
+  "year": 2014
+ },
+ "MICRO 2013::Decoupled Compressed Cache: Exploiting Spatial Locality for Energy Optimization": {
+  "ss_title": "Decoupled Compressed Cache: Exploiting Spatial Locality for Energy Optimization",
+  "ss_authors": [
+   "S. Sardashti",
+   "D. Wood"
+  ],
+  "year": 2014
+ },
+ "MICRO 2013::Sonic Millip3De: An Architecture for Handheld 3D Ultrasound": {
+  "ss_title": "Sonic Millip3De: An Architecture for Handheld 3D Ultrasound",
+  "ss_authors": [
+   "Richard Sampson",
+   "Ming Yang",
+   "Siyuan Wei",
+   "C. Chakrabarti",
+   "T. Wenisch"
+  ],
+  "year": 2014
+ },
+ "ISCA 2013::Hardware Partitioning for Big Data Analytics": {
+  "ss_title": "Hardware Partitioning for Big Data Analytics",
+  "ss_authors": [
+   "Lisa Wu",
+   "R. J. Barker",
+   "Martha A. Kim",
+   "K. A. Ross"
+  ],
+  "year": 2014
+ },
+ "ISCA 2013::Efficient Spatial Processing Element Control via Triggered Instructions": {
+  "ss_title": "Efficient Spatial Processing Element Control via Triggered Instructions",
+  "ss_authors": [
+   "A. Parashar",
+   "Michael Pellauer",
+   "Michael Adler",
+   "Bushra Ahsan",
+   "N. Crago",
+   "Daniel Lustig",
+   "Vladimir Pavlov",
+   "Antonia Zhai",
+   "M. Gambhir",
+   "A. Jaleel",
+   "R. Allmon",
+   "Rachid Rayess",
+   "S. Maresh",
+   "J. Emer"
+  ],
+  "year": 2014
+ },
+ "MICRO 2013::DeNovoND: Efficient Hardware for Disciplined Nondeterminism": {
+  "ss_title": "DeNovoND: Efficient Hardware for Disciplined Nondeterminism",
+  "ss_authors": [
+   "Hyojin Sung",
+   "Rakesh Komuravelli",
+   "S. Adve"
+  ],
+  "year": 2014
+ },
+ "ISCA 2014::A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services": {
+  "ss_title": "A reconfigurable fabric for accelerating large-scale datacenter services",
+  "ss_authors": [
+   "Andrew Putnam",
+   "Adrian M. Caulfield",
+   "Eric S. Chung",
+   "Derek Chiou",
+   "Kypros Constantinides",
+   "J. Demme",
+   "H. Esmaeilzadeh",
+   "J. Fowers",
+   "Gopi Prashanth Gopal",
+   "J. Gray",
+   "M. Haselman",
+   "S. Hauck",
+   "Stephen Heil",
+   "Amir Hormati",
+   "Joo-Young Kim",
+   "S. Lanka",
+   "J. Larus",
+   "Eric Peterson",
+   "Simon Pope",
+   "Aaron Smith",
+   "Jason Thong",
+   "Phillip Yi Xiao",
+   "D. Burger"
+  ],
+  "year": 2014
+ },
+ "MICRO 2014::A High-Throughput Neural Network Accelerator": {
+  "ss_title": "A High-Throughput Neural Network Accelerator",
+  "ss_authors": [
+   "Tian-ping Chen",
+   "Zidong Du",
+   "Ninghui Sun",
+   "Jia Wang",
+   "Chengyong Wu",
+   "Yunji Chen",
+   "O. Temam"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::The Q100 Database Processing Unit": {
+  "ss_title": "The Q100 Database Processing Unit",
+  "ss_authors": [
+   "Lisa Wu",
+   "A. Lottarini",
+   "Timothy K. Paine",
+   "Martha A. Kim",
+   "K. A. Ross"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation": {
+  "ss_title": "Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation",
+  "ss_authors": [
+   "A. Madhavan",
+   "T. Sherwood",
+   "D. Strukov"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::The Aladdin Approach to Accelerator Design and Modeling": {
+  "ss_title": "The Aladdin Approach to Accelerator Design and Modeling",
+  "ss_authors": [
+   "Y. Shao",
+   "Brandon Reagen",
+   "Gu-Yeon Wei",
+   "D. Brooks"
+  ],
+  "year": 2015
+ },
+ "MICRO 2014::Verifying Correct Microarchitectural Enforcement of Memory Consistency Models": {
+  "ss_title": "Verifying Correct Microarchitectural Enforcement of Memory Consistency Models",
+  "ss_authors": [
+   "Daniel Lustig",
+   "Michael Pellauer",
+   "M. Martonosi"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::PVCoherence: Designing Flat Coherence Protocols for Scalable Verification": {
+  "ss_title": "PVCoherence: Designing flat coherence protocols for scalable verification",
+  "ss_authors": [
+   "Meng Zhang",
+   "Jesse D. Bingham",
+   "John Erickson",
+   "Daniel J. Sorin"
+  ],
+  "year": 2014
+ },
+ "ASPLOS 2014::Sharing Incentives and Fair Division for Multiprocessors": {
+  "ss_title": "Sharing Incentives and Fair Division for Multiprocessors",
+  "ss_authors": [
+   "S. Zahedi",
+   "Benjamin C. Lee"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::Address Translation for Throughput-Oriented Accelerators": {
+  "ss_title": "Address Translation for Throughput-Oriented Accelerators",
+  "ss_authors": [
+   "Bharath Pichai",
+   "Lisa R. Hsu",
+   "A. Bhattacharjee"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::EOLE: Toward a Practical Implementation of Value Prediction": {
+  "ss_title": "EOLE: Toward a Practical Implementation of Value Prediction",
+  "ss_authors": [
+   "Arthur Perais",
+   "André Seznec"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::Memory Persistency: Semantics for Byte-Addressable Nonvolatile Memory Technologi": {
+  "ss_title": "Memory Persistency: Semantics for Byte-Addressable Nonvolatile Memory Technologies",
+  "ss_authors": [
+   "Steven Pelley",
+   "Peter M. Chen",
+   "T. Wenisch"
+  ],
+  "year": 2015
+ },
+ "ASPLOS 2014::Uncertain<T>: Abstractions for Uncertain Hardware and Software": {
+  "ss_title": "Uncertain&lt;T&gt;: Abstractions for Uncertain Hardware and Software",
+  "ss_authors": [
+   "James Bornholt",
+   "Todd Mytkowicz",
+   "K. McKinley"
+  ],
+  "year": 2015
+ },
+ "MICRO 2014::NoC Architecture for Silicon Interposer Systems": {
+  "ss_title": "NoC Architectures for Silicon Interposer Systems: Why Pay for more Wires when you Can Get them (from your interposer) for Free?",
+  "ss_authors": [
+   "Natalie D. Enright Jerger",
+   "Ajaykumar Kannan",
+   "Zimo Li",
+   "G. Loh"
+  ],
+  "year": 2014
+ },
+ "HPCA 2014::Tangle: Route-Oriented Dynamic Voltage Minimization for Variation-Afflicted, Ene": {
+  "ss_title": "Tangle: Route-oriented dynamic voltage minimization for variation-afflicted, energy-efficient on-chip networks",
+  "ss_authors": [
+   "Amin Ansari",
+   "Asit K. Mishra",
+   "Jianping Xu",
+   "J. Torrellas"
+  ],
+  "year": 2014
+ },
+ "ISCA 2014::Avoiding Core's DUE & SDC via Acoustic Wave Detectors and Tailored Error Contain": {
+  "ss_title": "Avoiding core's DUE & SDC via acoustic wave detectors and tailored error containment and recovery",
+  "ss_authors": [
+   "Gaurang Upasani",
+   "X. Vera",
+   "Antonio González"
+  ],
+  "year": 2014
+ },
+ "MICRO 2014::Efficient Memory Virtualization": {
+  "ss_title": "Efficient Memory Virtualization",
+  "ss_authors": [
+   "Jayneel Gandhi"
+  ],
+  "year": 2016
+ },
+ "ISCA 2014::The CHERI Capability Model: Revisiting RISC in an Age of Risk": {
+  "ss_title": "The CHERI capability model: Revisiting RISC in an age of risk",
+  "ss_authors": [
+   "Jonathan Woodruff",
+   "R. Watson",
+   "D. Chisnall",
+   "S. Moore",
+   "Jonathan Anderson",
+   "Brooks Davis",
+   "B. Laurie",
+   "P. Neumann",
+   "Robert M. Norton",
+   "M. Roe"
+  ],
+  "year": 2014
+ },
+ "ASPLOS 2014::Heterogeneous-Race-Free Memory Models": {
+  "ss_title": "Heterogeneous-race-free memory models",
+  "ss_authors": [
+   "Derek Hower",
+   "Blake A. Hechtman",
+   "Bradford M. Beckmann",
+   "Benedict R. Gaster",
+   "M. Hill",
+   "S. Reinhardt",
+   "D. Wood"
+  ],
+  "year": 2014
+ },
+ "ASPLOS 2014::High-Performance Fractal Coherence": {
+  "ss_title": "High-performance fractal coherence",
+  "ss_authors": [
+   "G. Voskuilen",
+   "T. N. Vijaykumar"
+  ],
+  "year": 2014
+ },
+ "ASPLOS 2014::ASC: Automatically Scalable Computation": {
+  "ss_title": "ASC: automatically scalable computation",
+  "ss_authors": [
+   "Amos Waterland",
+   "E. Angelino",
+   "Ryan P. Adams",
+   "Jonathan Appavoo",
+   "M. Seltzer"
+  ],
+  "year": 2014
+ },
+ "ISCA 2014::HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Ir": {
+  "ss_title": "HELIX-RC: An architecture-compiler co-design for automatic parallelization of irregular programs",
+  "ss_authors": [
+   "Simone Campanoni",
+   "Kevin Brownell",
+   "Svilen Kanev",
+   "Timothy M. Jones",
+   "Gu-Yeon Wei",
+   "David Brooks"
+  ],
+  "year": 2014
+ },
+ "HPCA 2014::Sandbox Prefetching: Safe, Run-Time Evaluation of Aggressive Prefetchers": {
+  "ss_title": "Sandbox Prefetching: Safe run-time evaluation of aggressive prefetchers",
+  "ss_authors": [
+   "Seth H. Pugsley",
+   "Zeshan A. Chishti",
+   "C. Wilkerson",
+   "Peng-fei Chuang",
+   "Robert L. Scott",
+   "A. Jaleel",
+   "Shih-Lien Lu",
+   "K. Chow",
+   "R. Balasubramonian"
+  ],
+  "year": 2014
+ },
+ "ASPLOS 2014::Data-Parallel Finite-State Machines": {
+  "ss_title": "Data-parallel finite-state machines",
+  "ss_authors": [
+   "Todd Mytkowicz",
+   "Madan Musuvathi",
+   "W. Schulte"
+  ],
+  "year": 2014
+ },
+ "ASPLOS 2014::Sapper: A Language for Hardware-Level Security Policy Enforcement": {
+  "ss_title": "Sapper: a language for hardware-level security policy enforcement",
+  "ss_authors": [
+   "Xun Li",
+   "Vineeth Kashyap",
+   "J. Oberg",
+   "Mohit Tiwari",
+   "Vasanth Ram Rajarathinam",
+   "R. Kastner",
+   "T. Sherwood",
+   "Ben Hardekopf",
+   "F. Chong"
+  ],
+  "year": 2014
+ },
+ "ISCA 2015::Practical Multidimensional Branch Prediction": {
+  "ss_title": "Practical Multidimensional Branch Prediction",
+  "ss_authors": [
+   "André Seznec",
+   "Joshua San Miguel",
+   "Jorge Albericio"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::A Heterogeneous Von Neumann/Explicit Dataflow Processor": {
+  "ss_title": "A Heterogeneous Von Neumann/Explicit Dataflow Processor",
+  "ss_authors": [
+   "Tony Nowatzki",
+   "Vinay Gangadhar",
+   "Karthikeyan Sankaralingam"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Accelerating the Accelerator Memory Interface with Access-Execute and Dataflow": {
+  "ss_title": "Accelerating the Accelerator Memory Interface with Access-Execute and Dataflow",
+  "ss_authors": [
+   "C. Ho",
+   "Sung Jin Kim",
+   "Karthikeyan Sankaralingam"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Sirius Implications for Future Warehouse-Scale Computers": {
+  "ss_title": "Sirius Implications for Future Warehouse-Scale Computers",
+  "ss_authors": [
+   "Johann Hauswald",
+   "M. Laurenzano",
+   "Yunqi Zhang",
+   "Cheng Li",
+   "A. Rovinski",
+   "Arjun Khurana",
+   "R. Dreslinski",
+   "T. Mudge",
+   "V. Petrucci",
+   "Lingjia Tang",
+   "Jason Mars"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Profiling a Warehouse-Scale Computer": {
+  "ss_title": "Profiling a warehouse-scale computer",
+  "ss_authors": [
+   "Svilen Kanev",
+   "Juan Pablo Darago",
+   "K. Hazelwood",
+   "Parthasarathy Ranganathan",
+   "Tipp Moseley",
+   "Gu-Yeon Wei",
+   "D. Brooks"
+  ],
+  "year": 2015
+ },
+ "ISCA 2015::MBus: A System Integration Bus for the Modular Microscale Computing Class": {
+  "ss_title": "MBus: A System Integration Bus for the Modular Microscale Computing Class",
+  "ss_authors": [
+   "P. Pannuto",
+   "Yoonmyung Lee",
+   "Ye-Sheng Kuo",
+   "Zhiyoong Foo",
+   "B. Kempke",
+   "Gyouho Kim",
+   "R. Dreslinski",
+   "D. Blaauw",
+   "P. Dutta"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Nonvolatile Processor Architectures: Efficient, Reliable Progress with Unstable ": {
+  "ss_title": "Nonvolatile Processor Architectures: Efficient, Reliable Progress with Unstable Power",
+  "ss_authors": [
+   "Kaisheng Ma",
+   "Xueqing Li",
+   "Karthik Swaminathan",
+   "Yang Zheng",
+   "Shuangchen Li",
+   "Yongpan Liu",
+   "Yuan Xie",
+   "Jack Sampson",
+   "N. Vijaykrishnan"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Exploiting Interposer Technologies to Disintegrate and Reintegrate Multicore Pro": {
+  "ss_title": "Exploiting Interposer Technologies to Disintegrate and Reintegrate Multicore Processors",
+  "ss_authors": [
+   "Ajaykumar Kannan",
+   "Natalie D. Enright Jerger",
+   "G. Loh"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Achieving One Billion Key-Value Requests per Second on a Single Server": {
+  "ss_title": "Achieving One Billion Key-Value Requests per Second on a Single Server",
+  "ss_authors": [
+   "Sheng Li",
+   "Hyeontaek Lim",
+   "V. Lee",
+   "Jung Ho Ahn",
+   "Anuj Kalia",
+   "M. Kaminsky",
+   "D. Andersen",
+   "O. Seongil",
+   "Sukhan Lee",
+   "P. Dubey"
+  ],
+  "year": 2016
+ },
+ "MICRO 2015::Unlocking Ordered Parallelism with the Swarm Architecture": {
+  "ss_title": "Unlocking Ordered Parallelism with the Swarm Architecture",
+  "ss_authors": [
+   "M. C. Jeffrey",
+   "Suvinay Subramanian",
+   "Cong Yan",
+   "J. Emer",
+   "Daniel Sánchez"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Range Translations for Fast Virtual Memory": {
+  "ss_title": "Range Translations for Fast Virtual Memory",
+  "ss_authors": [
+   "Jayneel Gandhi",
+   "Vasileios Karakostas",
+   "Furkan Ayar",
+   "A. Cristal",
+   "M. Hill",
+   "K. McKinley",
+   "M. Nemirovsky",
+   "M. Swift",
+   "O. Unsal"
+  ],
+  "year": 2016
+ },
+ "ISCA 2015::Stash: Have Your Scratchpad and Cache It Too": {
+  "ss_title": "Stash: Have your scratchpad and cache it too",
+  "ss_authors": [
+   "Rakesh Komuravelli",
+   "Matthew D. Sinclair",
+   "Johnathan Alsop",
+   "Muhammad Huzaifa",
+   "Maria Kotsifakou",
+   "Prakalp Srivastava",
+   "S. Adve",
+   "V. Adve"
+  ],
+  "year": 2015
+ },
+ "MICRO 2015::Efficient GPU Synchronization without Scopes: Saying No to Complex Consistency M": {
+  "ss_title": "Efficient GPU synchronization without scopes: Saying no to complex consistency models",
+  "ss_authors": [
+   "Matthew D. Sinclair",
+   "Johnathan Alsop",
+   "S. Adve"
+  ],
+  "year": 2015
+ },
+ "ISCA 2014::General-Purpose Code Acceleration with Limited-Precision Analog Computation": {
+  "ss_title": "General-purpose code acceleration with limited-precision analog computation",
+  "ss_authors": [
+   "Renée St. Amant",
+   "A. Yazdanbakhsh",
+   "Jongse Park",
+   "Bradley Thwaites",
+   "Hadi Esmaeilzadeh",
+   "A. Hassibi",
+   "L. Ceze",
+   "Doug Burger"
+  ],
+  "year": 2014
+ },
+ "MICRO 2015::Microarchitectural Implications of Event-Driven Server-Side Web Applications": {
+  "ss_title": "Microarchitectural implications of event-driven server-side web applications",
+  "ss_authors": [
+   "Yuhao Zhu",
+   "Daniel Richins",
+   "Matthew Halpern",
+   "V. Reddi"
+  ],
+  "year": 2015
+ },
+ "ISCA 2015::Computer Performance Microscopy with SHIM": {
+  "ss_title": "Computer performance microscopy with Shim",
+  "ss_authors": [
+   "Xi Yang",
+   "S. Blackburn",
+   "K. McKinley"
+  ],
+  "year": 2015
+ },
+ "ISCA 2015::A Scalable Processing-in-Memory Accelerator for Parallel Graph Processing": {
+  "ss_title": "A scalable processing-in-memory accelerator for parallel graph processing",
+  "ss_authors": [
+   "Junwhan Ahn",
+   "Sungpack Hong",
+   "Sungjoo Yoo",
+   "O. Mutlu",
+   "Kiyoung Choi"
+  ],
+  "year": 2015
+ },
+ "MICRO 2015::Cross-Architecture Performance Prediction (XAPP) Using CPU Code to Predict GPU P": {
+  "ss_title": "Cross-architecture performance prediction (XAPP) using CPU code to predict GPU performance",
+  "ss_authors": [
+   "Newsha Ardalani",
+   "Clint Lestourgeon",
+   "Karthikeyan Sankaralingam",
+   "Xiaojin Zhu"
+  ],
+  "year": 2015
+ },
+ "MICRO 2015::DeSC: Decoupled Supply-Compute Communication Management for Heterogeneous Archit": {
+  "ss_title": "DeSC: Decoupled supply-compute communication management for heterogeneous architectures",
+  "ss_authors": [
+   "Tae Jun Ham",
+   "Juan L. Aragón",
+   "M. Martonosi"
+  ],
+  "year": 2015
+ },
+ "ISCA 2015::Unified Address Translation for Memory-Mapped SSDs with FlashMap": {
+  "ss_title": "Unified address translation for memory-mapped SSDs with FlashMap",
+  "ss_authors": [
+   "Jian Huang",
+   "Anirudh Badam",
+   "Moinuddin K. Qureshi",
+   "K. Schwan"
+  ],
+  "year": 2015
+ },
+ "ASPLOS 2015::DEUCE: Write-Efficient Encryption for Non-Volatile Memories": {
+  "ss_title": "DEUCE: Write-Efficient Encryption for Non-Volatile Memories",
+  "ss_authors": [
+   "V. Young",
+   "Prashant J. Nair",
+   "Moinuddin K. Qureshi"
+  ],
+  "year": 2015
+ },
+ "ISCA 2015::Rumba: An Online Quality Management System for Approximate Computing": {
+  "ss_title": "Rumba: An online quality management system for approximate computing",
+  "ss_authors": [
+   "D. Khudia",
+   "Babak Zamirai",
+   "M. Samadi",
+   "S. Mahlke"
+  ],
+  "year": 2015
+ },
+ "MICRO 2015::Authenticache: Harnessing Cache ECC for System Authentication": {
+  "ss_title": "Authenticache: Harnessing cache ECC for system authentication",
+  "ss_authors": [
+   "Anys Bacha",
+   "R. Teodorescu"
+  ],
+  "year": 2015
+ },
+ "ISCA 2016::Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators": {
+  "ss_title": "Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators",
+  "ss_authors": [
+   "Yu-hsin Chen",
+   "J. Emer",
+   "V. Sze"
+  ],
+  "year": 2017
+ },
+ "ISCA 2016::The Memristive Boltzmann Machines": {
+  "ss_title": "The Memristive Boltzmann Machines",
+  "ss_authors": [
+   "M. N. Bojnordi",
+   "Engin Ipek"
+  ],
+  "year": 2017
+ },
+ "ISCA 2016::Analog Computing in a Modern Context: A Linear Algebra Accelerator Case Study": {
+  "ss_title": "Analog Computing in a Modern Context: A Linear Algebra Accelerator Case Study",
+  "ss_authors": [
+   "Yipeng Huang",
+   "Ning Guo",
+   "Mingoo Seok",
+   "Y. Tsividis",
+   "S. Sethumadhavan"
+  ],
+  "year": 2017
+ },
+ "ISCA 2016::Domain Specialization Is Generally Unnecessary for Accelerators": {
+  "ss_title": "Domain Specialization Is Generally Unnecessary for Accelerators",
+  "ss_authors": [
+   "Tony Nowatzki",
+   "Vinay Gangadhar",
+   "Karthikeyan Sankaralingam",
+   "G. Wright"
+  ],
+  "year": 2017
+ },
+ "ISCA 2016::Configurable Clouds": {
+  "ss_title": "Configurable Clouds",
+  "ss_authors": [
+   "Adrian M. Caulfield",
+   "Eric S. Chung",
+   "Andrew Putnam",
+   "Hari Angepat",
+   "D. Firestone",
+   "J. Fowers",
+   "M. Haselman",
+   "Stephen Heil",
+   "Matt Humphrey",
+   "P. Kaur",
+   "Joo-Young Kim",
+   "Daniel Lo",
+   "Todd Massengill",
+   "Kalin Ovtcharov",
+   "Michael Papamichael",
+   "Lisa Woods",
+   "S. Lanka",
+   "Derek Chiou",
+   "D. Burger"
+  ],
+  "year": 2017
+ },
+ "ISCA 2016::Specializing a Planet's Computation: ASIC Clouds": {
+  "ss_title": "Specializing a Planet's Computation: ASIC Clouds",
+  "ss_authors": [
+   "Moein Khazraee",
+   "L. V. Gutierrez",
+   "Ikuo Magaki",
+   "M. Taylor"
+  ],
+  "year": 2017
+ },
+ "MICRO 2016::DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric": {
+  "ss_title": "DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric",
+  "ss_authors": [
+   "Mingyu Gao",
+   "Christina Delimitrou",
+   "Dimin Niu",
+   "Krishna T. Malladi",
+   "Hongzhong Zheng",
+   "Bob Brennan",
+   "Christos Kozyrakis"
+  ],
+  "year": 2016
+ },
+ "ISCA 2016::Agile Paging for Efficient Memory Virtualization": {
+  "ss_title": "Agile Paging for Efficient Memory Virtualization",
+  "ss_authors": [
+   "Jayneel Gandhi",
+   "M. Hill",
+   "M. Swift"
+  ],
+  "year": 2017
+ },
+ "MICRO 2016::Transistency Models: Memory Ordering at the Hardware-OS Interface": {
+  "ss_title": "Transistency Models: Memory Ordering at the Hardware-OS Interface",
+  "ss_authors": [
+   "Daniel Lustig",
+   "Geet Sethi",
+   "A. Bhattacharjee",
+   "M. Martonosi"
+  ],
+  "year": 2017
+ },
+ "ISCA 2016::Toward a DNA-Based Archival Storage System": {
+  "ss_title": "Toward a DNA-Based Archival Storage System",
+  "ss_authors": [
+   "James Bornholt",
+   "Randolph Lopez",
+   "Douglas M. Carmean",
+   "L. Ceze",
+   "Georg Seelig",
+   "K. Strauss"
+  ],
+  "year": 2017
+ },
+ "ISCA 2016::T-states: Power Management in Active Timing Margin Processors": {
+  "ss_title": "Ti-States: Power Management in Active Timing Margin Processors",
+  "ss_authors": [
+   "Yazhou Zu",
+   "Wei Huang",
+   "Indrani Paul",
+   "V. Reddi"
+  ],
+  "year": 2017
+ },
+ "ASPLOS 2016::An Energy-Aware Debugger for Intermittently Powered Systems": {
+  "ss_title": "An Energy-Aware Debugger for Intermittently Powered Systems",
+  "ss_authors": [
+   "A. Colin",
+   "Graham Harvey",
+   "A. Sample",
+   "Brandon Lucia"
+  ],
+  "year": 2017
+ },
+ "MICRO 2016::Exploiting Semantic Commutativity in Hardware Speculation": {
+  "ss_title": "Exploiting semantic commutativity in hardware speculation",
+  "ss_authors": [
+   "Guowei Zhang",
+   "Virginia Chiu",
+   "Daniel Sánchez"
+  ],
+  "year": 2016
+ },
+ "ASPLOS 2016::The Computational Sprinting Game": {
+  "ss_title": "The Computational Sprinting Game",
+  "ss_authors": [
+   "Songchun Fan",
+   "S. Zahedi",
+   "Benjamin C. Lee"
+  ],
+  "year": 2016
+ },
+ "MICRO 2016::PoisonIvy: Safe Speculation for Secure Memory": {
+  "ss_title": "PoisonIvy: Safe speculation for secure memory",
+  "ss_authors": [
+   "T. Lehman",
+   "Andrew D. Hilton",
+   "Benjamin C. Lee"
+  ],
+  "year": 2016
+ },
+ "MICRO 2016::Data-Centric Execution of Speculative Parallel Programs": {
+  "ss_title": "Data-centric execution of speculative parallel programs",
+  "ss_authors": [
+   "M. C. Jeffrey",
+   "Suvinay Subramanian",
+   "Maleen Abeydeera",
+   "J. Emer",
+   "Daniel Sánchez"
+  ],
+  "year": 2016
+ },
+ "ISCA 2016::Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading": {
+  "ss_title": "Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading",
+  "ss_authors": [
+   "Faissal M. Sleiman",
+   "T. Wenisch"
+  ],
+  "year": 2016
+ },
+ "MICRO 2016::Racer: TSO Consistency via Race Detection": {
+  "ss_title": "Racer: TSO consistency via race detection",
+  "ss_authors": [
+   "Alberto Ros",
+   "S. Kaxiras"
+  ],
+  "year": 2016
+ },
+ "ISCA 2016::The Anytime Automaton": {
+  "ss_title": "The Anytime Automaton",
+  "ss_authors": [
+   "Joshua San Miguel",
+   "Natalie D. Enright Jerger"
+  ],
+  "year": 2016
+ },
+ "ISCA 2016::Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Samplin": {
+  "ss_title": "Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Sampling Units",
+  "ss_authors": [
+   "Siyang Wang",
+   "X. Zhang",
+   "Yuxuan Li",
+   "Ramin Bashizade",
+   "Songze Yang",
+   "C. Dwyer",
+   "A. Lebeck"
+  ],
+  "year": 2016
+ },
+ "MICRO 2016::Stripes: Bit-Serial Deep Neural Network Computing": {
+  "ss_title": "Stripes: Bit-serial deep neural network computing",
+  "ss_authors": [
+   "Patrick Judd",
+   "Jorge Albericio",
+   "Andreas Moshovos"
+  ],
+  "year": 2016
+ },
+ "ISCA 2016::Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL": {
+  "ss_title": "Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL",
+  "ss_authors": [
+   "Donggyu Kim",
+   "Adam M. Izraelevitz",
+   "Christopher Celio",
+   "Hokeun Kim",
+   "B. Zimmer",
+   "Yunsup Lee",
+   "J. Bachrach",
+   "K. Asanović"
+  ],
+  "year": 2016
+ },
+ "ISCA 2016::Back to the Future: Leveraging Belady's Algorithm for Improved Cache Replacement": {
+  "ss_title": "Back to the Future: Leveraging Belady's Algorithm for Improved Cache Replacement",
+  "ss_authors": [
+   "Akanksha Jain",
+   "Calvin Lin"
+  ],
+  "year": 2016
+ },
+ "ISCA 2016::ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic": {
+  "ss_title": "ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbars",
+  "ss_authors": [
+   "A. Shafiee",
+   "Anirban Nag",
+   "N. Muralimanohar",
+   "R. Balasubramonian",
+   "J. Strachan",
+   "Miao Hu",
+   "R. S. Williams",
+   "Vivek Srikumar"
+  ],
+  "year": 2016
+ },
+ "ISCA 2017::Motivation for and Evaluation of the First Tensor Processing Unit": {
+  "ss_title": "Motivation for and Evaluation of the First Tensor Processing Unit",
+  "ss_authors": [
+   "N. Jouppi",
+   "C. Young",
+   "Nishant Patil",
+   "David A. Patterson"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::Plasticine: A Reconfigurable Accelerator for Parallel Patterns": {
+  "ss_title": "Plasticine: A Reconfigurable Accelerator for Parallel Patterns",
+  "ss_authors": [
+   "R. Prabhakar",
+   "Yaqi Zhang",
+   "D. Koeplinger",
+   "Matthew Feldman",
+   "Tian Zhao",
+   "Stefan Hadjis",
+   "A. Pedram",
+   "Christos Kozyrakis",
+   "K. Olukotun"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::Bespoke Processors for Applications with Ultra-Low Area and Power Constraints": {
+  "ss_title": "Bespoke processors for applications with ultra-low area and power constraints",
+  "ss_authors": [
+   "Hari Cherupalli",
+   "Henry Duwe",
+   "Weidong Ye",
+   "Rakesh Kumar",
+   "J. Sartori"
+  ],
+  "year": 2017
+ },
+ "ISCA 2017::A Microarchitecture for a Superconducting Quantum Processor": {
+  "ss_title": "A Microarchitecture for a Superconducting Quantum Processor",
+  "ss_authors": [
+   "Xiang Fu",
+   "M. A. Rol",
+   "C. C. Bultink",
+   "J. V. Someren",
+   "N. Khammassi",
+   "I. Ashraf",
+   "R. Vermeulen",
+   "J. C. D. Sterke",
+   "W. Vlothuizen",
+   "R. Schouten",
+   "C. G. Almudéver",
+   "L. DiCarlo",
+   "K. Bertels"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::Non-Speculative Load Reordering in Total Store Ordering": {
+  "ss_title": "Non-Speculative Load Reordering in Total Store Ordering",
+  "ss_authors": [
+   "S. Kaxiras",
+   "Trevor E. Carlson",
+   "M. Alipour",
+   "Alberto Ros"
+  ],
+  "year": 2018
+ },
+ "MICRO 2017::Full-Stack Memory Model Verification with TriCheck": {
+  "ss_title": "Full-Stack Memory Model Verification with TriCheck",
+  "ss_authors": [
+   "Caroline Trippel",
+   "Yatin A. Manerkar",
+   "Daniel Lustig",
+   "Michael Pellauer",
+   "M. Martonosi"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::Breaking the Address Translation Wall by Accelerating Memory Replays": {
+  "ss_title": "Breaking the Address Translation Wall by Accelerating Memory Replays",
+  "ss_authors": [
+   "A. Bhattacharjee"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::A General Methodology on Designing Acyclic Channel Dependency Graphs in Intercon": {
+  "ss_title": "A General Methodology on Designing Acyclic Channel Dependency Graphs in Interconnection Networks",
+  "ss_authors": [
+   "M. Ebrahimi",
+   "M. Daneshtalab"
+  ],
+  "year": 2018
+ },
+ "MICRO 2017::Uncovering the Security Implications of Cloud Multi-Tenancy with Bolt": {
+  "ss_title": "Uncovering the Security Implications of Cloud Multi-Tenancy with Bolt",
+  "ss_authors": [
+   "Christina Delimitrou",
+   "Christos Kozyrakis"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::Motivating Security-Aware Energy Management": {
+  "ss_title": "Motivating Security-Aware Energy Management",
+  "ss_authors": [
+   "Adrian Tang",
+   "S. Sethumadhavan",
+   "S. Stolfo"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::An Architecture for Analysis": {
+  "ss_title": "An Architecture for Analysis",
+  "ss_authors": [
+   "Joseph McMahan",
+   "Michael Christensen",
+   "L. Nichols",
+   "Jared Roesch",
+   "Sung-Yee Guo",
+   "Ben Hardekopf",
+   "T. Sherwood"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::Architectural Risk": {
+  "ss_title": "Estimating and Understanding Architectural Risk",
+  "ss_authors": [
+   "Weilong Cui",
+   "T. Sherwood"
+  ],
+  "year": 2017
+ },
+ "MICRO 2017::Architectural Opportunities for Novel Dynamic EMI Shifting (DEMIS)": {
+  "ss_title": "Architectural Opportunities for Novel Dynamic EMI Shifting(DEMIS)",
+  "ss_authors": [
+   "Daphne I. Gorman",
+   "M. Guthaus",
+   "Jose Renau"
+  ],
+  "year": 2017
+ },
+ "ASPLOS 2017::An Analysis of Persistent Memory Use with WHISPER": {
+  "ss_title": "An Analysis of Persistent Memory Use with WHISPER",
+  "ss_authors": [
+   "Sanketh Nalli",
+   "Swapnil Haria",
+   "M. Hill",
+   "M. Swift",
+   "Haris Volos",
+   "K. Keeton"
+  ],
+  "year": 2017
+ },
+ "MICRO 2017::RTLCheck: Verifying the Memory Consistency of RTL Designs": {
+  "ss_title": "RTLCheck: Verifying the Memory Consistency of RTL Designs",
+  "ss_authors": [
+   "Yatin A. Manerkar",
+   "Daniel Lustig",
+   "M. Martonosi",
+   "Michael Pellauer"
+  ],
+  "year": 2017
+ },
+ "MICRO 2017::Architectural Techniques for Energy-Efficient Brain Implants Using Hardware Perc": {
+  "ss_title": null,
+  "ss_authors": [],
+  "error": "404"
+ },
+ "MICRO 2017::Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations": {
+  "ss_title": "Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations",
+  "ss_authors": [
+   "Yipeng Huang",
+   "Ning Guo",
+   "Mingoo Seok",
+   "Y. Tsividis",
+   "K. Mandli",
+   "S. Sethumadhavan"
+  ],
+  "year": 2017
+ },
+ "MICRO 2017::A Many-Core Architecture for In-Memory Data Processing": {
+  "ss_title": "A Many-core Architecture for In-Memory Data Processing",
+  "ss_authors": [
+   "Sandeep R. Agrawal",
+   "Sam Idicula",
+   "Arun Raghavan",
+   "E. Vlachos",
+   "Venkatraman Govindaraju",
+   "V. Varadarajan",
+   "C. Balkesen",
+   "Georgios K. Giannikis",
+   "Charlie Roth",
+   "N. Agarwal",
+   "E. Sedlar"
+  ],
+  "year": 2017
+ },
+ "HPCA 2017::NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Ar": {
+  "ss_title": "NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Architecture",
+  "ss_authors": [
+   "Mohammad Alian",
+   "Ahmed H. M. O. Abulila",
+   "Lokesh Jindal",
+   "Daehoon Kim",
+   "N. Kim"
+  ],
+  "year": 2017
+ },
+ "ASPLOS 2017::IncBricks: Toward In-Network Computation with an In-Network Cache": {
+  "ss_title": "IncBricks: Toward In-Network Computation with an In-Network Cache",
+  "ss_authors": [
+   "Ming Liu",
+   "Liang Luo",
+   "J. Nelson",
+   "L. Ceze",
+   "A. Krishnamurthy",
+   "Kishore Atreya"
+  ],
+  "year": 2017
+ },
+ "ISCA 2017::EDDIE: EM-Based Detection of Deviations in Program Execution": {
+  "ss_title": "EDDIE: EM-based detection of deviations in program execution",
+  "ss_authors": [
+   "A. Nazari",
+   "Nader Sehatbakhsh",
+   "Monjur Alam",
+   "A. Zajić",
+   "Milos Prvulović"
+  ],
+  "year": 2017
+ },
+ "ISCA 2018::Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks": {
+  "ss_title": "Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks",
+  "ss_authors": [
+   "Charles Eckert",
+   "Xiaowei Wang",
+   "Jingcheng Wang",
+   "Arun K. Subramaniyan",
+   "R. Iyer",
+   "D. Sylvester",
+   "D. Blaauw",
+   "R. Das"
+  ],
+  "year": 2018
+ },
+ "ISCA 2018::Inside Project Brainwave's Cloud-Scale, Real-Time AI Processor": {
+  "ss_title": "Inside Project Brainwave's Cloud-Scale, Real-Time AI Processor",
+  "ss_authors": [
+   "J. Fowers",
+   "Kalin Ovtcharov",
+   "Michael Papamichael",
+   "Todd Massengill",
+   "Ming Liu",
+   "Daniel Lo",
+   "Shlomi Alkalay",
+   "M. Haselman",
+   "Logan Adams",
+   "Mahdi Ghandi",
+   "Stephen Heil",
+   "Prerak Patel",
+   "Adam Sapek",
+   "G. Weisz",
+   "Lisa Woods",
+   "S. Lanka",
+   "S. Reinhardt",
+   "Adrian M. Caulfield",
+   "Eric S. Chung",
+   "D. Burger"
+  ],
+  "year": 2019
+ },
+ "ASPLOS 2018::Darwin: A Genomics Coprocessor": {
+  "ss_title": "Darwin: A Genomics Coprocessor",
+  "ss_authors": [
+   "Y. Turakhia",
+   "G. Bejerano",
+   "W. Dally"
+  ],
+  "year": 2019
+ },
+ "ISCA 2018::A Hardware Accelerator for Tracing Garbage Collection": {
+  "ss_title": "A Hardware Accelerator for Tracing Garbage Collection",
+  "ss_authors": [
+   "Martin Maas",
+   "K. Asanović",
+   "J. Kubiatowicz"
+  ],
+  "year": 2018
+ },
+ "MICRO 2018::Composable Building Blocks to Open Up Processor Design": {
+  "ss_title": "Composable Building Blocks to Open up Processor Design",
+  "ss_authors": [
+   "Sizhuo Zhang",
+   "Andrew Wright",
+   "Thomas Bourgeat",
+   "Arvind Arvind"
+  ],
+  "year": 2018
+ },
+ "ISCA 2018::FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public ": {
+  "ss_title": "FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public Cloud",
+  "ss_authors": [
+   "S. Karandikar",
+   "H. Mao",
+   "Donggyu Kim",
+   "David Biancolin",
+   "Alon Amid",
+   "Dayeol Lee",
+   "Nathan Pemberton",
+   "Emmanuel Amaro",
+   "Colin Schmidt",
+   "Aditya Chopra",
+   "Qijing Huang",
+   "Kyle Kovacs",
+   "B. Nikolić",
+   "R. Katz",
+   "J. Bachrach",
+   "K. Asanović"
+  ],
+  "year": 2018
+ },
+ "USENIX Security 2018::Foreshadow: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-O": {
+  "ss_title": "Foreshadow: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution",
+  "ss_authors": [
+   "Jo Van Bulck",
+   "Marina Minkin",
+   "Ofir Weisse",
+   "Daniel Genkin",
+   "Baris Kasikci",
+   "F. Piessens",
+   "M. Silberstein",
+   "T. Wenisch",
+   "Y. Yarom",
+   "Raoul Strackx"
+  ],
+  "year": 2018
+ },
+ "ISCA 2018::Mobilizing the Micro-Ops: Exploiting Context Sensitive Decoding for Security and": {
+  "ss_title": "Mobilizing the Micro-Ops: Exploiting Context Sensitive Decoding for Security and Energy Efficiency",
+  "ss_authors": [
+   "Mohammadkazem Taram",
+   "A. Venkat",
+   "D. Tullsen"
+  ],
+  "year": 2018
+ },
+ "MICRO 2018::CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests": {
+  "ss_title": "CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests",
+  "ss_authors": [
+   "Caroline Trippel",
+   "Daniel Lustig",
+   "M. Martonosi"
+  ],
+  "year": 2018
+ },
+ "ISCA 2017::Language-Level Persistency": {
+  "ss_title": "Language-level persistency",
+  "ss_authors": [
+   "Aasheesh Kolli",
+   "V. Gogte",
+   "A. Saidi",
+   "S. Diestelhorst",
+   "Peter M. Chen",
+   "S. Narayanasamy",
+   "T. Wenisch"
+  ],
+  "year": 2017
+ },
+ "ISCA 2018::Nonblocking DRAM Refresh": {
+  "ss_title": "Nonblocking DRAM Refresh",
+  "ss_authors": [
+   "Kate Nguyen",
+   "Kehan Lyu",
+   "Xianze Meng",
+   "Vilas Sridharan",
+   "Xun Jian"
+  ],
+  "year": 2019
+ },
+ "ISCA 2018::Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadl": {
+  "ss_title": "Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadlock Freedom",
+  "ss_authors": [
+   "Aniruddh Ramrakhyani",
+   "Paul V. Gratz",
+   "T. Krishna"
+  ],
+  "year": 2018
+ },
+ "ISCA 2018::Euphrates: Algorithm-SoC Co-design for Low-Power Mobile Continuous Vision": {
+  "ss_title": "Euphrates: Algorithm-SoC Co-Design for Low-Power Mobile Continuous Vision",
+  "ss_authors": [
+   "Yuhao Zhu",
+   "A. Samajdar",
+   "Matthew Mattina",
+   "P. Whatmough"
+  ],
+  "year": 2018
+ },
+ "ISCA 2018::Generic System Calls for GPUs": {
+  "ss_title": "Generic System Calls for GPUs",
+  "ss_authors": [
+   "J. Veselý",
+   "Arkaprava Basu",
+   "A. Bhattacharjee",
+   "G. Loh",
+   "M. Oskin",
+   "S. Reinhardt"
+  ],
+  "year": 2018
+ },
+ "ASPLOS 2018::MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurab": {
+  "ss_title": "MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects",
+  "ss_authors": [
+   "Hyoukjun Kwon",
+   "A. Samajdar",
+   "T. Krishna"
+  ],
+  "year": 2018
+ },
+ "ISCA 2018::Promise: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Mac": {
+  "ss_title": "PROMISE: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Machine-Learning Algorithms",
+  "ss_authors": [
+   "Prakalp Srivastava",
+   "Mingu Kang",
+   "Sujan Kumar Gonugondla",
+   "Sungmin Lim",
+   "Jungwook Choi",
+   "V. Adve",
+   "N. Kim",
+   "Naresh R Shanbhag"
+  ],
+  "year": 2018
+ },
+ "HPCA 2018::Making Memristive Neural Network Accelerators Reliable": {
+  "ss_title": "Making Memristive Neural Network Accelerators Reliable",
+  "ss_authors": [
+   "Ben Feinberg",
+   "Shibo Wang",
+   "Engin Ipek"
+  ],
+  "year": 2018
+ },
+ "ISCA 2018::ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atom": {
+  "ss_title": "ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atomic Specifications",
+  "ss_authors": [
+   "Nicolai Oswald",
+   "V. Nagarajan",
+   "Daniel J. Sorin"
+  ],
+  "year": 2018
+ },
+ "MICRO 2018::PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specificat": {
+  "ss_title": "PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specifications",
+  "ss_authors": [
+   "Yatin A. Manerkar",
+   "Daniel Lustig",
+   "M. Martonosi",
+   "Aarti Gupta"
+  ],
+  "year": 2018
+ },
+ "HPCA 2018::Synergy: Rethinking Secure-Memory Design for Error-Correcting Memories": {
+  "ss_title": "SYNERGY: Rethinking Secure-Memory Design for Error-Correcting Memories",
+  "ss_authors": [
+   "Gururaj Saileshwar",
+   "Prashant J. Nair",
+   "Prakash Ramrakhyani",
+   "Wendy Elsasser",
+   "Moinuddin K. Qureshi"
+  ],
+  "year": 2018
+ },
+ "MICRO 2018::InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy": {
+  "ss_title": "InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy",
+  "ss_authors": [
+   "Mengjia Yan",
+   "Jiho Choi",
+   "Dimitrios Skarlatos",
+   "Adam Morrison",
+   "Christopher W. Fletcher",
+   "J. Torrellas"
+  ],
+  "year": 2018
+ },
+ "ASPLOS 2018::A Reconfigurable Energy Storage Architecture for Energy-Harvesting Devices": {
+  "ss_title": "A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices",
+  "ss_authors": [
+   "A. Colin",
+   "E. Ruppel",
+   "Brandon Lucia"
+  ],
+  "year": 2018
+ },
+ "ASPLOS 2018::Caloree: Learning Control for Predictable Latency and Low Energy": {
+  "ss_title": "CALOREE: Learning Control for Predictable Latency and Low Energy",
+  "ss_authors": [
+   "Nikita Mishra",
+   "Connor Imes",
+   "J. Lafferty",
+   "H. Hoffmann"
+  ],
+  "year": 2018
+ },
+ "ASPLOS 2019::Unveiling the Hardware and Software Implications of Microservices in Cloud and E": {
+  "ss_title": "Unveiling the Hardware and Software Implications of Microservices in Cloud and Edge Systems",
+  "ss_authors": [
+   "Yu Gan",
+   "Yanqi Zhang",
+   "Dailun Cheng",
+   "A. Shetty",
+   "Priyal Rathi",
+   "Nayan Katarki",
+   "Ariana Bruno",
+   "Justin Hu",
+   "Brian Ritchken",
+   "Brendon Jackson",
+   "Kelvin Hu",
+   "Meghna Pancholi",
+   "Yuan He",
+   "B. Clancy",
+   "C. Colen",
+   "Fukang Wen",
+   "Catherine Leung",
+   "Siyuan Wang",
+   "Leon Zaruvinsky",
+   "Mateo Espinosa Zarlenga",
+   "Rick Lin",
+   "Zhongling Liu",
+   "Jake Padilla",
+   "Christina Delimitrou"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware ": {
+  "ss_title": "MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings",
+  "ss_authors": [
+   "Hyoukjun Kwon",
+   "Prasanth Chatarasi",
+   "Vivek Sarkar",
+   "T. Krishna",
+   "Michael Pellauer",
+   "A. Parashar"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::Energy-Efficient Video Processing for Virtual Reality": {
+  "ss_title": "Energy-Efficient Video Processing for Virtual Reality",
+  "ss_authors": [
+   "Yue Leng",
+   "Chi-Chun Chen",
+   "Qiuyue Sun",
+   "Jian Huang",
+   "Yuhao Zhu"
+  ],
+  "year": 2019
+ },
+ "MICRO 2019::Towards General-Purpose Acceleration: Finding Structure in Irregularity": {
+  "ss_title": "Towards General-Purpose Acceleration: Finding Structure in Irregularity",
+  "ss_authors": [
+   "Vidushi Dadu",
+   "Jian Weng",
+   "Sihao Liu",
+   "Tony Nowatzki"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::Varifocal Storage: Dynamic Multiresolution Data Storage": {
+  "ss_title": "Varifocal Storage: Dynamic Multiresolution Data Storage",
+  "ss_authors": [
+   "Yu-Ching Hu",
+   "Murtuza Lokhandwala",
+   "Te I",
+   "Hung-Wei Tseng"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computer": {
+  "ss_title": "AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computers",
+  "ss_authors": [
+   "Grant Ayers",
+   "N. P. Nagendra",
+   "David I. August",
+   "H. Cho",
+   "Svilen Kanev",
+   "Christos Kozyrakis",
+   "Trivikram Krishnamurthy",
+   "Heiner Litz",
+   "Tipp Moseley",
+   "Parthasarathy Ranganathan"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::Extending the Frontier of Quantum Computers With Qutrits": {
+  "ss_title": "Extending the Frontier of Quantum Computers With Qutrits",
+  "ss_authors": [
+   "P. Gokhale",
+   "Jonathan M. Baker",
+   "Casey Duckering",
+   "F. Chong",
+   "N. C. Brown",
+   "K. Brown"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::Architecting Noisy Intermediate-Scale Quantum Computers: A Real-System Study": {
+  "ss_title": "Architecting Noisy Intermediate-Scale Quantum Computers: A Real-System Study",
+  "ss_authors": [
+   "Prakash Murali",
+   "N. Linke",
+   "M. Martonosi",
+   "Ali JavadiAbhari",
+   "N. Nguyen",
+   "C. H. Alderete"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively A": {
+  "ss_title": "Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data",
+  "ss_authors": [
+   "Jiyong Yu",
+   "Mengjia Yan",
+   "Artem Khyzha",
+   "Adam Morrison",
+   "J. Torrellas",
+   "Christopher W. Fletcher"
+  ],
+  "year": 2019
+ },
+ "MICRO 2019::MicroScope: Enabling Microarchitectural Replay Attacks": {
+  "ss_title": "MicroScope: Enabling Microarchitectural Replay Attacks",
+  "ss_authors": [
+   "Dimitrios Skarlatos",
+   "Mengjia Yan",
+   "Bhargava Gopireddy",
+   "Read Sprabery",
+   "J. Torrellas",
+   "Christopher W. Fletcher"
+  ],
+  "year": 2020
+ },
+ "MICRO 2019::Creating Foundations for Secure Microarchitectures With Data-Oblivious ISA Exten": {
+  "ss_title": "Creating Foundations for Secure Microarchitectures With Data-Oblivious ISA Extensions",
+  "ss_authors": [
+   "Jiyong Yu",
+   "Lucas Hsiung",
+   "Mohamad El Hajj",
+   "Christopher W. Fletcher"
+  ],
+  "year": 2020
+ },
+ "ISCA 2019::Trace Wringing for Program Trace Privacy": {
+  "ss_title": "Trace Wringing for Program Trace Privacy",
+  "ss_authors": [
+   "Deeksha Dangwal",
+   "Weilong Cui",
+   "Joseph McMahan",
+   "T. Sherwood"
+  ],
+  "year": 2020
+ },
+ "HPCA 2019::The Accelerator Wall: Limits of Chip Specialization": {
+  "ss_title": "The Accelerator Wall: Limits of Chip Specialization",
+  "ss_authors": [
+   "Adi Fuchs",
+   "D. Wentzlaff"
+  ],
+  "year": 2019
+ },
+ "MICRO 2019::TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and T": {
+  "ss_title": "TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and Tensor Operations in Deep Learning",
+  "ss_authors": [
+   "Youngeun Kwon",
+   "Yunjae Lee",
+   "Minsoo Rhu"
+  ],
+  "year": 2019
+ },
+ "MICRO 2019::ComputeDRAM: In-Memory Compute Using Off-the-Shelf DRAMs": {
+  "ss_title": "ComputeDRAM: In-Memory Compute Using Off-the-Shelf DRAMs",
+  "ss_authors": [
+   "Fei Gao",
+   "Georgios Tziantzoulis",
+   "D. Wentzlaff"
+  ],
+  "year": 2019
+ },
+ "MICRO 2019::NDA: Preventing Speculative Execution Attacks at Their Source": {
+  "ss_title": "NDA: Preventing Speculative Execution Attacks at Their Source",
+  "ss_authors": [
+   "Ofir Weisse",
+   "Ian Neal",
+   "Kevin Loughlin",
+   "T. Wenisch",
+   "Baris Kasikci"
+  ],
+  "year": 2019
+ },
+ "ISCA 2019::Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems": {
+  "ss_title": "Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems",
+  "ss_authors": [
+   "Sihang Liu",
+   "Korakit Seemakhupt",
+   "Gennady Pekhimenko",
+   "Aasheesh Kolli",
+   "S. Khan"
+  ],
+  "year": 2019
+ },
+ "HPCA 2019::D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low L": {
+  "ss_title": "D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low Latency and High Throughput",
+  "ss_authors": [
+   "Jeremie S. Kim",
+   "Minesh Patel",
+   "Hasan Hassan",
+   "L. Orosa",
+   "O. Mutlu"
+  ],
+  "year": 2018
+ },
+ "MICRO 2019::Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture": {
+  "ss_title": "Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture",
+  "ss_authors": [
+   "Y. Shao",
+   "Jason Clemons",
+   "Rangharajan Venkatesan",
+   "B. Zimmer",
+   "Matthew R. Fojtik",
+   "Nan Jiang",
+   "Ben Keller",
+   "Alicia Klinefelter",
+   "N. Pinckney",
+   "Priyanka Raina",
+   "S. Tell",
+   "Yanqing Zhang",
+   "W. Dally",
+   "J. Emer",
+   "C. T. Gray",
+   "Brucek Khailany",
+   "S. Keckler"
+  ],
+  "year": 2019
+ },
+ "ASPLOS 2019::Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data O": {
+  "ss_title": "Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration",
+  "ss_authors": [
+   "Michael Pellauer",
+   "Y. Shao",
+   "Jason Clemons",
+   "N. Crago",
+   "Kartik Hegde",
+   "Rangharajan Venkatesan",
+   "S. Keckler",
+   "Christopher W. Fletcher",
+   "J. Emer"
+  ],
+  "year": 2019
+ },
+ "MICRO 2019::ExTensor: An Accelerator for Sparse Tensor Algebra": {
+  "ss_title": "ExTensor: An Accelerator for Sparse Tensor Algebra",
+  "ss_authors": [
+   "Kartik Hegde",
+   "Hadi Asghari Moghaddam",
+   "Michael Pellauer",
+   "N. Crago",
+   "A. Jaleel",
+   "Edgar Solomonik",
+   "J. Emer",
+   "Christopher W. Fletcher"
+  ],
+  "year": 2019
+ },
+ "ASPLOS 2019::A Formal Analysis of the NVIDIA PTX Memory Consistency Model": {
+  "ss_title": "A Formal Analysis of the NVIDIA PTX Memory Consistency Model",
+  "ss_authors": [
+   "Daniel Lustig",
+   "Sameer D. Sahasrabuddhe",
+   "Olivier Giroux"
+  ],
+  "year": 2019
+ },
+ "PACT 2019::SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels": {
+  "ss_title": "SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels",
+  "ss_authors": [
+   "Kristin Barber",
+   "Anys Bacha",
+   "Li Zhou",
+   "Yinqian Zhang",
+   "R. Teodorescu"
+  ],
+  "year": 2019
+ },
+ "ISCA 2019::Designing Vertical Processors in Monolithic 3D": {
+  "ss_title": "Designing Vertical Processors in Monolithic 3D",
+  "ss_authors": [
+   "Bhargava Gopireddy",
+   "J. Torrellas"
+  ],
+  "year": 2019
+ },
+ "HPCA 2019::CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-per-Second Scal": {
+  "ss_title": "CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-Per-Second Scale SSD Arrays",
+  "ss_authors": [
+   "Mohammadamin Ajdari",
+   "Pyeongsu Park",
+   "Joonsung Kim",
+   "Dongup Kwon",
+   "Jang-Hyun Kim"
+  ],
+  "year": 2019
+ },
+ "MICRO 2019::Practical Byte-Granular Memory Blacklisting using Califorms": {
+  "ss_title": "Practical Byte-Granular Memory Blacklisting using Califorms",
+  "ss_authors": [
+   "Hiroshi Sasaki",
+   "Miguel A. Arroyo",
+   "M. Tarek",
+   "Ibn Ziad",
+   "Koustubha Bhat",
+   "Kanad Sinha",
+   "S. Sethumadhavan"
+  ],
+  "year": 2019
+ },
+ "ISCA 2020::The Vision Behind MLPerf: Understanding AI Inference Performance": {
+  "ss_title": "The Vision Behind MLPerf: Understanding AI Inference Performance",
+  "ss_authors": [
+   "V. Reddi",
+   "Christine Cheng",
+   "David Kanter",
+   "Peter Mattson",
+   "Guenther Schmuelling",
+   "Carole-Jean Wu",
+   "Brian J. Anderson",
+   "Maximilien Breughe",
+   "Ramesh Chukka",
+   "C. Coleman",
+   "Itay Hubara",
+   "T. Jablin",
+   "Pankaj Kanwar",
+   "Anton Lokhmotov",
+   "Francisco Massa",
+   "Gennady Pekhimenko",
+   "Ashish Sirasao",
+   "T. S. John",
+   "George Yuan",
+   "Dilip Sequeira"
+  ],
+  "year": 2021
+ },
+ "MICRO 2020::Superconductor Computing for Neural Networks": {
+  "ss_title": "Superconductor Computing for Neural Networks",
+  "ss_authors": [
+   "Koki Ishida",
+   "Ilkwon Byun",
+   "Ikki Nagaoka",
+   "Kosuke Fukumitsu",
+   "Masamitsu Tanaka",
+   "Satoshi Kawakami",
+   "Teruo Tanimoto",
+   "Takatsugu Ono",
+   "Jangwoo Kim",
+   "Koji Inoue"
+  ],
+  "year": 2021
+ },
+ "ISCA 2020::Leaking Secrets Through Compressed Caches": {
+  "ss_title": "Leaking Secrets Through Compressed Caches",
+  "ss_authors": [
+   "Po-An Tsai",
+   "Andrés Sánchez",
+   "Christopher W. Fletcher",
+   "Daniel Sánchez"
+  ],
+  "year": 2021
+ },
+ "ISCA 2020::Understanding Acceleration Opportunities at Hyperscale": {
+  "ss_title": "Understanding Acceleration Opportunities at Hyperscale",
+  "ss_authors": [
+   "Akshitha Sriraman",
+   "Abhishek Dhanotia"
+  ],
+  "year": 2021
+ },
+ "ISCA 2020::Accelerating Genomic Data Analytics With Composable Hardware Acceleration Framew": {
+  "ss_title": "Accelerating Genomic Data Analytics With Composable Hardware Acceleration Framework",
+  "ss_authors": [
+   "Tae Jun Ham",
+   "Yejin Lee",
+   "Seong Hoon Seo",
+   "U. G. Song",
+   "Jae W. Lee",
+   "David Bruns-Smith",
+   "B. Sweeney",
+   "K. Asanović",
+   "Young H. Oh",
+   "L. Wills"
+  ],
+  "year": 2021
+ },
+ "ISCA 2020::uGEMM: Unary Computing for GEMM Applications": {
+  "ss_title": "uGEMM: Unary Computing for GEMM Applications",
+  "ss_authors": [
+   "Di Wu",
+   "Jingjie Li",
+   "Ruokai Yin",
+   "Hsuan Hsiao",
+   "Younghyun Kim",
+   "Joshua San Miguel"
+  ],
+  "year": 2021
+ },
+ "ASPLOS 2020::BabelFish: Fusing Address Translations for Containers": {
+  "ss_title": "BabelFish: Fusing Address Translations for Containers",
+  "ss_authors": [
+   "Dimitrios Skarlatos",
+   "Umur Darbaz",
+   "Bhargava Gopireddy",
+   "N. Kim",
+   "J. Torrellas"
+  ],
+  "year": 2020
+ },
+ "ISCA 2020::Characterizing and Modeling Nonvolatile Memory Systems": {
+  "ss_title": "Characterizing and Modeling Nonvolatile Memory Systems",
+  "ss_authors": [
+   "Zixuan Wang",
+   "Xiao Liu",
+   "Jian Yang",
+   "Theodore Michailidis",
+   "S. Swanson",
+   "Jishen Zhao"
+  ],
+  "year": 2021
+ },
+ "ISCA 2020::Temporal Computing With Superconductors": {
+  "ss_title": "Temporal Computing With Superconductors",
+  "ss_authors": [
+   "Georgios Tzimpragos",
+   "Jennifer Volk",
+   "Dilip P. Vasudevan",
+   "Nestan Tsiskaridze",
+   "George Michelogiannakis",
+   "A. Madhavan",
+   "J. Shalf",
+   "T. Sherwood"
+  ],
+  "year": 2021
+ },
+ "HPCA 2020::A Next-Generation Cryogenic Processor Architecture": {
+  "ss_title": "A Next-Generation Cryogenic Processor Architecture",
+  "ss_authors": [
+   "Ilkwon Byun",
+   "Dongmoon Min",
+   "Gyu-hyeon Lee",
+   "Seongmin Na",
+   "Jangwoo Kim"
+  ],
+  "year": 2021
+ },
+ "ISCA 2020::Balancing Specialized Versus Flexible Computation in Brain-Computer Interfaces": {
+  "ss_title": "Balancing Specialized Versus Flexible Computation in Brain–Computer Interfaces",
+  "ss_authors": [
+   "I. Karageorgos",
+   "Karthik Sriram",
+   "J. Veselý",
+   "Nick Lindsay",
+   "Xiayuan Wen",
+   "Michael Wu",
+   "Marc Powell",
+   "D. Borton",
+   "R. Manohar",
+   "A. Bhattacharjee"
+  ],
+  "year": 2021
+ },
+ "ISCA 2020::Virtual Logical Qubits: A Compact Architecture for Fault-Tolerant Quantum Comput": {
+  "ss_title": "Virtual Logical Qubits: A Compact Architecture for Fault-Tolerant Quantum Computing",
+  "ss_authors": [
+   "Jonathan M. Baker",
+   "Casey Duckering",
+   "D. Schuster",
+   "F. Chong"
+  ],
+  "year": 2021
+ },
+ "ASPLOS 2020::NeuMMU: Architectural Support for Efficient Address Translations in Neural Proce": {
+  "ss_title": "NeuMMU: Architectural Support for Efficient Address Translations in Neural Processing Units",
+  "ss_authors": [
+   "Bongjoon Hyun",
+   "Youngeun Kwon",
+   "Yujeong Choi",
+   "John Kim",
+   "Minsoo Rhu"
+  ],
+  "year": 2019
+ },
+ "ASPLOS 2020::Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol": {
+  "ss_title": "Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol",
+  "ss_authors": [
+   "Antonios Katsarakis",
+   "Vasilis Gavrielatos",
+   "M. Katebzadeh",
+   "A. Joshi",
+   "A. Dragojevic",
+   "B. Grot",
+   "V. Nagarajan"
+  ],
+  "year": 2020
+ },
+ "ISCA 2020::DSAGEN: Synthesizing Programmable Spatial Accelerators": {
+  "ss_title": "DSAGEN: Synthesizing Programmable Spatial Accelerators",
+  "ss_authors": [
+   "Jian Weng",
+   "Sihao Liu",
+   "Vidushi Dadu",
+   "Zhengrong Wang",
+   "Preyas Shah",
+   "Tony Nowatzki"
+  ],
+  "year": 2020
+ },
+ "MICRO 2020::Printed Machine Learning Classifiers": {
+  "ss_title": "Late Breaking Results: Energy-Efficient Printed Machine Learning Classifiers with Sequential SVMs",
+  "ss_authors": [
+   "Spyridon Besias",
+   "Ilias Sertaridis",
+   "Florentia Afentaki",
+   "K. Balaskas",
+   "Georgios Zervakis"
+  ],
+  "year": 2025
+ },
+ "OSDI 2020::Agamotto: How Persistent is your Persistent Memory Application?": {
+  "ss_title": "AGAMOTTO: How Persistent is your Persistent Memory Application?",
+  "ss_authors": [
+   "Ian Neal",
+   "B. Reeves",
+   "Ben Stoler",
+   "Andrew Quinn",
+   "Youngjin Kwon",
+   "Simon Peter",
+   "Baris Kasikci"
+  ],
+  "year": 2020
+ },
+ "MICRO 2020::Graphene: Strong yet Lightweight Row Hammer Protection": {
+  "ss_title": "Graphene: Strong yet Lightweight Row Hammer Protection",
+  "ss_authors": [
+   "Yeonhong Park",
+   "Woosuk Kwon",
+   "Eojin Lee",
+   "Tae Jun Ham",
+   "Jung Ho Ahn",
+   "Jae W. Lee"
+  ],
+  "year": 2020
+ },
+ "MICRO 2020::Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware C": {
+  "ss_title": "Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware Compilation",
+  "ss_authors": [
+   "Yongshan Ding",
+   "P. Gokhale",
+   "S. Lin",
+   "Rich Rines",
+   "Thomas Propson",
+   "F. Chong"
+  ],
+  "year": 2020
+ },
+ "S&P 2020::TRRespass: Exploiting the Many Sides of Target Row Refresh": {
+  "ss_title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+  "ss_authors": [
+   "Pietro Frigo",
+   "Emanuele Vannacci",
+   "Hasan Hassan",
+   "V. V. D. Veen",
+   "O. Mutlu",
+   "Cristiano Giuffrida",
+   "H. Bos",
+   "Kaveh Razavi"
+  ],
+  "year": 2020
+ },
+ "ISCA 2020::SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Ef": {
+  "ss_title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+  "ss_authors": [
+   "Yongshan Ding",
+   "Xin-Chuan Wu",
+   "Adam Holmes",
+   "Ash Wiseth",
+   "Diana Franklin",
+   "M. Martonosi",
+   "F. Chong"
+  ],
+  "year": 2020
+ },
+ "HPCA 2020::Leaking Information Through Cache LRU States": {
+  "ss_title": "Leaking Information Through Cache LRU States",
+  "ss_authors": [
+   "Wenjie Xiong",
+   "Jakub Szefer"
+  ],
+  "year": 2019
+ },
+ "ASPLOS 2020::Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelis": {
+  "ss_title": "Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism",
+  "ss_authors": [
+   "Dimitrios Skarlatos",
+   "Apostolos Kokolis",
+   "Tianyin Xu",
+   "J. Torrellas"
+  ],
+  "year": 2020
+ },
+ "HPCA 2020::The Architectural Implications of Facebook's DNN-based Personalized Recommendati": {
+  "ss_title": "The Architectural Implications of Facebook's DNN-Based Personalized Recommendation",
+  "ss_authors": [
+   "Udit Gupta",
+   "Xiaodong Wang",
+   "M. Naumov",
+   "Carole-Jean Wu",
+   "Brandon Reagen",
+   "D. Brooks",
+   "Bradford Cottel",
+   "K. Hazelwood",
+   "Bill Jia",
+   "Hsien-Hsin S. Lee",
+   "A. Malevich",
+   "Dheevatsa Mudigere",
+   "M. Smelyanskiy",
+   "Liang Xiong",
+   "Xuan Zhang"
+  ],
+  "year": 2019
+ },
+ "ISCA 2021::Overclocking in Immersion-Cooled Datacenters": {
+  "ss_title": "Overclocking in Immersion-Cooled Datacenters",
+  "ss_authors": [
+   "Pulkit A. Misra",
+   "I. Manousakis",
+   "Esha Choukse",
+   "Majid Jalili",
+   "Íñigo Goiri",
+   "Ashish Raniwala",
+   "Brijesh Warrier",
+   "H. Alissa",
+   "Bharath Ramakrishnan",
+   "P. Tuma",
+   "C. Belady",
+   "M. Fontoura",
+   "R. Bianchini"
+  ],
+  "year": 2022
+ },
+ "ASPLOS 2021::Warehouse-Scale Video Acceleration": {
+  "ss_title": "Warehouse-scale video acceleration: co-design and deployment in the wild",
+  "ss_authors": [
+   "Parthasarathy Ranganathan",
+   "Daniel Stodolsky",
+   "Jeff Calow",
+   "Jeremy Dorfman",
+   "Marisabel Guevara",
+   "Clinton Wills",
+   "IV Smullen",
+   "Raghu Balasubramanian",
+   "S. Bhatia",
+   "Prakash Chauhan",
+   "Anna Cheung",
+   "In Suk Chong",
+   "Niranjani Dasharathi",
+   "Jianmei Feng",
+   "Brian Fosco",
+   "Samuel Foss",
+   "Ben Gelb",
+   "Sara J. Gwin",
+   "Yoshiaki Hase",
+   "Dazhi He",
+   "C. Ho",
+   "Roy W. Huffman",
+   "Elisha Indupalli",
+   "Indira Jayaram",
+   "P. Kongetira",
+   "Aki Kuusela",
+   "C. Mon",
+   "A. Kyaw",
+   "Yuan Laursen",
+   "Fong Z. Li",
+   "Kyle A Lou",
+   "JP Lucke",
+   "Ramon Maaninen",
+   "M. Macías",
+   "Dave Mahony",
+   "Srikanth Munday",
+   "Narayana Muroor",
+   "Eric Penukonda",
+   "Devin Perkins-Argueta",
+   "A. Persaud",
+   "Ville-Mikko Ramirez",
+   "Yolanda Rautio",
+   "A. Ripley",
+   "Sathish Salek",
+   "Sergey N Sekar",
+   "R. Sokolov",
+   "D. Springer",
+   "M. Stark",
+   "M. Tan",
+   "Andrew C Wachsler",
+   "A. WaltonDavid",
+   "Alvin Wickeraad",
+   "W. Hon",
+   "K. Wu"
+  ],
+  "year": 2021
+ },
+ "ASPLOS 2021::Practical and Scalable ML-Driven Cloud Performance Debugging With Sage": {
+  "ss_title": "Practical and Scalable ML-Driven Cloud Performance Debugging With Sage",
+  "ss_authors": [
+   "Yu Gan",
+   "Mingyu Liang",
+   "Sundar Dev",
+   "David Lo",
+   "Christina Delimitrou"
+  ],
+  "year": 2022
+ },
+ "HPCA 2021::Chasing Carbon: The Elusive Environmental Footprint of Computing": {
+  "ss_title": "Chasing Carbon: The Elusive Environmental Footprint of Computing",
+  "ss_authors": [
+   "Udit Gupta",
+   "Young Geun Kim",
+   "Sylvia Lee",
+   "J. Tse",
+   "Hsien-Hsin S. Lee",
+   "Gu-Yeon Wei",
+   "D. Brooks",
+   "Carole-Jean Wu"
+  ],
+  "year": 2020
+ },
+ "ISCA 2021::Maya: Using Formal Control to Obfuscate Power Side Channels": {
+  "ss_title": "Maya: Using Formal Control to Obfuscate Power Side Channels",
+  "ss_authors": [
+   "Raghavendra Pradyumna Pothukuchi",
+   "Sweta Yamini Pothukuchi",
+   "P. Voulgaris",
+   "A. Schwing",
+   "J. Torrellas"
+  ],
+  "year": 2019
+ },
+ "MICRO 2021::An Architecture to Accelerate Computation on Encrypted Data": {
+  "ss_title": "An Architecture to Accelerate Computation on Encrypted Data",
+  "ss_authors": [
+   "Axel Feldmann",
+   "Nikola Samardzic",
+   "A. Krastev",
+   "S. Devadas",
+   "R. Dreslinski",
+   "Chris Peikert",
+   "Daniel Sánchez"
+  ],
+  "year": 2022
+ },
+ "MICRO 2021::Characterizing and Mitigating Soft Errors in GPU DRAM": {
+  "ss_title": "Characterizing and Mitigating Soft Errors in GPU DRAM",
+  "ss_authors": [
+   "Michael B. Sullivan",
+   "N. Saxena",
+   "Mike O'Connor",
+   "Donghyuk Lee",
+   "Paul Racunas",
+   "Saurabh Hukerikar",
+   "Timothy Tsai",
+   "S. Hari",
+   "S. Keckler"
+  ],
+  "year": 2021
+ },
+ "MICRO 2021::The Laplace Microarchitecture for Tracking Data Uncertainty": {
+  "ss_title": "The Laplace Microarchitecture for Tracking Data Uncertainty",
+  "ss_authors": [
+   "Vasileios Tsoutsouras",
+   "Orestis Kaparounakis",
+   "Chatura Samarakoon",
+   "B. Bilgin",
+   "James Timothy Meech",
+   "Jan Robert Heck",
+   "Phillip Stanley-Marbell"
+  ],
+  "year": 2022
+ },
+ "ISCA 2021::Systematically Understanding Graph Accelerator Dimensions and the Value of Hardw": {
+  "ss_title": "Systematically Understanding Graph Accelerator Dimensions and the Value of Hardware Flexibility",
+  "ss_authors": [
+   "Vidushi Dadu",
+   "Sihao Liu",
+   "Tony Nowatzki"
+  ],
+  "year": 2022
+ },
+ "IISWC 2021::ILLIXR: An Open Testbed to Enable Extended Reality Systems Research": {
+  "ss_title": "ILLIXR: An Open Testbed to Enable Extended Reality Systems Research",
+  "ss_authors": [
+   "Muhammad Huzaifa",
+   "Rishi Desai",
+   "Samuel Grayson",
+   "Xutao Jiang",
+   "Ying Jing",
+   "Jae Lee",
+   "Fang Lu",
+   "Yihan Pang",
+   "Joseph Ravichandran",
+   "Finn Sinclair",
+   "Boyuan Tian",
+   "Hengzhi Yuan",
+   "Jeffrey Zhang",
+   "S. Adve"
+  ],
+  "year": 2022
+ },
+ "MICRO 2021::Distributed Data Persistency": {
+  "ss_title": "Distributed Data Persistency",
+  "ss_authors": [
+   "Apostolos Kokolis",
+   "Antonis Psistakis",
+   "Benjamin Reidys",
+   "Jian Huang",
+   "J. Torrellas"
+  ],
+  "year": 2021
+ },
+ "ISCA 2021::Vector Runahead for Indirect Memory Accesses": {
+  "ss_title": "Vector Runahead for Indirect Memory Accesses",
+  "ss_authors": [
+   "Ajeya Naithani",
+   "S. Ainsworth",
+   "Timothy M. Jones",
+   "L. Eeckhout"
+  ],
+  "year": 2022
+ },
+ "MICRO 2021::GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management": {
+  "ss_title": "GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management",
+  "ss_authors": [
+   "Harini Muthukrishnan",
+   "Daniel Lustig",
+   "D. Nellans",
+   "T. Wenisch"
+  ],
+  "year": 2021
+ },
+ "ASPLOS 2021::Logical Abstractions for Noisy Variational Quantum Algorithm Simulation": {
+  "ss_title": "Logical abstractions for noisy variational Quantum algorithm simulation",
+  "ss_authors": [
+   "Yipeng Huang",
+   "Steven Holtzen",
+   "T. Millstein",
+   "Guy Van den Broeck",
+   "M. Martonosi"
+  ],
+  "year": 2021
+ },
+ "MICRO 2021::A Hardware Accelerator for Protocol Buffers": {
+  "ss_title": "A Hardware Accelerator for Protocol Buffers",
+  "ss_authors": [
+   "S. Karandikar",
+   "Chris Leary",
+   "Chris Kennelly",
+   "Jerry Zhao",
+   "Dinesh Parimi",
+   "B. Nikolić",
+   "K. Asanović",
+   "Parthasarathy Ranganathan"
+  ],
+  "year": 2021
+ },
+ "MICRO 2021::SquiggleFilter: An Accelerator for Portable Virus Detection": {
+  "ss_title": "SquiggleFilter: An Accelerator for Portable Virus Detection",
+  "ss_authors": [
+   "Timothy W. Dunn",
+   "Harisankar Sadasivan",
+   "J. Wadden",
+   "Kush Goliya",
+   "Kuan-Yu Chen",
+   "D. Blaauw",
+   "R. Das",
+   "S. Narayanasamy"
+  ],
+  "year": 2021
+ },
+ "ISCA 2021::Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Techno": {
+  "ss_title": "Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology : Industrial Product",
+  "ss_authors": [
+   "Sukhan Lee",
+   "Shin-haeng Kang",
+   "Jaehoon Lee",
+   "Hyeonsu Kim",
+   "Eojin Lee",
+   "Seung-young Seo",
+   "Hosang Yoon",
+   "Seungwon Lee",
+   "Kyounghwan Lim",
+   "Hyunsung Shin",
+   "Jinhyun Kim",
+   "Seongil O",
+   "Anand Iyer",
+   "David Wang",
+   "Kyomin Sohn",
+   "N. Kim"
+  ],
+  "year": 2021
+ },
+ "ASPLOS 2021::Dagger: Efficient and Fast RPCs in Cloud Microservices With Near-Memory Reconfig": {
+  "ss_title": "Dagger: efficient and fast RPCs in cloud microservices with near-memory reconfigurable NICs",
+  "ss_authors": [
+   "N. Lazarev",
+   "Shaojie Xiang",
+   "Neil Adit",
+   "Zhiru Zhang",
+   "Christina Delimitrou"
+  ],
+  "year": 2021
+ },
+ "ASPLOS 2021::A Hierarchical Neural Model of Data Prefetching": {
+  "ss_title": "A hierarchical neural model of data prefetching",
+  "ss_authors": [
+   "Zhan Shi",
+   "Akanksha Jain",
+   "Kevin Swersky",
+   "Milad Hashemi",
+   "Parthasarathy Ranganathan",
+   "Calvin Lin"
+  ],
+  "year": 2021
+ },
+ "HPCA 2021::Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inferenc": {
+  "ss_title": "Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference",
+  "ss_authors": [
+   "Brandon Reagen",
+   "Wooseok Choi",
+   "Yeongil Ko",
+   "Vincent T. Lee",
+   "Hsien-Hsin S. Lee",
+   "Gu-Yeon Wei",
+   "D. Brooks"
+  ],
+  "year": 2020
+ },
+ "ISCA 2021::Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Q": {
+  "ss_title": "Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures",
+  "ss_authors": [
+   "Jonathan M. Baker",
+   "Andrew Litteken",
+   "Casey Duckering",
+   "H. Hoffmann",
+   "H. Bernien",
+   "F. Chong"
+  ],
+  "year": 2021
+ },
+ "ISCA 2021::Superconducting Computing With Alternating Logic Elements": {
+  "ss_title": "Superconducting Computing with Alternating Logic Elements",
+  "ss_authors": [
+   "Georgios Tzimpragos",
+   "Jennifer Volk",
+   "A. Wynn",
+   "James E. Smith",
+   "T. Sherwood"
+  ],
+  "year": 2021
+ },
+ "ASPLOS 2021::Robomorphic Computing: A Design Methodology for Domain-Specific Accelerators Par": {
+  "ss_title": "Robomorphic computing: a design methodology for domain-specific accelerators parameterized by robot morphology",
+  "ss_authors": [
+   "Sabrina M. Neuman",
+   "Brian Plancher",
+   "Thomas Bourgeat",
+   "Thierry Tambe",
+   "S. Devadas",
+   "V. Reddi"
+  ],
+  "year": 2021
+ },
+ "MICRO 2021::ITSLF: Inter-Thread Store-to-Load Forwarding in Simultaneous Multithreading": {
+  "ss_title": null,
+  "ss_authors": [],
+  "error": "404"
+ },
+ "ISCA 2022::PACMAN: Attacking ARM Pointer Authentication With Speculative Execution": {
+  "ss_title": "PACMAN: Attacking ARM Pointer Authentication With Speculative Execution",
+  "ss_authors": [
+   "Joseph Ravichandran",
+   "Weon Taek Na",
+   "Jayden Lang",
+   "Mengjia Yan"
+  ],
+  "year": 2022
+ },
+ "USENIX Security 2022::Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86": {
+  "ss_title": "Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86",
+  "ss_authors": [
+   "Yingchen Wang",
+   "Riccardo Paccagnella",
+   "Elizabeth Tang He",
+   "H. Shacham",
+   "Christopher W. Fletcher",
+   "David Kohlbrenner"
+  ],
+  "year": 2023
+ },
+ "ISCA 2022::There's Always a Bigger Fish: A Clarifying Analysis of a Machine-Learning-Assist": {
+  "ss_title": "There’s Always a Bigger Fish: A Clarifying Analysis of a Machine-Learning-Assisted Side-Channel Attack",
+  "ss_authors": [
+   "Jack Cook",
+   "Jules Drean",
+   "J. Behrens",
+   "Mengjia Yan"
+  ],
+  "year": 2022
+ },
+ "ASPLOS 2022::Revizor: Testing Black-Box CPUs Against Speculation Contracts": {
+  "ss_title": "Revizor: Testing Black-Box CPUs Against Speculation Contracts",
+  "ss_authors": [
+   "O. Oleksenko",
+   "C. Fetzer",
+   "Boris Köpf",
+   "M. Silberstein"
+  ],
+  "year": 2021
+ },
+ "HPCA 2022::Effective Mimicry of Belady's MIN Policy": {
+  "ss_title": "Effective Mimicry of Belady’s MIN Policy",
+  "ss_authors": [
+   "Ishan Shah",
+   "Akanksha Jain",
+   "Calvin Lin"
+  ],
+  "year": 2022
+ },
+ "MICRO 2022::Revisiting Residue Codes for Modern Memories": {
+  "ss_title": "Revisiting Residue Codes for Modern Memories",
+  "ss_authors": [
+   "Evgeny Manzhosov",
+   "A. Hastings",
+   "Meghna Pancholi",
+   "Ryan Piersma",
+   "Mohamed Tarek Ibn Ziad",
+   "S. Sethumadhavan"
+  ],
+  "year": 2021
+ },
+ "HPCA 2022::HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols": {
+  "ss_title": "HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols",
+  "ss_authors": [
+   "Nicolai Oswald",
+   "V. Nagarajan",
+   "Daniel J. Sorin",
+   "Vasilis Gavrielatos",
+   "Theo X. Olausson",
+   "Reece Carr"
+  ],
+  "year": 2022
+ },
+ "MICRO 2022::Online Code Layout Optimizations via OCOLOS": {
+  "ss_title": "Online Code Layout Optimizations via OCOLOS",
+  "ss_authors": [
+   "Yuxuan Zhang",
+   "Tanvir Ahmed Khan",
+   "Gilles A. Pokam",
+   "Baris Kasikci",
+   "Heiner Litz",
+   "Joseph Devietti"
+  ],
+  "year": 2023
+ },
+ "ASPLOS 2022::IOCost: Block Input-Output Control for Containers in Datacenters": {
+  "ss_title": "IOCost: Block Input–Output Control for Containers in Datacenters",
+  "ss_authors": [
+   "Tejun Heo",
+   "Dan Schatzberg",
+   "Andrew Newell",
+   "Song Liu",
+   "Saravanan Dhakshinamurthy",
+   "Iyswarya Narayanan",
+   "Josef Bacik",
+   "Chris Mason",
+   "Chunqiang Tang",
+   "Dimitrios Skarlatos"
+  ],
+  "year": 2023
+ },
+ "ISCA 2022::EyeCoD: Eye Tracking System Acceleration via FlatCam-Based Algorithm and Hardwar": {
+  "ss_title": "EyeCoD: Eye Tracking System Acceleration via FlatCam-Based Algorithm and Hardware Co-Design",
+  "ss_authors": [
+   "Haoran You",
+   "Yang Zhao",
+   "Cheng Wan",
+   "Zhongzhi Yu",
+   "Yonggan Fu",
+   "Jiayi Yuan",
+   "Shang Wu",
+   "Shunyao Zhang",
+   "Yongan Zhang",
+   "Chaojian Li",
+   "Vivek Boominathan",
+   "A. Veeraraghavan",
+   "Ziyun Li",
+   "Y. Lin"
+  ],
+  "year": 2023
+ },
+ "MICRO 2022::Toward Developing High-Performance RISC-V Processors Using Agile Methodology": {
+  "ss_title": "Toward Developing High-Performance RISC-V Processors Using Agile Methodology",
+  "ss_authors": [
+   "Yinan Xu",
+   "Zihao Yu",
+   "Dan Tang",
+   "Ye Cai",
+   "Dandan Huan",
+   "Wei He",
+   "Ninghui Sun",
+   "Yungang Bao"
+  ],
+  "year": 2023
+ },
+ "ISCA 2022::Architectural CO2 Footprint Tool: Designing Sustainable Computer Systems With an": {
+  "ss_title": "Architectural CO2 Footprint Tool: Designing Sustainable Computer Systems With an Architectural Carbon Modeling Tool",
+  "ss_authors": [
+   "Udit Gupta",
+   "Mariam Elgamal",
+   "G. Hills",
+   "Gu-Yeon Wei",
+   "Hsien-Hsin S. Lee",
+   "David Brooks",
+   "Carole-Jean Wu"
+  ],
+  "year": 2023
+ },
+ "HPCA 2022::SupermarQ: A Scalable Quantum Benchmark Suite": {
+  "ss_title": "SupermarQ: A Scalable Quantum Benchmark Suite",
+  "ss_authors": [
+   "T. Tomesh",
+   "P. Gokhale",
+   "V. Omole",
+   "Gokul Subramanian Ravi",
+   "Kaitlin N. Smith",
+   "Joshua Viszlai",
+   "Xin-Chuan Wu",
+   "Nikos Hardavellas",
+   "M. Martonosi",
+   "F. Chong"
+  ],
+  "year": 2022
+ },
+ "ASPLOS 2022::FlexDriver: A Network Driver for Your Accelerator": {
+  "ss_title": "FlexDriver: a network driver for your accelerator",
+  "ss_authors": [
+   "Haggai Eran",
+   "M. Fudim",
+   "Gabi Malka",
+   "Gal Shalom",
+   "Noam Cohen",
+   "Amit Hermony",
+   "Dotan Levi",
+   "Liran Liss",
+   "M. Silberstein"
+  ],
+  "year": 2022
+ },
+ "ASPLOS 2022::Taurus: A Data Plane Architecture for Per-Packet ML": {
+  "ss_title": "Taurus: a data plane architecture for per-packet ML",
+  "ss_authors": [
+   "Tushar Swamy",
+   "Alexander Rucker",
+   "M. Shahbaz",
+   "Ishan Gaur",
+   "K. Olukotun"
+  ],
+  "year": 2020
+ },
+ "ISCA 2022::A Software-Defined Tensor Streaming Multiprocessor for Large-Scale Machine Learn": {
+  "ss_title": "A software-defined tensor streaming multiprocessor for large-scale machine learning",
+  "ss_authors": [
+   "D. Abts",
+   "Garrin Kimmell",
+   "Andrew S. Ling",
+   "John Kim",
+   "Matthew Boyd",
+   "Andrew Bitar",
+   "Sahil Parmar",
+   "Ibrahim Ahmed",
+   "R. Dicecco",
+   "David Han",
+   "John Thompson",
+   "Mike Bye",
+   "Jennifer Hwang",
+   "J. Fowers",
+   "Peter Lillian",
+   "Ashwin Murthy",
+   "Elyas Mehtabuddin",
+   "Chetan Tekur",
+   "Thomas Sohmers",
+   "Kris Kang",
+   "S. Maresh",
+   "Jonathan Ross"
+  ],
+  "year": 2022
+ },
+ "ISCA 2022::EDAM: Edit Distance Tolerant Approximate Matching Content Addressable Memory": {
+  "ss_title": "EDAM: edit distance tolerant approximate matching content addressable memory",
+  "ss_authors": [
+   "Robert Hanhan",
+   "Esteban Garzón",
+   "Zuher Jahshan",
+   "A. Teman",
+   "M. Lanuzza",
+   "L. Yavits"
+  ],
+  "year": 2022
+ },
+ "ISCA 2022::Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model": {
+  "ss_title": "Mixed-proxy extensions for the NVIDIA PTX memory consistency model: industrial product",
+  "ss_authors": [
+   "Daniel Lustig",
+   "Simon Cooksey",
+   "Olivier Giroux"
+  ],
+  "year": 2022
+ },
+ "ISCA 2022::Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore": {
+  "ss_title": "Tiny but mighty: designing and realizing scalable latency tolerance for manycore SoCs",
+  "ss_authors": [
+   "Marcelo Orenes-Vera",
+   "Aninda Manocha",
+   "Jonathan Balkind",
+   "Fei Gao",
+   "Juan L. Aragón",
+   "D. Wentzlaff",
+   "M. Martonosi"
+  ],
+  "year": 2022
+ },
+ "ISCA 2022::Lukewarm Serverless Functions: Characterization and Optimization": {
+  "ss_title": "Lukewarm serverless functions: characterization and optimization",
+  "ss_authors": [
+   "David Schall",
+   "Artemiy Margaritov",
+   "D. Ustiugov",
+   "Andreas Sandberg",
+   "B. Grot"
+  ],
+  "year": 2022
+ },
+ "ISCA 2022::SNS's Not a Synthesizer: A Deep-Learning-Based Synthesis Predictor": {
+  "ss_title": "SNS's not a synthesizer: a deep-learning-based synthesis predictor",
+  "ss_authors": [
+   "Ceyu Xu",
+   "Chris Kjellqvist",
+   "L. Wills"
+  ],
+  "year": 2022
+ },
+ "MICRO 2022::ANT: Exploiting Adaptive Numerical Data Type for Low-Bit Deep Neural Network Qua": {
+  "ss_title": "ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization",
+  "ss_authors": [
+   "Cong Guo",
+   "Chen Zhang",
+   "Jingwen Leng",
+   "Zihan Liu",
+   "Fan Yang",
+   "Yun-Bo Liu",
+   "Minyi Guo",
+   "Yuhao Zhu"
+  ],
+  "year": 2022
+ },
+ "MICRO 2022::Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles": {
+  "ss_title": "Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles",
+  "ss_authors": [
+   "Srivatsan Krishnan",
+   "Zishen Wan",
+   "K. Bhardwaj",
+   "P. Whatmough",
+   "Aleksandra Faust",
+   "Sabrina M. Neuman",
+   "Gu-Yeon Wei",
+   "D. Brooks",
+   "V. Reddi"
+  ],
+  "year": 2022
+ },
+ "MICRO 2022::Datamime: Generating Representative Benchmarks by Automatically Synthesizing Dat": {
+  "ss_title": "Datamime: Generating Representative Benchmarks by Automatically Synthesizing Datasets",
+  "ss_authors": [
+   "Hyun Ryong Lee",
+   "Daniel Sánchez"
+  ],
+  "year": 2022
+ },
+ "MICRO 2023::Simultaneous and heterogenous multithreading: Exploiting simultaneous and hetero": {
+  "ss_title": "Simultaneous and Heterogenous Multithreading: Exploiting Simultaneous and Heterogeneous Parallelism in Accelerator-Rich Architectures",
+  "ss_authors": [
+   "K. Hsu",
+   "Hung-Wei Tseng"
+  ],
+  "year": 2023
+ },
+ "ISCA 2023::Decoupled vector runahead for prefetching nested memory-access chains": {
+  "ss_title": "Decoupled Vector Runahead for Prefetching Nested Memory-Access Chains",
+  "ss_authors": [
+   "Ajeya Naithani",
+   "Jaime Roelandts",
+   "S. Ainsworth",
+   "Timothy M. Jones",
+   "L. Eeckhout"
+  ],
+  "year": 2024
+ },
+ "HPCA 2023::Per-instruction cycle stacks through time-proportional event analysis": {
+  "ss_title": "Per-Instruction Cycle Stacks Through Time-Proportional Event Analysis",
+  "ss_authors": [
+   "Björn Gottschall",
+   "L. Eeckhout",
+   "Magnus Jahre"
+  ],
+  "year": 2024
+ },
+ "ISCA 2023::End-to-end cloud application cloning with Ditto": {
+  "ss_title": "End-to-End Cloud Application Cloning With Ditto",
+  "ss_authors": [
+   "Mingyu Liang",
+   "Yu Gan",
+   "Yueying Li",
+   "Carlos Torres",
+   "Abhishek Dhanotia",
+   "Mahesh Ketkar",
+   "Christina Delimitrou"
+  ],
+  "year": 2024
+ },
+ "ASPLOS 2023::Contiguitas: The pursuit of physical memory contiguity in data centers": {
+  "ss_title": "Contiguitas: The Pursuit of Physical Memory Contiguity in Data Centers",
+  "ss_authors": [
+   "Kaiyang Zhao",
+   "Kaiwen Xue",
+   "Ziqi Wang",
+   "Dan Schatzberg",
+   "Leon Yang",
+   "Antonis Manousis",
+   "Johannes Weiner",
+   "Rik Van Riel",
+   "Bikash Sharma",
+   "Chunqiang Tang",
+   "Dimitrios Skarlatos"
+  ],
+  "year": 2023
+ },
+ "ASPLOS 2023::Mosaic pages: Big TLB reach with small pages": {
+  "ss_title": "Mosaic Pages: Big TLB Reach With Small Pages",
+  "ss_authors": [
+   "Krishnan Gosakan",
+   "Jaehyun Han",
+   "William Kuszmaul",
+   "Ibrahim N. Mubarek",
+   "Nirjhar Mukherjee",
+   "Karthik Sriram",
+   "Guido Tagliavini",
+   "Evan T. West",
+   "M. A. Bender",
+   "A. Bhattacharjee",
+   "A. Conway",
+   "Martín Farach-Colton",
+   "Jayneel Gandhi",
+   "Rob Johnson",
+   "Sudarsun Kannan",
+   "Donald E. Porter"
+  ],
+  "year": 2023
+ },
+ "ISCA 2023::RowPress vulnerability in modern DRAM chips": {
+  "ss_title": "RowPress Vulnerability in Modern DRAM Chips",
+  "ss_authors": [
+   "Haocong Luo",
+   "Ataberk Olgun",
+   "A. Yağlıkçı",
+   "Yahya Can Tugrul",
+   "Steve Rhyner",
+   "Meryem Banu Cavlak",
+   "Joel Lindegger",
+   "Mohammad Sadrosadati",
+   "Onur Mutlu"
+  ],
+  "year": 2024
+ },
+ "USENIX Security 2023::Hardware-assisted fault isolation: Going beyond the limits of software-based san": {
+  "ss_title": "Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing",
+  "ss_authors": [
+   "S. Narayan",
+   "Tal Garfinkel",
+   "Mohammadkazem Taram",
+   "Joey Rudek",
+   "Daniel Moghimi",
+   "Evan Johnson",
+   "Chris Fallin",
+   "Anjo Vahldiek-Oberwagner",
+   "Michael LeMay",
+   "Ravi Sahita",
+   "D. Tullsen",
+   "Deian Stefan"
+  ],
+  "year": 2024
+ },
+ "MICRO 2023::Practical online reinforcement learning for microprocessors with micro-armed ban": {
+  "ss_title": "Practical Online Reinforcement Learning for Microprocessors With Micro-Armed Bandit",
+  "ss_authors": [
+   "Gerasimos Gerogiannis",
+   "J. Torrellas"
+  ],
+  "year": 2024
+ },
+ "ISCA 2023::Programmable olfactory computing": {
+  "ss_title": "Programmable Olfactory Computing",
+  "ss_authors": [
+   "Nathaniel Bleier",
+   "Abigail Wezelis",
+   "L. Varshney",
+   "Rakesh Kumar"
+  ],
+  "year": 2023
+ },
+ "ISCA 2023::AuRORA: A full-stack solution for scalable and virtualized accelerator integrati": {
+  "ss_title": "AuRORA: A Full-Stack Solution for Scalable and Virtualized Accelerator Integration",
+  "ss_authors": [
+   "Seah Kim",
+   "Jerry Zhao",
+   "K. Asanović",
+   "Borivoje Nikolić",
+   "Y. Shao"
+  ],
+  "year": 2024
+ },
+ "ASPLOS 2023::Distributed brain-computer interfacing with a networked multiaccelerator archite": {
+  "ss_title": "Distributed Brain–Computer Interfacing With a Networked Multiaccelerator Architecture",
+  "ss_authors": [
+   "Raghavendra Pradyumna Pothukuchi",
+   "Karthik Sriram",
+   "Michał Gerasimiuk",
+   "Muhammed Ugur",
+   "Rajit Manohar",
+   "Anurag Khandelwal",
+   "Abhishek Bhattacharjee"
+  ],
+  "year": 2024
+ },
+ "ASPLOS 2023::Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine": {
+  "ss_title": "Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers",
+  "ss_authors": [
+   "Haocheng Xiao",
+   "S. Ainsworth"
+  ],
+  "year": 2022
+ },
+ "ISCA 2023::Astrea: Accurate Quantum Error-Decoding Via Practical Minimum-Weight Perfect-Mat": {
+  "ss_title": "Astrea: Accurate Quantum Error-Decoding via Practical Minimum-Weight Perfect-Matching",
+  "ss_authors": [
+   "S. Vittal",
+   "Poulami Das",
+   "Moinuddin K. Qureshi"
+  ],
+  "year": 2023
+ },
+ "ISCA 2023::SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM": {
+  "ss_title": "SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM",
+  "ss_authors": [
+   "Gerasimos Gerogiannis",
+   "Serif Yesil",
+   "Damitha Sandeepa Lenadora",
+   "Dingyuan Cao",
+   "Charith Mendis",
+   "J. Torrellas"
+  ],
+  "year": 2023
+ },
+ "ISCA 2023::μManycore: A Cloud-Native CPU for Tail at Scale": {
+  "ss_title": "μManycore: A Cloud-Native CPU for Tail at Scale",
+  "ss_authors": [
+   "Jovan Stojkovic",
+   "Chunao Liu",
+   "M. Shahbaz",
+   "J. Torrellas"
+  ],
+  "year": 2023
+ },
+ "ASPLOS 2023::Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters": {
+  "ss_title": "Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",
+  "ss_authors": [
+   "Bilge Acun",
+   "Benjamin Lee",
+   "Fiodar Kazhamiaka",
+   "Kiwan Maeng",
+   "Udit Gupta",
+   "Manoj Chakkaravarthy",
+   "David Brooks",
+   "Carole-Jean Wu"
+  ],
+  "year": 2022
+ },
+ "MICRO 2023::Space Microdatacenters": {
+  "ss_title": "Architecting Space Microdatacenters: A System-level Approach",
+  "ss_authors": [
+   "Nathaniel Bleier",
+   "Rick Eason",
+   "Michael Lembeck",
+   "Rakesh Kumar"
+  ],
+  "year": 2025
+ },
+ "ASPLOS 2023::Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic": {
+  "ss_title": "Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes",
+  "ss_authors": [
+   "Zirui Neil Zhao",
+   "Adam Morrison",
+   "Christopher W. Fletcher",
+   "J. Torrellas"
+  ],
+  "year": 2023
+ },
+ "ASPLOS 2023::Pond: CXL-Based Memory Pooling Systems for Cloud Platforms": {
+  "ss_title": "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms",
+  "ss_authors": [
+   "Huaicheng Li",
+   "Daniel S. Berger",
+   "Stanko Novakovic",
+   "Lisa R. Hsu",
+   "Dan Ernst",
+   "Pantea Zardoshti",
+   "Monish Shah",
+   "S. Rajadnya",
+   "Scott Lee",
+   "Ishwar Agarwal",
+   "M. Hill",
+   "M. Fontoura",
+   "R. Bianchini"
+  ],
+  "year": 2022
+ },
+ "ASPLOS 2023::TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory": {
+  "ss_title": "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory",
+  "ss_authors": [
+   "H. Maruf",
+   "Hao Wang",
+   "Abhishek Dhanotia",
+   "Johannes Weiner",
+   "Niket Agarwal",
+   "Pallab Bhattacharya",
+   "Chris Petersen",
+   "Mosharaf Chowdhury",
+   "Shobhit O. Kanaujia",
+   "Prakash Chauhan"
+  ],
+  "year": 2022
+ },
+ "MICRO 2023::Clockhands: Rename-Free Instruction Set Architecture for Out-of-Order Processors": {
+  "ss_title": "Clockhands: Rename-free Instruction Set Architecture for Out-of-order Processors",
+  "ss_authors": [
+   "Toru Koizumi",
+   "Ryota Shioya",
+   "Shu Sugita",
+   "Taichi Amano",
+   "Yuya Degawa",
+   "J. Kadomoto",
+   "H. Irie",
+   "Shuichi Sakai"
+  ],
+  "year": 2023
+ },
+ "ASPLOS 2023::MP-Rec: Hardware-Software Co-design to Enable Multi-Path Recommendation": {
+  "ss_title": "MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation",
+  "ss_authors": [
+   "Samuel Hsia",
+   "Udit Gupta",
+   "Bilge Acun",
+   "Newsha Ardalani",
+   "Pan Zhong",
+   "Gu-Yeon Wei",
+   "David Brooks",
+   "Carole-Jean Wu"
+  ],
+  "year": 2023
+ },
+ "MICRO 2023::TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators": {
+  "ss_title": "TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators",
+  "ss_authors": [
+   "Nandeeka Nayak",
+   "T. Odemuyiwa",
+   "Shubham Ugare",
+   "Christopher W. Fletcher",
+   "Michael Pellauer",
+   "J. Emer"
+  ],
+  "year": 2023
+ }
+}

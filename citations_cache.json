@@ -2785,11 +2785,6 @@
   "matched_title": "An Analysis of Persistent Memory Use with WHISPER",
   "score": 172.77065
  },
- "MICRO 2017::Architectural Techniques for Energy-Efficient Brain Implants Using Hardware Perc": {
-  "citations": null,
-  "matched_title": null,
-  "error": "404"
- },
  "MICRO 2017::Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations": {
   "citations": 35,
   "year": 2017,
@@ -4511,5 +4506,11 @@
  },
  "MICRO 2018::CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests": {
   "citations": 79
+ },
+ "MICRO 2017::Using Branch Predictors to Predict Brain Activity in Brain-Machine Implants": {
+  "citations": 5
+ },
+ "ISCA 2023::μManycore: A Cloud-Native CPU for Tail at Scale": {
+  "citations": 15
  }
 }
