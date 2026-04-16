@@ -1444,7 +1444,8 @@ acceptance: {
     {year:2021,sub:430,acc:94},
     {year:2022,sub:366,acc:83},
     {year:2023,sub:434,acc:101},
-    {year:2024,sub:497,acc:113}
+    {year:2024,sub:497,acc:113},
+    {year:2025,sub:597,acc:124}
   ],
   isca: [
     {year:2001,sub:163,acc:24},
