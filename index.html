@@ -885,7 +885,7 @@ function renderAccTable(years, venues, labels) {
         const cells = venues.map(v => {
             const d = DATA.acceptance[v] ? DATA.acceptance[v].find(x => x.year === y) : null;
             if (!d) return '<td>-</td><td>-</td><td>-</td>';
-            const rate = Math.round(d.acc/d.sub*1000)/10;
+            const rate = (d.acc/d.sub*100).toFixed(1);
             return `<td>${d.sub}</td><td>${d.acc}</td><td>${rate}%</td>`;
         }).join('');
         return `<tr><td style="font-weight:600">${y}</td>${cells}</tr>`;
