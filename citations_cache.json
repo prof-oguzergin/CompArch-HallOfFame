@@ -171,11 +171,6 @@
   "matched_title": "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers",
   "score": 311.34824
  },
- "HPCA 2024::uPIMulator: A Fast and Flexible Simulation Framework for General Purpose PIM Arc": {
-  "citations": null,
-  "matched_title": null,
-  "error": "404"
- },
  "ASPLOS 2024::Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs": {
   "citations": 6,
   "year": 2024,
@@ -2790,11 +2785,6 @@
   "matched_title": "An Analysis of Persistent Memory Use with WHISPER",
   "score": 172.77065
  },
- "MICRO 2017::Automated Memory Consistency Verification of Processor RTL": {
-  "citations": null,
-  "matched_title": null,
-  "error": "404"
- },
  "MICRO 2017::Architectural Techniques for Energy-Efficient Brain Implants Using Hardware Perc": {
   "citations": null,
   "matched_title": null,
@@ -2932,21 +2922,6 @@
   },
   "matched_title": "FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public Cloud",
   "score": 288.2605
- },
- "USENIX Security 2018::Foreshadow: Breaking Virtual Memory Protection and the SGX Ecosystem": {
-  "citations": null,
-  "matched_title": null,
-  "error": "404"
- },
- "ISCA 2018::Mobilizing the Micro-Ops: Context-Sensitive Decoding On-Demand for Security and ": {
-  "citations": null,
-  "matched_title": null,
-  "error": "404"
- },
- "MICRO 2018::CheckMate: Automated Synthesis of Hardware-Aware Exploit Synthesis: The CheckMat": {
-  "citations": null,
-  "matched_title": null,
-  "error": "404"
  },
  "ISCA 2017::Language-Level Persistency": {
   "citations": 94,
@@ -3986,9 +3961,7 @@
   "score": 283.45517
  },
  "MICRO 2021::ITSLF: Inter-Thread Store-to-Load Forwarding in Simultaneous Multithreading": {
-  "citations": null,
-  "matched_title": null,
-  "error": "404"
+  "citations": 5
  },
  "ISCA 2022::PACMAN: Attacking ARM Pointer Authentication With Speculative Execution": {
   "citations": 91,
@@ -4523,5 +4496,20 @@
   },
   "matched_title": "TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators",
   "score": 242.58989
+ },
+ "HPCA 2024::Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology": {
+  "citations": 56
+ },
+ "MICRO 2017::RTLCheck: Verifying the Memory Consistency of RTL Designs": {
+  "citations": 38
+ },
+ "USENIX Security 2018::Foreshadow: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-O": {
+  "citations": 1167
+ },
+ "ISCA 2018::Mobilizing the Micro-Ops: Exploiting Context Sensitive Decoding for Security and": {
+  "citations": 24
+ },
+ "MICRO 2018::CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests": {
+  "citations": 79
  }
 }
