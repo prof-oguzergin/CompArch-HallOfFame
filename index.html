@@ -38,6 +38,18 @@
         .stat-number { font-size: 1.8rem; font-weight: 800; color: var(--gold); }
         .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
 
+        .updates-bar { text-align: center; margin: 0.3rem 0 0.5rem; }
+        .updates-toggle { background: none; border: 1px solid var(--surface2); border-radius: 6px; color: var(--text-muted); font-size: 0.8rem; padding: 0.3rem 0.8rem; cursor: pointer; transition: all 0.2s; }
+        .updates-toggle:hover { color: var(--text); border-color: var(--gold); }
+        .updates-toggle .arrow { display: inline-block; transition: transform 0.2s; font-size: 0.7rem; margin-left: 0.3rem; }
+        .updates-toggle.open .arrow { transform: rotate(90deg); }
+        .updates-list { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+        .updates-list.open { max-height: 300px; }
+        .updates-list ul { list-style: none; padding: 0.5rem 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
+        .updates-list li { font-size: 0.78rem; color: var(--text-muted); padding: 0.2rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .updates-list li:last-child { border-bottom: none; }
+        .updates-list .upd-date { color: var(--gold); font-weight: 600; margin-right: 0.5rem; }
+
         .tabs { display: flex; gap: 0.2rem; flex-wrap: wrap; border-bottom: 2px solid var(--surface2); }
         .tab { padding: 0.6rem 1.2rem; border: none; background: transparent; color: var(--text-muted); font-size: 0.9rem; font-weight: 600; cursor: pointer; border-bottom: 3px solid transparent; position: relative; bottom: -2px; transition: all 0.2s; }
         .tab:hover { color: var(--text); }
@@ -139,6 +151,10 @@
 </div>
 <div class="container">
     <div class="stats-bar" id="statsBar"></div>
+    <div class="updates-bar">
+        <button class="updates-toggle" onclick="this.classList.toggle('open');document.getElementById('updatesList').classList.toggle('open')">Recent Updates <span class="arrow">&#9658;</span></button>
+        <div class="updates-list" id="updatesList"></div>
+    </div>
     <div class="tabs" id="tabsContainer">
         <button class="tab active" data-tab="combined">Combined</button>
         <button class="tab" data-tab="isca">ISCA</button>
@@ -674,6 +690,13 @@ function renderStats() {
         <div class="stat-item"><div class="stat-number">${n}</div><div class="stat-label">Researchers</div></div>
         <div class="stat-item"><div class="stat-number">5</div><div class="stat-label">Venues</div></div>
         <div class="stat-item"><div class="stat-number">${four}</div><div class="stat-label">In All 4 HoFs</div></div>`;
+}
+
+// Render updates
+if (DATA.updates && DATA.updates.length) {
+    document.getElementById('updatesList').innerHTML = '<ul>' +
+        DATA.updates.map(u => `<li><span class="upd-date">${u.date}</span>${u.text}</li>`).join('') +
+        '</ul>';
 }
 
 // Tab switching

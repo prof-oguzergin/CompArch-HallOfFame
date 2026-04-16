@@ -1385,5 +1385,12 @@ toppicks_papers: [
   {year:2023,type:"HM",conf:"ASPLOS 2023",title:"MP-Rec: Hardware-Software Co-design to Enable Multi-Path Recommendation",authors:["Samuel Hsia","Udit Gupta","Bilge Acun","Newsha Ardalani","Pan Zhong","Gu-Yeon Wei","David Brooks","Carole-Jean Wu"]},
   {year:2023,type:"HM",conf:"MICRO 2023",title:"TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators",authors:["Nandeeka Nayak","Toluwanimi O. Odemuyiwa","Shubham Ugare","Christopher W. Fletcher","Michael Pellauer","Joel S. Emer"]}
 ],
-toppicks: [] // kept for backward compat
+toppicks: [], // kept for backward compat
+updates: [
+  {date:"16 Apr 2026",text:"Added 23 new HoF members via DBLP SPARQL: HPCA +5, ASPLOS +21, MICRO +1, ISCA +1. Total: 259 researchers."},
+  {date:"15 Apr 2026",text:"HPCA/ASPLOS 2026 data added. Top Picks HM authors completed (130 entries). Institution filter added."},
+  {date:"8 Apr 2026",text:"Cross-venue counts verified. All 235 DBLP PIDs completed. Affiliation shown in all tabs."},
+  {date:"1 Apr 2026",text:"IEEE Micro Top Picks 2003\u20132024: full 22-year dataset (261 TP + 130 HM papers)."},
+  {date:"20 Mar 2026",text:"Initial release with HPCA, MICRO, ISCA, ASPLOS Hall of Fame data."}
+]
 };
