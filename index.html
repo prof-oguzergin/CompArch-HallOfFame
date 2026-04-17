@@ -672,8 +672,8 @@ function renderHM() {
     const hmPapers = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.authors && p.authors.length > 0 && (!filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter)));
 
     // Hall of Citations for HM: Top 20 most-cited (no search filter)
-    const allHM = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.cites != null);
-    const topCitedHM = allHM.slice().sort((a,b) => b.cites - a.cites).slice(0, 20);
+    const hmCited = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.cites != null);
+    const topCitedHM = hmCited.slice().sort((a,b) => b.cites - a.cites).slice(0, 20);
     const hocHMBody = document.querySelector('#table-hm-hall-of-citations tbody');
     if (hocHMBody) {
         hocHMBody.innerHTML = topCitedHM.map((p, i) => {
