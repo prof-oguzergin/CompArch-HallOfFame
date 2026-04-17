@@ -205,10 +205,16 @@
     <div class="tab-panel" id="panel-toppicks">
         <div class="conf-info"><strong>IEEE Micro Top Picks</strong> &mdash; Annual selection of ~12 most significant papers from computer architecture conferences, plus ~12 Honorable Mentions. Published since 2003. &middot; Data as of: 16 Apr 2026</div>
         <div class="note-box">Complete data: 2003&ndash;2024 conference years (22 years, first-ever compilation). <a href="#tp-paper-list" style="color:var(--gold)">See full paper list below ↓</a></div>
-        <h3 style="color:var(--gold);margin:1rem 0 0.5rem;font-size:1.1rem">🏆 Hall of Citations &mdash; Top 20 Most-Cited Top Picks</h3>
-        <div class="heatmap-wrap"><table class="simple-table" id="table-hall-of-citations"><thead><tr>
-            <th style="width:36px">#</th><th style="width:60px">Year</th><th>Title</th><th>Authors</th><th style="width:100px">Conference</th><th style="width:80px;text-align:right">Citations</th>
-        </tr></thead><tbody></tbody></table></div>
+        <button class="hoc-toggle" onclick="this.classList.toggle('open');document.getElementById('hoc-wrap').classList.toggle('open')" style="background:none;border:1px solid var(--gold);border-radius:6px;color:var(--gold);font-size:0.95rem;font-weight:600;padding:0.5rem 1rem;cursor:pointer;margin:1rem 0 0.3rem;transition:all 0.2s">🏆 Hall of Citations — Top 20 Most-Cited Top Picks <span class="hoc-arrow" style="display:inline-block;transition:transform 0.2s;margin-left:0.3rem">▸</span></button>
+        <div id="hoc-wrap" style="max-height:0;overflow:hidden;transition:max-height 0.4s ease">
+            <div class="heatmap-wrap"><table class="simple-table" id="table-hall-of-citations"><thead><tr>
+                <th style="width:36px">#</th><th style="width:60px">Year</th><th>Title</th><th>Authors</th><th style="width:100px">Conference</th><th style="width:80px;text-align:right">Citations</th>
+            </tr></thead><tbody></tbody></table></div>
+        </div>
+        <style>
+            .hoc-toggle.open .hoc-arrow { transform: rotate(90deg); }
+            #hoc-wrap.open { max-height: 1200px; }
+        </style>
         <h3 style="color:var(--gold);margin:1.5rem 0 0.5rem;font-size:1.1rem">Conference Breakdown by Year</h3>
         <div class="heatmap-wrap"><table class="simple-table" id="table-toppicks-confyear"><thead><tr id="tp-confyear-header"></tr></thead><tbody id="tp-confyear-body"></tbody></table></div>
         <h3 style="color:var(--gold);margin:1rem 0 0.5rem;font-size:1.1rem">Researcher Summary</h3>
