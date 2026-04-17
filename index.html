@@ -182,7 +182,7 @@
         <div class="conf-info"><strong>Combined Hall of Fame</strong> &mdash; Researchers with 8+ papers at any venue (HPCA, MICRO, ISCA, or ASPLOS) are inducted into that venue's Hall of Fame. The Total column sums only these four venues. TP shows IEEE Micro Top Picks count (not included in Total). Click column headers to sort.</div>
         <div class="heatmap-wrap sticky-scroll"><table class="simple-table" id="table-combined"><thead><tr>
             <th style="width:40px">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
-            <th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="hm" onclick="sortCombined('hm')" style="width:40px;cursor:pointer">HM</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer;text-align:left">HoF Venues</th>
+            <th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="hm" onclick="sortCombined('hm')" style="width:40px;cursor:pointer">HM</th><th data-sort="h" onclick="sortCombined('h')" style="width:45px;cursor:pointer;color:var(--gold)" title="Google Scholar h-index">h</th><th data-sort="c" onclick="sortCombined('c')" style="width:65px;cursor:pointer;color:var(--gold)" title="Google Scholar total citations">Cites</th><th data-sort="b100" onclick="sortCombined('b100')" style="width:45px;cursor:pointer;color:var(--gold)" title="Papers with 100+ citations">100+</th><th data-sort="b1000" onclick="sortCombined('b1000')" style="width:50px;cursor:pointer;color:var(--gold)" title="Papers with 1000+ citations">1000+</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer;text-align:left">HoF Venues</th>
         </tr></thead><tbody></tbody></table></div>
     </div>
 
@@ -385,10 +385,22 @@ function buildCombined() {
         const k = norm(name);
         if (m[k]) m[k].hm = count;
     });
+    const gs = DATA.gs || {};
     return Object.values(m).map(e => {
         const total = e.hpca + e.micro + e.isca + e.asplos;
         const vc = [e.hpca,e.micro,e.isca,e.asplos].filter(x=>x>=8).length;
-        return {name:bestName(e.names), total, hpca:e.hpca, micro:e.micro, isca:e.isca, asplos:e.asplos, tp:e.tp, hm:e.hm||0, vc};
+        const nm = bestName(e.names);
+        // Try GS lookup by all name variants
+        let gsData = gs[nm];
+        if (!gsData) {
+            for (const n of e.names) { if (gs[n]) { gsData = gs[n]; break; } }
+        }
+        const h = gsData ? gsData.h : null;
+        const i10 = gsData ? gsData.i10 : null;
+        const c = gsData ? gsData.c : null;
+        const b = gsData ? gsData.b : [null,null,null,null,null];
+        return {name:nm, total, hpca:e.hpca, micro:e.micro, isca:e.isca, asplos:e.asplos, tp:e.tp, hm:e.hm||0, vc,
+                h, i10, c, b100:b[0], b200:b[1], b400:b[2], b800:b[3], b1000:b[4], gsId: gsData ? gsData.gs : null};
     }).sort((a,b) => b.total - a.total || b.vc - a.vc);
 }
 const combined = buildCombined();
@@ -489,6 +501,9 @@ function renderCombined() {
         if (d.micro>=8) badges.push('<span title="MICRO" style="color:var(--accent-micro)">★</span>');
         if (d.asplos>=8) badges.push('<span title="ASPLOS" style="color:var(--accent-asplos)">★</span>');
         if (d.hpca>=8) badges.push('<span title="HPCA" style="color:var(--accent-hpca)">★</span>');
+        const fmtCites = c => c == null ? '-' : (c >= 1000 ? (c/1000).toFixed(c>=10000?0:1)+'K' : c.toString());
+        const gsLink = d.gsId ? `<a href="https://scholar.google.com/citations?user=${d.gsId}" target="_blank" style="color:inherit;text-decoration:none" title="Open Google Scholar profile">` : '';
+        const gsEnd = d.gsId ? '</a>' : '';
         return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td>${nameLink(d.name,true)}</td>
             <td class="count">${d.total}</td>
             <td class="count" style="color:var(--accent-isca)">${d.isca||'-'}</td>
@@ -497,6 +512,10 @@ function renderCombined() {
             <td class="count" style="color:var(--accent-hpca)">${d.hpca||'-'}</td>
             <td class="count" style="color:var(--accent-toppicks)">${d.tp||'-'}</td>
             <td class="count" style="color:var(--text-muted)">${d.hm||'-'}</td>
+            <td class="count" style="color:var(--gold)">${gsLink}${d.h!=null?d.h:'-'}${gsEnd}</td>
+            <td class="count" style="color:var(--gold)">${fmtCites(d.c)}</td>
+            <td class="count" style="color:var(--gold-light)">${d.b100!=null?d.b100:'-'}</td>
+            <td class="count" style="color:var(--gold-light)">${d.b1000!=null?d.b1000:'-'}</td>
             <td>${badges.join('')}</td></tr>`;
     }).join('');
 }
