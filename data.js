@@ -1009,7 +1009,7 @@ toppicks_papers: [
   {year:2003,type:"TP",conf:"HPCA 2003",title:"Variability in Architectural Simulations of Multi-Threaded Workloads",authors:["Alaa R. Alameldeen","David A. Wood"],cites:282},
   {year:2003,type:"TP",conf:"ISCA 2003",title:"Exploiting ILP, TLP and DLP with the Polymorphous TRIPS Architecture",authors:["Changkyu Kim","Doug Burger","Stephen W. Keckler"],cites:218},
   {year:2003,type:"TP",conf:"ISCA 2003",title:"Using Destination-Set Prediction to Improve the Latency/Bandwidth Tradeoff in Shared-Memory Multiprocessors",authors:["Milo M.K. Martin","Mark D. Hill","David A. Wood"],cites:128},
-  {year:2003,type:"TP",conf:"ISCA 2003",title:"Transactional Execution: Toward Reliable, High-Performance Multithreading",authors:["Ravi Rajwar","James Goodman"],cites:321},
+  {year:2003,type:"TP",conf:"ASPLOS 2002",title:"Transactional lock-free execution of lock-based programs",authors:["Ravi Rajwar","James Goodman"],cites:364},
   {year:2003,type:"TP",conf:"ASPLOS 2002",title:"Speculative synchronization: applying thread-level speculation to explicitly parallel applications",authors:["Jose F. Martinez","Josep Torrellas"],cites:189},
   // 2004 conferences (IEEE Micro vol.25 no.1, Jan/Feb 2005) - HM did not exist yet (started in 2014)
   {year:2004,type:"TP",conf:"MICRO 2004",title:"Razor: Circuit-Level Correction of Timing Errors for Low-Power Operation",authors:["Dan Ernst","Shidhartha Das","Seokwoo Lee","David Blaauw","Todd Austin","Trevor Mudge","Nam Sung Kim","Krisztian Flautner"],cites:297},
@@ -1106,7 +1106,7 @@ toppicks_papers: [
   {year:2011,type:"TP",conf:"ISCA 2011",title:"Eliminating Redundant Computation and Exposing Parallelism through Data-Triggered Threads",authors:["Hung-Wei Tseng","Dean M. Tullsen"],cites:7},
   {year:2011,type:"TP",conf:"ISCA 2011",title:"FabScalar: composing synthesizable RTL designs of arbitrary cores within a canonical superscalar template",authors:["Niket K. Choudhary","Salil V. Wadhavkar","Tanmay A. Shah","Hiran Mayukh","Jayneel Gandhi","Brandon H. Dwiel","Sandeep Navada","Hashem H. Najaf-abadi","Eric Rotenberg"],cites:126},
   {year:2011,type:"TP",conf:"ASPLOS 2011",title:"MemScale: active low-power modes for main memory",authors:["Qingyuan Deng","Luiz Ramos","Ricardo Bianchini","David Meisner","Thomas F. Wenisch"],cites:277},
-  {year:2011,type:"TP",conf:"ISCA 2011",title:"Supporting Very Large DRAM Caches with Compound-Access Scheduling and MissMap",authors:["Gabriel H. Loh","Mark D. Hill"],cites:81},
+  {year:2011,type:"TP",conf:"MICRO 2011",title:"Efficiently Enabling Conventional Block Sizes for Very Large Die-stacked DRAM Caches",authors:["Gabriel H. Loh","Mark D. Hill"],cites:265},
   {year:2011,type:"TP",conf:"HPCA 2011",title:"FREE-p: Protecting non-volatile memory against both hard and soft errors",authors:["Doe Hyun Yoon","Naveen Muralimanohar","Jichuan Chang","Parthasarathy Ranganathan","Norman P. Jouppi","Mattan Erez"],cites:189},
   {year:2011,type:"TP",conf:"MICRO 2011",title:"Bubble-Up: increasing utilization in modern warehouse scale computers via sensible co-locations",authors:["Jason Mars","Lingjia Tang","Kevin Skadron","Mary Lou Soffa","Robert Hundt"],cites:641},
   {year:2011,type:"TP",conf:"ISCA 2011",title:"The role of optics in future high radix switch design",authors:["Jung Ho Ahn","Rob Schreiber","Naveen Muralimanohar","Norman P. Jouppi","Mike McLaren","Al Davis","Norm Binkert"],cites:88},
