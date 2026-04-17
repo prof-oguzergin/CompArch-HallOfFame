@@ -1101,7 +1101,7 @@ toppicks_papers: [
   {year:2010,type:"TP",conf:"ISCA 2010",title:"Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out",authors:["Nak Hee Seong","Dong Hyuk Woo","Hsien-Hsin S. Lee"],cites:23},
   // 2011 conferences (IEEE Micro vol.32 no.3, May/Jun 2012) - HM did not exist yet (started in 2014)
   {year:2011,type:"TP",conf:"MICRO 2011",title:"Kilo TM: Hardware Transactional Memory for GPU Architectures",authors:["Wilson W.L. Fung","Inderpreet Singh","Andrew Brownsword","Tor M. Aamodt"],cites:18},
-  {year:2011,type:"TP",conf:"MICRO 2011",title:"A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips",authors:["Onur Mutlu","Stephen W. Keckler","Joe Hestness","Boris Grot"],cites:13},
+  {year:2011,type:"TP",conf:"ISCA 2011",title:"A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips",authors:["Onur Mutlu","Stephen W. Keckler","Joe Hestness","Boris Grot"],cites:13},
   {year:2011,type:"TP",conf:"ISCA 2011",title:"Scalable and Efficient Fine-Grained Cache Partitioning with Vantage",authors:["Daniel Sanchez","Christos Kozyrakis"],cites:35},
   {year:2011,type:"TP",conf:"ISCA 2011",title:"Eliminating Redundant Computation and Exposing Parallelism through Data-Triggered Threads",authors:["Hung-Wei Tseng","Dean M. Tullsen"],cites:7},
   {year:2011,type:"TP",conf:"ISCA 2011",title:"FabScalar: Automating Superscalar Core Design",authors:["Niket K. Choudhary","Salil V. Wadhavkar","Tanmay A. Shah","Hiran Mayukh","Jayneel Gandhi","Brandon H. Dwiel","Sandeep Navada","Hashem H. Najaf-abadi","Eric Rotenberg"],cites:26},
