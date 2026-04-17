@@ -1,0 +1,2012 @@
+{
+ "ISCA 2024::Assessing processor sustainability using the first-order FOCAL carbon model": {
+  "dblp_key": "conf/asplos/Eeckhout24",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2024::Enabling sustainable cloud computing with low-carbon server design": {
+  "dblp_key": "conf/isca/WangBKIZCFFWBSBS24",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2024::From TeAAL to FuseMax: Separation of concerns for attention accelerator design": {
+  "dblp_key": "conf/micro/NayakWOPEF24",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2024::Splitwise: Efficient generative LLM inference using phase splitting": {
+  "dblp_key": "conf/isca/PatelCZSGMB24",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2024::BlitzCoin: A decentralized hardware solution for power management of highly hete": {
+  "dblp_key": "conf/isca/CochetSLZSGBJBWSCB24",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2024::From colocation to exfiltration: Practical cache side-channel attacks in the mod": {
+  "dblp_key": "conf/asplos/Zhao0FT24a",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2024::MAD Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration o": {
+  "dblp_key": "conf/isca/HsiaGAADWBW24",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2024::Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design": {
+  "dblp_key": "conf/micro/SamardzicLD024",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2024::Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tens": {
+  "dblp_key": "conf/isca/HuangTEP24",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2024::Native DRAM Cache: Re-Architecting DRAM as a Large-Scale Cache for Data Centers": {
+  "dblp_key": "conf/isca/RyuKJAK24",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2024::Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology": {
+  "dblp_key": "conf/hpca/HyunKLR24",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2024::Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs": {
+  "dblp_key": "conf/asplos/0001M024",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2024::DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults": {
+  "dblp_key": "conf/micro/DeutschUGSE024",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2024::A Case for Speculative Address Translation With Rapid Validation for GPUs": {
+  "dblp_key": "conf/micro/KwonLPJTH24",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2024::Tandem Processor: Grappling With Emerging Operators in Neural Networks": {
+  "dblp_key": "conf/asplos/GhodratiKXMKAWK24",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2024::SpotServe: Serving Generative Large Language Models on Preemptible Instances": {
+  "dblp_key": "conf/asplos/HuVBMHOW0MZJ24",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2024::MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker": {
+  "dblp_key": "conf/micro/QureshiQJ24",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2003::Checkpoint Processing and Recovery: An Efficient, Scalable Alternative to Reorde": {
+  "dblp_key": "conf/micro/AkkaryRS03",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2003::Runahead Execution: An Effective Alternative to Large Instruction Windows": {
+  "dblp_key": "conf/hpca/MutluSWP03",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2003::Scalable Vector Processors for Embedded Systems": {
+  "dblp_key": "conf/isca/KozyrakisP03",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2003::Exploiting ILP, TLP, and DLP with the Polymorphous TRIPS Architecture": {
+  "dblp_key": "conf/isca/SankaralingamNLKHBKM03",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2003::Temperature-Aware Computer Systems: Opportunities and Challenges": {
+  "dblp_key": "conf/isca/SkadronSHVST03",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2002::Dynamic Frequency and Voltage Scaling for a Multiple-Clock-Domain Microprocessor": {
+  "dblp_key": "conf/micro/SemeraroADMDS02",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2003::Measuring Architectural Vulnerability Factors": {
+  "dblp_key": "conf/micro/MukherjeeWERA03",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2003::Transient-Fault Recovery for Chip Multiprocessors": {
+  "dblp_key": "conf/isca/GomaaSPV03",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2002::Discovering and Exploiting Program Phases": {
+  "dblp_key": "conf/asplos/SherwoodPHC02",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2003::Addressing Workload Variability in Architectural Simulations": {
+  "dblp_key": "conf/hpca/AlameldeenW03",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2003::Nonuniform Cache Architectures for Wire-Delay Dominated On-Chip Caches": {
+  "dblp_key": "conf/isca/SankaralingamNLKHBKM03",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2003::Token Coherence: A New Framework for Shared-Memory Multiprocessors": {
+  "dblp_key": "conf/isca/MartinHSHW03",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2003::Transactional Execution: Toward Reliable, High-Performance Multithreading": {
+  "dblp_key": "conf/micro/AkkaryRS03",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2002::Speculative Synchronization: Programmability and Performance for Parallel Codes": {
+  "dblp_key": "conf/asplos/MartinezT02",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2004::Fingerprinting: Bounding Soft-Error-Detection Latency and Bandwidth": {
+  "dblp_key": "conf/asplos/SmolensGKFHN04",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2004::Reducing the Soft-Error Rate of a High-Performance Microprocessor": {
+  "dblp_key": "conf/isca/WeaverEMR04",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2004::Performance-Directed Energy Management for Storage Systems": {
+  "dblp_key": "conf/asplos/LiLDZZAK04",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2004::iWatcher: Simple, General Architectural Support for Software Debugging": {
+  "dblp_key": "conf/asplos/LiLDZZAK04",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2004::Continual Flow Pipelines: Achieving Resource-Efficient Latency Tolerance": {
+  "dblp_key": "conf/asplos/SrinivasanRAGU04",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2004::The Vector-Thread Architecture": {
+  "dblp_key": "conf/isca/KrashinskyBHGPCA04",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2004::Transactional Coherence and Consistency: Simplifying Parallel Hardware and Softw": {
+  "dblp_key": "conf/asplos/HammondCWHCKO04",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2004::Speculative Incoherent Cache Protocols": {
+  "dblp_key": "conf/asplos/HuhCBS04",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2004::Memory Ordering: A Value-Based Approach": {
+  "dblp_key": "conf/isca/CainL04",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2004::Scalable Hardware Memory Disambiguation for High-ILP Processors": {
+  "dblp_key": "conf/asplos/DesikanSBK04",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2005::Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance": {
+  "dblp_key": "conf/isca/MutluKP05",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2005::Scalable Load and Store Processing in Latency-Tolerant Processors": {
+  "dblp_key": "conf/isca/GandhiARSL05",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2005::Tolerating Cache-Miss Latency with Multipass Pipelines": {
+  "dblp_key": "conf/micro/BarnesRH05",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2005::Wish Branches: Enabling Adaptive and Aggressive Predicated Execution": {
+  "dblp_key": "conf/micro/KimMSP05",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2005::Coarse-Grain Coherence Tracking: RegionScout and Region Coherence Arrays": {
+  "dblp_key": "conf/isca/CantinLS05",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ICS 2005::Energy-Efficient Thread-Level Speculation": {
+  "dblp_key": "conf/ics/RenauSCLSTT05",
+  "conf_venue": "ICS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2005::Opportunistic Transient-Fault Detection": {
+  "dblp_key": "conf/isca/GomaaV05",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2005::BugNet: Recording Application-Level Execution for Deterministic Replay Debugging": {
+  "dblp_key": "conf/isca/NarayanasamyPC05",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2005::Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance": {
+  "dblp_key": "conf/micro/WuMCRCWLB05",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2006::Patching Processor Design Errors with Programmable Hardware": {
+  "dblp_key": "conf/micro/SarangiTT06",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2006::AVIO: Detecting Atomicity Violations via Access-Interleaving Invariants": {
+  "dblp_key": "conf/asplos/LiTWLZZ06",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2006::On-Chip Optical Technology in Future Bus-Based Multicore Designs": {
+  "dblp_key": "conf/micro/KirmanKDMAWA06",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2006::Transactional Memory: The Hardware-Software Interface": {
+  "dblp_key": "conf/isca/McDonaldCCMCKO06",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2006::3D Integration for Introspection": {
+  "dblp_key": "conf/asplos/MysoreASLBS06",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2006::A Top-Down Approach to Architecting CPI Component Performance Counters": {
+  "dblp_key": "conf/asplos/EyermanEKS06",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2006::Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication": {
+  "dblp_key": "conf/micro/KimJMP06",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2006::NoSQ: Store-Load Communication without a Store Queue": {
+  "dblp_key": "conf/micro/ShaMR06",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2007::Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation": {
+  "dblp_key": "conf/isca/NeelakantamRSSZ07",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2007::MetaTM/TxLinux: Transactional Memory for an Operating System": {
+  "dblp_key": "conf/isca/RamadanRPHBW07",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2007::Argus: Low-Cost, Comprehensive Error Detection in Simple Cores": {
+  "dblp_key": "conf/micro/MeixnerBS07",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2007::Architecting Efficient Interconnects for Large Caches with CACTI 6.0": {
+  "dblp_key": "conf/isca/MuralimanoharB07",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2007::Toward Ideal On-Chip Communication Using Express Virtual Channels": {
+  "dblp_key": "conf/micro/KumarH07",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2007::Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching": {
+  "dblp_key": "conf/isca/QureshiJPSE07",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2007::Virtual Hierarchies": {
+  "dblp_key": "conf/isca/MartyH07",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2008::Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Me": {
+  "dblp_key": "conf/isca/IpekMMC08",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2008::Server Designs for Warehouse-Computing Environments": {
+  "dblp_key": "conf/isca/LimRCPMR08",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2008::Using Intradisk Parallelism to Build Energy-Efficient Storage Systems": {
+  "dblp_key": "conf/isca/SankarGS08",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2008::Flexible Hardware Acceleration for Instruction-Grain Lifeguards": {
+  "dblp_key": "conf/isca/ChenKSFGMRRRV08",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2008::Atom-Aid: Detecting and Surviving Atomicity Violations": {
+  "dblp_key": "conf/isca/LuciaDSC08",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2008::SoftSig: Software-Exposed Hardware Signatures for Code Analysis and Optimization": {
+  "dblp_key": "conf/asplos/TuckACT08",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2008::Trading Off Cache Capacity for Low-Voltage Operation": {
+  "dblp_key": "conf/isca/WilkersonGACKL08",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2008::Mixed-Signal Approximate Computation: A Neural Predictor Case Study": {
+  "dblp_key": "conf/micro/AmantJB08",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2008::Revival: A Variation-Tolerant Architecture Using Voltage Interpolation and Varia": {
+  "dblp_key": "conf/isca/LiangWB08",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2009::iCFP: Tolerating All-Level Cache Misses in In-Order Processors": {
+  "dblp_key": "conf/isca/HiltonR09",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2009::Near-Optimal Cache Block Placement with Reactive Nonuniform Cache Architectures": {
+  "dblp_key": "conf/isca/HardavellasFFA09",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2009::A Task-Centric Memory Model for Scalable Accelerator Architectures": {
+  "dblp_key": "conf/isca/KelmJJCTMLFP09",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2009::DMP: Deterministic Shared-Memory Multiprocessing": {
+  "dblp_key": "conf/asplos/DeviettiLCO09",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2009::Making Address-Correlated Prefetching Practical": {
+  "dblp_key": "conf/isca/BlundellMW09",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2009::Per-Thread Cycle Accounting": {
+  "dblp_key": "conf/asplos/EyermanE09",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2009::AnySP: Anytime Anywhere Anyway Signal Processing": {
+  "dblp_key": "conf/isca/WohSMMCF09",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2009::Gate-Level Information-Flow Tracking for Secure Architectures": {
+  "dblp_key": "conf/micro/TiwariLWCS09",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2009::Predicting Voltage Droops Using Recurring Program and Microarchitectural Event A": {
+  "dblp_key": "conf/hpca/ReddiGHWSB09",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2009::Architectural Implications of Nanoscale-Integrated Sensing and Computing": {
+  "dblp_key": "conf/asplos/PistolDL09",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2009::Gordon: An Improved Architecture for Data-Intensive Applications": {
+  "dblp_key": "conf/asplos/CaulfieldGS09",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2009::Phase-Change Technology and the Future of Main Memory": {
+  "dblp_key": "conf/isca/LeeIMB09",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2010::Virtualized ECC: Flexible Reliability in Main Memory": {
+  "dblp_key": "conf/asplos/YoonE10",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2010::Voltage Noise in Production Processors": {
+  "dblp_key": "conf/micro/ReddiKKCSWB10",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2010::Aergia: A Network-on-Chip Exploiting Packet Latency Slack": {
+  "dblp_key": "conf/isca/DasMMD10",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2010::Cohesion: An Adaptive Hybrid Memory Model for Accelerators": {
+  "dblp_key": "conf/isca/KelmJTLP10",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2010::ReMAP: A Reconfigurable Architecture for Chip Multiprocessors": {
+  "dblp_key": "conf/micro/WatkinsA10",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2010::Thread Cluster Memory Scheduling": {
+  "dblp_key": "conf/micro/KimPMH10",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2010::Coordinating DRAM and Last-Level-Cache Policies with the Virtual Write Queue": {
+  "dblp_key": "conf/isca/StuecheliKDHJ10",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2010::CHOP: Integrating DRAM Caches for CMP Server Platforms": {
+  "dblp_key": "conf/hpca/JiangMZUIMNSB10",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2010::Address Translation Aware Memory Consistency": {
+  "dblp_key": "conf/asplos/RomanescuLS10",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2010::Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out": {
+  "dblp_key": "conf/isca/SeongWL10",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2011::Kilo TM: Hardware Transactional Memory for GPU Architectures": {
+  "dblp_key": "conf/micro/FungSBA11",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2011::A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips": {
+  "dblp_key": "conf/isca/EbrahimiLMP11",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2011::FabScalar: Automating Superscalar Core Design": {
+  "dblp_key": "conf/isca/ChoudharyWSMGDNNR11",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2011::Active Low-Power Modes for Main Memory with MemScale": {
+  "dblp_key": "conf/asplos/DengMRWB11",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2011::Supporting Very Large DRAM Caches with Compound-Access Scheduling and MissMap": {
+  "dblp_key": "conf/micro/HaySSLB11",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2011::Free-p: A Practical End-to-End Nonvolatile Memory Protection Mechanism": {
+  "dblp_key": "conf/isca/YoonJE11",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2011::Increasing Utilization in Modern Warehouse-Scale Computers Using Bubble-Up": {
+  "dblp_key": "conf/micro/MarsTHSS11",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2011::Optical High Radix Switch Design": {
+  "dblp_key": "conf/isca/BinkertDJMMSA11",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2011::What is Happening to Power, Performance, and Software?": {
+  "dblp_key": "conf/asplos/EsmaeilzadehCXBM11",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2011::Dark Silicon and the End of Multicore Scaling": {
+  "dblp_key": "conf/isca/EsmaeilzadehBASB11",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2012::Designing for Responsiveness with Computational Sprinting": {
+  "dblp_key": "conf/hpca/RaghavanLCPPWM12",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2012::Neural Acceleration for General-Purpose Approximate Programs": {
+  "dblp_key": "conf/micro/EsmaeilzadehSCB12",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2012::Scaling the Energy Proportionality Wall with KnightShift": {
+  "dblp_key": "conf/micro/0001A12",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2012::Hardware-Enforced Comprehensive Memory Safety": {
+  "dblp_key": "conf/isca/NagarakatteMZ12",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2012::Inspection-Resistant Memory Architectures": {
+  "dblp_key": "conf/isca/ValamehrCKPSVS12",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2012::Relyzer: Application Resiliency Analyzer for Transient Faults": {
+  "dblp_key": "conf/asplos/HariANR12",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2012::A Quantitative, Experimental Approach to Measuring Processor Side-Channel Securi": {
+  "dblp_key": "conf/isca/DemmeMWS12",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2012::Cache-Conscious Thread Scheduling for Massively Multithreaded Processors": {
+  "dblp_key": "conf/micro/RogersOA12",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2012::Parallel Block Vectors: Collection, Analysis, and Uses": {
+  "dblp_key": "conf/isca/KambadurTK12",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2012::Programmable DDRx Controllers": {
+  "dblp_key": "conf/isca/BojnordiI12",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2013::Designing and Managing Data Centers Powered by Renewable Energy": {
+  "dblp_key": "conf/asplos/GoiriKLNB13",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2013::Quality-of-Service-Aware Scheduling in Heterogeneous Datacenters with Paragon": {
+  "dblp_key": "conf/asplos/DelimitrouK13",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2013::Networks on Chip with Provable Security Properties": {
+  "dblp_key": "conf/isca/WasselGOHKCS13",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2013::Cache Coherence for GPU Architectures": {
+  "dblp_key": "conf/hpca/SinghSFOA13",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2013::A Configurable and Strong RAS Solution for Die-Stacked DRAM Caches": {
+  "dblp_key": "conf/isca/SimLSO13",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2013::Decoupled Compressed Cache: Exploiting Spatial Locality for Energy Optimization": {
+  "dblp_key": "conf/micro/SardashtiW13",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2013::Sonic Millip3De: An Architecture for Handheld 3D Ultrasound": {
+  "dblp_key": "conf/hpca/SampsonYWCW13",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2013::Hardware Partitioning for Big Data Analytics": {
+  "dblp_key": "conf/isca/WuBKR13",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2013::Efficient Spatial Processing Element Control via Triggered Instructions": {
+  "dblp_key": "conf/isca/ParasharPAACLPZGJARME13",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2013::DeNovoND: Efficient Hardware for Disciplined Nondeterminism": {
+  "dblp_key": "conf/asplos/SungKA13",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services": {
+  "dblp_key": "conf/isca/PutnamCCCCDEFGGHHHHKLLPPSTXB14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2014::A High-Throughput Neural Network Accelerator": {
+  "dblp_key": "conf/micro/ChenLLZHWLCXST14",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::The Q100 Database Processing Unit": {
+  "dblp_key": "conf/asplos/WuLPKR14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation": {
+  "dblp_key": "conf/isca/MadhavanSS14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::The Aladdin Approach to Accelerator Design and Modeling": {
+  "dblp_key": "conf/isca/ShaoRWB14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2014::Verifying Correct Microarchitectural Enforcement of Memory Consistency Models": {
+  "dblp_key": "conf/micro/LustigPM14",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2014::Sharing Incentives and Fair Division for Multiprocessors": {
+  "dblp_key": "conf/asplos/ZahediL14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::Address Translation for Throughput-Oriented Accelerators": {
+  "dblp_key": "conf/asplos/PichaiHB14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::EOLE: Toward a Practical Implementation of Value Prediction": {
+  "dblp_key": "conf/isca/PeraisS14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::Memory Persistency: Semantics for Byte-Addressable Nonvolatile Memory Technologi": {
+  "dblp_key": "conf/isca/PelleyCW14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2014::Uncertain<T>: Abstractions for Uncertain Hardware and Software": {
+  "dblp_key": "conf/asplos/BornholtMM14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2014::NoC Architecture for Silicon Interposer Systems": {
+  "dblp_key": "conf/micro/AlbericioMJM14",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2014::Tangle: Route-Oriented Dynamic Voltage Minimization for Variation-Afflicted, Ene": {
+  "dblp_key": "conf/hpca/AnsariMXT14",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::Avoiding Core's DUE & SDC via Acoustic Wave Detectors and Tailored Error Contain": {
+  "dblp_key": "conf/isca/UpasaniVG14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2014::Efficient Memory Virtualization": {
+  "dblp_key": "conf/micro/GandhiBHS14",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::The CHERI Capability Model: Revisiting RISC in an Age of Risk": {
+  "dblp_key": "conf/isca/WoodruffWCMADLNNR14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2014::Heterogeneous-Race-Free Memory Models": {
+  "dblp_key": "conf/asplos/HowerHBGHRW14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2014::High-Performance Fractal Coherence": {
+  "dblp_key": "conf/asplos/VoskuilenV14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2014::ASC: Automatically Scalable Computation": {
+  "dblp_key": "conf/asplos/WaterlandAAAS14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Ir": {
+  "dblp_key": "conf/isca/CampanoniBKJWB14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2014::Sandbox Prefetching: Safe, Run-Time Evaluation of Aggressive Prefetchers": {
+  "dblp_key": "conf/hpca/PugsleyCWCSJLCB14",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2014::Data-Parallel Finite-State Machines": {
+  "dblp_key": "conf/asplos/BornholtMM14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2014::Sapper: A Language for Hardware-Level Security Policy Enforcement": {
+  "dblp_key": "conf/asplos/0001KOTRKSHC14",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::Practical Multidimensional Branch Prediction": {
+  "dblp_key": "conf/isca/PeraisSMSH15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::A Heterogeneous Von Neumann/Explicit Dataflow Processor": {
+  "dblp_key": "conf/isca/NowatzkiGS15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::Sirius Implications for Future Warehouse-Scale Computers": {
+  "dblp_key": "conf/isca/HauswaldKLCLMDM15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::Profiling a Warehouse-Scale Computer": {
+  "dblp_key": "conf/isca/KanevDHRMWB15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::MBus: A System Integration Bus for the Modular Microscale Computing Class": {
+  "dblp_key": "conf/isca/PannutoLKFKKDBD15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::Exploiting Interposer Technologies to Disintegrate and Reintegrate Multicore Pro": {
+  "dblp_key": "conf/micro/KannanJL15",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2015::Unlocking Ordered Parallelism with the Swarm Architecture": {
+  "dblp_key": "conf/micro/JeffreySYES15",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::Range Translations for Fast Virtual Memory": {
+  "dblp_key": "conf/isca/KarakostasGACHM15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::Stash: Have Your Scratchpad and Cache It Too": {
+  "dblp_key": "conf/isca/KomuravelliSAHK15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2015::Efficient GPU Synchronization without Scopes: Saying No to Complex Consistency M": {
+  "dblp_key": "conf/micro/SinclairAA15",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2014::General-Purpose Code Acceleration with Limited-Precision Analog Computation": {
+  "dblp_key": "conf/isca/AmantYPTEHCB14",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2015::Microarchitectural Implications of Event-Driven Server-Side Web Applications": {
+  "dblp_key": "conf/micro/ZhuRHR15",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::A Scalable Processing-in-Memory Accelerator for Parallel Graph Processing": {
+  "dblp_key": "conf/isca/AhnHYMC15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2015::Cross-Architecture Performance Prediction (XAPP) Using CPU Code to Predict GPU P": {
+  "dblp_key": "conf/micro/ArdalaniLSZ15",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2015::DeSC: Decoupled Supply-Compute Communication Management for Heterogeneous Archit": {
+  "dblp_key": "conf/micro/HamAM15",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2015::DEUCE: Write-Efficient Encryption for Non-Volatile Memories": {
+  "dblp_key": "conf/asplos/YoungNQ15",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2015::Rumba: An Online Quality Management System for Approximate Computing": {
+  "dblp_key": "conf/isca/KhudiaZSM15",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::The Memristive Boltzmann Machines": {
+  "dblp_key": "conf/hpca/BojnordiI16",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Analog Computing in a Modern Context: A Linear Algebra Accelerator Case Study": {
+  "dblp_key": "conf/isca/HuangGSTS16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Domain Specialization Is Generally Unnecessary for Accelerators": {
+  "dblp_key": "conf/asplos/NowatzkiS16",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Specializing a Planet's Computation: ASIC Clouds": {
+  "dblp_key": "conf/isca/MagakiKGT16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2016::DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric": {
+  "dblp_key": "conf/isca/GaoDNMZBK16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Agile Paging for Efficient Memory Virtualization": {
+  "dblp_key": "conf/isca/GandhiHS16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2016::Transistency Models: Memory Ordering at the Hardware-OS Interface": {
+  "dblp_key": "conf/asplos/LustigSMB16",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Toward a DNA-Based Archival Storage System": {
+  "dblp_key": "conf/asplos/BornholtLCCSS16",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::T-states: Power Management in Active Timing Margin Processors": {
+  "dblp_key": "conf/micro/ZuHPR16",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2016::An Energy-Aware Debugger for Intermittently Powered Systems": {
+  "dblp_key": "conf/asplos/ColinHLS16",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2016::Exploiting Semantic Commutativity in Hardware Speculation": {
+  "dblp_key": "conf/micro/ZhangCS16",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2016::The Computational Sprinting Game": {
+  "dblp_key": "conf/asplos/FanZL16",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2016::PoisonIvy: Safe Speculation for Secure Memory": {
+  "dblp_key": "conf/micro/LehmanHL16",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2016::Data-Centric Execution of Speculative Parallel Programs": {
+  "dblp_key": "conf/micro/JeffreySAES16",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading": {
+  "dblp_key": "conf/isca/SleimanW16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::The Anytime Automaton": {
+  "dblp_key": "conf/isca/MiguelJ16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Samplin": {
+  "dblp_key": "conf/isca/WangZLBYDL16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2016::Stripes: Bit-Serial Deep Neural Network Computing": {
+  "dblp_key": "conf/micro/JuddAHAM16",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL": {
+  "dblp_key": "conf/isca/KimICKZLBA16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::Back to the Future: Leveraging Belady's Algorithm for Improved Cache Replacement": {
+  "dblp_key": "conf/isca/JainL16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2016::ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic": {
+  "dblp_key": "conf/isca/ShafieeNMBSHWS16",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Motivation for and Evaluation of the First Tensor Processing Unit": {
+  "dblp_key": "conf/isca/JouppiYPPABBBBB17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Plasticine: A Reconfigurable Accelerator for Parallel Patterns": {
+  "dblp_key": "conf/isca/PrabhakarZKFZHP17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Bespoke Processors for Applications with Ultra-Low Area and Power Constraints": {
+  "dblp_key": "conf/isca/CherupalliDY0S17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Non-Speculative Load Reordering in Total Store Ordering": {
+  "dblp_key": "conf/isca/RosCAK17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2017::Full-Stack Memory Model Verification with TriCheck": {
+  "dblp_key": "conf/asplos/TrippelMLPM17",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Breaking the Address Translation Wall by Accelerating Memory Replays": {
+  "dblp_key": "conf/isca/YanVCB17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::A General Methodology on Designing Acyclic Channel Dependency Graphs in Intercon": {
+  "dblp_key": "conf/isca/EbrahimiD17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::An Architecture for Analysis": {
+  "dblp_key": "conf/asplos/McMahanCNRGHS17",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Architectural Risk": {
+  "dblp_key": "conf/micro/CuiS17",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2017::Architectural Opportunities for Novel Dynamic EMI Shifting (DEMIS)": {
+  "dblp_key": "conf/micro/GormanGR17",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2017::An Analysis of Persistent Memory Use with WHISPER": {
+  "dblp_key": "conf/asplos/NalliHHSVK17",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2017::RTLCheck: Verifying the Memory Consistency of RTL Designs": {
+  "dblp_key": "conf/micro/ManerkarLMP17",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2017::Using Branch Predictors to Predict Brain Activity in Brain-Machine Implants": {
+  "dblp_key": "conf/micro/Bhattacharjee17",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2017::Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations": {
+  "dblp_key": "conf/micro/HuangGSTMS17",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2017::A Many-Core Architecture for In-Memory Data Processing": {
+  "dblp_key": "conf/micro/AgrawalIRVGVBGR17",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2017::NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Ar": {
+  "dblp_key": "conf/hpca/AlianAJKK17",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::EDDIE: EM-Based Detection of Deviations in Program Execution": {
+  "dblp_key": "conf/isca/NazariSAZP17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks": {
+  "dblp_key": "conf/isca/EckertWWSISBD18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Inside Project Brainwave's Cloud-Scale, Real-Time AI Processor": {
+  "dblp_key": "conf/isca/FowersOPMLLAHAG18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2018::Darwin: A Genomics Coprocessor": {
+  "dblp_key": "conf/asplos/TurakhiaBD18",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::A Hardware Accelerator for Tracing Garbage Collection": {
+  "dblp_key": "conf/isca/MaasAK18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2018::Composable Building Blocks to Open Up Processor Design": {
+  "dblp_key": "conf/micro/ZhangWBA18",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public ": {
+  "dblp_key": "conf/isca/KarandikarMKBAL18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Mobilizing the Micro-Ops: Exploiting Context Sensitive Decoding for Security and": {
+  "dblp_key": "conf/isca/TaramVT18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2018::CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests": {
+  "dblp_key": "conf/micro/TrippelLM18",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Language-Level Persistency": {
+  "dblp_key": "conf/isca/KolliGSDCNW17",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Nonblocking DRAM Refresh": {
+  "dblp_key": "conf/isca/NguyenLMSJ18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadl": {
+  "dblp_key": "conf/isca/RamrakhyaniGK18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Euphrates: Algorithm-SoC Co-design for Low-Power Mobile Continuous Vision": {
+  "dblp_key": "conf/isca/ZhuSMW18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Generic System Calls for GPUs": {
+  "dblp_key": "conf/isca/VeselyBBLOR18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2018::MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurab": {
+  "dblp_key": "conf/asplos/KwonSK18",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::Promise: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Mac": {
+  "dblp_key": "conf/isca/SrivastavaKGLCA18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2018::Making Memristive Neural Network Accelerators Reliable": {
+  "dblp_key": "conf/hpca/FeinbergWI18",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2018::ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atom": {
+  "dblp_key": "conf/isca/OswaldNS18",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2018::PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specificat": {
+  "dblp_key": "conf/micro/ManerkarLMG18",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2018::Synergy: Rethinking Secure-Memory Design for Error-Correcting Memories": {
+  "dblp_key": "conf/hpca/SaileshwarNREQ18",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2018::InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy": {
+  "dblp_key": "conf/micro/YanCS0FT18",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2018::A Reconfigurable Energy Storage Architecture for Energy-Harvesting Devices": {
+  "dblp_key": "conf/asplos/ColinRL18",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2018::Caloree: Learning Control for Predictable Latency and Low Energy": {
+  "dblp_key": "conf/asplos/MishraILH18",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2019::Unveiling the Hardware and Software Implications of Microservices in Cloud and E": {
+  "dblp_key": "conf/asplos/GanZCSRKBHRJHPH19",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware ": {
+  "dblp_key": "conf/micro/KwonCPPSK19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::Energy-Efficient Video Processing for Virtual Reality": {
+  "dblp_key": "conf/isca/LengCSHZ19",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::Towards General-Purpose Acceleration: Finding Structure in Irregularity": {
+  "dblp_key": "conf/micro/DaduWLN19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computer": {
+  "dblp_key": "conf/isca/AyersNACKKKLMR19",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::Extending the Frontier of Quantum Computers With Qutrits": {
+  "dblp_key": "conf/isca/GokhaleBDBBC19",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::Architecting Noisy Intermediate-Scale Quantum Computers: A Real-System Study": {
+  "dblp_key": "conf/isca/MuraliLMJNA19",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively A": {
+  "dblp_key": "conf/micro/YuYK0TF19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::MicroScope: Enabling Microarchitectural Replay Attacks": {
+  "dblp_key": "conf/micro/YanCS0FT19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::Creating Foundations for Secure Microarchitectures With Data-Oblivious ISA Exten": {
+  "dblp_key": "conf/micro/YuYK0TF19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2019::The Accelerator Wall: Limits of Chip Specialization": {
+  "dblp_key": "conf/hpca/FuchsW19",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and T": {
+  "dblp_key": "conf/micro/KwonLR19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::NDA: Preventing Speculative Execution Attacks at Their Source": {
+  "dblp_key": "conf/micro/WeisseNLWK19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems": {
+  "dblp_key": "conf/isca/0001SPKK19",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2019::D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low L": {
+  "dblp_key": "conf/hpca/KimPHOM19",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture": {
+  "dblp_key": "conf/micro/ShaoCVZFJKKPRTZ19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2019::Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data O": {
+  "dblp_key": "conf/asplos/PellauerSCCHVKF19",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::ExTensor: An Accelerator for Sparse Tensor Algebra": {
+  "dblp_key": "conf/micro/HegdeMPCJSEF19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2019::A Formal Analysis of the NVIDIA PTX Memory Consistency Model": {
+  "dblp_key": "conf/asplos/LustigSG19",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2019::Designing Vertical Processors in Monolithic 3D": {
+  "dblp_key": "conf/isca/GopireddyT19",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2019::CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-per-Second Scal": {
+  "dblp_key": "conf/hpca/AjdariPKKK19",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2019::Practical Byte-Granular Memory Blacklisting using Califorms": {
+  "dblp_key": "conf/micro/SasakiAZBSS19",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::The Vision Behind MLPerf: Understanding AI Inference Performance": {
+  "dblp_key": "conf/isca/ReddiCKMSWABCCC20",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2020::Superconductor Computing for Neural Networks": {
+  "dblp_key": "conf/micro/IshidaBNFTKTOKI20",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::Understanding Acceleration Opportunities at Hyperscale": {
+  "dblp_key": "conf/asplos/SriramanD20",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::Accelerating Genomic Data Analytics With Composable Hardware Acceleration Framew": {
+  "dblp_key": "conf/isca/JangJJHSHL20",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::uGEMM: Unary Computing for GEMM Applications": {
+  "dblp_key": "conf/isca/ReddiCKMSWABCCC20",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2020::BabelFish: Fusing Address Translations for Containers": {
+  "dblp_key": "conf/asplos/SkarlatosKXT20",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::Characterizing and Modeling Nonvolatile Memory Systems": {
+  "dblp_key": "conf/micro/WangLYMSZ20",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::Temporal Computing With Superconductors": {
+  "dblp_key": "conf/asplos/TzimpragosVTMMV20",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2020::A Next-Generation Cryogenic Processor Architecture": {
+  "dblp_key": "conf/isca/ByunMLNK20",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::Balancing Specialized Versus Flexible Computation in Brain-Computer Interfaces": {
+  "dblp_key": "conf/isca/KarageorgosSVWP20",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::Virtual Logical Qubits: A Compact Architecture for Fault-Tolerant Quantum Comput": {
+  "dblp_key": "conf/isca/AbtsRSWBHBTKKHL20",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2020::NeuMMU: Architectural Support for Efficient Address Translations in Neural Proce": {
+  "dblp_key": "conf/asplos/HyunKCKR20",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2020::Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol": {
+  "dblp_key": "conf/asplos/KatsarakisGKJDG20",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2020::Printed Machine Learning Classifiers": {
+  "dblp_key": "conf/micro/MubarikWBTATK20",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "OSDI 2020::Agamotto: How Persistent is your Persistent Memory Application?": {
+  "dblp_key": "conf/osdi/NealRSQKPK20",
+  "conf_venue": "OSDI",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2020::Graphene: Strong yet Lightweight Row Hammer Protection": {
+  "dblp_key": "conf/micro/ParkKLHAL20",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2020::Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware C": {
+  "dblp_key": "conf/micro/DingGLRPC20",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2020::SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Ef": {
+  "dblp_key": "conf/isca/DingWHWFMC20",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2020::Leaking Information Through Cache LRU States": {
+  "dblp_key": "conf/hpca/0001S20",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2020::Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelis": {
+  "dblp_key": "conf/asplos/SkarlatosKXT20",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2020::The Architectural Implications of Facebook's DNN-based Personalized Recommendati": {
+  "dblp_key": "conf/hpca/GuptaWWNR0CHHJL20",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Overclocking in Immersion-Cooled Datacenters": {
+  "dblp_key": "conf/isca/JaliliMGMRARTBF21",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2021::Warehouse-Scale Video Acceleration": {
+  "dblp_key": "conf/asplos/RanganathanSCDG21",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2021::Chasing Carbon: The Elusive Environmental Footprint of Computing": {
+  "dblp_key": "conf/hpca/GuptaKLTLW0W21",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Maya: Using Formal Control to Obfuscate Power Side Channels": {
+  "dblp_key": "conf/isca/PothukuchiPVST21",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::An Architecture to Accelerate Computation on Encrypted Data": {
+  "dblp_key": "conf/micro/SamardzicFKDDP021",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::Characterizing and Mitigating Soft Errors in GPU DRAM": {
+  "dblp_key": "conf/micro/0001SOLRH0HK21",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::The Laplace Microarchitecture for Tracking Data Uncertainty": {
+  "dblp_key": "conf/micro/TsoutsourasKBSM21",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Systematically Understanding Graph Accelerator Dimensions and the Value of Hardw": {
+  "dblp_key": "conf/isca/DaduLN21",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "IISWC 2021::ILLIXR: An Open Testbed to Enable Extended Reality Systems Research": {
+  "dblp_key": "conf/iiswc/HuzaifaDGJJLLPR21",
+  "conf_venue": "IISWC",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::Distributed Data Persistency": {
+  "dblp_key": "conf/micro/KokolisPR0T21",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Vector Runahead for Indirect Memory Accesses": {
+  "dblp_key": "conf/isca/NaithaniA0E21",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management": {
+  "dblp_key": "conf/micro/MuthukrishnanLN21",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2021::Logical Abstractions for Noisy Variational Quantum Algorithm Simulation": {
+  "dblp_key": "conf/asplos/0001HMBM21",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::A Hardware Accelerator for Protocol Buffers": {
+  "dblp_key": "conf/micro/KarandikarLKZPN21",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::SquiggleFilter: An Accelerator for Portable Virus Detection": {
+  "dblp_key": "conf/micro/DunnSWGCBDN21",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Techno": {
+  "dblp_key": "conf/isca/LeeKLKLSYLLSKOI21",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2021::Dagger: Efficient and Fast RPCs in Cloud Microservices With Near-Memory Reconfig": {
+  "dblp_key": "conf/asplos/LazarevXAZD21",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2021::Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inferenc": {
+  "dblp_key": "conf/hpca/ReagenCKLLW021",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Q": {
+  "dblp_key": "conf/isca/BakerLDHBC21",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Superconducting Computing With Alternating Logic Elements": {
+  "dblp_key": "conf/isca/TzimpragosVWSS21",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2021::Robomorphic Computing: A Design Methodology for Domain-Specific Accelerators Par": {
+  "dblp_key": "conf/asplos/NeumanPBTDR21",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2021::ITSLF: Inter-Thread Store-to-Load Forwarding in Simultaneous Multithreading": {
+  "dblp_key": "conf/micro/KhanBSS0DSPLK21",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::PACMAN: Attacking ARM Pointer Authentication With Speculative Execution": {
+  "dblp_key": "conf/isca/RavichandranNLY22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::There's Always a Bigger Fish: A Clarifying Analysis of a Machine-Learning-Assist": {
+  "dblp_key": "conf/isca/CookDBY22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2022::Revizor: Testing Black-Box CPUs Against Speculation Contracts": {
+  "dblp_key": "conf/asplos/OleksenkoFKS22",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2022::Effective Mimicry of Belady's MIN Policy": {
+  "dblp_key": "conf/hpca/ShahJL22",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::Revisiting Residue Codes for Modern Memories": {
+  "dblp_key": "conf/micro/ManzhosovHPPZS22",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2022::HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols": {
+  "dblp_key": "conf/hpca/OswaldNSGOC22",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::Online Code Layout Optimizations via OCOLOS": {
+  "dblp_key": "conf/micro/ZhangKPKLD22",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2022::IOCost: Block Input-Output Control for Containers in Datacenters": {
+  "dblp_key": "conf/asplos/HeoSNLDNBMT022",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::EyeCoD: Eye Tracking System Acceleration via FlatCam-Based Algorithm and Hardwar": {
+  "dblp_key": "conf/isca/YouWZYFYWZZLBVL22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::Toward Developing High-Performance RISC-V Processors Using Agile Methodology": {
+  "dblp_key": "conf/micro/XuYTCCGJLLLLLLT22",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::Architectural CO2 Footprint Tool: Designing Sustainable Computer Systems With an": {
+  "dblp_key": "conf/isca/GuptaEHWL0W22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "HPCA 2022::SupermarQ: A Scalable Quantum Benchmark Suite": {
+  "dblp_key": "conf/hpca/TomeshGORSVWHMC22",
+  "conf_venue": "HPCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2022::FlexDriver: A Network Driver for Your Accelerator": {
+  "dblp_key": "conf/asplos/EranFMSCHLLS22",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2022::Taurus: A Data Plane Architecture for Per-Packet ML": {
+  "dblp_key": "conf/asplos/SwamyR0GO22",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::A Software-Defined Tensor Streaming Multiprocessor for Large-Scale Machine Learn": {
+  "dblp_key": "conf/isca/AbtsKLKBBPADHTB22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::EDAM: Edit Distance Tolerant Approximate Matching Content Addressable Memory": {
+  "dblp_key": "conf/isca/HanhanGJTLY22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model": {
+  "dblp_key": "conf/isca/LustigCG22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore": {
+  "dblp_key": "conf/isca/Orenes-VeraMB0A22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::Lukewarm Serverless Functions: Characterization and Optimization": {
+  "dblp_key": "conf/isca/SchallMUSG22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2022::SNS's Not a Synthesizer: A Deep-Learning-Based Synthesis Predictor": {
+  "dblp_key": "conf/isca/XuKW22",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::ANT: Exploiting Adaptive Numerical Data Type for Low-Bit Deep Neural Network Qua": {
+  "dblp_key": "conf/micro/00030LL0LG022",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles": {
+  "dblp_key": "conf/micro/KrishnanWBWFNW022",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::Datamime: Generating Representative Benchmarks by Automatically Synthesizing Dat": {
+  "dblp_key": "conf/micro/Lee022",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::Decoupled vector runahead for prefetching nested memory-access chains": {
+  "dblp_key": "conf/micro/NaithaniR00E23",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::End-to-end cloud application cloning with Ditto": {
+  "dblp_key": "conf/isca/LiangFFLPZSD23",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Contiguitas: The pursuit of physical memory contiguity in data centers": {
+  "dblp_key": "conf/isca/ZhaoXWSYMWRST023",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Mosaic pages: Big TLB reach with small pages": {
+  "dblp_key": "conf/asplos/GosakanHKMMSTWB23",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::RowPress vulnerability in modern DRAM chips": {
+  "dblp_key": "conf/isca/LuoOYTRCLSM23",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "USENIX Security 2023::Hardware-assisted fault isolation: Going beyond the limits of software-based san": {
+  "dblp_key": "conf/asplos/NarayanGTRM0FVL23",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::Programmable olfactory computing": {
+  "dblp_key": "conf/isca/BleierWV023",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::AuRORA: A full-stack solution for scalable and virtualized accelerator integrati": {
+  "dblp_key": "conf/isca/NikiforovDZKNS23",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Distributed brain-computer interfacing with a networked multiaccelerator archite": {
+  "dblp_key": "conf/isca/SriramPGUYMKB23",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine": {
+  "dblp_key": "conf/asplos/Xiao023",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::Astrea: Accurate Quantum Error-Decoding Via Practical Minimum-Weight Perfect-Mat": {
+  "dblp_key": "conf/isca/Vittal0Q23",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM": {
+  "dblp_key": "conf/isca/GerogiannisYLCM23",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2023::μManycore: A Cloud-Native CPU for Tail at Scale": {
+  "dblp_key": "conf/isca/StojkovicLST23",
+  "conf_venue": "ISCA",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters": {
+  "dblp_key": "conf/asplos/AcunLKMGC0W23",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2023::Space Microdatacenters": {
+  "dblp_key": "conf/micro/BleierMS023",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic": {
+  "dblp_key": "conf/asplos/Zhao0FT23",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Pond: CXL-Based Memory Pooling Systems for Cloud Platforms": {
+  "dblp_key": "conf/asplos/KimJALKAGAB23",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory": {
+  "dblp_key": "conf/asplos/MarufWDWABPCKC23",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2023::Clockhands: Rename-Free Instruction Set Architecture for Out-of-Order Processors": {
+  "dblp_key": "conf/micro/0001SSADKIS23",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::MP-Rec: Hardware-Software Co-design to Enable Multi-Path Recommendation": {
+  "dblp_key": "conf/asplos/HsiaGAAZW0W23",
+  "conf_venue": "ASPLOS",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2023::TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators": {
+  "dblp_key": "conf/micro/NayakOUFPE23",
+  "conf_venue": "MICRO",
+  "citations": null,
+  "error": "404"
+ }
+}

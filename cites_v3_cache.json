@@ -1,0 +1,3311 @@
+{
+ "ISCA 2024::Assessing processor sustainability using the first-order FOCAL carbon model": {
+  "dblp_key": "conf/asplos/Eeckhout24",
+  "conf_venue": "ASPLOS",
+  "conf_title": "FOCAL: A First-Order Carbon Model to Assess Processor Sustainability",
+  "title_score": 0.43661971830985913,
+  "citations": 30,
+  "ss_title": "FOCAL: A First-Order Carbon Model to Assess Processor Sustainability",
+  "ss_year": 2024,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2024::Enabling sustainable cloud computing with low-carbon server design": {
+  "dblp_key": "conf/isca/WangBKIZCFFWBSBS24",
+  "conf_venue": "ISCA",
+  "conf_title": "Designing Cloud Servers for Lower Carbon",
+  "title_score": 0.4339622641509434,
+  "citations": 52,
+  "ss_title": "Designing Cloud Servers for Lower Carbon",
+  "ss_year": 2024,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2024::From TeAAL to FuseMax: Separation of concerns for attention accelerator design": {
+  "dblp_key": "conf/micro/NayakWOPEF24",
+  "conf_venue": "MICRO",
+  "conf_title": "FuseMax: Leveraging Extended Einsums to Optimize Attention Accelerator Design",
+  "title_score": 0.5620915032679739,
+  "citations": 18,
+  "ss_title": "FuseMax: Leveraging Extended Einsums to Optimize Attention Accelerator Design",
+  "ss_year": 2024,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2024::Splitwise: Efficient generative LLM inference using phase splitting": {
+  "dblp_key": "conf/isca/PatelCZSGMB24",
+  "conf_venue": "ISCA",
+  "conf_title": "Splitwise: Efficient Generative LLM Inference Using Phase Splitting",
+  "title_score": 1.0,
+  "citations": 563,
+  "ss_title": "Splitwise: Efficient Generative LLM Inference Using Phase Splitting",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2024::BlitzCoin: A decentralized hardware solution for power management of highly hete": {
+  "dblp_key": "conf/isca/CochetSLZSGBJBWSCB24",
+  "conf_venue": "ISCA",
+  "conf_title": "BlitzCoin: Fully Decentralized Hardware Power Management for Accelerator-Rich SoCs",
+  "title_score": 0.6486486486486487,
+  "citations": 4,
+  "ss_title": "BlitzCoin: Fully Decentralized Hardware Power Management for Accelerator-Rich SoCs",
+  "ss_year": 2024,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2024::From colocation to exfiltration: Practical cache side-channel attacks in the mod": {
+  "dblp_key": "conf/asplos/Zhao0FT24a",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Last-Level Cache Side-Channel Attacks Are Feasible in the Modern Public Cloud",
+  "title_score": 0.686046511627907,
+  "citations": 26,
+  "ss_title": "Last-Level Cache Side-Channel Attacks Are Feasible in the Modern Public Cloud",
+  "ss_year": 2024,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2024::MAD Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration o": {
+  "dblp_key": "conf/isca/HsiaGAADWBW24",
+  "conf_venue": "ISCA",
+  "conf_title": "MAD-Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems",
+  "title_score": 0.99,
+  "citations": 18,
+  "ss_title": "MAD-Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2024::Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design": {
+  "dblp_key": "conf/micro/SamardzicLD024",
+  "conf_venue": "MICRO",
+  "conf_title": "Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design",
+  "title_score": 1.0,
+  "citations": 17,
+  "ss_title": "Accelerating Zero-Knowledge Proofs Through Hardware-Algorithm Co-Design",
+  "ss_year": 2024,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2024::Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tens": {
+  "dblp_key": "conf/isca/HuangTEP24",
+  "conf_venue": "ISCA",
+  "conf_title": "Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2024::Native DRAM Cache: Re-Architecting DRAM as a Large-Scale Cache for Data Centers": {
+  "dblp_key": "conf/isca/RyuKJAK24",
+  "conf_venue": "ISCA",
+  "conf_title": "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers",
+  "title_score": 1.0,
+  "citations": 4,
+  "ss_title": "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers",
+  "ss_year": 2024,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2024::Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology": {
+  "dblp_key": "conf/hpca/HyunKLR24",
+  "conf_venue": "HPCA",
+  "conf_title": "Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology",
+  "title_score": 1.0,
+  "citations": 56,
+  "ss_title": "Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ASPLOS 2024::Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs": {
+  "dblp_key": "conf/asplos/0001M024",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs",
+  "title_score": 1.0,
+  "citations": 6,
+  "ss_title": "Carat: Unlocking Value-Level Parallelism for Multiplier-Free GEMMs",
+  "ss_year": 2024,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2024::DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults": {
+  "dblp_key": "conf/micro/DeutschUGSE024",
+  "conf_venue": "MICRO",
+  "conf_title": "DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults",
+  "title_score": 1.0,
+  "citations": 8,
+  "ss_title": "DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults",
+  "ss_year": 2024,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2024::A Case for Speculative Address Translation With Rapid Validation for GPUs": {
+  "dblp_key": "conf/micro/ParkKLKBYNH24",
+  "conf_venue": "MICRO",
+  "conf_title": "A Case for Speculative Address Translation with Rapid Validation for GPUs",
+  "title_score": 1.0,
+  "citations": 10,
+  "ss_title": "A Case for Speculative Address Translation with Rapid Validation for GPUs",
+  "ss_year": 2024,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2024::Tandem Processor: Grappling With Emerging Operators in Neural Networks": {
+  "dblp_key": "conf/asplos/GhodratiKXMKAWK24",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Tandem Processor: Grappling with Emerging Operators in Neural Networks",
+  "title_score": 1.0,
+  "citations": 29,
+  "ss_title": "Tandem Processor: Grappling with Emerging Operators in Neural Networks",
+  "ss_year": 2024,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2024::SpotServe: Serving Generative Large Language Models on Preemptible Instances": {
+  "dblp_key": "conf/asplos/MiaoSDXL0J24",
+  "conf_venue": "ASPLOS",
+  "conf_title": "SpotServe: Serving Generative Large Language Models on Preemptible Instances",
+  "title_score": 1.0,
+  "citations": 119,
+  "ss_title": "SpotServe: Serving Generative Large Language Models on Preemptible Instances",
+  "ss_year": 2023,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2024::MINT: Securely Mitigating Rowhammer With a Minimalist In-DRAM Tracker": {
+  "dblp_key": "conf/micro/QureshiQJ24",
+  "conf_venue": "MICRO",
+  "conf_title": "MINT: Securely Mitigating Rowhammer with a Minimalist in-DRAM Tracker",
+  "title_score": 1.0,
+  "citations": 25,
+  "ss_title": "MINT: Securely Mitigating Rowhammer with a Minimalist in-DRAM Tracker",
+  "ss_year": 2024,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2003::Checkpoint Processing and Recovery: An Efficient, Scalable Alternative to Reorde": {
+  "dblp_key": "conf/micro/AkkaryRS03",
+  "conf_venue": "MICRO",
+  "conf_title": "Checkpoint Processing and Recovery: Towards Scalable Large Instruction Window Processors",
+  "title_score": 0.6285714285714286,
+  "citations": 321,
+  "ss_title": "Checkpoint processing and recovery: towards scalable large instruction window processors",
+  "ss_year": 2003,
+  "ss_venue": "Proceedings. 36th Annual IEEE/ACM International Symposium on Microarchitecture, 2003. MICRO-36."
+ },
+ "HPCA 2003::Runahead Execution: An Effective Alternative to Large Instruction Windows": {
+  "dblp_key": "conf/hpca/MutluSWP03",
+  "conf_venue": "HPCA",
+  "conf_title": "Runahead Execution: An Alternative to Very Large Instruction Windows for Out-of-Order Processors",
+  "title_score": 0.7425149700598802,
+  "citations": 479,
+  "ss_title": "Runahead execution: an alternative to very large instruction windows for out-of-order processors",
+  "ss_year": 2003,
+  "ss_venue": "The Ninth International Symposium on High-Performance Computer Architecture, 2003. HPCA-9 2003. Proceedings."
+ },
+ "ISCA 2003::Scalable Vector Processors for Embedded Systems": {
+  "dblp_key": "conf/isca/KozyrakisP03",
+  "conf_venue": "ISCA",
+  "conf_title": "Overcoming the Limitations of Conventional Vector Processors",
+  "title_score": 0.411214953271028,
+  "citations": 106,
+  "ss_title": "Overcoming the limitations of conventional vector processors",
+  "ss_year": 2003,
+  "ss_venue": "30th Annual International Symposium on Computer Architecture, 2003. Proceedings."
+ },
+ "ISCA 2003::Exploiting ILP, TLP, and DLP with the Polymorphous TRIPS Architecture": {
+  "dblp_key": "conf/isca/SankaralingamNLKHBKM03",
+  "conf_venue": "ISCA",
+  "conf_title": "Exploiting ILP, TLP and DLP with the Polymorphous TRIPS Architecture",
+  "title_score": 0.9927007299270073,
+  "citations": 218,
+  "ss_title": "Exploiting ILP, TLP, and DLP with the polymorphous TRIPS architecture",
+  "ss_year": 2003,
+  "ss_venue": "30th Annual International Symposium on Computer Architecture, 2003. Proceedings."
+ },
+ "ISCA 2003::Temperature-Aware Computer Systems: Opportunities and Challenges": {
+  "dblp_key": "conf/isca/SkadronSHVST03",
+  "conf_venue": "ISCA",
+  "conf_title": "Temperature-Aware Microarchitecture",
+  "title_score": 0.5102040816326531,
+  "citations": 1336,
+  "ss_title": "Temperature-aware microarchitecture",
+  "ss_year": 2003,
+  "ss_venue": "30th Annual International Symposium on Computer Architecture, 2003. Proceedings."
+ },
+ "MICRO 2002::Dynamic Frequency and Voltage Scaling for a Multiple-Clock-Domain Microprocessor": {
+  "dblp_key": "conf/micro/SemeraroADMDS02",
+  "conf_venue": "MICRO",
+  "conf_title": "Dynamic frequency and voltage control for a multiple clock domain microarchitecture",
+  "title_score": 0.8343558282208589,
+  "citations": 159,
+  "ss_title": "Dynamic frequency and voltage control for a multiple clock domain microarchitecture",
+  "ss_year": 2002,
+  "ss_venue": "35th Annual IEEE/ACM International Symposium on Microarchitecture, 2002. (MICRO-35). Proceedings."
+ },
+ "MICRO 2003::Measuring Architectural Vulnerability Factors": {
+  "dblp_key": "conf/micro/MukherjeeWERA03",
+  "conf_venue": "MICRO",
+  "conf_title": "A Systematic Methodology to Compute the Architectural Vulnerability Factors for a High-Performance Microprocessor",
+  "title_score": 0.4936708860759494,
+  "citations": 1064,
+  "ss_title": "A systematic methodology to compute the architectural vulnerability factors for a high-performance microprocessor",
+  "ss_year": 2003,
+  "ss_venue": "Proceedings. 36th Annual IEEE/ACM International Symposium on Microarchitecture, 2003. MICRO-36."
+ },
+ "MICRO 2003::Transient-Fault Recovery for Chip Multiprocessors": {
+  "dblp_key": "conf/isca/GomaaSPV03",
+  "conf_venue": "ISCA",
+  "conf_title": "Transient-Fault Recovery for Chip Multiprocessors",
+  "title_score": 1.0,
+  "citations": 371,
+  "ss_title": "Transient-fault recovery for chip multiprocessors",
+  "ss_year": 2003,
+  "ss_venue": "30th Annual International Symposium on Computer Architecture, 2003. Proceedings."
+ },
+ "ASPLOS 2002::Discovering and Exploiting Program Phases": {
+  "dblp_key": "conf/asplos/SherwoodPHC02",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Automatically characterizing large scale program behavior",
+  "title_score": 0.4489795918367347,
+  "citations": 1869,
+  "ss_title": "Automatically characterizing large scale program behavior",
+  "ss_year": 2002,
+  "ss_venue": "ASPLOS X"
+ },
+ "ISCA 2003::Addressing Workload Variability in Architectural Simulations": {
+  "dblp_key": "conf/hpca/AlameldeenW03",
+  "conf_venue": "HPCA",
+  "conf_title": "Variability in Architectural Simulations of Multi-Threaded Workloads",
+  "title_score": 0.625,
+  "citations": 282,
+  "ss_title": "Variability in architectural simulations of multi-threaded workloads",
+  "ss_year": 2003,
+  "ss_venue": "The Ninth International Symposium on High-Performance Computer Architecture, 2003. HPCA-9 2003. Proceedings."
+ },
+ "ISCA 2003::Nonuniform Cache Architectures for Wire-Delay Dominated On-Chip Caches": {
+  "dblp_key": "conf/isca/SankaralingamNLKHBKM03",
+  "conf_venue": "ISCA",
+  "conf_title": "Exploiting ILP, TLP and DLP with the Polymorphous TRIPS Architecture",
+  "title_score": 0.2608695652173913,
+  "citations": 218,
+  "ss_title": "Exploiting ILP, TLP, and DLP with the polymorphous TRIPS architecture",
+  "ss_year": 2003,
+  "ss_venue": "30th Annual International Symposium on Computer Architecture, 2003. Proceedings."
+ },
+ "ISCA 2003::Token Coherence: A New Framework for Shared-Memory Multiprocessors": {
+  "dblp_key": "conf/isca/MartinHSHW03",
+  "conf_venue": "ISCA",
+  "conf_title": "Using Destination-Set Prediction to Improve the Latency/Bandwidth Tradeoff in Shared-Memory Multiprocessors",
+  "title_score": 0.5232558139534884,
+  "citations": 128,
+  "ss_title": "Using destination-set prediction to improve the latency/bandwidth tradeoff in shared-memory multiprocessors",
+  "ss_year": 2003,
+  "ss_venue": "30th Annual International Symposium on Computer Architecture, 2003. Proceedings."
+ },
+ "ISCA 2003::Transactional Execution: Toward Reliable, High-Performance Multithreading": {
+  "dblp_key": "conf/micro/AkkaryRS03",
+  "conf_venue": "MICRO",
+  "conf_title": "Checkpoint Processing and Recovery: Towards Scalable Large Instruction Window Processors",
+  "title_score": 0.33962264150943394,
+  "citations": 321,
+  "ss_title": "Checkpoint processing and recovery: towards scalable large instruction window processors",
+  "ss_year": 2003,
+  "ss_venue": "Proceedings. 36th Annual IEEE/ACM International Symposium on Microarchitecture, 2003. MICRO-36."
+ },
+ "ASPLOS 2002::Speculative Synchronization: Programmability and Performance for Parallel Codes": {
+  "dblp_key": "conf/asplos/MartinezT02",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Speculative synchronization: applying thread-level speculation to explicitly parallel applications",
+  "title_score": 0.5485714285714286,
+  "citations": 189,
+  "ss_title": "Speculative synchronization: applying thread-level speculation to explicitly parallel applications",
+  "ss_year": 2002,
+  "ss_venue": "ASPLOS X"
+ },
+ "ASPLOS 2004::Fingerprinting: Bounding Soft-Error-Detection Latency and Bandwidth": {
+  "dblp_key": "conf/asplos/SmolensGKFHN04",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Fingerprinting: bounding soft-error detection latency and bandwidth",
+  "title_score": 0.9848484848484849,
+  "citations": 197,
+  "ss_title": "Fingerprinting: bounding soft-error detection latency and bandwidth",
+  "ss_year": 2004,
+  "ss_venue": "ASPLOS XI"
+ },
+ "ISCA 2004::Reducing the Soft-Error Rate of a High-Performance Microprocessor": {
+  "dblp_key": "conf/isca/WeaverEMR04",
+  "conf_venue": "ISCA",
+  "conf_title": "Techniques to Reduce the Soft Error Rate of a High-Performance Microprocessor",
+  "title_score": 0.8591549295774648,
+  "citations": 299,
+  "ss_title": "Techniques to reduce the soft error rate of a high-performance microprocessor",
+  "ss_year": 2004,
+  "ss_venue": "Proceedings. 31st Annual International Symposium on Computer Architecture, 2004."
+ },
+ "ASPLOS 2004::Performance-Directed Energy Management for Storage Systems": {
+  "dblp_key": "conf/asplos/LiLDZZAK04",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Performance directed energy management for main memory and disks",
+  "title_score": 0.7868852459016393,
+  "citations": 148,
+  "ss_title": "Performance directed energy management for main memory and disks",
+  "ss_year": 2004,
+  "ss_venue": "ASPLOS XI"
+ },
+ "ASPLOS 2004::iWatcher: Simple, General Architectural Support for Software Debugging": {
+  "dblp_key": "conf/isca/ZhouQLZT04",
+  "conf_venue": "ISCA",
+  "conf_title": "iWatcher: Efficient Architectural Support for Software Debugging",
+  "title_score": 0.8636363636363636,
+  "citations": 150,
+  "ss_title": "iWatcher: efficient architectural support for software debugging",
+  "ss_year": 2004,
+  "ss_venue": "Proceedings. 31st Annual International Symposium on Computer Architecture, 2004."
+ },
+ "MICRO 2004::Continual Flow Pipelines: Achieving Resource-Efficient Latency Tolerance": {
+  "dblp_key": "conf/asplos/SrinivasanRAGU04",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Continual flow pipelines",
+  "title_score": 0.5052631578947369,
+  "citations": 200,
+  "ss_title": "Continual flow pipelines",
+  "ss_year": 2004,
+  "ss_venue": "ASPLOS XI"
+ },
+ "ISCA 2004::The Vector-Thread Architecture": {
+  "dblp_key": "conf/isca/KrashinskyBHGPCA04",
+  "conf_venue": "ISCA",
+  "conf_title": "The Vector-Thread Architecture",
+  "title_score": 1.0,
+  "citations": 202,
+  "ss_title": "The vector-thread architecture",
+  "ss_year": 2004,
+  "ss_venue": "Proceedings. 31st Annual International Symposium on Computer Architecture, 2004."
+ },
+ "ASPLOS 2004::Transactional Coherence and Consistency: Simplifying Parallel Hardware and Softw": {
+  "dblp_key": "conf/isca/HammondWCCDHPWKO04",
+  "conf_venue": "ISCA",
+  "conf_title": "Transactional Memory Coherence and Consistency",
+  "title_score": 0.609375,
+  "citations": 770,
+  "ss_title": "Transactional memory coherence and consistency",
+  "ss_year": 2004,
+  "ss_venue": "Proceedings. 31st Annual International Symposium on Computer Architecture, 2004."
+ },
+ "MICRO 2004::Speculative Incoherent Cache Protocols": {
+  "dblp_key": "conf/asplos/HuhCBS04",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Coherence decoupling: making use of incoherence",
+  "title_score": 0.4523809523809524,
+  "citations": 78,
+  "ss_title": "Coherence decoupling: making use of incoherence",
+  "ss_year": 2004,
+  "ss_venue": "ASPLOS XI"
+ },
+ "ISCA 2004::Memory Ordering: A Value-Based Approach": {
+  "dblp_key": "conf/isca/CainL04",
+  "conf_venue": "ISCA",
+  "conf_title": "Memory Ordering: A Value-Based Approach",
+  "title_score": 1.0,
+  "citations": 97,
+  "ss_title": "Memory ordering: a value-based approach",
+  "ss_year": 2004,
+  "ss_venue": "Proceedings. 31st Annual International Symposium on Computer Architecture, 2004."
+ },
+ "ISCA 2004::Scalable Hardware Memory Disambiguation for High-ILP Processors": {
+  "dblp_key": "conf/asplos/DesikanSBK04",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Scalable selective re-execution for EDGE architectures",
+  "title_score": 0.46153846153846156,
+  "citations": 15,
+  "ss_title": "Scalable selective re-execution for EDGE architectures",
+  "ss_year": 2004,
+  "ss_venue": "ASPLOS XI"
+ },
+ "ISCA 2005::Efficient Runahead Execution: Power-Efficient Memory Latency Tolerance": {
+  "dblp_key": "conf/isca/MutluKP05",
+  "conf_venue": "ISCA",
+  "conf_title": "Techniques for Efficient Processing in Runahead Execution Engines",
+  "title_score": 0.47761194029850745,
+  "citations": 118,
+  "ss_title": "Techniques for efficient processing in runahead execution engines",
+  "ss_year": 2005,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2005::Scalable Load and Store Processing in Latency-Tolerant Processors": {
+  "dblp_key": "conf/isca/GandhiARSL05",
+  "conf_venue": "ISCA",
+  "conf_title": "Scalable Load and Store Processing in Latency Tolerant Processors",
+  "title_score": 0.9846153846153847,
+  "citations": 51,
+  "ss_title": "Scalable Load and Store Processing in Latency-Tolerant Processors",
+  "ss_year": 2005,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2005::Tolerating Cache-Miss Latency with Multipass Pipelines": {
+  "dblp_key": "conf/micro/BarnesRH05",
+  "conf_venue": "MICRO",
+  "conf_title": "&quot;Flea-flicker&quot; Multipass Pipelining: An Alternative to the High-Power Out-of-Order Offense",
+  "title_score": 0.32679738562091504,
+  "citations": 37,
+  "ss_title": "\"Flea-flicker\" multipass pipelining: an alternative to the high-power out-of-order offense",
+  "ss_year": 2005,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2005::Wish Branches: Enabling Adaptive and Aggressive Predicated Execution": {
+  "dblp_key": "conf/micro/KimMSP05",
+  "conf_venue": "MICRO",
+  "conf_title": "Wish Branches: Combining Conditional Branching and Predication for Adaptive Predicated Execution",
+  "title_score": 0.5925925925925926,
+  "citations": 48,
+  "ss_title": "Wish branches: combining conditional branching and predication for adaptive predicated execution",
+  "ss_year": 2005,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2005::Coarse-Grain Coherence Tracking: RegionScout and Region Coherence Arrays": {
+  "dblp_key": "conf/isca/CantinLS05",
+  "conf_venue": "ISCA",
+  "conf_title": "Improving Multiprocessor Performance with Coarse-Grain Coherence Tracking",
+  "title_score": 0.4305555555555556,
+  "citations": 114,
+  "ss_title": "Improving multiprocessor performance with coarse-grain coherence tracking",
+  "ss_year": 2005,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2005::Opportunistic Transient-Fault Detection": {
+  "dblp_key": "conf/isca/GomaaV05",
+  "conf_venue": "ISCA",
+  "conf_title": "Opportunistic Transient-Fault Detection",
+  "title_score": 1.0,
+  "citations": 129,
+  "ss_title": "Opportunistic transient-fault detection",
+  "ss_year": 2005,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2005::BugNet: Recording Application-Level Execution for Deterministic Replay Debugging": {
+  "dblp_key": "conf/isca/NarayanasamyPC05",
+  "conf_venue": "ISCA",
+  "conf_title": "BugNet: Continuously Recording Program Execution for Deterministic Replay Debugging",
+  "title_score": 0.782608695652174,
+  "citations": 96,
+  "ss_title": "RETROSPECTIVE: BugNet: continuously recording program execution for deterministic replay debugging",
+  "ss_year": 2023,
+  "ss_venue": ""
+ },
+ "ASPLOS 2005::Dynamic-Compiler-Driven Control for Microprocessor Energy and Performance": {
+  "dblp_key": "conf/micro/WuMCRCWLB05",
+  "conf_venue": "MICRO",
+  "conf_title": "A Dynamic Compilation Framework for Controlling Microprocessor Energy and Performance",
+  "title_score": 0.7848101265822784,
+  "citations": 228,
+  "ss_title": "A dynamic compilation framework for controlling microprocessor energy and performance",
+  "ss_year": 2005,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2006::Patching Processor Design Errors with Programmable Hardware": {
+  "dblp_key": "conf/micro/SarangiTT06",
+  "conf_venue": "MICRO",
+  "conf_title": "Phoenix: Detecting and Recovering from Permanent Processor Design Bugs with Programmable Hardware",
+  "title_score": 0.6709677419354839,
+  "citations": 64,
+  "ss_title": "Phoenix: Detecting and Recovering from Permanent Processor Design Bugs with Programmable Hardware",
+  "ss_year": 2006,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2006::AVIO: Detecting Atomicity Violations via Access-Interleaving Invariants": {
+  "dblp_key": "conf/asplos/LuTQZ06",
+  "conf_venue": "ASPLOS",
+  "conf_title": "AVIO: detecting atomicity violations via access interleaving invariants",
+  "title_score": 0.9857142857142858,
+  "citations": 461,
+  "ss_title": "AVIO: detecting atomicity violations via access interleaving invariants",
+  "ss_year": 2006,
+  "ss_venue": "ASPLOS XII"
+ },
+ "ISCA 2006::On-Chip Optical Technology in Future Bus-Based Multicore Designs": {
+  "dblp_key": "conf/micro/KirmanKDMAWA06",
+  "conf_venue": "MICRO",
+  "conf_title": "Leveraging Optical Technology in Future Bus-based Chip Multiprocessors",
+  "title_score": 0.746268656716418,
+  "citations": 311,
+  "ss_title": "Leveraging Optical Technology in Future Bus-based Chip Multiprocessors",
+  "ss_year": 2006,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2006::Transactional Memory: The Hardware-Software Interface": {
+  "dblp_key": "conf/asplos/ChungMMSCCKO06",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Tradeoffs in transactional memory virtualization",
+  "title_score": 0.52,
+  "citations": 85,
+  "ss_title": "Tradeoffs in transactional memory virtualization",
+  "ss_year": 2006,
+  "ss_venue": "ASPLOS XII"
+ },
+ "ISCA 2006::3D Integration for Introspection": {
+  "dblp_key": "conf/asplos/MysoreASLBS06",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Introspective 3D chips",
+  "title_score": 0.4074074074074074,
+  "citations": 61,
+  "ss_title": "Introspective 3D chips",
+  "ss_year": 2006,
+  "ss_venue": "ASPLOS XII"
+ },
+ "ISCA 2006::A Top-Down Approach to Architecting CPI Component Performance Counters": {
+  "dblp_key": "conf/asplos/EyermanEKS06",
+  "conf_venue": "ASPLOS",
+  "conf_title": "A performance counter architecture for computing accurate CPI components",
+  "title_score": 0.30985915492957744,
+  "citations": 196,
+  "ss_title": "A performance counter architecture for computing accurate CPI components",
+  "ss_year": 2006,
+  "ss_venue": "ASPLOS XII"
+ },
+ "MICRO 2006::Diverge-Merge Processor: Generalized and Energy-Efficient Dynamic Predication": {
+  "dblp_key": "conf/micro/KimJMP06",
+  "conf_venue": "MICRO",
+  "conf_title": "Diverge-Merge Processor (DMP): Dynamic Predicated Execution of Complex Control-Flow Graphs Based on Frequently Executed Paths",
+  "title_score": 0.45,
+  "citations": 35,
+  "ss_title": "Diverge-Merge Processor (DMP): Dynamic Predicated Execution of Complex Control-Flow Graphs Based on Frequently Executed Paths",
+  "ss_year": 2006,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2006::NoSQ: Store-Load Communication without a Store Queue": {
+  "dblp_key": "conf/micro/ShaMR06",
+  "conf_venue": "MICRO",
+  "conf_title": "NoSQ: Store-Load Communication without a Store Queue",
+  "title_score": 1.0,
+  "citations": 70,
+  "ss_title": "NoSQ: Store-Load Communication without a Store Queue",
+  "ss_year": 2006,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2007::Hardware Atomicity: An Effective Abstraction for Reliable Software Speculation": {
+  "dblp_key": "conf/isca/NeelakantamRSSZ07",
+  "conf_venue": "ISCA",
+  "conf_title": "Hardware atomicity for reliable software speculation",
+  "title_score": 0.8062015503875969,
+  "citations": 72,
+  "ss_title": "Hardware atomicity for reliable software speculation",
+  "ss_year": 2007,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2007::MetaTM/TxLinux: Transactional Memory for an Operating System": {
+  "dblp_key": "conf/isca/RamadanRPHBW07",
+  "conf_venue": "ISCA",
+  "conf_title": "MetaTM//TxLinux: transactional memory for an operating system",
+  "title_score": 0.9915966386554622,
+  "citations": 215,
+  "ss_title": "MetaTM/TxLinux: Transactional Memory for an Operating System",
+  "ss_year": 2007,
+  "ss_venue": "IEEE Micro"
+ },
+ "MICRO 2007::Argus: Low-Cost, Comprehensive Error Detection in Simple Cores": {
+  "dblp_key": "conf/micro/MeixnerBS07",
+  "conf_venue": "MICRO",
+  "conf_title": "Argus: Low-Cost, Comprehensive Error Detection in Simple Cores",
+  "title_score": 1.0,
+  "citations": 253,
+  "ss_title": "Argus: Low-Cost, Comprehensive Error Detection in Simple Cores",
+  "ss_year": 2007,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2007::Architecting Efficient Interconnects for Large Caches with CACTI 6.0": {
+  "dblp_key": "conf/micro/MuralimanoharBJ07",
+  "conf_venue": "MICRO",
+  "conf_title": "Optimizing NUCA Organizations and Wiring Alternatives for Large Caches with CACTI 6.0",
+  "title_score": 0.6405228758169934,
+  "citations": 794,
+  "ss_title": "Optimizing NUCA Organizations and Wiring Alternatives for Large Caches with CACTI 6.0",
+  "ss_year": 2007,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2007::Toward Ideal On-Chip Communication Using Express Virtual Channels": {
+  "dblp_key": "conf/isca/KumarPKJ07",
+  "conf_venue": "ISCA",
+  "conf_title": "Express virtual channels: towards the ideal interconnection fabric",
+  "title_score": 0.36923076923076925,
+  "citations": 400,
+  "ss_title": "Express virtual channels: towards the ideal interconnection fabric",
+  "ss_year": 2007,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2007::Set-Dueling-Controlled Adaptive Insertion for High-Performance Caching": {
+  "dblp_key": "conf/isca/QureshiJPSE07",
+  "conf_venue": "ISCA",
+  "conf_title": "Adaptive insertion policies for high performance caching",
+  "title_score": 0.7301587301587301,
+  "citations": 755,
+  "ss_title": "Adaptive insertion policies for high performance caching",
+  "ss_year": 2007,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2007::Virtual Hierarchies": {
+  "dblp_key": "conf/isca/MartyH07",
+  "conf_venue": "ISCA",
+  "conf_title": "Virtual hierarchies to support server consolidation",
+  "title_score": 0.5428571428571428,
+  "citations": 180,
+  "ss_title": "Virtual hierarchies to support server consolidation",
+  "ss_year": 2007,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2008::Parallelism-Aware Batch Scheduling: Enabling High-Performance and Fair Shared Me": {
+  "dblp_key": "conf/isca/MutluM08",
+  "conf_venue": "ISCA",
+  "conf_title": "Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems",
+  "title_score": 0.78125,
+  "citations": 593,
+  "ss_title": "Parallelism-Aware Batch Scheduling: Enhancing both Performance and Fairness of Shared DRAM Systems",
+  "ss_year": 2008,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2008::Server Designs for Warehouse-Computing Environments": {
+  "dblp_key": "conf/isca/LimRCPMR08",
+  "conf_venue": "ISCA",
+  "conf_title": "Understanding and Designing New Server Architectures for Emerging Warehouse-Computing Environments",
+  "title_score": 0.6174496644295302,
+  "citations": 239,
+  "ss_title": "Understanding and Designing New Server Architectures for Emerging Warehouse-Computing Environments",
+  "ss_year": 2008,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2008::Using Intradisk Parallelism to Build Energy-Efficient Storage Systems": {
+  "dblp_key": "conf/isca/SankarGS08",
+  "conf_venue": "ISCA",
+  "conf_title": "Intra-disk Parallelism: An Idea Whose Time Has Come",
+  "title_score": 0.47058823529411764,
+  "citations": 30,
+  "ss_title": "Intra-disk Parallelism: An Idea Whose Time Has Come",
+  "ss_year": 2008,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2008::Flexible Hardware Acceleration for Instruction-Grain Lifeguards": {
+  "dblp_key": "conf/isca/ChenKSFGMRRRV08",
+  "conf_venue": "ISCA",
+  "conf_title": "Flexible Hardware Acceleration for Instruction-Grain Program Monitoring",
+  "title_score": 0.8208955223880597,
+  "citations": 149,
+  "ss_title": "Flexible Hardware Acceleration for Instruction-Grain Program Monitoring",
+  "ss_year": 2008,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2008::Atom-Aid: Detecting and Surviving Atomicity Violations": {
+  "dblp_key": "conf/isca/LuciaDSC08",
+  "conf_venue": "ISCA",
+  "conf_title": "Atom-Aid: Detecting and Surviving Atomicity Violations",
+  "title_score": 1.0,
+  "citations": 156,
+  "ss_title": "Atom-Aid: Detecting and Surviving Atomicity Violations",
+  "ss_year": 2008,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2008::SoftSig: Software-Exposed Hardware Signatures for Code Analysis and Optimization": {
+  "dblp_key": "conf/asplos/TuckACT08",
+  "conf_venue": "ASPLOS",
+  "conf_title": "SoftSig: software-exposed hardware signatures for code analysis and optimization",
+  "title_score": 1.0,
+  "citations": 32,
+  "ss_title": "SoftSig: Software-Exposed Hardware Signatures for Code Analysis and Optimization",
+  "ss_year": 2008,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2008::Trading Off Cache Capacity for Low-Voltage Operation": {
+  "dblp_key": "conf/isca/WilkersonGACKL08",
+  "conf_venue": "ISCA",
+  "conf_title": "Trading off Cache Capacity for Reliability to Enable Low Voltage Operation",
+  "title_score": 0.8095238095238095,
+  "citations": 287,
+  "ss_title": "Trading off Cache Capacity for Reliability to Enable Low Voltage Operation",
+  "ss_year": 2008,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2008::Mixed-Signal Approximate Computation: A Neural Predictor Case Study": {
+  "dblp_key": "conf/micro/AmantJB08",
+  "conf_venue": "MICRO",
+  "conf_title": "Low-power, high-performance analog neural branch prediction",
+  "title_score": 0.368,
+  "citations": 53,
+  "ss_title": "Low-power, high-performance analog neural branch prediction",
+  "ss_year": 2008,
+  "ss_venue": "2008 41st IEEE/ACM International Symposium on Microarchitecture"
+ },
+ "ISCA 2008::Revival: A Variation-Tolerant Architecture Using Voltage Interpolation and Varia": {
+  "dblp_key": "conf/isca/LiangWB08",
+  "conf_venue": "ISCA",
+  "conf_title": "ReVIVaL: A Variation-Tolerant Architecture Using Voltage Interpolation and Variable Latency",
+  "title_score": 1.0,
+  "citations": 105,
+  "ss_title": "ReVIVaL: A Variation-Tolerant Architecture Using Voltage Interpolation and Variable Latency",
+  "ss_year": 2008,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2009::iCFP: Tolerating All-Level Cache Misses in In-Order Processors": {
+  "dblp_key": "conf/hpca/HiltonNR09",
+  "conf_venue": "HPCA",
+  "conf_title": "iCFP: Tolerating all-level cache misses in in-order processors",
+  "title_score": 1.0,
+  "citations": 53,
+  "ss_title": "iCFP: Tolerating all-level cache misses in in-order processors",
+  "ss_year": 2009,
+  "ss_venue": "2009 IEEE 15th International Symposium on High Performance Computer Architecture"
+ },
+ "ISCA 2009::Near-Optimal Cache Block Placement with Reactive Nonuniform Cache Architectures": {
+  "dblp_key": "conf/isca/HardavellasFFA09",
+  "conf_venue": "ISCA",
+  "conf_title": "Reactive NUCA: near-optimal block placement and replication in distributed caches",
+  "title_score": 0.5660377358490566,
+  "citations": 380,
+  "ss_title": "Reactive NUCA: near-optimal block placement and replication in distributed caches",
+  "ss_year": 2009,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2009::A Task-Centric Memory Model for Scalable Accelerator Architectures": {
+  "dblp_key": "conf/isca/KelmJJCTMLFP09",
+  "conf_venue": "ISCA",
+  "conf_title": "Rigel: an architecture and scalable programming interface for a 1000-core accelerator",
+  "title_score": 0.36,
+  "citations": 162,
+  "ss_title": "Rigel: an architecture and scalable programming interface for a 1000-core accelerator",
+  "ss_year": 2009,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2009::DMP: Deterministic Shared-Memory Multiprocessing": {
+  "dblp_key": "conf/asplos/DeviettiLCO09",
+  "conf_venue": "ASPLOS",
+  "conf_title": "DMP: deterministic shared memory multiprocessing",
+  "title_score": 0.9787234042553191,
+  "citations": 349,
+  "ss_title": "DMP: deterministic shared memory multiprocessing",
+  "ss_year": 2009,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2009::Making Address-Correlated Prefetching Practical": {
+  "dblp_key": "conf/isca/LimCMRRW09",
+  "conf_venue": "ISCA",
+  "conf_title": "Disaggregated memory for expansion and sharing in blade servers",
+  "title_score": 0.2909090909090909,
+  "citations": 497,
+  "ss_title": "Disaggregated memory for expansion and sharing in blade servers",
+  "ss_year": 2009,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2009::Per-Thread Cycle Accounting": {
+  "dblp_key": "conf/asplos/EyermanE09",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Per-thread cycle accounting in SMT processors",
+  "title_score": 0.75,
+  "citations": 69,
+  "ss_title": "Per-thread cycle accounting in SMT processors",
+  "ss_year": 2009,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2009::AnySP: Anytime Anywhere Anyway Signal Processing": {
+  "dblp_key": "conf/isca/WohSMMCF09",
+  "conf_venue": "ISCA",
+  "conf_title": "AnySP: anytime anywhere anyway signal processing",
+  "title_score": 1.0,
+  "citations": 146,
+  "ss_title": "AnySP: Anytime Anywhere Anyway Signal Processing",
+  "ss_year": 2009,
+  "ss_venue": "IEEE Micro"
+ },
+ "MICRO 2009::Gate-Level Information-Flow Tracking for Secure Architectures": {
+  "dblp_key": "conf/asplos/TiwariWMMCS09",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Complete information flow tracking from the gates up",
+  "title_score": 0.6548672566371682,
+  "citations": 264,
+  "ss_title": "Complete information flow tracking from the gates up",
+  "ss_year": 2009,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2009::Predicting Voltage Droops Using Recurring Program and Microarchitectural Event A": {
+  "dblp_key": "conf/hpca/ReddiGHWSB09",
+  "conf_venue": "HPCA",
+  "conf_title": "Voltage emergency prediction: Using signatures to reduce operating margins",
+  "title_score": 0.3625,
+  "citations": 109,
+  "ss_title": "Voltage emergency prediction: Using signatures to reduce operating margins",
+  "ss_year": 2009,
+  "ss_venue": "2009 IEEE 15th International Symposium on High Performance Computer Architecture"
+ },
+ "ASPLOS 2009::Architectural Implications of Nanoscale-Integrated Sensing and Computing": {
+  "dblp_key": "conf/asplos/PistolDL09",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Architectural implications of nanoscale integrated sensing and computing",
+  "title_score": 0.9861111111111112,
+  "citations": 22,
+  "ss_title": "Architectural Implications of Nanoscale-Integrated Sensing and Computing",
+  "ss_year": 2009,
+  "ss_venue": "IEEE Micro"
+ },
+ "ASPLOS 2009::Gordon: An Improved Architecture for Data-Intensive Applications": {
+  "dblp_key": "conf/asplos/CaulfieldGS09",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Gordon: using flash memory to build fast, power-efficient clusters for data-intensive applications",
+  "title_score": 0.6375,
+  "citations": 276,
+  "ss_title": "Gordon: using flash memory to build fast, power-efficient clusters for data-intensive applications",
+  "ss_year": 2009,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2009::Phase-Change Technology and the Future of Main Memory": {
+  "dblp_key": "conf/isca/LeeIMB09",
+  "conf_venue": "ISCA",
+  "conf_title": "Architecting phase change memory as a scalable dram alternative",
+  "title_score": 0.3103448275862069,
+  "citations": 1522,
+  "ss_title": "Architecting phase change memory as a scalable dram alternative",
+  "ss_year": 2009,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2010::Virtualized ECC: Flexible Reliability in Main Memory": {
+  "dblp_key": "conf/asplos/YoonE10",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Virtualized and flexible ECC for main memory",
+  "title_score": 0.7368421052631579,
+  "citations": 145,
+  "ss_title": "Virtualized and flexible ECC for main memory",
+  "ss_year": 2010,
+  "ss_venue": "ASPLOS XV"
+ },
+ "MICRO 2010::Voltage Noise in Production Processors": {
+  "dblp_key": "conf/micro/ReddiKKCSWB10",
+  "conf_venue": "MICRO",
+  "conf_title": "Voltage Smoothing: Characterizing and Mitigating Voltage Noise in Production Processors via Software-Guided Thread Scheduling",
+  "title_score": 0.4691358024691358,
+  "citations": 95,
+  "ss_title": "Voltage Smoothing: Characterizing and Mitigating Voltage Noise in Production Processors via Software-Guided Thread Scheduling",
+  "ss_year": 2010,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2010::Aergia: A Network-on-Chip Exploiting Packet Latency Slack": {
+  "dblp_key": "conf/isca/DasMMD10",
+  "conf_venue": "ISCA",
+  "conf_title": "Aérgia: exploiting packet latency slack in on-chip networks",
+  "title_score": 0.6491228070175439,
+  "citations": 148,
+  "ss_title": "Aérgia: exploiting packet latency slack in on-chip networks",
+  "ss_year": 2010,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2010::Cohesion: An Adaptive Hybrid Memory Model for Accelerators": {
+  "dblp_key": "conf/isca/KelmJTLP10",
+  "conf_venue": "ISCA",
+  "conf_title": "Cohesion: a hybrid memory model for accelerators",
+  "title_score": 0.9038461538461539,
+  "citations": 53,
+  "ss_title": "Cohesion: a hybrid memory model for accelerators",
+  "ss_year": 2010,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2010::ReMAP: A Reconfigurable Architecture for Chip Multiprocessors": {
+  "dblp_key": "conf/micro/WatkinsA10",
+  "conf_venue": "MICRO",
+  "conf_title": "ReMAP: A Reconfigurable Heterogeneous Multicore Architecture",
+  "title_score": 0.5882352941176471,
+  "citations": 65,
+  "ss_title": "ReMAP: A Reconfigurable Heterogeneous Multicore Architecture",
+  "ss_year": 2010,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2010::Thread Cluster Memory Scheduling": {
+  "dblp_key": "conf/micro/KimPMH10",
+  "conf_venue": "MICRO",
+  "conf_title": "Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior",
+  "title_score": 0.5663716814159292,
+  "citations": 438,
+  "ss_title": "Thread Cluster Memory Scheduling: Exploiting Differences in Memory Access Behavior",
+  "ss_year": 2010,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2010::Coordinating DRAM and Last-Level-Cache Policies with the Virtual Write Queue": {
+  "dblp_key": "conf/isca/StuecheliKDHJ10",
+  "conf_venue": "ISCA",
+  "conf_title": "The virtual write queue: coordinating DRAM and last-level cache policies",
+  "title_score": 0.6258503401360545,
+  "citations": 141,
+  "ss_title": "The virtual write queue: coordinating DRAM and last-level cache policies",
+  "ss_year": 2010,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2010::CHOP: Integrating DRAM Caches for CMP Server Platforms": {
+  "dblp_key": "conf/hpca/JiangMZUIMNSB10",
+  "conf_venue": "HPCA",
+  "conf_title": "CHOP: Adaptive filter-based DRAM caching for CMP server platforms",
+  "title_score": 0.7692307692307693,
+  "citations": 5,
+  "ss_title": "CHOP: Adaptive filter-based DRAM caching for CMP server platforms",
+  "ss_year": 2010,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ASPLOS 2010::Address Translation Aware Memory Consistency": {
+  "dblp_key": "conf/asplos/RomanescuLS10",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Specifying and dynamically verifying address translation-aware memory consistency",
+  "title_score": 0.688,
+  "citations": 27,
+  "ss_title": "Specifying and dynamically verifying address translation-aware memory consistency",
+  "ss_year": 2010,
+  "ss_venue": "ASPLOS XV"
+ },
+ "ISCA 2010::Security Refresh: Protecting Phase-Change Memory against Malicious Wear Out": {
+  "dblp_key": "conf/isca/SeongWL10",
+  "conf_venue": "ISCA",
+  "conf_title": "Security refresh: prevent malicious wear-out and increase durability for phase-change memory with dynamically randomized address mapping",
+  "title_score": 0.49760765550239233,
+  "citations": 261,
+  "ss_title": "Security refresh: prevent malicious wear-out and increase durability for phase-change memory with dynamically randomized address mapping",
+  "ss_year": 2010,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2011::Kilo TM: Hardware Transactional Memory for GPU Architectures": {
+  "dblp_key": "conf/micro/FungSBA11",
+  "conf_venue": "MICRO",
+  "conf_title": "Hardware transactional memory for GPU architectures",
+  "title_score": 0.9272727272727272,
+  "citations": 108,
+  "ss_title": "Hardware transactional memory for GPU architectures",
+  "ss_year": 2011,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2011::A QoS-Enabled On-Die Interconnect Fabric for Kilo-Node Chips": {
+  "dblp_key": "conf/isca/EbrahimiLMP11",
+  "conf_venue": "ISCA",
+  "conf_title": "Prefetch-aware shared resource management for multi-core systems",
+  "title_score": 0.3548387096774194,
+  "citations": 167,
+  "ss_title": "Prefetch-aware shared-resource management for multi-core systems",
+  "ss_year": 2011,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2011::FabScalar: Automating Superscalar Core Design": {
+  "dblp_key": "conf/isca/ChoudharyWSMGDNNR11",
+  "conf_venue": "ISCA",
+  "conf_title": "FabScalar: composing synthesizable RTL designs of arbitrary cores within a canonical superscalar template",
+  "title_score": 0.40540540540540543,
+  "citations": 126,
+  "ss_title": "FabScalar: Composing synthesizable RTL designs of arbitrary cores within a canonical superscalar template",
+  "ss_year": 2011,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2011::Active Low-Power Modes for Main Memory with MemScale": {
+  "dblp_key": "conf/asplos/DengMRWB11",
+  "conf_venue": "ASPLOS",
+  "conf_title": "MemScale: active low-power modes for main memory",
+  "title_score": 0.7676767676767676,
+  "citations": 277,
+  "ss_title": "MemScale: active low-power modes for main memory",
+  "ss_year": 2011,
+  "ss_venue": "ASPLOS XVI"
+ },
+ "ISCA 2011::Supporting Very Large DRAM Caches with Compound-Access Scheduling and MissMap": {
+  "dblp_key": "conf/micro/HaySSLB11",
+  "conf_venue": "MICRO",
+  "conf_title": "Preventing PCM banks from seizing too much power",
+  "title_score": 0.384,
+  "citations": 81,
+  "ss_title": "Preventing PCM banks from seizing too much power",
+  "ss_year": 2011,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2011::Free-p: A Practical End-to-End Nonvolatile Memory Protection Mechanism": {
+  "dblp_key": "conf/hpca/YoonMCRJE11",
+  "conf_venue": "HPCA",
+  "conf_title": "FREE-p: Protecting non-volatile memory against both hard and soft errors",
+  "title_score": 0.5142857142857142,
+  "citations": 189,
+  "ss_title": "FREE-p: Protecting non-volatile memory against both hard and soft errors",
+  "ss_year": 2011,
+  "ss_venue": "2011 IEEE 17th International Symposium on High Performance Computer Architecture"
+ },
+ "MICRO 2011::Increasing Utilization in Modern Warehouse-Scale Computers Using Bubble-Up": {
+  "dblp_key": "conf/micro/MarsTHSS11",
+  "conf_venue": "MICRO",
+  "conf_title": "Bubble-Up: increasing utilization in modern warehouse scale computers via sensible co-locations",
+  "title_score": 0.7619047619047619,
+  "citations": 641,
+  "ss_title": "Bubble-up: Increasing utilization in modern warehouse scale computers via sensible co-locations",
+  "ss_year": 2011,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2011::Optical High Radix Switch Design": {
+  "dblp_key": "conf/isca/BinkertDJMMSA11",
+  "conf_venue": "ISCA",
+  "conf_title": "The role of optics in future high radix switch design",
+  "title_score": 0.7058823529411765,
+  "citations": 88,
+  "ss_title": "The role of optics in future high radix switch design",
+  "ss_year": 2011,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2011::What is Happening to Power, Performance, and Software?": {
+  "dblp_key": "conf/asplos/EsmaeilzadehCXBM11",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Looking back on the language and hardware revolutions: measured power, performance, and scaling",
+  "title_score": 0.44594594594594594,
+  "citations": 92,
+  "ss_title": "Looking back on the language and hardware revolutions: measured power, performance, and scaling",
+  "ss_year": 2011,
+  "ss_venue": "ASPLOS XVI"
+ },
+ "ISCA 2011::Dark Silicon and the End of Multicore Scaling": {
+  "dblp_key": "conf/isca/EsmaeilzadehBASB11",
+  "conf_venue": "ISCA",
+  "conf_title": "Dark silicon and the end of multicore scaling",
+  "title_score": 1.0,
+  "citations": 2166,
+  "ss_title": "Dark silicon and the end of multicore scaling",
+  "ss_year": 2011,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2012::Designing for Responsiveness with Computational Sprinting": {
+  "dblp_key": "conf/hpca/RaghavanLCPPWM12",
+  "conf_venue": "HPCA",
+  "conf_title": "Computational sprinting",
+  "title_score": 0.575,
+  "citations": 34,
+  "ss_title": "Model-driven computational sprinting",
+  "ss_year": 2018,
+  "ss_venue": "European Conference on Computer Systems"
+ },
+ "MICRO 2012::Neural Acceleration for General-Purpose Approximate Programs": {
+  "dblp_key": "conf/micro/EsmaeilzadehSCB12",
+  "conf_venue": "MICRO",
+  "conf_title": "Neural Acceleration for General-Purpose Approximate Programs",
+  "title_score": 1.0,
+  "citations": 601,
+  "ss_title": "Neural Acceleration for General-Purpose Approximate Programs",
+  "ss_year": 2012,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2012::Scaling the Energy Proportionality Wall with KnightShift": {
+  "dblp_key": "conf/micro/0001A12",
+  "conf_venue": "MICRO",
+  "conf_title": "KnightShift: Scaling the Energy Proportionality Wall through Server-Level Heterogeneity",
+  "title_score": 0.5915492957746479,
+  "citations": 102,
+  "ss_title": "KnightShift: Scaling the Energy Proportionality Wall through Server-Level Heterogeneity",
+  "ss_year": 2012,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2012::Hardware-Enforced Comprehensive Memory Safety": {
+  "dblp_key": "conf/isca/NagarakatteMZ12",
+  "conf_venue": "ISCA",
+  "conf_title": "Watchdog: Hardware for safe and secure manual memory management and full memory safety",
+  "title_score": 0.5076923076923077,
+  "citations": 137,
+  "ss_title": "Watchdog: Hardware for safe and secure manual memory management and full memory safety",
+  "ss_year": 2012,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2012::Inspection-Resistant Memory Architectures": {
+  "dblp_key": "conf/isca/ValamehrCKPSVS12",
+  "conf_venue": "ISCA",
+  "conf_title": "Inspection resistant memory: Architectural support for security from physical examination",
+  "title_score": 0.6201550387596899,
+  "citations": 24,
+  "ss_title": "Inspection resistant memory: Architectural support for security from physical examination",
+  "ss_year": 2012,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2012::Relyzer: Application Resiliency Analyzer for Transient Faults": {
+  "dblp_key": "conf/asplos/HariANR12",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Relyzer: exploiting application-level fault equivalence to analyze application resiliency to transient faults",
+  "title_score": 0.5833333333333334,
+  "citations": 187,
+  "ss_title": "Relyzer: exploiting application-level fault equivalence to analyze application resiliency to transient faults",
+  "ss_year": 2012,
+  "ss_venue": "ASPLOS XVII"
+ },
+ "ISCA 2012::A Quantitative, Experimental Approach to Measuring Processor Side-Channel Securi": {
+  "dblp_key": "conf/isca/MartinDS12",
+  "conf_venue": "ISCA",
+  "conf_title": "TimeWarp: Rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks",
+  "title_score": 0.3695652173913043,
+  "citations": 207,
+  "ss_title": "TimeWarp: Rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks",
+  "ss_year": 2012,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2012::Cache-Conscious Thread Scheduling for Massively Multithreaded Processors": {
+  "dblp_key": "conf/micro/RogersOA12",
+  "conf_venue": "MICRO",
+  "conf_title": "Cache-Conscious Wavefront Scheduling",
+  "title_score": 0.5185185185185185,
+  "citations": 417,
+  "ss_title": "Cache-Conscious Wavefront Scheduling",
+  "ss_year": 2012,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2012::Parallel Block Vectors: Collection, Analysis, and Uses": {
+  "dblp_key": "conf/isca/KambadurTK12",
+  "conf_venue": "ISCA",
+  "conf_title": "Harmony: Collection and analysis of parallel block vectors",
+  "title_score": 0.4,
+  "citations": 36,
+  "ss_title": "Harmony: Collection and analysis of parallel block vectors",
+  "ss_year": 2012,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2012::Programmable DDRx Controllers": {
+  "dblp_key": "conf/isca/BojnordiI12",
+  "conf_venue": "ISCA",
+  "conf_title": "PARDIS: A programmable memory controller for the DDRx interfacing standards",
+  "title_score": 0.5048543689320388,
+  "citations": 72,
+  "ss_title": "PARDIS: A programmable memory controller for the DDRx interfacing standards",
+  "ss_year": 2012,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2013::Designing and Managing Data Centers Powered by Renewable Energy": {
+  "dblp_key": "conf/asplos/GoiriKLNB13",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Parasol and GreenSwitch: managing datacenters powered by renewable energy",
+  "title_score": 0.8,
+  "citations": 299,
+  "ss_title": "Parasol and GreenSwitch: managing datacenters powered by renewable energy",
+  "ss_year": 2013,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2013::Quality-of-Service-Aware Scheduling in Heterogeneous Datacenters with Paragon": {
+  "dblp_key": "conf/asplos/DelimitrouK13",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Paragon: QoS-aware scheduling for heterogeneous datacenters",
+  "title_score": 0.6962962962962963,
+  "citations": 843,
+  "ss_title": "Paragon: QoS-aware scheduling for heterogeneous datacenters",
+  "ss_year": 2013,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2013::Cache Coherence for GPU Architectures": {
+  "dblp_key": "conf/hpca/SinghSFOA13",
+  "conf_venue": "HPCA",
+  "conf_title": "Cache coherence for GPU architectures",
+  "title_score": 1.0,
+  "citations": 160,
+  "ss_title": "Cache coherence for GPU architectures",
+  "ss_year": 2013,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2013::A Configurable and Strong RAS Solution for Die-Stacked DRAM Caches": {
+  "dblp_key": "conf/isca/SimLSO13",
+  "conf_venue": "ISCA",
+  "conf_title": "Resilient die-stacked DRAM caches",
+  "title_score": 0.5252525252525253,
+  "citations": 50,
+  "ss_title": "Resilient die-stacked DRAM caches",
+  "ss_year": 2013,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2013::Decoupled Compressed Cache: Exploiting Spatial Locality for Energy Optimization": {
+  "dblp_key": "conf/micro/SardashtiW13",
+  "conf_venue": "MICRO",
+  "conf_title": "Decoupled compressed cache: exploiting spatial locality for energy-optimized compressed caching",
+  "title_score": 0.872093023255814,
+  "citations": 88,
+  "ss_title": "Decoupled compressed cache: Exploiting spatial locality for energy-optimized compressed caching",
+  "ss_year": 2013,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2013::Sonic Millip3De: An Architecture for Handheld 3D Ultrasound": {
+  "dblp_key": "conf/hpca/SampsonYWCW13",
+  "conf_venue": "HPCA",
+  "conf_title": "Sonic Millip3De: A massively parallel 3D-stacked accelerator for 3D ultrasound",
+  "title_score": 0.5925925925925926,
+  "citations": 52,
+  "ss_title": "Sonic Millip3De: A massively parallel 3D-stacked accelerator for 3D ultrasound",
+  "ss_year": 2013,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2013::Hardware Partitioning for Big Data Analytics": {
+  "dblp_key": "conf/isca/WuBKR13",
+  "conf_venue": "ISCA",
+  "conf_title": "Navigating big data with high-throughput, energy-efficient data partitioning",
+  "title_score": 0.26666666666666666,
+  "citations": 101,
+  "ss_title": "Navigating big data with high-throughput, energy-efficient data partitioning",
+  "ss_year": 2013,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2013::Efficient Spatial Processing Element Control via Triggered Instructions": {
+  "dblp_key": "conf/isca/ParasharPAACLPZGJARME13",
+  "conf_venue": "ISCA",
+  "conf_title": "Triggered instructions: a control paradigm for spatially-programmed architectures",
+  "title_score": 0.2913907284768212,
+  "citations": 135,
+  "ss_title": "Triggered instructions: a control paradigm for spatially-programmed architectures",
+  "ss_year": 2013,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2013::DeNovoND: Efficient Hardware for Disciplined Nondeterminism": {
+  "dblp_key": "conf/asplos/SungKA13",
+  "conf_venue": "ASPLOS",
+  "conf_title": "DeNovoND: efficient hardware support for disciplined non-determinism",
+  "title_score": 0.928,
+  "citations": 58,
+  "ss_title": "DeNovoND: efficient hardware support for disciplined non-determinism",
+  "ss_year": 2013,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2014::A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services": {
+  "dblp_key": "conf/isca/PutnamCCCCDEFGGHHHHKLLPPSTXB14",
+  "conf_venue": "ISCA",
+  "conf_title": "A reconfigurable fabric for accelerating large-scale datacenter services",
+  "title_score": 1.0,
+  "citations": 1223,
+  "ss_title": "A reconfigurable fabric for accelerating large-scale datacenter services",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2014::A High-Throughput Neural Network Accelerator": {
+  "dblp_key": "conf/asplos/ChenDSWWCT14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning",
+  "title_score": 0.4496124031007752,
+  "citations": 1635,
+  "ss_title": "DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2014::The Q100 Database Processing Unit": {
+  "dblp_key": "conf/asplos/WuLPKR14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Q100: the architecture and design of a database processing unit",
+  "title_score": 0.6105263157894737,
+  "citations": 188,
+  "ss_title": "Q100: the architecture and design of a database processing unit",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2014::Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation": {
+  "dblp_key": "conf/isca/MadhavanSS14",
+  "conf_venue": "ISCA",
+  "conf_title": "Race Logic: A hardware acceleration for dynamic programming algorithms",
+  "title_score": 0.4507042253521127,
+  "citations": 97,
+  "ss_title": "Race Logic: A hardware acceleration for dynamic programming algorithms",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2014::The Aladdin Approach to Accelerator Design and Modeling": {
+  "dblp_key": "conf/isca/ShaoRWB14",
+  "conf_venue": "ISCA",
+  "conf_title": "Aladdin: A pre-RTL, power-performance accelerator simulator enabling large design space exploration of customized architectures",
+  "title_score": 0.430939226519337,
+  "citations": 181,
+  "ss_title": "RETROSPECTIVE: Aladdin: a Pre-RTL, Power-Performance Accelerator Simulator Enabling Large Design Space Exploration of Customized Architectures",
+  "ss_year": 2023,
+  "ss_venue": ""
+ },
+ "MICRO 2014::Verifying Correct Microarchitectural Enforcement of Memory Consistency Models": {
+  "dblp_key": "conf/micro/LustigPM14",
+  "conf_venue": "MICRO",
+  "conf_title": "Pipe Check: Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models",
+  "title_score": 0.8023255813953488,
+  "citations": 71,
+  "ss_title": "PipeCheck: Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models",
+  "ss_year": 2014,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2014::Sharing Incentives and Fair Division for Multiprocessors": {
+  "dblp_key": "conf/asplos/ZahediL14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "REF: resource elasticity fairness with sharing incentives for multiprocessors",
+  "title_score": 0.5757575757575758,
+  "citations": 102,
+  "ss_title": "REF: resource elasticity fairness with sharing incentives for multiprocessors",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2014::Address Translation for Throughput-Oriented Accelerators": {
+  "dblp_key": "conf/asplos/PichaiHB14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Architectural support for address translation on GPUs: designing memory management units for CPU/GPUs with unified address spaces",
+  "title_score": 0.3804347826086957,
+  "citations": 170,
+  "ss_title": "Architectural support for address translation on GPUs: designing memory management units for CPU/GPUs with unified address spaces",
+  "ss_year": 2013,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2014::EOLE: Toward a Practical Implementation of Value Prediction": {
+  "dblp_key": "conf/isca/PeraisS14",
+  "conf_venue": "ISCA",
+  "conf_title": "EOLE: Paving the way for an effective implementation of value prediction",
+  "title_score": 0.7751937984496124,
+  "citations": 57,
+  "ss_title": "EOLE: Paving the way for an effective implementation of value prediction",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2014::Memory Persistency: Semantics for Byte-Addressable Nonvolatile Memory Technologi": {
+  "dblp_key": "conf/isca/PelleyCW14",
+  "conf_venue": "ISCA",
+  "conf_title": "Memory persistency",
+  "title_score": 0.36363636363636365,
+  "citations": 3,
+  "ss_title": "Challenges in Empirically Testing Memory Persistency Models",
+  "ss_year": 2024,
+  "ss_venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)"
+ },
+ "ASPLOS 2014::Uncertain<T>: Abstractions for Uncertain Hardware and Software": {
+  "dblp_key": "conf/asplos/BornholtMM14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Uncertain: a first-order type for uncertain data",
+  "title_score": 0.5925925925925926,
+  "citations": 103,
+  "ss_title": "Uncertain: a first-order type for uncertain data",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2014::NoC Architecture for Silicon Interposer Systems": {
+  "dblp_key": "conf/micro/JergerKLL14",
+  "conf_venue": "MICRO",
+  "conf_title": "NoC Architectures for Silicon Interposer Systems: Why Pay for more Wires when you Can Get them (from your interposer) for Free?",
+  "title_score": 0.5433526011560693,
+  "citations": 97,
+  "ss_title": "NoC Architectures for Silicon Interposer Systems: Why Pay for more Wires when you Can Get them (from your interposer) for Free?",
+  "ss_year": 2014,
+  "ss_venue": "Micro"
+ },
+ "HPCA 2014::Tangle: Route-Oriented Dynamic Voltage Minimization for Variation-Afflicted, Ene": {
+  "dblp_key": "conf/hpca/AnsariMXT14",
+  "conf_venue": "HPCA",
+  "conf_title": "Tangle: Route-oriented dynamic voltage minimization for variation-afflicted, energy-efficient on-chip networks",
+  "title_score": 1.0,
+  "citations": 30,
+  "ss_title": "Tangle: Route-oriented dynamic voltage minimization for variation-afflicted, energy-efficient on-chip networks",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2014::Avoiding Core's DUE & SDC via Acoustic Wave Detectors and Tailored Error Contain": {
+  "dblp_key": "conf/isca/UpasaniVG14",
+  "conf_venue": "ISCA",
+  "conf_title": "Avoiding core&apos;s DUE &amp; SDC via acoustic wave detectors and tailored error containment and recovery",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2014::Efficient Memory Virtualization": {
+  "dblp_key": "conf/micro/GandhiBHS14",
+  "conf_venue": "MICRO",
+  "conf_title": "Efficient Memory Virtualization: Reducing Dimensionality of Nested Page Walks",
+  "title_score": 0.5794392523364486,
+  "citations": 105,
+  "ss_title": "Efficient Memory Virtualization: Reducing Dimensionality of Nested Page Walks",
+  "ss_year": 2014,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2014::The CHERI Capability Model: Revisiting RISC in an Age of Risk": {
+  "dblp_key": "conf/isca/WoodruffWCMADLNNR14",
+  "conf_venue": "ISCA",
+  "conf_title": "The CHERI capability model: Revisiting RISC in an age of risk",
+  "title_score": 1.0,
+  "citations": 393,
+  "ss_title": "The CHERI capability model: Revisiting RISC in an age of risk",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2014::Heterogeneous-Race-Free Memory Models": {
+  "dblp_key": "conf/asplos/HowerHBGHRW14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Heterogeneous-race-free memory models",
+  "title_score": 1.0,
+  "citations": 110,
+  "ss_title": "Heterogeneous-race-free memory models",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2014::High-Performance Fractal Coherence": {
+  "dblp_key": "conf/asplos/VoskuilenV14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "High-performance fractal coherence",
+  "title_score": 1.0,
+  "citations": 9,
+  "ss_title": "High-performance fractal coherence",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2014::ASC: Automatically Scalable Computation": {
+  "dblp_key": "conf/asplos/WaterlandAAAS14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "ASC: automatically scalable computation",
+  "title_score": 1.0,
+  "citations": 14,
+  "ss_title": "ASC: automatically scalable computation",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2014::HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Ir": {
+  "dblp_key": "conf/isca/CampanoniBKJWB14",
+  "conf_venue": "ISCA",
+  "conf_title": "HELIX-RC: An architecture-compiler co-design for automatic parallelization of irregular programs",
+  "title_score": 1.0,
+  "citations": 53,
+  "ss_title": "HELIX-RC: An architecture-compiler co-design for automatic parallelization of irregular programs",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2014::Sandbox Prefetching: Safe, Run-Time Evaluation of Aggressive Prefetchers": {
+  "dblp_key": "conf/hpca/PugsleyCWCSJLCB14",
+  "conf_venue": "HPCA",
+  "conf_title": "Sandbox Prefetching: Safe run-time evaluation of aggressive prefetchers",
+  "title_score": 0.9929078014184397,
+  "citations": 133,
+  "ss_title": "Sandbox Prefetching: Safe run-time evaluation of aggressive prefetchers",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ASPLOS 2014::Data-Parallel Finite-State Machines": {
+  "dblp_key": "conf/asplos/MytkowiczMS14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Data-parallel finite-state machines",
+  "title_score": 1.0,
+  "citations": 93,
+  "ss_title": "Data-parallel finite-state machines",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2014::Sapper: A Language for Hardware-Level Security Policy Enforcement": {
+  "dblp_key": "conf/asplos/0001KOTRKSHC14",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Sapper: a language for hardware-level security policy enforcement",
+  "title_score": 1.0,
+  "citations": 131,
+  "ss_title": "Sapper: a language for hardware-level security policy enforcement",
+  "ss_year": 2014,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2015::Practical Multidimensional Branch Prediction": {
+  "dblp_key": "conf/micro/SeznecMA15",
+  "conf_venue": "MICRO",
+  "conf_title": "The inner most loop iteration counter: a new dimension in branch history",
+  "title_score": 0.45217391304347826,
+  "citations": 29,
+  "ss_title": "The inner most loop iteration counter: A new dimension in branch history",
+  "ss_year": 2015,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2015::A Heterogeneous Von Neumann/Explicit Dataflow Processor": {
+  "dblp_key": "conf/isca/NowatzkiGS15",
+  "conf_venue": "ISCA",
+  "conf_title": "Exploring the potential of heterogeneous von neumann/dataflow execution models",
+  "title_score": 0.6015037593984962,
+  "citations": 71,
+  "ss_title": "Exploring the potential of heterogeneous Von Neumann/dataflow execution models",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2015::Sirius Implications for Future Warehouse-Scale Computers": {
+  "dblp_key": "conf/isca/HauswaldKLCLMDM15",
+  "conf_venue": "ISCA",
+  "conf_title": "DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers",
+  "title_score": 0.726027397260274,
+  "citations": 174,
+  "ss_title": "DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2015::Profiling a Warehouse-Scale Computer": {
+  "dblp_key": "conf/isca/KanevDHRMWB15",
+  "conf_venue": "ISCA",
+  "conf_title": "Profiling a warehouse-scale computer",
+  "title_score": 1.0,
+  "citations": 498,
+  "ss_title": "Profiling a warehouse-scale computer",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2015::MBus: A System Integration Bus for the Modular Microscale Computing Class": {
+  "dblp_key": "conf/isca/PannutoLKFKKDBD15",
+  "conf_venue": "ISCA",
+  "conf_title": "MBus: an ultra-low power interconnect bus for next generation nanopower systems",
+  "title_score": 0.4533333333333333,
+  "citations": 18,
+  "ss_title": "MBus: An ultra-low power interconnect bus for next generation nanopower systems",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2015::Nonvolatile Processor Architectures: Efficient, Reliable Progress with Unstable ": {
+  "dblp_key": "conf/hpca/MaZLSLLS0N15",
+  "conf_venue": "HPCA",
+  "conf_title": "Architecture exploration for ambient energy harvesting nonvolatile processors",
+  "title_score": 0.2732919254658385,
+  "citations": 256,
+  "ss_title": "Architecture exploration for ambient energy harvesting nonvolatile processors",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2015::Exploiting Interposer Technologies to Disintegrate and Reintegrate Multicore Pro": {
+  "dblp_key": "conf/micro/KannanJL15",
+  "conf_venue": "MICRO",
+  "conf_title": "Enabling interposer-based disintegration of multi-core processors",
+  "title_score": 0.6710526315789473,
+  "citations": 180,
+  "ss_title": "Enabling interposer-based disintegration of multi-core processors",
+  "ss_year": 2015,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2015::Unlocking Ordered Parallelism with the Swarm Architecture": {
+  "dblp_key": "conf/micro/JeffreySYES15",
+  "conf_venue": "MICRO",
+  "conf_title": "A scalable architecture for ordered parallelism",
+  "title_score": 0.4230769230769231,
+  "citations": 89,
+  "ss_title": "A scalable architecture for ordered parallelism",
+  "ss_year": 2015,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2015::Range Translations for Fast Virtual Memory": {
+  "dblp_key": "conf/isca/KarakostasGACHM15",
+  "conf_venue": "ISCA",
+  "conf_title": "Redundant memory mappings for fast access to large memories",
+  "title_score": 0.43564356435643564,
+  "citations": 174,
+  "ss_title": "Redundant Memory Mappings for fast access to large memories",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2015::Stash: Have Your Scratchpad and Cache It Too": {
+  "dblp_key": "conf/isca/KomuravelliSAHK15",
+  "conf_venue": "ISCA",
+  "conf_title": "Stash: have your scratchpad and cache it too",
+  "title_score": 1.0,
+  "citations": 75,
+  "ss_title": "Stash: Have your scratchpad and cache it too",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2015::Efficient GPU Synchronization without Scopes: Saying No to Complex Consistency M": {
+  "dblp_key": "conf/micro/SinclairAA15",
+  "conf_venue": "MICRO",
+  "conf_title": "Efficient GPU synchronization without scopes: saying no to complex consistency models",
+  "title_score": 1.0,
+  "citations": 74,
+  "ss_title": "Efficient GPU synchronization without scopes: Saying no to complex consistency models",
+  "ss_year": 2015,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2014::General-Purpose Code Acceleration with Limited-Precision Analog Computation": {
+  "dblp_key": "conf/isca/AmantYPTEHCB14",
+  "conf_venue": "ISCA",
+  "conf_title": "General-purpose code acceleration with limited-precision analog computation",
+  "title_score": 1.0,
+  "citations": 183,
+  "ss_title": "General-purpose code acceleration with limited-precision analog computation",
+  "ss_year": 2014,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2015::Microarchitectural Implications of Event-Driven Server-Side Web Applications": {
+  "dblp_key": "conf/micro/ZhuRHR15",
+  "conf_venue": "MICRO",
+  "conf_title": "Microarchitectural implications of event-driven server-side web applications",
+  "title_score": 1.0,
+  "citations": 51,
+  "ss_title": "Microarchitectural implications of event-driven server-side web applications",
+  "ss_year": 2015,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2015::A Scalable Processing-in-Memory Accelerator for Parallel Graph Processing": {
+  "dblp_key": "conf/isca/AhnHYMC15",
+  "conf_venue": "ISCA",
+  "conf_title": "A scalable processing-in-memory accelerator for parallel graph processing",
+  "title_score": 1.0,
+  "citations": 879,
+  "ss_title": "A scalable processing-in-memory accelerator for parallel graph processing",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2015::Cross-Architecture Performance Prediction (XAPP) Using CPU Code to Predict GPU P": {
+  "dblp_key": "conf/micro/ArdalaniLSZ15",
+  "conf_venue": "MICRO",
+  "conf_title": "Cross-architecture performance prediction (XAPP) using CPU code to predict GPU performance",
+  "title_score": 1.0,
+  "citations": 115,
+  "ss_title": "Cross-architecture performance prediction (XAPP) using CPU code to predict GPU performance",
+  "ss_year": 2015,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2015::DeSC: Decoupled Supply-Compute Communication Management for Heterogeneous Archit": {
+  "dblp_key": "conf/micro/HamAM15",
+  "conf_venue": "MICRO",
+  "conf_title": "DeSC: decoupled supply-compute communication management for heterogeneous architectures",
+  "title_score": 1.0,
+  "citations": 62,
+  "ss_title": "DeSC: Decoupled supply-compute communication management for heterogeneous architectures",
+  "ss_year": 2015,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2015::DEUCE: Write-Efficient Encryption for Non-Volatile Memories": {
+  "dblp_key": "conf/asplos/YoungNQ15",
+  "conf_venue": "ASPLOS",
+  "conf_title": "DEUCE: Write-Efficient Encryption for Non-Volatile Memories",
+  "title_score": 1.0,
+  "citations": 145,
+  "ss_title": "DEUCE: Write-Efficient Encryption for Non-Volatile Memories",
+  "ss_year": 2015,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2015::Rumba: An Online Quality Management System for Approximate Computing": {
+  "dblp_key": "conf/isca/KhudiaZSM15",
+  "conf_venue": "ISCA",
+  "conf_title": "Rumba: an online quality management system for approximate computing",
+  "title_score": 1.0,
+  "citations": 142,
+  "ss_title": "Rumba: An online quality management system for approximate computing",
+  "ss_year": 2015,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2016::The Memristive Boltzmann Machines": {
+  "dblp_key": "conf/hpca/BojnordiI16",
+  "conf_venue": "HPCA",
+  "conf_title": "Memristive Boltzmann machine: A hardware accelerator for combinatorial optimization and deep learning",
+  "title_score": 0.42105263157894735,
+  "citations": 196,
+  "ss_title": "Memristive Boltzmann machine: A hardware accelerator for combinatorial optimization and deep learning",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2016::Analog Computing in a Modern Context: A Linear Algebra Accelerator Case Study": {
+  "dblp_key": "conf/isca/HuangGSTS16",
+  "conf_venue": "ISCA",
+  "conf_title": "Evaluation of an Analog Accelerator for Linear Algebra",
+  "title_score": 0.4153846153846154,
+  "citations": 29,
+  "ss_title": "Evaluation of an Analog Accelerator for Linear Algebra",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2016::Domain Specialization Is Generally Unnecessary for Accelerators": {
+  "dblp_key": "conf/asplos/NowatzkiS16",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Analyzing Behavior Specialized Acceleration",
+  "title_score": 0.4716981132075472,
+  "citations": 16,
+  "ss_title": "Analyzing Behavior Specialized Acceleration",
+  "ss_year": 2016,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2016::Configurable Clouds": {
+  "dblp_key": "conf/micro/CaulfieldCPAFHH16",
+  "conf_venue": "MICRO",
+  "conf_title": "A cloud-scale acceleration architecture",
+  "title_score": 0.27586206896551724,
+  "citations": 599,
+  "ss_title": "A cloud-scale acceleration architecture",
+  "ss_year": 2016,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2016::Specializing a Planet's Computation: ASIC Clouds": {
+  "dblp_key": "conf/isca/MagakiKGT16",
+  "conf_venue": "ISCA",
+  "conf_title": "ASIC Clouds: Specializing the Datacenter",
+  "title_score": 0.3953488372093023,
+  "citations": 105,
+  "ss_title": "ASIC Clouds: Specializing the Datacenter",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2016::DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric": {
+  "dblp_key": "conf/isca/GaoDNMZBK16",
+  "conf_venue": "ISCA",
+  "conf_title": "DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric",
+  "title_score": 1.0,
+  "citations": 28,
+  "ss_title": "DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2016::Agile Paging for Efficient Memory Virtualization": {
+  "dblp_key": "conf/hpca/KarakostasGCHMN16",
+  "conf_venue": "HPCA",
+  "conf_title": "Energy-efficient address translation",
+  "title_score": 0.47619047619047616,
+  "citations": 59,
+  "ss_title": "Energy-efficient address translation",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "MICRO 2016::Transistency Models: Memory Ordering at the Hardware-OS Interface": {
+  "dblp_key": "conf/asplos/LustigSMB16",
+  "conf_venue": "ASPLOS",
+  "conf_title": "COATCheck: Verifying Memory Ordering at the Hardware-OS Interface",
+  "title_score": 0.75,
+  "citations": 64,
+  "ss_title": "COATCheck: Verifying Memory Ordering at the Hardware-OS Interface",
+  "ss_year": 2016,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2016::Toward a DNA-Based Archival Storage System": {
+  "dblp_key": "conf/asplos/BornholtLCCSS16",
+  "conf_venue": "ASPLOS",
+  "conf_title": "A DNA-Based Archival Storage System",
+  "title_score": 0.9090909090909091,
+  "citations": 456,
+  "ss_title": "A DNA-Based Archival Storage System",
+  "ss_year": 2016,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2016::T-states: Power Management in Active Timing Margin Processors": {
+  "dblp_key": "conf/micro/ZuHPR16",
+  "conf_venue": "MICRO",
+  "conf_title": "Ti-states: Processor power management in the temperature inversion region",
+  "title_score": 0.6212121212121212,
+  "citations": 18,
+  "ss_title": "Ti-states: Processor power management in the temperature inversion region",
+  "ss_year": 2016,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2016::An Energy-Aware Debugger for Intermittently Powered Systems": {
+  "dblp_key": "conf/asplos/ColinHLS16",
+  "conf_venue": "ASPLOS",
+  "conf_title": "An Energy-interference-free Hardware-Software Debugger for Intermittent Energy-harvesting Systems",
+  "title_score": 0.6794871794871795,
+  "citations": 72,
+  "ss_title": "An Energy-interference-free Hardware-Software Debugger for Intermittent Energy-harvesting Systems",
+  "ss_year": 2016,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2016::Exploiting Semantic Commutativity in Hardware Speculation": {
+  "dblp_key": "conf/micro/ZhangCS16",
+  "conf_venue": "MICRO",
+  "conf_title": "Exploiting semantic commutativity in hardware speculation",
+  "title_score": 1.0,
+  "citations": 12,
+  "ss_title": "Exploiting semantic commutativity in hardware speculation",
+  "ss_year": 2016,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2016::The Computational Sprinting Game": {
+  "dblp_key": "conf/asplos/FanZL16",
+  "conf_venue": "ASPLOS",
+  "conf_title": "The Computational Sprinting Game",
+  "title_score": 1.0,
+  "citations": 56,
+  "ss_title": "The Computational Sprinting Game",
+  "ss_year": 2016,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2016::PoisonIvy: Safe Speculation for Secure Memory": {
+  "dblp_key": "conf/micro/LehmanHL16",
+  "conf_venue": "MICRO",
+  "conf_title": "PoisonIvy: Safe speculation for secure memory",
+  "title_score": 1.0,
+  "citations": 64,
+  "ss_title": "PoisonIvy: Safe speculation for secure memory",
+  "ss_year": 2016,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2016::Data-Centric Execution of Speculative Parallel Programs": {
+  "dblp_key": "conf/micro/JeffreySAES16",
+  "conf_venue": "MICRO",
+  "conf_title": "Data-centric execution of speculative parallel programs",
+  "title_score": 1.0,
+  "citations": 33,
+  "ss_title": "Data-centric execution of speculative parallel programs",
+  "ss_year": 2016,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2016::Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading": {
+  "dblp_key": "conf/isca/SleimanW16",
+  "conf_venue": "ISCA",
+  "conf_title": "Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading",
+  "title_score": 1.0,
+  "citations": 17,
+  "ss_title": "Efficiently Scaling Out-of-Order Cores for Simultaneous Multithreading",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2016::The Anytime Automaton": {
+  "dblp_key": "conf/isca/MiguelJ16",
+  "conf_venue": "ISCA",
+  "conf_title": "The Anytime Automaton",
+  "title_score": 1.0,
+  "citations": 30,
+  "ss_title": "The Anytime Automaton",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2016::Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Samplin": {
+  "dblp_key": "conf/isca/WangZLBYDL16",
+  "conf_venue": "ISCA",
+  "conf_title": "Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Sampling Units",
+  "title_score": 1.0,
+  "citations": 17,
+  "ss_title": "Accelerating Markov Random Field Inference Using Molecular Optical Gibbs Sampling Units",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2016::Stripes: Bit-Serial Deep Neural Network Computing": {
+  "dblp_key": "conf/micro/JuddAHAM16",
+  "conf_venue": "MICRO",
+  "conf_title": "Stripes: Bit-serial deep neural network computing",
+  "title_score": 1.0,
+  "citations": 405,
+  "ss_title": "Stripes: Bit-serial deep neural network computing",
+  "ss_year": 2016,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2016::Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL": {
+  "dblp_key": "conf/isca/KimICKZLBA16",
+  "conf_venue": "ISCA",
+  "conf_title": "Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL",
+  "title_score": 1.0,
+  "citations": 34,
+  "ss_title": "Strober: Fast and Accurate Sample-Based Energy Simulation for Arbitrary RTL",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2016::Back to the Future: Leveraging Belady's Algorithm for Improved Cache Replacement": {
+  "dblp_key": "conf/isca/JainL16",
+  "conf_venue": "ISCA",
+  "conf_title": "Back to the Future: Leveraging Belady&apos;s Algorithm for Improved Cache Replacement",
+  "title_score": 0.9570552147239264,
+  "citations": 227,
+  "ss_title": "Back to the Future: Leveraging Belady's Algorithm for Improved Cache Replacement",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2016::ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic": {
+  "dblp_key": "conf/isca/ShafieeNMBSHWS16",
+  "conf_venue": "ISCA",
+  "conf_title": "ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbars",
+  "title_score": 1.0,
+  "citations": 1916,
+  "ss_title": "ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbars",
+  "ss_year": 2016,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2017::Motivation for and Evaluation of the First Tensor Processing Unit": {
+  "dblp_key": "conf/isca/JouppiYPPABBBBB17",
+  "conf_venue": "ISCA",
+  "conf_title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+  "title_score": 0.6456692913385826,
+  "citations": 5161,
+  "ss_title": "In-datacenter performance analysis of a tensor processing unit",
+  "ss_year": 2017,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2017::Plasticine: A Reconfigurable Accelerator for Parallel Patterns": {
+  "dblp_key": "conf/isca/PrabhakarZKFZHP17",
+  "conf_venue": "ISCA",
+  "conf_title": "Plasticine: A Reconfigurable Architecture For Parallel Paterns",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2017::Bespoke Processors for Applications with Ultra-Low Area and Power Constraints": {
+  "dblp_key": "conf/isca/CherupalliDY0S17",
+  "conf_venue": "ISCA",
+  "conf_title": "Bespoke Processors for Applications with Ultra-low Area and Power Constraints",
+  "title_score": 1.0,
+  "citations": 38,
+  "ss_title": "Bespoke processors for applications with ultra-low area and power constraints",
+  "ss_year": 2017,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2017::Non-Speculative Load Reordering in Total Store Ordering": {
+  "dblp_key": "conf/isca/RosCAK17",
+  "conf_venue": "ISCA",
+  "conf_title": "Non-Speculative Load-Load Reordering in TSO",
+  "title_score": 0.7551020408163265,
+  "citations": 28,
+  "ss_title": "Non-speculative load-load reordering in TSO",
+  "ss_year": 2017,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2017::Full-Stack Memory Model Verification with TriCheck": {
+  "dblp_key": "conf/asplos/TrippelMLPM17",
+  "conf_venue": "ASPLOS",
+  "conf_title": "TriCheck: Memory Model Verification at the Trisection of Software, Hardware, and ISA",
+  "title_score": 0.5714285714285714,
+  "citations": 62,
+  "ss_title": "TriCheck: Memory Model Verification at the Trisection of Software, Hardware, and ISA",
+  "ss_year": 2016,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2017::Breaking the Address Translation Wall by Accelerating Memory Replays": {
+  "dblp_key": "conf/asplos/CoxB17",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Efficient Address Translation for Architectures with Multiple Page Sizes",
+  "title_score": 0.5142857142857142,
+  "citations": 112,
+  "ss_title": "Efficient Address Translation for Architectures with Multiple Page Sizes",
+  "ss_year": 2017,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2017::A General Methodology on Designing Acyclic Channel Dependency Graphs in Intercon": {
+  "dblp_key": "conf/isca/EbrahimiD17",
+  "conf_venue": "ISCA",
+  "conf_title": "EbDa: A New Theory on Design and Verification of Deadlock-free Interconnection Networks",
+  "title_score": 0.5934065934065934,
+  "citations": 54,
+  "ss_title": "EbDa: A new theory on design and verification of deadlock-free interconnection networks",
+  "ss_year": 2017,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2017::An Architecture for Analysis": {
+  "dblp_key": "conf/asplos/McMahanCNRGHS17",
+  "conf_venue": "ASPLOS",
+  "conf_title": "An Architecture Supporting Formal and Compositional Binary Analysis",
+  "title_score": 0.5894736842105263,
+  "citations": 6,
+  "ss_title": "An Architecture Supporting Formal and Compositional Binary Analysis",
+  "ss_year": 2017,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2017::Architectural Risk": {
+  "dblp_key": "conf/micro/CuiS17",
+  "conf_venue": "MICRO",
+  "conf_title": "Estimating and understanding architectural risk",
+  "title_score": 0.5538461538461539,
+  "citations": 12,
+  "ss_title": "Estimating and Understanding Architectural Risk",
+  "ss_year": 2017,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2017::Architectural Opportunities for Novel Dynamic EMI Shifting (DEMIS)": {
+  "dblp_key": "conf/micro/GormanGR17",
+  "conf_venue": "MICRO",
+  "conf_title": "Architectural opportunities for novel dynamic EMI shifting (DEMIS)",
+  "title_score": 1.0,
+  "citations": 4,
+  "ss_title": "Architectural Opportunities for Novel Dynamic EMI Shifting(DEMIS)",
+  "ss_year": 2017,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2017::An Analysis of Persistent Memory Use with WHISPER": {
+  "dblp_key": "conf/asplos/NalliHHSVK17",
+  "conf_venue": "ASPLOS",
+  "conf_title": "An Analysis of Persistent Memory Use with WHISPER",
+  "title_score": 1.0,
+  "citations": 195,
+  "ss_title": "An Analysis of Persistent Memory Use with WHISPER",
+  "ss_year": 2017,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2017::RTLCheck: Verifying the Memory Consistency of RTL Designs": {
+  "dblp_key": "conf/micro/ManerkarLMP17",
+  "conf_venue": "MICRO",
+  "conf_title": "RTLcheck: verifying the memory consistency of RTL designs",
+  "title_score": 1.0,
+  "citations": 38,
+  "ss_title": "RTLCheck: Verifying the Memory Consistency of RTL Designs",
+  "ss_year": 2017,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2017::Using Branch Predictors to Predict Brain Activity in Brain-Machine Implants": {
+  "dblp_key": "conf/micro/Bhattacharjee17",
+  "conf_venue": "MICRO",
+  "conf_title": "Using branch predictors to predict brain activity in brain-machine implants",
+  "title_score": 1.0,
+  "citations": 5,
+  "ss_title": "Using Branch Predictors to Predict Brain Activity in Brain-Machine Implants",
+  "ss_year": 2017,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2017::Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations": {
+  "dblp_key": "conf/micro/HuangGSTMS17",
+  "conf_venue": "MICRO",
+  "conf_title": "Hybrid analog-digital solution of nonlinear partial differential equations",
+  "title_score": 1.0,
+  "citations": 35,
+  "ss_title": "Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations",
+  "ss_year": 2017,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2017::A Many-Core Architecture for In-Memory Data Processing": {
+  "dblp_key": "conf/micro/AgrawalIRVGVBGR17",
+  "conf_venue": "MICRO",
+  "conf_title": "A many-core architecture for in-memory data processing",
+  "title_score": 1.0,
+  "citations": 42,
+  "ss_title": "A Many-core Architecture for In-Memory Data Processing",
+  "ss_year": 2017,
+  "ss_venue": "Micro"
+ },
+ "HPCA 2017::NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Ar": {
+  "dblp_key": "conf/hpca/AlianAJKK17",
+  "conf_venue": "HPCA",
+  "conf_title": "NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Architecture",
+  "title_score": 1.0,
+  "citations": 23,
+  "ss_title": "NCAP: Network-Driven, Packet Context-Aware Power Management for Client-Server Architecture",
+  "ss_year": 2017,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2017::EDDIE: EM-Based Detection of Deviations in Program Execution": {
+  "dblp_key": "conf/isca/NazariSAZP17",
+  "conf_venue": "ISCA",
+  "conf_title": "EDDIE: EM-Based Detection of Deviations in Program Execution",
+  "title_score": 1.0,
+  "citations": 139,
+  "ss_title": "EDDIE: EM-based detection of deviations in program execution",
+  "ss_year": 2017,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2018::Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks": {
+  "dblp_key": "conf/isca/EckertWWSISBD18",
+  "conf_venue": "ISCA",
+  "conf_title": "Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks",
+  "title_score": 1.0,
+  "citations": 376,
+  "ss_title": "Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2018::Inside Project Brainwave's Cloud-Scale, Real-Time AI Processor": {
+  "dblp_key": "conf/isca/FowersOPMLLAHAG18",
+  "conf_venue": "ISCA",
+  "conf_title": "A Configurable Cloud-Scale DNN Processor for Real-Time AI",
+  "title_score": 0.48739495798319327,
+  "citations": 550,
+  "ss_title": "A Configurable Cloud-Scale DNN Processor for Real-Time AI",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2018::Darwin: A Genomics Coprocessor": {
+  "dblp_key": "conf/asplos/TurakhiaBD18",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Darwin: A Genomics Co-processor Provides up to 15, 000X Acceleration on Long Read Assembly",
+  "title_score": 0.4915254237288136,
+  "citations": 175,
+  "ss_title": "Darwin: A Genomics Co-processor Provides up to 15,000X Acceleration on Long Read Assembly",
+  "ss_year": 2018,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2018::A Hardware Accelerator for Tracing Garbage Collection": {
+  "dblp_key": "conf/isca/MaasAK18",
+  "conf_venue": "ISCA",
+  "conf_title": "A Hardware Accelerator for Tracing Garbage Collection",
+  "title_score": 1.0,
+  "citations": 41,
+  "ss_title": "A Hardware Accelerator for Tracing Garbage Collection",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2018::Composable Building Blocks to Open Up Processor Design": {
+  "dblp_key": "conf/micro/ZhangWBA18",
+  "conf_venue": "MICRO",
+  "conf_title": "Composable Building Blocks to Open up Processor Design",
+  "title_score": 1.0,
+  "citations": 31,
+  "ss_title": "Composable Building Blocks to Open up Processor Design",
+  "ss_year": 2018,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2018::FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public ": {
+  "dblp_key": "conf/isca/KarandikarMKBAL18",
+  "conf_venue": "ISCA",
+  "conf_title": "FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public Cloud",
+  "title_score": 1.0,
+  "citations": 258,
+  "ss_title": "FireSim: FPGA-Accelerated Cycle-Exact Scale-Out System Simulation in the Public Cloud",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2018::Mobilizing the Micro-Ops: Exploiting Context Sensitive Decoding for Security and": {
+  "dblp_key": "conf/isca/TaramVT18",
+  "conf_venue": "ISCA",
+  "conf_title": "Mobilizing the Micro-Ops: Exploiting Context Sensitive Decoding for Security and Energy Efficiency",
+  "title_score": 1.0,
+  "citations": 24,
+  "ss_title": "Mobilizing the Micro-Ops: Exploiting Context Sensitive Decoding for Security and Energy Efficiency",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2018::CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests": {
+  "dblp_key": "conf/micro/TrippelLM18",
+  "conf_venue": "MICRO",
+  "conf_title": "CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests",
+  "title_score": 1.0,
+  "citations": 79,
+  "ss_title": "CheckMate: Automated Synthesis of Hardware Exploits and Security Litmus Tests",
+  "ss_year": 2018,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2017::Language-Level Persistency": {
+  "dblp_key": "conf/isca/KolliGSDCNW17",
+  "conf_venue": "ISCA",
+  "conf_title": "Language-level persistency",
+  "title_score": 1.0,
+  "citations": 94,
+  "ss_title": "Language-level persistency",
+  "ss_year": 2017,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2018::Nonblocking DRAM Refresh": {
+  "dblp_key": "conf/isca/NguyenLMSJ18",
+  "conf_venue": "ISCA",
+  "conf_title": "Nonblocking Memory Refresh",
+  "title_score": 0.84,
+  "citations": 19,
+  "ss_title": "Nonblocking Memory Refresh",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2018::Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadl": {
+  "dblp_key": "conf/isca/RamrakhyaniGK18",
+  "conf_venue": "ISCA",
+  "conf_title": "Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadlock Freedom",
+  "title_score": 1.0,
+  "citations": 46,
+  "ss_title": "Synchronized Progress in Interconnection Networks (SPIN): A New Theory for Deadlock Freedom",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2018::Euphrates: Algorithm-SoC Co-design for Low-Power Mobile Continuous Vision": {
+  "dblp_key": "conf/isca/ZhuSMW18",
+  "conf_venue": "ISCA",
+  "conf_title": "Euphrates: Algorithm-SoC Co-Design for Low-Power Mobile Continuous Vision",
+  "title_score": 1.0,
+  "citations": 93,
+  "ss_title": "Euphrates: Algorithm-SoC Co-Design for Low-Power Mobile Continuous Vision",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2018::Generic System Calls for GPUs": {
+  "dblp_key": "conf/isca/VeselyBBLOR18",
+  "conf_venue": "ISCA",
+  "conf_title": "Generic System Calls for GPUs",
+  "title_score": 1.0,
+  "citations": 32,
+  "ss_title": "Generic System Calls for GPUs",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2018::MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurab": {
+  "dblp_key": "conf/asplos/KwonSK18",
+  "conf_venue": "ASPLOS",
+  "conf_title": "MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects",
+  "title_score": 1.0,
+  "citations": 436,
+  "ss_title": "MAERI: Enabling Flexible Dataflow Mapping over DNN Accelerators via Reconfigurable Interconnects",
+  "ss_year": 2018,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2018::Promise: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Mac": {
+  "dblp_key": "conf/isca/SrivastavaKGLCA18",
+  "conf_venue": "ISCA",
+  "conf_title": "PROMISE: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Machine-Learning Algorithms",
+  "title_score": 1.0,
+  "citations": 54,
+  "ss_title": "PROMISE: An End-to-End Design of a Programmable Mixed-Signal Accelerator for Machine-Learning Algorithms",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2018::Making Memristive Neural Network Accelerators Reliable": {
+  "dblp_key": "conf/hpca/FeinbergWI18",
+  "conf_venue": "HPCA",
+  "conf_title": "Making Memristive Neural Network Accelerators Reliable",
+  "title_score": 1.0,
+  "citations": 125,
+  "ss_title": "Making Memristive Neural Network Accelerators Reliable",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2018::ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atom": {
+  "dblp_key": "conf/isca/OswaldNS18",
+  "conf_venue": "ISCA",
+  "conf_title": "ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atomic Specifications",
+  "title_score": 1.0,
+  "citations": 20,
+  "ss_title": "ProtoGen: Automatically Generating Directory Cache Coherence Protocols from Atomic Specifications",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2018::PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specificat": {
+  "dblp_key": "conf/micro/ManerkarLMG18",
+  "conf_venue": "MICRO",
+  "conf_title": "PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specifications",
+  "title_score": 1.0,
+  "citations": 20,
+  "ss_title": "PipeProof: Automated Memory Consistency Proofs for Microarchitectural Specifications",
+  "ss_year": 2018,
+  "ss_venue": "Micro"
+ },
+ "HPCA 2018::Synergy: Rethinking Secure-Memory Design for Error-Correcting Memories": {
+  "dblp_key": "conf/hpca/SaileshwarNREQ18",
+  "conf_venue": "HPCA",
+  "conf_title": "SYNERGY: Rethinking Secure-Memory Design for Error-Correcting Memories",
+  "title_score": 1.0,
+  "citations": 98,
+  "ss_title": "SYNERGY: Rethinking Secure-Memory Design for Error-Correcting Memories",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "MICRO 2018::InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy": {
+  "dblp_key": "conf/micro/YanCS0FT18",
+  "conf_venue": "MICRO",
+  "conf_title": "InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy",
+  "title_score": 1.0,
+  "citations": 286,
+  "ss_title": "InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy",
+  "ss_year": 2018,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2018::A Reconfigurable Energy Storage Architecture for Energy-Harvesting Devices": {
+  "dblp_key": "conf/asplos/ColinRL18",
+  "conf_venue": "ASPLOS",
+  "conf_title": "A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices",
+  "title_score": 1.0,
+  "citations": 213,
+  "ss_title": "A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices",
+  "ss_year": 2018,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2018::Caloree: Learning Control for Predictable Latency and Low Energy": {
+  "dblp_key": "conf/asplos/MishraILH18",
+  "conf_venue": "ASPLOS",
+  "conf_title": "CALOREE: Learning Control for Predictable Latency and Low Energy",
+  "title_score": 1.0,
+  "citations": 112,
+  "ss_title": "CALOREE: Learning Control for Predictable Latency and Low Energy",
+  "ss_year": 2018,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2019::Unveiling the Hardware and Software Implications of Microservices in Cloud and E": {
+  "dblp_key": "conf/asplos/GanZCSRKBHRJHPH19",
+  "conf_venue": "ASPLOS",
+  "conf_title": "An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud &amp; Edge Systems",
+  "title_score": 0.6028708133971292,
+  "citations": 770,
+  "ss_title": "An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud & Edge Systems",
+  "ss_year": 2019,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2019::MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware ": {
+  "dblp_key": "conf/micro/KwonCPPSK19",
+  "conf_venue": "MICRO",
+  "conf_title": "Understanding Reuse, Performance, and Hardware Cost of DNN Dataflow: A Data-Centric Approach",
+  "title_score": 0.6210526315789474,
+  "citations": 336,
+  "ss_title": "Understanding Reuse, Performance, and Hardware Cost of DNN Dataflow: A Data-Centric Approach",
+  "ss_year": 2018,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2019::Energy-Efficient Video Processing for Virtual Reality": {
+  "dblp_key": "conf/isca/LengCSHZ19",
+  "conf_venue": "ISCA",
+  "conf_title": "Energy-efficient video processing for virtual reality",
+  "title_score": 1.0,
+  "citations": 64,
+  "ss_title": "Energy-Efficient Video Processing for Virtual Reality",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2019::Towards General-Purpose Acceleration: Finding Structure in Irregularity": {
+  "dblp_key": "conf/micro/DaduWLN19",
+  "conf_venue": "MICRO",
+  "conf_title": "Towards General Purpose Acceleration by Exploiting Common Data-Dependence Forms",
+  "title_score": 0.6174496644295302,
+  "citations": 96,
+  "ss_title": "Towards General Purpose Acceleration by Exploiting Common Data-Dependence Forms",
+  "ss_year": 2019,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2019::AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computer": {
+  "dblp_key": "conf/isca/AyersNACKKKLMR19",
+  "conf_venue": "ISCA",
+  "conf_title": "AsmDB: understanding and mitigating front-end stalls in warehouse-scale computers",
+  "title_score": 1.0,
+  "citations": 98,
+  "ss_title": "AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computers",
+  "ss_year": 2020,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2019::Extending the Frontier of Quantum Computers With Qutrits": {
+  "dblp_key": "conf/isca/GokhaleBDBBC19",
+  "conf_venue": "ISCA",
+  "conf_title": "Asymptotic improvements to quantum circuits via qutrits",
+  "title_score": 0.5225225225225225,
+  "citations": 155,
+  "ss_title": "Asymptotic Improvements to Quantum Circuits via Qutrits",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2019::Architecting Noisy Intermediate-Scale Quantum Computers: A Real-System Study": {
+  "dblp_key": "conf/asplos/MuraliBJCM19",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Noise-Adaptive Compiler Mappings for Noisy Intermediate-Scale Quantum Computers",
+  "title_score": 0.6233766233766234,
+  "citations": 462,
+  "ss_title": "Noise-Adaptive Compiler Mappings for Noisy Intermediate-Scale Quantum Computers",
+  "ss_year": 2019,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2019::Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively A": {
+  "dblp_key": "conf/micro/YuYK0TF19",
+  "conf_venue": "MICRO",
+  "conf_title": "Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data",
+  "title_score": 1.0,
+  "citations": 216,
+  "ss_title": "Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data",
+  "ss_year": 2019,
+  "ss_venue": "IEEE Micro"
+ },
+ "MICRO 2019::MicroScope: Enabling Microarchitectural Replay Attacks": {
+  "dblp_key": "conf/isca/SkarlatosYGSTF19",
+  "conf_venue": "ISCA",
+  "conf_title": "MicroScope: enabling microarchitectural replay attacks",
+  "title_score": 1.0,
+  "citations": 79,
+  "ss_title": "MicroScope: Enabling Microarchitectural Replay Attacks",
+  "ss_year": 2020,
+  "ss_venue": "IEEE Micro"
+ },
+ "MICRO 2019::Creating Foundations for Secure Microarchitectures With Data-Oblivious ISA Exten": {
+  "dblp_key": "conf/micro/YuYK0TF19",
+  "conf_venue": "MICRO",
+  "conf_title": "Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data",
+  "title_score": 0.375,
+  "citations": 216,
+  "ss_title": "Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data",
+  "ss_year": 2019,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2019::Trace Wringing for Program Trace Privacy": {
+  "dblp_key": "conf/asplos/DangwalCMS19",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Safer Program Behavior Sharing Through Trace Wringing",
+  "title_score": 0.3010752688172043,
+  "citations": 9,
+  "ss_title": "Safer Program Behavior Sharing Through Trace Wringing",
+  "ss_year": 2019,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "HPCA 2019::The Accelerator Wall: Limits of Chip Specialization": {
+  "dblp_key": "conf/hpca/FuchsW19",
+  "conf_venue": "HPCA",
+  "conf_title": "The Accelerator Wall: Limits of Chip Specialization",
+  "title_score": 1.0,
+  "citations": 67,
+  "ss_title": "The Accelerator Wall: Limits of Chip Specialization",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "MICRO 2019::TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and T": {
+  "dblp_key": "conf/micro/KwonLR19",
+  "conf_venue": "MICRO",
+  "conf_title": "TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and Tensor Operations in Deep Learning",
+  "title_score": 1.0,
+  "citations": 244,
+  "ss_title": "TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and Tensor Operations in Deep Learning",
+  "ss_year": 2019,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2019::NDA: Preventing Speculative Execution Attacks at Their Source": {
+  "dblp_key": "conf/micro/WeisseNLWK19",
+  "conf_venue": "MICRO",
+  "conf_title": "NDA: Preventing Speculative Execution Attacks at Their Source",
+  "title_score": 1.0,
+  "citations": 144,
+  "ss_title": "NDA: Preventing Speculative Execution Attacks at Their Source",
+  "ss_year": 2019,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2019::Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems": {
+  "dblp_key": "conf/isca/0001SPKK19",
+  "conf_venue": "ISCA",
+  "conf_title": "Janus: optimizing memory and storage support for non-volatile memory systems",
+  "title_score": 1.0,
+  "citations": 57,
+  "ss_title": "Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2019::D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low L": {
+  "dblp_key": "conf/hpca/KimPHOM19",
+  "conf_venue": "HPCA",
+  "conf_title": "D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low Latency and High Throughput",
+  "title_score": 1.0,
+  "citations": 116,
+  "ss_title": "D-RaNGe: Using Commodity DRAM Devices to Generate True Random Numbers with Low Latency and High Throughput",
+  "ss_year": 2018,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "MICRO 2019::Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture": {
+  "dblp_key": "conf/micro/ShaoCVZFJKKPRTZ19",
+  "conf_venue": "MICRO",
+  "conf_title": "Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture",
+  "title_score": 1.0,
+  "citations": 470,
+  "ss_title": "Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture",
+  "ss_year": 2019,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2019::Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data O": {
+  "dblp_key": "conf/asplos/PellauerSCCHVKF19",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration",
+  "title_score": 1.0,
+  "citations": 89,
+  "ss_title": "Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration",
+  "ss_year": 2019,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2019::ExTensor: An Accelerator for Sparse Tensor Algebra": {
+  "dblp_key": "conf/micro/HegdeMPCJSEF19",
+  "conf_venue": "MICRO",
+  "conf_title": "ExTensor: An Accelerator for Sparse Tensor Algebra",
+  "title_score": 1.0,
+  "citations": 255,
+  "ss_title": "ExTensor: An Accelerator for Sparse Tensor Algebra",
+  "ss_year": 2019,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2019::A Formal Analysis of the NVIDIA PTX Memory Consistency Model": {
+  "dblp_key": "conf/asplos/LustigSG19",
+  "conf_venue": "ASPLOS",
+  "conf_title": "A Formal Analysis of the NVIDIA PTX Memory Consistency Model",
+  "title_score": 1.0,
+  "citations": 63,
+  "ss_title": "A Formal Analysis of the NVIDIA PTX Memory Consistency Model",
+  "ss_year": 2019,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2019::Designing Vertical Processors in Monolithic 3D": {
+  "dblp_key": "conf/isca/GopireddyT19",
+  "conf_venue": "ISCA",
+  "conf_title": "Designing vertical processors in monolithic 3D",
+  "title_score": 1.0,
+  "citations": 36,
+  "ss_title": "Designing Vertical Processors in Monolithic 3D",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2019::CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-per-Second Scal": {
+  "dblp_key": "conf/hpca/AjdariPKKK19",
+  "conf_venue": "HPCA",
+  "conf_title": "CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-Per-Second Scale SSD Arrays",
+  "title_score": 1.0,
+  "citations": 36,
+  "ss_title": "CIDR: A Cost-Effective In-Line Data Reduction System for Terabit-Per-Second Scale SSD Arrays",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "MICRO 2019::Practical Byte-Granular Memory Blacklisting using Califorms": {
+  "dblp_key": "conf/micro/SasakiAZBSS19",
+  "conf_venue": "MICRO",
+  "conf_title": "Practical Byte-Granular Memory Blacklisting using Califorms",
+  "title_score": 1.0,
+  "citations": 38,
+  "ss_title": "Practical Byte-Granular Memory Blacklisting using Califorms",
+  "ss_year": 2019,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2020::The Vision Behind MLPerf: Understanding AI Inference Performance": {
+  "dblp_key": "conf/isca/ReddiCKMSWABCCC20",
+  "conf_venue": "ISCA",
+  "conf_title": "MLPerf Inference Benchmark",
+  "title_score": 0.449438202247191,
+  "citations": 645,
+  "ss_title": "MLPerf Inference Benchmark",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2020::Superconductor Computing for Neural Networks": {
+  "dblp_key": "conf/micro/IshidaBNFTKTOKI20",
+  "conf_venue": "MICRO",
+  "conf_title": "SuperNPU: An Extremely Fast Neural Processing Unit Using Superconducting Logic Devices",
+  "title_score": 0.32558139534883723,
+  "citations": 58,
+  "ss_title": "SuperNPU: An Extremely Fast Neural Processing Unit Using Superconducting Logic Devices",
+  "ss_year": 2020,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2020::Understanding Acceleration Opportunities at Hyperscale": {
+  "dblp_key": "conf/asplos/SriramanD20",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Accelerometer: Understanding Acceleration Opportunities for Data Center Overheads at Hyperscale",
+  "title_score": 0.7297297297297297,
+  "citations": 118,
+  "ss_title": "Accelerometer: Understanding Acceleration Opportunities for Data Center Overheads at Hyperscale",
+  "ss_year": 2020,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2020::Accelerating Genomic Data Analytics With Composable Hardware Acceleration Framew": {
+  "dblp_key": "conf/isca/HamBSLSSOALW20",
+  "conf_venue": "ISCA",
+  "conf_title": "Genesis: A Hardware Acceleration Framework for Genomic Data Analysis",
+  "title_score": 0.5066666666666667,
+  "citations": 29,
+  "ss_title": "Genesis: A Hardware Acceleration Framework for Genomic Data Analysis",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2020::uGEMM: Unary Computing for GEMM Applications": {
+  "dblp_key": "conf/isca/DingWHWFMC20",
+  "conf_venue": "ISCA",
+  "conf_title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+  "title_score": 0.26573426573426573,
+  "citations": 37,
+  "ss_title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2020::BabelFish: Fusing Address Translations for Containers": {
+  "dblp_key": "conf/isca/SkarlatosDGKT20",
+  "conf_venue": "ISCA",
+  "conf_title": "BabelFish: Fusing Address Translations for Containers",
+  "title_score": 1.0,
+  "citations": 26,
+  "ss_title": "BabelFish: Fusing Address Translations for Containers",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2020::Characterizing and Modeling Nonvolatile Memory Systems": {
+  "dblp_key": "conf/micro/WangLYMSZ20",
+  "conf_venue": "MICRO",
+  "conf_title": "Characterizing and Modeling Non-Volatile Memory Systems",
+  "title_score": 0.9908256880733946,
+  "citations": 109,
+  "ss_title": "Characterizing and Modeling Non-Volatile Memory Systems",
+  "ss_year": 2020,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2020::Temporal Computing With Superconductors": {
+  "dblp_key": "conf/asplos/TzimpragosVTMMV20",
+  "conf_venue": "ASPLOS",
+  "conf_title": "A Computational Temporal Logic for Superconducting Accelerators",
+  "title_score": 0.5294117647058824,
+  "citations": 43,
+  "ss_title": "A Computational Temporal Logic for Superconducting Accelerators",
+  "ss_year": 2020,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "HPCA 2020::A Next-Generation Cryogenic Processor Architecture": {
+  "dblp_key": "conf/isca/ByunMLNK20",
+  "conf_venue": "ISCA",
+  "conf_title": "CryoCore: A Fast and Dense Processor Architecture for Cryogenic Computing",
+  "title_score": 0.47540983606557374,
+  "citations": 38,
+  "ss_title": "CryoCore: A Fast and Dense Processor Architecture for Cryogenic Computing",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2020::Balancing Specialized Versus Flexible Computation in Brain-Computer Interfaces": {
+  "dblp_key": "conf/isca/KarageorgosSVWP20",
+  "conf_venue": "ISCA",
+  "conf_title": "Hardware-Software Co-Design for Brain-Computer Interfaces",
+  "title_score": 0.562962962962963,
+  "citations": 32,
+  "ss_title": "Hardware-Software Co-Design for Brain-Computer Interfaces",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2020::Virtual Logical Qubits: A Compact Architecture for Fault-Tolerant Quantum Comput": {
+  "dblp_key": "conf/micro/DuckeringBSC20",
+  "conf_venue": "MICRO",
+  "conf_title": "Virtualized Logical Qubits: A 2.5D Architecture for Error-Corrected Quantum Computing",
+  "title_score": 0.7710843373493976,
+  "citations": 25,
+  "ss_title": "Virtualized Logical Qubits: A 2.5D Architecture for Error-Corrected Quantum Computing",
+  "ss_year": 2020,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2020::NeuMMU: Architectural Support for Efficient Address Translations in Neural Proce": {
+  "dblp_key": "conf/asplos/HyunKCKR20",
+  "conf_venue": "ASPLOS",
+  "conf_title": "NeuMMU: Architectural Support for Efficient Address Translations in Neural Processing Units",
+  "title_score": 1.0,
+  "citations": 31,
+  "ss_title": "NeuMMU: Architectural Support for Efficient Address Translations in Neural Processing Units",
+  "ss_year": 2019,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2020::Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol": {
+  "dblp_key": "conf/asplos/KatsarakisGKJDG20",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol",
+  "title_score": 1.0,
+  "citations": 74,
+  "ss_title": "Hermes: A Fast, Fault-Tolerant and Linearizable Replication Protocol",
+  "ss_year": 2020,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2020::Printed Machine Learning Classifiers": {
+  "dblp_key": "conf/micro/MubarikWBTATK20",
+  "conf_venue": "MICRO",
+  "conf_title": "Printed Machine Learning Classifiers",
+  "title_score": 1.0,
+  "citations": 3,
+  "ss_title": "Late Breaking Results: Energy-Efficient Printed Machine Learning Classifiers with Sequential SVMs",
+  "ss_year": 2025,
+  "ss_venue": "Design, Automation and Test in Europe"
+ },
+ "MICRO 2020::Graphene: Strong yet Lightweight Row Hammer Protection": {
+  "dblp_key": "conf/micro/ParkKLHAL20",
+  "conf_venue": "MICRO",
+  "conf_title": "Graphene: Strong yet Lightweight Row Hammer Protection",
+  "title_score": 1.0,
+  "citations": 161,
+  "ss_title": "Graphene: Strong yet Lightweight Row Hammer Protection",
+  "ss_year": 2020,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2020::Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware C": {
+  "dblp_key": "conf/micro/DingGLRPC20",
+  "conf_venue": "MICRO",
+  "conf_title": "Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware Compilation",
+  "title_score": 1.0,
+  "citations": 113,
+  "ss_title": "Systematic Crosstalk Mitigation for Superconducting Qubits via Frequency-Aware Compilation",
+  "ss_year": 2020,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2020::SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Ef": {
+  "dblp_key": "conf/isca/DingWHWFMC20",
+  "conf_venue": "ISCA",
+  "conf_title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+  "title_score": 1.0,
+  "citations": 37,
+  "ss_title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2020::Leaking Information Through Cache LRU States": {
+  "dblp_key": "conf/hpca/0001S20",
+  "conf_venue": "HPCA",
+  "conf_title": "Leaking Information Through Cache LRU States",
+  "title_score": 1.0,
+  "citations": 76,
+  "ss_title": "Leaking Information Through Cache LRU States",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ASPLOS 2020::Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelis": {
+  "dblp_key": "conf/asplos/SkarlatosKXT20",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism",
+  "title_score": 1.0,
+  "citations": 71,
+  "ss_title": "Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism",
+  "ss_year": 2020,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "HPCA 2020::The Architectural Implications of Facebook's DNN-based Personalized Recommendati": {
+  "dblp_key": "conf/hpca/GuptaWWNR0CHHJL20",
+  "conf_venue": "HPCA",
+  "conf_title": "The Architectural Implications of Facebook&apos;s DNN-Based Personalized Recommendation",
+  "citations": null,
+  "error": "404"
+ },
+ "ISCA 2021::Overclocking in Immersion-Cooled Datacenters": {
+  "dblp_key": "conf/isca/JaliliMGMRARTBF21",
+  "conf_venue": "ISCA",
+  "conf_title": "Cost-Efficient Overclocking in Immersion-Cooled Datacenters",
+  "title_score": 0.8543689320388349,
+  "citations": 54,
+  "ss_title": "Cost-Efficient Overclocking in Immersion-Cooled Datacenters",
+  "ss_year": 2021,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2021::Warehouse-Scale Video Acceleration": {
+  "dblp_key": "conf/asplos/RanganathanSCDG21",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Warehouse-scale video acceleration: co-design and deployment in the wild",
+  "title_score": 0.6476190476190476,
+  "citations": 59,
+  "ss_title": "Warehouse-scale video acceleration: co-design and deployment in the wild",
+  "ss_year": 2021,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "HPCA 2021::Chasing Carbon: The Elusive Environmental Footprint of Computing": {
+  "dblp_key": "conf/hpca/GuptaKLTLW0W21",
+  "conf_venue": "HPCA",
+  "conf_title": "Chasing Carbon: The Elusive Environmental Footprint of Computing",
+  "title_score": 1.0,
+  "citations": 343,
+  "ss_title": "Chasing Carbon: The Elusive Environmental Footprint of Computing",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2021::Maya: Using Formal Control to Obfuscate Power Side Channels": {
+  "dblp_key": "conf/isca/PothukuchiPVST21",
+  "conf_venue": "ISCA",
+  "conf_title": "Maya: Using Formal Control to Obfuscate Power Side Channels",
+  "title_score": 1.0,
+  "citations": 4,
+  "ss_title": "Maya: Using Formal Control to Obfuscate Power Side Channels",
+  "ss_year": 2019,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2021::An Architecture to Accelerate Computation on Encrypted Data": {
+  "dblp_key": "conf/micro/SamardzicFKDDP021",
+  "conf_venue": "MICRO",
+  "conf_title": "F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption",
+  "title_score": 0.4307692307692308,
+  "citations": 354,
+  "ss_title": "F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption",
+  "ss_year": 2021,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2021::Characterizing and Mitigating Soft Errors in GPU DRAM": {
+  "dblp_key": "conf/micro/0001SOLRH0HK21",
+  "conf_venue": "MICRO",
+  "conf_title": "Characterizing and Mitigating Soft Errors in GPU DRAM",
+  "title_score": 1.0,
+  "citations": 50,
+  "ss_title": "Characterizing and Mitigating Soft Errors in GPU DRAM",
+  "ss_year": 2021,
+  "ss_venue": "IEEE Micro"
+ },
+ "MICRO 2021::The Laplace Microarchitecture for Tracking Data Uncertainty": {
+  "dblp_key": "conf/micro/TsoutsourasKBSM21",
+  "conf_venue": "MICRO",
+  "conf_title": "The Laplace Microarchitecture for Tracking Data Uncertainty and Its Implementation in a RISC-V Processor",
+  "title_score": 0.7239263803680982,
+  "citations": 10,
+  "ss_title": "The Laplace Microarchitecture for Tracking Data Uncertainty and Its Implementation in a RISC-V Processor",
+  "ss_year": 2021,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2021::Systematically Understanding Graph Accelerator Dimensions and the Value of Hardw": {
+  "dblp_key": "conf/isca/DaduLN21",
+  "conf_venue": "ISCA",
+  "conf_title": "PolyGraph: Exposing the Value of Flexibility for Graph Processing Accelerators",
+  "title_score": 0.4418604651162791,
+  "citations": 65,
+  "ss_title": "PolyGraph: Exposing the Value of Flexibility for Graph Processing Accelerators",
+  "ss_year": 2021,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2021::Distributed Data Persistency": {
+  "dblp_key": "conf/micro/KokolisPR0T21",
+  "conf_venue": "MICRO",
+  "conf_title": "Distributed Data Persistency",
+  "title_score": 1.0,
+  "citations": 7,
+  "ss_title": "Distributed Data Persistency",
+  "ss_year": 2021,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2021::Vector Runahead for Indirect Memory Accesses": {
+  "dblp_key": "conf/isca/NaithaniA0E21",
+  "conf_venue": "ISCA",
+  "conf_title": "Vector Runahead",
+  "title_score": 0.5084745762711864,
+  "citations": 2,
+  "ss_title": "NVR: Vector Runahead on NPUs for Sparse Memory Access",
+  "ss_year": 2025,
+  "ss_venue": "Design Automation Conference"
+ },
+ "MICRO 2021::GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management": {
+  "dblp_key": "conf/micro/MuthukrishnanLN21",
+  "conf_venue": "MICRO",
+  "conf_title": "GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management",
+  "title_score": 1.0,
+  "citations": 21,
+  "ss_title": "GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management",
+  "ss_year": 2021,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2021::Logical Abstractions for Noisy Variational Quantum Algorithm Simulation": {
+  "dblp_key": "conf/asplos/0001HMBM21",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Logical abstractions for noisy variational Quantum algorithm simulation",
+  "title_score": 1.0,
+  "citations": 23,
+  "ss_title": "Logical abstractions for noisy variational Quantum algorithm simulation",
+  "ss_year": 2021,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2021::A Hardware Accelerator for Protocol Buffers": {
+  "dblp_key": "conf/micro/KarandikarLKZPN21",
+  "conf_venue": "MICRO",
+  "conf_title": "A Hardware Accelerator for Protocol Buffers",
+  "title_score": 1.0,
+  "citations": 68,
+  "ss_title": "A Hardware Accelerator for Protocol Buffers",
+  "ss_year": 2021,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2021::SquiggleFilter: An Accelerator for Portable Virus Detection": {
+  "dblp_key": "conf/micro/DunnSWGCBDN21",
+  "conf_venue": "MICRO",
+  "conf_title": "SquiggleFilter: An Accelerator for Portable Virus Detection",
+  "title_score": 1.0,
+  "citations": 54,
+  "ss_title": "SquiggleFilter: An Accelerator for Portable Virus Detection",
+  "ss_year": 2021,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2021::Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Techno": {
+  "dblp_key": "conf/isca/LeeKLKLSYLLSKOI21",
+  "conf_venue": "ISCA",
+  "conf_title": "Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology : Industrial Product",
+  "title_score": 0.8936170212765957,
+  "citations": 299,
+  "ss_title": "Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology : Industrial Product",
+  "ss_year": 2021,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2021::Dagger: Efficient and Fast RPCs in Cloud Microservices With Near-Memory Reconfig": {
+  "dblp_key": "conf/asplos/LazarevXAZD21",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Dagger: efficient and fast RPCs in cloud microservices with near-memory reconfigurable NICs",
+  "title_score": 1.0,
+  "citations": 70,
+  "ss_title": "Dagger: efficient and fast RPCs in cloud microservices with near-memory reconfigurable NICs",
+  "ss_year": 2021,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "HPCA 2021::Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inferenc": {
+  "dblp_key": "conf/hpca/ReagenCKLLW021",
+  "conf_venue": "HPCA",
+  "conf_title": "Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference",
+  "title_score": 1.0,
+  "citations": 180,
+  "ss_title": "Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference",
+  "ss_year": 2020,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ISCA 2021::Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Q": {
+  "dblp_key": "conf/isca/BakerLDHBC21",
+  "conf_venue": "ISCA",
+  "conf_title": "Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures",
+  "title_score": 1.0,
+  "citations": 50,
+  "ss_title": "Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures",
+  "ss_year": 2021,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2021::Superconducting Computing With Alternating Logic Elements": {
+  "dblp_key": "conf/isca/TzimpragosVWSS21",
+  "conf_venue": "ISCA",
+  "conf_title": "Superconducting Computing with Alternating Logic Elements",
+  "title_score": 1.0,
+  "citations": 19,
+  "ss_title": "Superconducting Computing with Alternating Logic Elements",
+  "ss_year": 2021,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2021::Robomorphic Computing: A Design Methodology for Domain-Specific Accelerators Par": {
+  "dblp_key": "conf/asplos/NeumanPBTDR21",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Robomorphic computing: a design methodology for domain-specific accelerators parameterized by robot morphology",
+  "title_score": 1.0,
+  "citations": 51,
+  "ss_title": "Robomorphic computing: a design methodology for domain-specific accelerators parameterized by robot morphology",
+  "ss_year": 2021,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2022::PACMAN: Attacking ARM Pointer Authentication With Speculative Execution": {
+  "dblp_key": "conf/isca/RavichandranNLY22",
+  "conf_venue": "ISCA",
+  "conf_title": "PACMAN: attacking ARM pointer authentication with speculative execution",
+  "title_score": 1.0,
+  "citations": 91,
+  "ss_title": "PACMAN: Attacking ARM Pointer Authentication With Speculative Execution",
+  "ss_year": 2022,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2022::There's Always a Bigger Fish: A Clarifying Analysis of a Machine-Learning-Assist": {
+  "dblp_key": "conf/isca/CookDBY22",
+  "conf_venue": "ISCA",
+  "conf_title": "There&apos;s always a bigger fish: a clarifying analysis of a machine-learning-assisted side-channel attack",
+  "title_score": 0.966183574879227,
+  "citations": 25,
+  "ss_title": "There’s Always a Bigger Fish: A Clarifying Analysis of a Machine-Learning-Assisted Side-Channel Attack",
+  "ss_year": 2022,
+  "ss_venue": "IEEE Micro"
+ },
+ "ASPLOS 2022::Revizor: Testing Black-Box CPUs Against Speculation Contracts": {
+  "dblp_key": "conf/asplos/OleksenkoFKS22",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Revizor: testing black-box CPUs against speculation contracts",
+  "title_score": 1.0,
+  "citations": 53,
+  "ss_title": "Revizor: Testing Black-Box CPUs Against Speculation Contracts",
+  "ss_year": 2021,
+  "ss_venue": "IEEE Micro"
+ },
+ "HPCA 2022::Effective Mimicry of Belady's MIN Policy": {
+  "dblp_key": "conf/hpca/ShahJL22",
+  "conf_venue": "HPCA",
+  "conf_title": "Effective Mimicry of Belady&apos;s MIN Policy",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::Revisiting Residue Codes for Modern Memories": {
+  "dblp_key": "conf/micro/ManzhosovHPPZS22",
+  "conf_venue": "MICRO",
+  "conf_title": "Revisiting Residue Codes for Modern Memories",
+  "title_score": 1.0,
+  "citations": 28,
+  "ss_title": "Revisiting Residue Codes for Modern Memories",
+  "ss_year": 2021,
+  "ss_venue": "Micro"
+ },
+ "HPCA 2022::HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols": {
+  "dblp_key": "conf/hpca/OswaldNSGOC22",
+  "conf_venue": "HPCA",
+  "conf_title": "HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols",
+  "title_score": 1.0,
+  "citations": 14,
+  "ss_title": "HeteroGen: Automatic Synthesis of Heterogeneous Cache Coherence Protocols",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "MICRO 2022::Online Code Layout Optimizations via OCOLOS": {
+  "dblp_key": "conf/micro/ZhangKPKLD22",
+  "conf_venue": "MICRO",
+  "conf_title": "OCOLOS: Online COde Layout OptimizationS",
+  "title_score": 0.7804878048780488,
+  "citations": 9,
+  "ss_title": "OCOLOS: Online COde Layout OptimizationS",
+  "ss_year": 2022,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2022::IOCost: Block Input-Output Control for Containers in Datacenters": {
+  "dblp_key": "conf/asplos/HeoSNLDNBMT022",
+  "conf_venue": "ASPLOS",
+  "conf_title": "IOCost: block IO control for containers in datacenters",
+  "title_score": 0.9137931034482759,
+  "citations": 20,
+  "ss_title": "IOCost: block IO control for containers in datacenters",
+  "ss_year": 2022,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2022::EyeCoD: Eye Tracking System Acceleration via FlatCam-Based Algorithm and Hardwar": {
+  "dblp_key": "conf/isca/YouWZYFYWZZLBVL22",
+  "conf_venue": "ISCA",
+  "conf_title": "EyeCoD: eye tracking system acceleration via flatcam-based algorithm &amp; accelerator co-design",
+  "title_score": 0.9081081081081082,
+  "citations": 14,
+  "ss_title": "EyeCoD: eye tracking system acceleration via flatcam-based algorithm & accelerator co-design",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "MICRO 2022::Toward Developing High-Performance RISC-V Processors Using Agile Methodology": {
+  "dblp_key": "conf/micro/XuYTCCGJLLLLLLT22",
+  "conf_venue": "MICRO",
+  "conf_title": "Towards Developing High Performance RISC-V Processors Using Agile Methodology",
+  "title_score": 0.9803921568627451,
+  "citations": 97,
+  "ss_title": "Towards Developing High Performance RISC-V Processors Using Agile Methodology",
+  "ss_year": 2022,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2022::Architectural CO2 Footprint Tool: Designing Sustainable Computer Systems With an": {
+  "dblp_key": "conf/isca/GuptaEHWL0W22",
+  "conf_venue": "ISCA",
+  "conf_title": "ACT: designing sustainable computer systems with an architectural carbon modeling tool",
+  "title_score": 0.8542713567839196,
+  "citations": 243,
+  "ss_title": "ACT: designing sustainable computer systems with an architectural carbon modeling tool",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "HPCA 2022::SupermarQ: A Scalable Quantum Benchmark Suite": {
+  "dblp_key": "conf/hpca/TomeshGORSVWHMC22",
+  "conf_venue": "HPCA",
+  "conf_title": "SupermarQ: A Scalable Quantum Benchmark Suite",
+  "title_score": 1.0,
+  "citations": 178,
+  "ss_title": "SupermarQ: A Scalable Quantum Benchmark Suite",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ASPLOS 2022::FlexDriver: A Network Driver for Your Accelerator": {
+  "dblp_key": "conf/asplos/EranFMSCHLLS22",
+  "conf_venue": "ASPLOS",
+  "conf_title": "FlexDriver: a network driver for your accelerator",
+  "title_score": 1.0,
+  "citations": 20,
+  "ss_title": "FlexDriver: a network driver for your accelerator",
+  "ss_year": 2022,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2022::Taurus: A Data Plane Architecture for Per-Packet ML": {
+  "dblp_key": "conf/asplos/SwamyR0GO22",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Taurus: a data plane architecture for per-packet ML",
+  "title_score": 1.0,
+  "citations": 114,
+  "ss_title": "Taurus: a data plane architecture for per-packet ML",
+  "ss_year": 2020,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2022::A Software-Defined Tensor Streaming Multiprocessor for Large-Scale Machine Learn": {
+  "dblp_key": "conf/isca/AbtsKLKBBPADHTB22",
+  "conf_venue": "ISCA",
+  "conf_title": "A software-defined tensor streaming multiprocessor for large-scale machine learning",
+  "title_score": 1.0,
+  "citations": 64,
+  "ss_title": "A software-defined tensor streaming multiprocessor for large-scale machine learning",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2022::EDAM: Edit Distance Tolerant Approximate Matching Content Addressable Memory": {
+  "dblp_key": "conf/isca/HanhanGJTLY22",
+  "conf_venue": "ISCA",
+  "conf_title": "EDAM: edit distance tolerant approximate matching content addressable memory",
+  "title_score": 1.0,
+  "citations": 34,
+  "ss_title": "EDAM: edit distance tolerant approximate matching content addressable memory",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2022::Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model": {
+  "dblp_key": "conf/isca/LustigCG22",
+  "conf_venue": "ISCA",
+  "conf_title": "Mixed-proxy extensions for the NVIDIA PTX memory consistency model: industrial product",
+  "title_score": 0.8741721854304636,
+  "citations": 6,
+  "ss_title": "Mixed-proxy extensions for the NVIDIA PTX memory consistency model: industrial product",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2022::Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore": {
+  "dblp_key": "conf/isca/Orenes-VeraMB0A22",
+  "conf_venue": "ISCA",
+  "conf_title": "Tiny but mighty: designing and realizing scalable latency tolerance for manycore SoCs",
+  "title_score": 1.0,
+  "citations": 28,
+  "ss_title": "Tiny but mighty: designing and realizing scalable latency tolerance for manycore SoCs",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2022::Lukewarm Serverless Functions: Characterization and Optimization": {
+  "dblp_key": "conf/isca/SchallMUSG22",
+  "conf_venue": "ISCA",
+  "conf_title": "Lukewarm serverless functions: characterization and optimization",
+  "title_score": 1.0,
+  "citations": 39,
+  "ss_title": "Lukewarm serverless functions: characterization and optimization",
+  "ss_year": 2022,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2022::SNS's Not a Synthesizer: A Deep-Learning-Based Synthesis Predictor": {
+  "dblp_key": "conf/isca/XuKW22",
+  "conf_venue": "ISCA",
+  "conf_title": "SNS&apos;s not a synthesizer: a deep-learning-based synthesis predictor",
+  "citations": null,
+  "error": "404"
+ },
+ "MICRO 2022::ANT: Exploiting Adaptive Numerical Data Type for Low-Bit Deep Neural Network Qua": {
+  "dblp_key": "conf/micro/00030LL0LG022",
+  "conf_venue": "MICRO",
+  "conf_title": "ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization",
+  "title_score": 1.0,
+  "citations": 106,
+  "ss_title": "ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization",
+  "ss_year": 2022,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2022::Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles": {
+  "dblp_key": "conf/micro/KrishnanWBWFNW022",
+  "conf_venue": "MICRO",
+  "conf_title": "Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles",
+  "title_score": 1.0,
+  "citations": 29,
+  "ss_title": "Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles",
+  "ss_year": 2022,
+  "ss_venue": "Micro"
+ },
+ "MICRO 2022::Datamime: Generating Representative Benchmarks by Automatically Synthesizing Dat": {
+  "dblp_key": "conf/micro/Lee022",
+  "conf_venue": "MICRO",
+  "conf_title": "Datamime: Generating Representative Benchmarks by Automatically Synthesizing Datasets",
+  "title_score": 1.0,
+  "citations": 3,
+  "ss_title": "Datamime: Generating Representative Benchmarks by Automatically Synthesizing Datasets",
+  "ss_year": 2022,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2023::Decoupled vector runahead for prefetching nested memory-access chains": {
+  "dblp_key": "conf/micro/NaithaniR00E23",
+  "conf_venue": "MICRO",
+  "conf_title": "Decoupled Vector Runahead",
+  "title_score": 0.5319148936170213,
+  "citations": 27,
+  "ss_title": "Decoupled Vector Runahead",
+  "ss_year": 2023,
+  "ss_venue": "Micro"
+ },
+ "ISCA 2023::End-to-end cloud application cloning with Ditto": {
+  "dblp_key": "conf/asplos/Liang0LTDKD23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Ditto: End-to-End Application Cloning for Networked Cloud Services",
+  "title_score": 0.5892857142857143,
+  "citations": 13,
+  "ss_title": "Ditto: End-to-End Application Cloning for Networked Cloud Services",
+  "ss_year": 2023,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2023::Contiguitas: The pursuit of physical memory contiguity in data centers": {
+  "dblp_key": "conf/isca/ZhaoXWSYMWRST023",
+  "conf_venue": "ISCA",
+  "conf_title": "Contiguitas: The Pursuit of Physical Memory Contiguity in Datacenters",
+  "citations": null,
+  "error": "404"
+ },
+ "ASPLOS 2023::Mosaic pages: Big TLB reach with small pages": {
+  "dblp_key": "conf/asplos/GosakanHKMMSTWB23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Mosaic Pages: Big TLB Reach with Small Pages",
+  "title_score": 1.0,
+  "citations": 29,
+  "ss_title": "Mosaic Pages: Big TLB Reach With Small Pages",
+  "ss_year": 2023,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2023::RowPress vulnerability in modern DRAM chips": {
+  "dblp_key": "conf/isca/LuoOYTRCLSM23",
+  "conf_venue": "ISCA",
+  "conf_title": "RowPress: Amplifying Read Disturbance in Modern DRAM Chips",
+  "title_score": 0.68,
+  "citations": 91,
+  "ss_title": "RowPress: Amplifying Read Disturbance in Modern DRAM Chips",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "USENIX Security 2023::Hardware-assisted fault isolation: Going beyond the limits of software-based san": {
+  "dblp_key": "conf/asplos/NarayanGTRM0FVL23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI",
+  "title_score": 0.44565217391304346,
+  "citations": 33,
+  "ss_title": "Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI",
+  "ss_year": 2023,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2023::Programmable olfactory computing": {
+  "dblp_key": "conf/isca/BleierWV023",
+  "conf_venue": "ISCA",
+  "conf_title": "Programmable Olfactory Computing",
+  "title_score": 1.0,
+  "citations": 1,
+  "ss_title": "Programmable Olfactory Computing",
+  "ss_year": 2023,
+  "ss_venue": "IEEE Micro"
+ },
+ "ISCA 2023::AuRORA: A full-stack solution for scalable and virtualized accelerator integrati": {
+  "dblp_key": "conf/micro/KimZANS23",
+  "conf_venue": "MICRO",
+  "conf_title": "AuRORA: Virtualized Accelerator Orchestration for Multi-Tenant Workloads",
+  "title_score": 0.5,
+  "citations": 20,
+  "ss_title": "AuRORA: Virtualized Accelerator Orchestration for Multi-Tenant Workloads",
+  "ss_year": 2023,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2023::Distributed brain-computer interfacing with a networked multiaccelerator archite": {
+  "dblp_key": "conf/isca/SriramPGUYMKB23",
+  "conf_venue": "ISCA",
+  "conf_title": "SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing",
+  "title_score": 0.44970414201183434,
+  "citations": 10,
+  "ss_title": "SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2023::Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine": {
+  "dblp_key": "conf/asplos/Xiao023",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers",
+  "title_score": 1.0,
+  "citations": 17,
+  "ss_title": "Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers",
+  "ss_year": 2022,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ISCA 2023::Astrea: Accurate Quantum Error-Decoding Via Practical Minimum-Weight Perfect-Mat": {
+  "dblp_key": "conf/isca/Vittal0Q23",
+  "conf_venue": "ISCA",
+  "conf_title": "Astrea: Accurate Quantum Error-Decoding via Practical Minimum-Weight Perfect-Matching",
+  "title_score": 1.0,
+  "citations": 57,
+  "ss_title": "Astrea: Accurate Quantum Error-Decoding via Practical Minimum-Weight Perfect-Matching",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2023::SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM": {
+  "dblp_key": "conf/isca/GerogiannisYLCM23",
+  "conf_venue": "ISCA",
+  "conf_title": "SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM",
+  "title_score": 1.0,
+  "citations": 27,
+  "ss_title": "SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ISCA 2023::μManycore: A Cloud-Native CPU for Tail at Scale": {
+  "dblp_key": "conf/isca/StojkovicLST23",
+  "conf_venue": "ISCA",
+  "conf_title": "μManycore: A Cloud-Native CPU for Tail at Scale",
+  "title_score": 1.0,
+  "citations": 16,
+  "ss_title": "μManycore: A Cloud-Native CPU for Tail at Scale",
+  "ss_year": 2023,
+  "ss_venue": "International Symposium on Computer Architecture"
+ },
+ "ASPLOS 2023::Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters": {
+  "dblp_key": "conf/asplos/AcunLKMGC0W23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",
+  "title_score": 1.0,
+  "citations": 166,
+  "ss_title": "Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",
+  "ss_year": 2022,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2023::Space Microdatacenters": {
+  "dblp_key": "conf/micro/BleierMS023",
+  "conf_venue": "MICRO",
+  "conf_title": "Space Microdatacenters",
+  "title_score": 1.0,
+  "citations": 1,
+  "ss_title": "Architecting Space Microdatacenters: A System-level Approach",
+  "ss_year": 2025,
+  "ss_venue": "International Symposium on High-Performance Computer Architecture"
+ },
+ "ASPLOS 2023::Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic": {
+  "dblp_key": "conf/asplos/Zhao0FT23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes",
+  "title_score": 1.0,
+  "citations": 9,
+  "ss_title": "Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes",
+  "ss_year": 2023,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2023::Pond: CXL-Based Memory Pooling Systems for Cloud Platforms": {
+  "dblp_key": "conf/asplos/LiBHEZNSRLAHFB23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms",
+  "title_score": 1.0,
+  "citations": 429,
+  "ss_title": "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms",
+  "ss_year": 2022,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "ASPLOS 2023::TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory": {
+  "dblp_key": "conf/asplos/MarufWDWABPCKC23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory",
+  "title_score": 1.0,
+  "citations": 300,
+  "ss_title": "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory",
+  "ss_year": 2022,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2023::Clockhands: Rename-Free Instruction Set Architecture for Out-of-Order Processors": {
+  "dblp_key": "conf/micro/0001SSADKIS23",
+  "conf_venue": "MICRO",
+  "conf_title": "Clockhands: Rename-free Instruction Set Architecture for Out-of-order Processors",
+  "title_score": 1.0,
+  "citations": 3,
+  "ss_title": "Clockhands: Rename-free Instruction Set Architecture for Out-of-order Processors",
+  "ss_year": 2023,
+  "ss_venue": "Micro"
+ },
+ "ASPLOS 2023::MP-Rec: Hardware-Software Co-design to Enable Multi-Path Recommendation": {
+  "dblp_key": "conf/asplos/HsiaGAAZW0W23",
+  "conf_venue": "ASPLOS",
+  "conf_title": "MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation",
+  "title_score": 1.0,
+  "citations": 20,
+  "ss_title": "MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation",
+  "ss_year": 2023,
+  "ss_venue": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+ },
+ "MICRO 2023::TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators": {
+  "dblp_key": "conf/micro/NayakOUFPE23",
+  "conf_venue": "MICRO",
+  "conf_title": "TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators",
+  "title_score": 1.0,
+  "citations": 27,
+  "ss_title": "TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators",
+  "ss_year": 2023,
+  "ss_venue": "Micro"
+ }
+}
