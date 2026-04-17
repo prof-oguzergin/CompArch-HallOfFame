@@ -1,6 +1,6 @@
 // Computer Architecture Hall of Fame — Data
 // Sources: IEEE TCCA (HPCA), ACM SIGMICRO (MICRO), UW-Madison (ISCA), Princeton (ASPLOS)
-// Last updated: 16 April 2026
+// Last updated: 17 April 2026
 
 const DATA = {
 hpca: [
@@ -1387,6 +1387,8 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"17 Apr 2026",text:"Hall of Citations: Top 20 most-cited papers added to Top Picks and Honorable Mentions tabs (collapsible). Citation counts from Semantic Scholar for all 391 TP+HM papers (100% coverage). Fixed μManycore authors. Top 3: Dark Silicon (2166), Catapult FPGA (1223), Foreshadow (1167)."},
+  {date:"17 Apr 2026",text:"Acceptance Rates tab added: submission counts and acceptance rates for 4 venues (1995\u20132026) via Chart.js, plus dual heatmap tables. Data from csconferences + OpenAccept."},
   {date:"16 Apr 2026",text:"Added 23 new HoF members via DBLP SPARQL: HPCA +5, ASPLOS +21, MICRO +1, ISCA +1. Total: 259 researchers."},
   {date:"15 Apr 2026",text:"HPCA/ASPLOS 2026 data added. Top Picks HM authors completed (130 entries). Institution filter added."},
   {date:"8 Apr 2026",text:"Cross-venue counts verified. All 235 DBLP PIDs completed. Affiliation shown in all tabs."},
