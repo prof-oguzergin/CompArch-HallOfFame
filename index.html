@@ -232,6 +232,13 @@
     </div>
     <div class="tab-panel" id="panel-hm">
         <div class="conf-info"><strong>IEEE Micro Top Picks &mdash; Honorable Mentions</strong> &mdash; Each year ~12 papers receive Honorable Mention alongside the Top Picks selection. The HM category was introduced in 2014 for the first time (Top Picks issues from 2003&ndash;2013 did not include Honorable Mentions). &middot; Data as of: 16 Apr 2026</div>
+        <style>#hm-hoc-wrap { max-height:0; overflow:hidden; transition: max-height 0.4s ease; } #hm-hoc-wrap.open { max-height: 2000px; }</style>
+        <button class="hoc-toggle" onclick="this.classList.toggle('open');document.getElementById('hm-hoc-wrap').classList.toggle('open')">🏆 Hall of Citations — Top 20 Most-Cited Honorable Mentions <span class="hoc-arrow">▸</span></button>
+        <div id="hm-hoc-wrap">
+            <div class="heatmap-wrap"><table class="simple-table" id="table-hm-hall-of-citations"><thead><tr>
+                <th style="width:36px">#</th><th style="width:60px">Year</th><th>Title</th><th>Authors</th><th style="width:100px">Conference</th><th style="width:80px;text-align:right">Citations</th>
+            </tr></thead><tbody></tbody></table></div>
+        </div>
         <h3 style="color:var(--text-muted);margin:1rem 0 0.5rem;font-size:1.1rem">Conference Breakdown by Year</h3>
         <div class="heatmap-wrap"><table class="simple-table" id="table-hm-confyear"><thead><tr id="hm-confyear-header"></tr></thead><tbody id="hm-confyear-body"></tbody></table></div>
         <h3 style="color:var(--text-muted);margin:1rem 0 0.5rem;font-size:1.1rem">Researcher Summary</h3>
@@ -663,6 +670,24 @@ function toggleHMAll() { hmShowAll = !hmShowAll; renderHM(); }
 function renderHM() {
     const filter = document.getElementById('searchBox').value.toLowerCase();
     const hmPapers = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.authors && p.authors.length > 0 && (!filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter)));
+
+    // Hall of Citations for HM: Top 20 most-cited (no search filter)
+    const allHM = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.cites != null);
+    const topCitedHM = allHM.slice().sort((a,b) => b.cites - a.cites).slice(0, 20);
+    const hocHMBody = document.querySelector('#table-hm-hall-of-citations tbody');
+    if (hocHMBody) {
+        hocHMBody.innerHTML = topCitedHM.map((p, i) => {
+            const rankBg = i===0 ? 'background:rgba(251,191,36,0.15)' : i===1 ? 'background:rgba(203,213,225,0.1)' : i===2 ? 'background:rgba(180,83,9,0.12)' : '';
+            return `<tr style="${rankBg}">
+                <td class="rank-cell" style="text-align:center">${medal(i+1)}</td>
+                <td style="font-weight:600">${p.year}</td>
+                <td style="font-size:0.85rem">${p.title}</td>
+                <td class="tp-authors" style="font-size:0.8rem">${p.authors.join(', ')}</td>
+                <td style="font-size:0.8rem;color:var(--text-muted)">${p.conf}</td>
+                <td style="text-align:right;font-weight:700;${citeColor(p.cites)};font-size:0.95rem">${formatCites(p.cites)}</td>
+            </tr>`;
+        }).join('');
+    }
     const {list: authorList, allYears: hmYears} = buildHMAuthors();
     const authorData = authorList.filter(a => (!filter || a.name.toLowerCase().includes(filter)) && matchesInst(a.name));
     const HM_THRESHOLD = 3;
