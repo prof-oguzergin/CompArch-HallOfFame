@@ -386,14 +386,21 @@ function buildCombined() {
         if (m[k]) m[k].hm = count;
     });
     const gs = DATA.gs || {};
+    // Build normalized GS lookup
+    const gsByNorm = {};
+    Object.entries(gs).forEach(([name, data]) => { gsByNorm[norm(name)] = data; });
     return Object.values(m).map(e => {
         const total = e.hpca + e.micro + e.isca + e.asplos;
         const vc = [e.hpca,e.micro,e.isca,e.asplos].filter(x=>x>=8).length;
         const nm = bestName(e.names);
-        // Try GS lookup by all name variants
+        // Try GS lookup by direct name, variants, then normalized
         let gsData = gs[nm];
         if (!gsData) {
             for (const n of e.names) { if (gs[n]) { gsData = gs[n]; break; } }
+        }
+        if (!gsData) gsData = gsByNorm[norm(nm)];
+        if (!gsData) {
+            for (const n of e.names) { if (gsByNorm[norm(n)]) { gsData = gsByNorm[norm(n)]; break; } }
         }
         const h = gsData ? gsData.h : null;
         const i10 = gsData ? gsData.i10 : null;
