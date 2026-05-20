@@ -16,8 +16,9 @@
     "source": "dblp-xml"
   },
   "Yuan Xie": {
-    "verified": "2026-04-16",
-    "source": "dblp-xml"
+    "verified": "2026-05-20",
+    "source": "dblp-xml+author-confirmation",
+    "notes": "HPCA 17 -> 19 after author confirmation (yuanxie@ust.hk, 20 May 2026). 2 papers under undisambiguated DBLP PID 157/8128 are also his (HPCA 2020 EFLOPS, HPCA 2025 C4, both Alibaba era). Author asked DBLP to merge. SECOND flag on this researcher: Nam Sung Kim (nskim@illinois.edu, 15 Apr 2026) earlier noted ASPLOS=14 per DBLP. If a 3rd flag arrives, recheck disambiguation across all 4 venues + Top Picks."
   },
   "Scott A. Mahlke": {
     "verified": "2026-04-16",
