@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Computer Architecture Hall of Fame">
+  <rect width="100" height="100" rx="22" fill="#0f172a"/>
+  <g fill="#f59e0b">
+    <rect x="33" y="13" width="5" height="11" rx="1.5"/>
+    <rect x="47.5" y="13" width="5" height="11" rx="1.5"/>
+    <rect x="62" y="13" width="5" height="11" rx="1.5"/>
+    <rect x="33" y="76" width="5" height="11" rx="1.5"/>
+    <rect x="47.5" y="76" width="5" height="11" rx="1.5"/>
+    <rect x="62" y="76" width="5" height="11" rx="1.5"/>
+    <rect x="13" y="33" width="11" height="5" rx="1.5"/>
+    <rect x="13" y="47.5" width="11" height="5" rx="1.5"/>
+    <rect x="13" y="62" width="11" height="5" rx="1.5"/>
+    <rect x="76" y="33" width="11" height="5" rx="1.5"/>
+    <rect x="76" y="47.5" width="11" height="5" rx="1.5"/>
+    <rect x="76" y="62" width="11" height="5" rx="1.5"/>
+  </g>
+  <rect x="24" y="24" width="52" height="52" rx="9" fill="#1e293b" stroke="#f59e0b" stroke-width="4"/>
+  <path d="M50 32 L54.7 45.5 L69 45.8 L57.6 54.5 L61.8 68.2 L50 60 L38.2 68.2 L42.4 54.5 L31 45.8 L45.3 45.5 Z" fill="#fbbf24"/>
+</svg>
