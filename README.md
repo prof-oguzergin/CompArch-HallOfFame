@@ -4,7 +4,7 @@ A unified Hall of Fame page for top computer architecture conferences: **HPCA**,
 
 ## Live Site
 
-Visit: [https://oguzergin.github.io/CompArch-HallOfFame/](https://oguzergin.github.io/CompArch-HallOfFame/)
+Visit: [https://comparch.oguzergin.net](https://comparch.oguzergin.net)
 
 ## Features
 
