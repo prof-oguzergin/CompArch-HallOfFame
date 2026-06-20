@@ -47,6 +47,9 @@ Bir kişi herhangi bir venue'da 8+ eşiğini geçip listeye girince, SADECE o ve
 3. **affiliation ekle**: `affiliations` bölümüne `{inst:"...",pid:"..."}`.
 Aksi halde site o kişiyi eksik gösterir (h-index/atıf/cross-venue boş kalır). Örnek: Jovan Stojkovic (20 Haz 2026) bu prosedürle tamamlandı.
 
+## ⚠️ Konferans programı çekme: WebFetch DEĞİL, ham HTML
+Konferans program sayfalarını (ISCA/MICRO vb. kabul listesi) WebFetch ile çekme: WebFetch içeriği ~50KB'a TRUNCATE ediyor, yazar listelerini sessizce kırpıyor. 20 Haz 2026'da ISCA 2026 programını WebFetch ile çektim, ~19 yazar (Nika Mansouri-Ghiasi dahil) eksik geldi; hem yeni giren kaçtı hem mevcut üyelerin 2026 sayıları yanlış oldu. DOĞRU yöntem: `curl -sL -H "User-Agent: Mozilla/5.0" URL -o sayfa.html` (ham HTML, ISCA için ~224KB) → `<div class="paper-title">` + `<div class="paper-authors">` bloklarını parse et. Yazar ayırırken affiliation içindeki virgüle dikkat (split `') , '` deseni). Sayım için isim eşleştirmesi otomatik scriptlerle (nickname/initial-tolerant) GÜVENİLMEZ; değişen/şüpheli isimleri ham HTML'de makale+affiliation bazlı ELLE doğrula (ör. "Rakesh Kumar (NTNU)" ≠ bizim UIUC Rakesh Kumar; "A. Giray" = "Abdullah Giray").
+
 ## Yapılacaklar
 ### Tamamlananlar
 - [x] **PID'leri tamamla**: 235/235 tamamlandı

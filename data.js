@@ -244,7 +244,7 @@ isca: [
   {name:"Babak Falsafi",total:24,y:{1993:1,1996:1,1997:1,1999:2,2000:1,2001:1,2003:2,2005:1,2006:1,2007:1,2008:1,2009:2,2012:1,2013:1,2015:1,2017:1,2020:1,2021:1,2023:1,2025:2}},
   {name:"Frederic T. Chong",total:24,y:{1994:1,1998:1,2000:1,2003:1,2004:1,2006:1,2008:1,2009:1,2011:2,2013:2,2016:1,2017:1,2018:1,2019:1,2020:2,2021:1,2023:2,2025:2,2026:1}},
   {name:"Jim Smith",total:23,y:{1981:1,1982:1,1983:1,1984:1,1985:1,1986:1,1993:1,1997:1,1998:1,2000:2,2001:1,2002:2,2004:1,2005:1,2006:1,2007:3,2014:1,2018:1,2021:1}},
-  {name:"Yuan Xie",total:25,y:{2006:1,2007:1,2008:1,2009:1,2011:2,2014:1,2016:4,2017:1,2020:4,2022:4,2023:1,2025:2,2026:2}},
+  {name:"Yuan Xie",total:26,y:{2006:1,2007:1,2008:1,2009:1,2011:2,2014:1,2016:4,2017:1,2020:4,2022:4,2023:1,2025:2,2026:3}},
   {name:"David A. Wood",total:22,y:{1985:1,1986:1,1989:1,1993:1,1994:1,1995:1,1996:2,1997:1,1998:1,1999:1,2002:1,2003:2,2004:1,2007:1,2008:1,2010:2,2014:1,2017:1,2020:1}},
   {name:"Nam Sung Kim",total:23,y:{2002:1,2013:1,2014:2,2015:1,2018:2,2019:1,2020:1,2021:3,2022:1,2023:1,2024:3,2025:5,2026:1}},
   {name:"Norman P. Jouppi",total:22,y:{1989:1,1990:1,1992:1,1993:1,1994:2,1997:2,1999:1,2000:1,2002:1,2004:1,2007:1,2008:2,2010:1,2011:2,2012:1,2017:1,2021:1,2023:1}},
@@ -279,7 +279,7 @@ isca: [
   {name:"Anoop Gupta",total:14,y:{1986:1,1988:1,1989:1,1990:2,1991:1,1992:3,1993:1,1994:1,1995:1,1997:1,1998:1}},
   {name:"Gabriel H. Loh",total:14,y:{2000:1,2007:1,2008:1,2009:1,2010:1,2012:1,2013:1,2017:1,2018:3,2021:1,2023:1,2024:1}},
   {name:"Mikko H. Lipasti",total:14,y:{2000:1,2002:2,2003:1,2004:2,2005:1,2008:1,2009:1,2011:2,2015:1,2017:2}},
-  {name:"Wen-Mei W. Hwu",total:14,y:{1986:1,1987:1,1988:1,1989:2,1991:1,1993:1,1995:1,1997:1,1998:1,1999:2,2000:1,2004:1}},
+  {name:"Wen-Mei W. Hwu",total:15,y:{1986:1,1987:1,1988:1,1989:2,1991:1,1993:1,1995:1,1997:1,1998:1,1999:2,2000:1,2004:1,2026:1}},
   {name:"Anand Sivasubramaniam",total:14,y:{2002:1,2003:1,2004:1,2005:1,2007:1,2011:1,2013:1,2015:1,2016:1,2019:1,2020:1,2022:1,2023:1,2026:1}},
   {name:"David Brooks",total:14,y:{2000:1,2005:1,2008:1,2009:1,2014:2,2015:1,2016:1,2020:2,2022:1,2024:2,2026:1}},
   {name:"Edward S. Davidson",total:13,y:{1976:1,1977:1,1980:1,1983:1,1984:1,1985:2,1986:1,1988:1,1993:2,1998:1,2001:1}},
@@ -296,7 +296,7 @@ isca: [
   {name:"Lieven Eeckhout",total:12,y:{2004:1,2010:1,2012:2,2013:1,2015:1,2018:1,2019:1,2021:1,2023:2,2025:1}},
   {name:"Mark Oskin",total:12,y:{1998:1,2000:1,2003:1,2005:1,2006:1,2007:1,2008:2,2018:2,2021:1,2024:1}},
   {name:"Michel Dubois",total:13,y:{1981:2,1982:1,1986:1,1987:1,1993:2,1994:1,1998:2,1999:1,2009:1,2011:1}},
-  {name:"Rakesh Kumar",total:14,y:{2004:1,2005:1,2016:2,2017:1,2018:1,2020:1,2022:2,2023:2,2024:1,2026:2}},
+  {name:"Rakesh Kumar",total:12,y:{2004:1,2005:1,2016:2,2017:1,2018:1,2020:1,2022:2,2023:2,2024:1}},
   {name:"Reetuparna Das",total:12,y:{2007:1,2008:1,2010:1,2013:1,2017:2,2018:2,2019:1,2021:1,2023:1,2025:1}},
   {name:"Satish Narayanasamy",total:12,y:{2005:1,2009:1,2012:1,2013:1,2015:1,2017:2,2018:1,2019:1,2020:1,2021:1,2023:1}},
   {name:"Shaojun Wei",total:12,y:{2017:1,2018:1,2020:1,2021:1,2022:1,2023:4,2024:2,2025:1}},
@@ -358,7 +358,7 @@ isca: [
   {name:"Simha Sethumadhavan",total:9,y:{2007:1,2011:1,2012:2,2013:1,2016:1,2018:1,2021:2}},
   {name:"Tushar Krishna",total:10,y:{2014:1,2018:3,2021:1,2022:1,2024:1,2025:2,2026:1}},
   {name:"Xuehai Qian",total:9,y:{2014:2,2019:3,2020:1,2021:3}},
-  {name:"A. Giray Yaglikci",total:9,y:{2019:1,2020:3,2021:2,2023:1,2025:1,2026:1}},
+  {name:"A. Giray Yaglikci",total:11,y:{2019:1,2020:3,2021:2,2023:1,2025:1,2026:3}},
   {name:"Carole-Jean Wu",total:9,y:{2015:1,2017:1,2020:3,2022:2,2024:1,2026:1}},
   {name:"Chris Wilkerson",total:8,y:{1998:1,2001:1,2003:1,2008:1,2010:1,2011:1,2013:1,2014:1}},
   {name:"Christopher J. Hughes",total:9,y:{2001:2,2004:1,2007:2,2008:1,2011:1,2022:1,2026:1}},
@@ -400,6 +400,7 @@ isca: [
   {name:"Yiran Chen",total:8,y:{2020:1,2022:1,2024:1,2025:4,2026:1}},
   {name:"Xiaoyao Liang",total:8,y:{2008:1,2010:1,2013:1,2015:1,2016:1,2020:1,2024:1,2026:1}},
   {name:"Alper Buyuktosunoglu",total:8,y:{2003:1,2008:1,2010:1,2020:1,2021:1,2022:1,2024:1,2026:1}},
+  {name:"Nika Mansouri-Ghiasi",total:8,y:{2018:1,2019:1,2021:1,2022:1,2023:1,2024:1,2025:1,2026:1}},
 ],
 asplos: [
   {name:"Josep Torrellas",total:25,y:{1992:1,2002:1,2006:1,2008:2,2009:1,2013:3,2014:1,2015:1,2016:2,2019:1,2020:1,2021:2,2022:2,2023:1,2024:3,2025:2}},
@@ -489,6 +490,7 @@ asplos: [
 ],
 // Researcher affiliations and DBLP PIDs
 affiliations: {
+  "Nika Mansouri-Ghiasi": {inst:"ETH Zurich",pid:"205/1623"},
   "Jovan Stojkovic": {inst:"UT Austin",pid:"252/3245"},
   "Onur Mutlu": {inst:"ETH Zurich",pid:"m/OnurMutlu"},
   "Josep Torrellas": {inst:"UIUC",pid:"t/JosepTorrellas"},
@@ -754,6 +756,7 @@ affiliations: {
 // Cross-venue counts for HoF members at venues where they have <8 papers
 // These are NOT in that venue's HoF but we show the count in the combined table
 crossvenue: {
+  "Nika Mansouri-Ghiasi": {hpca:4,micro:3,asplos:2},
   "Jovan Stojkovic": {hpca:5,micro:2,asplos:2},
   "A. Giray Yağlıkçı": {micro:7},
   "Aamer Jaleel": {asplos:2},
@@ -1400,7 +1403,8 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
-  {date:"20 Jun 2026",text:"ISCA 2026 new entrants: 11 researchers crossed the 8-paper ISCA threshold and joined the HoF (DBLP PID-verified, ISCA 2026 from program page). New members: Mingyu Gao (10), Jovan Stojkovic (10), Ang Li (9), Jingwen Leng (9), Hai Jin (9), Haibo Chen (8), Yun Liang (8), Benjamin C. Lee (8), Yiran Chen (8), Xiaoyao Liang (8), Alper Buyuktosunoglu (8). ISCA HoF now 163."},
+  {date:"20 Jun 2026",text:"ISCA 2026 program re-parsed from the full source (the initial copy was truncated, missing ~19 authors). Added a 12th new entrant, Nika Mansouri-Ghiasi (8), and corrected 2026 counts for existing members: A. Giray Yaglikci (now 11), Yuan Xie (26), Wen-Mei W. Hwu (15); removed a mis-attributed paper from Rakesh Kumar (12, the program's Rakesh Kumar is a different person at NTNU). ISCA HoF now 164."},
+  {date:"20 Jun 2026",text:"ISCA 2026 new entrants: 12 researchers crossed the 8-paper ISCA threshold and joined the HoF (DBLP PID-verified, ISCA 2026 from program page). New members: Mingyu Gao (10), Jovan Stojkovic (10), Ang Li (9), Jingwen Leng (9), Hai Jin (9), Nika Mansouri-Ghiasi (8), Haibo Chen (8), Yun Liang (8), Benjamin C. Lee (8), Yiran Chen (8), Xiaoyao Liang (8), Alper Buyuktosunoglu (8)."},
   {date:"20 Jun 2026",text:"ISCA 2026 added (PROVISIONAL, from program page, not yet DBLP-verified): 41 existing HoF members gained ISCA 2026 papers (67 paper-slots). Top gainers: Onur Mutlu +7, Guangyu Sun +5, Won Woo Ro +4. Counts will be reconciled once ISCA 2026 appears on DBLP."},
   {date:"17 Apr 2026",text:"Hall of Citations: Top 20 most-cited papers added to Top Picks and Honorable Mentions tabs (collapsible). Citation counts from Semantic Scholar for all 391 TP+HM papers. Top 3: Dark Silicon (2166), Catapult FPGA (1223), Foreshadow (1167)."},
   {date:"17 Apr 2026",text:"Acceptance Rates tab added: submission counts and acceptance rates for 4 venues (1995\u20132026) via Chart.js, plus dual heatmap tables. Data from csconferences + OpenAccept."},
@@ -1519,6 +1523,7 @@ acceptance: {
   ]
 },
 gs: {
+  "Nika Mansouri-Ghiasi":{gs:"lMuBESUAAAAJ",h:20,i10:26,c:1650,b:[6,1,0,0,0]},
   "Jovan Stojkovic":{gs:"1BcJ5ZAAAAAJ",h:13,i10:14,c:869,b:[2,1,0,0,0]},
   "A. Giray Yağlıkçı":{gs:"mt15O64AAAAJ",h:28,i10:43,c:3064,b:[10,2,0,0,0]},
   "Aamer Jaleel":{gs:"Ln3yVGoAAAAJ",h:45,i10:87,c:9894,b:[27,13,5,2,1]},
