@@ -754,6 +754,7 @@ affiliations: {
 // Cross-venue counts for HoF members at venues where they have <8 papers
 // These are NOT in that venue's HoF but we show the count in the combined table
 crossvenue: {
+  "Jovan Stojkovic": {hpca:5,micro:2,asplos:2},
   "A. Giray Yağlıkçı": {micro:7},
   "Aamer Jaleel": {asplos:2},
   "Abhishek Bhattacharjee": {hpca:3,micro:7},
@@ -1518,6 +1519,7 @@ acceptance: {
   ]
 },
 gs: {
+  "Jovan Stojkovic":{gs:"1BcJ5ZAAAAAJ",h:13,i10:14,c:869,b:[2,1,0,0,0]},
   "A. Giray Yağlıkçı":{gs:"mt15O64AAAAJ",h:28,i10:43,c:3064,b:[10,2,0,0,0]},
   "Aamer Jaleel":{gs:"Ln3yVGoAAAAJ",h:45,i10:87,c:9894,b:[27,13,5,2,1]},
   "Abhishek Bhattacharjee":{gs:"AopgnHAAAAAJ",h:38,i10:70,c:5317,b:[16,7,0,0,0]},

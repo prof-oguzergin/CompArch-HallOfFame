@@ -38,6 +38,15 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
 - `find_new_hpca.py` - Yeni HPCA HoF üyelerini bulma
 - `create_toppicks_xlsx.py` - Top Picks Excel oluşturma
 
+## Yeni HoF Üyesi Ekleme Prosedürü (HER ZAMAN uygula)
+Bir kişi herhangi bir venue'da 8+ eşiğini geçip listeye girince, SADECE o venue'yu eklemekle yetinme. Tam profil oluştur:
+1. **DBLP PID'sinden TÜM venue sayılarını çek** (hpca/micro/isca/asplos), STRICT match (`conf/isca/` ≠ `conf/iscas/`), keynote/editöryel hariç. PID ile sorgula (isim-string değil).
+   - 8+ olan venue(ler): `isca`/`hpca`/... array'ine tam entry (yıl dağılımı + `total`).
+   - <8 olan diğer venue'lar: `crossvenue` kaydına ekle (ör. `"X": {hpca:5,micro:2,asplos:2}`).
+2. **Google Scholar'dan atıf/h-index çek** → `gs` bölümüne `{gs:"ID",h:..,i10:..,c:..,b:[100+,200+,400+,800+,1000+]}`. Yöntem: `fetch_gs_stojkovic.py` (tek kişi) veya `fetch_gs_all.py` (toplu). Scholar ID'yi WebSearch ile bul.
+3. **affiliation ekle**: `affiliations` bölümüne `{inst:"...",pid:"..."}`.
+Aksi halde site o kişiyi eksik gösterir (h-index/atıf/cross-venue boş kalır). Örnek: Jovan Stojkovic (20 Haz 2026) bu prosedürle tamamlandı.
+
 ## Yapılacaklar
 ### Tamamlananlar
 - [x] **PID'leri tamamla**: 235/235 tamamlandı
