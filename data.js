@@ -242,7 +242,7 @@ isca: [
   {name:"Yale N. Patt",total:30,y:{1985:1,1986:1,1987:2,1989:1,1991:2,1992:1,1993:1,1996:1,1997:2,1998:2,1999:1,2002:1,2005:2,2006:1,2007:2,2008:1,2009:1,2010:1,2011:1,2013:1,2016:1,2020:1,2024:1,2025:1}},
   {name:"Mark D. Hill",total:25,y:{1983:1,1984:1,1986:1,1989:1,1990:1,1991:2,1992:1,1993:1,1996:1,1998:1,1999:1,2002:2,2003:3,2007:2,2008:2,2012:1,2013:1,2015:1,2016:1}},
   {name:"Babak Falsafi",total:24,y:{1993:1,1996:1,1997:1,1999:2,2000:1,2001:1,2003:2,2005:1,2006:1,2007:1,2008:1,2009:2,2012:1,2013:1,2015:1,2017:1,2020:1,2021:1,2023:1,2025:2}},
-  {name:"Frederic T. Chong",total:23,y:{1994:1,1998:1,2000:1,2003:1,2004:1,2006:1,2008:1,2009:1,2011:2,2013:2,2016:1,2017:1,2018:1,2019:1,2020:2,2021:1,2023:2,2025:2}},
+  {name:"Frederic T. Chong",total:24,y:{1994:1,1998:1,2000:1,2003:1,2004:1,2006:1,2008:1,2009:1,2011:2,2013:2,2016:1,2017:1,2018:1,2019:1,2020:2,2021:1,2023:2,2025:2,2026:1}},
   {name:"Jim Smith",total:23,y:{1981:1,1982:1,1983:1,1984:1,1985:1,1986:1,1993:1,1997:1,1998:1,2000:2,2001:1,2002:2,2004:1,2005:1,2006:1,2007:3,2014:1,2018:1,2021:1}},
   {name:"Yuan Xie",total:25,y:{2006:1,2007:1,2008:1,2009:1,2011:2,2014:1,2016:4,2017:1,2020:4,2022:4,2023:1,2025:2,2026:2}},
   {name:"David A. Wood",total:22,y:{1985:1,1986:1,1989:1,1993:1,1994:1,1995:1,1996:2,1997:1,1998:1,1999:1,2002:1,2003:2,2004:1,2007:1,2008:1,2010:2,2014:1,2017:1,2020:1}},
@@ -358,7 +358,7 @@ isca: [
   {name:"Simha Sethumadhavan",total:9,y:{2007:1,2011:1,2012:2,2013:1,2016:1,2018:1,2021:2}},
   {name:"Tushar Krishna",total:10,y:{2014:1,2018:3,2021:1,2022:1,2024:1,2025:2,2026:1}},
   {name:"Xuehai Qian",total:9,y:{2014:2,2019:3,2020:1,2021:3}},
-  {name:"A. Giray Yaglikci",total:8,y:{2019:1,2020:3,2021:2,2023:1,2025:1}},
+  {name:"A. Giray Yaglikci",total:9,y:{2019:1,2020:3,2021:2,2023:1,2025:1,2026:1}},
   {name:"Carole-Jean Wu",total:9,y:{2015:1,2017:1,2020:3,2022:2,2024:1,2026:1}},
   {name:"Chris Wilkerson",total:8,y:{1998:1,2001:1,2003:1,2008:1,2010:1,2011:1,2013:1,2014:1}},
   {name:"Christopher J. Hughes",total:9,y:{2001:2,2004:1,2007:2,2008:1,2011:1,2022:1,2026:1}},
@@ -1400,7 +1400,7 @@ toppicks_papers: [
 toppicks: [], // kept for backward compat
 updates: [
   {date:"20 Jun 2026",text:"ISCA 2026 new entrants: 11 researchers crossed the 8-paper ISCA threshold and joined the HoF (DBLP PID-verified, ISCA 2026 from program page). New members: Mingyu Gao (10), Jovan Stojkovic (10), Ang Li (9), Jingwen Leng (9), Hai Jin (9), Haibo Chen (8), Yun Liang (8), Benjamin C. Lee (8), Yiran Chen (8), Xiaoyao Liang (8), Alper Buyuktosunoglu (8). ISCA HoF now 163."},
-  {date:"20 Jun 2026",text:"ISCA 2026 added (PROVISIONAL, from program page, not yet DBLP-verified): 39 existing HoF members gained ISCA 2026 papers (65 paper-slots). Top gainers: Onur Mutlu +7, Guangyu Sun +5, Won Woo Ro +4. Counts will be reconciled once ISCA 2026 appears on DBLP."},
+  {date:"20 Jun 2026",text:"ISCA 2026 added (PROVISIONAL, from program page, not yet DBLP-verified): 41 existing HoF members gained ISCA 2026 papers (67 paper-slots). Top gainers: Onur Mutlu +7, Guangyu Sun +5, Won Woo Ro +4. Counts will be reconciled once ISCA 2026 appears on DBLP."},
   {date:"17 Apr 2026",text:"Hall of Citations: Top 20 most-cited papers added to Top Picks and Honorable Mentions tabs (collapsible). Citation counts from Semantic Scholar for all 391 TP+HM papers. Top 3: Dark Silicon (2166), Catapult FPGA (1223), Foreshadow (1167)."},
   {date:"17 Apr 2026",text:"Acceptance Rates tab added: submission counts and acceptance rates for 4 venues (1995\u20132026) via Chart.js, plus dual heatmap tables. Data from csconferences + OpenAccept."},
   {date:"16 Apr 2026",text:"Added 23 new HoF members via DBLP SPARQL: HPCA +5, ASPLOS +21, MICRO +1, ISCA +1. Total: 259 researchers."},
