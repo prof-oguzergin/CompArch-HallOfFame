@@ -825,15 +825,24 @@ if (DATA.updates && DATA.updates.length) {
         '</ul>';
 }
 
-// Tab switching
+// Tab switching with deep-linking via URL hash (e.g. #isca, #toppicks)
+const VALID_TABS = ['combined','isca','micro','asplos','hpca','toppicks','hm','acceptance'];
+function activateTab(key, updateHash = true) {
+    if (!VALID_TABS.includes(key)) key = 'combined';
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    const btn = document.querySelector(`.tab[data-tab="${key}"]`);
+    const panel = document.getElementById(`panel-${key}`);
+    if (btn) btn.classList.add('active');
+    if (panel) panel.classList.add('active');
+    if (updateHash) history.replaceState(null, '', '#' + key);
+    if (key === 'acceptance') setTimeout(renderAccChart, 50);
+}
 document.querySelectorAll('.tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-        tab.classList.add('active');
-        document.getElementById(`panel-${tab.dataset.tab}`).classList.add('active');
-    });
+    tab.addEventListener('click', () => activateTab(tab.dataset.tab));
 });
+// React to back/forward navigation between tabs
+window.addEventListener('hashchange', () => activateTab(location.hash.replace('#',''), false));
 
 // Populate institution filter
 (function populateInstFilter() {
@@ -871,6 +880,8 @@ document.querySelectorAll('.tab').forEach(tab => {
 // Init
 renderStats();
 renderAll();
+// Open the tab referenced by the URL hash (deep link), default to Combined
+activateTab(location.hash.replace('#','') || 'combined', false);
 
 // Acceptance Rates Chart
 let accChart = null;
