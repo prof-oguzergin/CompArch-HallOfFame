@@ -237,6 +237,7 @@ micro: [
   {name:"Alaa R. Alameldeen",total:8,y:{2009:1,2014:1,2017:1,2018:2,2019:1,2021:1,2024:1}}
 ],
 isca: [
+  {name:"José F. Martínez",total:8,y:{2000:1,2007:1,2008:1,2013:2,2022:1,2025:1,2026:1}},
   {name:"Onur Mutlu",total:55,y:{2005:1,2006:1,2007:1,2008:2,2009:3,2010:2,2011:2,2012:3,2013:3,2014:2,2015:4,2016:2,2017:1,2018:3,2019:2,2020:4,2021:3,2022:2,2023:2,2024:3,2025:2,2026:7}},
   {name:"Josep Torrellas",total:45,y:{1995:1,1996:1,2000:1,2001:1,2002:2,2003:2,2004:1,2006:2,2007:2,2008:2,2009:1,2011:2,2013:2,2014:2,2016:1,2017:2,2018:2,2019:3,2020:2,2021:2,2022:1,2023:3,2024:2,2025:2,2026:3}},
   {name:"Yale N. Patt",total:30,y:{1985:1,1986:1,1987:2,1989:1,1991:2,1992:1,1993:1,1996:1,1997:2,1998:2,1999:1,2002:1,2005:2,2006:1,2007:2,2008:1,2009:1,2010:1,2011:1,2013:1,2016:1,2020:1,2024:1,2025:1}},
@@ -862,7 +863,7 @@ crossvenue: {
   "Jorge Albericio": {isca:1},
   "Joseph Devietti": {hpca:1,isca:4,micro:6},
   "José Duato": {isca:3,micro:3},
-  "José F. Martínez": {asplos:4,micro:7,isca:7},
+  "José F. Martínez": {asplos:4,micro:7},
   "José-María Arnau": {hpca:2,micro:4},
   "Jun Yang": {isca:7,asplos:6},
   "Juan Gomez-Luna": {asplos:2,hpca:3,isca:6},
@@ -1403,6 +1404,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"8 Jul 2026",text:"José F. Martínez (Cornell) added to the ISCA Hall of Fame. His 2026 ISCA paper brought him to 8; he was already listed for HPCA (10). ISCA Hall of Fame now 165."},
   {date:"20 Jun 2026",text:"ISCA 2026 added. 12 researchers crossed the 8-paper ISCA threshold and joined the Hall of Fame: Mingyu Gao, Jovan Stojkovic, Ang Li, Jingwen Leng, Hai Jin, Nika Mansouri-Ghiasi, Haibo Chen, Yun Liang, Benjamin C. Lee, Yiran Chen, Xiaoyao Liang, and Alper Büyüktosunoğlu. Existing members' ISCA records were also extended through 2026. ISCA Hall of Fame now 164. Venue tabs are now directly linkable (e.g. add #isca to the URL)."},
   {date:"17 Apr 2026",text:"Two new tabs. Hall of Citations ranks the Top 20 most-cited Top Picks and Honorable Mention papers (Semantic Scholar; top 3: Dark Silicon 2166, Catapult FPGA 1223, Foreshadow 1167). Acceptance Rates shows submission counts and acceptance rates for all four venues (1995 to 2026) with charts and heatmaps."},
   {date:"16 Apr 2026",text:"Added 23 new HoF members via DBLP SPARQL: HPCA +5, ASPLOS +21, MICRO +1, ISCA +1. Total: 259 researchers."},
