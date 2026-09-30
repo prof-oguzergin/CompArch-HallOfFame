@@ -1,943 +1,1191 @@
 {
   "Onur Mutlu": {
-    "verified": "2026-04-16",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Josep Torrellas": {
-    "verified": "2026-04-16",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: MICRO 38->36 (updated; dblp PID main-track count; not counted: keynote/panel/chair message/corrigendum); ASPLOS 25->23 (updated; dblp PID main-track count; not counted: proceedings editorship, workshop paper)"
   },
   "Yale N. Patt": {
-    "verified": "2026-04-16",
-    "source": "dblp-xml+official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml+official-hof",
+    "notes": "30 Sep 2026: official count kept: MICRO 1983 absent from dblp (0 records); official SIGMICRO count kept"
   },
   "Nam Sung Kim": {
-    "verified": "2026-04-15",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Yuan Xie": {
-    "verified": "2026-05-20",
-    "source": "dblp-xml+author-confirmation",
-    "notes": "HPCA 17 -> 19 after author confirmation (yuanxie@ust.hk, 20 May 2026). 2 papers under undisambiguated DBLP PID 157/8128 are also his (HPCA 2020 EFLOPS, HPCA 2025 C4, both Alibaba era). Author asked DBLP to merge. SECOND flag on this researcher: Nam Sung Kim (nskim@illinois.edu, 15 Apr 2026) earlier noted ASPLOS=14 per DBLP. If a 3rd flag arrives, recheck disambiguation across all 4 venues + Top Picks."
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml+author-confirmation",
+    "notes": "HPCA 17 -> 19 after author confirmation (yuanxie@ust.hk, 20 May 2026). 2 papers under undisambiguated DBLP PID 157/8128 are also his (HPCA 2020 EFLOPS, HPCA 2025 C4, both Alibaba era). Author asked DBLP to merge. SECOND flag on this researcher: Nam Sung Kim (nskim@illinois.edu, 15 Apr 2026) earlier noted ASPLOS=14 per DBLP. If a 3rd flag arrives, recheck disambiguation across all 4 venues + Top Picks. | 30 Sep 2026: official count kept: 2 HPCA papers under undisambiguated 157/8128, author-confirmed 20 May 2026"
   },
   "Scott A. Mahlke": {
-    "verified": "2026-04-16",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ASPLOS 12->11 (updated; dblp PID main-track count)"
   },
   "Moinuddin K. Qureshi": {
-    "verified": "2026-04-15",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Babak Falsafi": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 12->10 (updated; dblp PID main-track count; not counted: proceedings editorship, workshop paper)"
   },
   "Frederic T. Chong": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 17->16 (updated; dblp PID main-track count; not counted: one-page abstract (keynote or CAL talk), workshop paper)"
   },
   "Wen-Mei W. Hwu": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Margaret Martonosi": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: HPCA 11->12 (updated; dblp PID main-track count); ASPLOS 14->13 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Trevor N. Mudge": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "David Brooks": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 12->7 (removed, below 8; dblp PID main-track count)"
   },
   "Dean M. Tullsen": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ISCA 17->18 (updated; dblp PID main-track count; not counted: 25-Years-ISCA retrospective/reprint, proceedings editorship)"
   },
   "Mark D. Hill": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: HPCA 12->13 (updated; dblp PID main-track count; not counted: one-page abstract (keynote or CAL talk), short invited item (<=4 pages)); ASPLOS 13->12 (updated; dblp PID main-track count; not counted: keynote/panel/chair message/corrigendum)"
   },
   "David A. Wood": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: HPCA 12->13 (updated; dblp PID main-track count); ASPLOS 12->7 (removed, below 8; dblp PID main-track count; not counted: proceedings editorship, short invited item (<=4 pages))"
   },
   "Daniel Sanchez": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Xuehai Qian": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ISCA 9->8 (updated; dblp PID main-track count); official count kept: same total, ASPLOS'23 volume-year label only"
   },
   "Lieven Eeckhout": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Thomas F. Wenisch": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 9->8 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Mahmut Taylan Kandemir": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Stephen W. Keckler": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Gurindar S. Sohi": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Christos Kozyrakis": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 19->18 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "John Kim": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: HPCA 14->15 (updated; dblp PID main-track count)"
   },
   "William J. Dally": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Chita R. Das": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Parthasarathy Ranganathan": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: HPCA 9->6 (removed, below 8; dblp PID main-track count; not counted: keynote/panel/chair message/corrigendum, one-page abstract (keynote or CAL talk), short invited item (<=4 pages)); ASPLOS 18->17 (updated; dblp PID main-track count; not counted: one-page abstract (keynote or CAL talk))"
   },
   "Gabriel H. Loh": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Mikko H. Lipasti": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Doug Burger": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jung Ho Ahn": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Aamer Jaleel": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Rajeev Balasubramonian": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Murali Annavaram": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Minsoo Rhu": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Christopher W. Fletcher": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Vijaykrishnan Narayanan": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "André Seznec": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Reetuparna Das": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Gu-Yeon Wei": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Tushar Krishna": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Rakesh Kumar": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: official count kept: same total, one paper labelled 2025 vs 2026 only"
   },
   "Natalie D. Enright Jerger": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Brad Calder": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "David I. August": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Pradip Bose": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: MICRO 8->8 (updated; dblp PID main-track count)"
   },
   "Prashant J. Nair": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Joel S. Emer": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Timothy Sherwood": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 15->14 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Antonio González": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Mateo Valero": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Yan Solihin": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Youtao Zhang": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jun Yang": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: MICRO 14->13 (updated; dblp PID main-track count)"
   },
   "Anand Sivasubramaniam": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Alper Buyuktosunoglu": {
     "verified": "2026-04-14",
     "source": "dblp-xml"
   },
   "Mattan Erez": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Hyesoon Kim": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "A. Giray Yağlıkçı": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Mohammad Sadrosadati": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Abhishek Bhattacharjee": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 14->13 (updated; dblp PID main-track count; not counted: keynote/panel/chair message/corrigendum)"
   },
   "Christina Delimitrou": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: official count kept: same total, volume-year label only"
   },
   "Luis Ceze": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 19->16 (updated; dblp PID main-track count; not counted: proceedings editorship, workshop paper)"
   },
   "Shan Lu": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ASPLOS 19->15 (updated; dblp PID main-track count; not counted: proceedings editorship, workshop paper)"
   },
   "Krste Asanovic": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Kunle Olukotun": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Sarita V. Adve": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 10->9 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Norman P. Jouppi": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "David A. Patterson": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Mark Horowitz": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Tor M. Aamodt": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Hai Jin": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Mingyu Gao": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Chao Li": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Minyi Guo": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jingwen Leng": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Xing Hu": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Qi Guo": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Jian Huang": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "James E. Smith": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jae W. Lee": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Yufei Ding": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jangwoo Kim": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Henry M. Levy": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Won Woo Ro": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Myoungsoo Jung": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Shouyi Yin": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Carole-Jean Wu": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Vijay Janapa Reddi": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Ricardo Bianchini": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 9->8 (updated; dblp PID main-track count; not counted: 25-Years-ISCA retrospective/reprint); ASPLOS 16->15 (updated; dblp PID main-track count; not counted: one-page abstract (keynote or CAL talk), proceedings editorship)"
   },
   "Boris Grot": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Hadi Esmaeilzadeh": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Daniel J. Sorin": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Kevin Skadron": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ISCA 10->8 (updated; dblp PID main-track count; not counted: proceedings editorship, workshop paper)"
   },
   "Todd M. Austin": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Karin Strauss": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Per Stenström": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "John L. Hennessy": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 8->7 (removed, below 8; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Anant Agarwal": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Arvind": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Susan J. Eggers": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Todd C. Mowry": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 10->9 (updated; dblp PID main-track count; not counted: proceedings editorship, workshop paper)"
   },
   "Kourosh Gharachorloo": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "James R. Goodman": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jean-Loup Baer": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 10->9 (updated; dblp PID main-track count; not counted: 25-Years-ISCA retrospective/reprint, proceedings editorship)"
   },
   "G. Jack Lipovski": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: official count kept: same total, dblp labels 1974 papers as 1975"
   },
   "Janak H. Patel": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Edward S. Davidson": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Howard Jay Siegel": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Michel Dubois": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 13->12 (updated; dblp PID main-track count; not counted: 25-Years-ISCA retrospective/reprint)"
   },
   "Andrew R. Pleszkun": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Pen-Chung Yew": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 9->8 (updated; dblp PID main-track count; not counted: 25-Years-ISCA retrospective/reprint)"
   },
   "John Paul Shen": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "David E. Culler": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Anoop Gupta": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 11->10 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Bob Ramakrishna Rau": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Mark Oskin": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "David Wentzlaff": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Karthikeyan Sankaralingam": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Sanjay J. Patel": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Chris Wilkerson": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Christopher J. Hughes": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Eric Rotenberg": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Gary S. Tyson": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Li-Shiuan Peh": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Ang Li": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 9->8 (updated; dblp PID main-track count)"
   },
   "Benjamin C. Lee": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Donghyuk Lee": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Michael C. Huang": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "David H. Albonesi": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Jason Mars": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Lingjia Tang": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jaehyuk Huh": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jeremie S. Kim": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Stefanos Kaxiras": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Sreenivas Subramoney": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Alberto Ros": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Ronald G. Dreslinski": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "T. N. Vijaykumar": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Nandita Vijaykumar": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Konstantinos Kanellopoulos": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Juan Gomez-Luna": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Saugata Ghose": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Eduard Ayguade": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Simha Sethumadhavan": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Shubhendu S. Mukherjee": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Steven K. Reinhardt": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Phillip B. Gibbons": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Sandhya Dwarkadas": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Satish Narayanasamy": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Brandon Lucia": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Rajiv Gupta": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: MICRO 15->14 (updated; dblp PID main-track count); official count kept: same total, volume-year label only"
   },
   "Joseph Devietti": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Kathryn S. McKinley": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 14->12 (updated; dblp PID main-track count; not counted: proceedings editorship, short invited item (<=4 pages))"
   },
   "Keshav Pingali": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ASPLOS 11->10 (updated; dblp PID main-track count)"
   },
   "Mendel Rosenblum": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 8->7 (removed, below 8; dblp PID main-track count; not counted: one-page abstract (keynote or CAL talk))"
   },
   "Michael M. Swift": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 17->13 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Steven Swanson": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Yuanyuan Zhou": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 12->11 (updated; dblp PID main-track count; not counted: proceedings editorship, workshop paper)"
   },
   "Henry Hoffmann": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 13->12 (updated; dblp PID main-track count)"
   },
   "Dan Tsafrir": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ASPLOS 11->10 (updated; dblp PID main-track count; not counted: keynote/panel/chair message/corrigendum, proceedings editorship)"
   },
   "Alvin R. Lebeck": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof",
+    "notes": "30 Sep 2026: ASPLOS 11->10 (updated; dblp PID main-track count; not counted: proceedings editorship)"
   },
   "Thomas M. Conte": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Dirk Grunwald": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Bogong Su": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Christos A. Papachristou": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Vicki H. Allan": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Robert A. Mueller": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: official count kept: MICRO 1983 absent from dblp; official count kept"
   },
   "Matthew K. Farrens": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Jorge Albericio": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "David W. Nellans": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Ahmed Louri": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 8->6 (removed, below 8; dblp PID main-track count; not counted: one-page abstract (keynote or CAL talk))"
   },
   "Rui Hou": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Lixin Zhang": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Xiaofei Liao": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Lizhong Chen": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Mike O'Connor": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Leibo Liu": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Shaojun Wei": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Tianshi Chen": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Yiannakis Sazeides": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Timothy G. Rogers": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Nathan Beckmann": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Arkaprava Basu": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Nael Abu-Ghazaleh": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Gennady Pekhimenko": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Gilles Pokam": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Hsien-Hsin S. Lee": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Huiyang Zhou": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Amro Awad": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Adrián Cristal": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jayesh Gaur": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Joel Emer": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "John Kubiatowicz": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Mengjia Yan": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: MICRO 9->7 (removed, below 8; dblp PID main-track count; not counted: keynote/panel/chair message/corrigendum)"
   },
   "Yang Hu": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Mohammad Alian": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Swamit Tannu": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Yuhao Zhu": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Changhee Jung": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Guangyu Sun": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 15->12 (updated; dblp PID main-track count)"
   },
   "Hai Helen Li": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: ISCA 0->8 (new member; dblp PID main-track count)"
   },
   "Yiran Chen": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Engin Ipek": {
     "verified": "2026-04-14",
     "source": "dblp-xml"
   },
   "Naveen Muralimanohar": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Sudhanva Gurumurthi": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Jishen Zhao": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "David Blaauw": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Xiaoyao Liang": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Shuangchen Li": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Zeshan Chishti": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Youfeng Wu": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Minesh Patel": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Ataberk Olgun": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Christopher Batten": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Daehoon Kim": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Daniel A. Jiménez": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "G. Edward Suh": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "José F. Martínez": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "José-María Arnau": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Milos Prvulovic": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Ravishankar R. Iyer": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Xiaowei Jiang": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "John B. Carter": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "José Duato": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Luiz André Barroso": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Tao Li": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Lizy Kurian John": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Andreas Moshovos": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Zidong Du": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Michael Schlansker": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml",
+    "notes": "30 Sep 2026: MICRO 10->9 (updated; dblp PID main-track count; not counted: proceedings editorship, short invited item (<=4 pages))"
   },
   "Timothy M. Jones": {
-    "verified": "2026-04-14",
-    "source": "dblp-xml"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+dblp-xml"
   },
   "Amir Roth": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
   },
   "Amir Yazdanbakhsh": {
-    "verified": "2026-04-13",
-    "source": "official-hof"
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid+official-hof"
+  },
+  "Adam Morrison": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Alaa R. Alameldeen": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: MICRO 8->7 (removed, below 8; dblp PID main-track count; not counted: keynote/panel/chair message/corrigendum)"
+  },
+  "Alex K. Jones": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Ali Javadi-Abhari": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Alper Büyüktosunoğlu": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ISCA 8->7 (removed, below 8; dblp PID main-track count; not counted: workshop paper)"
+  },
+  "Andre Seznec": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Antonio Gonzalez": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Barış Kaşıkçı": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Christoforos E. Kozyrakis": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Christopher J. Rossbach": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Daniel A. Jimenez": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Daniel Sánchez": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "David T. Blaauw": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Emmett Witchel": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Engin İpek": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Felix Xiaozhu Lin": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Haibo Chen": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Iñigo Goiri": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "James R. Larus": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ASPLOS 10->9 (updated; dblp PID main-track count; not counted: proceedings editorship, short invited item (<=4 pages), workshop paper)"
+  },
+  "Jie Zhang": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Jim Smith": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "John P. Shen": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: official count kept: dblp +1 is a 3-page 1988 item; official count kept"
+  },
+  "Jonathan Balkind": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Jonathan M. Baker": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ASPLOS 8->8 (updated; dblp PID main-track count)"
+  },
+  "Jovan Stojkovic": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Kai Li": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ISCA 8->7 (removed, below 8; dblp PID main-track count; not counted: 25-Years-ISCA retrospective/reprint, proceedings editorship, workshop paper)"
+  },
+  "Kang Chen": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Mahmut Kandemir": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ASPLOS 13->12 (updated; dblp PID main-track count)"
+  },
+  "Mahmut T. Kandemir": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Mateo Valero Cortés": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Matthew Hicks": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Natalie Enright Jerger": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Nika Mansouri-Ghiasi": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Quan Chen": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Saman Amarasinghe": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Scott Mahlke": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Simone Campanoni": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Todd Austin": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Tony Nowatzki": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ISCA 0->8 (new member; dblp PID main-track count)"
+  },
+  "Trevor Mudge": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Vikram S. Adve": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Wen-mei W. Hwu": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ASPLOS 13->12 (updated; dblp PID main-track count)"
+  },
+  "Xipeng Shen": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Xu Liu": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Yu Feng": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ISCA 0->9 (new member; dblp PID main-track count)"
+  },
+  "Yun Liang": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid"
+  },
+  "Zhijia Zhao": {
+    "verified": "2026-09-30",
+    "source": "dblp-sparql-pid",
+    "notes": "30 Sep 2026: ASPLOS 11->11 (updated; dblp PID main-track count)"
   }
 }

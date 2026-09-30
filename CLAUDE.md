@@ -10,10 +10,10 @@ Bilgisayar mimarisi konferanslarının (HPCA, MICRO, ISCA, ASPLOS) Hall of Fame 
 ## Veri Kaynakları
 | Venue | Kaynak | Durum |
 |-------|--------|-------|
-| HPCA | IEEE TCCA resmi sayfası + HPCA 2026 DBLP | 2026'ya kadar güncel |
-| MICRO | ACM SIGMICRO resmi sayfası | Resmi sayfadan alındı |
-| ISCA | UW-Madison resmi sayfası | Resmi sayfadan alındı |
-| ASPLOS | Princeton HoF + DBLP | 2026'ya kadar güncel, eksik isimler ekleniyor |
+| HPCA | IEEE TCCA resmi sayfası + DBLP | 2026'ya kadar, DBLP PID ile doğrulandı (30 Eyl 2026) |
+| MICRO | ACM SIGMICRO resmi sayfası + DBLP | 2025'e kadar, DBLP PID ile doğrulandı (30 Eyl 2026) |
+| ISCA | UW-Madison resmi sayfası + DBLP | 2026'ya kadar, DBLP PID ile doğrulandı (30 Eyl 2026) |
+| ASPLOS | Princeton HoF + DBLP | 2026'ya kadar, DBLP PID ile doğrulandı (30 Eyl 2026) |
 | Top Picks | IEEE Micro PDF'lerden elle | 2003-2024 tam (22 yıl, 261 TP) |
 
 ## Önemli Kurallar
@@ -60,8 +60,8 @@ Konferans program sayfalarını (ISCA/MICRO vb. kabul listesi) WebFetch ile çek
 - [x] **Kurum filtreleme**: Dropdown ile çalışıyor
 
 ### Devam Eden / Bekleyen
-- [ ] **DBLP bağlantıları**: 90 eski stil PID (`x/Name`) hâlâ var, sayısal formata (`XX/YYYY`) geçirilmeli
-- [ ] **ASPLOS şüpheliler**: Benjamin C. Lee (7), Tao Li (9?), Ang Li (12?), Chao Li (15?) - PID ile doğrula
+- [x] **DBLP bağlantıları**: affiliations PID'leri akıştaki kanonik PID'e çevrildi (30 Eyl 2026, 40 kayıt; bir kısmı başka kişiyi gösteriyordu). `m/OnurMutlu` gibi eski biçimli PID'ler DBLP'de kanonikse kalır.
+- [x] **ASPLOS şüpheliler**: dört konferansın tamamı PID ile yeniden sayıldı (30 Eyl 2026)
 - [ ] **Excel güncelle**: 22 yıla genişlet
 
 ## KRİTİK KURALLAR — VERİ DOĞRULUĞU
@@ -91,3 +91,23 @@ Konferans program sayfalarını (ISCA/MICRO vb. kabul listesi) WebFetch ile çek
 - Resmi HoF'ta yoksa o venue'da max 7 olabilir (≤7 kuralı)
 - Kontrol grubu: Patt (HPCA 7, ASPLOS 6), Hwu (HPCA 2), Valero (ASPLOS 1)
 - ISCAS/ISCA karışması: `in` operatörü alt-string eşleşmesi yapar, `re.search` ile `/` dahil eşleştir
+
+## DBLP PID doğrulaması (30 Eyl 2026)
+Dört liste makale makale DBLP'ye karşı yeniden sayıldı. Hat, sırayla:
+1. `dblp_sparql_pull.py`: dört akışı (`streams/conf/<venue>`) SPARQL ile çeker, `dblp_sparql/<venue>.json`.
+2. `dblp_verify.py`: kayıtları sınıflandırır (`classify`), HoF ile PID bazında karşılaştırır, `dblp_sparql/compare.json`.
+3. `apply_dblp_verified.py`: açık kararlarla (PID, EXTRA_PUBL, KEEP, ADD) data.js'i günceller; `--apply` olmadan kuru koşu.
+4. `recompute_crossvenue.py`: crossvenue'yu PID kimliğiyle baştan hesaplar; `--apply`. Yeniden koşunca "0 crossvenue entries change" çıkmalı.
+Kanıt dökümü: `dblp_sparql/changes_evidence.txt`. Kişi başı not: `audit.json`.
+
+**Sayılan:** yalnız ana program makalesi. **Sayılmayan:** editörlük, keynote, panel, başkan mesajı, corrigendum, anma yazısı, workshop bildirisi, 25 Years ISCA retrospektif ve yeniden basımları, geri çekilmiş makale (DBLP'de `Withdrawn`, yazarsız: ISCA 2019 TPShare ve "3D-based video recognition"), tek sayfalık özet (HPCA'daki Best of CAL sunumları dahil; asıl makale CAL'da), 2000 sonrası 4 sayfaya kadar davetli yazı. 1992 ISCA'nın yarım sayfalık özetleri de sayılmaz, UW listesi de saymıyor.
+
+**Tuzaklar:**
+- IEEE ve DBLP sayfa aralığı yanlış olabilir: HPCA 2011'de üç tam makale "62-63" gibi 2 sayfa kayıtlı (Calvin, Shared LL TLBs, Offline symbolic analysis). Komşu makalenin başlangıç sayfasıyla doğrula; `dblp_verify.py` içinde `FORCE_MAIN`.
+- Başlık kelimesi süzgeci yalnız 4 sayfaya kadar olan kayıtlara uygulanır ("Power struggles ... debate", "RemembERR ... Errata" gerçek makale).
+- DBLP yazar birleştirmesi: ISCA 1981 `conf/isca/Kathail81` tek yazar "Arvind V. Kathail" diye kayıtlı, gerçekte Arvind ve Vinod Kathail (EXTRA_PUBL).
+- Resmî listeler de yanılıyor: SIGMICRO Mengjia Yan'a Mingyu Yan'ın MICRO 2019 makalesini ve InvisiSpec corrigendum'unu, Alameldeen'e MICRO 2024 program başkanı mesajını, Torrellas'a MICRO 2016'da olmayan üçüncü makaleyi saymış. UW Skadron'a ISCA 2002 editörlüğünü, Qian'a geri çekilen TPShare'i saymış. TCCA HPCA 2011'deki üç makaleyi saymamış.
+- Aynı adlı farklı kişiler: iki Ang Li var (PNNL/Unconventional AI olan HoF üyesi; UW'deki Princeton doktoralı olan). ISCA 2026 DICE ötekinin.
+- data.js'te crossvenue düzenlemesi YALNIZ crossvenue bloğunda yapılır; adlar affiliations ve gs bloklarında da geçiyor (30 Eyl'de ilk denemede affiliations bozuldu, yedekten dönüldü).
+- Bir kişinin tek listesi 8'in altına düşerse siteden tümüyle çıkar (crossvenue yalnız üyelere eklenir): 30 Eyl'de Kai Li, Mendel Rosenblum ve Alaa Alameldeen böyle çıktı.
+

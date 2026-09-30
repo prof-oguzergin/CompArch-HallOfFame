@@ -50,7 +50,7 @@
         .updates-toggle .arrow { display: inline-block; transition: transform 0.2s; font-size: 0.7rem; margin-left: 0.3rem; }
         .updates-toggle.open .arrow { transform: rotate(90deg); }
         .updates-list { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
-        .updates-list.open { max-height: 300px; }
+        .updates-list.open { max-height: 3000px; }
         .updates-list ul { list-style: none; padding: 0.5rem 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
         .updates-list li { font-size: 0.78rem; color: var(--text-muted); padding: 0.2rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
         .updates-list li:last-child { border-bottom: none; }
@@ -151,7 +151,7 @@
             /* On narrow screens the 50+ column year heatmap overflows and the
                sticky rank/name cells misalign with the rest of the row. Hide the
                per-year columns and show just rank + name + total, which stays aligned. */
-            .heatmap .year-col, .heatmap td.year-cell { display: none; }
+            .heatmap:not(.acc-table) .year-col, .heatmap:not(.acc-table) td.year-cell { display: none; }
             .heatmap td.rank-cell, .heatmap td.name-cell { position: static; }
             .heatmap td.total-cell { text-align: right; padding-right: 0.9rem; }
         }
@@ -198,19 +198,19 @@
     </div>
 
     <div class="tab-panel" id="panel-hpca">
-        <div class="conf-info"><strong>HPCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on High-Performance Computer Architecture (1995&ndash;2025). <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/" target="_blank">Source</a> &middot; Data as of: 17 Apr 2026</div>
+        <div class="conf-info"><strong>HPCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on High-Performance Computer Architecture (1995&ndash;2026). <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: 30 Sep 2026</div>
         <div class="heatmap-wrap" id="heatmap-hpca"></div>
     </div>
     <div class="tab-panel" id="panel-micro">
-        <div class="conf-info"><strong>MICRO Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Microarchitecture (1968&ndash;2025). Founded 2008 by Erik Altman &amp; Amir Roth. <a href="https://www.sigmicro.org/awards/microhof.php" target="_blank">Source</a> &middot; Data as of: 17 Apr 2026</div>
+        <div class="conf-info"><strong>MICRO Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Microarchitecture (1968&ndash;2025). Founded 2008 by Erik Altman &amp; Amir Roth. <a href="https://www.sigmicro.org/awards/microhof.php" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: 30 Sep 2026</div>
         <div class="heatmap-wrap" id="heatmap-micro"></div>
     </div>
     <div class="tab-panel" id="panel-isca">
-        <div class="conf-info"><strong>ISCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Computer Architecture (1973&ndash;2025). <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html" target="_blank">Source</a> &middot; Data as of: 17 Apr 2026</div>
+        <div class="conf-info"><strong>ISCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Computer Architecture (1973&ndash;2026). <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: 30 Sep 2026</div>
         <div class="heatmap-wrap" id="heatmap-isca"></div>
     </div>
     <div class="tab-panel" id="panel-asplos">
-        <div class="conf-info"><strong>ASPLOS Hall of Fame</strong> &mdash; 8+ papers at ASPLOS (1982&ndash;2026). Data compiled from <a href="https://liberty.princeton.edu/Fame/ASPLOS/" target="_blank">Princeton HoF</a> + <a href="https://dblp.org" target="_blank">DBLP</a> &middot; Data as of: 17 Apr 2026</div>
+        <div class="conf-info"><strong>ASPLOS Hall of Fame</strong> &mdash; 8+ papers at ASPLOS (1982&ndash;2026). Data compiled from <a href="https://liberty.princeton.edu/Fame/ASPLOS/" target="_blank">Princeton HoF</a> + <a href="https://dblp.org" target="_blank">DBLP</a>, main-track papers only &middot; Data as of: 30 Sep 2026</div>
         <div class="heatmap-wrap" id="heatmap-asplos"></div>
     </div>
     <div class="tab-panel" id="panel-toppicks">
@@ -285,7 +285,7 @@
 <footer>
     <p>Computer Architecture Hall of Fame &mdash; <a href="https://oguzergin.net" target="_blank">Oğuz Ergin</a>, University of Sharjah</p>
     <p style="margin-top:0.3rem">Sources: <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/">HPCA</a> &middot; <a href="https://www.sigmicro.org/awards/microhof.php">MICRO</a> &middot; <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html">ISCA</a> &middot; <a href="https://liberty.princeton.edu/Fame/ASPLOS/">ASPLOS</a></p>
-    <p style="margin-top:0.3rem">Last updated: 17 April 2026 &middot; <a href="https://github.com/prof-oguzergin/CompArch-HallOfFame">GitHub</a></p>
+    <p style="margin-top:0.3rem">Last updated: 30 September 2026 &middot; <a href="https://github.com/prof-oguzergin/CompArch-HallOfFame">GitHub</a></p>
 </footer>
 
 <script src="data.js"></script>
@@ -327,6 +327,12 @@ function norm(n) {
         .replace('saman p amarasinghe','saman amarasinghe')
         .replace('swamit s tannu','swamit tannu')
         .replace(/kang chen \(.*?\)/g,'kang chen');
+}
+// Search folding: case, dots, Turkish letters and accents ("yaglikci" finds Yağlıkçı)
+function fold(n) {
+    return n.replace(/\./g,'').replace(/\s+/g,' ').trim().toLowerCase()
+        .replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ç/g,'c').replace(/ş/g,'s').replace(/ö/g,'o').replace(/ü/g,'u')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 }
 function bestName(names) { return names.sort((a,b)=>b.length-a.length)[0]; }
 
@@ -469,8 +475,8 @@ function yearRange(venue) {
 function renderHeatmap(venue) {
     const years = yearRange(venue);
     const data = DATA[venue].slice().sort((a,b) => b.total - a.total);
-    const filter = document.getElementById('searchBox').value.toLowerCase();
-    const filtered = data.filter(d => (!filter || d.name.toLowerCase().includes(filter)) && matchesInst(d.name));
+    const filter = fold(document.getElementById('searchBox').value);
+    const filtered = data.filter(d => (!filter || fold(d.name).includes(filter)) && matchesInst(d.name));
 
     let html = `<table class="heatmap ${venue}"><thead><tr>`;
     html += `<th class="rank-col">#</th><th class="name-col">Name</th><th class="total-col">Total</th>`;
@@ -504,7 +510,7 @@ function sortCombined(key) {
 }
 function renderCombined() {
     const tbody = document.querySelector('#table-combined tbody');
-    const filter = document.getElementById('searchBox').value.toLowerCase();
+    const filter = fold(document.getElementById('searchBox').value);
     const hl = document.getElementById('highlightMulti').checked;
     // Update header sort indicators
     document.querySelectorAll('#table-combined thead th[data-sort]').forEach(th => {
@@ -512,7 +518,7 @@ function renderCombined() {
         th.classList.toggle('sorted', combinedSort.key===k);
         th.classList.toggle('asc', combinedSort.key===k && combinedSort.asc);
     });
-    tbody.innerHTML = combined.filter(d => (!filter || d.name.toLowerCase().includes(filter)) && matchesInst(d.name)).map((d,i) => {
+    tbody.innerHTML = combined.filter(d => (!filter || fold(d.name).includes(filter)) && matchesInst(d.name)).map((d,i) => {
         const cls = (hl && d.vc >= 4) ? ' class="highlight"' : '';
         const badges = [];
         if (d.isca>=8) badges.push('<span title="ISCA" style="color:var(--accent-isca)">★</span>');
@@ -560,8 +566,8 @@ let tpShowAll = false;
 function toggleTPAll() { tpShowAll = !tpShowAll; renderTopPicks(); }
 
 function renderTopPicks() {
-    const filter = document.getElementById('searchBox').value.toLowerCase();
-    const papers = (DATA.toppicks_papers || []).filter(p => p.type==='TP' && (!filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter)));
+    const filter = fold(document.getElementById('searchBox').value);
+    const papers = (DATA.toppicks_papers || []).filter(p => p.type==='TP' && (!filter || fold(p.title).includes(filter) || fold(p.authors.join(' ')).includes(filter)));
 
     // Hall of Citations: Top 20 most-cited TP papers (no search filter applied)
     const allTP = (DATA.toppicks_papers || []).filter(p => p.type==='TP' && p.cites != null);
@@ -582,7 +588,7 @@ function renderTopPicks() {
         }).join('');
     }
     const {list: authorList, allYears: tpYears} = buildTopPicksAuthors();
-    const authorData = authorList.filter(a => (!filter || a.name.toLowerCase().includes(filter)) && matchesInst(a.name));
+    const authorData = authorList.filter(a => (!filter || fold(a.name).includes(filter)) && matchesInst(a.name));
     const TP_THRESHOLD = 5;
     const showAll = tpShowAll || !!filter;
     const visible = showAll ? authorData : authorData.filter(a => a.tp >= TP_THRESHOLD);
@@ -705,8 +711,8 @@ let hmShowAll = false;
 function toggleHMAll() { hmShowAll = !hmShowAll; renderHM(); }
 
 function renderHM() {
-    const filter = document.getElementById('searchBox').value.toLowerCase();
-    const hmPapers = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.authors && p.authors.length > 0 && (!filter || p.title.toLowerCase().includes(filter) || p.authors.join(' ').toLowerCase().includes(filter)));
+    const filter = fold(document.getElementById('searchBox').value);
+    const hmPapers = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.authors && p.authors.length > 0 && (!filter || fold(p.title).includes(filter) || fold(p.authors.join(' ')).includes(filter)));
 
     // Hall of Citations for HM: Top 20 most-cited (no search filter)
     const hmCited = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.cites != null);
@@ -726,7 +732,7 @@ function renderHM() {
         }).join('');
     }
     const {list: authorList, allYears: hmYears} = buildHMAuthors();
-    const authorData = authorList.filter(a => (!filter || a.name.toLowerCase().includes(filter)) && matchesInst(a.name));
+    const authorData = authorList.filter(a => (!filter || fold(a.name).includes(filter)) && matchesInst(a.name));
     const HM_THRESHOLD = 3;
     const showAll = hmShowAll || !!filter;
     const visible = showAll ? authorData : authorData.filter(a => a.hm >= HM_THRESHOLD);
@@ -853,7 +859,10 @@ document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => activateTab(tab.dataset.tab));
 });
 // React to back/forward navigation between tabs
-window.addEventListener('hashchange', () => activateTab(location.hash.replace('#',''), false));
+window.addEventListener('hashchange', () => {
+    const k = location.hash.replace('#','');
+    if (VALID_TABS.includes(k)) activateTab(k, false);   // ignore in-page anchors such as #tp-paper-list
+});
 
 // Populate institution filter
 (function populateInstFilter() {
@@ -1035,7 +1044,7 @@ function renderAccTable(years, venues, labels) {
     const sortedYears = [...revYears].reverse();
 
     // Rate heatmap
-    let rh = '<table class="heatmap" style="width:100%"><thead><tr><th style="text-align:left;padding-left:0.5rem;width:50px">Year</th>';
+    let rh = '<table class="heatmap acc-table" style="width:100%"><thead><tr><th style="text-align:left;padding-left:0.5rem;width:50px">Year</th>';
     venues.forEach(v => { rh += `<th style="text-align:center;color:${colors[v]}">${labels[v]}</th>`; });
     rh += '</tr></thead><tbody>';
     sortedYears.forEach(y => {
@@ -1052,7 +1061,7 @@ function renderAccTable(years, venues, labels) {
     document.getElementById('accRateHeatmap').innerHTML = rh;
 
     // Submission heatmap
-    let sh = '<table class="heatmap" style="width:100%"><thead><tr><th style="text-align:left;padding-left:0.5rem;width:50px">Year</th>';
+    let sh = '<table class="heatmap acc-table" style="width:100%"><thead><tr><th style="text-align:left;padding-left:0.5rem;width:50px">Year</th>';
     venues.forEach(v => { sh += `<th style="text-align:center;color:${colors[v]}">${labels[v]}</th>`; });
     sh += '</tr></thead><tbody>';
     sortedYears.forEach(y => {

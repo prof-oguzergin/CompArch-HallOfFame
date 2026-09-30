@@ -1,0 +1,138 @@
+# DBLP PID verification, 30 Sep 2026: every change to data.js venue lists, with the records not counted
+=== HPCA Mark D. Hill: 12 -> 13   pids=['h/MarkDHill']  year diffs(new-old)={2011: 1}
+   not counted 2008 ONE_PAGE        HPCA                 pp=187       conf/hpca/Hill08           Amdahl's Law in the multicore era.
+   not counted 2009 SHORT_MODERN    HPCA                 pp=143-144   conf/hpca/Hill09           Opportunities beyond single-core microprocessors.
+=== HPCA John Kim: 14 -> 15   pids=['39/6945-1']  year diffs(new-old)={2025: 1}
+=== HPCA David A. Wood: 12 -> 13   pids=['w/DavidAWood']  year diffs(new-old)={2011: 1}
+=== HPCA Margaret Martonosi: 11 -> 12   pids=['m/MargaretMartonosi']  year diffs(new-old)={2011: 1}
+=== HPCA Parthasarathy Ranganathan: 9 -> 6 below 8: remove  pids=['12/6848']  year diffs(new-old)={2005: -1, 2009: -1, 2025: -1}
+   not counted 2005 SHORT_MODERN    HPCA                 pp=253-256   conf/hpca/RanganathanJ05   Enterprise IT Trends and Implications for Architecture Research.
+   not counted 2009 NONPAPER_TITLE  HPCA                 pp=325-326   conf/hpca/Ranganathan09    Industrial perspectives panel.
+   not counted 2025 ONE_PAGE        HPCA                 pp=1         conf/hpca/GohilDU0RD25     The Importance of Generalizability in Machine Learning for Systems.
+=== MICRO Josep Torrellas: 38 -> 36   pids=['t/JosepTorrellas']  year diffs(new-old)={2016: -1, 2019: -1}
+   not counted 2019 NONPAPER_TITLE  MICRO                pp=1076      conf/micro/YanCS0FT19      InvisiSpec: Making Speculative Execution Invisible in the Cache Hierar
+=== MICRO Rajiv Gupta: 15 -> 14   pids=['g/RajivGupta']  year diffs(new-old)={1993: -1}
+=== MICRO Jun Yang: 14 -> 13   pids=['y/JunYang2']  year diffs(new-old)={2020: -1}
+=== MICRO Michael Schlansker: 10 -> 9   pids=['00/8857']  year diffs(new-old)={2003: -1}
+   not counted 2000 EDITOR                               pp=          conf/micro/2000            Proceedings of the 33rd Annual IEEE/ACM International Symposium on Mic
+   not counted 2003 SHORT_MODERN    MICRO                pp=165-168   conf/micro/Schlansker03    In Memory of Bob Rau.
+=== MICRO Pradip Bose: 8 -> 8   pids=['21/4612']  year diffs(new-old)={1984: -1, 2002: 1, 2003: -1, 2004: -1, 2005: -1, 2006: 1, 2008: -2, 2009: 1, 2012: 1, 2013: 1, 2014: 1, 2015: 1, 2024: -1}
+=== MICRO Mengjia Yan: 9 -> 7 below 8: remove  pids=['137/0590']  year diffs(new-old)={2019: -2}
+   not counted 2019 NONPAPER_TITLE  MICRO                pp=1076      conf/micro/YanCS0FT19      InvisiSpec: Making Speculative Execution Invisible in the Cache Hierar
+=== MICRO Alaa R. Alameldeen: 8 -> 7 below 8: remove  pids=['77/5087']  year diffs(new-old)={2024: -1}
+   not counted 2024 NONPAPER_TITLE  MICRO                pp=xxvi-xxvii conf/micro/JimenezA24      Message from the MICRO 2024 Program Chairs.
+=== ISCA Dean M. Tullsen: 17 -> 18   pids=['405/7873', 't/DeanMTullsen']  year diffs(new-old)={2025: 1}
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=115-116   conf/isca/TullsenEL98      Retrospective: Simultaneous Multithreading: Maximizing On-Chip Paralle
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=533-544   conf/isca/TullsenEL98a     Simultaneous Multithreading: Maximizing On-Chip Parallelism.
+   not counted 2007 EDITOR                               pp=          conf/isca/2007             34th International Symposium on Computer Architecture (ISCA 2007), Jun
+=== ISCA Michel Dubois: 13 -> 12   pids=['80/1836-1']  year diffs(new-old)={1998: -1}
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=48-50     conf/isca/DuboisS98        Retrospective: Memory Access Buffering in Multiprocessors.
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=320-328   conf/isca/DuboisSB98       Memory Access Buffering in Multiprocessors.
+=== ISCA Kevin Skadron: 10 -> 8   pids=['s/KevinSkadron']  year diffs(new-old)={2002: -1, 2010: -1}
+   not counted 2002 EDITOR                               pp=          conf/isca/2002             29th International Symposium on Computer Architecture (ISCA 2002), 25-
+   not counted 2012 WORKSHOP        ISCA Workshops       pp=139-149   conf/isca/GoodrumTAAS10    Parallelization of Particle Filter Algorithms.
+=== ISCA Jean-Loup Baer: 10 -> 9   pids=['b/JLBaer']  year diffs(new-old)={1998: -1}
+   not counted 1983 EDITOR                               pp=          conf/isca/83               Proceedings of the 10th Annual Symposium on Computer Architecture, 198
+   not counted 1990 EDITOR                               pp=          conf/isca/1990             Proceedings of the 17th Annual International Symposium on Computer Arc
+   not counted 1996 EDITOR                               pp=          conf/isca/1996             Proceedings of the 23rd Annual International Symposium on Computer Arc
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=345-352   conf/isca/BaerW98a         On the Inclusion Properties for Multi-Level Cache Hierarchies.
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=59-60     conf/isca/BaerW98          Retrospective: On the Inclusion Properties for Multi-Level Cache Hiera
+=== ISCA Xuehai Qian: 9 -> 8   pids=['42/5189']  year diffs(new-old)={2019: -1}
+=== ISCA Pen-Chung Yew: 9 -> 8   pids=['y/PenChungYew']  year diffs(new-old)={1998: -1}
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=89-91     conf/isca/VeidenbaumYKPPDG98 Retrospective: The Cedar System.
+=== ISCA Guangyu Sun: 15 -> 12   pids=['29/6473-3']  year diffs(new-old)={2013: -1, 2014: -1, 2015: -1}
+=== ISCA Ricardo Bianchini: 9 -> 8   pids=['85/2722']  year diffs(new-old)={1998: -1}
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=509-520   conf/isca/AgarwalBCJK98    The MIT Alewife Machine: Architecture and Performance.
+=== ISCA Ahmed Louri: 8 -> 6 below 8: remove  pids=['17/5827']  year diffs(new-old)={1992: -2}
+   not counted 1992 ONE_PAGE        ISCA                 pp=427       conf/isca/LouriN92         Parallel electro-optical rule-based system for fast execution of exper
+   not counted 1992 ONE_PAGE        ISCA                 pp=428       conf/isca/LouriS92         A new compiler-directed cache coherence scheme for shared memory multi
+=== ISCA Kai Li: 8 -> 7 below 8: remove  pids=['l/KaiLi1']  year diffs(new-old)={2012: -1}
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=92-94     conf/isca/BlumrichLADFS98  Retrospective: Virtual Memory Mapped Network Interface for the SHRIMP 
+   not counted 1998 RETRO           25 Years ISCA: Retrospectives and Reprints pp=473-484   conf/isca/BlumrichLADFS98a Virtual Memory Mapped Network Interface for the SHRIMP Multicomputer.
+   not counted 2003 EDITOR                               pp=          conf/isca/2003             30th International Symposium on Computer Architecture (ISCA 2003), 9-1
+   not counted 2012 WORKSHOP        ISCA Workshops       pp=161-171   conf/isca/BieniaL10        Characteristics of Workloads Using the Pipeline Programming Model.
+=== ISCA Ang Li: 9 -> 8   pids=['33/2805-6']  year diffs(new-old)={2026: -1}
+=== ISCA Alper Büyüktosunoğlu: 8 -> 7 below 8: remove  pids=['18/2863']  year diffs(new-old)={2010: -1}
+   not counted 2012 WORKSHOP        ISCA Workshops       pp=198-210   conf/isca/MadanBBA10       Guarded Power Gating in a Multi-core Setting.
+=== ISCA Tony Nowatzki: 0 -> 8 NEW  pids=['58/11098']  year diffs(new-old)={2015: 1, 2017: 1, 2019: 1, 2020: 1, 2021: 1, 2022: 1, 2025: 1, 2026: 1}
+=== ISCA Hai Helen Li: 0 -> 8 NEW  pids=['30/5330-1']  year diffs(new-old)={2022: 1, 2024: 1, 2025: 4, 2026: 2}
+=== ISCA Yu Feng: 0 -> 9 NEW  pids=['30/4550-7']  year diffs(new-old)={2019: 1, 2022: 1, 2023: 1, 2024: 2, 2025: 1, 2026: 3}
+=== ASPLOS Josep Torrellas: 25 -> 23   pids=['t/JosepTorrellas']  year diffs(new-old)={2006: -1, 2008: -1}
+   not counted 2006 WORKSHOP        ASID                 pp=34-41     conf/asplos/SackBMPT06     Accurate and efficient filtering for the Intel thread checker race det
+   not counted 2006 EDITOR                               pp=          conf/asplos/2006asid       Proceedings of the 1st Workshop on Architectural and System Support fo
+   not counted 2008 WORKSHOP        MSPC                 pp=6-10      conf/asplos/CezePCMT08     Concurrency control with data coloring.
+=== ASPLOS Luis Ceze: 19 -> 16   pids=['95/5263']  year diffs(new-old)={2018: -2, 2020: -1}
+   not counted 2008 WORKSHOP        MSPC                 pp=6-10      conf/asplos/CezePCMT08     Concurrency control with data coloring.
+   not counted 2020 EDITOR                               pp=          conf/asplos/2020           ASPLOS '20: Architectural Support for Programming Languages and Operat
+=== ASPLOS Christos Kozyrakis: 19 -> 18   pids=['k/ChristoforosEKozyrakis']  year diffs(new-old)={2021: -1}
+   not counted 2021 EDITOR                               pp=          conf/asplos/2021           ASPLOS '21: 26th ACM International Conference on Architectural Support
+=== ASPLOS Shan Lu: 19 -> 15   pids=['31/5916-1']  year diffs(new-old)={2014: -1, 2022: -2, 2024: -1}
+   not counted 2006 WORKSHOP        ASID                 pp=25-33     conf/asplos/LiTWLZZ06      Have things changed now?: an empirical study of bug characteristics in
+   not counted 2022 EDITOR                               pp=          conf/asplos/2022           ASPLOS '22: 27th ACM International Conference on Architectural Support
+=== ASPLOS Parthasarathy Ranganathan: 18 -> 17   pids=['12/6848']  year diffs(new-old)={2026: -1}
+   not counted 2026 ONE_PAGE        ASPLOS (2)           pp=2         conf/asplos/Ranganathan26  Unicorns, Centaurs, and Cyborgs: Co-design Powering the Intelligence E
+=== ASPLOS Michael M. Swift: 17 -> 13   pids=['s/MichaelMSwift']  year diffs(new-old)={2022: -1, 2023: -3}
+   not counted 2022 EDITOR                               pp=          conf/asplos/2023-1         Proceedings of the 28th ACM International Conference on Architectural 
+   not counted 2023 EDITOR                               pp=          conf/asplos/2023-3         Proceedings of the 28th ACM International Conference on Architectural 
+   not counted 2023 EDITOR                               pp=          conf/asplos/2023-4         Proceedings of the 28th ACM International Conference on Architectural 
+   not counted 2023 EDITOR                               pp=          conf/asplos/2023-2         Proceedings of the 28th ACM International Conference on Architectural 
+=== ASPLOS Ricardo Bianchini: 16 -> 15   pids=['85/2722']  year diffs(new-old)={2017: -1}
+   not counted 2017 ONE_PAGE        ASPLOS               pp=327       conf/asplos/Bianchini17    Improving Datacenter Efficiency.
+   not counted 2018 EDITOR                               pp=          conf/asplos/2018           Proceedings of the Twenty-Third International Conference on Architectu
+=== ASPLOS Frederic T. Chong: 17 -> 16   pids=['c/FTChong']  year diffs(new-old)={2018: -1}
+   not counted 2006 WORKSHOP        ASID                 pp=66-71     conf/asplos/OliveiraCWWSC06 ExecRecorder: VM-based full-system replay for attack analysis and syst
+   not counted 2018 ONE_PAGE        ASPLOS               pp=285       conf/asplos/Chong18        Quantum Computing is Getting Real: Architecture, PL, and OS Roles in C
+=== ASPLOS Timothy Sherwood: 15 -> 14   pids=['23/3778']  year diffs(new-old)={2021: -1}
+   not counted 2021 EDITOR                               pp=          conf/asplos/2021           ASPLOS '21: 26th ACM International Conference on Architectural Support
+=== ASPLOS Dan Tsafrir: 11 -> 10   pids=['26/914']  year diffs(new-old)={2016: -1}
+   not counted 2016 NONPAPER_TITLE  ASPLOS               pp=291-294   conf/asplos/Tsafrir16      Synopsis of the ASPLOS '16 Wild and Crazy Ideas (WACI) Invited-Speaker
+   not counted 2024 EDITOR                               pp=          conf/asplos/2024-3         Proceedings of the 29th ACM International Conference on Architectural 
+   not counted 2024 EDITOR                               pp=          conf/asplos/2024-1         Proceedings of the 29th ACM International Conference on Architectural 
+   not counted 2024 EDITOR                               pp=          conf/asplos/2024-2         Proceedings of the 29th ACM International Conference on Architectural 
+   not counted 2024 EDITOR                               pp=          conf/asplos/2024-4         Proceedings of the 29th ACM International Conference on Architectural 
+=== ASPLOS Kathryn S. McKinley: 14 -> 12   pids=['m/KSMcKinley']  year diffs(new-old)={2004: -1, 2016: -1}
+   not counted 2004 EDITOR                               pp=          conf/asplos/2004           Proceedings of the 11th International Conference on Architectural Supp
+   not counted 2016 SHORT_MODERN    ASPLOS               pp=1-2       conf/asplos/McKinley16     Programming Uncertain <T>jhings.
+=== ASPLOS Margaret Martonosi: 14 -> 13   pids=['m/MargaretMartonosi']  year diffs(new-old)={2006: -1}
+   not counted 2006 EDITOR                               pp=          conf/asplos/2006           Proceedings of the 12th International Conference on Architectural Supp
+=== ASPLOS Abhishek Bhattacharjee: 14 -> 13   pids=['78/4478']  year diffs(new-old)={2023: -1}
+   not counted 2023 NONPAPER_TITLE  ASPLOS (3)           pp=1         conf/asplos/Bhattacharjee23 Direct Mind-Machine Teaming (Keynote).
+=== ASPLOS Mark D. Hill: 13 -> 12   pids=['h/MarkDHill']  year diffs(new-old)={2013: -1}
+   not counted 2013 NONPAPER_TITLE  ASPLOS               pp=459-460   conf/asplos/Hill13         Research directions for 21st century computer systems: asplos 2013 pan
+=== ASPLOS Henry Hoffmann: 13 -> 12   pids=['h/HenryHoffmann']  year diffs(new-old)={2011: -1}
+=== ASPLOS Wen-mei W. Hwu: 13 -> 12   pids=['03/4630']  year diffs(new-old)={2013: -1}
+=== ASPLOS Mahmut Kandemir: 13 -> 12   pids=['k/MahmutTKandemir']  year diffs(new-old)={2014: -1}
+=== ASPLOS Yuanyuan Zhou: 12 -> 11   pids=['99/2747', '99/2747-1']  year diffs(new-old)={2016: -1}
+   not counted 2006 WORKSHOP        ASID                 pp=25-33     conf/asplos/LiTWLZZ06      Have things changed now?: an empirical study of bug characteristics in
+   not counted 2016 EDITOR                               pp=          conf/asplos/2016           Proceedings of the Twenty-First International Conference on Architectu
+=== ASPLOS Scott A. Mahlke: 12 -> 11   pids=['m/SAMahlke']  year diffs(new-old)={2012: -1}
+=== ASPLOS Babak Falsafi: 12 -> 10   pids=['f/BabakFalsafi']  year diffs(new-old)={2018: -1, 2022: -1}
+   not counted 2006 WORKSHOP        ASID                 pp=63-65     conf/asplos/ChenFGKMTAFGLS06 Log-based architectures for general-purpose monitoring of deployed cod
+   not counted 2022 EDITOR                               pp=          conf/asplos/2022           ASPLOS '22: 27th ACM International Conference on Architectural Support
+=== ASPLOS David A. Wood: 12 -> 7 below 8: remove  pids=['w/DavidAWood']  year diffs(new-old)={2002: -1, 2014: -1, 2015: -1, 2017: -1, 2019: -1}
+   not counted 2002 EDITOR                               pp=          conf/asplos/2002           Proceedings of the 10th International Conference on Architectural Supp
+   not counted 2014 SHORT_MODERN    ASPLOS               pp=653-654   conf/asplos/Wood14         Resolved: specialized architectures, languages, and system software sh
+=== ASPLOS David Brooks: 12 -> 7 below 8: remove  pids=['30/135']  year diffs(new-old)={2015: -1, 2017: -1, 2019: -1, 2024: -2}
+=== ASPLOS Anoop Gupta: 11 -> 10   pids=['g/AnoopGupta']  year diffs(new-old)={2000: -1}
+   not counted 2000 EDITOR                               pp=          conf/asplos/2000           ASPLOS-IX Proceedings of the 9th International Conference on Architect
+=== ASPLOS Alvin R. Lebeck: 11 -> 10   pids=['l/ARLebeck']  year diffs(new-old)={2019: -1}
+   not counted 2019 EDITOR                               pp=          conf/asplos/2019           Proceedings of the Twenty-Fourth International Conference on Architect
+=== ASPLOS Keshav Pingali: 11 -> 10   pids=['71/5735']  year diffs(new-old)={2013: -1}
+=== ASPLOS Sarita V. Adve: 10 -> 9   pids=['97/4181']  year diffs(new-old)={2014: -1}
+   not counted 2014 EDITOR                               pp=          conf/asplos/2014           Architectural Support for Programming Languages and Operating Systems,
+=== ASPLOS Todd C. Mowry: 10 -> 9   pids=['65/4120']  year diffs(new-old)={2011: -1}
+   not counted 2006 WORKSHOP        ASID                 pp=63-65     conf/asplos/ChenFGKMTAFGLS06 Log-based architectures for general-purpose monitoring of deployed cod
+   not counted 2011 EDITOR                               pp=          conf/asplos/2011           Proceedings of the 16th International Conference on Architectural Supp
+=== ASPLOS Thomas F. Wenisch: 9 -> 8   pids=['01/1282']  year diffs(new-old)={2022: -1}
+   not counted 2022 EDITOR                               pp=          conf/asplos/2022           ASPLOS '22: 27th ACM International Conference on Architectural Support
+=== ASPLOS Mendel Rosenblum: 8 -> 7 below 8: remove  pids=['r/MendelRosenblum']  year diffs(new-old)={2006: -1}
+   not counted 2006 ONE_PAGE        ASPLOS               pp=1         conf/asplos/Rosenblum06    Impact of virtualization on computer architecture and operating system
+=== ASPLOS John L. Hennessy: 8 -> 7 below 8: remove  pids=['h/JohnLHennessy']  year diffs(new-old)={1989: -1}
+   not counted 1989 EDITOR                               pp=          conf/asplos/1989           ASPLOS-III Proceedings - Third International Conference on Architectur
+=== ASPLOS Zhijia Zhao: 11 -> 11   pids=['40/6732']  year diffs(new-old)={2022: -1, 2023: 1}
+=== ASPLOS James R. Larus: 10 -> 9   pids=['l/JamesRLarus']  year diffs(new-old)={2011: -1}
+   not counted 2006 WORKSHOP        ASID                 pp=5         conf/asplos/Larus06        Is process or architecture the solution?
+   not counted 2008 EDITOR                               pp=          conf/asplos/2008           Proceedings of the 13th International Conference on Architectural Supp
+   not counted 2011 SHORT_MODERN    ASPLOS               pp=1-2       conf/asplos/Larus11        The cloud will change everything.
+   not counted 2020 EDITOR                               pp=          conf/asplos/2020           ASPLOS '20: Architectural Support for Programming Languages and Operat
+=== ASPLOS Jonathan M. Baker: 8 -> 8   pids=['234/9143']  year diffs(new-old)={2022: -1, 2023: 1}
