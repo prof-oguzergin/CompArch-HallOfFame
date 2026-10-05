@@ -22,12 +22,12 @@ D = json.loads(subprocess.check_output(["node", "-e",
     'process.stdout.write(JSON.stringify({hpca:D.hpca,micro:D.micro,isca:D.isca,asplos:D.asplos}))',
     os.path.join(HERE, "data.js")]).decode("utf-8"))
 
-# same ramps as the site's heatmaps (validated: monotone lightness, 2:1 against the surface)
+# same ramps as the site's heatmaps: 5+ is the venue accent, lower steps mix it into the surface
 RAMP = {
-    "isca":   ["#186648", "#1e7a56", "#2ba274", "#35c18b", "#44e5a6"],
-    "micro":  ["#6244ac", "#7457c2", "#8f74e2", "#aa94f6", "#c7bcf9"],
-    "asplos": ["#a2263b", "#b93c4d", "#da5a68", "#f77984", "#faafb2"],
-    "hpca":   ["#1954b1", "#2e68c6", "#4d88ea", "#75a6f6", "#a8c7f9"],
+    "isca":   ["#2d605d", "#347a6d", "#3b957e", "#42af8e", "#49ca9f"],
+    "micro":  ["#594c93", "#6955ac", "#795fc4", "#8a69dd", "#9b73f7"],
+    "asplos": ["#844258", "#a04960", "#bc5068", "#d8576f", "#f65e78"],
+    "hpca":   ["#36578c", "#3e66a6", "#4675c0", "#4e84db", "#5694f7"],
 }
 LABEL = {"isca": "ISCA", "micro": "MICRO", "asplos": "ASPLOS", "hpca": "HPCA"}
 Y0, Y1 = 1980, max(int(y) for v in RAMP for e in D[v] for y in e["y"])

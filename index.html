@@ -123,16 +123,19 @@
         .no-results { text-align: center !important; color: var(--text-muted); font-style: italic; padding: 1rem !important; }
 
         /* Heatmap colours: one hue per venue, five steps for 1, 2, 3, 4 and 5+ papers in a year.
-           Lightness rises monotonically and step 1 clears the surface at 2:1; steps 1-2 carry light
-           text, steps 3-5 dark text, every pair at least 4.5:1 (checked with the dataviz validator). */
+           Step 5+ is the venue's own accent (lightened a little where needed); lower steps mix it
+           into the surface, so lightness AND saturation both rise with the count and 5+ is the most
+           vivid. Step 1 clears the surface at 2:1, cell text (pure white or black) is >= 4.5:1, and
+           neighbouring steps differ by OKLab deltaE >= 0.05 (the numbers in the cells carry the value). */
         .h0 { color: transparent; }
-        .h1, .h2 { color: #f1f5f9; } .h3, .h4, .h5 { color: #0f172a; } .h5 { font-weight: 800; }
-        .h1 { background: #4d5a6d; } .h2 { background: #5f6d80; } .h3 { background: #7d8ca0; } .h4 { background: #98a7bc; } .h5 { background: #b8c7dd; }
-        .isca .h1 { background: #186648; } .isca .h2 { background: #1e7a56; } .isca .h3 { background: #2ba274; } .isca .h4 { background: #35c18b; } .isca .h5 { background: #44e5a6; }
-        .micro .h1 { background: #6244ac; } .micro .h2 { background: #7457c2; } .micro .h3 { background: #8f74e2; } .micro .h4 { background: #aa94f6; } .micro .h5 { background: #c7bcf9; }
-        .asplos .h1 { background: #a2263b; } .asplos .h2 { background: #b93c4d; } .asplos .h3 { background: #da5a68; } .asplos .h4 { background: #f77984; } .asplos .h5 { background: #faafb2; }
-        .hpca .h1 { background: #1954b1; } .hpca .h2 { background: #2e68c6; } .hpca .h3 { background: #4d88ea; } .hpca .h4 { background: #75a6f6; } .hpca .h5 { background: #a8c7f9; }
-        .toppicks .h1 { background: #794f14; } .toppicks .h2 { background: #91601b; } .toppicks .h3 { background: #ba7c25; } .toppicks .h4 { background: #de942e; } .toppicks .h5 { background: #fab765; }
+        .h1, .h2 { color: #ffffff; } .h3, .h4, .h5 { color: #000000; } .h5 { font-weight: 800; }
+        .micro .h3, .asplos .h3, .hpca .h3 { color: #ffffff; }
+        .h1 { background: #4c586a; } .h2 { background: #606c7e; } .h3 { background: #748193; } .h4 { background: #8b97aa; } .h5 { background: #a1aec1; }
+        .isca .h1 { background: #2d605d; } .isca .h2 { background: #347a6d; } .isca .h3 { background: #3b957e; } .isca .h4 { background: #42af8e; } .isca .h5 { background: #49ca9f; }
+        .micro .h1 { background: #594c93; } .micro .h2 { background: #6955ac; } .micro .h3 { background: #795fc4; } .micro .h4 { background: #8a69dd; } .micro .h5 { background: #9b73f7; }
+        .asplos .h1 { background: #844258; } .asplos .h2 { background: #a04960; } .asplos .h3 { background: #bc5068; } .asplos .h4 { background: #d8576f; } .asplos .h5 { background: #f65e78; }
+        .hpca .h1 { background: #36578c; } .hpca .h2 { background: #3e66a6; } .hpca .h3 { background: #4675c0; } .hpca .h4 { background: #4e84db; } .hpca .h5 { background: #5694f7; }
+        .toppicks .h1 { background: #625540; } .toppicks .h2 { background: #846c42; } .toppicks .h3 { background: #aa8445; } .toppicks .h4 { background: #d19d47; } .toppicks .h5 { background: #f8b74a; }
 
         /* Combined simple table */
         .simple-table { border-collapse: collapse; width: 100%; }
