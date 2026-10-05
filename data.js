@@ -253,7 +253,8 @@ micro: [
   {name:"Alexandros Daglis",total:8,y:{2016:1,2019:1,2021:2,2022:1,2024:1,2025:1,2026:1}},
   {name:"Liqiang Lu",total:8,y:{2021:1,2023:1,2025:3,2026:3}},
   {name:"Seokin Hong",total:8,y:{2011:1,2018:1,2019:1,2024:2,2025:2,2026:1}},
-  {name:"A. Giray Yağlıkçı",total:8,y:{2019:1,2021:1,2022:1,2024:2,2025:2,2026:1}}
+  {name:"A. Giray Yağlıkçı",total:8,y:{2019:1,2021:1,2022:1,2024:2,2025:2,2026:1}},
+  {name:"Xinyu Chen",total:8,y:{2022:1,2025:2,2026:5}}
 ],
 isca: [
   {name:"José F. Martínez",total:8,y:{2000:1,2007:1,2008:1,2013:2,2022:1,2025:1,2026:1}},
@@ -506,6 +507,7 @@ asplos: [
 ],
 // Researcher affiliations and DBLP PIDs
 affiliations: {
+  "Xinyu Chen": {inst:"HKUST (GZ)",pid:"96/3374-1"},
   "Zhuoran Song": {inst:"SJTU",pid:"220/4324"},
   "Fangxin Liu": {inst:"SJTU",pid:"198/2194"},
   "Nisa Bostancı": {inst:"ETH Zurich",pid:"293/6888"},
@@ -784,6 +786,7 @@ affiliations: {
 // Cross-venue counts for HoF members at venues where they have <8 papers
 // These are NOT in that venue's HoF but we show the count in the combined table
 crossvenue: {
+  "Xinyu Chen": {hpca:1,isca:1},
   "Seokin Hong": {hpca:3,isca:1,asplos:1},
   "Liqiang Lu": {hpca:5,isca:5,asplos:2},
   "Alexandros Daglis": {hpca:3,isca:4,asplos:3},
@@ -1444,7 +1447,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
-  {date:"5 Oct 2026",text:"MICRO 2026 added from the conference program (to be re-checked against DBLP once it is indexed). 22 researchers crossed the 8-paper MICRO threshold: Guangyu Sun, Ataberk Olgun, Yu Feng, Zhuoran Song, Fangxin Liu, Yang Hu, Shouyi Yin, José F. Martínez, Lizy Kurian John, Minyi Guo, Nisa Bostancı, Jaehyuk Huh, Houxiang Ji, Yinhe Han, Adrián Cristal, Osman S. Ünsal, Yun Liang, Heiner Litz, Alexandros Daglis, Liqiang Lu, Seokin Hong, A. Giray Yağlıkçı. Existing members' MICRO records were extended through 2026. MICRO Hall of Fame now 148."},
+  {date:"5 Oct 2026",text:"MICRO 2026 added from the conference program (to be re-checked against DBLP once it is indexed). 23 researchers crossed the 8-paper MICRO threshold: Guangyu Sun, Ataberk Olgun, Yu Feng, Zhuoran Song, Fangxin Liu, Yang Hu, Shouyi Yin, José F. Martínez, Lizy Kurian John, Minyi Guo, Nisa Bostancı, Jaehyuk Huh, Houxiang Ji, Yinhe Han, Adrián Cristal, Osman S. Ünsal, Yun Liang, Heiner Litz, Alexandros Daglis, Liqiang Lu, Seokin Hong, A. Giray Yağlıkçı, Xinyu Chen. Existing members' MICRO records were extended through 2026. MICRO Hall of Fame now 149."},
   {date:"5 Oct 2026",site:true,text:"Ties now share the same rank and medal, and search or institution filters keep each researcher's real rank. Venue heatmaps open on the most recent years, keep names, totals and the year header in view while scrolling, and have a colour key. Link previews added for sharing on social media."},
   {date:"30 Sep 2026",text:"All four venue lists re-verified paper by paper against DBLP. Only main-track papers count: keynotes, panels, editorials, chair messages, corrigenda, workshop papers, the 25-year ISCA retrospectives and retracted papers are left out. ISCA 2026 is now confirmed from DBLP. Tony Nowatzki, Hai Helen Li and Yu Feng join the ISCA Hall of Fame. Ten entries fall below 8 under this rule and now show as cross-venue counts. Search now ignores accents (e.g. \"yaglikci\", \"martinez\")."},
   {date:"8 Jul 2026",text:"José F. Martínez (Cornell) added to the ISCA Hall of Fame. His 2026 ISCA paper brought him to 8; he was already listed for HPCA (10). ISCA Hall of Fame now 165."},
@@ -1565,6 +1568,7 @@ acceptance: {
   ]
 },
 gs: {
+  "Xinyu Chen":{gs:"h4kJ1UwAAAAJ",h:10,i10:10,c:596,b:[2,0,0,0,0]},
   "Zhuoran Song":{gs:"LgHi-gQAAAAJ",h:15,i10:19,c:753,b:[1,0,0,0,0]},
   "Fangxin Liu":{gs:"dXzsaIsAAAAJ",h:18,i10:37,c:1416,b:[2,0,0,0,0]},
   "Nisa Bostancı":{gs:"PfU0Q38AAAAJ",h:18,i10:21,c:1136,b:[2,1,0,0,0]},
