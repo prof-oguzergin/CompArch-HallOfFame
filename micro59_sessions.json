@@ -1,0 +1,1089 @@
+[
+[
+"Session 0A: Opening Remarks",
+[
+[
+"Welcome Message from the General Chair",
+"Dimitris Gizopoulos (National and Kapodistrian Univ. of Athens)"
+],
+[
+"Welcome Message from the Program Co-Chairs",
+"Tushar Krishna (Georgia Inst. of Technology); Yakun Sophia Shao (Univ. of California, Berkeley)"
+],
+[
+"Welcome Message from Industry Track Program Chair",
+"Gilles Pokam (AMD)"
+]
+]
+],
+[
+"Title TBA",
+[]
+],
+[
+"Session 1A: GPU Microarchitecture & Numerical Precision",
+[
+[
+"Ray-by-Ray: Fine-Grained Resource Management for GPU Ray Tracing Units",
+"Junrui Pan, Cesar Avalos Baddouh, Kai Ze Ee, Timothy G Rogers (Purdue Univ.)"
+],
+[
+"Bit-Accurate Modeling of GPU Matrix Multiply-Accumulate Units: Demystifying Numerical Discrepancy and Accuracy",
+"Peichen Xie, Shuotao Xu, Yang Wang, Fan Yang, Mao Yang (Microsoft Research)"
+],
+[
+"Not All Dot Products Are Equal: The Hidden MMA Arithmetic Design Space Drives Cross-Architecture LLM Inference Gaps",
+"Jongyeop Kim (SungKyunKwan Univ.); Chaeyeon Kim (Sookmyung Women's Univ.); Jeongwoo Park (SungKyunKwan Univ.)"
+],
+[
+"Better Call SoL : Enhancing GPUs with a Sea of LUTs Core",
+"Shashank Nag, Justin Garrigus, Yuting Chen, Lizy K John (The Univ. of Texas at Austin)"
+],
+[
+"Complex Tensor Core: Software-Hardware Co-Design for Accelerating Complex-Valued Neural Networks on GPUs",
+"Eunbi Jeong, Jennifer N. Choi, Ji yeong Yi, Jane Rhee (Ewha Womans Univ.); Gunjae Koo, Yunho Oh (Korea Univ.); Myung Kuk Yoon (Ewha Womans Univ.)"
+],
+[
+"RESCU: Optimizing GPU Register Management for Effective Kernel Fusion",
+"Ruixiao Huang, Shouzhe Zhang, Hui Zhao, Weishi Shi (Univ. of North Texas)"
+],
+[
+"SnakeCharmer: Orchestrating Utility, Timeliness, and Placement in GPU Prefetching",
+"Yuhan Tang, Tiejun Li, Jianmin Zhang, An Hu (National Univ. of Defense Technology); Guangyu Sun (Peking Univ.); Sheng Ma, Yiqun Lang, Hanqing Li, Siqing Fu (National Univ. of Defense Technology)"
+]
+]
+],
+[
+"Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+[
+[
+"ATLAS: Pathfinding Efficient 3D-DRAM-based LLM Inference Accelerator Design via Silicon-Proven Full-Stack Simulation",
+"Cong Li, Chenhao Xue, Yi Ren, Xiping Dong, Yu Cheng, Yinbo Hu (Peking Univ.); Fujun Bai, Yixin Guo, Xiping Jiang (Xi'an UniIC Semiconductors); Qiang Wu (Houmo AI); Zhi Yang, Zhe Cheng (Peking Univ.); Yuan Xie (Hong Kong Univ. of Science and Technology); Guangyu Sun (Peking Univ.)"
+],
+[
+"HiLLM: Heterogeneous CPU–GPU Inference for Interactive MoE LLM Serving on Local Systems",
+"Insu Choi, Seungchan Lee, Joon-Sung Yang (Yonsei Univ.)"
+],
+[
+"DART: A Cache-Enabled Diffusion Transformer Accelerator via Feature-Gated Scheduling and Hierarchical Quantization",
+"Zihan Zou, Peng Zheng, Shun Zhang, Xinyang Chen, Jiaming Lin, Bori An, Yichen Hu, Xinming Yan, Xin Cao, Hao Cai, Bo Liu (Southeast Univ.)"
+],
+[
+"HyPIM: A Unified PIM Architecture for Accelerating Mamba-Transformer Hybrid Model Inference",
+"Hyemin Park, Isaac Jeong, Junghwan Lim, Jungi Hyun, Hyuk-Jae Lee (Seoul National Univ.)"
+],
+[
+"NFC: A 3D NAND Flash-CIM Centric Architecture for Efficient On-Device MoE LLM Inference",
+"Siyuan Chen, Ao Shi, Shiyang Li, Jiaqi Li, Haozhang Yang, Haobin Shang, Lianliang Wu, Ruiqi Chen, Yiyang Chen (School of Integrated Circuits, Peking Univ.); Lixia Han (School of Integrated Circuits, Nanjing Univ. of Aeronautics and Astronautics); Lifeng Liu, Peng Huang (School of Integrated Circuits, Peking Univ.; Beijing Advanced Innovation Center for Integrated Circuits, China)"
+],
+[
+"TNT: A Unified LUT-Centric Architecture for Ultra-Low-Bit LLM Inference via Native KV Computation",
+"Zhirui Huang, Rui Ma, Ran Shu (Microsoft Research Asia); Ting Cao (Inst. of AI Industry Research, Tsinghua Univ.); Chixiao Chen (Fudan Univ.); Yongqiang Xiong (Microsoft Research Asia)"
+],
+[
+"Gossamer: A Utility-Driven Architecture for Constant-Budget KV Cache Compression in Reasoning LLMs",
+"Feng Cheng, Cong Guo, Junyao Zhang, Haoxuan Shan, Chiyue Wei (Duke Univ.); Hong Wang (Intel); Hai \"Helen\" Li, Yiran Chen (Duke Univ.)"
+]
+]
+],
+[
+"Session 1C: Industry Session",
+[
+[
+"AIPerf: Meta's Performance Modeling and HW/SW Co-design Framework for Data Center–Scale LLM Training",
+"Paul Baumstarck, Joel Coburn, Benjamin Ghaemmaghami, Shobhit Kanaujia, Seah Kim, Hwijoon Lim, Yi-Chien Lin, Mustafa Ozdal, Pyeongsu Park, Kevin Siu, Chunqiang Tang, Pavan Yalamanchili, Jongsoo Park (Meta)"
+],
+[
+"Architecting for Hardware Diversity: Meta's End-to-End Co-Design for High-Performance AI Training on AMD GPUs",
+"Haoyu Zhang (Meta); Arshad Rahman (AMD); Adnan Aziz, Ajith Prabhudev, Amin Farmahini, Ben Rhoads, Benson Ma (Meta); Brian Shi (AMD); Cen Zhao, CK Luk, Dingming Wu, Emad El-Haraty, Eric Chen, Frank Li, Gary Huang, Gefei Zuo, Haoran Zhang, Hiwot Kassa, Hongyi Zeng (Meta); Jack Taylor (AMD); Jeremy Hadidjojo, John Donati, Jonathan Sheffield (Meta); Julio MachadoSilva (AMD); Karthik Ganesan (Meta); Kent Russell (AMD); KR Kishore, Lei Tian, Liu Ke (Meta); Muhammad Osama (AMD); Peng Chen, Rakesh Hemnani (Meta); Ryan Swann, Saleel Kudchadker (AMD); Shankar Yanamandram, Shobhit Kanaujia (Meta); Shucai Xiao (AMD); Srinath Bayareddy, Srinivas Vaidyanathan, Sudharssun Subramanian, Supadchaya Puangpontip, Taylor Robie, Tianhao Huang, Tyler Hart, Viswesh Sankaran (Meta); Weijun Jiang, Wenkai Du (AMD); Xiaodong Wang (Meta); Xiaohu Guo (AMD); Yao Rong, Yinbin Ma, Yue Dong, Yuzhen Huang, Yvonne Liu, Zhan Shu, Dan Rabinovitsj, Ajit Mathews, Chunqiang Tang (Meta)"
+],
+[
+"MTIA-RT: Enabling a Native PyTorch Experience on Custom AI ASICs",
+"Hangchen Yu, Adam Belay, Jun Luo, Chunqiang Tang, Roman Levenstein, Yige Hu, Anirudh Shaktawat, Alex Mastro, David Reiss, Tim Sham, Jaesoo Lee, Anirban Banerjee, Hyunho Yeo, Youlin Zhang, Jack Montgomery, Kaustubh Gondkar, Ajit Mathews, Wushi Dong, Rumit Desai, Wang Xu (Meta Platforms)"
+],
+[
+"DMA-Latte: Expanding the Reach of DMA Offloads to Latency-bound ML Communication",
+"Suchita Pati, Shaizeen Aga, Mahzabeen Islam (AMD); Ryan Quach (AMD, UC Riverside); Saleel Kudchadker (AMD); Mohamed Ibrahim (Advanced Micro Devices Inc.)"
+],
+[
+"BoostX-RNIC: Fast, Scalable and Flexible AI RNIC",
+"Kanghyun Choi, Bogyeong Park, Gihwan lee (MangoBoost Inc. & Seoul National Univ.); Eunjin Baek, Changsu Kim (MangoBoost Inc.); Hanmin Kim, Nayeon Kim (MangoBoost Inc. & Seoul National Univ.); Changyeon Jo (MangoBoost Inc.); Chanmyeong Kim (MangoBoost Inc. & Seoul National Univ.); Hyeonseong Choi, Dongjoo Lee, Jaehyun Lee, Minho Chu (MangoBoost Inc.); Jangwoo Kim (MangoBoost Inc. & Seoul National Univ.)"
+],
+[
+"Performance Verification of the AmpereOne® CPU Core",
+"Doa'a Al-Otoom, Nicholas Kelly, Aaron Lindsay, Agreen Ahmadi, Ananth Kumar, Anthony Faubert, Ben Chaffin, Bret Toll, Eric Wallace, Lucas Crowthers, Mark Charney, Michael Chin, Michael Spradling, Scott Witscher, Sriyash Caculo, Syed Fakhri, Vivek Kothapalli, William Freelove, Mahesh Madhav (Ampere Computing)"
+],
+[
+"Practical Prefetching of a MAC Scheduler on ARM Neoverse",
+"Jonathan Ling, Paul Cautereels (Nokia Bell Labs); Damien Phan, Henry Wiechert, Krister Wikstrom, Morgan Cormier, Pierre Delbreil, Christope Pavageau (Nokia Mobile Networks); Dragan Samardzija (Nokia Bell Labs)"
+]
+]
+],
+[
+"Session 1D: Low-Bit LUT-Based & Sparse Inference",
+[
+[
+"Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators",
+"Afzal Ahmad (The Hong Kong Univ. of Science and Technology); Gaoyu Mao, Shoubo Hu, Hui-Ling Zhen, Mingxuan Yuan (Huawei Noah’s Ark Lab); Xinyu Chen (The Hong Kong Univ. of Science and Technology (Guangzhou)); Wei Zhang (The Hong Kong Univ. of Science and Technology)"
+],
+[
+"Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers by Exploiting Latent Space Correlations",
+"Wenxuan Miao, Haosong Liu, Weiming Hu, Zihan Liu (Shanghai Jiao Tong Univ.); Aiyue Chen, Jianlin Yu, Yiwu Yao (Huawei Technologies); Yiming Gan (ICT, Chinese Academy of Sciences); Jieru Zhao, Jingwen Leng, Minyi Guo, Yu Feng (Shanghai Jiao Tong Univ.)"
+],
+[
+"FUSE: A Fragmentation-Free Spatial Multi-Tenant DNN Accelerator via Edge-Universal Graph",
+"Zhihao Yang (Inst. of Software, Chinese Academy of Sciences); Yongwei Zhao, Tianrui Ma, Yifan Hao (Inst. of Computing Technology, Chinese Academy of Sciences); Zhe Fan (Cambricon Technologies); Rui Zhang, Zidong DU (Inst. of Computing Technology, Chinese Academy of Sciences); Ling Li (Inst. of Software, Chinese Academy of Sciences); Tianshi Chen (Cambricon Technologies); Yunji Chen (Inst. of Computing Technology, Chinese Academy of Sciences)"
+],
+[
+"RAIL: A Reconfigurable Spatial Accelerator for Linear-Time Sequence Model Inference",
+"Xinyu Zhu, Qinggang Wang, Wenju Zhao, Bing Zhu, Runze Wang, Long Zheng, XIAOFEI LIAO, Hai Jin (Huazhong Univ. of Science and Technology); Jingling Xue (Univ. of New South Wales, Sydney)"
+],
+[
+"FLUTE: A LUT-Based Floating-Point Engine for Efficient LLM Acceleration Exploiting Core-Tail Hierarchical Alignment",
+"Tielong Liu, Zeyu Zhu, Gang Li, Zitao Mo (Inst. of Automation, Chinese Academy of Sciences); Chen BAI (The Hong Kong Univ. of Science and Technology); Junwen Si (Inst. of Automation, Chinese Academy of Sciences); Peihuan Ni (Inst. of Automation,Chinese Academy of Sciences); Minnan Pei, Peisong Wang (Inst. of Automation, Chinese Academy of Sciences); Zhuoran Song, Xiaoyao Liang (Shanghai Jiao Tong Univ.); Jian Cheng (Inst. of Automation, Chinese Academy of Sciences)"
+],
+[
+"High-Density LUT-Based mpGEMM Architecture with Unified INT/FP Support for Low-Bit LLM Inference",
+"Jiageng Shi, Yang Shi, Hao Wang, Ruiqiang Song (National Univ. of Defense Technology); Jingwei Cai (Tsinghua Univ.); Zhe Li (National Univ. of Defense Technology); Junzhong Shen (UltraRISC Technology); Chen Xu (College of Computer Science and Technology, National Univ. of Defense Technology, Changsha, China); Yaohua Wang (National Univ. of Defense Technology)"
+],
+[
+"AUSA: A Complementary Row-Pairing GEMM Accelerator for Pruned LLMs Exploiting Asymmetric Unstructured Sparsity",
+"Ruoheng Yao, Wenneng Jiang, Tianji Wang, Yichen Ouyang, Lei Chen, Fengwei An (Southern Univ. of Science and Technology)"
+]
+]
+],
+[
+"Session 2A: ML System Interconect",
+[
+[
+"Glaive: Cleaving Bandwidth and Latency Scheduling for Efficient Non-uniform All-to-All Collective Communication",
+"Le Qin, Junwei Cui, Weilin Cai, Chenyu Yuan, Jiayi Huang (The Hong Kong Univ. of Science and Technology (Guangzhou))"
+],
+[
+"RAFO: Reconfigurable AWGR-Based nD-Fullmesh Optical Interconnect for MoE Serving Acceleration",
+"Yuxuan Zhang (Shanghai Jiao Tong Univ.); Rongquan Ni (Fudan Univ.); Jun Liu, Hanbin Zhang, Guohao Dai (Shanghai Jiao Tong Univ.)"
+],
+[
+"HeteroMosaic: Exposing and Exploiting Heterogeneous Opportunities for Energy-Efficient Edge LLM Inference",
+"Gregory Hyegang Jun, Wesley Pang (Univ. of Illinois Urbana-Champaign); Eddie Richter (AMD Research and Advanced Development); Mehdi Saeedi (Advanced Micro Devices (AMD)); Aporva Amarnath (AMD Research); Pallavi Ferrao (Advanced Micro Devices (AMD)); Deming Chen (Univ. of Illinois Urbana-Champaign)"
+],
+[
+"SNN-4-All: Breaking the Edge Fine-Tuning Barrier with Heterogeneous Sparsity Exploitation",
+"Zhibai Huang, James Yen, Zhixiang Wei, Xingzi Yu, Chen Chen, Lingyun Yang, Fangxin Liu, Zhengwei Qi, Haibing Guan (Shanghai Jiao Tong Univ.)"
+],
+[
+"Auto-Scaling Heterogeneous Neural Processing Units for Energy and Cost-Efficient LLM Serving",
+"Yuqi Xue (Univ. of Illinois Urbana-Champaign); Jichuan Chang (Google DeepMind); Jian Huang (Univ. of Illinois Urbana-Champaign)"
+],
+[
+"Beyond Prefill-Decode Disaggregation: Dissecting LLM Inference for Heterogeneous Platforms via Dynamic Operator Scheduling",
+"Jiaqi Yang, Jiayi Li, Yihan Fu, Hongxiao Zhao, Zhan Chen, Qiuping Wu, Yuchao Yang, Bonan Yan (Peking Univ.)"
+],
+[
+"In-Flight Collectives: Characterizing and Accelerating Compute-Communication Overlap in Distributed LLM System",
+"Jonghoon Kang (Samsung Electronics / KAIST); Zhixian Jin, John Kim (KAIST)"
+]
+]
+],
+[
+"Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+[
+[
+"An Experimental Study of High-Bandwidth Memory Power Consumption",
+"Ataberk Olgun, Spiros Galanopoulos, Andreas Kosmas Kakolyris, Haocong Luo, Ismail Emir Yuksel, Nisa Bostanci, Onur Mutlu (ETH Zürich)"
+],
+[
+"MORDOR: Mitigating Overheads of Read Disturbance Preventive Operations via Elastic Refresh Scheduling",
+"Maria Makeenkova, Ataberk Olgun, Nisa Bostanci, Ismail Emir Yuksel, Spiros Galanopoulos, Onur Mutlu (ETH Zürich)"
+],
+[
+"PRISM: A Miss-Attribution-Guided Temporal Prefetcher Beyond Metadata Management",
+"Yiquan Lin, Jianxiang Liu (Zhejiang Univ.); Yiquan Chen, Wenhai Lin (Alibaba Cloud); Zonghui Wang, Wenzhi Chen (Zhejiang Univ.)"
+],
+[
+"ARC: Adaptive Reconfigurable CXL Hotness Monitoring",
+"Chihun Song (Univ. of Illinois, Urbana-Champaign); Hwayong Nam (Seoul National Univ.); Haijian Wang (Univ. of Illinois, Urbana-Champaign); Eojin Na (Seoul National Univ.); Haneul Park (Univ. of Illinois, Urbana-Champaign); Taehyung Lee (DGIST); Jung Ho Ahn (Seoul National Univ.); Nam Sung Kim (Univ. of Illinois, Urbana-Champaign)"
+],
+[
+"HSPref: Efficient Software Prefetching for ARM SME Outer-Products",
+"Han Huang, Lanshu Huang, Xianjie Chen, Xianwei Zhang, Yutong Lu (Sun Yat-sen Univ.)"
+],
+[
+"From Bit-Position Sensitivity to Unequal Error Protection for DNN Inference Memory",
+"Muhammad Husnain Mubarik, Karthik Mohan Kumar, Pedro Antonio Pena, Keshavan Varadarajan, Kunal Tyagi (AMD)"
+],
+[
+"Maverick: Leveraging Address Translation to Mitigate Memory Latency in Server Workloads",
+"Ho Je Lee, Minchan Kim, Jaewon Kwon, Jain Koo, Yongju Lee (Yonsei Univ.); Won Hur (Yonsei Univ., LG Electronics); Jiwon Lee (Uppsala Univ.); Won Woo Ro (Yonsei Univ.)"
+]
+]
+],
+[
+"Session 2C: Distinguished Papers I -- Memory Systems & Microarchitecture",
+[
+[
+"Caerus: Prefetching by Thinking Globally and Acting Locally",
+"Jacky Wong, Jacob Alexandrou (Imperial College London); Yinting Huang (Univ. of Cambridge); Luke Panayi (Imperial College London); Lev Mukhanov, Sam Ainsworth (IMEC); Paul Kelly (Imperial College London)"
+],
+[
+"Synapse: Decoupling Protocol, Topology, and Policy for Automated Synthesis of Coherence Controllers",
+"Nicolò Carpentieri, Anatole Lefort, David Schall, Julian Pritzi, Pramod Bhatotia (Technische Univ. München)"
+],
+[
+"SagePTE: Co-Locating Guest and Host PTEs to Accelerate Virtual Memory Translation",
+"Amir Noohi, Mostafa Derispour (The Univ. of Edinburgh); Rodrigo Caetano de Oliveira Rocha (Huawei); Antonio Barbalace (The Univ. of Edinburgh); Artemiy Margaritov (Huawei)"
+],
+[
+"Rebasing and Optimizing Cache Miss Handling: Fetching Beyond MSHR Capacity",
+"Simranjit Singh (Univ. of Murcia); Agustín Navarro-Torres (Universidad de Zaragoza); Biswabandan Panda (Indian Inst. of Technology Bombay); Alberto Ros (Univ. of Murcia)"
+],
+[
+"Same Cache, Different Latency: Understanding and Exploiting L2 Partition Locality in GPUs",
+"Weile Luo (The Hong Kong Univ. of Science and Technology (Guangzhou)); Yibin Ma (Harbin Inst. of Technology, Shenzhen); Yuhan Chen, Ruibo Fan (The Hong Kong Univ. of Science and Technology (Guangzhou)); Hongyuan Liu (Stevens Inst. of Technology); Qiang Wang (Harbin Inst. of Technology, Shenzhen); Xiaowen Chu (The Hong Kong Univ. of Science and Technology (Guangzhou))"
+],
+[
+"SecPIMlet: Confidential Computing for Spatio-temporally Shared Processing-in-Memory",
+"Sunho Lee (Univ. of Oxford/KAIST); Minwoo Noh, Jeongwon Choi, Kwanghoon Choi, Igjae Kim (KAIST); Chang Hyun Park (Uppsala Univ.); Jaehyuk Huh (KAIST)"
+]
+]
+],
+[
+"Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+[
+[
+"TriOoO: An Extensible DSA Framework for Machine Learning Molecular Dynamics",
+"Zihan Yan (Inst. of Computing Technology, CAS; Univ. of Chinese Academy of Sciences); Ning Kang, Guojun Yuan (Inst. of Computing Technology, CAS); Yewen Li (The Hong Kong Univ. of Science and Technology); Yuanzhe Wang (Inst. of Computing Technology, CAS; UCAS); Hao Zhang (Information Materials Department, Suzhou Laboratory); Yachao Zhang (Inst. of Computing Technology, CAS; UCAS); Guanglei Chen, Zejun Li, Zhan Wang, Dingwen Tao, Ninghui Sun (Inst. of Computing Technology, CAS); Guangming Tan (Inst. of Computing Technology, CAS; Western Inst. of Computing Technology, CAS)"
+],
+[
+"AMG: AMX–GPU Cooperative Acceleration of Billion-Scale ANNS via GEMM Reformulation",
+"Minho Kim (DGIST); Houxiang Ji (Univ. of Illinois Urbana-Champaign); Hwanjun Lee (DGIST); Jaeyoung Kang (Univ. of Illinois Urbana-Champaign); Sungju Kim, Hyunkyun Shin (Yonsei Univ.); Nam Sung Kim (Univ. of Illinois, Urbana-Champaign); Daehoon Kim (Yonsei Univ.)"
+],
+[
+"HiCAM: Accelerating Parallel Triangle Counting via Bit-Efficient Content-Addressable Memory on FPGA",
+"Yao Chen (Huazhong Univ. of Science and Technology); Feng Yu, Hongshi Tan (National Univ. of Singapore); Xuanhua Shi (Huazhong Univ. of Science and Technology); Weng-Fai Wong, Bingsheng He (National Univ. of Singapore); Hai Jin (Huazhong Univ. of Science and Technology)"
+],
+[
+"Arborist: Algorithm-Hardware Co-Design for Fast and Efficient Motion Planning",
+"Yaotian Liu (Arizona State Univ.); Lingyi Huang (Rutgers Univ.); Zishen Wan (Harvard Univ.); Bo Yuan (Rutgers Univerrsity); Cheng Tan, Jeff Zhang (Arizona State Univ.)"
+],
+[
+"MVP: A Motion-Predictive Speculative Vision Pipeline with Non-Blocking Drift Correction",
+"Raúl Taranco (Universitat Politècnica de Catalunya); Antonio Gonzalez (Universitat Politecnica de Catalunya)"
+],
+[
+"DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and Reorganization",
+"Minnan Pei, Gang Li, Zeyu Zhu, Siting Wang, Junwen Si (Inst. of Automation, Chinese Academy of Sciences); Zhuoran Song, Yu Feng, Fangxin Liu, Xiaoyao Liang (Shanghai Jiao Tong Univ.); Jian Cheng (Inst. of Automation, Chinese Academy of Sciences)"
+],
+[
+"\\textsc{Saft}: Memory Sensitivity Analysis and Adaptive Fusion for Sparse Accelerators",
+"Guoyu Li, Zhiyi Chen, Zheng Guan, Jun Yu, HaoDong Lu, Kun Wang (Fudan Univ.)"
+]
+]
+],
+[
+"Session 3A: Branch Prediction & Instruction-Level Prefetching",
+[
+[
+"TEMPO: A Tag-Based Framework for Efficient Memory Ordering",
+"Pranith Kumar (ARM); Prasun Gera, Hyojong Kim, Chulhyung Park, Hyesoon Kim (Georgia Inst. of Technology)"
+],
+[
+"Prefetching for Hierarchical Branch Target Buffers",
+"Yongjie Huang, Mária Ďuračková, Boris Grot (Univ. of Edinburgh); David Schall (Technical Univ. of Munich)"
+],
+[
+"Exploiting Program Semantics for Hardware Prefetching",
+"Georgios Vavouliotis, Damjan Lampret, Sara Friedman, Leeor Peled (Huawei)"
+],
+[
+"Towards a Noise-Resilient TAGE via PURE",
+"Tingji Zhang (Tsinghua Univ.); Fang Su (Huawei Technologies Co., Ltd.); Peng Qu (Tsinghua Univ.); Wenjian He (Huawei Technologies Co., Ltd.); Xiaoyi Liu, Xuefeng Zhang, Youhui Zhang (Tsinghua Univ.)"
+],
+[
+"Non-Speculative Redundant Load Elimination",
+"Minchan Kim, Ho Je Lee, Jaewon Kwon, Mingu Jung, Ipoom Jeong, Won Woo Ro (Yonsei Univ.)"
+],
+[
+"ParaAhead: Practical Multi-Taken Branch Prediction via Concurrent Ahead Pipelining",
+"Hongyu Guo (State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences & Univ. of Chinese Academy of Sciences); Hongze Tan, Tingting Zhang (Loongson Technology Co. Ltd.); Tianyi Liu, Fuxin Zhang (State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences & Univ. of Chinese Academy of Sciences)"
+],
+[
+"Catalyst-Length Instruction Fusion Prediction",
+"Sebastian Sumin Kim (Univ. of Murcia); Sawan Singh (AMD); Alberto Ros (Univ. of Murcia)"
+]
+]
+],
+[
+"Session 3B: Design Methodology: Simulation & Performance Modeling",
+[
+[
+"FlashGPU-sim: Enabling GPU Modeling for Modern Architectures and AI Workloads",
+"Siying Yu (Chinese Univ. of Hong Kong); Yixun Hong, Guozhi Qiu (Zhejiang Univ.); Jingci Liu (The Chinese Univ. of Hong Kong); Feng Gu (Chinese Univ. of Hong Kong); Chenbo Geng (Shanghai Jiao Tong Univ.); Zhengrong Wang (Chinese Univ. of Hong Kong); Chen Zhang (Shanghai Jiao Tong Univ.); Bei Yu (Chinese Univ. of Hong Kong)"
+],
+[
+"Accurate & Scalable Time-Based Sampling of Full-System Simulation",
+"Shanqing Lin, Yuanlong Li (EPFL); Mohammad Alian (Cornell Univ.); Babak Falsafi (EPFL); Konrad K. Lai (Intel Corporation)"
+],
+[
+"KAIROS: Fast Microarchitectural Design Space Exploration by Bridging Architectural Semantics and Logic Gates",
+"Shilin Tian, Sanjay Gandham, Lingxiang Yin, Mingjie Lin, Hao Zheng (Univ. of Central Florida)"
+],
+[
+"Fidelio: Agentic AI Framework for Synthesizing Microarchitecture-Faithful Datacenter Benchmarks",
+"Alan Andrade (Univ. of Texas at Austin); Petar Acimovic (Univ. of Cincinnati); Wei Su, Suyash Mahar, Apostolos Kokolis, Abhishek Dhanotia (Meta); Jovan Stojkovic (UT Austin and Meta)"
+],
+[
+"Perf-IR: A Portable Intermediate Representation for Cross-Platform GPU Performance Prediction",
+"Jiyu Luo (Univ. of Science and Technology of China); Ruike Liu (Nankai Univ.); Jingwei Sun, Guangzhong Sun (Univ. of Science and Technology of China)"
+],
+[
+"GPU-Tile-Sim: A Tile-Centric GPU Simulation Framework for LLM Hardware-Software Co-Design",
+"Yitong Ding, Jiawei Huang, Renyang Guan, Zihan Liu (Shanghai Jiao Tong Univ., China); Yangjie Zhou (National Univ. of Singapore, Singapore); Yu Feng, Shixuan Sun, Jingwen Leng, Mingyi Guo (Shanghai Jiao Tong Univ., China); Jian Weng (King Abdullah Univ. of Science and Technology (KAUST), Saudi Arabia)"
+],
+[
+"P-PLUS: Prefetch Profiling with Lightweight Unified Sampling",
+"Junjie Liu (Tsinghua Univ.); Fang Su, Yongbin Zhou (Huawei); Haoqian Wang (Tsinghua Univ.)"
+]
+]
+],
+[
+"Session 3C: Distinguished Papers II -- Security, Verification & Efficient ML Systems",
+[
+[
+"Uncovering Contention-Based Side-Channel Threats in AMD Zen Chiplet Architectures",
+"Yunpeng Xu, Yueteng Yu, Xuanzeng Song, Zongle Huang (Tsinghua Univ.); Yongpan Liu (Tsinghua university); Guowei Zhang (HiSilicon Technologies Co., Ltd.); Shuwen Deng (Tsinghua Univ.)"
+],
+[
+"DiffTest-L: A Hostless Co-Simulation Architecture for Hardware-Accelerated CPU Verification",
+"Yinan Xu (State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences); Dan Tang (Beijing Inst. of Open Source Chip, China); Sa Wang, Ninghui Sun, Yungang Bao (State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences)"
+],
+[
+"Enabling Spatially Fine-Grained DVFS in Neural Processing Units for Energy-Efficient LLM Serving",
+"Yuqi Xue, Jerry Wu, Corey Yu, Jian Huang (Univ. of Illinois Urbana-Champaign)"
+],
+[
+"EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding",
+"Sangwoo Ha, Hyunwoo Seo, Yurim Jo, Youngjin Moon, Hoi-Jun Yoo (KAIST)"
+],
+[
+"PoCer: Fast RTL Fuzzing for Time-shared Microarchitectural Leakage Detection via Pre-Fuzzing Acceleration and Cross-Context-Supported Fuzzer",
+"Pingfei Wu (Tsinghua Univ.); Yun Chen (HKUST(GZ)); Dongsheng Wang (Department of Computer Science and Technology, Tsinghua Univ.); Haixia Wang (Beijing National Research Center for Information Science and Technology,Tsinghua Univ.); Pengfei Qiu (Key Laboratory of Trustworthy Distributed Computing and Service (BUPT), Ministry of Education); Rihui Sun, Zikang Tao (Harbin Inst. of Technology, Harbin, China); Dapeng Ju (Tsinghua Univ.; Zhongguancun Laboratory)"
+],
+[
+"Pistil – A Decoupled Pipeline Architecture for Sustained Memory Bandwidth across a 20-Chiplet 2.5D SiP for Edge SLM Inference",
+"Matthew Adiletta, David Brooks, Gu-Yeon Wei, Haebin Do, Kevin Kim, Yun-Chen Lo, Nestor Cuevas (Harvard Univ.)"
+]
+]
+],
+[
+"Session 3D: Quantum",
+[
+[
+"NAQsim: Full-Stack Architecture Simulation Framework for Fast and Space-Efficient Neutral Atom Quantum Computing",
+"Yosuke Ueno (NanoQT/RIKEN/The Univ. of Tokyo); Shinichi Sunami (NanoQT/Univ. of Oxford); Toshihide Hinokuma (NanoQT/Kyushu Univ.); Yasunari Suzuki (RIKEN); Akihisa Goban (NanoQT); Hayata Yamasaki (NanoQT/The Univ. of Tokyo); Teruo Tanimoto, Ilkwon Byun (Kyushu Univ.)"
+],
+[
+"A Spatial-Topology Preserving Compiler for Quantum Many-Body Systems Simulation",
+"Xiangyu Ren (Univ. of Edinburgh); Yuexun Huang (The Univ. of Chicago); Zhaohui Yang (The Hong Kong Univ. of Science and Technology); Yuchen Zhu (Northwestern Univ.); Tsung-Wei huang (UW Madison); Tsung-Yi Ho, Zhiding Liang (The Chinese Univ. of Hong Kong); Antonio Barbalace (The Univ. of Edinburgh)"
+],
+[
+"NC-Fusion: Optimizing T-Gate Cost for Hamiltonian Simulation",
+"Yingheng Li, Xulong Tang (Univ. of Pittsburgh); Paul Hovland, Ji Liu (Argonne National Laboratory)"
+],
+[
+"QROB: Quantifying Realization Overhead in Quantum Compilation via Reverse Construction",
+"Jintao Li (Beijing Academy of Quantum Information Sciences); Kaiqi Li, Rui Wang, Yilun Zhao (Inst. of Computing Technology, Chinese Academy of Sciences); Kaixuan Huang (Beijing Academy of Quantum Information Sciences); Ying Wang, Jialin Zhang (Inst. of Computing Technology, Chinese Academy of Sciences); Zheng-An Wang (Beijing Academy of Quantum Information Sciences); Xiaoming Sun (Inst. of Computing Technology, Chinese Academy of Sciences); Heng Fan (Beijing Academy of Quantum Information Sciences; Inst. of Physics, Chinese Academy of Sciences)"
+],
+[
+"Efficient Logical Error Mitigation with Decoder Soft Information",
+"Zeyuan Zhou, Shaun Pexton, Aleksander Kubica, Yongshan Ding (Yale Univ.)"
+],
+[
+"HINT: Mitigating Latency Overheads in a Disaggregated Quantum Memory Hierarchy",
+"Suhas Vittal, Moinuddin K. Qureshi (Georgia Inst. of Technology)"
+],
+[
+"Ring Around the Ancilla: A Workload-Aware FTQC Architecture",
+"Archisman Ghosh, Avimita Chatterjee, Swaroop Ghosh (The Pennsylvania State Univ.)"
+]
+]
+],
+[
+"Title TBA",
+[]
+],
+[
+"Session 4A: NDP and PIM Design Exploration",
+[
+[
+"PNMAX: Mapping-Architecture Co-Exploration Framework for Processing near Memory",
+"Chien-Yi Yang (Univ. of California, San Diego); Jiantao Liu (ETH Zürich); Yue Pan, Tajana Rosing (Univ. of California, San Diego); Minxuan Zhou (Illinois Inst. of Technology); Lana Josipovic (ETH Zürich)"
+],
+[
+"NiF: Hybrid In-Flash and In-Storage Acceleration for Approximate Nearest Neighbor Search",
+"Myoungjun Chun (Soongsil Univ.); Jaeyong Lee, Gwuiin Kim (Seoul National Univ.); Minhyeong Kim (Soongsil Univ.); Inhyuk Choi (Seoul National Univ.); Myungsuk Kim (Kyungpook National Univ.); Nam Sung Kim (Univ. of Illinois, Urbana-Champaign); Jihong Kim (Seoul National Univ.)"
+],
+[
+"PIM-AutoDSE: Automated ISA and Design Space Exploration for PIM",
+"Abdul Rafae Noor (Univ. of Illinois Urbana-Champaign); Farzana Ahmed Siddique (Univ. of Virginia); Akash Kothari (Univ. of Illinois Urbana-Champaign); Deyuan Guo, Kevin Skadron (Univ. of Virginia); Vikram Adve (Univ. of Illinois Urbana-Champaign)"
+],
+[
+"LUTHE: Breaking the Memory Wall of High-Precision Encrypted LLM Nonlinearities via GPU–CSD Co-Design",
+"Xiurui Pan, Guoci Chen, Guangyu Sun (Peking Univ.); Mingzhe Zhang (Ant Group); Jie Zhang (Peking Univ.)"
+],
+[
+"DBX-DIMM: Scalable and Reliable Near-Data Processing with Concurrent Host Access through Buffer-Centric Pseudo Channels",
+"Minkyu Lee, Sang-Seol Lee (Korea Electronics Technology Inst. (KETI)); Churoo Park (ONE Semiconductor Corporation); Kyungho Kim, Eunchong Lee, Sung-Joon Jang (Korea Electronics Technology Inst. (KETI))"
+]
+]
+],
+[
+"Session 4B: Side-Channel Attacks & Confidential Computing",
+[
+[
+"Compute Express Leak: New Cache Attacks Using CXL Devices",
+"Ali Aqdas, Zheng Zhang (Purdue Univ.); Yue Pan, Zixuan Wang, Tajana Rosing, Jishen Zhao (Univ. of California, San Diego); Kazem Taram (Purdue Univ.)"
+],
+[
+"Helios: Melting Kernel Boundaries for GPU-Accelerated HE via Graph Rewriting and Microarchitecture-Aware Mapping",
+"Yi Chen, Ziyu Tang, Chao Yang (Peking Univ.); Guang Fan, Mingzhe Zhang (Ant Group); Meng Li (Peking Univ.)"
+],
+[
+"OptiPrime: Optimizing Private Inference through protocol-hardware codesign",
+"Jiangrui Yu, Ye Yu (Peking Univ.); Si Chen (Open Security Research); Chenqi Lin, Wenxuan Zeng (Peking Univ.); Junfeng Fan (Open Security Research); Mingyu Gao (Tsinghua Univ.); Meng Li (Peking Univ.)"
+],
+[
+"SMExplode: Cross-Core and Cache-Agnostic Side-Channel Attack on Apple Silicon via SME Engine",
+"Zheng Hongpei (Tsinghua Univ.); Ben Chen (Hong Kong Univ. of Science and Technology (Guangzhou)); Hanyin Liu (Harbin Inst. of Technology); Kaiyuan Rong (Tsinghua Univ.); Yun Chen (HKUST (GZ)); Dongsheng Wang (Department of Computer Science and Technology, Tsinghua Univ.)"
+],
+[
+"GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory",
+"Zihao Dan (The Hong Kong Univ. of Science and Technology (Guangzhou)); Shinan Liu (The Univ. of Hong Kong); Shuwen Deng (Tsinghua Univ.); Yinqian Zhang (SUSTech); Dongsheng Wang (Tsinghua Univ.); Yun Chen (The Hong Kong Univ. of Science and Technology (Guangzhou))"
+]
+]
+],
+[
+"Session 4C: Thermal-Aware 3D-Stacked LLM Accelerators",
+[
+[
+"Exploring the Efficiency of 3D-Stacked AI Chip Architecture for LLM Inference with VOXEL",
+"Yiqi Liu, Noelle Crawford (Univ. of Illinois Urbana-Champaign); Michael Wang (Univ. of Illinois Urbana Champaign); Jilong Xue (Microsoft Research); Jian Huang (Univ. of Illinois Urbana Champaign)"
+],
+[
+"Beyond Linear Scaling for LLM Training on Wafer-Scale GPUs",
+"Qijun Zhang (Hong Kong Univ. of Science and Technology); Jingchen Zhu (HUAWEI); Chen Zhang, Zixiao Chen (Shanghai Jiao Tong Univ.); Yiqi Chen (Peking Univ.); Mengming Li (Hong Kong Univ. of Science and Technology); Guangyu Sun (Peking Univ.); Cheng Zhang, Zhe Zhou (HUAWEI); Zhiyao Xie (Hong Kong Univ. of Science and Technology)"
+],
+[
+"NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
+"In-Jun Jung, Jaeha Min, Joo-Young Kim (KAIST)"
+],
+[
+"CrossSpec: A Draft–Verify Aggregated 3D LLM Accelerator with Thermal-Aware Cross Floorplan and Stack-Layer-wise Dynamic Refresh for Parallel Speculative Decoding",
+"Yutong Su, Huanyu Wang, Ruikang Guo, Mengfei Shen, Huiming Han, Yang Wang, Yang Hu, Shouyi Yin (Tsinghua Univ.)"
+],
+[
+"TESSA: A Thermal-Centric, Sensor-Free Framework with Spatially-Aware Elastic Execution for 3D-Stacked-DRAM-Based LLM Accelerators",
+"Huanyu Wang, Yang Wang, Yutong Su, Jiaxin Yang, Junan Lu, Huiming Han, Yang Hu, Shouyi Yin (Tsinghua Univ.)"
+]
+]
+],
+[
+"Session 4D: PhD Jobs Session",
+[]
+],
+[
+"Session 5A: Accelerator Spatial Mapping & High-Level Synthesis",
+[
+[
+"SNECKO: Efficient GEMM Mapping on Versal ACAP Heterogeneous Spatial Architecture",
+"Ilias Papalamprou (National Technical Univ. of Athens); Aimilios Leftheriotis (Univ. of Patras); Ioannis Loudaros (National Technical Univ. of Athens); George Theodoridis (Univ. of Patras); Francky Catthoor, Dimosthenis Masouros, Dimitrios Soudris (National Technical Univ. of Athens)"
+],
+[
+"MCHA: A Memory-Centric Hierarchical Architecture for Parallel-Sequential Computing",
+"Daijing Shi, Hongxiao Zhao, Yihan Fu, Zhan Chen, Jiayi Li, Yihang Zhu, Anjunyi Fan, Yaoyu Tao, Yuchao Yang, Bonan Yan (Peking Univ.)"
+],
+[
+"Potluck: High-Level Synthesis for Architectural Design via Automated Module Extraction and Sharing",
+"Hanqiu Chen, Cong Hao (Georgia Inst. of Technology)"
+],
+[
+"The Turbo-Charged Mapper: Fast and Optimal Mapping for Energy-efficient and Low-latency Accelerator Design",
+"Michael Gilbert, Tanner Andrulis, Vivienne Sze (Massachusetts Inst. of Technology); Joel Emer (MIT/NVIDIA)"
+],
+[
+"UDYR: An Adaptive Accelerator for Optimization-based Humanoid Robot Control",
+"Yuhui Hao (Inst. of Computing Technology, Chinese Academy of Sciences); Bo Yu, Shaoshan Liu (Shenzhen Inst. of Artificial Intelligence and Robotics for Society); Yinhe Han (Inst. of Computing Technology, Chinese Academy of Sciences); Yu Feng (Shanghai Jiao Tong Univ.); Yiming Gan (ICT, Chinese Academy of Sciences)"
+]
+]
+],
+[
+"Session 5B: Emerging Technologies and Reliability",
+[
+[
+"Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign",
+"Haoran Jin, Jirong Yang, Zhiheng Zhang, Justin Shin, Barry Lyu, Kangqi Zhang, Yunpeng Liu, Nathan Bleier (Univ. of Michigan)"
+],
+[
+"ITHICA: Intra-Thread Instruction Checking Approach for Defect-Induced Silent Data Corruptions",
+"Ioanna Vavelidou (Stanford Univ.); Subho S Banerjee, Eric Xue Liu, Mike Fuller (Google LLC); Subhasish Mitra, Caroline Trippel (Stanford Univ.)"
+],
+[
+"ResSpec: Self-Speculative Decoding via In-Situ Drafting on Residual ReRAM CIM",
+"Yibo Zhao, Peng Huang, Youwei Zhuo (Peking Univ.)"
+],
+[
+"XAT: A Quantum-Like Digital SAT Accelerator with Non-Intuitive Clause-to-Variable Feedback",
+"zhezheng Ren, Shiyu Su (Univ. of Waterloo)"
+],
+[
+"Helios: Enabling Dynamic KV Cache Management for Near-Memory Processing via Hybrid-Bonding-based 3D-DRAM",
+"Cong Li (Peking Univ.); Yihan Yin (Peking university); Chenhao Xue, Zhao Wang (Peking Univ.); Fujun Bai, Yixin Guo, Xiping Jiang (Xi'an UniIC Semiconductors); Qiang Wu (Houmo AI); Yuan Xie (Hong Kong Univ. of Science and Technology); Guangyu Sun (Peking Univ.)"
+]
+]
+],
+[
+"Session 5C: CXL, Caching & GPU Bandwidth Management",
+[
+[
+"Rethinking Compression for CXL Memory Expanders at Hyperscale",
+"Haneul Park (Univ. of Illinois, Urbana-Champaign); Grant Ayers (Google); Nam Sung Kim (Univ. of Illinois, Urbana-Champaign); Philip Levis, Brian Morris (Google)"
+],
+[
+"Trail: Effective, Low-Cost and Scalable Temporal TLB Prefetching via Page-Table-Embedded Deltas",
+"Konstantinos Kanellopoulos (ETH Zürich); Konstantinos Sgouras (Univ. of Athens); Harsh Songara (ETH Zürich); Rahul Bera (ETH Zürich; Huawei Switzerland); Onur Mutlu (ETH Zürich)"
+],
+[
+"DUALign: A Hardware-Assisted Memory Mapping Strategy for PNM-Accelerated LLM Serving",
+"Euijun Kim, Joshua Gabriel Dela Rosa, Bogil Kim, Youngin Kim (Yonsei Univ.); Seungyong Lee, Joonseop Sim, Youngpyo Joo (SK Hynix); William Song (Yonsei Univ.)"
+],
+[
+"Lazy-LLC: Reducing GPU LLC Thrashing with Shared-Data and Reusability Filters",
+"Sina Darabi (Barcelona Supercomputing Center (BSC)); Ahmad Javadi-Nezhad (None); Hajar Falahati, Negin Mahani (Barcelona Supercomputing Center (BSC)); Adrian Cristal (BSC); Osman Sabri Unsal (Barcelona Supercomputing Center); Hamid Sarbazi-Azad (Sharif Univ. of Technology and IPM)"
+],
+[
+"Dynamically Sharing Local and Remote Memory Bandwidth in Memory-Centric MCM-GPU Systems",
+"Seyyed Hossein SeyyedAghaei Rezaei (Ghent Univ.); Xin Wang (Ghent Univ.—imec); Mahmood Naderan-Tahan (Technische Univ. Delft); Guy Torfs (Ghent Univ.—imec); Magnus Jahre (Norwegian Univ. of Science and Technology (NTNU)); Lieven Eeckhout (Ghent Univ.)"
+]
+]
+],
+[
+"Session 5D: SRC Session",
+[]
+],
+[
+"Session 6A: Microarchitecture & Compilers",
+[
+[
+"Loop-Decoupled Prefetcher for Linked Data Structure",
+"pengchen zong, Gelin Fu, qiang luo, yijiang kong, chenzhun guo, Wenzhe Zhao, pengju ren, tian xia (Xi'an Jiaotong Univ.)"
+],
+[
+"TRANS-FETCH: Driving Translation Prefetching with Deep Lookahead from L2 Data Prefetch Events",
+"Cansong Zhou, Xiaohang Wang, Peng Liu (Zhejiang Univ.)"
+],
+[
+"CuLifter: Lifting GPU Binaries to Typed IR",
+"Jisheng Zhao, Huanzhi Pu, Shinnung Jeong, Chihyo Ahn, Hyesoon Kim (Georgia Inst. of Technology)"
+],
+[
+"coMulator: Coordinate Cross-architecture Compilation and Emulation to Accelerate Dynamic Binary Translation",
+"Yuhao Gu, Zhongchun Zheng, Nong Xiao, Yutong Lu, Xianwei Zhang (Sun Yat-sen Univ.)"
+],
+[
+"Capstone: Power-Capped Pipelining for Coarse-Grained Reconfigurable Array Compilers",
+"Sabrina Yarzada, Christopher Torng (Univ. of Southern California)"
+],
+[
+"MMAscope: Microarchitectural Characterization of Multi-Precision Arithmetic Pipelines in Modern Tensor Cores",
+"Xuelei Yu, Peng Liu (Zhejiang Univ.)"
+],
+[
+"Superscalar Loop Processors",
+"Luca Colagrande, Pascal Etterli, Luca Benini (ETH Zürich)"
+]
+]
+],
+[
+"Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+[
+[
+"Kairos: Rethinking Architectural Support for Synaptic Delays in Spiking Neural Networks",
+"Amirreza Movahedin, Lennart P.L. Landsmeer (Erasmus Medical Center and Delft Univ. of Technology (TU Delft)); Said Hamdioui (Delft Univ. of Technology (TU Delft)); Christos Strydis (Erasmus Medical Center and Delft Univ. of Technology (TU Delft))"
+],
+[
+"SLOTH: Lightweight Detection and Localization of On-Chip Fail-Slow Failures for DNN Accelerators",
+"Junchi Wu, Xinfei Wan, Zhuoran Li, Guangyu Sun, Yun Liang, Diyu Zhou, Youwei Zhuo (Peking Univ.)"
+],
+[
+"Enhancing the Efficiency of Embodied AI System with Squeezed Analog Perception",
+"Cheng Xu, Xiaofeng Hou, Chao Li (Shanghai Jiao Tong Univ.); Chenhe Yuan (Univ. College London); Jinyang Guo, Xinkai Wang (Shanghai Jiao Tong Univ.); Yang Hu (Tsinghua Univ.); Yu Feng (Shanghai Jiao Tong Univ.); Dimitris Gizopoulos (Univ. of Athens); Minyi Guo (Shanghai Jiao Tong Univ.)"
+],
+[
+"Themis: Improving Fairness and Performance in Multi-Stream NVMe SSDs",
+"Jiaojiao Wu (Southwest Univ.); Lieven Eeckhout (Ghent Univ.); Qiyu Liu, Zhigang Cai (Southwest Univ.); François Trahay (Télécom SudParis); Yuanquan Shi (Huaihua Univ. of China); Jim Woodcock (Southwest Univ., Aarhus Univ., and Univ. of York); Jianwei Liao (Southwest Univ. of China)"
+],
+[
+"iGPU: Enabling GPUs for Intermittent AI on Energy Harvesting Systems",
+"Byounguk Min (Purdue Univ.); Yilun Wu (Stony Brook Univ.); Yuchen Zhou (Purdue Univ.); Kasim Sinan Yildirim (Univ. of Trento); Khakim Akhunov (imec); Jianping Zeng (Arizona State Univ.); Jongouk Choi (Univ. of Central Florida); Wenjie Xiong (Virginia Tech); Dongyoon Lee (Stony Brook Univ.); Changhee Jung (Purdue Univ.)"
+],
+[
+"PEEK: Heterogeneous Parallelism for Privileged Error Detection in Safety-Critical Processors",
+"Tinglue Wang, Zhenghui Guo, Bing Guo, Jiapeng Guan (Southeast Univ.); RenShuang Jiang (National Univ. of Defense Technology); Jie Zhang (Southeast Univ.); Jing Li (New Jersey Inst. of Technology); Xin Si (Southeast Univ.); Sam Ainsworth (Univ. of Edinburgh); Zhe Jiang (Southeast Univ.)"
+],
+[
+"SafeMind: A Battery-Free Processing System for Safely Implantable Brain-Computer Interfaces",
+"Daye Jung, Yeongwoo Jang, Seunghyun Song (Seoul National Univ.); Jangwoo Kim (Seoul National Univ. / MangoBoost)"
+]
+]
+],
+[
+"Session 6C: Low-Bit Quantization for LLM Inference",
+[
+[
+"HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
+"Chun-Ting Chen, Dongmin Han, Hangyeol Mun, Jake Hyun (Cornell Univ.); Arnab Raha, Amit Agarwal, Mark Anders (Intel Corporation); Mohamed Abdelfattah (Cornell Univ.); Jae-sun Seo (Cornell Tech)"
+],
+[
+"FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators",
+"Yimin Gao, Liangtao Dai, Jun Yin (Univ. of Virginia); Xinfei Guo (Shanghai Jiao Tong Univ.); Mircea Stan (Univ. of Virginia)"
+],
+[
+"Software-Hardware Co-Design of Prior-Aware W4A4 Micro-Block Quantization for Robust LLM Inference Across Model Families",
+"Yijian Wei, Tianchang Yang, Sicheng Tao, Miao Hao, Tianyi Liu (State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences); Tingting Zhang (Loongson Technology Co. Ltd.); Fuxin Zhang, Jian Wang (State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences)"
+],
+[
+"OzCore: An Ozaki-Scheme-II-Based GEMM Architecture for Unified Integer and Floating-Point Computation",
+"Jihoon Park, Junhee Lee, Howon Lee, Jinsu Kim (Seoul National Univ.); Jinseok Kim (Rebellions); Jae-Joon Kim (Seoul National Univ.)"
+],
+[
+"SkewQ: Skewness-Aware Cross-Layer Quantization for Efficient LLM Inference via Software-Hardware Co-Design",
+"Wenju Zhao (Huazhong Univ. of Science and Technology); Jianhui Yue (Michigan Technological Univ.); Pengcheng Yao, Jiaqi Zhai (Huazhong Univ. of Science and Technology); Yundong Zhang (Duke Kunshan Univ.); Yu Huang, Shunsen Lv, Bing Zhu, Zhongtian Long, Long Zheng, Chencheng Ye (Huazhong Univ. of Science and Technology); Lihong Gu (Ant Group); Jingling Xue (Univ. of New South Wales, Sydney); Hai Jin, XIAOFEI LIAO (Huazhong Univ. of Science and Technology)"
+],
+[
+"MOSAIC: An Accelerator Design for Heterophilic Graph Learning",
+"Fangzhou Ye, Wei Zhang (Univ. of Central Florida); Ahmed Louri (George Washington Univ., Washington DC); Hao Zheng (Univ. of Central Florida)"
+],
+[
+"DSTAR: Accelerating Diffusion Transformers via Spatial and Temporal Redundancy Reduction",
+"Chi Zhang (Department of Computer Science and Engineering, Shanghai Jiao Tong Univ.); Jieru Zhao, Yu Feng, Chen Zhang, Quan Chen, Minyi Guo (Shanghai Jiao Tong Univ.)"
+]
+]
+],
+[
+"Session 6D: CXL-Based Tiered Memory & Storage",
+[
+[
+"Terracotta: Enabling DRAM Techniques via a Flexible DRAM Interface and Memory Controller",
+"Harsh Songara, Konstantinos Kanellopoulos, Nisa Bostanci, Konstantinos Sgouras, Ataberk Olgun, Ismail Emir Yuksel, Andreas Kosmas Kakolyris (ETH Zürich); Abdullah Giray Yaglikci (CISPA); Onur Mutlu (ETH Zürich)"
+],
+[
+"CacheFlex: Direct Software-Managed Access to Higher-Level Cache for Scalable Vector Support",
+"Jingqun Zhang, Maohua Nie, Jiayi Wang (Univ. of Washington); Weihang Li (Rutgers Univ.); Rishi Sappidi, Shwet Chitnis, Ang Li (Univ. of Washington)"
+],
+[
+"CXL AnySSD: A Composable CXL SSD Using a CXL Type-2 Device and Any SSDs",
+"Yang Zhou, Houxiang Ji, Bikrant Das Sharma, Jiyuan Zhang, Yu Li (Univ. of Illinois Urbana-Champaign); Linjie Ma (Rutgers Univ.); Jaeyong Lee (Seoul National Univ.); Myoungjun Chun (Soongsil Univ.); Jihong Kim (Seoul National Univ.); Sudarsun Kannan (Rutgers Univ.); Nam Sung Kim (Univ. of Illinois, Urbana-Champaign)"
+],
+[
+"HYDRA: Hybrid DRAM Caching for Dynamic Complementary Multi-to-One Page Mapping in CXL Tiered Memory",
+"Gangqi Huang, Heiner Litz, Yuanchao Xu (Univ. of California, Santa Cruz)"
+],
+[
+"CODA: Algorithm-Hardware Co-design for Edge Video Diffusion via NMP-Enabled Compute-Cache Operator Disaggregation",
+"Yuanpeng Zhang, YuXuan Wu, Yitong Xiao, Chenhao Xue, Yi Ren, Cong Li (Peking Univ.); Yihan Yin (Peking university); Dimin Niu (Alibaba Group Inc.); Guangyu Sun (Peking Univ.)"
+],
+[
+"DIKTAMO: Extending CXL for Resilience to CPU Failures",
+"Antonis Psistakis, Burak Ocalan (Univ. of Illinois Urbana-Champaign); Chloe Alverti (National Technical Univ. of Athens); Fabien Chaix (ICS-FORTH); Ramnatthan Alagappan, Josep Torrellas (Univ. of Illinois Urbana-Champaign)"
+],
+[
+"ReclaimX: Device-Side Memory Reclamation via Stalled GPU Execution for UVM Oversubscription",
+"Seongtae Bang (DGIST); Hyunkyun Shin (Yonsei Univ.); Hyungwon Park, Minho Kim (DGIST); Daehoon Kim (Yonsei Univ.)"
+]
+]
+],
+[
+"Title TBA",
+[]
+],
+[
+"Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+[
+[
+"TinyAct: Activation Functions are (Almost) Linear in Floating Point Representation",
+"Chris Kjellqvist, Mansi Choudhary, Ning Liang, Lisa Wu Wills (Duke Univ.)"
+],
+[
+"Make Every Batch Count: Fault Entry Merging for Efficient Batching in Unified Virtual Memory",
+"Jane Rhee, SeJin Park (Ewha Womans Univ.); Gunjae Koo, Yunho Oh (Korea Univ.); Myung Kuk Yoon (Ewha Womans Univ.)"
+],
+[
+"SPMC: Speculative Multicast for GPU Address Translation Sharing",
+"Zengshi Wang, Zhuoyuan Yang, Wenbin Liao, Xin Yang (Fudan Univ.); Xiaoyan Xiang, Jianyi Meng (Alibaba DAMO Academy); Chao Fu (Shaoxin Laboratory, Fudan Univ.); Jun Han (Fudan Univ.)"
+],
+[
+"C2P-Cache: Scalable GPU L1 Cache Sharing via Concurrent Candidate Pruning",
+"Hanqing Li, Lizhou Wu, Tiejun Li, Sheng Ma, Hanzhi Xun, Jianming Zhang, Yuhan Tang, Jixuan Tang, Xuchao Xie (National Univ. of Defense Technology)"
+],
+[
+"Attention, Watch Your Progress: Balancing Warp-Specialized GPU Pipelines",
+"Fangjia Shen, Nicolai Oswald (NVIDIA Corporation); Timothy Rogers (NVIDIA Corporation/Purdue Univ.)"
+],
+[
+"RoboGPU: Accelerating GPU Collision Detection for Robotics",
+"Lufei Liu, Liwei Xue (Univ. of British Columbia); Yuan Hsi Chou (Meta); Jocelyn Zhao, Lara Kawasme, Youssef Mohammed, Tor Aamodt (Univ. of British Columbia)"
+],
+[
+"Efficient GPU Inference for Discrete Neural Networks",
+"Ke Yang, Guanghui Song, Junhui Peng (Hunan Univ.); En Shao (State Key Lab of Processors, Inst. of Computing Technology, CAS); Xia Zhao (Defense Innovation Inst.); Zhuo Tang, Kenli Li, Jie Zhao (Hunan Univ.)"
+]
+]
+],
+[
+"Session 7B: Performance & Power Modeling for DSE",
+[
+[
+"DeepStack: Facilitating Co-Design Exploration of 3D DRAM-Stacked Accelerators for Distributed LLM Inference",
+"Zhiwen Mo, Guoyu Li, Hao (Mark) Chen (Imperial College London); Yu Cheng, Zhengju Tang (Peking Univerisity); Qianzhou Wang (Imperial College London); Lei Wang (Peking Univerisity); Shuang Liang (Imperial College London); Lingxiao Ma, Yuxiao Guo (Tile-AI); Wayne Luk (Imperial College London); Jilong Xue (Tile-AI); Hongxiang Fan (Imperial College London)"
+],
+[
+"Aneto: predicting system performance by exploiting cross-workload regularity",
+"Raul Taranco, Rene Mueller, Michael Giardino (Huawei)"
+],
+[
+"Off-Piste: Navigating in the Non-Convex Tensor Accelerator Design Space",
+"Zhongdi Luo (National Univ. of Defense Technology); Dong Chen (Huawei Technologies Co., Ltd.); Yang Shi (National Univ. of Defense Technology)"
+],
+[
+"Power Roofline",
+"Michael Jaemin Kim, Doe Hyun Yoon, Gefei Zuo, Jong Bin Lim (Meta); Jovan Stojkovic (Meta & UT Austin); Shobhit Kanaujia, Harsha Jagannati, Zhan Shu (Meta)"
+],
+[
+"ARMOR: Accelerating RTL Simulation by Mitigating the Front-End Bottleneck Using Node Compression",
+"Jiaping Tang (State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences; Univ. of Chinese Academy of Sciences;); Jianan Mu (ICT,CAS); Zhiteng Chao (State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences); Jingzhong Wen (unaffiliated); Jing Ye (State Key Laboratory of Computer Architecture, Inst. of Computing Technology, Chinese Academy of Sciences); Huawei Li (The Inst. of Computing Technology of the Chinese Academy of Sciences)"
+],
+[
+"Beyond SMARTS: Improving Simulation Accuracy with Ranked Set Sampling and Repeated Subsampling",
+"Magnus Ekman (NVIDIA)"
+],
+[
+"SCOPE: Pre-Silicon Power Optimization for Energy-Constrained Computational Vision Systems",
+"Qing Yu (Beijing Jiaotong Univ.); Yiexian Tay (Tsinghua Univ.); CAI QI DAN (Hangzhou Dianzi Univ.); Erxiang Ren, Haijin Su (Beijing Jiaotong Univ.); Tianrui Ma (Inst. of Computing Technology, Chinese Academy of Sciences); An Zou (Shanghai Jiao Tong Univ.); Li Luo (Beijing Jiaotong Univ.); Yan Liang (Hangzhou Dianzi Univ.); Qi Wei (Tsinghua Univ.); Zidong DU, Qi Guo (Inst. of Computing Tech., Chinese Academy of Sciences); Fei Qiao (Tsinghua Univ.)"
+]
+]
+],
+[
+"Session 7C: Vision-Language & Multimodal Model Acceleration",
+[
+[
+"MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration",
+"Yuan Liao (Cornell Tech, Cornell Univ.); Jae-sun Seo (Cornell Tech)"
+],
+[
+"SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow",
+"Zirui Ma, Zhihua Fan, Haibin Wu, Wenxing Li (Inst. of Computing Technology, Chinese Academy of Sciences); Fulin Zhang (Univ. of Chinese Academy of Sciences); Dongrui Fan, Xiaochun Ye, Wenming Li (Inst. of Computing Technology, Chinese Academy of Sciences)"
+],
+[
+"Hermes: Architecting Congestion Management for Large-Scale NoCs",
+"Yang Zhang (Tsinghua Univ.); Xu Wang (Lanzhou Univ.); Lei Xu (Huawei Technologies Co., Ltd.); Fengyuan Ren (Tsinghua Univ.)"
+],
+[
+"PECO: Prediction-Execution Co-optimized Constant-Memory Sparse Attention Accelerator for Foundational Diffusion Model",
+"Xujiang Xiang, Longke Yan, Fengbin Tu (The Hong Kong Univ. of Science and Technology)"
+],
+[
+"Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference",
+"Zheng Liu, Zeyu Guo, Zihan Liu, Anbang Wu, Han Zhao, Fangxin Liu, Zhezhi He (Shanghai Jiao Tong Univ.); Yinhe Han (Inst. of Computing Technology, Chinese Academy of Sciences); Jingwen Leng, Minyi Guo (Shanghai Jiao Tong Univ.); Yiming Gan (ICT, Chinese Academy of Sciences); Yu Feng (Shanghai Jiao Tong Univ.)"
+],
+[
+"BitDense: Dense Bit-Slice Architecture with Dynamic-Sized Group Quantization for Precision Scalable Low-Bit AI Inference",
+"Jungjun Oh (KAIST); Sangjin Kim (GIST); Yuseon Choi, Jingu Lee, Hoi-Jun Yoo (KAIST)"
+],
+[
+"SpecVLA: Enabling Efficient Robotic Manipulation via \\underline{Spec}ulative \\underline{VLA} Inference and Verification",
+"Chunyu Qi, Zhuoran Song (Shanghai Jiao Tong Univ.); Jian Weng (King Abdullah Univ. of Science and Technology); Haozhe Jiang, Xueyuan Liu, Naifeng Jing, Guanghui He (Shanghai Jiao Tong Univ.); Xiaoyao Liang (SJTU); Haibing Guan (Shanghai Jiao Tong Univ.)"
+]
+]
+],
+[
+"Session 7D: Cache & Memory-Level Parallelism",
+[
+[
+"Acyclic Cost-Effective Requester-Stalls Hardware Transactional Memory",
+"Víctor Nicolás Conesa, Ruben Titos-Gil, Ricardo Fernández-Pascual, Manuel E. Acacio, Alberto Ros (Univ. of Murcia)"
+],
+[
+"MORIA: Mining the Cache for Miss Parallelism",
+"Marina Vemmou (Georgia Inst. of Technology); Alexandros Daglis (Univ. of Edinburgh & Georgia Tech)"
+],
+[
+"The Path to BTB Storage Efficiency Goes Through Tags",
+"Roman Kaspar Brunner, Rakesh Kumar (Norwegian Univ. of Science and Technology (NTNU))"
+],
+[
+"VAMOs: Versatile Atomic Memory Operations for High-Performance Many-core Architectures",
+"Joaquín Ferrer, Juan M. Cebrian, Ricardo Fernández-Pascual, Alberto Ros, Manuel E. Acacio (Univ. of Murcia)"
+],
+[
+"Retrofitting Contextual Learning into Set Dueling",
+"Diamantis Patsidis, Leeor Peled, Georgios Vavouliotis (Huawei)"
+],
+[
+"Same Code ≠ Same Speed: Exposing and Mitigating Cacheline Contention Asymmetry on Multicore Processors",
+"Yu Fu, Kaichi Li (Tsinghua Univ.); Kaihui Gao, Li Chen (Zhongguancun Laboratory); Dan Li (Tsinghua Univ.); Guo Chen (Hunan Univ.)"
+],
+[
+"Rivera: Turbo-boosting Vector Architectures for Non-unit Stride Memory Access Patterns",
+"Julian Pavon Rivera, Ivan Vargas Valdivieso, Carlos Rojas Morales, Roger Figueras Bagué (Barcelona Supercomputing Center); Francesc Moll Echeto (Universidad Politecnica de Catalunya); Osman Sabri Unsal, Mateo Valero, Adrian Cristal (Barcelona Supercomputing Center)"
+]
+]
+],
+[
+"Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+[
+[
+"SYMPHONY: Harmonizing Memory and Communication in LLM Inference on 3D DRAM Accelerators",
+"Sabuj Laskar (Texas A&M Univ.); Hyojong Kim, Devesh Singh, Mrinmoy Ghosh (Samsung Semiconductor); EJ Kim (Texas A&M Univ.)"
+],
+[
+"AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving",
+"Zhongkai Yu, haotian ye (Univ. of California, San Diego); Chenyang Zhou (Columbia Univ.); Ohm Rishabh Venkatachalam, Zaifeng Pan, Zhengding Hu (Univ. of California, San Diego); Junsung Kim, Won Woo Ro (Yonsei Univ.); Po-An Tsai (NVIDIA); Shuyi Pei (Samsung Semiconductor, Inc.); Yangwook Kang (Samsung Semiconductor Inc.); Yufei Ding (Univ. of California, San Diego)"
+],
+[
+"NELSSA: A GPU–PNM Heterogeneous System for Mixed-Length LLM Serving via Length–based Request Placement",
+"Sookyung Choi, Seungyong Lee, Kangkyu Park, Yunseo Chun, Junseok Lee, Hyeongseok Gwak, Myunghyun Rhee, Euiseok Kim, Donguk Moon, Kwangsik Shin (SK hynix); Guseul Heo (KAIST); Youngpyo Joo, Hoshik Kim (SK hynix); Jongse Park (KAIST)"
+],
+[
+"ULTRA: Bridging the VQ Gap in Anisotropic LLM Quantization via a \\underline{U}nified \\underline{L}UT-Based \\underline{TR}ansformer \\underline{A}rchitecture",
+"Zongwu Wang (Shanghai Jiao Tong Univ.); Zhongyi Tang (Shanghai Qi Zhi Inst.); Fangxin Liu (Shanghai Jiao Tong Univ.); Shiyuan Huang (Shanghai Univ.); Chenyang Guan, Haomin Li (Shanghai Jiao Tong Univ.); Gang Li (Inst. of Automation, Chinese Academy of Sciences); Liqiang Lu (Zhejiang Univ.); Mingyu Gao (Tsinghua Univ.); Li Jiang, Haibing Guan (Shanghai Jiao Tong Univ.)"
+],
+[
+"MOSAIC: Exploiting Structured Tolerance for Adaptive LLM Inference Mapping in Heterogeneous PIM Accelerators",
+"Fangxin Liu (Shanghai Jiao Tong Univ.); Jingkui Yang (National Univ. of Defense Technology); Yilong Zhao, Haomin Li (Shanghai Jiao Tong Univ.); Wen Mei (National Univ. of Defense Technology); Xinran Liang (United Imaging Intelligence Co., Ltd.); Li Jiang (Shanghai Jiaotong Univ.); Haibing Guan (Shanghai Jiao Tong Univ.)"
+],
+[
+"Rethinking Unified Memory for NPU–PIM Systems: Dual-View Memory for Dynamic Inference of LLM",
+"Shixin Zhao, Lian Liu (Inst. of Computing Technology, Chinese Academy of Sciences); Tianhua Han (State Key Laboratory of Processors, Inst. of Computing Technology, Chinese Academy of Sciences; Univ. of Chinese Academy of Sciences); Mengdi Wang (Inst. of Computing Technology); Yinhe Han, Ying Wang (Inst. of Computing Technology, Chinese Academy of Sciences)"
+],
+[
+"MemLLM: End-to-End In-Storage Acceleration of Retrieval-Augmented Generation using Precomputed KV Caches",
+"Seungkwan Kang, Hyungseok Ko, Heemin Kim, Myoungsoo Jung (KAIST)"
+]
+]
+],
+[
+"Session 8B: DRAM Reliability, ECC & Address Translation",
+[
+[
+"NB-Walker: Non-blocking Page Table Walker to Enhance Address Translation in NUMA GPUs",
+"Zihang Chen (The Hong Kong Univ. of Science and Technology (Guangzhou)); Lieven Eeckhout (Ghent Univ.); Hongyuan Liu (Stevens Inst. of Technology); Tianao Ge (Hong Kong Univ. of Science and Technology (Guangzhou)); Xinkai Wang (Shanghai Jiao Tong Univ.); Jiayi Huang (The Hong Kong Univ. of Science and Technology (Guangzhou))"
+],
+[
+"PARE: A Power and Area-Efficient Memory Controller for High-Bandwidth DRAM",
+"Andre Green (Univ. of California, Berkeley); Niladrish Chatterjee, Mike O'Connor, Ben Keller, David Nellans (NVIDIA); Borivoje Nikolic (Univ. of California, Berkeley)"
+],
+[
+"HUME: Heterogeneous Unified Mirroring with Encoded Replica for Resilient Tiered Memory Systems",
+"Yixuan Liu, Zixiao Chen, Tong Zhao, Yunfei Gu, Chentao Wu, Xinfei Guo, Dongliang Xue, Jie Li, Minyi Guo (Shanghai Jiao Tong Univ.); Junzhe Lv (Shanxi Taihang Laboratory Co., Ltd.)"
+],
+[
+"Shared Metadata Field: A Dynamic ECC/DBI Allocation to Improve Reliability and I/O Power Efficiency for LPDDR6",
+"Jongwoo Jeon, Youngbae Kong (Yonsei Univ.); Junki Lee (Yonsei Univ. & Samsung Electronics); Jae-Youn Hong, Joon-Sung Yang (Yonsei Univ.)"
+],
+[
+"RowScope: ML-Accelerated Reverse-Engineering for Precise Characterization of DRAM Internal Physical Organization",
+"Zexi Meng (Shanghai Jiao Tong Univ., Ocean Univ. of China); Longda Zhou (East China Normal Univ.); Fayong Liu, Haiyong Zheng (Ocean Univ. of China); Zhigang Ji (Shanghai Jiao Tong Univ.)"
+],
+[
+"Don't Get Stuck in Traffic: A Case for Contention-Aware Translation Offloading",
+"Osang Kwon, Yongho Lee, Sungbin Jang, Kyeongchan Kim, Seokin Hong (Sungkyunkwan Univ. (SKKU))"
+],
+[
+"Hera: Eliminating the I/O Tax of RAID on High-Capacity SSDs",
+"Jian Chen (Tsinghua Univ.); Congming Gao (Xiamen Univ.); Fan Yang (Huawei); Qing Wang (Nanjing Univ.); Zhengzhi Xin (Xiamen Univ.); Yuhao Zhang (Tianjin Univ.); Youyou Lu, Jiwu Shu (Tsinghua Univ.)"
+]
+]
+],
+[
+"Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+[
+[
+"Despoina: Depth-Amortized Incremental Inference for Deep Dynamic GNN Acceleration",
+"Yujin Lee (Nanyang Technological Univ.); Minsu Jang (SolverX); Ji-Hoon Kim (Hanyang Univ.); Tae Hyoung Kim (Nanyang Technological Univ.)"
+],
+[
+"SCOPE: Array-Native Nonlinear Acceleration for LLM Inference via Shape-Constrained Neural Approximation",
+"Chenyu Zhang, Chenxi Xu, Jiaxiang Zou, Yonghao Chen, Xinyu Chen (The Hong Kong Univ. of Science and Technology (Guangzhou))"
+],
+[
+"SystolicAttention: Fusing FlashAttention within a Single Systolic Array",
+"Jiawei Lin, Yuanlong Li, Guokai Chen, Thomas Bourgeat (EPFL)"
+],
+[
+"NeuroFlex: Lossless Element-Level ANN–SNN Co-Execution for Efficient Sparse Inference",
+"Varun Manjunath (Indian Inst. of Technology, Madras); Pranav Ramesh, Gopalakrishnan Srinivasan (Indian Inst. of Technology Madras)"
+],
+[
+"VQVLA: Motion-Aware Vector Quantization with Computation Fusion for VLA Acceleration",
+"Zhuoran Song, Haozhe Jiang, Chunyu Qi (Shanghai Jiao Tong Univ.); Minnan Pei, Gang Li (Inst. of Automation, Chinese Academy of Sciences); Xiaoyao Liang (SJTU); Haibing Guan (Shanghai Jiao Tong Univ.)"
+],
+[
+"One Chiplet to Build Them All: Cost-Efficient Hardware Specialization for Stage-Separated LLM Inference",
+"Haonan Zhu (1.Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences 2. Hangzhou Inst. for Advanced Study, Univ. of Chinese Academy of Sciences); Mengdi Wang, Haoyi Jiang (Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences); Danqing Zhang (1.Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences 2. Hangzhou Inst. for Advanced Study, Univ. of Chinese Academy of Sciences); Lian Liu (Inst. of Computing Technology, Chinese Academy of Sciences); Shixin Zhao, Yutian Zhou, Yudong Pan, Tianhua Han (1. Inst. of Computing Technology, Chinese Academy of Sciences 2. Univ. of Chinese Academy of Sciences); Yinhe Han, Ying Wang (Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences)"
+],
+[
+"BITE: Boosting LLM Training via Sandwich-Bite Dataflow and Dynamic Subspace Auto-Alignment",
+"Ruibing Song (Rice Univ.); Taowen Wang (Rochester Inst. of Technology); Guangyan Sun (Univ. of Rochester); Chunshu Wu (Pacific Northwest National Laboratory); Qifan Wang (Meta); Dongfang Liu (Rochester Inst. of Technology); Sushant Kondguli (Meta); Yuchen Hao (Meta Platforms); Ang Li (UW); Tong Geng (Rice Univ.)"
+]
+]
+],
+[
+"Session 8D: Quantum & Emerging Technologies",
+[
+[
+"Scalable Benchmarking Framework for Dynamic Quantum Circuits",
+"Sumeet Shirgure, Efekan Kokcu (Univ. of Central Florida); Anupam Mitra, Wibe Albert de Jong, Costin Iancu (Lawrence Berkeley National Laboratory); Siyuan Niu (Univ. of Central Florida)"
+],
+[
+"MCMit: Hardware-Software Co-Design for Mid-Circuit Measurement Error Mitigation",
+"Emmanouil Giortamis, Felix Gust, Aleksandra Świerkowska, Sandra Stankovic, Innocenzo Fulginiti, Yanbin Chen, Xiaorang Guo, Benjamin Lienhard, Martin Schulz, Pramod Bhatotia (Technische Univ. München)"
+],
+[
+"DARTH: Lookahead-Driven Compilation Exploiting Transient Qubits for Distributed Quantum Computing",
+"Sungho Pyun, Changheon Lee, Hyungseok Kim, Enhyeok Jang, Youngmin Kim, Won Woo Ro (Yonsei Univ.)"
+],
+[
+"TensorMLD: A Tensorized and Compressed qLDPC Maximum-Likelihood Decoder for Accurate and Fast Detection of the Most Likely Logical Error",
+"Liqiang Lu, Debin Xiang, Kaiwen Zhou, Boyu Jin, Chenning Tao, Wuwei Tian (Zhejiang Univ.); anbangwu, Fangxin Liu, Jingwen Leng, Minyi Guo (Shanghai Jiao Tong Univ.); Jianwei Yin (Zhejiang Univ.)"
+],
+[
+"Tenkai: Accurate Syndrome Extraction Circuit Design and Shadow-Guided Decoding for Tackling Atom Loss on Surface Code",
+"Chenning Tao, Xiaoyi Zhou, Liqiang Lu, Jianwei Yin (Zhejiang Univ.)"
+],
+[
+"Hades: A Hardware-Resident Substrate for Energy Admission in Intermittent Computing",
+"Han Wang (Univ. of Electronic Science and Technology of China); Chong Zhang (Southwest Petroleum Univ.); Qianhe Meng, Yize Zhao, Ruizhe Zhang, Li Lu (Univ. of Electronic Science and Technology of China)"
+],
+[
+"AmpReX: Overcoming the Heatload Bottleneck in SFQ Architectures through Current Recycling",
+"Tara Renduchintala (Univ. of Southern California); Tejumadejesu Oluwadamilare (Univ. of Rochester); Beyza Zeynep Ucpinar Ogutcu, Sasan Razmkhah (Univ. of South California); Eby Friedman (Univ. of Rochester); Murali Annavaram (Univ. of South California); Daniel Wong (Univ. of California, Riverside)"
+]
+]
+],
+[
+"Session 9A: FPGA / CGRA Accelerators",
+[
+[
+"Ultra-DSP: A Universal Lossless DSP Overpacking Framework for Low-Bit LLM Inference",
+"Chenyu Zhang, Chenxi Xu, Jiaxiang Zou, Jingyu Guo, Rui Meng, Xinyu Chen (The Hong Kong Univ. of Science and Technology (Guangzhou))"
+],
+[
+"Elastic LLM Serving on FPGAs via Partial Reconfiguration: A Case Study Using the Altera FPGA AI Suite",
+"Nachuan Wang, Mike Montano (Univ. of Illinois, Urbana-Champaign); Hyungyo Kim (Univ. of Illinois Urbana-Champaign); Ren Wang (Intel Labs); Phillip Swart (Altera); Nam Sung Kim (Univ. of Illinois, Urbana-Champaign)"
+],
+[
+"HeteroReason: Heterogeneous FPGA-GPU Acceleration for Disaggregated Speculative Reasoning",
+"Zehuan Zhang (Imperial College London); Quan Deng (Tsinghua Univ./Imperial College London); Zhibo Ren, Mark Chen, Guoyu Li, Xuchun Hu, Jose Gabriel de Figueiredo Coutinho, Ce Guo, Wayne Luk (Imperial College London); Zhiqiang Que (Univ. of Bristol/Imperial College London); Hongxiang Fan (Imperial College London)"
+],
+[
+"Ariadne: An Efficient Deadlock-Free Temporal RDA with Local Tags and Interleaved Switching",
+"Xiangyu Kong (Tsinghua Univ.); Yi Huang (Tsinghua); Jianfeng Zhu, Liangwei Li, Jinyi Chen, Xiao Li, Mingyu Gao (Tsinghua Univ.); Guiqiang Peng (Shanghai Eastern Computing Technology Co.,Ltd.); Shaojun Wei, Aoyang Zhang, Leibo Liu (Tsinghua Univ.)"
+],
+[
+"RAICHU: Rendering Acceleration Integrating CGRA arcHitecture for Unified VR Pipelines",
+"Yanzhou Tang, Haiyu Wang (New York Univ.); Cheng Tan (Google); Sai Qian Zhang (New York Univ.)"
+],
+[
+"Argus: An Efficient Accelerator Design for Sparse Nonlinear Solver",
+"Fangzhou Ye, Amir Ghazizadeh Ahsaei, Hao Zheng (Univ. of Central Florida)"
+]
+]
+],
+[
+"Session 9B: Near-Memory & In-Storage Search Acceleration",
+[
+[
+"MFNNS: A Multiplier-Free Near-Memory Accelerator for Graph-based ANNS",
+"Rui Meng, Yonghao Chen, Jiaxiang Zou, Jingyu Guo, Chenyu Zhang, Xinyu Chen (The Hong Kong Univ. of Science and Technology (Guangzhou))"
+],
+[
+"PipeDRAM: Eliminating Runtime Data Transposition Requirements for In-DRAM Computation via Hardware/Software Pipelining",
+"Geraldo Francisco De Oliveira Junior (Huawei); Ataberk Olgun, Ismail Emir Yuksel, Nisa Bostanci (ETH Zürich); Pedro Henrique Exenberger Becker (Huawei); Mohammad Sadrosadati (ETH Zürich); Saugata Ghose (Univ. of Illinois Urbana-Champaign); Juan Gómez Luna (NVIDIA); Onur Mutlu (ETH Zürich)"
+],
+[
+"WiFlash: Wordline-Parallel Approximate Nearest Neighbor Search Inside Flash Cell Array",
+"Hyunjin Kim, Juchan Lee, Inseong Choi, Jinho Lee, Jae-Joon Kim (Seoul National Univ.)"
+],
+[
+"C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acceleration",
+"Houxiang Ji (SK hynix America); E. Ezgi Yücel, Yaochen Li (Cornell Univ.); Prajwal Ramakrishna (SK hynix America); Derrick Quinn (Cornell Univ.); Jungmin Choi, Hoshik Kim (SK hynix America); Mohammad Alian, José F. Martínez (Cornell Univ.)"
+],
+[
+"FastAP: Unleashing Bit-Level Parallelism in Associative Processor Architectures",
+"Socrates S. Wong, Cecilio C. Tamarit (Cornell Univ.); Rajit Manohar (Yale Univ.); José F. Martínez (Cornell Univ.)"
+],
+[
+"D-NOVA: In-Storage Retrieval Accelerator via Dual-Bound 3D NAND-Optimized Similarity Search with Vector Adaptation",
+"Chang Eun Song, Sumukh Pinge, Tianqi Zhang, Sung Eun Kim, Tajana Rosing (Univ. of California, San Diego); Mingu Kang (Univ. of California San Diego (UCSD))"
+]
+]
+],
+[
+"Session 9C: Parallel Architectures / Datacenter Systems",
+[
+[
+"Heterogeneity-Aware Cross-Layer Mapping Optimization for Sparse LLMs on Layered Supernodes",
+"Hanbin Zhang, Jun Liu (Shanghai Jiao Tong Univ.); Rongquan Ni (Fudan Univ.); Yuxuan Zhang, Guohao Dai (Shanghai Jiao Tong Univ.)"
+],
+[
+"Orbital AI Datacenters: An Architectural Analysis",
+"Barry Lyu (Univ. of Michigan); August Ning (EPFL); Ron Dreslinski, Nathan Bleier (Univ. of Michigan)"
+],
+[
+"A Harmony of Ice and Fire: Mitigating Cold Last-Level Cache Effects in Serverless Computing on Commodity Hardware",
+"Qi Ling, Ajay Rawat, Pedro Fonseca, Kazem Taram (Purdue Univ.)"
+],
+[
+"SERenaDE: Hardware Acceleration of Serialization Frameworks",
+"Christos Zarkos, Qihang Chen, Nikita Lazarev, Shabnam Sheikhha (Massachusetts Inst. of Technology); James Tsai, Andy Anderson, Bhusan Chitlur (Intel Labs); Christina Delimitrou (Massachusetts Inst. of Technology)"
+],
+[
+"RidgeBridge: Random Access Optimized Interconnect Architecture for Scalable Graph Random Walks",
+"Hongshi Tan (National Univ. of Singapore); Yao Chen (National university of Singapore); Xinyu Chen (The Hong Kong Univ. of Science and Technology (Guangzhou)); Qizhen Zhang (Univ. of Toronto); Weng-Fai Wong, Bingsheng He (National Univ. of Singapore)"
+],
+[
+"Arcalís: Accelerating Remote Procedure Calls Using a Lightweight Near-Cache Solution",
+"Johnson Umeike (Univ. of Maryland); Pongstorn Maidee (AMD Research & Advanced Development); Bahar Asgari (Univ. of Maryland, College Park)"
+]
+]
+],
+[
+"Session 9D: Secure Memory Sharing & Cryptographic Acceleration",
+[
+[
+"ShareMMU: Supporting Secure Address Translation Sharing among Untrusted Accelerators",
+"faiz alam (North Carolina State Univ.); Mohamed Tarek Ibn Ziad (NVIDIA); Yuanchao Xu (Univ. of California, Santa Cruz); Abdulrahman Mahmoud (MBZUAI); Aamer Jaleel (NVIDIA); Greg Byrd (NC State Univ.)"
+],
+[
+"HSMEM: Heterogeneous Secure Memory with Scalable an Energy-Efficient Data Transfer",
+"Sheng Qiang, Shulin Fan, JInyu Gu, Zhichao Hua, Yubin Xia (Shanghai Jiao Tong Univ.)"
+],
+[
+"DireLeak: Cross-socket Cache Timing Channels Exploiting Memory Directory",
+"Md Hafizul Islam Chowdhuryy (Univ. of North Carolina at Charlotte); Kunbei Cai (Univ. of Central Florida); Zhenkai Zhang (Clemson Univ.); Hao Zheng, Fan Yao (Univ. of Central Florida)"
+],
+[
+"VAXEN: A Versatile AVX Extension for Zero-Knowledge Proof and Post-Quantum Cryptography",
+"Jipeng Zhang (National Univ. of Singapore); Hao Cheng (Shandong Univ.); Tao Lu, Jiaheng Zhang (National Univ. of Singapore)"
+],
+[
+"NetFED: Network-Aware Acceleration for Multi-Key Privacy-Preserving Federated Learning Aggregation",
+"Jaeho Jeon, Wonjin Shin, Sungwoong Yune, Joo-Young Kim (KAIST)"
+],
+[
+"Decoupled-DSM: A Scalable Secure Trusted Execution Environment for Multi-Host CXL Disaggregated Shared Memory",
+"Yuxin Yang, Yuanchao Xu (Univ. of California, Santa Cruz)"
+]
+]
+]
+]

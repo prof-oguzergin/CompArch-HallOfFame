@@ -1,0 +1,8689 @@
+{
+ "members": {
+  "Onur Mutlu": {
+   "inst": "ETH Zurich",
+   "papers": [
+    [
+     "An Experimental Study of High-Bandwidth Memory Power Consumption",
+     "Onur Mutlu",
+     "ETH Zürich",
+     false
+    ],
+    [
+     "MORDOR: Mitigating Overheads of Read Disturbance Preventive Operations via Elastic Refresh Scheduling",
+     "Onur Mutlu",
+     "ETH Zürich",
+     false
+    ],
+    [
+     "Trail: Effective, Low-Cost and Scalable Temporal TLB Prefetching via Page-Table-Embedded Deltas",
+     "Onur Mutlu",
+     "ETH Zürich",
+     false
+    ],
+    [
+     "Terracotta: Enabling DRAM Techniques via a Flexible DRAM Interface and Memory Controller",
+     "Onur Mutlu",
+     "ETH Zürich",
+     false
+    ],
+    [
+     "PipeDRAM: Eliminating Runtime Data Transposition Requirements for In-DRAM Computation via Hardware/Software Pipelining",
+     "Onur Mutlu",
+     "ETH Zürich",
+     false
+    ]
+   ]
+  },
+  "Josep Torrellas": {
+   "inst": "UIUC",
+   "papers": [
+    [
+     "DIKTAMO: Extending CXL for Resilience to CPU Failures",
+     "Josep Torrellas",
+     "Univ. of Illinois Urbana-Champaign",
+     false
+    ]
+   ]
+  },
+  "Nam Sung Kim": {
+   "inst": "UIUC",
+   "papers": [
+    [
+     "ARC: Adaptive Reconfigurable CXL Hotness Monitoring",
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign",
+     false
+    ],
+    [
+     "AMG: AMX–GPU Cooperative Acceleration of Billion-Scale ANNS via GEMM Reformulation",
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign",
+     false
+    ],
+    [
+     "NiF: Hybrid In-Flash and In-Storage Acceleration for Approximate Nearest Neighbor Search",
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign",
+     false
+    ],
+    [
+     "Rethinking Compression for CXL Memory Expanders at Hyperscale",
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign",
+     false
+    ],
+    [
+     "CXL AnySSD: A Composable CXL SSD Using a CXL Type-2 Device and Any SSDs",
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign",
+     false
+    ],
+    [
+     "Elastic LLM Serving on FPGAs via Partial Reconfiguration: A Case Study Using the Altera FPGA AI Suite",
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign",
+     false
+    ]
+   ]
+  },
+  "Yuan Xie": {
+   "inst": "HKUST",
+   "papers": [
+    [
+     "ATLAS: Pathfinding Efficient 3D-DRAM-based LLM Inference Accelerator Design via Silicon-Proven Full-Stack Simulation",
+     "Yuan Xie",
+     "Hong Kong Univ. of Science and Technology",
+     false
+    ],
+    [
+     "Helios: Enabling Dynamic KV Cache Management for Near-Memory Processing via Hybrid-Bonding-based 3D-DRAM",
+     "Yuan Xie",
+     "Hong Kong Univ. of Science and Technology",
+     false
+    ]
+   ]
+  },
+  "Joel Emer": {
+   "inst": "MIT / NVIDIA",
+   "papers": [
+    [
+     "The Turbo-Charged Mapper: Fast and Optimal Mapping for Energy-efficient and Low-latency Accelerator Design",
+     "Joel Emer",
+     "MIT/NVIDIA",
+     false
+    ]
+   ]
+  },
+  "Antonio Gonzalez": {
+   "inst": "",
+   "papers": [
+    [
+     "MVP: A Motion-Predictive Speculative Vision Pipeline with Non-Blocking Drift Correction",
+     "Antonio Gonzalez",
+     "Universitat Politecnica de Catalunya",
+     false
+    ]
+   ]
+  },
+  "Moinuddin K. Qureshi": {
+   "inst": "Georgia Tech",
+   "papers": [
+    [
+     "HINT: Mitigating Latency Overheads in a Disaggregated Quantum Memory Hierarchy",
+     "Moinuddin K. Qureshi",
+     "Georgia Inst. of Technology",
+     false
+    ]
+   ]
+  },
+  "Tor M. Aamodt": {
+   "inst": "UBC",
+   "papers": [
+    [
+     "RoboGPU: Accelerating GPU Collision Detection for Robotics",
+     "Tor Aamodt",
+     "Univ. of British Columbia",
+     false
+    ]
+   ]
+  },
+  "Babak Falsafi": {
+   "inst": "EPFL",
+   "papers": [
+    [
+     "Accurate & Scalable Time-Based Sampling of Full-System Simulation",
+     "Babak Falsafi",
+     "EPFL",
+     false
+    ]
+   ]
+  },
+  "Mateo Valero": {
+   "inst": "UPC Barcelona",
+   "papers": [
+    [
+     "Rivera: Turbo-boosting Vector Architectures for Non-unit Stride Memory Access Patterns",
+     "Mateo Valero",
+     "Barcelona Supercomputing Center",
+     false
+    ]
+   ]
+  },
+  "Jangwoo Kim": {
+   "inst": "SNU",
+   "papers": [
+    [
+     "BoostX-RNIC: Fast, Scalable and Flexible AI RNIC",
+     "Jangwoo Kim",
+     "MangoBoost Inc. & Seoul National Univ.",
+     true
+    ],
+    [
+     "SafeMind: A Battery-Free Processing System for Safely Implantable Brain-Computer Interfaces",
+     "Jangwoo Kim",
+     "Seoul National Univ. / MangoBoost",
+     false
+    ]
+   ]
+  },
+  "John Kim": {
+   "inst": "KAIST",
+   "papers": [
+    [
+     "In-Flight Collectives: Characterizing and Accelerating Compute-Communication Overlap in Distributed LLM System",
+     "John Kim",
+     "KAIST",
+     false
+    ]
+   ]
+  },
+  "Aamer Jaleel": {
+   "inst": "NVIDIA",
+   "papers": [
+    [
+     "ShareMMU: Supporting Secure Address Translation Sharing among Untrusted Accelerators",
+     "Aamer Jaleel",
+     "NVIDIA",
+     false
+    ]
+   ]
+  },
+  "Hyesoon Kim": {
+   "inst": "Georgia Tech",
+   "papers": [
+    [
+     "TEMPO: A Tag-Based Framework for Efficient Memory Ordering",
+     "Hyesoon Kim",
+     "Georgia Inst. of Technology",
+     false
+    ],
+    [
+     "CuLifter: Lifting GPU Binaries to Typed IR",
+     "Hyesoon Kim",
+     "Georgia Inst. of Technology",
+     false
+    ]
+   ]
+  },
+  "Boris Grot": {
+   "inst": "U Edinburgh",
+   "papers": [
+    [
+     "Prefetching for Hierarchical Branch Target Buffers",
+     "Boris Grot",
+     "Univ. of Edinburgh",
+     false
+    ]
+   ]
+  },
+  "Changhee Jung": {
+   "inst": "Purdue",
+   "papers": [
+    [
+     "iGPU: Enabling GPUs for Intermittent AI on Energy Harvesting Systems",
+     "Changhee Jung",
+     "Purdue Univ.",
+     false
+    ]
+   ]
+  },
+  "Murali Annavaram": {
+   "inst": "USC",
+   "papers": [
+    [
+     "AmpReX: Overcoming the Heatload Bottleneck in SFQ Architectures through Current Recycling",
+     "Murali Annavaram",
+     "Univ. of South California",
+     false
+    ]
+   ]
+  },
+  "David Brooks": {
+   "inst": "Harvard",
+   "papers": [
+    [
+     "Pistil – A Decoupled Pipeline Architecture for Sustained Memory Bandwidth across a 20-Chiplet 2.5D SiP for Edge SLM Inference",
+     "David Brooks",
+     "Harvard Univ.",
+     false
+    ]
+   ]
+  },
+  "Alberto Ros": {
+   "inst": "U Murcia",
+   "papers": [
+    [
+     "Rebasing and Optimizing Cache Miss Handling: Fetching Beyond MSHR Capacity",
+     "Alberto Ros",
+     "Univ. of Murcia",
+     false
+    ],
+    [
+     "Catalyst-Length Instruction Fusion Prediction",
+     "Alberto Ros",
+     "Univ. of Murcia",
+     false
+    ],
+    [
+     "Acyclic Cost-Effective Requester-Stalls Hardware Transactional Memory",
+     "Alberto Ros",
+     "Univ. of Murcia",
+     false
+    ],
+    [
+     "VAMOs: Versatile Atomic Memory Operations for High-Performance Many-core Architectures",
+     "Alberto Ros",
+     "Univ. of Murcia",
+     false
+    ]
+   ]
+  },
+  "Tianshi Chen": {
+   "inst": "CASIA",
+   "papers": [
+    [
+     "FUSE: A Fragmentation-Free Spatial Multi-Tenant DNN Accelerator via Edge-Universal Graph",
+     "Tianshi Chen",
+     "Cambricon Technologies",
+     false
+    ]
+   ]
+  },
+  "Jian Huang": {
+   "inst": "UIUC",
+   "papers": [
+    [
+     "Auto-Scaling Heterogeneous Neural Processing Units for Energy and Cost-Efficient LLM Serving",
+     "Jian Huang",
+     "Univ. of Illinois Urbana-Champaign",
+     false
+    ],
+    [
+     "Enabling Spatially Fine-Grained DVFS in Neural Processing Units for Energy-Efficient LLM Serving",
+     "Jian Huang",
+     "Univ. of Illinois Urbana-Champaign",
+     false
+    ],
+    [
+     "Exploring the Efficiency of 3D-Stacked AI Chip Architecture for LLM Inference with VOXEL",
+     "Jian Huang",
+     "Univ. of Illinois Urbana Champaign",
+     false
+    ]
+   ]
+  },
+  "Won Woo Ro": {
+   "inst": "Yonsei U",
+   "papers": [
+    [
+     "Maverick: Leveraging Address Translation to Mitigate Memory Latency in Server Workloads",
+     "Won Woo Ro",
+     "Yonsei Univ.",
+     false
+    ],
+    [
+     "Non-Speculative Redundant Load Elimination",
+     "Won Woo Ro",
+     "Yonsei Univ.",
+     false
+    ],
+    [
+     "AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving",
+     "Won Woo Ro",
+     "Yonsei Univ.",
+     false
+    ],
+    [
+     "DARTH: Lookahead-Driven Compilation Exploiting Transient Qubits for Distributed Quantum Computing",
+     "Won Woo Ro",
+     "Yonsei Univ.",
+     false
+    ]
+   ]
+  },
+  "Timothy G. Rogers": {
+   "inst": "Purdue",
+   "papers": [
+    [
+     "Ray-by-Ray: Fine-Grained Resource Management for GPU Ray Tracing Units",
+     "Timothy G Rogers",
+     "Purdue Univ.",
+     false
+    ],
+    [
+     "Attention, Watch Your Progress: Balancing Warp-Specialized GPU Pipelines",
+     "Timothy Rogers",
+     "NVIDIA Corporation/Purdue Univ.",
+     false
+    ]
+   ]
+  },
+  "Mohammad Sadrosadati": {
+   "inst": "ETH Zurich",
+   "papers": [
+    [
+     "PipeDRAM: Eliminating Runtime Data Transposition Requirements for In-DRAM Computation via Hardware/Software Pipelining",
+     "Mohammad Sadrosadati",
+     "ETH Zürich",
+     false
+    ]
+   ]
+  },
+  "Jishen Zhao": {
+   "inst": "UCSD",
+   "papers": [
+    [
+     "Compute Express Leak: New Cache Attacks Using CXL Devices",
+     "Jishen Zhao",
+     "Univ. of California, San Diego",
+     false
+    ]
+   ]
+  },
+  "Zidong Du": {
+   "inst": "ICT-CAS",
+   "papers": [
+    [
+     "FUSE: A Fragmentation-Free Spatial Multi-Tenant DNN Accelerator via Edge-Universal Graph",
+     "Zidong DU",
+     "Inst. of Computing Technology, Chinese Academy of Sciences",
+     false
+    ],
+    [
+     "SCOPE: Pre-Silicon Power Optimization for Energy-Constrained Computational Vision Systems",
+     "Zidong DU",
+     "Inst. of Computing Tech., Chinese Academy of Sciences",
+     false
+    ]
+   ]
+  },
+  "Lieven Eeckhout": {
+   "inst": "Ghent U",
+   "papers": [
+    [
+     "Dynamically Sharing Local and Remote Memory Bandwidth in Memory-Centric MCM-GPU Systems",
+     "Lieven Eeckhout",
+     "Ghent Univ.",
+     false
+    ],
+    [
+     "Themis: Improving Fairness and Performance in Multi-Stream NVMe SSDs",
+     "Lieven Eeckhout",
+     "Ghent Univ.",
+     false
+    ],
+    [
+     "NB-Walker: Non-blocking Page Table Walker to Enhance Address Translation in NUMA GPUs",
+     "Lieven Eeckhout",
+     "Ghent Univ.",
+     false
+    ]
+   ]
+  },
+  "Qi Guo": {
+   "inst": "ICT-CAS",
+   "papers": [
+    [
+     "SCOPE: Pre-Silicon Power Optimization for Energy-Constrained Computational Vision Systems",
+     "Qi Guo",
+     "Inst. of Computing Tech., Chinese Academy of Sciences",
+     false
+    ]
+   ]
+  },
+  "Konstantinos Kanellopoulos": {
+   "inst": "ETH Zurich",
+   "papers": [
+    [
+     "Trail: Effective, Low-Cost and Scalable Temporal TLB Prefetching via Page-Table-Embedded Deltas",
+     "Konstantinos Kanellopoulos",
+     "ETH Zürich",
+     false
+    ],
+    [
+     "Terracotta: Enabling DRAM Techniques via a Flexible DRAM Interface and Memory Controller",
+     "Konstantinos Kanellopoulos",
+     "ETH Zürich",
+     false
+    ]
+   ]
+  },
+  "Ang Li": {
+   "inst": "PNNL",
+   "papers": [
+    [
+     "CacheFlex: Direct Software-Managed Access to Higher-Level Cache for Scalable Vector Support",
+     "Ang Li",
+     "Univ. of Washington",
+     false
+    ],
+    [
+     "BITE: Boosting LLM Training via Sandwich-Bite Dataflow and Dynamic Subspace Auto-Alignment",
+     "Ang Li",
+     "UW",
+     false
+    ]
+   ]
+  },
+  "Jung Ho Ahn": {
+   "inst": "SNU",
+   "papers": [
+    [
+     "ARC: Adaptive Reconfigurable CXL Hotness Monitoring",
+     "Jung Ho Ahn",
+     "Seoul National Univ.",
+     false
+    ]
+   ]
+  },
+  "Mohammad Alian": {
+   "inst": "U Kansas",
+   "papers": [
+    [
+     "Accurate & Scalable Time-Based Sampling of Full-System Simulation",
+     "Mohammad Alian",
+     "Cornell Univ.",
+     false
+    ],
+    [
+     "C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acceleration",
+     "Mohammad Alian",
+     "Cornell Univ.",
+     false
+    ]
+   ]
+  },
+  "Yufei Ding": {
+   "inst": "UCSD",
+   "papers": [
+    [
+     "AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving",
+     "Yufei Ding",
+     "Univ. of California, San Diego",
+     false
+    ]
+   ]
+  },
+  "Daehoon Kim": {
+   "inst": "Yonsei U",
+   "papers": [
+    [
+     "AMG: AMX–GPU Cooperative Acceleration of Billion-Scale ANNS via GEMM Reformulation",
+     "Daehoon Kim",
+     "Yonsei Univ.",
+     false
+    ],
+    [
+     "ReclaimX: Device-Side Memory Reclamation via Stalled GPU Execution for UVM Oversubscription",
+     "Daehoon Kim",
+     "Yonsei Univ.",
+     false
+    ]
+   ]
+  },
+  "Rakesh Kumar": {
+   "inst": "UIUC",
+   "papers": [
+    [
+     "The Path to BTB Storage Efficiency Goes Through Tags",
+     "Rakesh Kumar",
+     "Norwegian Univ. of Science and Technology (NTNU)",
+     false
+    ]
+   ]
+  },
+  "Jingwen Leng": {
+   "inst": "SJTU",
+   "papers": [
+    [
+     "Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers by Exploiting Latent Space Correlations",
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ.",
+     false
+    ],
+    [
+     "GPU-Tile-Sim: A Tile-Centric GPU Simulation Framework for LLM Hardware-Software Co-Design",
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ., China",
+     false
+    ],
+    [
+     "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference",
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ.",
+     false
+    ],
+    [
+     "TensorMLD: A Tensorized and Compressed qLDPC Maximum-Likelihood Decoder for Accurate and Fast Detection of the Most Likely Logical Error",
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ.",
+     false
+    ]
+   ]
+  },
+  "Xiaoyao Liang": {
+   "inst": "SJTU",
+   "papers": [
+    [
+     "FLUTE: A LUT-Based Floating-Point Engine for Efficient LLM Acceleration Exploiting Core-Tail Hierarchical Alignment",
+     "Xiaoyao Liang",
+     "Shanghai Jiao Tong Univ.",
+     false
+    ],
+    [
+     "DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and Reorganization",
+     "Xiaoyao Liang",
+     "Shanghai Jiao Tong Univ.",
+     false
+    ],
+    [
+     "SpecVLA: Enabling Efficient Robotic Manipulation via \\underline{Spec}ulative \\underline{VLA} Inference and Verification",
+     "Xiaoyao Liang",
+     "SJTU",
+     false
+    ],
+    [
+     "VQVLA: Motion-Aware Vector Quantization with Computation Fusion for VLA Acceleration",
+     "Xiaoyao Liang",
+     "SJTU",
+     false
+    ]
+   ]
+  },
+  "Gu-Yeon Wei": {
+   "inst": "Harvard",
+   "papers": [
+    [
+     "Pistil – A Decoupled Pipeline Architecture for Sustained Memory Bandwidth across a 20-Chiplet 2.5D SiP for Edge SLM Inference",
+     "Gu-Yeon Wei",
+     "Harvard Univ.",
+     false
+    ]
+   ]
+  },
+  "Shaojun Wei": {
+   "inst": "Tsinghua",
+   "papers": [
+    [
+     "Ariadne: An Efficient Deadlock-Free Temporal RDA with Local Tags and Interleaved Switching",
+     "Shaojun Wei",
+     "Tsinghua Univ.",
+     false
+    ]
+   ]
+  }
+ },
+ "candidates": [
+  {
+   "key": "lizy john",
+   "pid": "j/LizyKurianJohn",
+   "dblp_name": "Lizy Kurian John",
+   "before": 7,
+   "n2026": 1,
+   "program": [
+    [
+     "Lizy K John",
+     "The Univ. of Texas at Austin",
+     "Better Call SoL : Enhancing GPUs with a Sea of LUTs Core"
+    ]
+   ]
+  },
+  {
+   "key": "guangyu sun",
+   "pid": "29/6473-3",
+   "dblp_name": "Guangyu Sun",
+   "before": 5,
+   "n2026": 7,
+   "program": [
+    [
+     "Guangyu Sun",
+     "Peking Univ.",
+     "SnakeCharmer: Orchestrating Utility, Timeliness, and Placement in GPU "
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ.",
+     "ATLAS: Pathfinding Efficient 3D-DRAM-based LLM Inference Accelerator D"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ.",
+     "LUTHE: Breaking the Memory Wall of High-Precision Encrypted LLM Nonlin"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ.",
+     "Beyond Linear Scaling for LLM Training on Wafer-Scale GPUs"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ.",
+     "Helios: Enabling Dynamic KV Cache Management for Near-Memory Processin"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ.",
+     "SLOTH: Lightweight Detection and Localization of On-Chip Fail-Slow Fai"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ.",
+     "CODA: Algorithm-Hardware Co-design for Edge Video Diffusion via NMP-En"
+    ]
+   ]
+  },
+  {
+   "key": "minyi guo",
+   "pid": "99/6797",
+   "dblp_name": "Minyi Guo",
+   "before": 2,
+   "n2026": 6,
+   "program": [
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ.",
+     "Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers"
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ.",
+     "Enhancing the Efficiency of Embodied AI System with Squeezed Analog Pe"
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ.",
+     "DSTAR: Accelerating Diffusion Transformers via Spatial and Temporal Re"
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ.",
+     "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-leve"
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ.",
+     "HUME: Heterogeneous Unified Mirroring with Encoded Replica for Resilie"
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ.",
+     "TensorMLD: A Tensorized and Compressed qLDPC Maximum-Likelihood Decode"
+    ]
+   ]
+  },
+  {
+   "key": "yu feng",
+   "pid": "30/4550-7",
+   "dblp_name": "Yu Feng",
+   "before": 2,
+   "n2026": 7,
+   "program": [
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ.",
+     "Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ.",
+     "DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and "
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ., China",
+     "GPU-Tile-Sim: A Tile-Centric GPU Simulation Framework for LLM Hardware"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ.",
+     "UDYR: An Adaptive Accelerator for Optimization-based Humanoid Robot Co"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ.",
+     "Enhancing the Efficiency of Embodied AI System with Squeezed Analog Pe"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ.",
+     "DSTAR: Accelerating Diffusion Transformers via Spatial and Temporal Re"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ.",
+     "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-leve"
+    ]
+   ]
+  },
+  {
+   "key": "zhuoran song",
+   "pid": "220/4324",
+   "dblp_name": "Zhuoran Song",
+   "before": 5,
+   "n2026": 4,
+   "program": [
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ.",
+     "FLUTE: A LUT-Based Floating-Point Engine for Efficient LLM Acceleratio"
+    ],
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ.",
+     "DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and "
+    ],
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ.",
+     "SpecVLA: Enabling Efficient Robotic Manipulation via \\underline{Spec}u"
+    ],
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ.",
+     "VQVLA: Motion-Aware Vector Quantization with Computation Fusion for VL"
+    ]
+   ]
+  },
+  {
+   "key": "fangxin liu",
+   "pid": "198/2194",
+   "dblp_name": "Fangxin Liu",
+   "before": 3,
+   "n2026": 6,
+   "program": [
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ.",
+     "SNN-4-All: Breaking the Edge Fine-Tuning Barrier with Heterogeneous Sp"
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ.",
+     "DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and "
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ.",
+     "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-leve"
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ.",
+     "ULTRA: Bridging the VQ Gap in Anisotropic LLM Quantization via a \\unde"
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ.",
+     "MOSAIC: Exploiting Structured Tolerance for Adaptive LLM Inference Map"
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ.",
+     "TensorMLD: A Tensorized and Compressed qLDPC Maximum-Likelihood Decode"
+    ]
+   ]
+  },
+  {
+   "key": "ataberk olgun",
+   "pid": "285/5355",
+   "dblp_name": "Ataberk Olgun",
+   "before": 7,
+   "n2026": 4,
+   "program": [
+    [
+     "Ataberk Olgun",
+     "ETH Zürich",
+     "An Experimental Study of High-Bandwidth Memory Power Consumption"
+    ],
+    [
+     "Ataberk Olgun",
+     "ETH Zürich",
+     "MORDOR: Mitigating Overheads of Read Disturbance Preventive Operations"
+    ],
+    [
+     "Ataberk Olgun",
+     "ETH Zürich",
+     "Terracotta: Enabling DRAM Techniques via a Flexible DRAM Interface and"
+    ],
+    [
+     "Ataberk Olgun",
+     "ETH Zürich",
+     "PipeDRAM: Eliminating Runtime Data Transposition Requirements for In-D"
+    ]
+   ]
+  },
+  {
+   "key": "nisa bostanci",
+   "pid": "293/6888",
+   "dblp_name": "Nisa Bostanci",
+   "before": 4,
+   "n2026": 4,
+   "program": [
+    [
+     "Nisa Bostanci",
+     "ETH Zürich",
+     "An Experimental Study of High-Bandwidth Memory Power Consumption"
+    ],
+    [
+     "Nisa Bostanci",
+     "ETH Zürich",
+     "MORDOR: Mitigating Overheads of Read Disturbance Preventive Operations"
+    ],
+    [
+     "Nisa Bostanci",
+     "ETH Zürich",
+     "Terracotta: Enabling DRAM Techniques via a Flexible DRAM Interface and"
+    ],
+    [
+     "Nisa Bostanci",
+     "ETH Zürich",
+     "PipeDRAM: Eliminating Runtime Data Transposition Requirements for In-D"
+    ]
+   ]
+  },
+  {
+   "key": "jaehyuk huh",
+   "pid": "83/5240",
+   "dblp_name": "Jaehyuk Huh",
+   "before": 7,
+   "n2026": 1,
+   "program": [
+    [
+     "Jaehyuk Huh",
+     "KAIST",
+     "SecPIMlet: Confidential Computing for Spatio-temporally Shared Process"
+    ]
+   ]
+  },
+  {
+   "key": "houxiang ji",
+   "pid": "205/7183",
+   "dblp_name": "Houxiang Ji",
+   "before": 5,
+   "n2026": 3,
+   "program": [
+    [
+     "Houxiang Ji",
+     "Univ. of Illinois Urbana-Champaign",
+     "AMG: AMX–GPU Cooperative Acceleration of Billion-Scale ANNS via GEMM R"
+    ],
+    [
+     "Houxiang Ji",
+     "Univ. of Illinois Urbana-Champaign",
+     "CXL AnySSD: A Composable CXL SSD Using a CXL Type-2 Device and Any SSD"
+    ],
+    [
+     "Houxiang Ji",
+     "SK hynix America",
+     "C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acce"
+    ]
+   ]
+  },
+  {
+   "key": "yang hu",
+   "pid": "43/4685-1",
+   "dblp_name": "Yang Hu",
+   "before": 6,
+   "n2026": 3,
+   "program": [
+    [
+     "Yang Hu",
+     "Tsinghua Univ.",
+     "CrossSpec: A Draft–Verify Aggregated 3D LLM Accelerator with Thermal-A"
+    ],
+    [
+     "Yang Hu",
+     "Tsinghua Univ.",
+     "TESSA: A Thermal-Centric, Sensor-Free Framework with Spatially-Aware E"
+    ],
+    [
+     "Yang Hu",
+     "Tsinghua Univ.",
+     "Enhancing the Efficiency of Embodied AI System with Squeezed Analog Pe"
+    ]
+   ]
+  },
+  {
+   "key": "shouyi yin",
+   "pid": "98/3428",
+   "dblp_name": "Shouyi Yin",
+   "before": 7,
+   "n2026": 2,
+   "program": [
+    [
+     "Shouyi Yin",
+     "Tsinghua Univ.",
+     "CrossSpec: A Draft–Verify Aggregated 3D LLM Accelerator with Thermal-A"
+    ],
+    [
+     "Shouyi Yin",
+     "Tsinghua Univ.",
+     "TESSA: A Thermal-Centric, Sensor-Free Framework with Spatially-Aware E"
+    ]
+   ]
+  },
+  {
+   "key": "yinhe han",
+   "pid": "32/2695-1",
+   "dblp_name": "Yinhe Han",
+   "before": 4,
+   "n2026": 4,
+   "program": [
+    [
+     "Yinhe Han",
+     "Inst. of Computing Technology, Chinese Academy of Sciences",
+     "UDYR: An Adaptive Accelerator for Optimization-based Humanoid Robot Co"
+    ],
+    [
+     "Yinhe Han",
+     "Inst. of Computing Technology, Chinese Academy of Sciences",
+     "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-leve"
+    ],
+    [
+     "Yinhe Han",
+     "Inst. of Computing Technology, Chinese Academy of Sciences",
+     "Rethinking Unified Memory for NPU–PIM Systems: Dual-View Memory for Dy"
+    ],
+    [
+     "Yinhe Han",
+     "Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences",
+     "One Chiplet to Build Them All: Cost-Efficient Hardware Specialization "
+    ]
+   ]
+  },
+  {
+   "key": "adrian cristal",
+   "pid": "41/1128",
+   "dblp_name": "Adrián Cristal",
+   "before": 6,
+   "n2026": 2,
+   "program": [
+    [
+     "Adrian Cristal",
+     "BSC",
+     "Lazy-LLC: Reducing GPU LLC Thrashing with Shared-Data and Reusability "
+    ],
+    [
+     "Adrian Cristal",
+     "Barcelona Supercomputing Center",
+     "Rivera: Turbo-boosting Vector Architectures for Non-unit Stride Memory"
+    ]
+   ]
+  },
+  {
+   "key": "osman unsal",
+   "pid": "79/1809",
+   "dblp_name": "Osman S. Unsal",
+   "before": 6,
+   "n2026": 2,
+   "program": [
+    [
+     "Osman Sabri Unsal",
+     "Barcelona Supercomputing Center",
+     "Lazy-LLC: Reducing GPU LLC Thrashing with Shared-Data and Reusability "
+    ],
+    [
+     "Osman Sabri Unsal",
+     "Barcelona Supercomputing Center",
+     "Rivera: Turbo-boosting Vector Architectures for Non-unit Stride Memory"
+    ]
+   ]
+  },
+  {
+   "key": "yun liang",
+   "pid": "83/2265",
+   "dblp_name": "Yun Liang",
+   "before": 7,
+   "n2026": 1,
+   "program": [
+    [
+     "Yun Liang",
+     "Peking Univ.",
+     "SLOTH: Lightweight Detection and Localization of On-Chip Fail-Slow Fai"
+    ]
+   ]
+  },
+  {
+   "key": "jian wang",
+   "pid": "39/449-46",
+   "dblp_name": "Jian Wang",
+   "before": 7,
+   "n2026": 1,
+   "program": [
+    [
+     "Jian Wang",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences",
+     "Software-Hardware Co-Design of Prior-Aware W4A4 Micro-Block Quantizati"
+    ]
+   ]
+  },
+  {
+   "key": "heiner litz",
+   "pid": "89/5432",
+   "dblp_name": "Heiner Litz",
+   "before": 7,
+   "n2026": 1,
+   "program": [
+    [
+     "Heiner Litz",
+     "Univ. of California, Santa Cruz",
+     "HYDRA: Hybrid DRAM Caching for Dynamic Complementary Multi-to-One Page"
+    ]
+   ]
+  },
+  {
+   "key": "alexandros daglis",
+   "pid": "142/3203",
+   "dblp_name": "Alexandros Daglis",
+   "before": 7,
+   "n2026": 1,
+   "program": [
+    [
+     "Alexandros Daglis",
+     "Univ. of Edinburgh & Georgia Tech",
+     "MORIA: Mining the Cache for Miss Parallelism"
+    ]
+   ]
+  },
+  {
+   "key": "liqiang lu",
+   "pid": "202/5928",
+   "dblp_name": "Liqiang Lu",
+   "before": 5,
+   "n2026": 3,
+   "program": [
+    [
+     "Liqiang Lu",
+     "Zhejiang Univ.",
+     "ULTRA: Bridging the VQ Gap in Anisotropic LLM Quantization via a \\unde"
+    ],
+    [
+     "Liqiang Lu",
+     "Zhejiang Univ.",
+     "TensorMLD: A Tensorized and Compressed qLDPC Maximum-Likelihood Decode"
+    ],
+    [
+     "Liqiang Lu",
+     "Zhejiang Univ.",
+     "Tenkai: Accurate Syndrome Extraction Circuit Design and Shadow-Guided "
+    ]
+   ]
+  },
+  {
+   "key": "seokin hong",
+   "pid": "78/9350",
+   "dblp_name": "Seokin Hong",
+   "before": 7,
+   "n2026": 1,
+   "program": [
+    [
+     "Seokin Hong",
+     "Sungkyunkwan Univ. (SKKU)",
+     "Don't Get Stuck in Traffic: A Case for Contention-Aware Translation Of"
+    ]
+   ]
+  },
+  {
+   "key": "jose martinez",
+   "pid": "m/JFMartinez",
+   "dblp_name": "José F. Martínez",
+   "before": 7,
+   "n2026": 2,
+   "program": [
+    [
+     "José F. Martínez",
+     "Cornell Univ.",
+     "C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acce"
+    ],
+    [
+     "José F. Martínez",
+     "Cornell Univ.",
+     "FastAP: Unleashing Bit-Level Parallelism in Associative Processor Arch"
+    ]
+   ]
+  }
+ ],
+ "papers": [
+  {
+   "session": "Session 1A: GPU Microarchitecture & Numerical Precision",
+   "title": "Ray-by-Ray: Fine-Grained Resource Management for GPU Ray Tracing Units",
+   "authors": [
+    [
+     "Junrui Pan",
+     "Purdue Univ."
+    ],
+    [
+     "Cesar Avalos Baddouh",
+     "Purdue Univ."
+    ],
+    [
+     "Kai Ze Ee",
+     "Purdue Univ."
+    ],
+    [
+     "Timothy G Rogers",
+     "Purdue Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1A: GPU Microarchitecture & Numerical Precision",
+   "title": "Bit-Accurate Modeling of GPU Matrix Multiply-Accumulate Units: Demystifying Numerical Discrepancy and Accuracy",
+   "authors": [
+    [
+     "Peichen Xie",
+     "Microsoft Research"
+    ],
+    [
+     "Shuotao Xu",
+     "Microsoft Research"
+    ],
+    [
+     "Yang Wang",
+     "Microsoft Research"
+    ],
+    [
+     "Fan Yang",
+     "Microsoft Research"
+    ],
+    [
+     "Mao Yang",
+     "Microsoft Research"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1A: GPU Microarchitecture & Numerical Precision",
+   "title": "Not All Dot Products Are Equal: The Hidden MMA Arithmetic Design Space Drives Cross-Architecture LLM Inference Gaps",
+   "authors": [
+    [
+     "Jongyeop Kim",
+     "SungKyunKwan Univ."
+    ],
+    [
+     "Chaeyeon Kim",
+     "Sookmyung Women's Univ."
+    ],
+    [
+     "Jeongwoo Park",
+     "SungKyunKwan Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1A: GPU Microarchitecture & Numerical Precision",
+   "title": "Better Call SoL : Enhancing GPUs with a Sea of LUTs Core",
+   "authors": [
+    [
+     "Shashank Nag",
+     "The Univ. of Texas at Austin"
+    ],
+    [
+     "Justin Garrigus",
+     "The Univ. of Texas at Austin"
+    ],
+    [
+     "Yuting Chen",
+     "The Univ. of Texas at Austin"
+    ],
+    [
+     "Lizy K John",
+     "The Univ. of Texas at Austin"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1A: GPU Microarchitecture & Numerical Precision",
+   "title": "Complex Tensor Core: Software-Hardware Co-Design for Accelerating Complex-Valued Neural Networks on GPUs",
+   "authors": [
+    [
+     "Eunbi Jeong",
+     "Ewha Womans Univ."
+    ],
+    [
+     "Jennifer N. Choi",
+     "Ewha Womans Univ."
+    ],
+    [
+     "Ji yeong Yi",
+     "Ewha Womans Univ."
+    ],
+    [
+     "Jane Rhee",
+     "Ewha Womans Univ."
+    ],
+    [
+     "Gunjae Koo",
+     "Korea Univ."
+    ],
+    [
+     "Yunho Oh",
+     "Korea Univ."
+    ],
+    [
+     "Myung Kuk Yoon",
+     "Ewha Womans Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1A: GPU Microarchitecture & Numerical Precision",
+   "title": "RESCU: Optimizing GPU Register Management for Effective Kernel Fusion",
+   "authors": [
+    [
+     "Ruixiao Huang",
+     "Univ. of North Texas"
+    ],
+    [
+     "Shouzhe Zhang",
+     "Univ. of North Texas"
+    ],
+    [
+     "Hui Zhao",
+     "Univ. of North Texas"
+    ],
+    [
+     "Weishi Shi",
+     "Univ. of North Texas"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1A: GPU Microarchitecture & Numerical Precision",
+   "title": "SnakeCharmer: Orchestrating Utility, Timeliness, and Placement in GPU Prefetching",
+   "authors": [
+    [
+     "Yuhan Tang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Tiejun Li",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Jianmin Zhang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "An Hu",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ."
+    ],
+    [
+     "Sheng Ma",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Yiqun Lang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Hanqing Li",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Siqing Fu",
+     "National Univ. of Defense Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+   "title": "ATLAS: Pathfinding Efficient 3D-DRAM-based LLM Inference Accelerator Design via Silicon-Proven Full-Stack Simulation",
+   "authors": [
+    [
+     "Cong Li",
+     "Peking Univ."
+    ],
+    [
+     "Chenhao Xue",
+     "Peking Univ."
+    ],
+    [
+     "Yi Ren",
+     "Peking Univ."
+    ],
+    [
+     "Xiping Dong",
+     "Peking Univ."
+    ],
+    [
+     "Yu Cheng",
+     "Peking Univ."
+    ],
+    [
+     "Yinbo Hu",
+     "Peking Univ."
+    ],
+    [
+     "Fujun Bai",
+     "Xi'an UniIC Semiconductors"
+    ],
+    [
+     "Yixin Guo",
+     "Xi'an UniIC Semiconductors"
+    ],
+    [
+     "Xiping Jiang",
+     "Xi'an UniIC Semiconductors"
+    ],
+    [
+     "Qiang Wu",
+     "Houmo AI"
+    ],
+    [
+     "Zhi Yang",
+     "Peking Univ."
+    ],
+    [
+     "Zhe Cheng",
+     "Peking Univ."
+    ],
+    [
+     "Yuan Xie",
+     "Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+   "title": "HiLLM: Heterogeneous CPU–GPU Inference for Interactive MoE LLM Serving on Local Systems",
+   "authors": [
+    [
+     "Insu Choi",
+     "Yonsei Univ."
+    ],
+    [
+     "Seungchan Lee",
+     "Yonsei Univ."
+    ],
+    [
+     "Joon-Sung Yang",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+   "title": "DART: A Cache-Enabled Diffusion Transformer Accelerator via Feature-Gated Scheduling and Hierarchical Quantization",
+   "authors": [
+    [
+     "Zihan Zou",
+     "Southeast Univ."
+    ],
+    [
+     "Peng Zheng",
+     "Southeast Univ."
+    ],
+    [
+     "Shun Zhang",
+     "Southeast Univ."
+    ],
+    [
+     "Xinyang Chen",
+     "Southeast Univ."
+    ],
+    [
+     "Jiaming Lin",
+     "Southeast Univ."
+    ],
+    [
+     "Bori An",
+     "Southeast Univ."
+    ],
+    [
+     "Yichen Hu",
+     "Southeast Univ."
+    ],
+    [
+     "Xinming Yan",
+     "Southeast Univ."
+    ],
+    [
+     "Xin Cao",
+     "Southeast Univ."
+    ],
+    [
+     "Hao Cai",
+     "Southeast Univ."
+    ],
+    [
+     "Bo Liu",
+     "Southeast Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+   "title": "HyPIM: A Unified PIM Architecture for Accelerating Mamba-Transformer Hybrid Model Inference",
+   "authors": [
+    [
+     "Hyemin Park",
+     "Seoul National Univ."
+    ],
+    [
+     "Isaac Jeong",
+     "Seoul National Univ."
+    ],
+    [
+     "Junghwan Lim",
+     "Seoul National Univ."
+    ],
+    [
+     "Jungi Hyun",
+     "Seoul National Univ."
+    ],
+    [
+     "Hyuk-Jae Lee",
+     "Seoul National Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+   "title": "NFC: A 3D NAND Flash-CIM Centric Architecture for Efficient On-Device MoE LLM Inference",
+   "authors": [
+    [
+     "Siyuan Chen",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Ao Shi",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Shiyang Li",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Jiaqi Li",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Haozhang Yang",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Haobin Shang",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Lianliang Wu",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Ruiqi Chen",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Yiyang Chen",
+     "School of Integrated Circuits, Peking Univ."
+    ],
+    [
+     "Lixia Han",
+     "School of Integrated Circuits, Nanjing Univ. of Aeronautics and Astronautics"
+    ],
+    [
+     "Lifeng Liu",
+     "School of Integrated Circuits, Peking Univ.; Beijing Advanced Innovation Center for Integrated Circuits, China"
+    ],
+    [
+     "Peng Huang",
+     "School of Integrated Circuits, Peking Univ.; Beijing Advanced Innovation Center for Integrated Circuits, China"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+   "title": "TNT: A Unified LUT-Centric Architecture for Ultra-Low-Bit LLM Inference via Native KV Computation",
+   "authors": [
+    [
+     "Zhirui Huang",
+     "Microsoft Research Asia"
+    ],
+    [
+     "Rui Ma",
+     "Microsoft Research Asia"
+    ],
+    [
+     "Ran Shu",
+     "Microsoft Research Asia"
+    ],
+    [
+     "Ting Cao",
+     "Inst. of AI Industry Research, Tsinghua Univ."
+    ],
+    [
+     "Chixiao Chen",
+     "Fudan Univ."
+    ],
+    [
+     "Yongqiang Xiong",
+     "Microsoft Research Asia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1B: 3D-Stacked & PIM Architectures for LLM/MoE Serving",
+   "title": "Gossamer: A Utility-Driven Architecture for Constant-Budget KV Cache Compression in Reasoning LLMs",
+   "authors": [
+    [
+     "Feng Cheng",
+     "Duke Univ."
+    ],
+    [
+     "Cong Guo",
+     "Duke Univ."
+    ],
+    [
+     "Junyao Zhang",
+     "Duke Univ."
+    ],
+    [
+     "Haoxuan Shan",
+     "Duke Univ."
+    ],
+    [
+     "Chiyue Wei",
+     "Duke Univ."
+    ],
+    [
+     "Hong Wang",
+     "Intel"
+    ],
+    [
+     "Hai \"Helen\" Li",
+     "Duke Univ."
+    ],
+    [
+     "Yiran Chen",
+     "Duke Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1C: Industry Session",
+   "title": "AIPerf: Meta's Performance Modeling and HW/SW Co-design Framework for Data Center–Scale LLM Training",
+   "authors": [
+    [
+     "Paul Baumstarck",
+     "Meta"
+    ],
+    [
+     "Joel Coburn",
+     "Meta"
+    ],
+    [
+     "Benjamin Ghaemmaghami",
+     "Meta"
+    ],
+    [
+     "Shobhit Kanaujia",
+     "Meta"
+    ],
+    [
+     "Seah Kim",
+     "Meta"
+    ],
+    [
+     "Hwijoon Lim",
+     "Meta"
+    ],
+    [
+     "Yi-Chien Lin",
+     "Meta"
+    ],
+    [
+     "Mustafa Ozdal",
+     "Meta"
+    ],
+    [
+     "Pyeongsu Park",
+     "Meta"
+    ],
+    [
+     "Kevin Siu",
+     "Meta"
+    ],
+    [
+     "Chunqiang Tang",
+     "Meta"
+    ],
+    [
+     "Pavan Yalamanchili",
+     "Meta"
+    ],
+    [
+     "Jongsoo Park",
+     "Meta"
+    ]
+   ],
+   "industry": true
+  },
+  {
+   "session": "Session 1C: Industry Session",
+   "title": "Architecting for Hardware Diversity: Meta's End-to-End Co-Design for High-Performance AI Training on AMD GPUs",
+   "authors": [
+    [
+     "Haoyu Zhang",
+     "Meta"
+    ],
+    [
+     "Arshad Rahman",
+     "AMD"
+    ],
+    [
+     "Adnan Aziz",
+     "Meta"
+    ],
+    [
+     "Ajith Prabhudev",
+     "Meta"
+    ],
+    [
+     "Amin Farmahini",
+     "Meta"
+    ],
+    [
+     "Ben Rhoads",
+     "Meta"
+    ],
+    [
+     "Benson Ma",
+     "Meta"
+    ],
+    [
+     "Brian Shi",
+     "AMD"
+    ],
+    [
+     "Cen Zhao",
+     "Meta"
+    ],
+    [
+     "CK Luk",
+     "Meta"
+    ],
+    [
+     "Dingming Wu",
+     "Meta"
+    ],
+    [
+     "Emad El-Haraty",
+     "Meta"
+    ],
+    [
+     "Eric Chen",
+     "Meta"
+    ],
+    [
+     "Frank Li",
+     "Meta"
+    ],
+    [
+     "Gary Huang",
+     "Meta"
+    ],
+    [
+     "Gefei Zuo",
+     "Meta"
+    ],
+    [
+     "Haoran Zhang",
+     "Meta"
+    ],
+    [
+     "Hiwot Kassa",
+     "Meta"
+    ],
+    [
+     "Hongyi Zeng",
+     "Meta"
+    ],
+    [
+     "Jack Taylor",
+     "AMD"
+    ],
+    [
+     "Jeremy Hadidjojo",
+     "Meta"
+    ],
+    [
+     "John Donati",
+     "Meta"
+    ],
+    [
+     "Jonathan Sheffield",
+     "Meta"
+    ],
+    [
+     "Julio MachadoSilva",
+     "AMD"
+    ],
+    [
+     "Karthik Ganesan",
+     "Meta"
+    ],
+    [
+     "Kent Russell",
+     "AMD"
+    ],
+    [
+     "KR Kishore",
+     "Meta"
+    ],
+    [
+     "Lei Tian",
+     "Meta"
+    ],
+    [
+     "Liu Ke",
+     "Meta"
+    ],
+    [
+     "Muhammad Osama",
+     "AMD"
+    ],
+    [
+     "Peng Chen",
+     "Meta"
+    ],
+    [
+     "Rakesh Hemnani",
+     "Meta"
+    ],
+    [
+     "Ryan Swann",
+     "AMD"
+    ],
+    [
+     "Saleel Kudchadker",
+     "AMD"
+    ],
+    [
+     "Shankar Yanamandram",
+     "Meta"
+    ],
+    [
+     "Shobhit Kanaujia",
+     "Meta"
+    ],
+    [
+     "Shucai Xiao",
+     "AMD"
+    ],
+    [
+     "Srinath Bayareddy",
+     "Meta"
+    ],
+    [
+     "Srinivas Vaidyanathan",
+     "Meta"
+    ],
+    [
+     "Sudharssun Subramanian",
+     "Meta"
+    ],
+    [
+     "Supadchaya Puangpontip",
+     "Meta"
+    ],
+    [
+     "Taylor Robie",
+     "Meta"
+    ],
+    [
+     "Tianhao Huang",
+     "Meta"
+    ],
+    [
+     "Tyler Hart",
+     "Meta"
+    ],
+    [
+     "Viswesh Sankaran",
+     "Meta"
+    ],
+    [
+     "Weijun Jiang",
+     "AMD"
+    ],
+    [
+     "Wenkai Du",
+     "AMD"
+    ],
+    [
+     "Xiaodong Wang",
+     "Meta"
+    ],
+    [
+     "Xiaohu Guo",
+     "AMD"
+    ],
+    [
+     "Yao Rong",
+     "Meta"
+    ],
+    [
+     "Yinbin Ma",
+     "Meta"
+    ],
+    [
+     "Yue Dong",
+     "Meta"
+    ],
+    [
+     "Yuzhen Huang",
+     "Meta"
+    ],
+    [
+     "Yvonne Liu",
+     "Meta"
+    ],
+    [
+     "Zhan Shu",
+     "Meta"
+    ],
+    [
+     "Dan Rabinovitsj",
+     "Meta"
+    ],
+    [
+     "Ajit Mathews",
+     "Meta"
+    ],
+    [
+     "Chunqiang Tang",
+     "Meta"
+    ]
+   ],
+   "industry": true
+  },
+  {
+   "session": "Session 1C: Industry Session",
+   "title": "MTIA-RT: Enabling a Native PyTorch Experience on Custom AI ASICs",
+   "authors": [
+    [
+     "Hangchen Yu",
+     "Meta Platforms"
+    ],
+    [
+     "Adam Belay",
+     "Meta Platforms"
+    ],
+    [
+     "Jun Luo",
+     "Meta Platforms"
+    ],
+    [
+     "Chunqiang Tang",
+     "Meta Platforms"
+    ],
+    [
+     "Roman Levenstein",
+     "Meta Platforms"
+    ],
+    [
+     "Yige Hu",
+     "Meta Platforms"
+    ],
+    [
+     "Anirudh Shaktawat",
+     "Meta Platforms"
+    ],
+    [
+     "Alex Mastro",
+     "Meta Platforms"
+    ],
+    [
+     "David Reiss",
+     "Meta Platforms"
+    ],
+    [
+     "Tim Sham",
+     "Meta Platforms"
+    ],
+    [
+     "Jaesoo Lee",
+     "Meta Platforms"
+    ],
+    [
+     "Anirban Banerjee",
+     "Meta Platforms"
+    ],
+    [
+     "Hyunho Yeo",
+     "Meta Platforms"
+    ],
+    [
+     "Youlin Zhang",
+     "Meta Platforms"
+    ],
+    [
+     "Jack Montgomery",
+     "Meta Platforms"
+    ],
+    [
+     "Kaustubh Gondkar",
+     "Meta Platforms"
+    ],
+    [
+     "Ajit Mathews",
+     "Meta Platforms"
+    ],
+    [
+     "Wushi Dong",
+     "Meta Platforms"
+    ],
+    [
+     "Rumit Desai",
+     "Meta Platforms"
+    ],
+    [
+     "Wang Xu",
+     "Meta Platforms"
+    ]
+   ],
+   "industry": true
+  },
+  {
+   "session": "Session 1C: Industry Session",
+   "title": "DMA-Latte: Expanding the Reach of DMA Offloads to Latency-bound ML Communication",
+   "authors": [
+    [
+     "Suchita Pati",
+     "AMD"
+    ],
+    [
+     "Shaizeen Aga",
+     "AMD"
+    ],
+    [
+     "Mahzabeen Islam",
+     "AMD"
+    ],
+    [
+     "Ryan Quach",
+     "AMD, UC Riverside"
+    ],
+    [
+     "Saleel Kudchadker",
+     "AMD"
+    ],
+    [
+     "Mohamed Ibrahim",
+     "Advanced Micro Devices Inc."
+    ]
+   ],
+   "industry": true
+  },
+  {
+   "session": "Session 1C: Industry Session",
+   "title": "BoostX-RNIC: Fast, Scalable and Flexible AI RNIC",
+   "authors": [
+    [
+     "Kanghyun Choi",
+     "MangoBoost Inc. & Seoul National Univ."
+    ],
+    [
+     "Bogyeong Park",
+     "MangoBoost Inc. & Seoul National Univ."
+    ],
+    [
+     "Gihwan lee",
+     "MangoBoost Inc. & Seoul National Univ."
+    ],
+    [
+     "Eunjin Baek",
+     "MangoBoost Inc."
+    ],
+    [
+     "Changsu Kim",
+     "MangoBoost Inc."
+    ],
+    [
+     "Hanmin Kim",
+     "MangoBoost Inc. & Seoul National Univ."
+    ],
+    [
+     "Nayeon Kim",
+     "MangoBoost Inc. & Seoul National Univ."
+    ],
+    [
+     "Changyeon Jo",
+     "MangoBoost Inc."
+    ],
+    [
+     "Chanmyeong Kim",
+     "MangoBoost Inc. & Seoul National Univ."
+    ],
+    [
+     "Hyeonseong Choi",
+     "MangoBoost Inc."
+    ],
+    [
+     "Dongjoo Lee",
+     "MangoBoost Inc."
+    ],
+    [
+     "Jaehyun Lee",
+     "MangoBoost Inc."
+    ],
+    [
+     "Minho Chu",
+     "MangoBoost Inc."
+    ],
+    [
+     "Jangwoo Kim",
+     "MangoBoost Inc. & Seoul National Univ."
+    ]
+   ],
+   "industry": true
+  },
+  {
+   "session": "Session 1C: Industry Session",
+   "title": "Performance Verification of the AmpereOne® CPU Core",
+   "authors": [
+    [
+     "Doa'a Al-Otoom",
+     "Ampere Computing"
+    ],
+    [
+     "Nicholas Kelly",
+     "Ampere Computing"
+    ],
+    [
+     "Aaron Lindsay",
+     "Ampere Computing"
+    ],
+    [
+     "Agreen Ahmadi",
+     "Ampere Computing"
+    ],
+    [
+     "Ananth Kumar",
+     "Ampere Computing"
+    ],
+    [
+     "Anthony Faubert",
+     "Ampere Computing"
+    ],
+    [
+     "Ben Chaffin",
+     "Ampere Computing"
+    ],
+    [
+     "Bret Toll",
+     "Ampere Computing"
+    ],
+    [
+     "Eric Wallace",
+     "Ampere Computing"
+    ],
+    [
+     "Lucas Crowthers",
+     "Ampere Computing"
+    ],
+    [
+     "Mark Charney",
+     "Ampere Computing"
+    ],
+    [
+     "Michael Chin",
+     "Ampere Computing"
+    ],
+    [
+     "Michael Spradling",
+     "Ampere Computing"
+    ],
+    [
+     "Scott Witscher",
+     "Ampere Computing"
+    ],
+    [
+     "Sriyash Caculo",
+     "Ampere Computing"
+    ],
+    [
+     "Syed Fakhri",
+     "Ampere Computing"
+    ],
+    [
+     "Vivek Kothapalli",
+     "Ampere Computing"
+    ],
+    [
+     "William Freelove",
+     "Ampere Computing"
+    ],
+    [
+     "Mahesh Madhav",
+     "Ampere Computing"
+    ]
+   ],
+   "industry": true
+  },
+  {
+   "session": "Session 1C: Industry Session",
+   "title": "Practical Prefetching of a MAC Scheduler on ARM Neoverse",
+   "authors": [
+    [
+     "Jonathan Ling",
+     "Nokia Bell Labs"
+    ],
+    [
+     "Paul Cautereels",
+     "Nokia Bell Labs"
+    ],
+    [
+     "Damien Phan",
+     "Nokia Mobile Networks"
+    ],
+    [
+     "Henry Wiechert",
+     "Nokia Mobile Networks"
+    ],
+    [
+     "Krister Wikstrom",
+     "Nokia Mobile Networks"
+    ],
+    [
+     "Morgan Cormier",
+     "Nokia Mobile Networks"
+    ],
+    [
+     "Pierre Delbreil",
+     "Nokia Mobile Networks"
+    ],
+    [
+     "Christope Pavageau",
+     "Nokia Mobile Networks"
+    ],
+    [
+     "Dragan Samardzija",
+     "Nokia Bell Labs"
+    ]
+   ],
+   "industry": true
+  },
+  {
+   "session": "Session 1D: Low-Bit LUT-Based & Sparse Inference",
+   "title": "Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators",
+   "authors": [
+    [
+     "Afzal Ahmad",
+     "The Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Gaoyu Mao",
+     "Huawei Noah’s Ark Lab"
+    ],
+    [
+     "Shoubo Hu",
+     "Huawei Noah’s Ark Lab"
+    ],
+    [
+     "Hui-Ling Zhen",
+     "Huawei Noah’s Ark Lab"
+    ],
+    [
+     "Mingxuan Yuan",
+     "Huawei Noah’s Ark Lab"
+    ],
+    [
+     "Xinyu Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Wei Zhang",
+     "The Hong Kong Univ. of Science and Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1D: Low-Bit LUT-Based & Sparse Inference",
+   "title": "Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers by Exploiting Latent Space Correlations",
+   "authors": [
+    [
+     "Wenxuan Miao",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Haosong Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Weiming Hu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zihan Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Aiyue Chen",
+     "Huawei Technologies"
+    ],
+    [
+     "Jianlin Yu",
+     "Huawei Technologies"
+    ],
+    [
+     "Yiwu Yao",
+     "Huawei Technologies"
+    ],
+    [
+     "Yiming Gan",
+     "ICT, Chinese Academy of Sciences"
+    ],
+    [
+     "Jieru Zhao",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1D: Low-Bit LUT-Based & Sparse Inference",
+   "title": "FUSE: A Fragmentation-Free Spatial Multi-Tenant DNN Accelerator via Edge-Universal Graph",
+   "authors": [
+    [
+     "Zhihao Yang",
+     "Inst. of Software, Chinese Academy of Sciences"
+    ],
+    [
+     "Yongwei Zhao",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Tianrui Ma",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Yifan Hao",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Zhe Fan",
+     "Cambricon Technologies"
+    ],
+    [
+     "Rui Zhang",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Zidong DU",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Ling Li",
+     "Inst. of Software, Chinese Academy of Sciences"
+    ],
+    [
+     "Tianshi Chen",
+     "Cambricon Technologies"
+    ],
+    [
+     "Yunji Chen",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1D: Low-Bit LUT-Based & Sparse Inference",
+   "title": "RAIL: A Reconfigurable Spatial Accelerator for Linear-Time Sequence Model Inference",
+   "authors": [
+    [
+     "Xinyu Zhu",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Qinggang Wang",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Wenju Zhao",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Bing Zhu",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Runze Wang",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Long Zheng",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "XIAOFEI LIAO",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Hai Jin",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Jingling Xue",
+     "Univ. of New South Wales, Sydney"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1D: Low-Bit LUT-Based & Sparse Inference",
+   "title": "FLUTE: A LUT-Based Floating-Point Engine for Efficient LLM Acceleration Exploiting Core-Tail Hierarchical Alignment",
+   "authors": [
+    [
+     "Tielong Liu",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Zeyu Zhu",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Gang Li",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Zitao Mo",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Chen BAI",
+     "The Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Junwen Si",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Peihuan Ni",
+     "Inst. of Automation,Chinese Academy of Sciences"
+    ],
+    [
+     "Minnan Pei",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Peisong Wang",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xiaoyao Liang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jian Cheng",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1D: Low-Bit LUT-Based & Sparse Inference",
+   "title": "High-Density LUT-Based mpGEMM Architecture with Unified INT/FP Support for Low-Bit LLM Inference",
+   "authors": [
+    [
+     "Jiageng Shi",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Yang Shi",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Hao Wang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Ruiqiang Song",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Jingwei Cai",
+     "Tsinghua Univ."
+    ],
+    [
+     "Zhe Li",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Junzhong Shen",
+     "UltraRISC Technology"
+    ],
+    [
+     "Chen Xu",
+     "College of Computer Science and Technology, National Univ. of Defense Technology, Changsha, China"
+    ],
+    [
+     "Yaohua Wang",
+     "National Univ. of Defense Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 1D: Low-Bit LUT-Based & Sparse Inference",
+   "title": "AUSA: A Complementary Row-Pairing GEMM Accelerator for Pruned LLMs Exploiting Asymmetric Unstructured Sparsity",
+   "authors": [
+    [
+     "Ruoheng Yao",
+     "Southern Univ. of Science and Technology"
+    ],
+    [
+     "Wenneng Jiang",
+     "Southern Univ. of Science and Technology"
+    ],
+    [
+     "Tianji Wang",
+     "Southern Univ. of Science and Technology"
+    ],
+    [
+     "Yichen Ouyang",
+     "Southern Univ. of Science and Technology"
+    ],
+    [
+     "Lei Chen",
+     "Southern Univ. of Science and Technology"
+    ],
+    [
+     "Fengwei An",
+     "Southern Univ. of Science and Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2A: ML System Interconect",
+   "title": "Glaive: Cleaving Bandwidth and Latency Scheduling for Efficient Non-uniform All-to-All Collective Communication",
+   "authors": [
+    [
+     "Le Qin",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Junwei Cui",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Weilin Cai",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Chenyu Yuan",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Jiayi Huang",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2A: ML System Interconect",
+   "title": "RAFO: Reconfigurable AWGR-Based nD-Fullmesh Optical Interconnect for MoE Serving Acceleration",
+   "authors": [
+    [
+     "Yuxuan Zhang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Rongquan Ni",
+     "Fudan Univ."
+    ],
+    [
+     "Jun Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Hanbin Zhang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Guohao Dai",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2A: ML System Interconect",
+   "title": "HeteroMosaic: Exposing and Exploiting Heterogeneous Opportunities for Energy-Efficient Edge LLM Inference",
+   "authors": [
+    [
+     "Gregory Hyegang Jun",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Wesley Pang",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Eddie Richter",
+     "AMD Research and Advanced Development"
+    ],
+    [
+     "Mehdi Saeedi",
+     "Advanced Micro Devices (AMD)"
+    ],
+    [
+     "Aporva Amarnath",
+     "AMD Research"
+    ],
+    [
+     "Pallavi Ferrao",
+     "Advanced Micro Devices (AMD)"
+    ],
+    [
+     "Deming Chen",
+     "Univ. of Illinois Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2A: ML System Interconect",
+   "title": "SNN-4-All: Breaking the Edge Fine-Tuning Barrier with Heterogeneous Sparsity Exploitation",
+   "authors": [
+    [
+     "Zhibai Huang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "James Yen",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zhixiang Wei",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xingzi Yu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Chen Chen",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Lingyun Yang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zhengwei Qi",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Haibing Guan",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2A: ML System Interconect",
+   "title": "Auto-Scaling Heterogeneous Neural Processing Units for Energy and Cost-Efficient LLM Serving",
+   "authors": [
+    [
+     "Yuqi Xue",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Jichuan Chang",
+     "Google DeepMind"
+    ],
+    [
+     "Jian Huang",
+     "Univ. of Illinois Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2A: ML System Interconect",
+   "title": "Beyond Prefill-Decode Disaggregation: Dissecting LLM Inference for Heterogeneous Platforms via Dynamic Operator Scheduling",
+   "authors": [
+    [
+     "Jiaqi Yang",
+     "Peking Univ."
+    ],
+    [
+     "Jiayi Li",
+     "Peking Univ."
+    ],
+    [
+     "Yihan Fu",
+     "Peking Univ."
+    ],
+    [
+     "Hongxiao Zhao",
+     "Peking Univ."
+    ],
+    [
+     "Zhan Chen",
+     "Peking Univ."
+    ],
+    [
+     "Qiuping Wu",
+     "Peking Univ."
+    ],
+    [
+     "Yuchao Yang",
+     "Peking Univ."
+    ],
+    [
+     "Bonan Yan",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2A: ML System Interconect",
+   "title": "In-Flight Collectives: Characterizing and Accelerating Compute-Communication Overlap in Distributed LLM System",
+   "authors": [
+    [
+     "Jonghoon Kang",
+     "Samsung Electronics / KAIST"
+    ],
+    [
+     "Zhixian Jin",
+     "KAIST"
+    ],
+    [
+     "John Kim",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+   "title": "An Experimental Study of High-Bandwidth Memory Power Consumption",
+   "authors": [
+    [
+     "Ataberk Olgun",
+     "ETH Zürich"
+    ],
+    [
+     "Spiros Galanopoulos",
+     "ETH Zürich"
+    ],
+    [
+     "Andreas Kosmas Kakolyris",
+     "ETH Zürich"
+    ],
+    [
+     "Haocong Luo",
+     "ETH Zürich"
+    ],
+    [
+     "Ismail Emir Yuksel",
+     "ETH Zürich"
+    ],
+    [
+     "Nisa Bostanci",
+     "ETH Zürich"
+    ],
+    [
+     "Onur Mutlu",
+     "ETH Zürich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+   "title": "MORDOR: Mitigating Overheads of Read Disturbance Preventive Operations via Elastic Refresh Scheduling",
+   "authors": [
+    [
+     "Maria Makeenkova",
+     "ETH Zürich"
+    ],
+    [
+     "Ataberk Olgun",
+     "ETH Zürich"
+    ],
+    [
+     "Nisa Bostanci",
+     "ETH Zürich"
+    ],
+    [
+     "Ismail Emir Yuksel",
+     "ETH Zürich"
+    ],
+    [
+     "Spiros Galanopoulos",
+     "ETH Zürich"
+    ],
+    [
+     "Onur Mutlu",
+     "ETH Zürich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+   "title": "PRISM: A Miss-Attribution-Guided Temporal Prefetcher Beyond Metadata Management",
+   "authors": [
+    [
+     "Yiquan Lin",
+     "Zhejiang Univ."
+    ],
+    [
+     "Jianxiang Liu",
+     "Zhejiang Univ."
+    ],
+    [
+     "Yiquan Chen",
+     "Alibaba Cloud"
+    ],
+    [
+     "Wenhai Lin",
+     "Alibaba Cloud"
+    ],
+    [
+     "Zonghui Wang",
+     "Zhejiang Univ."
+    ],
+    [
+     "Wenzhi Chen",
+     "Zhejiang Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+   "title": "ARC: Adaptive Reconfigurable CXL Hotness Monitoring",
+   "authors": [
+    [
+     "Chihun Song",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Hwayong Nam",
+     "Seoul National Univ."
+    ],
+    [
+     "Haijian Wang",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Eojin Na",
+     "Seoul National Univ."
+    ],
+    [
+     "Haneul Park",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Taehyung Lee",
+     "DGIST"
+    ],
+    [
+     "Jung Ho Ahn",
+     "Seoul National Univ."
+    ],
+    [
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+   "title": "HSPref: Efficient Software Prefetching for ARM SME Outer-Products",
+   "authors": [
+    [
+     "Han Huang",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Lanshu Huang",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Xianjie Chen",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Xianwei Zhang",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Yutong Lu",
+     "Sun Yat-sen Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+   "title": "From Bit-Position Sensitivity to Unequal Error Protection for DNN Inference Memory",
+   "authors": [
+    [
+     "Muhammad Husnain Mubarik",
+     "AMD"
+    ],
+    [
+     "Karthik Mohan Kumar",
+     "AMD"
+    ],
+    [
+     "Pedro Antonio Pena",
+     "AMD"
+    ],
+    [
+     "Keshavan Varadarajan",
+     "AMD"
+    ],
+    [
+     "Kunal Tyagi",
+     "AMD"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2B: Memory System Power, Refresh & Predictive Prefetching",
+   "title": "Maverick: Leveraging Address Translation to Mitigate Memory Latency in Server Workloads",
+   "authors": [
+    [
+     "Ho Je Lee",
+     "Yonsei Univ."
+    ],
+    [
+     "Minchan Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Jaewon Kwon",
+     "Yonsei Univ."
+    ],
+    [
+     "Jain Koo",
+     "Yonsei Univ."
+    ],
+    [
+     "Yongju Lee",
+     "Yonsei Univ."
+    ],
+    [
+     "Won Hur",
+     "Yonsei Univ., LG Electronics"
+    ],
+    [
+     "Jiwon Lee",
+     "Uppsala Univ."
+    ],
+    [
+     "Won Woo Ro",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2C: Distinguished Papers I -- Memory Systems & Microarchitecture",
+   "title": "Caerus: Prefetching by Thinking Globally and Acting Locally",
+   "authors": [
+    [
+     "Jacky Wong",
+     "Imperial College London"
+    ],
+    [
+     "Jacob Alexandrou",
+     "Imperial College London"
+    ],
+    [
+     "Yinting Huang",
+     "Univ. of Cambridge"
+    ],
+    [
+     "Luke Panayi",
+     "Imperial College London"
+    ],
+    [
+     "Lev Mukhanov",
+     "IMEC"
+    ],
+    [
+     "Sam Ainsworth",
+     "IMEC"
+    ],
+    [
+     "Paul Kelly",
+     "Imperial College London"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2C: Distinguished Papers I -- Memory Systems & Microarchitecture",
+   "title": "Synapse: Decoupling Protocol, Topology, and Policy for Automated Synthesis of Coherence Controllers",
+   "authors": [
+    [
+     "Nicolò Carpentieri",
+     "Technische Univ. München"
+    ],
+    [
+     "Anatole Lefort",
+     "Technische Univ. München"
+    ],
+    [
+     "David Schall",
+     "Technische Univ. München"
+    ],
+    [
+     "Julian Pritzi",
+     "Technische Univ. München"
+    ],
+    [
+     "Pramod Bhatotia",
+     "Technische Univ. München"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2C: Distinguished Papers I -- Memory Systems & Microarchitecture",
+   "title": "SagePTE: Co-Locating Guest and Host PTEs to Accelerate Virtual Memory Translation",
+   "authors": [
+    [
+     "Amir Noohi",
+     "The Univ. of Edinburgh"
+    ],
+    [
+     "Mostafa Derispour",
+     "The Univ. of Edinburgh"
+    ],
+    [
+     "Rodrigo Caetano de Oliveira Rocha",
+     "Huawei"
+    ],
+    [
+     "Antonio Barbalace",
+     "The Univ. of Edinburgh"
+    ],
+    [
+     "Artemiy Margaritov",
+     "Huawei"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2C: Distinguished Papers I -- Memory Systems & Microarchitecture",
+   "title": "Rebasing and Optimizing Cache Miss Handling: Fetching Beyond MSHR Capacity",
+   "authors": [
+    [
+     "Simranjit Singh",
+     "Univ. of Murcia"
+    ],
+    [
+     "Agustín Navarro-Torres",
+     "Universidad de Zaragoza"
+    ],
+    [
+     "Biswabandan Panda",
+     "Indian Inst. of Technology Bombay"
+    ],
+    [
+     "Alberto Ros",
+     "Univ. of Murcia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2C: Distinguished Papers I -- Memory Systems & Microarchitecture",
+   "title": "Same Cache, Different Latency: Understanding and Exploiting L2 Partition Locality in GPUs",
+   "authors": [
+    [
+     "Weile Luo",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Yibin Ma",
+     "Harbin Inst. of Technology, Shenzhen"
+    ],
+    [
+     "Yuhan Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Ruibo Fan",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Hongyuan Liu",
+     "Stevens Inst. of Technology"
+    ],
+    [
+     "Qiang Wang",
+     "Harbin Inst. of Technology, Shenzhen"
+    ],
+    [
+     "Xiaowen Chu",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2C: Distinguished Papers I -- Memory Systems & Microarchitecture",
+   "title": "SecPIMlet: Confidential Computing for Spatio-temporally Shared Processing-in-Memory",
+   "authors": [
+    [
+     "Sunho Lee",
+     "Univ. of Oxford/KAIST"
+    ],
+    [
+     "Minwoo Noh",
+     "KAIST"
+    ],
+    [
+     "Jeongwon Choi",
+     "KAIST"
+    ],
+    [
+     "Kwanghoon Choi",
+     "KAIST"
+    ],
+    [
+     "Igjae Kim",
+     "KAIST"
+    ],
+    [
+     "Chang Hyun Park",
+     "Uppsala Univ."
+    ],
+    [
+     "Jaehyuk Huh",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+   "title": "TriOoO: An Extensible DSA Framework for Machine Learning Molecular Dynamics",
+   "authors": [
+    [
+     "Zihan Yan",
+     "Inst. of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Ning Kang",
+     "Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Guojun Yuan",
+     "Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Yewen Li",
+     "The Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Yuanzhe Wang",
+     "Inst. of Computing Technology, CAS; UCAS"
+    ],
+    [
+     "Hao Zhang",
+     "Information Materials Department, Suzhou Laboratory"
+    ],
+    [
+     "Yachao Zhang",
+     "Inst. of Computing Technology, CAS; UCAS"
+    ],
+    [
+     "Guanglei Chen",
+     "Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Zejun Li",
+     "Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Zhan Wang",
+     "Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Dingwen Tao",
+     "Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Ninghui Sun",
+     "Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Guangming Tan",
+     "Inst. of Computing Technology, CAS; Western Inst. of Computing Technology, CAS"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+   "title": "AMG: AMX–GPU Cooperative Acceleration of Billion-Scale ANNS via GEMM Reformulation",
+   "authors": [
+    [
+     "Minho Kim",
+     "DGIST"
+    ],
+    [
+     "Houxiang Ji",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Hwanjun Lee",
+     "DGIST"
+    ],
+    [
+     "Jaeyoung Kang",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Sungju Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Hyunkyun Shin",
+     "Yonsei Univ."
+    ],
+    [
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Daehoon Kim",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+   "title": "HiCAM: Accelerating Parallel Triangle Counting via Bit-Efficient Content-Addressable Memory on FPGA",
+   "authors": [
+    [
+     "Yao Chen",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Feng Yu",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Hongshi Tan",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Xuanhua Shi",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Weng-Fai Wong",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Bingsheng He",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Hai Jin",
+     "Huazhong Univ. of Science and Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+   "title": "Arborist: Algorithm-Hardware Co-Design for Fast and Efficient Motion Planning",
+   "authors": [
+    [
+     "Yaotian Liu",
+     "Arizona State Univ."
+    ],
+    [
+     "Lingyi Huang",
+     "Rutgers Univ."
+    ],
+    [
+     "Zishen Wan",
+     "Harvard Univ."
+    ],
+    [
+     "Bo Yuan",
+     "Rutgers Univerrsity"
+    ],
+    [
+     "Cheng Tan",
+     "Arizona State Univ."
+    ],
+    [
+     "Jeff Zhang",
+     "Arizona State Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+   "title": "MVP: A Motion-Predictive Speculative Vision Pipeline with Non-Blocking Drift Correction",
+   "authors": [
+    [
+     "Raúl Taranco",
+     "Universitat Politècnica de Catalunya"
+    ],
+    [
+     "Antonio Gonzalez",
+     "Universitat Politecnica de Catalunya"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+   "title": "DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and Reorganization",
+   "authors": [
+    [
+     "Minnan Pei",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Gang Li",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Zeyu Zhu",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Siting Wang",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Junwen Si",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xiaoyao Liang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jian Cheng",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 2D: Accelerators for Robotics, Vision & Graph Workloads",
+   "title": "\\textsc{Saft}: Memory Sensitivity Analysis and Adaptive Fusion for Sparse Accelerators",
+   "authors": [
+    [
+     "Guoyu Li",
+     "Fudan Univ."
+    ],
+    [
+     "Zhiyi Chen",
+     "Fudan Univ."
+    ],
+    [
+     "Zheng Guan",
+     "Fudan Univ."
+    ],
+    [
+     "Jun Yu",
+     "Fudan Univ."
+    ],
+    [
+     "HaoDong Lu",
+     "Fudan Univ."
+    ],
+    [
+     "Kun Wang",
+     "Fudan Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3A: Branch Prediction & Instruction-Level Prefetching",
+   "title": "TEMPO: A Tag-Based Framework for Efficient Memory Ordering",
+   "authors": [
+    [
+     "Pranith Kumar",
+     "ARM"
+    ],
+    [
+     "Prasun Gera",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Hyojong Kim",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Chulhyung Park",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Hyesoon Kim",
+     "Georgia Inst. of Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3A: Branch Prediction & Instruction-Level Prefetching",
+   "title": "Prefetching for Hierarchical Branch Target Buffers",
+   "authors": [
+    [
+     "Yongjie Huang",
+     "Univ. of Edinburgh"
+    ],
+    [
+     "Mária Ďuračková",
+     "Univ. of Edinburgh"
+    ],
+    [
+     "Boris Grot",
+     "Univ. of Edinburgh"
+    ],
+    [
+     "David Schall",
+     "Technical Univ. of Munich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3A: Branch Prediction & Instruction-Level Prefetching",
+   "title": "Exploiting Program Semantics for Hardware Prefetching",
+   "authors": [
+    [
+     "Georgios Vavouliotis",
+     "Huawei"
+    ],
+    [
+     "Damjan Lampret",
+     "Huawei"
+    ],
+    [
+     "Sara Friedman",
+     "Huawei"
+    ],
+    [
+     "Leeor Peled",
+     "Huawei"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3A: Branch Prediction & Instruction-Level Prefetching",
+   "title": "Towards a Noise-Resilient TAGE via PURE",
+   "authors": [
+    [
+     "Tingji Zhang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Fang Su",
+     "Huawei Technologies Co., Ltd."
+    ],
+    [
+     "Peng Qu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Wenjian He",
+     "Huawei Technologies Co., Ltd."
+    ],
+    [
+     "Xiaoyi Liu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Xuefeng Zhang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Youhui Zhang",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3A: Branch Prediction & Instruction-Level Prefetching",
+   "title": "Non-Speculative Redundant Load Elimination",
+   "authors": [
+    [
+     "Minchan Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Ho Je Lee",
+     "Yonsei Univ."
+    ],
+    [
+     "Jaewon Kwon",
+     "Yonsei Univ."
+    ],
+    [
+     "Mingu Jung",
+     "Yonsei Univ."
+    ],
+    [
+     "Ipoom Jeong",
+     "Yonsei Univ."
+    ],
+    [
+     "Won Woo Ro",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3A: Branch Prediction & Instruction-Level Prefetching",
+   "title": "ParaAhead: Practical Multi-Taken Branch Prediction via Concurrent Ahead Pipelining",
+   "authors": [
+    [
+     "Hongyu Guo",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences & Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Hongze Tan",
+     "Loongson Technology Co. Ltd."
+    ],
+    [
+     "Tingting Zhang",
+     "Loongson Technology Co. Ltd."
+    ],
+    [
+     "Tianyi Liu",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences & Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Fuxin Zhang",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences & Univ. of Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3A: Branch Prediction & Instruction-Level Prefetching",
+   "title": "Catalyst-Length Instruction Fusion Prediction",
+   "authors": [
+    [
+     "Sebastian Sumin Kim",
+     "Univ. of Murcia"
+    ],
+    [
+     "Sawan Singh",
+     "AMD"
+    ],
+    [
+     "Alberto Ros",
+     "Univ. of Murcia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3B: Design Methodology: Simulation & Performance Modeling",
+   "title": "FlashGPU-sim: Enabling GPU Modeling for Modern Architectures and AI Workloads",
+   "authors": [
+    [
+     "Siying Yu",
+     "Chinese Univ. of Hong Kong"
+    ],
+    [
+     "Yixun Hong",
+     "Zhejiang Univ."
+    ],
+    [
+     "Guozhi Qiu",
+     "Zhejiang Univ."
+    ],
+    [
+     "Jingci Liu",
+     "The Chinese Univ. of Hong Kong"
+    ],
+    [
+     "Feng Gu",
+     "Chinese Univ. of Hong Kong"
+    ],
+    [
+     "Chenbo Geng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zhengrong Wang",
+     "Chinese Univ. of Hong Kong"
+    ],
+    [
+     "Chen Zhang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Bei Yu",
+     "Chinese Univ. of Hong Kong"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3B: Design Methodology: Simulation & Performance Modeling",
+   "title": "Accurate & Scalable Time-Based Sampling of Full-System Simulation",
+   "authors": [
+    [
+     "Shanqing Lin",
+     "EPFL"
+    ],
+    [
+     "Yuanlong Li",
+     "EPFL"
+    ],
+    [
+     "Mohammad Alian",
+     "Cornell Univ."
+    ],
+    [
+     "Babak Falsafi",
+     "EPFL"
+    ],
+    [
+     "Konrad K. Lai",
+     "Intel Corporation"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3B: Design Methodology: Simulation & Performance Modeling",
+   "title": "KAIROS: Fast Microarchitectural Design Space Exploration by Bridging Architectural Semantics and Logic Gates",
+   "authors": [
+    [
+     "Shilin Tian",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Sanjay Gandham",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Lingxiang Yin",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Mingjie Lin",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Hao Zheng",
+     "Univ. of Central Florida"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3B: Design Methodology: Simulation & Performance Modeling",
+   "title": "Fidelio: Agentic AI Framework for Synthesizing Microarchitecture-Faithful Datacenter Benchmarks",
+   "authors": [
+    [
+     "Alan Andrade",
+     "Univ. of Texas at Austin"
+    ],
+    [
+     "Petar Acimovic",
+     "Univ. of Cincinnati"
+    ],
+    [
+     "Wei Su",
+     "Meta"
+    ],
+    [
+     "Suyash Mahar",
+     "Meta"
+    ],
+    [
+     "Apostolos Kokolis",
+     "Meta"
+    ],
+    [
+     "Abhishek Dhanotia",
+     "Meta"
+    ],
+    [
+     "Jovan Stojkovic",
+     "UT Austin and Meta"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3B: Design Methodology: Simulation & Performance Modeling",
+   "title": "Perf-IR: A Portable Intermediate Representation for Cross-Platform GPU Performance Prediction",
+   "authors": [
+    [
+     "Jiyu Luo",
+     "Univ. of Science and Technology of China"
+    ],
+    [
+     "Ruike Liu",
+     "Nankai Univ."
+    ],
+    [
+     "Jingwei Sun",
+     "Univ. of Science and Technology of China"
+    ],
+    [
+     "Guangzhong Sun",
+     "Univ. of Science and Technology of China"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3B: Design Methodology: Simulation & Performance Modeling",
+   "title": "GPU-Tile-Sim: A Tile-Centric GPU Simulation Framework for LLM Hardware-Software Co-Design",
+   "authors": [
+    [
+     "Yitong Ding",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Jiawei Huang",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Renyang Guan",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Zihan Liu",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Yangjie Zhou",
+     "National Univ. of Singapore, Singapore"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Shixuan Sun",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Mingyi Guo",
+     "Shanghai Jiao Tong Univ., China"
+    ],
+    [
+     "Jian Weng",
+     "King Abdullah Univ. of Science and Technology (KAUST), Saudi Arabia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3B: Design Methodology: Simulation & Performance Modeling",
+   "title": "P-PLUS: Prefetch Profiling with Lightweight Unified Sampling",
+   "authors": [
+    [
+     "Junjie Liu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Fang Su",
+     "Huawei"
+    ],
+    [
+     "Yongbin Zhou",
+     "Huawei"
+    ],
+    [
+     "Haoqian Wang",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3C: Distinguished Papers II -- Security, Verification & Efficient ML Systems",
+   "title": "Uncovering Contention-Based Side-Channel Threats in AMD Zen Chiplet Architectures",
+   "authors": [
+    [
+     "Yunpeng Xu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yueteng Yu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Xuanzeng Song",
+     "Tsinghua Univ."
+    ],
+    [
+     "Zongle Huang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yongpan Liu",
+     "Tsinghua university"
+    ],
+    [
+     "Guowei Zhang",
+     "HiSilicon Technologies Co., Ltd."
+    ],
+    [
+     "Shuwen Deng",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3C: Distinguished Papers II -- Security, Verification & Efficient ML Systems",
+   "title": "DiffTest-L: A Hostless Co-Simulation Architecture for Hardware-Accelerated CPU Verification",
+   "authors": [
+    [
+     "Yinan Xu",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Dan Tang",
+     "Beijing Inst. of Open Source Chip, China"
+    ],
+    [
+     "Sa Wang",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Ninghui Sun",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Yungang Bao",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3C: Distinguished Papers II -- Security, Verification & Efficient ML Systems",
+   "title": "Enabling Spatially Fine-Grained DVFS in Neural Processing Units for Energy-Efficient LLM Serving",
+   "authors": [
+    [
+     "Yuqi Xue",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Jerry Wu",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Corey Yu",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Jian Huang",
+     "Univ. of Illinois Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3C: Distinguished Papers II -- Security, Verification & Efficient ML Systems",
+   "title": "EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding",
+   "authors": [
+    [
+     "Sangwoo Ha",
+     "KAIST"
+    ],
+    [
+     "Hyunwoo Seo",
+     "KAIST"
+    ],
+    [
+     "Yurim Jo",
+     "KAIST"
+    ],
+    [
+     "Youngjin Moon",
+     "KAIST"
+    ],
+    [
+     "Hoi-Jun Yoo",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3C: Distinguished Papers II -- Security, Verification & Efficient ML Systems",
+   "title": "PoCer: Fast RTL Fuzzing for Time-shared Microarchitectural Leakage Detection via Pre-Fuzzing Acceleration and Cross-Context-Supported Fuzzer",
+   "authors": [
+    [
+     "Pingfei Wu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yun Chen",
+     "HKUST(GZ)"
+    ],
+    [
+     "Dongsheng Wang",
+     "Department of Computer Science and Technology, Tsinghua Univ."
+    ],
+    [
+     "Haixia Wang",
+     "Beijing National Research Center for Information Science and Technology,Tsinghua Univ."
+    ],
+    [
+     "Pengfei Qiu",
+     "Key Laboratory of Trustworthy Distributed Computing and Service (BUPT), Ministry of Education"
+    ],
+    [
+     "Rihui Sun",
+     "Harbin Inst. of Technology, Harbin, China"
+    ],
+    [
+     "Zikang Tao",
+     "Harbin Inst. of Technology, Harbin, China"
+    ],
+    [
+     "Dapeng Ju",
+     "Tsinghua Univ.; Zhongguancun Laboratory"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3C: Distinguished Papers II -- Security, Verification & Efficient ML Systems",
+   "title": "Pistil – A Decoupled Pipeline Architecture for Sustained Memory Bandwidth across a 20-Chiplet 2.5D SiP for Edge SLM Inference",
+   "authors": [
+    [
+     "Matthew Adiletta",
+     "Harvard Univ."
+    ],
+    [
+     "David Brooks",
+     "Harvard Univ."
+    ],
+    [
+     "Gu-Yeon Wei",
+     "Harvard Univ."
+    ],
+    [
+     "Haebin Do",
+     "Harvard Univ."
+    ],
+    [
+     "Kevin Kim",
+     "Harvard Univ."
+    ],
+    [
+     "Yun-Chen Lo",
+     "Harvard Univ."
+    ],
+    [
+     "Nestor Cuevas",
+     "Harvard Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3D: Quantum",
+   "title": "NAQsim: Full-Stack Architecture Simulation Framework for Fast and Space-Efficient Neutral Atom Quantum Computing",
+   "authors": [
+    [
+     "Yosuke Ueno",
+     "NanoQT/RIKEN/The Univ. of Tokyo"
+    ],
+    [
+     "Shinichi Sunami",
+     "NanoQT/Univ. of Oxford"
+    ],
+    [
+     "Toshihide Hinokuma",
+     "NanoQT/Kyushu Univ."
+    ],
+    [
+     "Yasunari Suzuki",
+     "RIKEN"
+    ],
+    [
+     "Akihisa Goban",
+     "NanoQT"
+    ],
+    [
+     "Hayata Yamasaki",
+     "NanoQT/The Univ. of Tokyo"
+    ],
+    [
+     "Teruo Tanimoto",
+     "Kyushu Univ."
+    ],
+    [
+     "Ilkwon Byun",
+     "Kyushu Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3D: Quantum",
+   "title": "A Spatial-Topology Preserving Compiler for Quantum Many-Body Systems Simulation",
+   "authors": [
+    [
+     "Xiangyu Ren",
+     "Univ. of Edinburgh"
+    ],
+    [
+     "Yuexun Huang",
+     "The Univ. of Chicago"
+    ],
+    [
+     "Zhaohui Yang",
+     "The Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Yuchen Zhu",
+     "Northwestern Univ."
+    ],
+    [
+     "Tsung-Wei huang",
+     "UW Madison"
+    ],
+    [
+     "Tsung-Yi Ho",
+     "The Chinese Univ. of Hong Kong"
+    ],
+    [
+     "Zhiding Liang",
+     "The Chinese Univ. of Hong Kong"
+    ],
+    [
+     "Antonio Barbalace",
+     "The Univ. of Edinburgh"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3D: Quantum",
+   "title": "NC-Fusion: Optimizing T-Gate Cost for Hamiltonian Simulation",
+   "authors": [
+    [
+     "Yingheng Li",
+     "Univ. of Pittsburgh"
+    ],
+    [
+     "Xulong Tang",
+     "Univ. of Pittsburgh"
+    ],
+    [
+     "Paul Hovland",
+     "Argonne National Laboratory"
+    ],
+    [
+     "Ji Liu",
+     "Argonne National Laboratory"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3D: Quantum",
+   "title": "QROB: Quantifying Realization Overhead in Quantum Compilation via Reverse Construction",
+   "authors": [
+    [
+     "Jintao Li",
+     "Beijing Academy of Quantum Information Sciences"
+    ],
+    [
+     "Kaiqi Li",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Rui Wang",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Yilun Zhao",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Kaixuan Huang",
+     "Beijing Academy of Quantum Information Sciences"
+    ],
+    [
+     "Ying Wang",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Jialin Zhang",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Zheng-An Wang",
+     "Beijing Academy of Quantum Information Sciences"
+    ],
+    [
+     "Xiaoming Sun",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Heng Fan",
+     "Beijing Academy of Quantum Information Sciences; Inst. of Physics, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3D: Quantum",
+   "title": "Efficient Logical Error Mitigation with Decoder Soft Information",
+   "authors": [
+    [
+     "Zeyuan Zhou",
+     "Yale Univ."
+    ],
+    [
+     "Shaun Pexton",
+     "Yale Univ."
+    ],
+    [
+     "Aleksander Kubica",
+     "Yale Univ."
+    ],
+    [
+     "Yongshan Ding",
+     "Yale Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3D: Quantum",
+   "title": "HINT: Mitigating Latency Overheads in a Disaggregated Quantum Memory Hierarchy",
+   "authors": [
+    [
+     "Suhas Vittal",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Moinuddin K. Qureshi",
+     "Georgia Inst. of Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 3D: Quantum",
+   "title": "Ring Around the Ancilla: A Workload-Aware FTQC Architecture",
+   "authors": [
+    [
+     "Archisman Ghosh",
+     "The Pennsylvania State Univ."
+    ],
+    [
+     "Avimita Chatterjee",
+     "The Pennsylvania State Univ."
+    ],
+    [
+     "Swaroop Ghosh",
+     "The Pennsylvania State Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4A: NDP and PIM Design Exploration",
+   "title": "PNMAX: Mapping-Architecture Co-Exploration Framework for Processing near Memory",
+   "authors": [
+    [
+     "Chien-Yi Yang",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Jiantao Liu",
+     "ETH Zürich"
+    ],
+    [
+     "Yue Pan",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Tajana Rosing",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Minxuan Zhou",
+     "Illinois Inst. of Technology"
+    ],
+    [
+     "Lana Josipovic",
+     "ETH Zürich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4A: NDP and PIM Design Exploration",
+   "title": "NiF: Hybrid In-Flash and In-Storage Acceleration for Approximate Nearest Neighbor Search",
+   "authors": [
+    [
+     "Myoungjun Chun",
+     "Soongsil Univ."
+    ],
+    [
+     "Jaeyong Lee",
+     "Seoul National Univ."
+    ],
+    [
+     "Gwuiin Kim",
+     "Seoul National Univ."
+    ],
+    [
+     "Minhyeong Kim",
+     "Soongsil Univ."
+    ],
+    [
+     "Inhyuk Choi",
+     "Seoul National Univ."
+    ],
+    [
+     "Myungsuk Kim",
+     "Kyungpook National Univ."
+    ],
+    [
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Jihong Kim",
+     "Seoul National Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4A: NDP and PIM Design Exploration",
+   "title": "PIM-AutoDSE: Automated ISA and Design Space Exploration for PIM",
+   "authors": [
+    [
+     "Abdul Rafae Noor",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Farzana Ahmed Siddique",
+     "Univ. of Virginia"
+    ],
+    [
+     "Akash Kothari",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Deyuan Guo",
+     "Univ. of Virginia"
+    ],
+    [
+     "Kevin Skadron",
+     "Univ. of Virginia"
+    ],
+    [
+     "Vikram Adve",
+     "Univ. of Illinois Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4A: NDP and PIM Design Exploration",
+   "title": "LUTHE: Breaking the Memory Wall of High-Precision Encrypted LLM Nonlinearities via GPU–CSD Co-Design",
+   "authors": [
+    [
+     "Xiurui Pan",
+     "Peking Univ."
+    ],
+    [
+     "Guoci Chen",
+     "Peking Univ."
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ."
+    ],
+    [
+     "Mingzhe Zhang",
+     "Ant Group"
+    ],
+    [
+     "Jie Zhang",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4A: NDP and PIM Design Exploration",
+   "title": "DBX-DIMM: Scalable and Reliable Near-Data Processing with Concurrent Host Access through Buffer-Centric Pseudo Channels",
+   "authors": [
+    [
+     "Minkyu Lee",
+     "Korea Electronics Technology Inst. (KETI)"
+    ],
+    [
+     "Sang-Seol Lee",
+     "Korea Electronics Technology Inst. (KETI)"
+    ],
+    [
+     "Churoo Park",
+     "ONE Semiconductor Corporation"
+    ],
+    [
+     "Kyungho Kim",
+     "Korea Electronics Technology Inst. (KETI)"
+    ],
+    [
+     "Eunchong Lee",
+     "Korea Electronics Technology Inst. (KETI)"
+    ],
+    [
+     "Sung-Joon Jang",
+     "Korea Electronics Technology Inst. (KETI)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4B: Side-Channel Attacks & Confidential Computing",
+   "title": "Compute Express Leak: New Cache Attacks Using CXL Devices",
+   "authors": [
+    [
+     "Ali Aqdas",
+     "Purdue Univ."
+    ],
+    [
+     "Zheng Zhang",
+     "Purdue Univ."
+    ],
+    [
+     "Yue Pan",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Zixuan Wang",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Tajana Rosing",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Jishen Zhao",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Kazem Taram",
+     "Purdue Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4B: Side-Channel Attacks & Confidential Computing",
+   "title": "Helios: Melting Kernel Boundaries for GPU-Accelerated HE via Graph Rewriting and Microarchitecture-Aware Mapping",
+   "authors": [
+    [
+     "Yi Chen",
+     "Peking Univ."
+    ],
+    [
+     "Ziyu Tang",
+     "Peking Univ."
+    ],
+    [
+     "Chao Yang",
+     "Peking Univ."
+    ],
+    [
+     "Guang Fan",
+     "Ant Group"
+    ],
+    [
+     "Mingzhe Zhang",
+     "Ant Group"
+    ],
+    [
+     "Meng Li",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4B: Side-Channel Attacks & Confidential Computing",
+   "title": "OptiPrime: Optimizing Private Inference through protocol-hardware codesign",
+   "authors": [
+    [
+     "Jiangrui Yu",
+     "Peking Univ."
+    ],
+    [
+     "Ye Yu",
+     "Peking Univ."
+    ],
+    [
+     "Si Chen",
+     "Open Security Research"
+    ],
+    [
+     "Chenqi Lin",
+     "Peking Univ."
+    ],
+    [
+     "Wenxuan Zeng",
+     "Peking Univ."
+    ],
+    [
+     "Junfeng Fan",
+     "Open Security Research"
+    ],
+    [
+     "Mingyu Gao",
+     "Tsinghua Univ."
+    ],
+    [
+     "Meng Li",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4B: Side-Channel Attacks & Confidential Computing",
+   "title": "SMExplode: Cross-Core and Cache-Agnostic Side-Channel Attack on Apple Silicon via SME Engine",
+   "authors": [
+    [
+     "Zheng Hongpei",
+     "Tsinghua Univ."
+    ],
+    [
+     "Ben Chen",
+     "Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Hanyin Liu",
+     "Harbin Inst. of Technology"
+    ],
+    [
+     "Kaiyuan Rong",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yun Chen",
+     "HKUST (GZ)"
+    ],
+    [
+     "Dongsheng Wang",
+     "Department of Computer Science and Technology, Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4B: Side-Channel Attacks & Confidential Computing",
+   "title": "GhostAccess: Attacking the GPU on the Multi-tenant Cloud via CPU LLC under Unified Memory",
+   "authors": [
+    [
+     "Zihao Dan",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Shinan Liu",
+     "The Univ. of Hong Kong"
+    ],
+    [
+     "Shuwen Deng",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yinqian Zhang",
+     "SUSTech"
+    ],
+    [
+     "Dongsheng Wang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yun Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4C: Thermal-Aware 3D-Stacked LLM Accelerators",
+   "title": "Exploring the Efficiency of 3D-Stacked AI Chip Architecture for LLM Inference with VOXEL",
+   "authors": [
+    [
+     "Yiqi Liu",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Noelle Crawford",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Michael Wang",
+     "Univ. of Illinois Urbana Champaign"
+    ],
+    [
+     "Jilong Xue",
+     "Microsoft Research"
+    ],
+    [
+     "Jian Huang",
+     "Univ. of Illinois Urbana Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4C: Thermal-Aware 3D-Stacked LLM Accelerators",
+   "title": "Beyond Linear Scaling for LLM Training on Wafer-Scale GPUs",
+   "authors": [
+    [
+     "Qijun Zhang",
+     "Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Jingchen Zhu",
+     "HUAWEI"
+    ],
+    [
+     "Chen Zhang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zixiao Chen",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yiqi Chen",
+     "Peking Univ."
+    ],
+    [
+     "Mengming Li",
+     "Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ."
+    ],
+    [
+     "Cheng Zhang",
+     "HUAWEI"
+    ],
+    [
+     "Zhe Zhou",
+     "HUAWEI"
+    ],
+    [
+     "Zhiyao Xie",
+     "Hong Kong Univ. of Science and Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4C: Thermal-Aware 3D-Stacked LLM Accelerators",
+   "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
+   "authors": [
+    [
+     "In-Jun Jung",
+     "KAIST"
+    ],
+    [
+     "Jaeha Min",
+     "KAIST"
+    ],
+    [
+     "Joo-Young Kim",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4C: Thermal-Aware 3D-Stacked LLM Accelerators",
+   "title": "CrossSpec: A Draft–Verify Aggregated 3D LLM Accelerator with Thermal-Aware Cross Floorplan and Stack-Layer-wise Dynamic Refresh for Parallel Speculative Decoding",
+   "authors": [
+    [
+     "Yutong Su",
+     "Tsinghua Univ."
+    ],
+    [
+     "Huanyu Wang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Ruikang Guo",
+     "Tsinghua Univ."
+    ],
+    [
+     "Mengfei Shen",
+     "Tsinghua Univ."
+    ],
+    [
+     "Huiming Han",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yang Wang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yang Hu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Shouyi Yin",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 4C: Thermal-Aware 3D-Stacked LLM Accelerators",
+   "title": "TESSA: A Thermal-Centric, Sensor-Free Framework with Spatially-Aware Elastic Execution for 3D-Stacked-DRAM-Based LLM Accelerators",
+   "authors": [
+    [
+     "Huanyu Wang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yang Wang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yutong Su",
+     "Tsinghua Univ."
+    ],
+    [
+     "Jiaxin Yang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Junan Lu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Huiming Han",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yang Hu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Shouyi Yin",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5A: Accelerator Spatial Mapping & High-Level Synthesis",
+   "title": "SNECKO: Efficient GEMM Mapping on Versal ACAP Heterogeneous Spatial Architecture",
+   "authors": [
+    [
+     "Ilias Papalamprou",
+     "National Technical Univ. of Athens"
+    ],
+    [
+     "Aimilios Leftheriotis",
+     "Univ. of Patras"
+    ],
+    [
+     "Ioannis Loudaros",
+     "National Technical Univ. of Athens"
+    ],
+    [
+     "George Theodoridis",
+     "Univ. of Patras"
+    ],
+    [
+     "Francky Catthoor",
+     "National Technical Univ. of Athens"
+    ],
+    [
+     "Dimosthenis Masouros",
+     "National Technical Univ. of Athens"
+    ],
+    [
+     "Dimitrios Soudris",
+     "National Technical Univ. of Athens"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5A: Accelerator Spatial Mapping & High-Level Synthesis",
+   "title": "MCHA: A Memory-Centric Hierarchical Architecture for Parallel-Sequential Computing",
+   "authors": [
+    [
+     "Daijing Shi",
+     "Peking Univ."
+    ],
+    [
+     "Hongxiao Zhao",
+     "Peking Univ."
+    ],
+    [
+     "Yihan Fu",
+     "Peking Univ."
+    ],
+    [
+     "Zhan Chen",
+     "Peking Univ."
+    ],
+    [
+     "Jiayi Li",
+     "Peking Univ."
+    ],
+    [
+     "Yihang Zhu",
+     "Peking Univ."
+    ],
+    [
+     "Anjunyi Fan",
+     "Peking Univ."
+    ],
+    [
+     "Yaoyu Tao",
+     "Peking Univ."
+    ],
+    [
+     "Yuchao Yang",
+     "Peking Univ."
+    ],
+    [
+     "Bonan Yan",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5A: Accelerator Spatial Mapping & High-Level Synthesis",
+   "title": "Potluck: High-Level Synthesis for Architectural Design via Automated Module Extraction and Sharing",
+   "authors": [
+    [
+     "Hanqiu Chen",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Cong Hao",
+     "Georgia Inst. of Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5A: Accelerator Spatial Mapping & High-Level Synthesis",
+   "title": "The Turbo-Charged Mapper: Fast and Optimal Mapping for Energy-efficient and Low-latency Accelerator Design",
+   "authors": [
+    [
+     "Michael Gilbert",
+     "Massachusetts Inst. of Technology"
+    ],
+    [
+     "Tanner Andrulis",
+     "Massachusetts Inst. of Technology"
+    ],
+    [
+     "Vivienne Sze",
+     "Massachusetts Inst. of Technology"
+    ],
+    [
+     "Joel Emer",
+     "MIT/NVIDIA"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5A: Accelerator Spatial Mapping & High-Level Synthesis",
+   "title": "UDYR: An Adaptive Accelerator for Optimization-based Humanoid Robot Control",
+   "authors": [
+    [
+     "Yuhui Hao",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Bo Yu",
+     "Shenzhen Inst. of Artificial Intelligence and Robotics for Society"
+    ],
+    [
+     "Shaoshan Liu",
+     "Shenzhen Inst. of Artificial Intelligence and Robotics for Society"
+    ],
+    [
+     "Yinhe Han",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yiming Gan",
+     "ICT, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5B: Emerging Technologies and Reliability",
+   "title": "Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign",
+   "authors": [
+    [
+     "Haoran Jin",
+     "Univ. of Michigan"
+    ],
+    [
+     "Jirong Yang",
+     "Univ. of Michigan"
+    ],
+    [
+     "Zhiheng Zhang",
+     "Univ. of Michigan"
+    ],
+    [
+     "Justin Shin",
+     "Univ. of Michigan"
+    ],
+    [
+     "Barry Lyu",
+     "Univ. of Michigan"
+    ],
+    [
+     "Kangqi Zhang",
+     "Univ. of Michigan"
+    ],
+    [
+     "Yunpeng Liu",
+     "Univ. of Michigan"
+    ],
+    [
+     "Nathan Bleier",
+     "Univ. of Michigan"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5B: Emerging Technologies and Reliability",
+   "title": "ITHICA: Intra-Thread Instruction Checking Approach for Defect-Induced Silent Data Corruptions",
+   "authors": [
+    [
+     "Ioanna Vavelidou",
+     "Stanford Univ."
+    ],
+    [
+     "Subho S Banerjee",
+     "Google LLC"
+    ],
+    [
+     "Eric Xue Liu",
+     "Google LLC"
+    ],
+    [
+     "Mike Fuller",
+     "Google LLC"
+    ],
+    [
+     "Subhasish Mitra",
+     "Stanford Univ."
+    ],
+    [
+     "Caroline Trippel",
+     "Stanford Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5B: Emerging Technologies and Reliability",
+   "title": "ResSpec: Self-Speculative Decoding via In-Situ Drafting on Residual ReRAM CIM",
+   "authors": [
+    [
+     "Yibo Zhao",
+     "Peking Univ."
+    ],
+    [
+     "Peng Huang",
+     "Peking Univ."
+    ],
+    [
+     "Youwei Zhuo",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5B: Emerging Technologies and Reliability",
+   "title": "XAT: A Quantum-Like Digital SAT Accelerator with Non-Intuitive Clause-to-Variable Feedback",
+   "authors": [
+    [
+     "zhezheng Ren",
+     "Univ. of Waterloo"
+    ],
+    [
+     "Shiyu Su",
+     "Univ. of Waterloo"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5B: Emerging Technologies and Reliability",
+   "title": "Helios: Enabling Dynamic KV Cache Management for Near-Memory Processing via Hybrid-Bonding-based 3D-DRAM",
+   "authors": [
+    [
+     "Cong Li",
+     "Peking Univ."
+    ],
+    [
+     "Yihan Yin",
+     "Peking university"
+    ],
+    [
+     "Chenhao Xue",
+     "Peking Univ."
+    ],
+    [
+     "Zhao Wang",
+     "Peking Univ."
+    ],
+    [
+     "Fujun Bai",
+     "Xi'an UniIC Semiconductors"
+    ],
+    [
+     "Yixin Guo",
+     "Xi'an UniIC Semiconductors"
+    ],
+    [
+     "Xiping Jiang",
+     "Xi'an UniIC Semiconductors"
+    ],
+    [
+     "Qiang Wu",
+     "Houmo AI"
+    ],
+    [
+     "Yuan Xie",
+     "Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5C: CXL, Caching & GPU Bandwidth Management",
+   "title": "Rethinking Compression for CXL Memory Expanders at Hyperscale",
+   "authors": [
+    [
+     "Haneul Park",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Grant Ayers",
+     "Google"
+    ],
+    [
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Philip Levis",
+     "Google"
+    ],
+    [
+     "Brian Morris",
+     "Google"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5C: CXL, Caching & GPU Bandwidth Management",
+   "title": "Trail: Effective, Low-Cost and Scalable Temporal TLB Prefetching via Page-Table-Embedded Deltas",
+   "authors": [
+    [
+     "Konstantinos Kanellopoulos",
+     "ETH Zürich"
+    ],
+    [
+     "Konstantinos Sgouras",
+     "Univ. of Athens"
+    ],
+    [
+     "Harsh Songara",
+     "ETH Zürich"
+    ],
+    [
+     "Rahul Bera",
+     "ETH Zürich; Huawei Switzerland"
+    ],
+    [
+     "Onur Mutlu",
+     "ETH Zürich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5C: CXL, Caching & GPU Bandwidth Management",
+   "title": "DUALign: A Hardware-Assisted Memory Mapping Strategy for PNM-Accelerated LLM Serving",
+   "authors": [
+    [
+     "Euijun Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Joshua Gabriel Dela Rosa",
+     "Yonsei Univ."
+    ],
+    [
+     "Bogil Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Youngin Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Seungyong Lee",
+     "SK Hynix"
+    ],
+    [
+     "Joonseop Sim",
+     "SK Hynix"
+    ],
+    [
+     "Youngpyo Joo",
+     "SK Hynix"
+    ],
+    [
+     "William Song",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5C: CXL, Caching & GPU Bandwidth Management",
+   "title": "Lazy-LLC: Reducing GPU LLC Thrashing with Shared-Data and Reusability Filters",
+   "authors": [
+    [
+     "Sina Darabi",
+     "Barcelona Supercomputing Center (BSC)"
+    ],
+    [
+     "Ahmad Javadi-Nezhad",
+     "None"
+    ],
+    [
+     "Hajar Falahati",
+     "Barcelona Supercomputing Center (BSC)"
+    ],
+    [
+     "Negin Mahani",
+     "Barcelona Supercomputing Center (BSC)"
+    ],
+    [
+     "Adrian Cristal",
+     "BSC"
+    ],
+    [
+     "Osman Sabri Unsal",
+     "Barcelona Supercomputing Center"
+    ],
+    [
+     "Hamid Sarbazi-Azad",
+     "Sharif Univ. of Technology and IPM"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 5C: CXL, Caching & GPU Bandwidth Management",
+   "title": "Dynamically Sharing Local and Remote Memory Bandwidth in Memory-Centric MCM-GPU Systems",
+   "authors": [
+    [
+     "Seyyed Hossein SeyyedAghaei Rezaei",
+     "Ghent Univ."
+    ],
+    [
+     "Xin Wang",
+     "Ghent Univ.—imec"
+    ],
+    [
+     "Mahmood Naderan-Tahan",
+     "Technische Univ. Delft"
+    ],
+    [
+     "Guy Torfs",
+     "Ghent Univ.—imec"
+    ],
+    [
+     "Magnus Jahre",
+     "Norwegian Univ. of Science and Technology (NTNU)"
+    ],
+    [
+     "Lieven Eeckhout",
+     "Ghent Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6A: Microarchitecture & Compilers",
+   "title": "Loop-Decoupled Prefetcher for Linked Data Structure",
+   "authors": [
+    [
+     "pengchen zong",
+     "Xi'an Jiaotong Univ."
+    ],
+    [
+     "Gelin Fu",
+     "Xi'an Jiaotong Univ."
+    ],
+    [
+     "qiang luo",
+     "Xi'an Jiaotong Univ."
+    ],
+    [
+     "yijiang kong",
+     "Xi'an Jiaotong Univ."
+    ],
+    [
+     "chenzhun guo",
+     "Xi'an Jiaotong Univ."
+    ],
+    [
+     "Wenzhe Zhao",
+     "Xi'an Jiaotong Univ."
+    ],
+    [
+     "pengju ren",
+     "Xi'an Jiaotong Univ."
+    ],
+    [
+     "tian xia",
+     "Xi'an Jiaotong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6A: Microarchitecture & Compilers",
+   "title": "TRANS-FETCH: Driving Translation Prefetching with Deep Lookahead from L2 Data Prefetch Events",
+   "authors": [
+    [
+     "Cansong Zhou",
+     "Zhejiang Univ."
+    ],
+    [
+     "Xiaohang Wang",
+     "Zhejiang Univ."
+    ],
+    [
+     "Peng Liu",
+     "Zhejiang Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6A: Microarchitecture & Compilers",
+   "title": "CuLifter: Lifting GPU Binaries to Typed IR",
+   "authors": [
+    [
+     "Jisheng Zhao",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Huanzhi Pu",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Shinnung Jeong",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Chihyo Ahn",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Hyesoon Kim",
+     "Georgia Inst. of Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6A: Microarchitecture & Compilers",
+   "title": "coMulator: Coordinate Cross-architecture Compilation and Emulation to Accelerate Dynamic Binary Translation",
+   "authors": [
+    [
+     "Yuhao Gu",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Zhongchun Zheng",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Nong Xiao",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Yutong Lu",
+     "Sun Yat-sen Univ."
+    ],
+    [
+     "Xianwei Zhang",
+     "Sun Yat-sen Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6A: Microarchitecture & Compilers",
+   "title": "Capstone: Power-Capped Pipelining for Coarse-Grained Reconfigurable Array Compilers",
+   "authors": [
+    [
+     "Sabrina Yarzada",
+     "Univ. of Southern California"
+    ],
+    [
+     "Christopher Torng",
+     "Univ. of Southern California"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6A: Microarchitecture & Compilers",
+   "title": "MMAscope: Microarchitectural Characterization of Multi-Precision Arithmetic Pipelines in Modern Tensor Cores",
+   "authors": [
+    [
+     "Xuelei Yu",
+     "Zhejiang Univ."
+    ],
+    [
+     "Peng Liu",
+     "Zhejiang Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6A: Microarchitecture & Compilers",
+   "title": "Superscalar Loop Processors",
+   "authors": [
+    [
+     "Luca Colagrande",
+     "ETH Zürich"
+    ],
+    [
+     "Pascal Etterli",
+     "ETH Zürich"
+    ],
+    [
+     "Luca Benini",
+     "ETH Zürich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+   "title": "Kairos: Rethinking Architectural Support for Synaptic Delays in Spiking Neural Networks",
+   "authors": [
+    [
+     "Amirreza Movahedin",
+     "Erasmus Medical Center and Delft Univ. of Technology (TU Delft)"
+    ],
+    [
+     "Lennart P.L. Landsmeer",
+     "Erasmus Medical Center and Delft Univ. of Technology (TU Delft)"
+    ],
+    [
+     "Said Hamdioui",
+     "Delft Univ. of Technology (TU Delft)"
+    ],
+    [
+     "Christos Strydis",
+     "Erasmus Medical Center and Delft Univ. of Technology (TU Delft)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+   "title": "SLOTH: Lightweight Detection and Localization of On-Chip Fail-Slow Failures for DNN Accelerators",
+   "authors": [
+    [
+     "Junchi Wu",
+     "Peking Univ."
+    ],
+    [
+     "Xinfei Wan",
+     "Peking Univ."
+    ],
+    [
+     "Zhuoran Li",
+     "Peking Univ."
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ."
+    ],
+    [
+     "Yun Liang",
+     "Peking Univ."
+    ],
+    [
+     "Diyu Zhou",
+     "Peking Univ."
+    ],
+    [
+     "Youwei Zhuo",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+   "title": "Enhancing the Efficiency of Embodied AI System with Squeezed Analog Perception",
+   "authors": [
+    [
+     "Cheng Xu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xiaofeng Hou",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Chao Li",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Chenhe Yuan",
+     "Univ. College London"
+    ],
+    [
+     "Jinyang Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xinkai Wang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yang Hu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Dimitris Gizopoulos",
+     "Univ. of Athens"
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+   "title": "Themis: Improving Fairness and Performance in Multi-Stream NVMe SSDs",
+   "authors": [
+    [
+     "Jiaojiao Wu",
+     "Southwest Univ."
+    ],
+    [
+     "Lieven Eeckhout",
+     "Ghent Univ."
+    ],
+    [
+     "Qiyu Liu",
+     "Southwest Univ."
+    ],
+    [
+     "Zhigang Cai",
+     "Southwest Univ."
+    ],
+    [
+     "François Trahay",
+     "Télécom SudParis"
+    ],
+    [
+     "Yuanquan Shi",
+     "Huaihua Univ. of China"
+    ],
+    [
+     "Jim Woodcock",
+     "Southwest Univ., Aarhus Univ., and Univ. of York"
+    ],
+    [
+     "Jianwei Liao",
+     "Southwest Univ. of China"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+   "title": "iGPU: Enabling GPUs for Intermittent AI on Energy Harvesting Systems",
+   "authors": [
+    [
+     "Byounguk Min",
+     "Purdue Univ."
+    ],
+    [
+     "Yilun Wu",
+     "Stony Brook Univ."
+    ],
+    [
+     "Yuchen Zhou",
+     "Purdue Univ."
+    ],
+    [
+     "Kasim Sinan Yildirim",
+     "Univ. of Trento"
+    ],
+    [
+     "Khakim Akhunov",
+     "imec"
+    ],
+    [
+     "Jianping Zeng",
+     "Arizona State Univ."
+    ],
+    [
+     "Jongouk Choi",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Wenjie Xiong",
+     "Virginia Tech"
+    ],
+    [
+     "Dongyoon Lee",
+     "Stony Brook Univ."
+    ],
+    [
+     "Changhee Jung",
+     "Purdue Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+   "title": "PEEK: Heterogeneous Parallelism for Privileged Error Detection in Safety-Critical Processors",
+   "authors": [
+    [
+     "Tinglue Wang",
+     "Southeast Univ."
+    ],
+    [
+     "Zhenghui Guo",
+     "Southeast Univ."
+    ],
+    [
+     "Bing Guo",
+     "Southeast Univ."
+    ],
+    [
+     "Jiapeng Guan",
+     "Southeast Univ."
+    ],
+    [
+     "RenShuang Jiang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Jie Zhang",
+     "Southeast Univ."
+    ],
+    [
+     "Jing Li",
+     "New Jersey Inst. of Technology"
+    ],
+    [
+     "Xin Si",
+     "Southeast Univ."
+    ],
+    [
+     "Sam Ainsworth",
+     "Univ. of Edinburgh"
+    ],
+    [
+     "Zhe Jiang",
+     "Southeast Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6B: Energy-Constrained & Fault-Tolerant Systems",
+   "title": "SafeMind: A Battery-Free Processing System for Safely Implantable Brain-Computer Interfaces",
+   "authors": [
+    [
+     "Daye Jung",
+     "Seoul National Univ."
+    ],
+    [
+     "Yeongwoo Jang",
+     "Seoul National Univ."
+    ],
+    [
+     "Seunghyun Song",
+     "Seoul National Univ."
+    ],
+    [
+     "Jangwoo Kim",
+     "Seoul National Univ. / MangoBoost"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6C: Low-Bit Quantization for LLM Inference",
+   "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
+   "authors": [
+    [
+     "Chun-Ting Chen",
+     "Cornell Univ."
+    ],
+    [
+     "Dongmin Han",
+     "Cornell Univ."
+    ],
+    [
+     "Hangyeol Mun",
+     "Cornell Univ."
+    ],
+    [
+     "Jake Hyun",
+     "Cornell Univ."
+    ],
+    [
+     "Arnab Raha",
+     "Intel Corporation"
+    ],
+    [
+     "Amit Agarwal",
+     "Intel Corporation"
+    ],
+    [
+     "Mark Anders",
+     "Intel Corporation"
+    ],
+    [
+     "Mohamed Abdelfattah",
+     "Cornell Univ."
+    ],
+    [
+     "Jae-sun Seo",
+     "Cornell Tech"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6C: Low-Bit Quantization for LLM Inference",
+   "title": "FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators",
+   "authors": [
+    [
+     "Yimin Gao",
+     "Univ. of Virginia"
+    ],
+    [
+     "Liangtao Dai",
+     "Univ. of Virginia"
+    ],
+    [
+     "Jun Yin",
+     "Univ. of Virginia"
+    ],
+    [
+     "Xinfei Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Mircea Stan",
+     "Univ. of Virginia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6C: Low-Bit Quantization for LLM Inference",
+   "title": "Software-Hardware Co-Design of Prior-Aware W4A4 Micro-Block Quantization for Robust LLM Inference Across Model Families",
+   "authors": [
+    [
+     "Yijian Wei",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Tianchang Yang",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Sicheng Tao",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Miao Hao",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Tianyi Liu",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Tingting Zhang",
+     "Loongson Technology Co. Ltd."
+    ],
+    [
+     "Fuxin Zhang",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Jian Wang",
+     "State Key Lab of Processors, Insititute of Computing Technology, CAS; Univ. of Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6C: Low-Bit Quantization for LLM Inference",
+   "title": "OzCore: An Ozaki-Scheme-II-Based GEMM Architecture for Unified Integer and Floating-Point Computation",
+   "authors": [
+    [
+     "Jihoon Park",
+     "Seoul National Univ."
+    ],
+    [
+     "Junhee Lee",
+     "Seoul National Univ."
+    ],
+    [
+     "Howon Lee",
+     "Seoul National Univ."
+    ],
+    [
+     "Jinsu Kim",
+     "Seoul National Univ."
+    ],
+    [
+     "Jinseok Kim",
+     "Rebellions"
+    ],
+    [
+     "Jae-Joon Kim",
+     "Seoul National Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6C: Low-Bit Quantization for LLM Inference",
+   "title": "SkewQ: Skewness-Aware Cross-Layer Quantization for Efficient LLM Inference via Software-Hardware Co-Design",
+   "authors": [
+    [
+     "Wenju Zhao",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Jianhui Yue",
+     "Michigan Technological Univ."
+    ],
+    [
+     "Pengcheng Yao",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Jiaqi Zhai",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Yundong Zhang",
+     "Duke Kunshan Univ."
+    ],
+    [
+     "Yu Huang",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Shunsen Lv",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Bing Zhu",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Zhongtian Long",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Long Zheng",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Chencheng Ye",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "Lihong Gu",
+     "Ant Group"
+    ],
+    [
+     "Jingling Xue",
+     "Univ. of New South Wales, Sydney"
+    ],
+    [
+     "Hai Jin",
+     "Huazhong Univ. of Science and Technology"
+    ],
+    [
+     "XIAOFEI LIAO",
+     "Huazhong Univ. of Science and Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6C: Low-Bit Quantization for LLM Inference",
+   "title": "MOSAIC: An Accelerator Design for Heterophilic Graph Learning",
+   "authors": [
+    [
+     "Fangzhou Ye",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Wei Zhang",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Ahmed Louri",
+     "George Washington Univ., Washington DC"
+    ],
+    [
+     "Hao Zheng",
+     "Univ. of Central Florida"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6C: Low-Bit Quantization for LLM Inference",
+   "title": "DSTAR: Accelerating Diffusion Transformers via Spatial and Temporal Redundancy Reduction",
+   "authors": [
+    [
+     "Chi Zhang",
+     "Department of Computer Science and Engineering, Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jieru Zhao",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Chen Zhang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Quan Chen",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6D: CXL-Based Tiered Memory & Storage",
+   "title": "Terracotta: Enabling DRAM Techniques via a Flexible DRAM Interface and Memory Controller",
+   "authors": [
+    [
+     "Harsh Songara",
+     "ETH Zürich"
+    ],
+    [
+     "Konstantinos Kanellopoulos",
+     "ETH Zürich"
+    ],
+    [
+     "Nisa Bostanci",
+     "ETH Zürich"
+    ],
+    [
+     "Konstantinos Sgouras",
+     "ETH Zürich"
+    ],
+    [
+     "Ataberk Olgun",
+     "ETH Zürich"
+    ],
+    [
+     "Ismail Emir Yuksel",
+     "ETH Zürich"
+    ],
+    [
+     "Andreas Kosmas Kakolyris",
+     "ETH Zürich"
+    ],
+    [
+     "Abdullah Giray Yaglikci",
+     "CISPA"
+    ],
+    [
+     "Onur Mutlu",
+     "ETH Zürich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6D: CXL-Based Tiered Memory & Storage",
+   "title": "CacheFlex: Direct Software-Managed Access to Higher-Level Cache for Scalable Vector Support",
+   "authors": [
+    [
+     "Jingqun Zhang",
+     "Univ. of Washington"
+    ],
+    [
+     "Maohua Nie",
+     "Univ. of Washington"
+    ],
+    [
+     "Jiayi Wang",
+     "Univ. of Washington"
+    ],
+    [
+     "Weihang Li",
+     "Rutgers Univ."
+    ],
+    [
+     "Rishi Sappidi",
+     "Univ. of Washington"
+    ],
+    [
+     "Shwet Chitnis",
+     "Univ. of Washington"
+    ],
+    [
+     "Ang Li",
+     "Univ. of Washington"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6D: CXL-Based Tiered Memory & Storage",
+   "title": "CXL AnySSD: A Composable CXL SSD Using a CXL Type-2 Device and Any SSDs",
+   "authors": [
+    [
+     "Yang Zhou",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Houxiang Ji",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Bikrant Das Sharma",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Jiyuan Zhang",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Yu Li",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Linjie Ma",
+     "Rutgers Univ."
+    ],
+    [
+     "Jaeyong Lee",
+     "Seoul National Univ."
+    ],
+    [
+     "Myoungjun Chun",
+     "Soongsil Univ."
+    ],
+    [
+     "Jihong Kim",
+     "Seoul National Univ."
+    ],
+    [
+     "Sudarsun Kannan",
+     "Rutgers Univ."
+    ],
+    [
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6D: CXL-Based Tiered Memory & Storage",
+   "title": "HYDRA: Hybrid DRAM Caching for Dynamic Complementary Multi-to-One Page Mapping in CXL Tiered Memory",
+   "authors": [
+    [
+     "Gangqi Huang",
+     "Univ. of California, Santa Cruz"
+    ],
+    [
+     "Heiner Litz",
+     "Univ. of California, Santa Cruz"
+    ],
+    [
+     "Yuanchao Xu",
+     "Univ. of California, Santa Cruz"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6D: CXL-Based Tiered Memory & Storage",
+   "title": "CODA: Algorithm-Hardware Co-design for Edge Video Diffusion via NMP-Enabled Compute-Cache Operator Disaggregation",
+   "authors": [
+    [
+     "Yuanpeng Zhang",
+     "Peking Univ."
+    ],
+    [
+     "YuXuan Wu",
+     "Peking Univ."
+    ],
+    [
+     "Yitong Xiao",
+     "Peking Univ."
+    ],
+    [
+     "Chenhao Xue",
+     "Peking Univ."
+    ],
+    [
+     "Yi Ren",
+     "Peking Univ."
+    ],
+    [
+     "Cong Li",
+     "Peking Univ."
+    ],
+    [
+     "Yihan Yin",
+     "Peking university"
+    ],
+    [
+     "Dimin Niu",
+     "Alibaba Group Inc."
+    ],
+    [
+     "Guangyu Sun",
+     "Peking Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6D: CXL-Based Tiered Memory & Storage",
+   "title": "DIKTAMO: Extending CXL for Resilience to CPU Failures",
+   "authors": [
+    [
+     "Antonis Psistakis",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Burak Ocalan",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Chloe Alverti",
+     "National Technical Univ. of Athens"
+    ],
+    [
+     "Fabien Chaix",
+     "ICS-FORTH"
+    ],
+    [
+     "Ramnatthan Alagappan",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Josep Torrellas",
+     "Univ. of Illinois Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 6D: CXL-Based Tiered Memory & Storage",
+   "title": "ReclaimX: Device-Side Memory Reclamation via Stalled GPU Execution for UVM Oversubscription",
+   "authors": [
+    [
+     "Seongtae Bang",
+     "DGIST"
+    ],
+    [
+     "Hyunkyun Shin",
+     "Yonsei Univ."
+    ],
+    [
+     "Hyungwon Park",
+     "DGIST"
+    ],
+    [
+     "Minho Kim",
+     "DGIST"
+    ],
+    [
+     "Daehoon Kim",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+   "title": "TinyAct: Activation Functions are (Almost) Linear in Floating Point Representation",
+   "authors": [
+    [
+     "Chris Kjellqvist",
+     "Duke Univ."
+    ],
+    [
+     "Mansi Choudhary",
+     "Duke Univ."
+    ],
+    [
+     "Ning Liang",
+     "Duke Univ."
+    ],
+    [
+     "Lisa Wu Wills",
+     "Duke Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+   "title": "Make Every Batch Count: Fault Entry Merging for Efficient Batching in Unified Virtual Memory",
+   "authors": [
+    [
+     "Jane Rhee",
+     "Ewha Womans Univ."
+    ],
+    [
+     "SeJin Park",
+     "Ewha Womans Univ."
+    ],
+    [
+     "Gunjae Koo",
+     "Korea Univ."
+    ],
+    [
+     "Yunho Oh",
+     "Korea Univ."
+    ],
+    [
+     "Myung Kuk Yoon",
+     "Ewha Womans Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+   "title": "SPMC: Speculative Multicast for GPU Address Translation Sharing",
+   "authors": [
+    [
+     "Zengshi Wang",
+     "Fudan Univ."
+    ],
+    [
+     "Zhuoyuan Yang",
+     "Fudan Univ."
+    ],
+    [
+     "Wenbin Liao",
+     "Fudan Univ."
+    ],
+    [
+     "Xin Yang",
+     "Fudan Univ."
+    ],
+    [
+     "Xiaoyan Xiang",
+     "Alibaba DAMO Academy"
+    ],
+    [
+     "Jianyi Meng",
+     "Alibaba DAMO Academy"
+    ],
+    [
+     "Chao Fu",
+     "Shaoxin Laboratory, Fudan Univ."
+    ],
+    [
+     "Jun Han",
+     "Fudan Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+   "title": "C2P-Cache: Scalable GPU L1 Cache Sharing via Concurrent Candidate Pruning",
+   "authors": [
+    [
+     "Hanqing Li",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Lizhou Wu",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Tiejun Li",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Sheng Ma",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Hanzhi Xun",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Jianming Zhang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Yuhan Tang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Jixuan Tang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Xuchao Xie",
+     "National Univ. of Defense Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+   "title": "Attention, Watch Your Progress: Balancing Warp-Specialized GPU Pipelines",
+   "authors": [
+    [
+     "Fangjia Shen",
+     "NVIDIA Corporation"
+    ],
+    [
+     "Nicolai Oswald",
+     "NVIDIA Corporation"
+    ],
+    [
+     "Timothy Rogers",
+     "NVIDIA Corporation/Purdue Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+   "title": "RoboGPU: Accelerating GPU Collision Detection for Robotics",
+   "authors": [
+    [
+     "Lufei Liu",
+     "Univ. of British Columbia"
+    ],
+    [
+     "Liwei Xue",
+     "Univ. of British Columbia"
+    ],
+    [
+     "Yuan Hsi Chou",
+     "Meta"
+    ],
+    [
+     "Jocelyn Zhao",
+     "Univ. of British Columbia"
+    ],
+    [
+     "Lara Kawasme",
+     "Univ. of British Columbia"
+    ],
+    [
+     "Youssef Mohammed",
+     "Univ. of British Columbia"
+    ],
+    [
+     "Tor Aamodt",
+     "Univ. of British Columbia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7A: Memory & Pipeline Efficiency Techniques for GPU",
+   "title": "Efficient GPU Inference for Discrete Neural Networks",
+   "authors": [
+    [
+     "Ke Yang",
+     "Hunan Univ."
+    ],
+    [
+     "Guanghui Song",
+     "Hunan Univ."
+    ],
+    [
+     "Junhui Peng",
+     "Hunan Univ."
+    ],
+    [
+     "En Shao",
+     "State Key Lab of Processors, Inst. of Computing Technology, CAS"
+    ],
+    [
+     "Xia Zhao",
+     "Defense Innovation Inst."
+    ],
+    [
+     "Zhuo Tang",
+     "Hunan Univ."
+    ],
+    [
+     "Kenli Li",
+     "Hunan Univ."
+    ],
+    [
+     "Jie Zhao",
+     "Hunan Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7B: Performance & Power Modeling for DSE",
+   "title": "DeepStack: Facilitating Co-Design Exploration of 3D DRAM-Stacked Accelerators for Distributed LLM Inference",
+   "authors": [
+    [
+     "Zhiwen Mo",
+     "Mark) Chen (Imperial College London"
+    ],
+    [
+     "Guoyu Li",
+     "Mark) Chen (Imperial College London"
+    ],
+    [
+     "Hao",
+     "Mark) Chen (Imperial College London"
+    ],
+    [
+     "Yu Cheng",
+     "Peking Univerisity"
+    ],
+    [
+     "Zhengju Tang",
+     "Peking Univerisity"
+    ],
+    [
+     "Qianzhou Wang",
+     "Imperial College London"
+    ],
+    [
+     "Lei Wang",
+     "Peking Univerisity"
+    ],
+    [
+     "Shuang Liang",
+     "Imperial College London"
+    ],
+    [
+     "Lingxiao Ma",
+     "Tile-AI"
+    ],
+    [
+     "Yuxiao Guo",
+     "Tile-AI"
+    ],
+    [
+     "Wayne Luk",
+     "Imperial College London"
+    ],
+    [
+     "Jilong Xue",
+     "Tile-AI"
+    ],
+    [
+     "Hongxiang Fan",
+     "Imperial College London"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7B: Performance & Power Modeling for DSE",
+   "title": "Aneto: predicting system performance by exploiting cross-workload regularity",
+   "authors": [
+    [
+     "Raul Taranco",
+     "Huawei"
+    ],
+    [
+     "Rene Mueller",
+     "Huawei"
+    ],
+    [
+     "Michael Giardino",
+     "Huawei"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7B: Performance & Power Modeling for DSE",
+   "title": "Off-Piste: Navigating in the Non-Convex Tensor Accelerator Design Space",
+   "authors": [
+    [
+     "Zhongdi Luo",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Dong Chen",
+     "Huawei Technologies Co., Ltd."
+    ],
+    [
+     "Yang Shi",
+     "National Univ. of Defense Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7B: Performance & Power Modeling for DSE",
+   "title": "Power Roofline",
+   "authors": [
+    [
+     "Michael Jaemin Kim",
+     "Meta"
+    ],
+    [
+     "Doe Hyun Yoon",
+     "Meta"
+    ],
+    [
+     "Gefei Zuo",
+     "Meta"
+    ],
+    [
+     "Jong Bin Lim",
+     "Meta"
+    ],
+    [
+     "Jovan Stojkovic",
+     "Meta & UT Austin"
+    ],
+    [
+     "Shobhit Kanaujia",
+     "Meta"
+    ],
+    [
+     "Harsha Jagannati",
+     "Meta"
+    ],
+    [
+     "Zhan Shu",
+     "Meta"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7B: Performance & Power Modeling for DSE",
+   "title": "ARMOR: Accelerating RTL Simulation by Mitigating the Front-End Bottleneck Using Node Compression",
+   "authors": [
+    [
+     "Jiaping Tang",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences; Univ. of Chinese Academy of Sciences;"
+    ],
+    [
+     "Jianan Mu",
+     "ICT,CAS"
+    ],
+    [
+     "Zhiteng Chao",
+     "State Key Lab of Processors, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Jingzhong Wen",
+     "unaffiliated"
+    ],
+    [
+     "Jing Ye",
+     "State Key Laboratory of Computer Architecture, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Huawei Li",
+     "The Inst. of Computing Technology of the Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7B: Performance & Power Modeling for DSE",
+   "title": "Beyond SMARTS: Improving Simulation Accuracy with Ranked Set Sampling and Repeated Subsampling",
+   "authors": [
+    [
+     "Magnus Ekman",
+     "NVIDIA"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7B: Performance & Power Modeling for DSE",
+   "title": "SCOPE: Pre-Silicon Power Optimization for Energy-Constrained Computational Vision Systems",
+   "authors": [
+    [
+     "Qing Yu",
+     "Beijing Jiaotong Univ."
+    ],
+    [
+     "Yiexian Tay",
+     "Tsinghua Univ."
+    ],
+    [
+     "CAI QI DAN",
+     "Hangzhou Dianzi Univ."
+    ],
+    [
+     "Erxiang Ren",
+     "Beijing Jiaotong Univ."
+    ],
+    [
+     "Haijin Su",
+     "Beijing Jiaotong Univ."
+    ],
+    [
+     "Tianrui Ma",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "An Zou",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Li Luo",
+     "Beijing Jiaotong Univ."
+    ],
+    [
+     "Yan Liang",
+     "Hangzhou Dianzi Univ."
+    ],
+    [
+     "Qi Wei",
+     "Tsinghua Univ."
+    ],
+    [
+     "Zidong DU",
+     "Inst. of Computing Tech., Chinese Academy of Sciences"
+    ],
+    [
+     "Qi Guo",
+     "Inst. of Computing Tech., Chinese Academy of Sciences"
+    ],
+    [
+     "Fei Qiao",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7C: Vision-Language & Multimodal Model Acceleration",
+   "title": "MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration",
+   "authors": [
+    [
+     "Yuan Liao",
+     "Cornell Tech, Cornell Univ."
+    ],
+    [
+     "Jae-sun Seo",
+     "Cornell Tech"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7C: Vision-Language & Multimodal Model Acceleration",
+   "title": "SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow",
+   "authors": [
+    [
+     "Zirui Ma",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Zhihua Fan",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Haibin Wu",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Wenxing Li",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Fulin Zhang",
+     "Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Dongrui Fan",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Xiaochun Ye",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Wenming Li",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7C: Vision-Language & Multimodal Model Acceleration",
+   "title": "Hermes: Architecting Congestion Management for Large-Scale NoCs",
+   "authors": [
+    [
+     "Yang Zhang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Xu Wang",
+     "Lanzhou Univ."
+    ],
+    [
+     "Lei Xu",
+     "Huawei Technologies Co., Ltd."
+    ],
+    [
+     "Fengyuan Ren",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7C: Vision-Language & Multimodal Model Acceleration",
+   "title": "PECO: Prediction-Execution Co-optimized Constant-Memory Sparse Attention Accelerator for Foundational Diffusion Model",
+   "authors": [
+    [
+     "Xujiang Xiang",
+     "The Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Longke Yan",
+     "The Hong Kong Univ. of Science and Technology"
+    ],
+    [
+     "Fengbin Tu",
+     "The Hong Kong Univ. of Science and Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7C: Vision-Language & Multimodal Model Acceleration",
+   "title": "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference",
+   "authors": [
+    [
+     "Zheng Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zeyu Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zihan Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Anbang Wu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Han Zhao",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zhezhi He",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yinhe Han",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yiming Gan",
+     "ICT, Chinese Academy of Sciences"
+    ],
+    [
+     "Yu Feng",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7C: Vision-Language & Multimodal Model Acceleration",
+   "title": "BitDense: Dense Bit-Slice Architecture with Dynamic-Sized Group Quantization for Precision Scalable Low-Bit AI Inference",
+   "authors": [
+    [
+     "Jungjun Oh",
+     "KAIST"
+    ],
+    [
+     "Sangjin Kim",
+     "GIST"
+    ],
+    [
+     "Yuseon Choi",
+     "KAIST"
+    ],
+    [
+     "Jingu Lee",
+     "KAIST"
+    ],
+    [
+     "Hoi-Jun Yoo",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7C: Vision-Language & Multimodal Model Acceleration",
+   "title": "SpecVLA: Enabling Efficient Robotic Manipulation via \\underline{Spec}ulative \\underline{VLA} Inference and Verification",
+   "authors": [
+    [
+     "Chunyu Qi",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jian Weng",
+     "King Abdullah Univ. of Science and Technology"
+    ],
+    [
+     "Haozhe Jiang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xueyuan Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Naifeng Jing",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Guanghui He",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xiaoyao Liang",
+     "SJTU"
+    ],
+    [
+     "Haibing Guan",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7D: Cache & Memory-Level Parallelism",
+   "title": "Acyclic Cost-Effective Requester-Stalls Hardware Transactional Memory",
+   "authors": [
+    [
+     "Víctor Nicolás Conesa",
+     "Univ. of Murcia"
+    ],
+    [
+     "Ruben Titos-Gil",
+     "Univ. of Murcia"
+    ],
+    [
+     "Ricardo Fernández-Pascual",
+     "Univ. of Murcia"
+    ],
+    [
+     "Manuel E. Acacio",
+     "Univ. of Murcia"
+    ],
+    [
+     "Alberto Ros",
+     "Univ. of Murcia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7D: Cache & Memory-Level Parallelism",
+   "title": "MORIA: Mining the Cache for Miss Parallelism",
+   "authors": [
+    [
+     "Marina Vemmou",
+     "Georgia Inst. of Technology"
+    ],
+    [
+     "Alexandros Daglis",
+     "Univ. of Edinburgh & Georgia Tech"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7D: Cache & Memory-Level Parallelism",
+   "title": "The Path to BTB Storage Efficiency Goes Through Tags",
+   "authors": [
+    [
+     "Roman Kaspar Brunner",
+     "Norwegian Univ. of Science and Technology (NTNU)"
+    ],
+    [
+     "Rakesh Kumar",
+     "Norwegian Univ. of Science and Technology (NTNU)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7D: Cache & Memory-Level Parallelism",
+   "title": "VAMOs: Versatile Atomic Memory Operations for High-Performance Many-core Architectures",
+   "authors": [
+    [
+     "Joaquín Ferrer",
+     "Univ. of Murcia"
+    ],
+    [
+     "Juan M. Cebrian",
+     "Univ. of Murcia"
+    ],
+    [
+     "Ricardo Fernández-Pascual",
+     "Univ. of Murcia"
+    ],
+    [
+     "Alberto Ros",
+     "Univ. of Murcia"
+    ],
+    [
+     "Manuel E. Acacio",
+     "Univ. of Murcia"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7D: Cache & Memory-Level Parallelism",
+   "title": "Retrofitting Contextual Learning into Set Dueling",
+   "authors": [
+    [
+     "Diamantis Patsidis",
+     "Huawei"
+    ],
+    [
+     "Leeor Peled",
+     "Huawei"
+    ],
+    [
+     "Georgios Vavouliotis",
+     "Huawei"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7D: Cache & Memory-Level Parallelism",
+   "title": "Same Code ≠ Same Speed: Exposing and Mitigating Cacheline Contention Asymmetry on Multicore Processors",
+   "authors": [
+    [
+     "Yu Fu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Kaichi Li",
+     "Tsinghua Univ."
+    ],
+    [
+     "Kaihui Gao",
+     "Zhongguancun Laboratory"
+    ],
+    [
+     "Li Chen",
+     "Zhongguancun Laboratory"
+    ],
+    [
+     "Dan Li",
+     "Tsinghua Univ."
+    ],
+    [
+     "Guo Chen",
+     "Hunan Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 7D: Cache & Memory-Level Parallelism",
+   "title": "Rivera: Turbo-boosting Vector Architectures for Non-unit Stride Memory Access Patterns",
+   "authors": [
+    [
+     "Julian Pavon Rivera",
+     "Barcelona Supercomputing Center"
+    ],
+    [
+     "Ivan Vargas Valdivieso",
+     "Barcelona Supercomputing Center"
+    ],
+    [
+     "Carlos Rojas Morales",
+     "Barcelona Supercomputing Center"
+    ],
+    [
+     "Roger Figueras Bagué",
+     "Barcelona Supercomputing Center"
+    ],
+    [
+     "Francesc Moll Echeto",
+     "Universidad Politecnica de Catalunya"
+    ],
+    [
+     "Osman Sabri Unsal",
+     "Barcelona Supercomputing Center"
+    ],
+    [
+     "Mateo Valero",
+     "Barcelona Supercomputing Center"
+    ],
+    [
+     "Adrian Cristal",
+     "Barcelona Supercomputing Center"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+   "title": "SYMPHONY: Harmonizing Memory and Communication in LLM Inference on 3D DRAM Accelerators",
+   "authors": [
+    [
+     "Sabuj Laskar",
+     "Texas A&M Univ."
+    ],
+    [
+     "Hyojong Kim",
+     "Samsung Semiconductor"
+    ],
+    [
+     "Devesh Singh",
+     "Samsung Semiconductor"
+    ],
+    [
+     "Mrinmoy Ghosh",
+     "Samsung Semiconductor"
+    ],
+    [
+     "EJ Kim",
+     "Texas A&M Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+   "title": "AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving",
+   "authors": [
+    [
+     "Zhongkai Yu",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "haotian ye",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Chenyang Zhou",
+     "Columbia Univ."
+    ],
+    [
+     "Ohm Rishabh Venkatachalam",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Zaifeng Pan",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Zhengding Hu",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Junsung Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Won Woo Ro",
+     "Yonsei Univ."
+    ],
+    [
+     "Po-An Tsai",
+     "NVIDIA"
+    ],
+    [
+     "Shuyi Pei",
+     "Samsung Semiconductor, Inc."
+    ],
+    [
+     "Yangwook Kang",
+     "Samsung Semiconductor Inc."
+    ],
+    [
+     "Yufei Ding",
+     "Univ. of California, San Diego"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+   "title": "NELSSA: A GPU–PNM Heterogeneous System for Mixed-Length LLM Serving via Length–based Request Placement",
+   "authors": [
+    [
+     "Sookyung Choi",
+     "SK hynix"
+    ],
+    [
+     "Seungyong Lee",
+     "SK hynix"
+    ],
+    [
+     "Kangkyu Park",
+     "SK hynix"
+    ],
+    [
+     "Yunseo Chun",
+     "SK hynix"
+    ],
+    [
+     "Junseok Lee",
+     "SK hynix"
+    ],
+    [
+     "Hyeongseok Gwak",
+     "SK hynix"
+    ],
+    [
+     "Myunghyun Rhee",
+     "SK hynix"
+    ],
+    [
+     "Euiseok Kim",
+     "SK hynix"
+    ],
+    [
+     "Donguk Moon",
+     "SK hynix"
+    ],
+    [
+     "Kwangsik Shin",
+     "SK hynix"
+    ],
+    [
+     "Guseul Heo",
+     "KAIST"
+    ],
+    [
+     "Youngpyo Joo",
+     "SK hynix"
+    ],
+    [
+     "Hoshik Kim",
+     "SK hynix"
+    ],
+    [
+     "Jongse Park",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+   "title": "ULTRA: Bridging the VQ Gap in Anisotropic LLM Quantization via a \\underline{U}nified \\underline{L}UT-Based \\underline{TR}ansformer \\underline{A}rchitecture",
+   "authors": [
+    [
+     "Zongwu Wang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zhongyi Tang",
+     "Shanghai Qi Zhi Inst."
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Shiyuan Huang",
+     "Shanghai Univ."
+    ],
+    [
+     "Chenyang Guan",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Haomin Li",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Gang Li",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Liqiang Lu",
+     "Zhejiang Univ."
+    ],
+    [
+     "Mingyu Gao",
+     "Tsinghua Univ."
+    ],
+    [
+     "Li Jiang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Haibing Guan",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+   "title": "MOSAIC: Exploiting Structured Tolerance for Adaptive LLM Inference Mapping in Heterogeneous PIM Accelerators",
+   "authors": [
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jingkui Yang",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Yilong Zhao",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Haomin Li",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Wen Mei",
+     "National Univ. of Defense Technology"
+    ],
+    [
+     "Xinran Liang",
+     "United Imaging Intelligence Co., Ltd."
+    ],
+    [
+     "Li Jiang",
+     "Shanghai Jiaotong Univ."
+    ],
+    [
+     "Haibing Guan",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+   "title": "Rethinking Unified Memory for NPU–PIM Systems: Dual-View Memory for Dynamic Inference of LLM",
+   "authors": [
+    [
+     "Shixin Zhao",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Lian Liu",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Tianhua Han",
+     "State Key Laboratory of Processors, Inst. of Computing Technology, Chinese Academy of Sciences; Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Mengdi Wang",
+     "Inst. of Computing Technology"
+    ],
+    [
+     "Yinhe Han",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Ying Wang",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8A: PIM & Near-Memory Long-Context LLM Serving",
+   "title": "MemLLM: End-to-End In-Storage Acceleration of Retrieval-Augmented Generation using Precomputed KV Caches",
+   "authors": [
+    [
+     "Seungkwan Kang",
+     "KAIST"
+    ],
+    [
+     "Hyungseok Ko",
+     "KAIST"
+    ],
+    [
+     "Heemin Kim",
+     "KAIST"
+    ],
+    [
+     "Myoungsoo Jung",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8B: DRAM Reliability, ECC & Address Translation",
+   "title": "NB-Walker: Non-blocking Page Table Walker to Enhance Address Translation in NUMA GPUs",
+   "authors": [
+    [
+     "Zihang Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Lieven Eeckhout",
+     "Ghent Univ."
+    ],
+    [
+     "Hongyuan Liu",
+     "Stevens Inst. of Technology"
+    ],
+    [
+     "Tianao Ge",
+     "Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Xinkai Wang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jiayi Huang",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8B: DRAM Reliability, ECC & Address Translation",
+   "title": "PARE: A Power and Area-Efficient Memory Controller for High-Bandwidth DRAM",
+   "authors": [
+    [
+     "Andre Green",
+     "Univ. of California, Berkeley"
+    ],
+    [
+     "Niladrish Chatterjee",
+     "NVIDIA"
+    ],
+    [
+     "Mike O'Connor",
+     "NVIDIA"
+    ],
+    [
+     "Ben Keller",
+     "NVIDIA"
+    ],
+    [
+     "David Nellans",
+     "NVIDIA"
+    ],
+    [
+     "Borivoje Nikolic",
+     "Univ. of California, Berkeley"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8B: DRAM Reliability, ECC & Address Translation",
+   "title": "HUME: Heterogeneous Unified Mirroring with Encoded Replica for Resilient Tiered Memory Systems",
+   "authors": [
+    [
+     "Yixuan Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zixiao Chen",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Tong Zhao",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yunfei Gu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Chentao Wu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Xinfei Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Dongliang Xue",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jie Li",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Junzhe Lv",
+     "Shanxi Taihang Laboratory Co., Ltd."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8B: DRAM Reliability, ECC & Address Translation",
+   "title": "Shared Metadata Field: A Dynamic ECC/DBI Allocation to Improve Reliability and I/O Power Efficiency for LPDDR6",
+   "authors": [
+    [
+     "Jongwoo Jeon",
+     "Yonsei Univ."
+    ],
+    [
+     "Youngbae Kong",
+     "Yonsei Univ."
+    ],
+    [
+     "Junki Lee",
+     "Yonsei Univ. & Samsung Electronics"
+    ],
+    [
+     "Jae-Youn Hong",
+     "Yonsei Univ."
+    ],
+    [
+     "Joon-Sung Yang",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8B: DRAM Reliability, ECC & Address Translation",
+   "title": "RowScope: ML-Accelerated Reverse-Engineering for Precise Characterization of DRAM Internal Physical Organization",
+   "authors": [
+    [
+     "Zexi Meng",
+     "Shanghai Jiao Tong Univ., Ocean Univ. of China"
+    ],
+    [
+     "Longda Zhou",
+     "East China Normal Univ."
+    ],
+    [
+     "Fayong Liu",
+     "Ocean Univ. of China"
+    ],
+    [
+     "Haiyong Zheng",
+     "Ocean Univ. of China"
+    ],
+    [
+     "Zhigang Ji",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8B: DRAM Reliability, ECC & Address Translation",
+   "title": "Don't Get Stuck in Traffic: A Case for Contention-Aware Translation Offloading",
+   "authors": [
+    [
+     "Osang Kwon",
+     "Sungkyunkwan Univ. (SKKU)"
+    ],
+    [
+     "Yongho Lee",
+     "Sungkyunkwan Univ. (SKKU)"
+    ],
+    [
+     "Sungbin Jang",
+     "Sungkyunkwan Univ. (SKKU)"
+    ],
+    [
+     "Kyeongchan Kim",
+     "Sungkyunkwan Univ. (SKKU)"
+    ],
+    [
+     "Seokin Hong",
+     "Sungkyunkwan Univ. (SKKU)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8B: DRAM Reliability, ECC & Address Translation",
+   "title": "Hera: Eliminating the I/O Tax of RAID on High-Capacity SSDs",
+   "authors": [
+    [
+     "Jian Chen",
+     "Tsinghua Univ."
+    ],
+    [
+     "Congming Gao",
+     "Xiamen Univ."
+    ],
+    [
+     "Fan Yang",
+     "Huawei"
+    ],
+    [
+     "Qing Wang",
+     "Nanjing Univ."
+    ],
+    [
+     "Zhengzhi Xin",
+     "Xiamen Univ."
+    ],
+    [
+     "Yuhao Zhang",
+     "Tianjin Univ."
+    ],
+    [
+     "Youyou Lu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Jiwu Shu",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+   "title": "Despoina: Depth-Amortized Incremental Inference for Deep Dynamic GNN Acceleration",
+   "authors": [
+    [
+     "Yujin Lee",
+     "Nanyang Technological Univ."
+    ],
+    [
+     "Minsu Jang",
+     "SolverX"
+    ],
+    [
+     "Ji-Hoon Kim",
+     "Hanyang Univ."
+    ],
+    [
+     "Tae Hyoung Kim",
+     "Nanyang Technological Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+   "title": "SCOPE: Array-Native Nonlinear Acceleration for LLM Inference via Shape-Constrained Neural Approximation",
+   "authors": [
+    [
+     "Chenyu Zhang",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Chenxi Xu",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Jiaxiang Zou",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Yonghao Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Xinyu Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+   "title": "SystolicAttention: Fusing FlashAttention within a Single Systolic Array",
+   "authors": [
+    [
+     "Jiawei Lin",
+     "EPFL"
+    ],
+    [
+     "Yuanlong Li",
+     "EPFL"
+    ],
+    [
+     "Guokai Chen",
+     "EPFL"
+    ],
+    [
+     "Thomas Bourgeat",
+     "EPFL"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+   "title": "NeuroFlex: Lossless Element-Level ANN–SNN Co-Execution for Efficient Sparse Inference",
+   "authors": [
+    [
+     "Varun Manjunath",
+     "Indian Inst. of Technology, Madras"
+    ],
+    [
+     "Pranav Ramesh",
+     "Indian Inst. of Technology Madras"
+    ],
+    [
+     "Gopalakrishnan Srinivasan",
+     "Indian Inst. of Technology Madras"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+   "title": "VQVLA: Motion-Aware Vector Quantization with Computation Fusion for VLA Acceleration",
+   "authors": [
+    [
+     "Zhuoran Song",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Haozhe Jiang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Chunyu Qi",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Minnan Pei",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Gang Li",
+     "Inst. of Automation, Chinese Academy of Sciences"
+    ],
+    [
+     "Xiaoyao Liang",
+     "SJTU"
+    ],
+    [
+     "Haibing Guan",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+   "title": "One Chiplet to Build Them All: Cost-Efficient Hardware Specialization for Stage-Separated LLM Inference",
+   "authors": [
+    [
+     "Haonan Zhu",
+     "1.Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences 2. Hangzhou Inst. for Advanced Study, Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Mengdi Wang",
+     "Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Haoyi Jiang",
+     "Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Danqing Zhang",
+     "1.Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences 2. Hangzhou Inst. for Advanced Study, Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Lian Liu",
+     "Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Shixin Zhao",
+     "1. Inst. of Computing Technology, Chinese Academy of Sciences 2. Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Yutian Zhou",
+     "1. Inst. of Computing Technology, Chinese Academy of Sciences 2. Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Yudong Pan",
+     "1. Inst. of Computing Technology, Chinese Academy of Sciences 2. Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Tianhua Han",
+     "1. Inst. of Computing Technology, Chinese Academy of Sciences 2. Univ. of Chinese Academy of Sciences"
+    ],
+    [
+     "Yinhe Han",
+     "Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ],
+    [
+     "Ying Wang",
+     "Research Center for Intelligent Computing Syst., SKLP, Inst. of Computing Technology, Chinese Academy of Sciences"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8C: Systolic & Dataflow Innovations for LLM/GNN Inference",
+   "title": "BITE: Boosting LLM Training via Sandwich-Bite Dataflow and Dynamic Subspace Auto-Alignment",
+   "authors": [
+    [
+     "Ruibing Song",
+     "Rice Univ."
+    ],
+    [
+     "Taowen Wang",
+     "Rochester Inst. of Technology"
+    ],
+    [
+     "Guangyan Sun",
+     "Univ. of Rochester"
+    ],
+    [
+     "Chunshu Wu",
+     "Pacific Northwest National Laboratory"
+    ],
+    [
+     "Qifan Wang",
+     "Meta"
+    ],
+    [
+     "Dongfang Liu",
+     "Rochester Inst. of Technology"
+    ],
+    [
+     "Sushant Kondguli",
+     "Meta"
+    ],
+    [
+     "Yuchen Hao",
+     "Meta Platforms"
+    ],
+    [
+     "Ang Li",
+     "UW"
+    ],
+    [
+     "Tong Geng",
+     "Rice Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8D: Quantum & Emerging Technologies",
+   "title": "Scalable Benchmarking Framework for Dynamic Quantum Circuits",
+   "authors": [
+    [
+     "Sumeet Shirgure",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Efekan Kokcu",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Anupam Mitra",
+     "Lawrence Berkeley National Laboratory"
+    ],
+    [
+     "Wibe Albert de Jong",
+     "Lawrence Berkeley National Laboratory"
+    ],
+    [
+     "Costin Iancu",
+     "Lawrence Berkeley National Laboratory"
+    ],
+    [
+     "Siyuan Niu",
+     "Univ. of Central Florida"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8D: Quantum & Emerging Technologies",
+   "title": "MCMit: Hardware-Software Co-Design for Mid-Circuit Measurement Error Mitigation",
+   "authors": [
+    [
+     "Emmanouil Giortamis",
+     "Technische Univ. München"
+    ],
+    [
+     "Felix Gust",
+     "Technische Univ. München"
+    ],
+    [
+     "Aleksandra Świerkowska",
+     "Technische Univ. München"
+    ],
+    [
+     "Sandra Stankovic",
+     "Technische Univ. München"
+    ],
+    [
+     "Innocenzo Fulginiti",
+     "Technische Univ. München"
+    ],
+    [
+     "Yanbin Chen",
+     "Technische Univ. München"
+    ],
+    [
+     "Xiaorang Guo",
+     "Technische Univ. München"
+    ],
+    [
+     "Benjamin Lienhard",
+     "Technische Univ. München"
+    ],
+    [
+     "Martin Schulz",
+     "Technische Univ. München"
+    ],
+    [
+     "Pramod Bhatotia",
+     "Technische Univ. München"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8D: Quantum & Emerging Technologies",
+   "title": "DARTH: Lookahead-Driven Compilation Exploiting Transient Qubits for Distributed Quantum Computing",
+   "authors": [
+    [
+     "Sungho Pyun",
+     "Yonsei Univ."
+    ],
+    [
+     "Changheon Lee",
+     "Yonsei Univ."
+    ],
+    [
+     "Hyungseok Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Enhyeok Jang",
+     "Yonsei Univ."
+    ],
+    [
+     "Youngmin Kim",
+     "Yonsei Univ."
+    ],
+    [
+     "Won Woo Ro",
+     "Yonsei Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8D: Quantum & Emerging Technologies",
+   "title": "TensorMLD: A Tensorized and Compressed qLDPC Maximum-Likelihood Decoder for Accurate and Fast Detection of the Most Likely Logical Error",
+   "authors": [
+    [
+     "Liqiang Lu",
+     "Zhejiang Univ."
+    ],
+    [
+     "Debin Xiang",
+     "Zhejiang Univ."
+    ],
+    [
+     "Kaiwen Zhou",
+     "Zhejiang Univ."
+    ],
+    [
+     "Boyu Jin",
+     "Zhejiang Univ."
+    ],
+    [
+     "Chenning Tao",
+     "Zhejiang Univ."
+    ],
+    [
+     "Wuwei Tian",
+     "Zhejiang Univ."
+    ],
+    [
+     "anbangwu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Fangxin Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jingwen Leng",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Minyi Guo",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jianwei Yin",
+     "Zhejiang Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8D: Quantum & Emerging Technologies",
+   "title": "Tenkai: Accurate Syndrome Extraction Circuit Design and Shadow-Guided Decoding for Tackling Atom Loss on Surface Code",
+   "authors": [
+    [
+     "Chenning Tao",
+     "Zhejiang Univ."
+    ],
+    [
+     "Xiaoyi Zhou",
+     "Zhejiang Univ."
+    ],
+    [
+     "Liqiang Lu",
+     "Zhejiang Univ."
+    ],
+    [
+     "Jianwei Yin",
+     "Zhejiang Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8D: Quantum & Emerging Technologies",
+   "title": "Hades: A Hardware-Resident Substrate for Energy Admission in Intermittent Computing",
+   "authors": [
+    [
+     "Han Wang",
+     "Univ. of Electronic Science and Technology of China"
+    ],
+    [
+     "Chong Zhang",
+     "Southwest Petroleum Univ."
+    ],
+    [
+     "Qianhe Meng",
+     "Univ. of Electronic Science and Technology of China"
+    ],
+    [
+     "Yize Zhao",
+     "Univ. of Electronic Science and Technology of China"
+    ],
+    [
+     "Ruizhe Zhang",
+     "Univ. of Electronic Science and Technology of China"
+    ],
+    [
+     "Li Lu",
+     "Univ. of Electronic Science and Technology of China"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 8D: Quantum & Emerging Technologies",
+   "title": "AmpReX: Overcoming the Heatload Bottleneck in SFQ Architectures through Current Recycling",
+   "authors": [
+    [
+     "Tara Renduchintala",
+     "Univ. of Southern California"
+    ],
+    [
+     "Tejumadejesu Oluwadamilare",
+     "Univ. of Rochester"
+    ],
+    [
+     "Beyza Zeynep Ucpinar Ogutcu",
+     "Univ. of South California"
+    ],
+    [
+     "Sasan Razmkhah",
+     "Univ. of South California"
+    ],
+    [
+     "Eby Friedman",
+     "Univ. of Rochester"
+    ],
+    [
+     "Murali Annavaram",
+     "Univ. of South California"
+    ],
+    [
+     "Daniel Wong",
+     "Univ. of California, Riverside"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9A: FPGA / CGRA Accelerators",
+   "title": "Ultra-DSP: A Universal Lossless DSP Overpacking Framework for Low-Bit LLM Inference",
+   "authors": [
+    [
+     "Chenyu Zhang",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Chenxi Xu",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Jiaxiang Zou",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Jingyu Guo",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Rui Meng",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Xinyu Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9A: FPGA / CGRA Accelerators",
+   "title": "Elastic LLM Serving on FPGAs via Partial Reconfiguration: A Case Study Using the Altera FPGA AI Suite",
+   "authors": [
+    [
+     "Nachuan Wang",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Mike Montano",
+     "Univ. of Illinois, Urbana-Champaign"
+    ],
+    [
+     "Hyungyo Kim",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Ren Wang",
+     "Intel Labs"
+    ],
+    [
+     "Phillip Swart",
+     "Altera"
+    ],
+    [
+     "Nam Sung Kim",
+     "Univ. of Illinois, Urbana-Champaign"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9A: FPGA / CGRA Accelerators",
+   "title": "HeteroReason: Heterogeneous FPGA-GPU Acceleration for Disaggregated Speculative Reasoning",
+   "authors": [
+    [
+     "Zehuan Zhang",
+     "Imperial College London"
+    ],
+    [
+     "Quan Deng",
+     "Tsinghua Univ./Imperial College London"
+    ],
+    [
+     "Zhibo Ren",
+     "Imperial College London"
+    ],
+    [
+     "Mark Chen",
+     "Imperial College London"
+    ],
+    [
+     "Guoyu Li",
+     "Imperial College London"
+    ],
+    [
+     "Xuchun Hu",
+     "Imperial College London"
+    ],
+    [
+     "Jose Gabriel de Figueiredo Coutinho",
+     "Imperial College London"
+    ],
+    [
+     "Ce Guo",
+     "Imperial College London"
+    ],
+    [
+     "Wayne Luk",
+     "Imperial College London"
+    ],
+    [
+     "Zhiqiang Que",
+     "Univ. of Bristol/Imperial College London"
+    ],
+    [
+     "Hongxiang Fan",
+     "Imperial College London"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9A: FPGA / CGRA Accelerators",
+   "title": "Ariadne: An Efficient Deadlock-Free Temporal RDA with Local Tags and Interleaved Switching",
+   "authors": [
+    [
+     "Xiangyu Kong",
+     "Tsinghua Univ."
+    ],
+    [
+     "Yi Huang",
+     "Tsinghua"
+    ],
+    [
+     "Jianfeng Zhu",
+     "Tsinghua Univ."
+    ],
+    [
+     "Liangwei Li",
+     "Tsinghua Univ."
+    ],
+    [
+     "Jinyi Chen",
+     "Tsinghua Univ."
+    ],
+    [
+     "Xiao Li",
+     "Tsinghua Univ."
+    ],
+    [
+     "Mingyu Gao",
+     "Tsinghua Univ."
+    ],
+    [
+     "Guiqiang Peng",
+     "Shanghai Eastern Computing Technology Co.,Ltd."
+    ],
+    [
+     "Shaojun Wei",
+     "Tsinghua Univ."
+    ],
+    [
+     "Aoyang Zhang",
+     "Tsinghua Univ."
+    ],
+    [
+     "Leibo Liu",
+     "Tsinghua Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9A: FPGA / CGRA Accelerators",
+   "title": "RAICHU: Rendering Acceleration Integrating CGRA arcHitecture for Unified VR Pipelines",
+   "authors": [
+    [
+     "Yanzhou Tang",
+     "New York Univ."
+    ],
+    [
+     "Haiyu Wang",
+     "New York Univ."
+    ],
+    [
+     "Cheng Tan",
+     "Google"
+    ],
+    [
+     "Sai Qian Zhang",
+     "New York Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9A: FPGA / CGRA Accelerators",
+   "title": "Argus: An Efficient Accelerator Design for Sparse Nonlinear Solver",
+   "authors": [
+    [
+     "Fangzhou Ye",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Amir Ghazizadeh Ahsaei",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Hao Zheng",
+     "Univ. of Central Florida"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9B: Near-Memory & In-Storage Search Acceleration",
+   "title": "MFNNS: A Multiplier-Free Near-Memory Accelerator for Graph-based ANNS",
+   "authors": [
+    [
+     "Rui Meng",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Yonghao Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Jiaxiang Zou",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Jingyu Guo",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Chenyu Zhang",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Xinyu Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9B: Near-Memory & In-Storage Search Acceleration",
+   "title": "PipeDRAM: Eliminating Runtime Data Transposition Requirements for In-DRAM Computation via Hardware/Software Pipelining",
+   "authors": [
+    [
+     "Geraldo Francisco De Oliveira Junior",
+     "Huawei"
+    ],
+    [
+     "Ataberk Olgun",
+     "ETH Zürich"
+    ],
+    [
+     "Ismail Emir Yuksel",
+     "ETH Zürich"
+    ],
+    [
+     "Nisa Bostanci",
+     "ETH Zürich"
+    ],
+    [
+     "Pedro Henrique Exenberger Becker",
+     "Huawei"
+    ],
+    [
+     "Mohammad Sadrosadati",
+     "ETH Zürich"
+    ],
+    [
+     "Saugata Ghose",
+     "Univ. of Illinois Urbana-Champaign"
+    ],
+    [
+     "Juan Gómez Luna",
+     "NVIDIA"
+    ],
+    [
+     "Onur Mutlu",
+     "ETH Zürich"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9B: Near-Memory & In-Storage Search Acceleration",
+   "title": "WiFlash: Wordline-Parallel Approximate Nearest Neighbor Search Inside Flash Cell Array",
+   "authors": [
+    [
+     "Hyunjin Kim",
+     "Seoul National Univ."
+    ],
+    [
+     "Juchan Lee",
+     "Seoul National Univ."
+    ],
+    [
+     "Inseong Choi",
+     "Seoul National Univ."
+    ],
+    [
+     "Jinho Lee",
+     "Seoul National Univ."
+    ],
+    [
+     "Jae-Joon Kim",
+     "Seoul National Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9B: Near-Memory & In-Storage Search Acceleration",
+   "title": "C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acceleration",
+   "authors": [
+    [
+     "Houxiang Ji",
+     "SK hynix America"
+    ],
+    [
+     "E. Ezgi Yücel",
+     "Cornell Univ."
+    ],
+    [
+     "Yaochen Li",
+     "Cornell Univ."
+    ],
+    [
+     "Prajwal Ramakrishna",
+     "SK hynix America"
+    ],
+    [
+     "Derrick Quinn",
+     "Cornell Univ."
+    ],
+    [
+     "Jungmin Choi",
+     "SK hynix America"
+    ],
+    [
+     "Hoshik Kim",
+     "SK hynix America"
+    ],
+    [
+     "Mohammad Alian",
+     "Cornell Univ."
+    ],
+    [
+     "José F. Martínez",
+     "Cornell Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9B: Near-Memory & In-Storage Search Acceleration",
+   "title": "FastAP: Unleashing Bit-Level Parallelism in Associative Processor Architectures",
+   "authors": [
+    [
+     "Socrates S. Wong",
+     "Cornell Univ."
+    ],
+    [
+     "Cecilio C. Tamarit",
+     "Cornell Univ."
+    ],
+    [
+     "Rajit Manohar",
+     "Yale Univ."
+    ],
+    [
+     "José F. Martínez",
+     "Cornell Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9B: Near-Memory & In-Storage Search Acceleration",
+   "title": "D-NOVA: In-Storage Retrieval Accelerator via Dual-Bound 3D NAND-Optimized Similarity Search with Vector Adaptation",
+   "authors": [
+    [
+     "Chang Eun Song",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Sumukh Pinge",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Tianqi Zhang",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Sung Eun Kim",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Tajana Rosing",
+     "Univ. of California, San Diego"
+    ],
+    [
+     "Mingu Kang",
+     "Univ. of California San Diego (UCSD)"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9C: Parallel Architectures / Datacenter Systems",
+   "title": "Heterogeneity-Aware Cross-Layer Mapping Optimization for Sparse LLMs on Layered Supernodes",
+   "authors": [
+    [
+     "Hanbin Zhang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Jun Liu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Rongquan Ni",
+     "Fudan Univ."
+    ],
+    [
+     "Yuxuan Zhang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Guohao Dai",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9C: Parallel Architectures / Datacenter Systems",
+   "title": "Orbital AI Datacenters: An Architectural Analysis",
+   "authors": [
+    [
+     "Barry Lyu",
+     "Univ. of Michigan"
+    ],
+    [
+     "August Ning",
+     "EPFL"
+    ],
+    [
+     "Ron Dreslinski",
+     "Univ. of Michigan"
+    ],
+    [
+     "Nathan Bleier",
+     "Univ. of Michigan"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9C: Parallel Architectures / Datacenter Systems",
+   "title": "A Harmony of Ice and Fire: Mitigating Cold Last-Level Cache Effects in Serverless Computing on Commodity Hardware",
+   "authors": [
+    [
+     "Qi Ling",
+     "Purdue Univ."
+    ],
+    [
+     "Ajay Rawat",
+     "Purdue Univ."
+    ],
+    [
+     "Pedro Fonseca",
+     "Purdue Univ."
+    ],
+    [
+     "Kazem Taram",
+     "Purdue Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9C: Parallel Architectures / Datacenter Systems",
+   "title": "SERenaDE: Hardware Acceleration of Serialization Frameworks",
+   "authors": [
+    [
+     "Christos Zarkos",
+     "Massachusetts Inst. of Technology"
+    ],
+    [
+     "Qihang Chen",
+     "Massachusetts Inst. of Technology"
+    ],
+    [
+     "Nikita Lazarev",
+     "Massachusetts Inst. of Technology"
+    ],
+    [
+     "Shabnam Sheikhha",
+     "Massachusetts Inst. of Technology"
+    ],
+    [
+     "James Tsai",
+     "Intel Labs"
+    ],
+    [
+     "Andy Anderson",
+     "Intel Labs"
+    ],
+    [
+     "Bhusan Chitlur",
+     "Intel Labs"
+    ],
+    [
+     "Christina Delimitrou",
+     "Massachusetts Inst. of Technology"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9C: Parallel Architectures / Datacenter Systems",
+   "title": "RidgeBridge: Random Access Optimized Interconnect Architecture for Scalable Graph Random Walks",
+   "authors": [
+    [
+     "Hongshi Tan",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Yao Chen",
+     "National university of Singapore"
+    ],
+    [
+     "Xinyu Chen",
+     "The Hong Kong Univ. of Science and Technology (Guangzhou)"
+    ],
+    [
+     "Qizhen Zhang",
+     "Univ. of Toronto"
+    ],
+    [
+     "Weng-Fai Wong",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Bingsheng He",
+     "National Univ. of Singapore"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9C: Parallel Architectures / Datacenter Systems",
+   "title": "Arcalís: Accelerating Remote Procedure Calls Using a Lightweight Near-Cache Solution",
+   "authors": [
+    [
+     "Johnson Umeike",
+     "Univ. of Maryland"
+    ],
+    [
+     "Pongstorn Maidee",
+     "AMD Research & Advanced Development"
+    ],
+    [
+     "Bahar Asgari",
+     "Univ. of Maryland, College Park"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9D: Secure Memory Sharing & Cryptographic Acceleration",
+   "title": "ShareMMU: Supporting Secure Address Translation Sharing among Untrusted Accelerators",
+   "authors": [
+    [
+     "faiz alam",
+     "North Carolina State Univ."
+    ],
+    [
+     "Mohamed Tarek Ibn Ziad",
+     "NVIDIA"
+    ],
+    [
+     "Yuanchao Xu",
+     "Univ. of California, Santa Cruz"
+    ],
+    [
+     "Abdulrahman Mahmoud",
+     "MBZUAI"
+    ],
+    [
+     "Aamer Jaleel",
+     "NVIDIA"
+    ],
+    [
+     "Greg Byrd",
+     "NC State Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9D: Secure Memory Sharing & Cryptographic Acceleration",
+   "title": "HSMEM: Heterogeneous Secure Memory with Scalable an Energy-Efficient Data Transfer",
+   "authors": [
+    [
+     "Sheng Qiang",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Shulin Fan",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "JInyu Gu",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Zhichao Hua",
+     "Shanghai Jiao Tong Univ."
+    ],
+    [
+     "Yubin Xia",
+     "Shanghai Jiao Tong Univ."
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9D: Secure Memory Sharing & Cryptographic Acceleration",
+   "title": "DireLeak: Cross-socket Cache Timing Channels Exploiting Memory Directory",
+   "authors": [
+    [
+     "Md Hafizul Islam Chowdhuryy",
+     "Univ. of North Carolina at Charlotte"
+    ],
+    [
+     "Kunbei Cai",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Zhenkai Zhang",
+     "Clemson Univ."
+    ],
+    [
+     "Hao Zheng",
+     "Univ. of Central Florida"
+    ],
+    [
+     "Fan Yao",
+     "Univ. of Central Florida"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9D: Secure Memory Sharing & Cryptographic Acceleration",
+   "title": "VAXEN: A Versatile AVX Extension for Zero-Knowledge Proof and Post-Quantum Cryptography",
+   "authors": [
+    [
+     "Jipeng Zhang",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Hao Cheng",
+     "Shandong Univ."
+    ],
+    [
+     "Tao Lu",
+     "National Univ. of Singapore"
+    ],
+    [
+     "Jiaheng Zhang",
+     "National Univ. of Singapore"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9D: Secure Memory Sharing & Cryptographic Acceleration",
+   "title": "NetFED: Network-Aware Acceleration for Multi-Key Privacy-Preserving Federated Learning Aggregation",
+   "authors": [
+    [
+     "Jaeho Jeon",
+     "KAIST"
+    ],
+    [
+     "Wonjin Shin",
+     "KAIST"
+    ],
+    [
+     "Sungwoong Yune",
+     "KAIST"
+    ],
+    [
+     "Joo-Young Kim",
+     "KAIST"
+    ]
+   ],
+   "industry": false
+  },
+  {
+   "session": "Session 9D: Secure Memory Sharing & Cryptographic Acceleration",
+   "title": "Decoupled-DSM: A Scalable Secure Trusted Execution Environment for Multi-Host CXL Disaggregated Shared Memory",
+   "authors": [
+    [
+     "Yuxin Yang",
+     "Univ. of California, Santa Cruz"
+    ],
+    [
+     "Yuanchao Xu",
+     "Univ. of California, Santa Cruz"
+    ]
+   ],
+   "industry": false
+  }
+ ]
+}
