@@ -1402,11 +1402,12 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"5 Oct 2026",site:true,text:"Ties now share the same rank and medal, and search or institution filters keep each researcher's real rank. Venue heatmaps open on the most recent years, keep names, totals and the year header in view while scrolling, and have a colour key. Link previews added for sharing on social media."},
   {date:"30 Sep 2026",text:"All four venue lists re-verified paper by paper against DBLP. Only main-track papers count: keynotes, panels, editorials, chair messages, corrigenda, workshop papers, the 25-year ISCA retrospectives and retracted papers are left out. ISCA 2026 is now confirmed from DBLP. Tony Nowatzki, Hai Helen Li and Yu Feng join the ISCA Hall of Fame. Ten entries fall below 8 under this rule and now show as cross-venue counts. Search now ignores accents (e.g. \"yaglikci\", \"martinez\")."},
   {date:"8 Jul 2026",text:"José F. Martínez (Cornell) added to the ISCA Hall of Fame. His 2026 ISCA paper brought him to 8; he was already listed for HPCA (10). ISCA Hall of Fame now 165."},
   {date:"20 Jun 2026",text:"ISCA 2026 added. 12 researchers crossed the 8-paper ISCA threshold and joined the Hall of Fame: Mingyu Gao, Jovan Stojkovic, Ang Li, Jingwen Leng, Hai Jin, Nika Mansouri-Ghiasi, Haibo Chen, Yun Liang, Benjamin C. Lee, Yiran Chen, Xiaoyao Liang, and Alper Büyüktosunoğlu. Existing members' ISCA records were also extended through 2026. ISCA Hall of Fame now 164. Venue tabs are now directly linkable (e.g. add #isca to the URL)."},
-  {date:"17 Apr 2026",text:"Two new tabs. Hall of Citations ranks the Top 20 most-cited Top Picks and Honorable Mention papers (Semantic Scholar; top 3: Dark Silicon 2166, Catapult FPGA 1223, Foreshadow 1167). Acceptance Rates shows submission counts and acceptance rates for all four venues (1995 to 2026) with charts and heatmaps."},
-  {date:"16 Apr 2026",text:"Added 23 new HoF members via DBLP SPARQL: HPCA +5, ASPLOS +21, MICRO +1, ISCA +1. Total: 259 researchers."},
+  {date:"17 Apr 2026",text:"Two new tabs. Hall of Citations ranks the Top 20 most-cited Top Picks and Honorable Mention papers (Semantic Scholar citation counts). Acceptance Rates shows submission counts and acceptance rates for all four venues (1995 to 2026) with charts and heatmaps."},
+  {date:"16 Apr 2026",text:"Added 28 venue entries via DBLP SPARQL (HPCA +5, ASPLOS +21, MICRO +1, ISCA +1), 25 of them for researchers new to the site. Total: 259 researchers."},
   {date:"15 Apr 2026",text:"HPCA/ASPLOS 2026 data added. Top Picks HM authors completed (130 entries). Institution filter added."},
   {date:"8 Apr 2026",text:"Cross-venue counts verified. All 235 DBLP PIDs completed. Affiliation shown in all tabs."},
   {date:"1 Apr 2026",text:"IEEE Micro Top Picks 2003\u20132024: full 22-year dataset (261 TP + 130 HM papers)."},

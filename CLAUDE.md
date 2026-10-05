@@ -111,3 +111,10 @@ Kanıt dökümü: `dblp_sparql/changes_evidence.txt`. Kişi başı not: `audit.j
 - data.js'te crossvenue düzenlemesi YALNIZ crossvenue bloğunda yapılır; adlar affiliations ve gs bloklarında da geçiyor (30 Eyl'de ilk denemede affiliations bozuldu, yedekten dönüldü).
 - Bir kişinin tek listesi 8'in altına düşerse siteden tümüyle çıkar (crossvenue yalnız üyelere eklenir): 30 Eyl'de Kai Li, Mendel Rosenblum ve Alaa Alameldeen böyle çıktı.
 
+
+## Site düzeni (5 Eki 2026)
+- **Sıralama:** standart yarışma sıralaması (1, 1, 1, 4); berabere olanlar aynı sırayı ve madalyayı alır, numarada "=" imi var. Sıra her zaman bütün listeden hesaplanır (`ranker()`), arama ve kurum süzgeci kişinin gerçek sırasını değiştirmez. Combined'da # sütunu hangi sütuna göre sıralanırsa sıralansın Total sırasını gösterir.
+- **Isı haritası renkleri:** her konferansa kendi renginde beş basamak (1, 2, 3, 4, 5+). Ölçekler dataviz doğrulayıcısından geçti (açıklık tekdüze artıyor, 1. basamak zemine karşı en az 2:1, hücre yazısı her basamakta en az 4,5:1; 1-2 açık yazı, 3-5 koyu yazı). Renk değiştirilecekse aynı denetim yeniden koşulmalı.
+- **Masaüstü ısı haritası:** konferans sekmeleri son yıllardan açılır (`pinRight`), okur sola kaydırınca konumu korunur. Sıra, ad ve Total sabit (`fixSticky()`; sol kaydırmaları sütun genişliğinden ölçülür). Yıl başlığı tablonun kendi kaydırma kutusunda sabit kalır. Telefonda (768 px altı) yıl sütunları gizli, sabit sütunlar kapalı.
+- **Tarihler veriden gelir:** "Data as of" = `updates` içinde `site:true` işareti taşımayan ilk girdinin tarihi; alt bilgideki "Last updated" = ilk girdinin tarihi; kutulardaki bitiş yılı = o listedeki en son yıl. Yalnız görünümü değiştiren bir güncelleme notuna `site:true` eklenir.
+- **Paylaşım kartı:** `og-card.png` (1200x630) `python make_og_card.py` ile data.js'ten üretilir; alttaki şerit üyelerin yıllara göre makale yoğunluğu. Kartta kişi sayısı yok, eskimez; yine de büyük bir veri güncellemesinden sonra yeniden üretilebilir. Meta etiketleri şimdilik github.io adresini gösteriyor; comparch.oguzergin.net DNS kaydı Wix'e girilince `og:url`, `og:image` ve `twitter:image` yeni adrese çevrilmeli.

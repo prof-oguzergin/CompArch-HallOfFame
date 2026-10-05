@@ -15,8 +15,19 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="theme-color" content="#0f172a">
     <meta property="og:title" content="Computer Architecture Hall of Fame">
-    <meta property="og:description" content="HPCA, MICRO, ISCA, ASPLOS Hall of Fame rosters plus the full IEEE Micro Top Picks compilation.">
+    <meta name="description" content="Researchers with 8+ papers at ISCA, MICRO, ASPLOS and HPCA, counts verified against DBLP, plus the full IEEE Micro Top Picks compilation.">
+    <meta property="og:description" content="Researchers with 8+ papers at ISCA, MICRO, ASPLOS and HPCA, counts verified against DBLP, plus the full IEEE Micro Top Picks compilation.">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Computer Architecture Hall of Fame">
+    <meta property="og:url" content="https://prof-oguzergin.github.io/CompArch-HallOfFame/">
+    <meta property="og:image" content="https://prof-oguzergin.github.io/CompArch-HallOfFame/og-card.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Computer Architecture Hall of Fame: ISCA, MICRO, ASPLOS, HPCA and IEEE Micro Top Picks, with a strip of papers per year by Hall of Fame members">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Computer Architecture Hall of Fame">
+    <meta name="twitter:description" content="Researchers with 8+ papers at ISCA, MICRO, ASPLOS and HPCA, counts verified against DBLP, plus the full IEEE Micro Top Picks compilation.">
+    <meta name="twitter:image" content="https://prof-oguzergin.github.io/CompArch-HallOfFame/og-card.png">
     <style>
         :root {
             --bg: #0f172a;
@@ -92,30 +103,36 @@
         .heatmap { border-collapse: collapse; font-size: 0.75rem; width: max-content; min-width: 100%; }
         .heatmap thead { position: sticky; top: 0; z-index: 2; }
         .heatmap th { background: var(--surface2); padding: 0.3rem 0.25rem; font-weight: 600; color: var(--text-muted); white-space: nowrap; text-align: center; }
-        .heatmap th.name-col { text-align: left; padding-left: 0.5rem; min-width: 160px; position: sticky; left: 0; z-index: 3; background: var(--surface2); }
+        .heatmap th.name-col { text-align: left; padding-left: 0.5rem; min-width: 160px; position: sticky; left: var(--l1, 32px); z-index: 3; background: var(--surface2); }
         .heatmap th.rank-col { width: 32px; position: sticky; left: 0; z-index: 3; background: var(--surface2); }
-        .heatmap th.total-col { width: 40px; }
+        .heatmap th.total-col { width: 40px; position: sticky; left: var(--l2, 200px); z-index: 3; background: var(--surface2); box-shadow: inset -1px 0 0 var(--surface); }
         .heatmap th.year-col { width: 24px; font-size: 0.65rem; writing-mode: vertical-rl; text-orientation: mixed; padding: 0.4rem 0.15rem; height: 50px; }
         .heatmap td { padding: 0.2rem 0.25rem; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.03); }
-        .heatmap td.name-cell { text-align: left; padding-left: 0.5rem; white-space: nowrap; font-weight: 500; position: sticky; left: 0; z-index: 1; background: var(--surface); }
+        .heatmap td.name-cell { text-align: left; padding-left: 0.5rem; white-space: nowrap; font-weight: 500; position: sticky; left: var(--l1, 32px); z-index: 1; background: var(--surface); }
         .heatmap td.rank-cell { color: var(--text-muted); font-weight: 600; font-size: 0.7rem; position: sticky; left: 0; z-index: 1; background: var(--surface); }
-        .heatmap td.total-cell { font-weight: 700; color: var(--gold); }
+        .heatmap td.total-cell { font-weight: 700; color: var(--gold); position: sticky; left: var(--l2, 200px); z-index: 1; background: var(--surface); box-shadow: inset -1px 0 0 var(--surface2); }
         .heatmap td.year-cell { font-size: 0.7rem; font-weight: 600; min-width: 22px; }
-        .heatmap tr:hover td { background: rgba(255,255,255,0.03); }
-        .heatmap tr:hover td.name-cell, .heatmap tr:hover td.rank-cell { background: var(--surface2); }
+        /* frozen cells need an opaque bottom border, or year cells scrolling underneath show through it */
+        .heatmap td.rank-cell, .heatmap td.name-cell, .heatmap td.total-cell { border-bottom-color: #252f41; }
+        .heatmap tr:hover td.h0 { background: rgba(255,255,255,0.05); }
+        .heatmap tr:hover td.name-cell, .heatmap tr:hover td.rank-cell, .heatmap tr:hover td.total-cell { background: var(--surface2); }
+        @media (min-width: 769px) { .heatmap-wrap.venue-scroll { max-height: calc(100vh - 140px); overflow: auto; } }
+        .hm-legend { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-muted); margin: 0 0 0.4rem; }
+        .hm-legend .sw { display: inline-block; min-width: 24px; text-align: center; font-size: 0.7rem; font-weight: 600; border-radius: 3px; padding: 0 4px; }
+        .hm-legend .sw:first-of-type { margin-left: 4px; }
+        .no-results { text-align: center !important; color: var(--text-muted); font-style: italic; padding: 1rem !important; }
 
-        /* Heatmap colors */
+        /* Heatmap colours: one hue per venue, five steps for 1, 2, 3, 4 and 5+ papers in a year.
+           Lightness rises monotonically and step 1 clears the surface at 2:1; steps 1-2 carry light
+           text, steps 3-5 dark text, every pair at least 4.5:1 (checked with the dataviz validator). */
         .h0 { color: transparent; }
-        .h1 { background: rgba(59,130,246,0.15); color: #93c5fd; }
-        .h2 { background: rgba(59,130,246,0.3); color: #60a5fa; }
-        .h3 { background: rgba(139,92,246,0.35); color: #c4b5fd; }
-        .h4 { background: rgba(245,158,11,0.35); color: #fbbf24; }
-        .h5 { background: rgba(239,68,68,0.4); color: #fca5a5; }
-
-        .hpca .h1 { background: rgba(59,130,246,0.2); } .hpca .h2 { background: rgba(59,130,246,0.35); } .hpca .h3 { background: rgba(59,130,246,0.5); }
-        .micro .h1 { background: rgba(139,92,246,0.2); } .micro .h2 { background: rgba(139,92,246,0.35); } .micro .h3 { background: rgba(139,92,246,0.5); }
-        .isca .h1 { background: rgba(16,185,129,0.2); } .isca .h2 { background: rgba(16,185,129,0.35); } .isca .h3 { background: rgba(16,185,129,0.5); }
-        .asplos .h1 { background: rgba(244,63,94,0.2); } .asplos .h2 { background: rgba(244,63,94,0.35); } .asplos .h3 { background: rgba(244,63,94,0.5); }
+        .h1, .h2 { color: #f1f5f9; } .h3, .h4, .h5 { color: #0f172a; } .h5 { font-weight: 800; }
+        .h1 { background: #4d5a6d; } .h2 { background: #5f6d80; } .h3 { background: #7d8ca0; } .h4 { background: #98a7bc; } .h5 { background: #b8c7dd; }
+        .isca .h1 { background: #186648; } .isca .h2 { background: #1e7a56; } .isca .h3 { background: #2ba274; } .isca .h4 { background: #35c18b; } .isca .h5 { background: #44e5a6; }
+        .micro .h1 { background: #6244ac; } .micro .h2 { background: #7457c2; } .micro .h3 { background: #8f74e2; } .micro .h4 { background: #aa94f6; } .micro .h5 { background: #c7bcf9; }
+        .asplos .h1 { background: #a2263b; } .asplos .h2 { background: #b93c4d; } .asplos .h3 { background: #da5a68; } .asplos .h4 { background: #f77984; } .asplos .h5 { background: #faafb2; }
+        .hpca .h1 { background: #1954b1; } .hpca .h2 { background: #2e68c6; } .hpca .h3 { background: #4d88ea; } .hpca .h4 { background: #75a6f6; } .hpca .h5 { background: #a8c7f9; }
+        .toppicks .h1 { background: #794f14; } .toppicks .h2 { background: #91601b; } .toppicks .h3 { background: #ba7c25; } .toppicks .h4 { background: #de942e; } .toppicks .h5 { background: #fab765; }
 
         /* Combined simple table */
         .simple-table { border-collapse: collapse; width: 100%; }
@@ -125,8 +142,8 @@
         .simple-table th[data-sort="name"] { text-align: left; }
         .simple-table th:first-child { text-align: center; }
         .simple-table th.sorted { color: var(--gold); border-bottom: 2px solid var(--gold); }
-        .simple-table th.sorted::after { content: ''; }
-        .simple-table th.sorted.asc::after { content: ''; }
+        .simple-table th.sorted::after { content: ' \25BE'; }
+        .simple-table th.sorted.asc::after { content: ' \25B4'; }
         .simple-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem; }
         .simple-table td.count { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
         .simple-table tr:hover { background: rgba(255,255,255,0.03); }
@@ -152,7 +169,9 @@
                sticky rank/name cells misalign with the rest of the row. Hide the
                per-year columns and show just rank + name + total, which stays aligned. */
             .heatmap:not(.acc-table) .year-col, .heatmap:not(.acc-table) td.year-cell { display: none; }
-            .heatmap td.rank-cell, .heatmap td.name-cell { position: static; }
+            .heatmap td.rank-cell, .heatmap td.name-cell, .heatmap td.total-cell,
+            .heatmap th.rank-col, .heatmap th.name-col, .heatmap th.total-col { position: static; box-shadow: none; }
+            .hm-legend { display: none; }
             .heatmap td.total-cell { text-align: right; padding-right: 0.9rem; }
         }
     </style>
@@ -192,26 +211,30 @@
     <div class="tab-panel active" id="panel-combined">
         <div class="conf-info"><strong>Combined Hall of Fame</strong> &mdash; Researchers with 8+ papers at any venue (HPCA, MICRO, ISCA, or ASPLOS) are inducted into that venue's Hall of Fame. The Total column sums only these four venues. TP shows IEEE Micro Top Picks count (not included in Total). Click column headers to sort.</div>
         <div class="heatmap-wrap sticky-scroll"><table class="simple-table" id="table-combined"><thead><tr>
-            <th style="width:40px">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
+            <th style="width:40px" title="Rank by total papers; ties share a rank">#</th><th data-sort="name" onclick="sortCombined('name')" style="cursor:pointer">Name</th><th data-sort="total" onclick="sortCombined('total')" style="width:60px;cursor:pointer">Total</th>
             <th data-sort="isca" onclick="sortCombined('isca')" style="width:55px;cursor:pointer">ISCA</th><th data-sort="micro" onclick="sortCombined('micro')" style="width:55px;cursor:pointer">MICRO</th><th data-sort="asplos" onclick="sortCombined('asplos')" style="width:55px;cursor:pointer">ASPLOS</th><th data-sort="hpca" onclick="sortCombined('hpca')" style="width:55px;cursor:pointer">HPCA</th><th data-sort="tp" onclick="sortCombined('tp')" style="width:40px;cursor:pointer">TP</th><th data-sort="hm" onclick="sortCombined('hm')" style="width:40px;cursor:pointer">HM</th><th data-sort="h" onclick="sortCombined('h')" style="width:45px;cursor:pointer;color:var(--gold)" title="Google Scholar h-index">h</th><th data-sort="c" onclick="sortCombined('c')" style="width:65px;cursor:pointer;color:var(--gold)" title="Google Scholar total citations">Cites</th><th data-sort="b100" onclick="sortCombined('b100')" style="width:45px;cursor:pointer;color:var(--gold)" title="Papers with 100+ citations">100+</th><th data-sort="b1000" onclick="sortCombined('b1000')" style="width:50px;cursor:pointer;color:var(--gold)" title="Papers with 1000+ citations">1000+</th><th data-sort="vc" onclick="sortCombined('vc')" style="cursor:pointer;text-align:left">HoF Venues</th>
         </tr></thead><tbody></tbody></table></div>
     </div>
 
     <div class="tab-panel" id="panel-hpca">
-        <div class="conf-info"><strong>HPCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on High-Performance Computer Architecture (1995&ndash;2026). <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: 30 Sep 2026</div>
-        <div class="heatmap-wrap" id="heatmap-hpca"></div>
+        <div class="conf-info"><strong>HPCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on High-Performance Computer Architecture (1995&ndash;<span class="yr-end" data-v="hpca">2026</span>). <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: <span class="asof">30 Sep 2026</span></div>
+        <div class="hm-legend hpca">Papers per year <span class="sw h1">1</span><span class="sw h2">2</span><span class="sw h3">3</span><span class="sw h4">4</span><span class="sw h5">5+</span>&nbsp;&middot; earlier years to the left</div>
+        <div class="heatmap-wrap venue-scroll" id="heatmap-hpca"></div>
     </div>
     <div class="tab-panel" id="panel-micro">
-        <div class="conf-info"><strong>MICRO Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Microarchitecture (1968&ndash;2025). Founded 2008 by Erik Altman &amp; Amir Roth. <a href="https://www.sigmicro.org/awards/microhof.php" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: 30 Sep 2026</div>
-        <div class="heatmap-wrap" id="heatmap-micro"></div>
+        <div class="conf-info"><strong>MICRO Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Microarchitecture (1968&ndash;<span class="yr-end" data-v="micro">2025</span>). Founded 2008 by Erik Altman &amp; Amir Roth. <a href="https://www.sigmicro.org/awards/microhof.php" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: <span class="asof">30 Sep 2026</span></div>
+        <div class="hm-legend micro">Papers per year <span class="sw h1">1</span><span class="sw h2">2</span><span class="sw h3">3</span><span class="sw h4">4</span><span class="sw h5">5+</span>&nbsp;&middot; earlier years to the left</div>
+        <div class="heatmap-wrap venue-scroll" id="heatmap-micro"></div>
     </div>
     <div class="tab-panel" id="panel-isca">
-        <div class="conf-info"><strong>ISCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Computer Architecture (1973&ndash;2026). <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: 30 Sep 2026</div>
-        <div class="heatmap-wrap" id="heatmap-isca"></div>
+        <div class="conf-info"><strong>ISCA Hall of Fame</strong> &mdash; 8+ papers at the Int'l Symp. on Computer Architecture (1973&ndash;<span class="yr-end" data-v="isca">2026</span>). <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html" target="_blank">Source</a> &middot; Counts verified against DBLP, main-track papers only &middot; Data as of: <span class="asof">30 Sep 2026</span></div>
+        <div class="hm-legend isca">Papers per year <span class="sw h1">1</span><span class="sw h2">2</span><span class="sw h3">3</span><span class="sw h4">4</span><span class="sw h5">5+</span>&nbsp;&middot; earlier years to the left</div>
+        <div class="heatmap-wrap venue-scroll" id="heatmap-isca"></div>
     </div>
     <div class="tab-panel" id="panel-asplos">
-        <div class="conf-info"><strong>ASPLOS Hall of Fame</strong> &mdash; 8+ papers at ASPLOS (1982&ndash;2026). Data compiled from <a href="https://liberty.princeton.edu/Fame/ASPLOS/" target="_blank">Princeton HoF</a> + <a href="https://dblp.org" target="_blank">DBLP</a>, main-track papers only &middot; Data as of: 30 Sep 2026</div>
-        <div class="heatmap-wrap" id="heatmap-asplos"></div>
+        <div class="conf-info"><strong>ASPLOS Hall of Fame</strong> &mdash; 8+ papers at ASPLOS (1982&ndash;<span class="yr-end" data-v="asplos">2026</span>). Data compiled from <a href="https://liberty.princeton.edu/Fame/ASPLOS/" target="_blank">Princeton HoF</a> + <a href="https://dblp.org" target="_blank">DBLP</a>, main-track papers only &middot; Data as of: <span class="asof">30 Sep 2026</span></div>
+        <div class="hm-legend asplos">Papers per year <span class="sw h1">1</span><span class="sw h2">2</span><span class="sw h3">3</span><span class="sw h4">4</span><span class="sw h5">5+</span>&nbsp;&middot; earlier years to the left</div>
+        <div class="heatmap-wrap venue-scroll" id="heatmap-asplos"></div>
     </div>
     <div class="tab-panel" id="panel-toppicks">
         <div class="conf-info"><strong>IEEE Micro Top Picks</strong> &mdash; Annual selection of ~12 most significant papers from computer architecture conferences, plus ~12 Honorable Mentions. Published since 2003. &middot; Data as of: 17 Apr 2026</div>
@@ -253,7 +276,7 @@
         <h3 style="color:var(--text-muted);margin:1rem 0 0.5rem;font-size:1.1rem">Conference Breakdown by Year</h3>
         <div class="heatmap-wrap"><table class="simple-table" id="table-hm-confyear"><thead><tr id="hm-confyear-header"></tr></thead><tbody id="hm-confyear-body"></tbody></table></div>
         <h3 style="color:var(--text-muted);margin:1rem 0 0.5rem;font-size:1.1rem">Researcher Summary</h3>
-        <div class="heatmap-wrap"><table class="heatmap" id="table-hm-authors"><thead><tr id="hm-author-header">
+        <div class="heatmap-wrap"><table class="heatmap hm" id="table-hm-authors"><thead><tr id="hm-author-header">
         </tr></thead><tbody></tbody></table></div>
         <button id="hm-show-all-btn" onclick="toggleHMAll()" style="display:none;margin:0.5rem auto;padding:0.4rem 1.2rem;border:1px solid var(--text-muted);background:transparent;color:var(--text-muted);border-radius:6px;cursor:pointer;font-size:0.85rem"></button>
         <h3 id="hm-paper-list" style="color:var(--text-muted);margin:1.5rem 0 0.5rem;font-size:1.1rem">Paper List</h3>
@@ -285,7 +308,7 @@
 <footer>
     <p>Computer Architecture Hall of Fame &mdash; <a href="https://oguzergin.net" target="_blank">Oğuz Ergin</a>, University of Sharjah</p>
     <p style="margin-top:0.3rem">Sources: <a href="https://ieeetcca.org/awards/hpca-hall-of-fame/">HPCA</a> &middot; <a href="https://www.sigmicro.org/awards/microhof.php">MICRO</a> &middot; <a href="https://pages.cs.wisc.edu/~arch/www/iscabibhall.html">ISCA</a> &middot; <a href="https://liberty.princeton.edu/Fame/ASPLOS/">ASPLOS</a></p>
-    <p style="margin-top:0.3rem">Last updated: 30 September 2026 &middot; <a href="https://github.com/prof-oguzergin/CompArch-HallOfFame">GitHub</a></p>
+    <p style="margin-top:0.3rem">Last updated: <span id="lastUpdated">30 Sep 2026</span> &middot; <a href="https://github.com/prof-oguzergin/CompArch-HallOfFame">GitHub</a></p>
 </footer>
 
 <script src="data.js"></script>
@@ -428,6 +451,7 @@ function buildCombined() {
     }).sort((a,b) => b.total - a.total || b.vc - a.vc);
 }
 const combined = buildCombined();
+const combinedRank = ranker(combined, d => d.total);
 
 // Medal
 const AFF = DATA.affiliations || {};
@@ -445,12 +469,39 @@ function nameLink(name, showInst) {
     const inst = showInst && a?.inst ? ` <span style="font-size:0.7rem;color:var(--text-muted)">${a.inst}</span>` : '';
     return `<a href="${url}" target="_blank" style="color:var(--text);text-decoration:none" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text)'">${name}</a>${inst}`;
 }
-function medal(r) {
-    if (r===1) return '<span class="medal">\u{1F947}</span>';
-    if (r===2) return '<span class="medal">\u{1F948}</span>';
-    if (r===3) return '<span class="medal">\u{1F949}</span>';
-    return r;
+function medal(r, tied) {
+    const t = tied ? 'Tied for ' : '';
+    if (r===1) return `<span class="medal" title="${t}1st">\u{1F947}</span>`;
+    if (r===2) return `<span class="medal" title="${t}2nd">\u{1F948}</span>`;
+    if (r===3) return `<span class="medal" title="${t}3rd">\u{1F949}</span>`;
+    return tied ? `<span title="Tied">=${r}</span>` : r;
 }
+// Standard competition ranking (1, 1, 1, 4): equal values share a rank and a medal. Ranks come
+// from the full list, so search and institution filters keep each person's real rank.
+function ranker(list, val) {
+    const rank = new Map(), size = {};
+    let prev = null, r = 0;
+    list.slice().sort((a, b) => val(b) - val(a)).forEach((d, i) => {
+        const v = val(d);
+        if (v !== prev) { r = i + 1; prev = v; }
+        rank.set(d, r); size[r] = (size[r] || 0) + 1;
+    });
+    return d => ({ r: rank.get(d), tied: size[rank.get(d)] > 1 });
+}
+const rankCell = x => medal(x.r, x.tied);
+const NO_MATCH = 'No researchers match the current search or institution filter.';
+const VLABEL = {hpca:'HPCA', micro:'MICRO', isca:'ISCA', asplos:'ASPLOS'};
+// Freeze rank, name and total on the left; offsets come from the rendered column widths
+function fixSticky(root) {
+    (root || document).querySelectorAll('table.heatmap:not(.acc-table)').forEach(t => {
+        const r = t.querySelector('th.rank-col'), n = t.querySelector('th.name-col');
+        if (!r || !n || !r.offsetWidth) return;      // hidden tab: done again when it opens
+        t.style.setProperty('--l1', r.offsetWidth + 'px');
+        t.style.setProperty('--l2', (r.offsetWidth + n.offsetWidth) + 'px');
+    });
+}
+// Venue heatmaps open on the most recent years; once the reader scrolls left, their position is kept
+function pinRight(w) { if (w.dataset.pin !== '0') w.scrollLeft = w.scrollWidth; }
 
 // Heatmap color class
 function hcls(v) {
@@ -474,7 +525,8 @@ function yearRange(venue) {
 // Render heatmap for a venue
 function renderHeatmap(venue) {
     const years = yearRange(venue);
-    const data = DATA[venue].slice().sort((a,b) => b.total - a.total);
+    const data = DATA[venue].slice().sort((a,b) => b.total - a.total || a.name.localeCompare(b.name));
+    const rank = ranker(DATA[venue], d => d.total);
     const filter = fold(document.getElementById('searchBox').value);
     const filtered = data.filter(d => (!filter || fold(d.name).includes(filter)) && matchesInst(d.name));
 
@@ -483,16 +535,20 @@ function renderHeatmap(venue) {
     years.forEach(y => { html += `<th class="year-col">${String(y).slice(-2)}</th>`; });
     html += `</tr></thead><tbody>`;
 
-    filtered.forEach((d, i) => {
-        html += `<tr><td class="rank-cell">${medal(i+1)}</td><td class="name-cell">${nameLink(d.name,true)}</td><td class="total-cell">${d.total}</td>`;
+    filtered.forEach(d => {
+        html += `<tr><td class="rank-cell">${rankCell(rank(d))}</td><td class="name-cell">${nameLink(d.name,true)}</td><td class="total-cell">${d.total}</td>`;
         years.forEach(y => {
             const v = d.y[y] || 0;
-            html += `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
+            html += v ? `<td class="year-cell ${hcls(v)}" title="${d.name}, ${VLABEL[venue]} ${y}: ${v} paper${v>1?'s':''}">${v}</td>` : `<td class="year-cell h0"></td>`;
         });
         html += `</tr>`;
     });
+    if (!filtered.length) html += `<tr><td class="no-results" colspan="${3 + years.length}">${NO_MATCH}</td></tr>`;
     html += `</tbody></table>`;
-    document.getElementById(`heatmap-${venue}`).innerHTML = html;
+    const wrap = document.getElementById(`heatmap-${venue}`);
+    wrap.innerHTML = html;
+    fixSticky(wrap);
+    if (wrap.offsetWidth) pinRight(wrap);
 }
 
 // Render combined
@@ -518,7 +574,8 @@ function renderCombined() {
         th.classList.toggle('sorted', combinedSort.key===k);
         th.classList.toggle('asc', combinedSort.key===k && combinedSort.asc);
     });
-    tbody.innerHTML = combined.filter(d => (!filter || fold(d.name).includes(filter)) && matchesInst(d.name)).map((d,i) => {
+    const rows = combined.filter(d => (!filter || fold(d.name).includes(filter)) && matchesInst(d.name));
+    tbody.innerHTML = rows.length ? rows.map(d => {
         const cls = (hl && d.vc >= 4) ? ' class="highlight"' : '';
         const badges = [];
         if (d.isca>=8) badges.push('<span title="ISCA" style="color:var(--accent-isca)">★</span>');
@@ -528,7 +585,7 @@ function renderCombined() {
         const fmtCites = c => c == null ? '-' : (c >= 1000 ? (c/1000).toFixed(c>=10000?0:1)+'K' : c.toString());
         const gsLink = d.gsId ? `<a href="https://scholar.google.com/citations?user=${d.gsId}" target="_blank" style="color:inherit;text-decoration:none" title="Open Google Scholar profile">` : '';
         const gsEnd = d.gsId ? '</a>' : '';
-        return `<tr${cls}><td style="text-align:center">${medal(i+1)}</td><td>${nameLink(d.name,true)}</td>
+        return `<tr${cls}><td style="text-align:center">${rankCell(combinedRank(d))}</td><td>${nameLink(d.name,true)}</td>
             <td class="count">${d.total}</td>
             <td class="count" style="color:var(--accent-isca)">${d.isca||'-'}</td>
             <td class="count" style="color:var(--accent-micro)">${d.micro||'-'}</td>
@@ -541,7 +598,7 @@ function renderCombined() {
             <td class="count" style="color:var(--gold-light)">${d.b100!=null?d.b100:'-'}</td>
             <td class="count" style="color:var(--gold-light)">${d.b1000!=null?d.b1000:'-'}</td>
             <td>${badges.join('')}</td></tr>`;
-    }).join('');
+    }).join('') : `<tr><td class="no-results" colspan="14">${NO_MATCH}</td></tr>`;
 }
 
 // Top Picks rendering
@@ -572,13 +629,14 @@ function renderTopPicks() {
     // Hall of Citations: Top 20 most-cited TP papers (no search filter applied)
     const allTP = (DATA.toppicks_papers || []).filter(p => p.type==='TP' && p.cites != null);
     const topCited = allTP.slice().sort((a,b) => b.cites - a.cites).slice(0, 20);
+    const citeRank = ranker(allTP, p => p.cites);
     const hocBody = document.querySelector('#table-hall-of-citations tbody');
     if (hocBody) {
-        hocBody.innerHTML = topCited.map((p, i) => {
-            const rankCell = medal(i+1);
-            const rankBg = i===0 ? 'background:rgba(251,191,36,0.15)' : i===1 ? 'background:rgba(203,213,225,0.1)' : i===2 ? 'background:rgba(180,83,9,0.12)' : '';
+        hocBody.innerHTML = topCited.map(p => {
+            const x = citeRank(p);
+            const rankBg = x.r===1 ? 'background:rgba(251,191,36,0.15)' : x.r===2 ? 'background:rgba(203,213,225,0.1)' : x.r===3 ? 'background:rgba(180,83,9,0.12)' : '';
             return `<tr style="${rankBg}">
-                <td class="rank-cell" style="text-align:center">${rankCell}</td>
+                <td class="rank-cell" style="text-align:center">${rankCell(x)}</td>
                 <td style="font-weight:600">${p.year}</td>
                 <td style="font-size:0.85rem">${p.title}</td>
                 <td class="tp-authors" style="font-size:0.8rem">${p.authors.join(', ')}</td>
@@ -588,6 +646,7 @@ function renderTopPicks() {
         }).join('');
     }
     const {list: authorList, allYears: tpYears} = buildTopPicksAuthors();
+    const tpRank = ranker(authorList, a => a.tp);
     const authorData = authorList.filter(a => (!filter || fold(a.name).includes(filter)) && matchesInst(a.name));
     const TP_THRESHOLD = 5;
     const showAll = tpShowAll || !!filter;
@@ -601,18 +660,18 @@ function renderTopPicks() {
 
     // Author summary table
     const atbody = document.querySelector('#table-toppicks-authors tbody');
-    atbody.innerHTML = visible.map((a,i) => {
+    atbody.innerHTML = visible.length ? visible.map(a => {
         const yearCells = tpYears.map(y => {
             const v = a.byYear[y] || 0;
             return `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
         }).join('');
         return `<tr>
-            <td class="rank-cell">${medal(i+1)}</td>
+            <td class="rank-cell">${rankCell(tpRank(a))}</td>
             <td class="name-cell">${nameLink(a.name,true)}</td>
             <td class="total-cell">${a.tp}</td>
             ${yearCells}
         </tr>`;
-    }).join('');
+    }).join('') : `<tr><td class="no-results" colspan="${3 + tpYears.length}">${NO_MATCH}</td></tr>`;
 
     // Show/hide toggle button
     const btn = document.getElementById('tp-show-all-btn');
@@ -671,7 +730,7 @@ function renderTopPicks() {
         <td class="tp-authors">${p.authors.join(', ')}</td>
         <td style="font-size:0.8rem;color:var(--text-muted)">${p.conf}</td>
         <td style="text-align:right;font-weight:600;${citeColor(p.cites)}">${formatCites(p.cites)}</td>
-    </tr>`).join('');
+    </tr>`).join('') || `<tr><td class="no-results" colspan="5">No papers match the current search.</td></tr>`;
 }
 
 // Citation helpers
@@ -717,12 +776,14 @@ function renderHM() {
     // Hall of Citations for HM: Top 20 most-cited (no search filter)
     const hmCited = (DATA.toppicks_papers || []).filter(p => p.type==='HM' && p.cites != null);
     const topCitedHM = hmCited.slice().sort((a,b) => b.cites - a.cites).slice(0, 20);
+    const hmCiteRank = ranker(hmCited, p => p.cites);
     const hocHMBody = document.querySelector('#table-hm-hall-of-citations tbody');
     if (hocHMBody) {
-        hocHMBody.innerHTML = topCitedHM.map((p, i) => {
-            const rankBg = i===0 ? 'background:rgba(251,191,36,0.15)' : i===1 ? 'background:rgba(203,213,225,0.1)' : i===2 ? 'background:rgba(180,83,9,0.12)' : '';
+        hocHMBody.innerHTML = topCitedHM.map(p => {
+            const x = hmCiteRank(p);
+            const rankBg = x.r===1 ? 'background:rgba(251,191,36,0.15)' : x.r===2 ? 'background:rgba(203,213,225,0.1)' : x.r===3 ? 'background:rgba(180,83,9,0.12)' : '';
             return `<tr style="${rankBg}">
-                <td class="rank-cell" style="text-align:center">${medal(i+1)}</td>
+                <td class="rank-cell" style="text-align:center">${rankCell(x)}</td>
                 <td style="font-weight:600">${p.year}</td>
                 <td style="font-size:0.85rem">${p.title}</td>
                 <td class="tp-authors" style="font-size:0.8rem">${p.authors.join(', ')}</td>
@@ -732,6 +793,7 @@ function renderHM() {
         }).join('');
     }
     const {list: authorList, allYears: hmYears} = buildHMAuthors();
+    const hmRank = ranker(authorList, a => a.hm);
     const authorData = authorList.filter(a => (!filter || fold(a.name).includes(filter)) && matchesInst(a.name));
     const HM_THRESHOLD = 3;
     const showAll = hmShowAll || !!filter;
@@ -745,18 +807,18 @@ function renderHM() {
 
     // Author summary table
     const atbody = document.querySelector('#table-hm-authors tbody');
-    atbody.innerHTML = visible.map((a,i) => {
+    atbody.innerHTML = visible.length ? visible.map(a => {
         const yearCells = hmYears.map(y => {
             const v = a.byYear[y] || 0;
             return `<td class="year-cell ${hcls(v)}">${v||''}</td>`;
         }).join('');
         return `<tr>
-            <td class="rank-cell">${medal(i+1)}</td>
+            <td class="rank-cell">${rankCell(hmRank(a))}</td>
             <td class="name-cell">${nameLink(a.name,true)}</td>
             <td class="total-cell">${a.hm}</td>
             ${yearCells}
         </tr>`;
-    }).join('');
+    }).join('') : `<tr><td class="no-results" colspan="${3 + hmYears.length}">${NO_MATCH}</td></tr>`;
 
     // Show/hide toggle
     const btn = document.getElementById('hm-show-all-btn');
@@ -814,7 +876,7 @@ function renderHM() {
         <td class="tp-authors">${p.authors.join(', ')}</td>
         <td style="font-size:0.8rem;color:var(--text-muted)">${p.conf}</td>
         <td style="text-align:right;font-weight:600;${citeColor(p.cites)}">${formatCites(p.cites)}</td>
-    </tr>`).join('');
+    </tr>`).join('') || `<tr><td class="no-results" colspan="5">No papers match the current search.</td></tr>`;
 }
 
 function renderAll() {
@@ -842,6 +904,17 @@ if (DATA.updates && DATA.updates.length) {
         '</ul>';
 }
 
+// Dates and year ranges come from the data so they cannot go stale. "Data as of" skips
+// entries flagged site:true (layout-only changes).
+(function fillDates() {
+    const ups = DATA.updates || [];
+    const last = ups.length ? ups[0].date : '';
+    const dataUp = ups.find(u => !u.site);
+    document.querySelectorAll('.asof').forEach(el => { if (dataUp) el.textContent = dataUp.date; });
+    const lu = document.getElementById('lastUpdated'); if (lu && last) lu.textContent = last;
+    document.querySelectorAll('.yr-end').forEach(el => { const ys = yearRange(el.dataset.v); el.textContent = ys[ys.length - 1]; });
+})();
+
 // Tab switching with deep-linking via URL hash (e.g. #isca, #toppicks)
 const VALID_TABS = ['combined','isca','micro','asplos','hpca','toppicks','hm','acceptance'];
 function activateTab(key, updateHash = true) {
@@ -854,7 +927,12 @@ function activateTab(key, updateHash = true) {
     if (panel) panel.classList.add('active');
     if (updateHash) history.replaceState(null, '', '#' + key);
     if (key === 'acceptance') setTimeout(renderAccChart, 50);
+    if (panel) { fixSticky(panel); panel.querySelectorAll('.venue-scroll').forEach(pinRight); }
 }
+document.querySelectorAll('.venue-scroll').forEach(w => w.addEventListener('scroll', () => {
+    w.dataset.pin = (w.scrollLeft + w.clientWidth >= w.scrollWidth - 4) ? '1' : '0';
+}));
+window.addEventListener('resize', () => fixSticky());
 document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => activateTab(tab.dataset.tab));
 });
