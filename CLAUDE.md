@@ -129,3 +129,9 @@ Program sayfasından (https://www.microarch.org/micro59/program/) eklendi, DBLP 
 - İkinci tarama (`micro2026_missed_check.py`): DBLP bir kişiyi birden çok PID'e bölebiliyor (her biri 8'in altında, toplam 8 ve üstü); takma ad, ters yazılmış ad ve sanayi oturumu da tarandı. Xinyu Chen (HKUST(GZ)) böyle bulundu: 96/3374-1 ve 96/3374, 3 + 5 = 8 (`apply_micro2026_secondpass.py`). Yeni girenlerde hata olasılığı daha yüksek, ikinci tarama her konferans güncellemesinde koşulmalı.
 - 23 yeni MICRO üyesi (149); 11'i siteye ilk kez girdi (kurum, DBLP PID, öteki konferans sayıları ve Scholar bilgisiyle). Kurum değişiklikleri doğrulandı: Giray Yağlıkçı CISPA (Eki 2025), Mohammad Alian Cornell (Tem 2024), Juan Gómez-Luna NVIDIA (2023).
 - ASPLOS 2026 programındaki 168 makalenin hepsi DBLP'de: 152'si 2026 ciltlerinde, 16'sı ASPLOS'25 bildiri kitabının 3. cildinde (2026'da sunuldu, kayıtta 2025 yılı altında; bildiri kitabının yılı esas alınıyor).
+
+## Tasarım (5 Eki 2026)
+- Aydınlık ve karanlık tema: renkler `:root[data-theme=...]` değişkenlerinde; başlıktaki düğme geçiş yapar, seçim localStorage'da, ilk açılış sistem ayarına uyar, bağlantıda `?theme=light|dark` zorlar. Sabit renk yazma; yeni öğe değişken kullansın (grafik `renderAccChart` içinde değişkenleri okur, tema değişince yeniden çizilir).
+- Yazı tipleri: metin ve tablolar Inter (tabular rakamlar), başlık Source Serif 4 (Google Fonts).
+- Isı haritası renkleri her tema için ayrı (`--isca-1..5` ve mürekkep `-i` değişkenleri); aydınlık temada 5+ en koyu, karanlıkta en parlak, ikisinde de en doygun basamak. Kabul oranı tabloları nötr gri ölçeği (`--hm-*`) kullanır.
+- Sekmeler renksiz, konferans rengi yalnız verinin içinde (nokta, sayı, ısı haritası). Sıra rozetleri `.rk1..3`, emoji yok. Sayfa metninde uzun tire yok.
