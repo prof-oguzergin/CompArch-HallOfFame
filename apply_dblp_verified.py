@@ -35,6 +35,21 @@ EXTRA_PUBL = {  # single papers of the same person filed under an undisambiguate
     # ASPLOS 2026, Michigan; dblp opened 429/0057 for it (6 Oct 2026, apply_asplos_splits.py)
  ("asplos", "Quan Chen"): ["Voyager: Input-Adaptive Algebraic Transformations"],
     # ASPLOS'25 vol.3, SJTU; dblp filed it under 40/3858-1, a remote-sensing Quan Chen (6 Oct 2026)
+ # ISCA/MICRO/HPCA re-check, 6 Oct 2026 (venue_split_check.py, apply_other_venue_splits.py):
+ ("micro", "Rajiv Gupta"): ["Predictability of load/store instruction latencies"],
+    # MICRO 1993 with HP Labs; dblp files it under 181/2697 (a radiologist), the ACM DL author profile is
+    # UC Riverside's Rajiv Gupta; the 30 Sep run had dropped it (15 -> 14), restored
+ ("isca", "Michael C. Huang"): ["DS-TPU: Dynamical System for on-Device Lifelong Graph Learning"],
+    # ISCA 2025; dblp 87/6759; program: Michael Huang (Rochester), five co-authors shared with him
+ ("hpca", "Guangyu Sun"): ["Towards Compute-Aware In-Switch Computing"],
+    # HPCA 2026; under undisambiguated 29/6473 in the 30 Sep pull, moved to his PID by dblp since; program: PKU
+ ("hpca", "Jie Zhang"): ["TENET-v2"],
+    # HPCA 2026; dblp 84/6889-177; researchr links it to the same profile (CHASE Lab, PKU) as his AutoGNN
+ # crossvenue (recompute_crossvenue.py reads these too):
+ ("hpca", "Ang Li"): ["Fully Parallelized BP Decoding for Quantum LDPC Codes"],
+    # HPCA 2026; dblp 33/2805; program: Ang Li (Pacific Northwest National Laboratory)
+ ("isca", "Xinyu Chen"): ["UniCore: A Bit-Width Scalable GEMM Unit"],          # ISCA 2026 under 96/3374
+ ("micro", "Xinyu Chen"): ["AxCore: A Quantization-Aware Approximate GEMM Unit"], # MICRO 2025 under 96/3374
 }
 # keep the official count as is (reason): old-year dblp gaps, author-confirmed splits, year labels only
 KEEP = {

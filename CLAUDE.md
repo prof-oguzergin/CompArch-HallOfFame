@@ -139,7 +139,20 @@ Program sayfasından (https://www.microarch.org/micro59/program/) eklendi, DBLP 
 - Xu Liu sınırda (8): SpecProto'da kurumu Google ama eski NC State öğrencisi Qidong Zhao da Google'da ve DeepContext'te ortak yazar, aynı kişi.
 - Yıl kuralı: ASPLOS'25 3. cildin 16 makalesi 2026'da sunuldu, sitede 2025 sütununda (bildiri kitabının yılı, kabul tablosuyla aynı kural).
 - Kurumlar 2026 programından güncellendi: Kaşıkçı UW, Fletcher UC Berkeley, Suh Cornell / NVIDIA, Xu Liu Google.
-- ISCA, MICRO ve HPCA için aynı bölünmüş kimlik taraması henüz yapılmadı.
+- ISCA, MICRO ve HPCA için de yapıldı, aşağıda.
+
+## ISCA, MICRO, HPCA yeniden denetimi (6 Eki 2026)
+- `dblp_pull_fresh.py isca micro hpca` → `dblp_sparql/<v>_20261006.json`; `venue_split_check.py <v>` (ASPLOS betiğinin genel hâli: site-DBLP karşılaştırması, bölünmüş kimlik, ortak yazarsız yeni makale, yeni üye adayı). Ayrıca 30 Eylül'ün 60 değişikliğinden her düşüşte o yılın aynı soyadlı yazarları tarandı.
+- Bulunan ve düzeltilen beş makale (`apply_other_venue_splits.py`, EXTRA_PUBL'da kayıtlı):
+  - Rajiv Gupta MICRO 1993 (HP Labs ile): DBLP bir radyoloğun profiline (181/2697) yazmış, ACM yazar profili UC Riverside'daki Rajiv Gupta. 30 Eylül sayımı bu yüzden 15'i 14'e düşürmüştü, 15'e döndü.
+  - Michael C. Huang ISCA 2025 DS-TPU (87/6759'da; program "Michael Huang (Rochester)") 9 → 10.
+  - Guangyu Sun HPCA 2026 In-Switch (30 Eylül'de 29/6473'teydi, DBLP sonradan düzeltti; program PKU) 12 → 13.
+  - Jie Zhang HPCA 2026 TENET-v2 (84/6889-177; HPCA 2026 sitesi makaleyi AutoGNN ile aynı researchr profiline bağlıyor: CHASE Lab, PKU) 11 → 12.
+  - Ang Li HPCA 2026 kuantum LDPC (33/2805; program PNNL) çapraz sayı 4 → 5.
+- Düşüşlerin geri kalanı doğru çıktı: Jun Yang MICRO 2020 CATCAM Southeast Üniversitesi'nden başka bir Jun Yang; Mengjia Yan'ın düşen makalesi Mingyu Yan'ındı; David Brooks'un ASPLOS'taki beş makalesi Brooks Davis'indi (CHERI); ISCA'da Ang Li'nin düşen 2026 makalesi (DICE) UW'deki başka bir Ang Li'nin.
+- Ortak yazarsız yeni makaleler ISCA 2026 ve HPCA 2025-26 programlarındaki kurumlarla tek tek doğrulandı (Kang Chen µShare Tsinghua, Yufei Ding Yonsei ile ortak çalışma UCSD, Prashant Nair d-Matrix ve UBC, Onur Mutlu COSM ETH vb.); başka kişiye ait çıkan yok.
+- Sonuç: ISCA ve HPCA'da site DBLP ile birebir (yalnız belgeli KEEP istisnaları), MICRO'da farklar yalnızca programdan eklenen MICRO 2026 makaleleri. Yeni üye adayı yok (MICRO'da "Yuan Chou" adlı üç PID toplamda 8 ediyor ama UBC'deki Yuan-Hsi Chou ile Sun'daki Yuan C. Chou ayrı kişiler).
+- `recompute_crossvenue.py` artık EXTRA_PUBL'ı da okuyor. DBLP MICRO 2026'yı dizinleyene kadar `--apply` ile koşma, programdan gelen MICRO 2026 sayıları silinir.
 
 ## Kabul oranları, ASPLOS sayım kuralı (6 Eki 2026)
 - **Kural:** ASPLOS 2023'ten beri yılda iki ya da üç başvuru dönemiyle çalışıyor; major revision alan makale bir sonraki yılın toplantısında sunulabiliyor. Tabloda "kabul" o yılın başvurularından kabul edilen bütün makaleler (sonradan kabul edilen revizyonlar dahil), sunulduğu toplantı değil. HoF'taki yıl kovaları da aynı kuralla (bildiri kitabının yılı) sayılıyor, ikisi tutarlı.

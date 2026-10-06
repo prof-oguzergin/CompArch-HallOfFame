@@ -7,6 +7,9 @@ src = open("dblp_verify.py", encoding="utf-8").read(); ns = {}
 exec(src.split("hof = json.load")[0], ns); classify, norm = ns["classify"], ns["norm"]
 ap = open("apply_dblp_verified.py", encoding="utf-8").read(); g = {}
 exec("PID = " + ap.split("PID = ")[1].split("\nEXTRA_PUBL")[0], {}, g); PID = g["PID"]
+exec("EXTRA_PUBL = " + ap.split("EXTRA_PUBL = ")[1].split("\n}")[0] + "\n}", {}, g); EXTRA = g["EXTRA_PUBL"]
+# NOTE (6 Oct 2026): a re-run on dblp alone would drop the MICRO 2026 papers taken from the program;
+# keep the dry run until dblp indexes MICRO 2026.
 VEN = ["hpca", "micro", "isca", "asplos"]
 DB = {v: json.load(open(f"dblp_sparql/{v}.json", encoding="utf-8")) for v in VEN}
 D = json.loads(subprocess.check_output(["node", "-e",
@@ -25,8 +28,10 @@ def pids_of(name):
     if a and a in all_pids: return {a}
     c = stream_names.get(norm(name), set())
     return c if len(c) == 1 else set()
-def main_count(v, ps):
-    return sum(1 for r in DB[v] if classify(v, r) == "MAIN" and any(p["pid"] in ps for p in r["persons"]))
+def main_count(v, ps, names=()):
+    extra = [t for n in names for t in EXTRA.get((v, n), [])]     # papers dblp files under another person
+    return sum(1 for r in DB[v] if classify(v, r) == "MAIN" and
+               (any(p["pid"] in ps for p in r["persons"]) or any(t in r["title"] for t in extra)))
 # identity of every HoF member, and which venues they are listed in (by pid, so name variants merge)
 member_venues = {}   # frozenset(pids) -> set(venues)
 names_by_id = {}
@@ -52,7 +57,7 @@ for key, venues in member_venues.items():
     new = {}
     for v in VEN:
         if v in venues: continue
-        c = main_count(v, key)
+        c = main_count(v, key, names_by_id[key])
         if c >= 8: print(f"  !! {cvname} has {c} main papers at {v} but is not listed there")
         if c: new[v] = c
     old = {k: int(x) for k, x in D["crossvenue"].get(cvname, {}).items()}
