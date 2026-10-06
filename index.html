@@ -46,6 +46,8 @@
             --text: #e6e9ef; --text-muted: #9aa5b8; --text-faint: #6b778c;
             --accent: #f2b544; --gold: #f2b544; --gold-light: #f6c76b;
             --accent-hpca: #6aa5f8; --accent-micro: #a78bfa; --accent-isca: #3fcf9b; --accent-asplos: #fb7185; --accent-toppicks: #f2b544;
+            /* chart lines: validated as a set on --surface (all pairs, CVD and normal vision) */
+            --chart-hpca: #3496de; --chart-micro: #7e4ac2; --chart-isca: #4aa651; --chart-asplos: #b43856;
             --grid: rgba(255,255,255,0.07); --hover: rgba(255,255,255,0.035); --highlight: rgba(242,181,68,0.08); --hl-row: rgba(242,181,68,0.045);
             --rk1: #e3b341; --rk2: #c0c7d1; --rk3: #cd8a5a;
             --cite-500: #f6c76b; --cite-200: #fde68a; --cite-100: #6ee7b7; --cite-50: #93c5fd;
@@ -62,6 +64,7 @@
             --text: #111827; --text-muted: #556070; --text-faint: #8b95a5;
             --accent: #a15c07; --gold: #a15c07; --gold-light: #92400e;
             --accent-hpca: #1d4ed8; --accent-micro: #6d28d9; --accent-isca: #047857; --accent-asplos: #be123c; --accent-toppicks: #a15c07;
+            --chart-hpca: #348ff9; --chart-micro: #6c1bb9; --chart-isca: #4aa651; --chart-asplos: #ba0135;
             --grid: rgba(17,24,39,0.08); --hover: rgba(17,24,39,0.035); --highlight: rgba(217,119,6,0.08); --hl-row: rgba(217,119,6,0.04);
             --rk1: #e3b341; --rk2: #c9cfd8; --rk3: #d49a6a;
             --cite-500: #a15c07; --cite-200: #b45309; --cite-100: #047857; --cite-50: #1d4ed8;
@@ -218,6 +221,15 @@
         .ar-btn { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; color: var(--text-muted); font: inherit; font-size: 0.85rem; padding: 0.4rem 0.8rem; cursor: pointer; }
         .ar-btn:hover { color: var(--text); }
         .ar-btn.active { color: var(--text); border-color: var(--accent); background: var(--highlight); }
+        .acc-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 1rem; margin: 0.75rem 0 0; }
+        .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1rem 0.7rem; min-width: 0; }
+        .chart-head { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem 0.75rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+        .chart-head h3 { font-size: 0.95rem; font-weight: 600; color: var(--text); margin: 0; }
+        .chart-head .chart-sub { display: block; font-size: 0.78rem; font-weight: 400; color: var(--text-muted); }
+        .chart-head .seg { display: flex; gap: 0.35rem; }
+        .chart-head .seg .ar-btn { font-size: 0.78rem; padding: 0.25rem 0.65rem; }
+        .chart-box { position: relative; height: 340px; }
+        @media (max-width: 600px) { .chart-box { height: 280px; } .chart-card { padding: 0.75rem 0.6rem 0.5rem; } }
 
         footer { max-width: var(--maxw); margin: 2rem auto 0; padding: 1.4rem 1.25rem 2rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.82rem; text-align: center; }
         footer p + p { margin-top: 0.3rem; }
@@ -361,12 +373,20 @@
     </div>
     <div class="tab-panel" id="panel-acceptance">
         <div class="conf-info"><strong>Acceptance Rates.</strong> Submissions and acceptance rates for HPCA, MICRO, ISCA, and ASPLOS over the years. Sources: the program chairs' messages in the proceedings, SIGARCH trip reports, <a href="https://github.com/emeryberger/csconferences" target="_blank">csconferences</a> and <a href="https://openaccept.org" target="_blank">OpenAccept</a>. Submissions are the counts the program chairs report as received. Since 2023 ASPLOS reviews submissions in two or three cycles a year. A paper accepted after a major revision counts in the year it was submitted, even when it is presented at the next year's conference. ASPLOS 2024, for example, accepted 170 papers before its conference and 24 revisions after it.</div>
-        <div style="display:flex;gap:0.5rem;margin:0.5rem 0;flex-wrap:wrap">
-            <button class="ar-btn active" onclick="showAccChart('rate')">Acceptance Rate (%)</button>
-            <button class="ar-btn" onclick="showAccChart('count')">Submissions &amp; Accepted</button>
-        </div>
-        <div style="background:var(--surface);border-radius:8px;padding:1rem;max-width:1200px">
-            <canvas id="accChart" height="400"></canvas>
+        <div class="acc-charts">
+            <div class="chart-card">
+                <div class="chart-head"><h3>Acceptance rate<span class="chart-sub">Accepted papers as a share of submissions</span></h3></div>
+                <div class="chart-box"><canvas id="accChart" role="img" aria-label="Acceptance rate per year at HPCA, MICRO, ISCA and ASPLOS; the values are in the tables below"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-head"><h3><span id="paperChartTitle">Submissions</span><span class="chart-sub" id="paperChartSub">Papers submitted per year</span></h3>
+                    <div class="seg" role="group" aria-label="Papers shown">
+                        <button class="ar-btn active" onclick="showPaperChart('sub', this)" aria-pressed="true">Submitted</button>
+                        <button class="ar-btn" onclick="showPaperChart('acc', this)" aria-pressed="false">Accepted</button>
+                    </div>
+                </div>
+                <div class="chart-box"><canvas id="subChart" role="img" aria-label="Papers submitted or accepted per year at HPCA, MICRO, ISCA and ASPLOS; the values are in the tables below"></canvas></div>
+            </div>
         </div>
         <div style="display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:1rem">
             <div style="flex:1;min-width:280px">
@@ -1053,109 +1073,131 @@ renderAll();
 // Open the tab referenced by the URL hash (deep link), default to Combined
 activateTab(location.hash.replace('#','') || 'combined', false);
 
-// Acceptance Rates Chart
-let accChart = null;
-let accMode = 'rate';
+// Acceptance Rates charts: acceptance rate, and papers per year (submitted or accepted).
+// One measure per chart, one axis each. Line colours are --chart-* tokens validated per theme.
+let accChart = null, subChart = null;
+let paperMode = 'sub';
 
-function showAccChart(mode) {
-    accMode = mode;
-    document.querySelectorAll('.ar-btn').forEach(b => b.classList.remove('active'));
-    event.target.classList.add('active');
+function showPaperChart(mode, btn) {
+    paperMode = mode;
+    btn.parentElement.querySelectorAll('.ar-btn').forEach(b => {
+        b.classList.toggle('active', b === btn); b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+    });
+    document.getElementById('paperChartTitle').textContent = mode === 'sub' ? 'Submissions' : 'Accepted papers';
+    document.getElementById('paperChartSub').textContent = mode === 'sub' ? 'Papers submitted per year' : 'Papers accepted per year';
     renderAccChart();
 }
 
+// vertical hairline at the hovered year
+const accCrosshair = {
+    id: 'accCrosshair',
+    afterDatasetsDraw(chart) {
+        const act = chart.tooltip ? chart.tooltip.getActiveElements() : [];
+        if (!act.length) return;
+        const x = act[0].element.x, {top, bottom} = chart.chartArea, c = chart.ctx;
+        c.save(); c.strokeStyle = chart.options.plugins.accCrosshair.color; c.lineWidth = 1;
+        c.beginPath(); c.moveTo(x, top); c.lineTo(x, bottom); c.stroke(); c.restore();
+    }
+};
+// venue name at each line's last point; a label that would collide with one above it is left out
+// (the legend and the tooltip still carry that series)
+const accEndLabels = {
+    id: 'accEndLabels',
+    afterDatasetsDraw(chart) {
+        const c = chart.ctx, items = [];
+        chart.data.datasets.forEach((ds, i) => {
+            const meta = chart.getDatasetMeta(i);
+            if (meta.hidden) return;
+            let k = ds.data.length - 1;
+            while (k >= 0 && ds.data[k] == null) k--;
+            if (k >= 0) items.push({x: meta.data[k].x, y: meta.data[k].y, text: ds.label});
+        });
+        items.sort((p, q) => p.y - q.y);
+        c.save(); c.font = '600 11px Inter, system-ui, sans-serif';
+        c.fillStyle = chart.options.plugins.accEndLabels.color; c.textBaseline = 'middle';
+        let lastY = -Infinity;
+        items.forEach(it => { if (it.y - lastY < 14) return; c.fillText(it.text, it.x + 8, it.y); lastY = it.y; });
+        c.restore();
+    }
+};
+
 function renderAccChart() {
-    const ctx = document.getElementById('accChart');
-    if (!ctx) return;
+    const ctxRate = document.getElementById('accChart'), ctxSub = document.getElementById('subChart');
+    if (!ctxRate || !ctxSub) return;
     if (accChart) accChart.destroy();
+    if (subChart) subChart.destroy();
 
     const venues = ['hpca','micro','isca','asplos'];
-    const css = getComputedStyle(document.documentElement);
-    const ink = css.getPropertyValue('--text-muted').trim(), grid = css.getPropertyValue('--grid').trim();
-    const colors = {hpca:'#3b82f6',micro:'#8b5cf6',isca:'#10b981',asplos:'#f43f5e'};
     const labels = {hpca:'HPCA',micro:'MICRO',isca:'ISCA',asplos:'ASPLOS'};
+    const css = getComputedStyle(document.documentElement);
+    const tok = n => css.getPropertyValue(n).trim();
+    const ink = tok('--text-muted'), text = tok('--text'), grid = tok('--grid'), surface = tok('--surface'),
+          surface2 = tok('--surface2'), border = tok('--border');
+    const colors = {}; venues.forEach(v => colors[v] = tok('--chart-' + v));
 
-    // Collect all years
     const allYears = new Set();
-    venues.forEach(v => {
-        if (DATA.acceptance[v]) DATA.acceptance[v].forEach(d => allYears.add(d.year));
+    venues.forEach(v => (DATA.acceptance[v] || []).forEach(d => allYears.add(d.year)));
+    const years = [...allYears].sort((x, y) => x - y);
+
+    const series = valueOf => venues.map(v => {
+        const map = {};
+        (DATA.acceptance[v] || []).forEach(d => { map[d.year] = valueOf(d); });
+        const data = years.map(y => (y in map ? map[y] : null));
+        let last = data.length - 1;
+        while (last >= 0 && data[last] == null) last--;
+        return {
+            label: labels[v], data,
+            borderColor: colors[v], backgroundColor: colors[v],
+            borderWidth: 2, borderCapStyle: 'round', borderJoinStyle: 'round',
+            cubicInterpolationMode: 'monotone', spanGaps: true,
+            pointRadius: data.map((_, i) => (i === last ? 4 : 0)),
+            pointBackgroundColor: colors[v], pointBorderColor: surface, pointBorderWidth: 2,
+            pointHoverRadius: 5, pointHoverBorderWidth: 2, pointHitRadius: 12
+        };
     });
-    const years = [...allYears].sort((a,b) => a-b);
 
-    const datasets = [];
-    if (accMode === 'rate') {
-        venues.forEach(v => {
-            const map = {};
-            if (DATA.acceptance[v]) DATA.acceptance[v].forEach(d => { map[d.year] = Math.round(d.acc/d.sub*1000)/10; });
-            datasets.push({
-                label: labels[v],
-                data: years.map(y => map[y] || null),
-                borderColor: colors[v],
-                backgroundColor: colors[v] + '33',
-                borderWidth: 2,
-                pointRadius: 3,
-                tension: 0.3,
-                spanGaps: true
-            });
-        });
-    } else {
-        venues.forEach(v => {
-            const mapS = {}, mapA = {};
-            if (DATA.acceptance[v]) DATA.acceptance[v].forEach(d => { mapS[d.year] = d.sub; mapA[d.year] = d.acc; });
-            datasets.push({
-                label: labels[v] + ' Submitted',
-                data: years.map(y => mapS[y] || null),
-                borderColor: colors[v],
-                backgroundColor: 'transparent',
-                borderWidth: 2,
-                borderDash: [5,3],
-                pointRadius: 2,
-                tension: 0.3,
-                spanGaps: true
-            });
-            datasets.push({
-                label: labels[v] + ' Accepted',
-                data: years.map(y => mapA[y] || null),
-                borderColor: colors[v],
-                backgroundColor: colors[v] + '33',
-                borderWidth: 2,
-                pointRadius: 3,
-                tension: 0.3,
-                spanGaps: true,
-                fill: true
-            });
-        });
-    }
-
-    accChart = new Chart(ctx, {
-        type: 'line',
-        data: { labels: years, datasets },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: { position: 'top', labels: { color: ink, font: { size: 11, family: 'Inter' } } },
-                tooltip: {
-                    callbacks: {
-                        label: function(ctx) {
-                            if (accMode === 'rate') return ctx.dataset.label + ': ' + ctx.parsed.y + '%';
-                            return ctx.dataset.label + ': ' + ctx.parsed.y;
-                        }
-                    }
+    const options = (fmt, yTick) => ({
+        responsive: true, maintainAspectRatio: false, animation: false,
+        interaction: { mode: 'index', intersect: false },
+        layout: { padding: { right: 52, top: 4 } },
+        plugins: {
+            // legend keys are short strokes in the line colour (Chart.js would take the end-dot ring colour)
+            legend: { position: 'top', align: 'start',
+                labels: { color: ink, usePointStyle: true, boxWidth: 18, font: { size: 11, family: 'Inter' },
+                    generateLabels: ch => ch.data.datasets.map((ds, i) => ({
+                        text: ds.label, datasetIndex: i, hidden: !ch.isDatasetVisible(i), fontColor: ink,
+                        pointStyle: 'line', strokeStyle: ds.borderColor, fillStyle: ds.borderColor, lineWidth: 2.5 })) } },
+            tooltip: {
+                backgroundColor: surface2, borderColor: border, borderWidth: 1, titleColor: text, bodyColor: text,
+                titleFont: { family: 'Inter', weight: '600' }, bodyFont: { family: 'Inter' },
+                usePointStyle: true, padding: 10,
+                itemSort: (p, q) => q.parsed.y - p.parsed.y,
+                callbacks: {
+                    label: c => ' ' + fmt(c.parsed.y) + '  ' + c.dataset.label,
+                    labelPointStyle: () => ({ pointStyle: 'line', rotation: 0 }),
+                    labelColor: c => ({ borderColor: c.dataset.borderColor, backgroundColor: c.dataset.borderColor, borderWidth: 2.5 })
                 }
             },
-            scales: {
-                x: { ticks: { color: ink }, grid: { color: grid } },
-                y: {
-                    ticks: {
-                        color: ink,
-                        callback: function(v) { return accMode === 'rate' ? v + '%' : v; }
-                    },
-                    grid: { color: grid },
-                    beginAtZero: true
-                }
-            }
+            accCrosshair: { color: border },
+            accEndLabels: { color: ink }
+        },
+        scales: {
+            x: { ticks: { color: ink, maxRotation: 0, autoSkipPadding: 12, font: { family: 'Inter' } }, grid: { color: grid }, border: { color: grid } },
+            y: { beginAtZero: true, ticks: { color: ink, callback: yTick, font: { family: 'Inter' } }, grid: { color: grid }, border: { color: grid } }
         }
+    });
+
+    accChart = new Chart(ctxRate, {
+        type: 'line',
+        data: { labels: years, datasets: series(d => Math.round(d.acc / d.sub * 1000) / 10) },
+        options: options(v => v.toFixed(1) + '%', v => v + '%'),
+        plugins: [accCrosshair, accEndLabels]
+    });
+    subChart = new Chart(ctxSub, {
+        type: 'line',
+        data: { labels: years, datasets: series(d => (paperMode === 'sub' ? d.sub : d.acc)) },
+        options: options(v => v.toLocaleString('en-US'), v => v.toLocaleString('en-US')),
+        plugins: [accCrosshair, accEndLabels]
     });
 
     // Also render table

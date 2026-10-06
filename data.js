@@ -1458,6 +1458,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"6 Oct 2026",site:true,text:"Acceptance Rates: a second chart shows the papers submitted (or accepted) per year next to the acceptance-rate chart. Chart colours re-chosen and checked for colour-vision deficiency in both themes; HPCA and MICRO were hard to tell apart before."},
   {date:"6 Oct 2026",text:"Top Picks from the 2025 conferences, provisional: 11 of the 12 papers added from IEEE Micro early access, under their conference titles. Onur Mutlu now leads the Top Picks list with 13. The twelfth paper and the 11 Honorable Mentions follow when the Top Picks issue appears."},
   {date:"6 Oct 2026",text:"Top Picks: 20 authors whose name was spelled two ways in the Top Picks lists are now counted as one person (for example Joel S. Emer 7, Norman P. Jouppi 4, Dean M. Tullsen 3, Michael K. Papamichael 3)."},
   {date:"6 Oct 2026",text:"ISCA, MICRO and HPCA counts re-checked the same way: fresh DBLP pulls, a search for papers DBLP files under another person of the same name, and the ISCA and HPCA 2025-26 programs. Five papers were credited: Rajiv Gupta (MICRO 1993, back to 15; the 30 Sep check had dropped it), Michael C. Huang (ISCA 2025, now 10), Guangyu Sun (HPCA 2026, now 13), Jie Zhang (HPCA 2026, now 12) and Ang Li (HPCA 2026)."},
