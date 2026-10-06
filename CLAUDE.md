@@ -130,6 +130,17 @@ Program sayfasından (https://www.microarch.org/micro59/program/) eklendi, DBLP 
 - 23 yeni MICRO üyesi (149); 11'i siteye ilk kez girdi (kurum, DBLP PID, öteki konferans sayıları ve Scholar bilgisiyle). Kurum değişiklikleri doğrulandı: Giray Yağlıkçı CISPA (Eki 2025), Mohammad Alian Cornell (Tem 2024), Juan Gómez-Luna NVIDIA (2023).
 - ASPLOS 2026 programındaki 168 makalenin hepsi DBLP'de: 152'si 2026 ciltlerinde, 16'sı ASPLOS'25 bildiri kitabının 3. cildinde (2026'da sunuldu, kayıtta 2025 yılı altında; bildiri kitabının yılı esas alınıyor).
 
+## ASPLOS yeniden denetimi (6 Eki 2026)
+- Güncel DBLP çekimi `dblp_pull_asplos_fresh.py` → `dblp_sparql/asplos_20261006.json`. 30 Eylül'den beri tek değişiklik bir 2026 kaydında Ziyi Zhang'ın PID'i. Ad takma adları PID ile gruplanınca sitedeki 271 kişinin ASPLOS sayısı (üyelerde yıl yıl) DBLP ile birebir.
+- `asplos2026_check.py`: ASPLOS 2026 programının 168 makalesi (152'si ASPLOS'26 ciltleri, 16'sı ASPLOS'25 3. cilt) DBLP kayıtlarıyla eşleşti; her araştırmacının bu makaleleri programdaki kurumla tek tek denetlendi. Programdaki araştırmacılardan DBLP kaydında eksik olan yok ("Nan Sung Kim" yazım hatasını DBLP doğru kişiye bağlamış).
+- `asplos_split_check.py`: bütün yıllar için bölünmüş kimlik taraması (gevşek ad eşleşmesi, takma ad, ters ad sırası; dört konferanstaki ortak yazar örtüşmesiyle puan). Sitede olmayıp birleşince 8'e ulaşan kimse yok.
+- **Bulunan iki DBLP hatası** (`apply_asplos_splits.py`, ayrıca `apply_dblp_verified.py` EXTRA_PUBL): Scott A. Mahlke'nin ASPLOS 2026 SNIP makalesi yeni açılmış 429/0057'de (11 → 12); Quan Chen'in (SJTU) ASPLOS'25 3. cilt Voyager makalesi uzaktan algılamacı başka bir Quan Chen'de, 40/3858-1 (12 → 13). İkisi de 30 Eylül doğrulamasında gözden kaçmıştı.
+- Ayrı kişi çıkanlar: Yu Feng 30/4550-1 (UCSB, PL), Ang Li 33/2805 (UW-Madison 2013) ve 33/2805-11 (Princeton 2020), Jaeyong Lee (SNU, Jihong Kim'in grubu, Jae W. Lee değil), Rakesh Kumar 98/4371-3 (NTNU), Mingyu Gao 61/7672-6, Ravishankar K. Iyer (UIUC). Yu Feng (SJTU) 7'de, Ang Li (PNNL) 7'de kalıyor.
+- Xu Liu sınırda (8): SpecProto'da kurumu Google ama eski NC State öğrencisi Qidong Zhao da Google'da ve DeepContext'te ortak yazar, aynı kişi.
+- Yıl kuralı: ASPLOS'25 3. cildin 16 makalesi 2026'da sunuldu, sitede 2025 sütununda (bildiri kitabının yılı, kabul tablosuyla aynı kural).
+- Kurumlar 2026 programından güncellendi: Kaşıkçı UW, Fletcher UC Berkeley, Suh Cornell / NVIDIA, Xu Liu Google.
+- ISCA, MICRO ve HPCA için aynı bölünmüş kimlik taraması henüz yapılmadı.
+
 ## Kabul oranları, ASPLOS sayım kuralı (6 Eki 2026)
 - **Kural:** ASPLOS 2023'ten beri yılda iki ya da üç başvuru dönemiyle çalışıyor; major revision alan makale bir sonraki yılın toplantısında sunulabiliyor. Tabloda "kabul" o yılın başvurularından kabul edilen bütün makaleler (sonradan kabul edilen revizyonlar dahil), sunulduğu toplantı değil. HoF'taki yıl kovaları da aynı kuralla (bildiri kitabının yılı) sayılıyor, ikisi tutarlı.
 - **2023:** 151 / 598. Ciltler: 1. cilt (DBLP'de 2022 yılında) 9, 2. cilt 65, 3. cilt 54 (+2 keynote), toplantıda 128; 4. cilt 23 (7 Şub 2024'te yayımlandı, ASPLOS'24'te sunuldu). Program başkanlarının SIGARCH özeti (Enright Jerger ve Swift, 16 May 2023): 600 başvuru, 151 kabul (128 + 23), %25. Dönem dökümü 90/270/238 = 598 (csconferences, Dan Tsafrir'den). Yürütme kurulu yazısı (Eki 2024) 597 diyor.

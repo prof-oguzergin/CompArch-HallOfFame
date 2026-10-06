@@ -31,6 +31,10 @@ EXTRA_PUBL = {  # single papers of the same person filed under an undisambiguate
  ("isca", "Guangyu Sun"): ["Graph.hls"],                     # ISCA 2026, PKU, program lists him
  ("isca", "Arvind"): ["A Multiprocessor Data Flow Machine that Supports Generalized Procedures"],
      # ISCA 1981 pp. 291-302 by Arvind and Vinod Kathail; dblp merged the two into one author "Arvind V. Kathail" (95/2819)
+ ("asplos", "Scott A. Mahlke"): ["SNIP: An Adaptive Mixed Precision Framework"],
+    # ASPLOS 2026, Michigan; dblp opened 429/0057 for it (6 Oct 2026, apply_asplos_splits.py)
+ ("asplos", "Quan Chen"): ["Voyager: Input-Adaptive Algebraic Transformations"],
+    # ASPLOS'25 vol.3, SJTU; dblp filed it under 40/3858-1, a remote-sensing Quan Chen (6 Oct 2026)
 }
 # keep the official count as is (reason): old-year dblp gaps, author-confirmed splits, year labels only
 KEEP = {
