@@ -1031,6 +1031,17 @@ crossvenue: {
   "Zidong Du": {hpca:3,isca:7,asplos:5},
 },
 toppicks_papers: [
+  {year:2025,type:"TP",conf:"MICRO 2025",title:"ColumnDisturb: Understanding Column-based Read Disturbance in Real DRAM Chips and Implications for Future Systems",authors:["İsmail Emir Yüksel","Ataberk Olgun","Nisa Bostancı","Haocong Luo","A. Giray Yağlıkçı","Onur Mutlu"],cites:27},
+  {year:2025,type:"TP",conf:"ASPLOS 2025",title:"H-Houdini: Scalable Invariant Learning",authors:["Sushant Dinesh","Yongye Zhu","Christopher W. Fletcher"],cites:11},
+  {year:2025,type:"TP",conf:"MICRO 2025",title:"GateBleed: Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI",authors:["Joshua Kalyanapu","Farshad Dizani","Darsh Asher","Azam Ghanbari","Rosario Cammarota","Aydin Aysu","Samira Mirbagher Ajorpaz"],cites:3},
+  {year:2025,type:"TP",conf:"ASPLOS 2025",title:"Necro-reaper: Pruning away Dead Memory Traffic in Warehouse-Scale Computers",authors:["Sotiris Apostolakis","Chris Kennelly","Xinliang David Li","Parthasarathy Ranganathan"],cites:4},
+  {year:2025,type:"TP",conf:"ASPLOS 2025",title:"Extended User Interrupts (xUI): Fast and Flexible Notification without Polling",authors:["Berk Aydogmus","Linsong Guo","Danial Zuberi","Tal Garfinkel","Dean M. Tullsen","Amy Ousterhout","Kazem Taram"],cites:15},
+  {year:2025,type:"TP",conf:"ISCA 2025",title:"CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering",authors:["Yanpeng Yu","Nicolai Oswald","Anurag Khandelwal"],cites:5},
+  {year:2025,type:"TP",conf:"MICRO 2025",title:"LLM.265: Video Codecs are Secretly Tensor Codecs",authors:["Ceyu Xu","Yongji Wu","Xinyu Yang","Beidi Chen","Matthew Lentz","Danyang Zhuo","Lisa Wu Wills"],cites:13},
+  {year:2025,type:"TP",conf:"ISCA 2025",title:"Neoscope: How Resilient Is My SoC to Workload Churn?",authors:["Joseph Rogers","Lieven Eeckhout","Taha Soliman","Magnus Jahre"],cites:2},
+  {year:2025,type:"TP",conf:"ISCA 2025",title:"The XOR Cache: A Catalyst for Compression",authors:["Zhewen Pan","Joshua San Miguel"],cites:3},
+  {year:2025,type:"TP",conf:"HPCA 2025",title:"MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from μWatts to MWatts for Sustainable AI",authors:["Arya Tschand","Arun Tejusve Raghunath Rajan","Sachin Idgunji","Anirban Ghosh","Jeremy Holleman","Csaba Király","Pawan Ambalkar","Ritika Borkar","Ramesh Chukka","Trevor Cockrell","Oliver Curtis","Grigori Fursin","Miro Hodak","Hiwot Kassa","Anton Lokhmotov","Dejan Miskovic","Yuechao Pan","Manu Prasad Manmathan","Liz Raymond","Tom St. John","Arjun Suresh","Rowan Taubitz","Sean Zhan","Scott Wasson","David Kanter","Vijay Janapa Reddi"],cites:45},
+  {year:2025,type:"TP",conf:"ISCA 2025",title:"Concorde: Fast and Accurate CPU Performance Modeling with Compositional Analytical-ML Fusion",authors:["Arash Nasr-Esfahany","Mohammad Alizadeh","Victor Lee","Hanna Alam","Brett W. Coon","David E. Culler","Vidushi Dadu","Martin Dixon","Henry M. Levy","Santosh Pandey","Parthasarathy Ranganathan","Amir Yazdanbakhsh"],cites:12},
   // 2024 conferences (IEEE Micro vol.45 no.4, Jul/Aug 2025)
   {year:2024,type:"TP",conf:"ASPLOS 2024",title:"FOCAL: A First-Order Carbon Model to Assess Processor Sustainability",authors:["Lieven Eeckhout"],cites:30},
   {year:2024,type:"TP",conf:"ISCA 2024",title:"Designing Cloud Servers for Lower Carbon",authors:["Jaylen Wang","Daniel S. Berger","Fiodar Kazhamiaka","Celine Irvene","Chaojie Zhang","Esha Choukse","Kali Frost","Rodrigo Fonseca","Brijesh Warrier","Chetan Bansal","Jonathan Stern","Ricardo Bianchini","Akshitha Sriraman"],cites:52},
@@ -1447,6 +1458,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"6 Oct 2026",text:"Top Picks from the 2025 conferences, provisional: 11 of the 12 papers added from IEEE Micro early access, under their conference titles. Onur Mutlu now leads the Top Picks list with 13. The twelfth paper and the 11 Honorable Mentions follow when the Top Picks issue appears."},
   {date:"6 Oct 2026",text:"Top Picks: 20 authors whose name was spelled two ways in the Top Picks lists are now counted as one person (for example Joel S. Emer 7, Norman P. Jouppi 4, Dean M. Tullsen 3, Michael K. Papamichael 3)."},
   {date:"6 Oct 2026",text:"ISCA, MICRO and HPCA counts re-checked the same way: fresh DBLP pulls, a search for papers DBLP files under another person of the same name, and the ISCA and HPCA 2025-26 programs. Five papers were credited: Rajiv Gupta (MICRO 1993, back to 15; the 30 Sep check had dropped it), Michael C. Huang (ISCA 2025, now 10), Guangyu Sun (HPCA 2026, now 13), Jie Zhang (HPCA 2026, now 12) and Ang Li (HPCA 2026)."},
   {date:"6 Oct 2026",text:"ASPLOS counts re-checked against a fresh DBLP pull and the ASPLOS 2026 program, author by author. Two papers that DBLP files under another person of the same name were added: Scott A. Mahlke (ASPLOS 2026, now 12) and Quan Chen (ASPLOS 2025, now 13). ASPLOS papers count in the year of their proceedings: the 16 papers of ASPLOS 2025 Volume 3, presented at ASPLOS 2026, are in the 2025 column."},

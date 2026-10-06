@@ -1,0 +1,425 @@
+{
+ "conf/micro/XuW0CLZW25": {
+  "title": "LLM.265: Video Codecs are Secretly Tensor Codecs.",
+  "venue": "MICRO",
+  "doi": "https://doi.org/10.1145/3725843.3756078",
+  "authors": [
+   [
+    "Ceyu Xu",
+    "314/7085"
+   ],
+   [
+    "Yongji Wu",
+    "179/3242"
+   ],
+   [
+    "Xinyu Yang 0002",
+    "89/473-2"
+   ],
+   [
+    "Beidi Chen",
+    "192/1339"
+   ],
+   [
+    "Matthew Lentz",
+    "143/5702"
+   ],
+   [
+    "Danyang Zhuo",
+    "151/7537"
+   ],
+   [
+    "Lisa Wu Wills",
+    "23/3943"
+   ]
+  ],
+  "s2title": "LLM.265: Video Codecs are Secretly Tensor Codecs",
+  "cites": 13
+ },
+ "conf/micro/KalyanapuDAGCAA25": {
+  "title": "GateBleed: Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI.",
+  "venue": "MICRO",
+  "doi": "https://doi.org/10.1145/3725843.3756097",
+  "authors": [
+   [
+    "Joshua Kalyanapu",
+    "283/4892"
+   ],
+   [
+    "Farshad Dizani",
+    "400/7669"
+   ],
+   [
+    "Darsh Asher",
+    "400/7559"
+   ],
+   [
+    "Azam Ghanbari",
+    "256/9238"
+   ],
+   [
+    "Rosario Cammarota",
+    "14/9927"
+   ],
+   [
+    "Aydin Aysu",
+    "39/9049"
+   ],
+   [
+    "Samira Mirbagher Ajorpaz",
+    "223/7797"
+   ]
+  ],
+  "s2title": "GateBleed: Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI",
+  "cites": 3
+ },
+ "conf/micro/YukselOBLYM25": {
+  "title": "ColumnDisturb: Understanding Column-based Read Disturbance in Real DRAM Chips and Implications for Future Systems.",
+  "venue": "MICRO",
+  "doi": "https://doi.org/10.1145/3725843.3756022",
+  "authors": [
+   [
+    "Ismail Emir Yuksel",
+    "264/5883"
+   ],
+   [
+    "Ataberk Olgun",
+    "285/5355"
+   ],
+   [
+    "Nisa Bostanci",
+    "293/6888"
+   ],
+   [
+    "Haocong Luo",
+    "266/1450"
+   ],
+   [
+    "Abdullah Giray Yaglikçi",
+    "147/4019"
+   ],
+   [
+    "Onur Mutlu",
+    "m/OnurMutlu"
+   ]
+  ],
+  "s2title": "ColumnDisturb: Understanding Column-based Read Disturbance in Real DRAM Chips and Implications for Future Systems",
+  "cites": 27
+ },
+ "conf/hpca/TschandRIGH0ABC25": {
+  "title": "MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from μWatts to MWatts for Sustainable AI.",
+  "venue": "HPCA",
+  "doi": "https://doi.org/10.1109/HPCA61900.2025.00092",
+  "authors": [
+   [
+    "Arya Tschand",
+    "362/8828"
+   ],
+   [
+    "Arun Tejusve Raghunath Rajan",
+    "252/5457"
+   ],
+   [
+    "Sachin Idgunji",
+    "04/310"
+   ],
+   [
+    "Anirban Ghosh",
+    "46/2078"
+   ],
+   [
+    "Jeremy Holleman",
+    "59/10286"
+   ],
+   [
+    "Csaba Király 0002",
+    "68/5843-2"
+   ],
+   [
+    "Pawan Ambalkar",
+    "390/7196"
+   ],
+   [
+    "Ritika Borkar",
+    "390/6902"
+   ],
+   [
+    "Ramesh Chukka",
+    "252/5504"
+   ],
+   [
+    "Trevor Cockrell",
+    "390/5632"
+   ],
+   [
+    "Oliver Curtis",
+    "390/5694"
+   ],
+   [
+    "Grigori Fursin",
+    "61/2980"
+   ],
+   [
+    "Miro Hodak",
+    "234/2722"
+   ],
+   [
+    "Hiwot Kassa",
+    "231/9495"
+   ],
+   [
+    "Anton Lokhmotov",
+    "40/1088"
+   ],
+   [
+    "Dejan Miskovic",
+    "390/8285"
+   ],
+   [
+    "Yuechao Pan",
+    "60/7685"
+   ],
+   [
+    "Manu Prasad Manmathan",
+    "390/7771"
+   ],
+   [
+    "Liz Raymond",
+    "390/8231"
+   ],
+   [
+    "Tom St. John",
+    "39/10957"
+   ],
+   [
+    "Arjun Suresh",
+    "165/2533"
+   ],
+   [
+    "Rowan Taubitz",
+    "390/7959"
+   ],
+   [
+    "Sean Zhan",
+    "390/8143"
+   ],
+   [
+    "Scott Wasson",
+    "390/6797"
+   ],
+   [
+    "David Kanter",
+    "83/10723"
+   ],
+   [
+    "Vijay Janapa Reddi",
+    "88/2610"
+   ]
+  ],
+  "s2title": "MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from μWatts to MWatts for Sustainable AI",
+  "cites": 45
+ },
+ "conf/isca/RogersESJ25": {
+  "title": "Neoscope: How Resilient Is My SoC to Workload Churn?",
+  "venue": "ISCA",
+  "doi": "https://doi.org/10.1145/3695053.3731014",
+  "authors": [
+   [
+    "Joseph Rogers",
+    "206/5245"
+   ],
+   [
+    "Lieven Eeckhout",
+    "e/LievenEeckhout"
+   ],
+   [
+    "Taha Soliman",
+    "252/2274"
+   ],
+   [
+    "Magnus Jahre",
+    "88/2818"
+   ]
+  ],
+  "s2title": "Neoscope: How Resilient Is My SoC to Workload Churn?",
+  "cites": 2
+ },
+ "conf/isca/0001M25": {
+  "title": "The XOR Cache: A Catalyst for Compression.",
+  "venue": "ISCA",
+  "doi": "https://doi.org/10.1145/3695053.3730995",
+  "authors": [
+   [
+    "Zhewen Pan 0001",
+    "321/4386-1"
+   ],
+   [
+    "Joshua San Miguel",
+    "157/2774"
+   ]
+  ],
+  "s2title": "The XOR Cache: A Catalyst for Compression",
+  "cites": 3
+ },
+ "conf/isca/YuOK25": {
+  "title": "CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering.",
+  "venue": "ISCA",
+  "doi": "https://doi.org/10.1145/3695053.3731074",
+  "authors": [
+   [
+    "Yanpeng Yu",
+    "296/3723"
+   ],
+   [
+    "Nicolai Oswald",
+    "217/6692"
+   ],
+   [
+    "Anurag Khandelwal",
+    "162/1936"
+   ]
+  ],
+  "s2title": "CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering",
+  "cites": 5
+ },
+ "conf/isca/Nasr-EsfahanyAL25": {
+  "title": "Concorde: Fast and Accurate CPU Performance Modeling with Compositional Analytical-ML Fusion.",
+  "venue": "ISCA",
+  "doi": "https://doi.org/10.1145/3695053.3731037",
+  "authors": [
+   [
+    "Arash Nasr-Esfahany",
+    "267/2339"
+   ],
+   [
+    "Mohammad Alizadeh",
+    "37/8397"
+   ],
+   [
+    "Victor Lee",
+    "89/226"
+   ],
+   [
+    "Hanna Alam",
+    "201/4859"
+   ],
+   [
+    "Brett W. Coon",
+    "402/5820"
+   ],
+   [
+    "David E. Culler",
+    "c/DavidECuller"
+   ],
+   [
+    "Vidushi Dadu",
+    "241/6206"
+   ],
+   [
+    "Martin Dixon",
+    "150/2180"
+   ],
+   [
+    "Henry M. Levy",
+    "l/HenryMLevy"
+   ],
+   [
+    "Santosh Pandey 0001",
+    "82/3121-1"
+   ],
+   [
+    "Parthasarathy Ranganathan",
+    "12/6848"
+   ],
+   [
+    "Amir Yazdanbakhsh",
+    "44/8745"
+   ]
+  ],
+  "s2title": "Concorde: Fast and Accurate CPU Performance Modeling with Compositional Analytical-ML Fusion",
+  "cites": 12
+ },
+ "conf/asplos/ApostolakisKLR25": {
+  "title": "Necro-reaper: Pruning away Dead Memory Traffic in Warehouse-Scale Computers.",
+  "venue": "ASPLOS (2)",
+  "doi": "https://doi.org/10.1145/3676641.3716007",
+  "authors": [
+   [
+    "Sotiris Apostolakis",
+    "185/0244"
+   ],
+   [
+    "Chris Kennelly",
+    "299/3321"
+   ],
+   [
+    "Xinliang David Li",
+    "309/9768"
+   ],
+   [
+    "Parthasarathy Ranganathan",
+    "12/6848"
+   ]
+  ],
+  "s2title": "Necro-reaper: Pruning away Dead Memory Traffic in Warehouse-Scale Computers",
+  "cites": 4
+ },
+ "conf/asplos/AydogmusGZGTOT25": {
+  "title": "Extended User Interrupts (xUI): Fast and Flexible Notification without Polling.",
+  "venue": "ASPLOS (2)",
+  "doi": "https://doi.org/10.1145/3676641.3716028",
+  "authors": [
+   [
+    "Berk Aydogmus",
+    "401/7278"
+   ],
+   [
+    "Linsong Guo",
+    "309/6793"
+   ],
+   [
+    "Danial Zuberi",
+    "398/7159"
+   ],
+   [
+    "Tal Garfinkel",
+    "55/1439"
+   ],
+   [
+    "Dean M. Tullsen",
+    "t/DeanMTullsen"
+   ],
+   [
+    "Amy Ousterhout",
+    "149/9258"
+   ],
+   [
+    "Kazem Taram",
+    "174/8281"
+   ]
+  ],
+  "s2title": "Extended User Interrupts (xUI): Fast and Flexible Notification without Polling",
+  "cites": 15
+ },
+ "conf/asplos/DineshZF25": {
+  "title": "H-Houdini: Scalable Invariant Learning.",
+  "venue": "ASPLOS (1)",
+  "doi": "https://doi.org/10.1145/3669940.3707263",
+  "authors": [
+   [
+    "Sushant Dinesh",
+    "266/8877"
+   ],
+   [
+    "Yongye Zhu",
+    "346/1492"
+   ],
+   [
+    "Christopher W. Fletcher",
+    "25/8166"
+   ]
+  ],
+  "s2title": "H-Houdini: Scalable Invariant Learning",
+  "cites": 11
+ }
+}
