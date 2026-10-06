@@ -492,13 +492,14 @@ function buildCombined() {
             if (p.type==='HM') hmCounts[a] = (hmCounts[a]||0) + 1;
         });
     });
+    // += : two spellings that norm() maps to the same person must add up, not overwrite each other
     Object.entries(tpCounts).forEach(([name, count]) => {
         const k = norm(name);
-        if (m[k]) m[k].tp = count;
+        if (m[k]) m[k].tp += count;
     });
     Object.entries(hmCounts).forEach(([name, count]) => {
         const k = norm(name);
-        if (m[k]) m[k].hm = count;
+        if (m[k]) m[k].hm += count;
     });
     const gs = DATA.gs || {};
     // Build normalized GS lookup
@@ -676,7 +677,8 @@ function buildTopPicksAuthors() {
     const allYears = [...new Set(papers.map(p=>p.year))].sort();
     const authors = {};
     papers.forEach(p => {
-        p.authors.forEach(a => {
+        p.authors.forEach(rawA => {
+            const a = hmNormName(rawA);
             if (!authors[a]) authors[a] = {tp:0, byYear:{}};
             authors[a].tp++;
             authors[a].byYear[p.year] = (authors[a].byYear[p.year]||0) + 1;
