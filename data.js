@@ -1458,6 +1458,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"6 Oct 2026",text:"Google Scholar figures taken off for three researchers whose Scholar link pointed to someone else: G. Jack Lipovski and Christos A. Papachristou (no Scholar profile of their own), and Amir Roth, whose own profile comes in with the next Scholar refresh."},
   {date:"6 Oct 2026",site:true,text:"Acceptance Rates: a second chart shows the papers submitted (or accepted) per year next to the acceptance-rate chart. Chart colours re-chosen and checked for colour-vision deficiency in both themes; HPCA and MICRO were hard to tell apart before."},
   {date:"6 Oct 2026",text:"Top Picks from the 2025 conferences, provisional: 11 of the 12 papers added from IEEE Micro early access, under their conference titles. Onur Mutlu now leads the Top Picks list with 13. The twelfth paper and the 11 Honorable Mentions follow when the Top Picks issue appears."},
   {date:"6 Oct 2026",text:"Top Picks: 20 authors whose name was spelled two ways in the Top Picks lists are now counted as one person (for example Joel S. Emer 7, Norman P. Jouppi 4, Dean M. Tullsen 3, Michael K. Papamichael 3)."},
@@ -1614,7 +1615,6 @@ gs: {
   "Ali Javadi-Abhari":{gs:"-I6kav0AAAAJ",h:34,i10:51,c:8275,b:[17,13,5,2,2]},
   "Alper Büyüktosunoğlu":{gs:"POYQe8kAAAAJ",h:42,i10:150,c:9126,b:[18,6,4,1,0]},
   "Alvin R. Lebeck":{gs:"6s2hs3oAAAAJ",h:40,i10:75,c:7910,b:[23,14,3,0,0]},
-  "Amir Roth":{gs:"kLUQrrYAAAAJ",h:67,i10:137,c:33400,b:[52,27,14,6,4]},
   "Amir Yazdanbakhsh":{gs:"Vdu_sqwAAAAJ",h:33,i10:53,c:10826,b:[16,10,2,2,2]},
   "Amro Awad":{gs:"jDmd7AoAAAAJ",h:21,i10:53,c:2112,b:[7,1,0,0,0]},
   "Anand Sivasubramaniam":{gs:"JWXlepgAAAAJ",h:64,i10:226,c:16444,b:[38,18,4,0,0]},
@@ -1643,7 +1643,6 @@ gs: {
   "Christopher J. Hughes":{gs:"DH-T2h46j_oC",h:46,i10:144,c:7856,b:[16,8,1,0,0]},
   "Christopher J. Rossbach":{gs:"pPSWi5EAAAAJ",h:30,i10:43,c:4586,b:[17,6,1,0,0]},
   "Christopher W. Fletcher":{gs:"QRw9-IYAAAAJ",h:46,i10:82,c:9028,b:[24,12,2,1,1]},
-  "Christos A. Papachristou":{gs:"jmMI3eUAAAAJ",h:36,i10:59,c:3852,b:[11,2,0,0,0]},
   "Christos Kozyrakis":{gs:"G2EJz5kAAAAJ",h:99,i10:217,c:36971,b:[99,50,22,7,5]},
   "Daehoon Kim":{gs:"KLN5C3UAAAAJ",h:29,i10:48,c:2966,b:[9,1,0,0,0]},
   "Dan Tsafrir":{gs:"o3PQcYgAAAAJ",h:37,i10:66,c:5154,b:[13,5,2,0,0]},
@@ -1669,7 +1668,6 @@ gs: {
   "Felix Xiaozhu Lin":{gs:"f6FFhS8AAAAJ",h:32,i10:49,c:3169,b:[8,2,0,0,0]},
   "Frederic T. Chong":{gs:"U6OVPVMAAAAJ",h:62,i10:185,c:14585,b:[45,15,4,0,0]},
   "G. Edward Suh":{gs:"neO3vFYAAAAJ",h:49,i10:108,c:18115,b:[34,18,10,5,4]},
-  "G. Jack Lipovski":{gs:"o0yYm6kAAAAJ",h:16,i10:21,c:658,b:[0,0,0,0,0]},
   "Gabriel H. Loh":{gs:"e_D2XsUAAAAJ",h:63,i10:192,c:15501,b:[40,17,6,1,0]},
   "Gary S. Tyson":{gs:"vC_bjb0gU4EC",h:28,i10:55,c:3649,b:[8,3,1,0,0]},
   "Gennady Pekhimenko":{gs:"ZgqVLuMAAAAJ",h:44,i10:79,c:8266,b:[24,10,4,1,0]},
