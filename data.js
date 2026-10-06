@@ -1447,7 +1447,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
-  {date:"5 Oct 2026",site:true,text:"Acceptance rates: ISCA 2026 (161 of 850, 18.9%) and ASPLOS 2026 (152 of 1,048, spring and summer cycles) added; ASPLOS 2017, 2023 and 2025 and HPCA 2025 corrected against proceedings and SIGARCH trip reports."},
+  {date:"5 Oct 2026",site:true,text:"Acceptance rates: ISCA 2026 (161 of 850, 18.9%) and ASPLOS 2026 (152 of 1,048) added. ASPLOS rows since 2023 now count every paper accepted from that year's submissions, including major revisions presented at the next year's conference (2023: 151, 2024: 194, 2025: 176). ASPLOS 2017 and HPCA 2025 corrected against the proceedings and SIGARCH trip reports."},
   {date:"5 Oct 2026",text:"MICRO 2026 added from the conference program (to be re-checked against DBLP once it is indexed). 23 researchers crossed the 8-paper MICRO threshold: Guangyu Sun, Ataberk Olgun, Yu Feng, Zhuoran Song, Fangxin Liu, Yang Hu, Shouyi Yin, José F. Martínez, Lizy Kurian John, Minyi Guo, Nisa Bostancı, Jaehyuk Huh, Houxiang Ji, Yinhe Han, Adrián Cristal, Osman S. Ünsal, Yun Liang, Heiner Litz, Alexandros Daglis, Liqiang Lu, Seokin Hong, A. Giray Yağlıkçı, Xinyu Chen. Existing members' MICRO records were extended through 2026. MICRO Hall of Fame now 149."},
   {date:"5 Oct 2026",site:true,text:"Ties now share the same rank and medal, and search or institution filters keep each researcher's real rank. Venue heatmaps open on the most recent years, keep names, totals and the year header in view while scrolling, and have a colour key. Link previews added for sharing on social media."},
   {date:"30 Sep 2026",text:"All four venue lists re-verified paper by paper against DBLP. Only main-track papers count: keynotes, panels, editorials, chair messages, corrigenda, workshop papers, the 25-year ISCA retrospectives and retracted papers are left out. ISCA 2026 is now confirmed from DBLP. Tony Nowatzki, Hai Helen Li and Yu Feng join the ISCA Hall of Fame. Ten entries fall below 8 under this rule and now show as cross-venue counts. Search now ignores accents (e.g. \"yaglikci\", \"martinez\")."},
@@ -1558,15 +1558,15 @@ acceptance: {
     {year:2014,sub:217,acc:49},
     {year:2015,sub:287,acc:48},
     {year:2016,sub:232,acc:53},
-    {year:2017,sub:321,acc:56},
+    {year:2017,sub:320,acc:56},
     {year:2018,sub:319,acc:56},
     {year:2019,sub:351,acc:74},
     {year:2020,sub:486,acc:86},
     {year:2021,sub:398,acc:75},
     {year:2022,sub:397,acc:80},
     {year:2023,sub:598,acc:151},
-    {year:2024,sub:922,acc:193},
-    {year:2025,sub:912,acc:177},
+    {year:2024,sub:922,acc:194},
+    {year:2025,sub:912,acc:176},
     {year:2026,sub:1048,acc:152}
   ]
 },
