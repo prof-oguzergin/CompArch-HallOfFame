@@ -1458,7 +1458,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
-  {date:"7 Oct 2026",text:"Google Scholar figures refreshed for 161 researchers; the rest follow (Scholar limits how fast profiles can be read). The Scholar links of Jae W. Lee, Jonathan M. Baker and Kang Chen pointed to other people: their figures are off until their own profiles are read. Jean-Loup Baer (linked profile was someone else's, none of his own) and Amro Awad (profile no longer public) now show no figures."},
+  {date:"7 Oct 2026",text:"Google Scholar figures refreshed for 161 researchers; the rest follow (Scholar limits how fast profiles can be read). The Scholar links of Jae W. Lee, Jonathan M. Baker, Chao Li and Kang Chen pointed to other people: their figures are off until their own profiles are read. Jean-Loup Baer (linked profile was someone else's, none of his own) and Amro Awad (profile no longer public) now show no figures."},
   {date:"6 Oct 2026",text:"Google Scholar figures taken off for three researchers whose Scholar link pointed to someone else: G. Jack Lipovski and Christos A. Papachristou (no Scholar profile of their own), and Amir Roth, whose own profile comes in with the next Scholar refresh."},
   {date:"6 Oct 2026",site:true,text:"Acceptance Rates: a second chart shows the papers submitted (or accepted) per year next to the acceptance-rate chart. Chart colours re-chosen and checked for colour-vision deficiency in both themes; HPCA and MICRO were hard to tell apart before."},
   {date:"6 Oct 2026",text:"Top Picks from the 2025 conferences, provisional: 11 of the 12 papers added from IEEE Micro early access, under their conference titles. Onur Mutlu now leads the Top Picks list with 13. The twelfth paper and the 11 Honorable Mentions follow when the Top Picks issue appears."},
@@ -1635,7 +1635,6 @@ gs: {
   "Brandon Lucia":{gs:"a9T7i5QAAAAJ",h:44,i10:68,c:7529,b:[26,10,2,0,0]},
   "Carole-Jean Wu":{gs:"S1szbyAAAAAJ",h:52,i10:115,c:14837,b:[31,18,9,3,3]},
   "Changhee Jung":{gs:"_sIzYHAAAAAJ",h:31,i10:51,c:2476,b:[5,0,0,0,0]},
-  "Chao Li":{gs:"gF8h0HMAAAAJ",h:18,i10:27,c:1283,b:[1,1,0,0,0]},
   "Chita R. Das":{gs:"2kXsgI4AAAAJ",h:66,i10:219,c:15882,b:[47,18,2,0,0]},
   "Chris Wilkerson":{gs:"lqsQH6QAAAAJ",h:43,i10:98,c:11670,b:[26,16,5,2,1]},
   "Christina Delimitrou":{gs:"OziQjUsAAAAJ",h:33,i10:64,c:9347,b:[21,10,5,3,3]},

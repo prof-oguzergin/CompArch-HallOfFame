@@ -87,6 +87,8 @@ print(f"{len(ids)} profiles, {len(todo)} to fetch", flush=True)
 if "--wait" in sys.argv:
     w = int(sys.argv[sys.argv.index("--wait") + 1]); print(f"waiting {w} s before starting", flush=True); time.sleep(w)
 backoffs = 0
+if "--max" in sys.argv:          # Scholar blocks this machine for hours after ~85 profiles; stop before that
+    todo = todo[:int(sys.argv[sys.argv.index("--max") + 1])]
 for i, gid in enumerate(todo):
     while True:
         try:

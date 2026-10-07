@@ -30,6 +30,7 @@ REPLACE = {
     "Amir Roth": "X-HEAfgAAAAJ",          # kLUQrrYAAAAJ is Aaron Roth (Penn, privacy); his own profile: US DOE
     "Jae W. Lee": "PA-QN6IAAAAJ",         # 6MspJJcAAAAJ is Jae Won Lee (Samsung Research, patents); his own: SNU
     "Jonathan M. Baker": "87cLl3gAAAAJ",  # Cn7wuysAAAAJ is Jonathan Baker (Met Office, climate); his own: UT Austin
+    "Chao Li": "Yy-wQg4AAAAJ",            # gF8h0HMAAAAJ is Chao Li (Zhejiang Lab, edge AI); his own: SJTU, architecture
 }
 PENDING = {"Kang Chen": "rDXG570AAAAJ is Kang Chen (China University of Geosciences, geology); candidates being checked"}
 NEW = {"Minesh Patel": "om-NSbgAAAAJ", "André Seznec": "BHupl5EAAAAJ"}
