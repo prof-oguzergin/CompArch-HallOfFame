@@ -1,66 +1,69 @@
 # -*- coding: utf-8 -*-
 """Write the refreshed Google Scholar metrics (refresh_gs.py -> gs_refresh_20261006.json) into data.js gs.
+Can run while the refresh is still going: profiles not read yet keep their April 2026 figures.
 
-Every entry keeps its Scholar ID; h, i10, c and b are replaced when the profile was read without error.
-Two researchers who had no Scholar data get their verified profiles (6 Oct 2026, profile name,
-affiliation and top papers checked): Minesh Patel (Rutgers) om-NSbgAAAAJ, André Seznec (INRIA/IRISA)
-BHupl5EAAAAJ. Not found or not usable: Gurindar S. Sohi, David H. Albonesi, Michel Dubois (the profiles
-the search returned belong to other people), Luiz André Barroso (profile removed, 404), Edward S.
-Davidson, Bob Ramakrishna Rau, Andrew R. Pleszkun, Michael Schlansker (no profile).
+Profile fixes (verify_gs.py: full name, top-cited titles against dblp, affiliation; 6-7 Oct 2026):
+- REMOVE, no Scholar profile of their own (the stored one belonged to someone else) or the profile is gone
+- REPLACE, the stored ID was someone else's and the right profile was found; until that profile has been
+  read the person shows no figures (never the wrong person's)
+- PENDING, the stored ID is someone else's and the right one is not settled yet: no figures for now
+- NEW, researchers who had no Scholar data, profiles checked by hand
+Not found or not usable at all: Gurindar S. Sohi, David H. Albonesi, Michel Dubois (search results were other
+people), Luiz André Barroso (profile removed), Edward S. Davidson, Bob Ramakrishna Rau, Andrew R. Pleszkun,
+Michael Schlansker.
 Run with --apply to write; otherwise prints the changes."""
-import json, re, sys
+import json, re, sys, time
 sys.stdout.reconfigure(encoding="utf-8")
 APPLY = "--apply" in sys.argv
-R = json.load(open("gs_refresh_20261006.json", encoding="utf-8"))
+for _ in range(5):                       # the refresh may be rewriting the file right now
+    try:
+        R = json.load(open("gs_refresh_20261006.json", encoding="utf-8")); break
+    except json.JSONDecodeError:
+        time.sleep(2)
+REMOVE = {
+    "G. Jack Lipovski": "o0yYm6kAAAAJ is Jack Kramer",
+    "Christos A. Papachristou": "jmMI3eUAAAAJ is Christos Papachristos (robotics)",
+    "Jean-Loup Baer": "5pWnG_oAAAAJ is John S. Baer (psychology, UW)",
+    "Amro Awad": "jDmd7AoAAAAJ answers 404 since 6 Oct 2026 (also in a browser)",
+}
+REPLACE = {
+    "Amir Roth": "X-HEAfgAAAAJ",          # kLUQrrYAAAAJ is Aaron Roth (Penn, privacy); his own profile: US DOE
+    "Jae W. Lee": "PA-QN6IAAAAJ",         # 6MspJJcAAAAJ is Jae Won Lee (Samsung Research, patents); his own: SNU
+    "Jonathan M. Baker": "87cLl3gAAAAJ",  # Cn7wuysAAAAJ is Jonathan Baker (Met Office, climate); his own: UT Austin
+}
+PENDING = {"Kang Chen": "rDXG570AAAAJ is Kang Chen (China University of Geosciences, geology); candidates being checked"}
 NEW = {"Minesh Patel": "om-NSbgAAAAJ", "André Seznec": "BHupl5EAAAAJ"}
-# wrong profiles on the site since April (verify_gs.py): the ID belonged to someone else
-REMOVE = {"G. Jack Lipovski": "o0yYm6kAAAAJ is Jack Kramer; no Scholar profile of his own found",
-          "Christos A. Papachristou": "jmMI3eUAAAAJ is Christos Papachristos (robotics); no profile of his own found"}
-REPLACE = {"Amir Roth": "X-HEAfgAAAAJ"}   # kLUQrrYAAAAJ is Aaron Roth (Penn, privacy); X-HEAfgAAAAJ is Amir Roth (now US DOE), checked
+ENTRY = r'\n  "%s":\{gs:"[^"]+",h:\d+,i10:\d+,c:\d+,b:\[[\d,]+\]\},'
+def line(name, gid, r):
+    return '\n  "%s":{gs:"%s",h:%d,i10:%d,c:%d,b:[%s]},' % (name, gid, r["h"], r["i10"], r["c"], ",".join(map(str, r["b"])))
+def ok(gid): return gid in R and "error" not in R[gid]
+
 P = "data.js"
 d = open(P, encoding="utf-8").read()
-if "--only-fixes" in sys.argv:
-    # Scholar blocked the refresh (HTTP 429): take only the wrong profiles off now; Amir Roth's own profile
-    # (X-HEAfgAAAAJ) goes in with the full refresh, until then he shows no Scholar figures
-    for n in list(REMOVE) + list(REPLACE):
-        d, k = re.subn(r'\n  "%s":\{gs:"[^"]+",h:\d+,i10:\d+,c:\d+,b:\[[\d,]+\]\},' % re.escape(n), "", d)
-        assert k == 1, n
-    open(P, "w", encoding="utf-8", newline="").write(d)
-    print("removed:", list(REMOVE) + list(REPLACE)); sys.exit()
-for n, gid in REPLACE.items():      # entry taken off by --only-fixes -> comes back as a new one
-    d, k = re.subn(r'(\n  "%s":\{gs:")[^"]+(")' % re.escape(n), lambda m: m.group(1) + gid + m.group(2), d)
-    if k == 0: NEW[n] = gid
-for n in REMOVE:                    # already gone after --only-fixes
-    d, k = re.subn(r'\n  "%s":\{gs:"[^"]+",h:\d+,i10:\d+,c:\d+,b:\[[\d,]+\]\},' % re.escape(n), "", d)
+removed, added = [], []
+for n in list(REMOVE) + list(PENDING):
+    d, k = re.subn(ENTRY % re.escape(n), "", d)
+    if k: removed.append(n)
+for n, gid in REPLACE.items():
+    d, k = re.subn(ENTRY % re.escape(n), "", d)          # the wrong person's figures go in every case
+    if k: removed.append(n)
+    if ok(gid): NEW[n] = gid                             # back in only with the right profile's figures
 a = d.index("\ngs: {"); b = d.index("\n}", a)
 blk = d[a:b]
-pat = re.compile(r'^(  "((?:[^"\\]|\\.)*)":\{gs:"([^"]+)",h:(\d+),i10:(\d+),c:(\d+),b:\[([\d,]+)\]\})', re.M)
-changed, kept, out = 0, [], blk
-rows = []
+pat = re.compile(r'\n  "((?:[^"\\]|\\.)*)":\{gs:"([^"]+)",h:(\d+),i10:(\d+),c:(\d+),b:\[([\d,]+)\]\},')
+changed, kept, rows, out = 0, 0, [], blk
 for m in pat.finditer(blk):
-    line, name, gid = m.group(1), m.group(2), m.group(3)
-    old = {"h": int(m.group(4)), "i10": int(m.group(5)), "c": int(m.group(6)), "b": [int(x) for x in m.group(7).split(",")]}
-    r = R.get(gid)
-    if not r or "error" in r:
-        kept.append((name, gid, (r or {}).get("error", "not fetched"))); continue
-    new_line = '  "%s":{gs:"%s",h:%d,i10:%d,c:%d,b:[%s]}' % (name, gid, r["h"], r["i10"], r["c"], ",".join(map(str, r["b"])))
-    if new_line != line:
-        out = out.replace(line, new_line, 1); changed += 1
-    rows.append((name, old, r))
-for name, gid in NEW.items():
-    r = R.get(gid)
-    if f'\n  "{name}":' in out: continue
-    if not r or "error" in r:
-        kept.append((name, gid, "new profile not fetched")); continue
-    out += '\n  "%s":{gs:"%s",h:%d,i10:%d,c:%d,b:[%s]},' % (name, gid, r["h"], r["i10"], r["c"], ",".join(map(str, r["b"])))
-    changed += 1
-    rows.append((name, None, r))
-print(f"entries changed: {changed}; kept as they were: {len(kept)}")
-for k in kept: print("   kept:", k)
-drops = [(n, o["c"], r["c"]) for n, o, r in rows if o and r["c"] < o["c"]]
-print("citations went down (check the profile):", drops)
-big = sorted((r["h"] - o["h"], n, o["h"], r["h"]) for n, o, r in rows if o)[-8:]
-print("largest h-index rises:", [(n, f"{x}->{y}") for _, n, x, y in reversed(big)])
+    name, gid = m.group(1), m.group(2)
+    if not ok(gid): kept += 1; continue
+    new = line(name, gid, R[gid])
+    if new != m.group(0): out = out.replace(m.group(0), new, 1); changed += 1
+    rows.append((name, {"h": int(m.group(3)), "c": int(m.group(5))}, R[gid]))
+for n, gid in NEW.items():
+    if f'\n  "{n}":' in out or not ok(gid): continue
+    out += line(n, gid, R[gid]); added.append(n)
+print(f"updated {changed}, still April figures {kept}, removed {removed}, added {added}")
+drops = [(n, o["c"], r["c"]) for n, o, r in rows if r["c"] < o["c"]]
+print("citations went down (check):", drops)
 if APPLY:
     d = d[:a] + out + d[b:]
     open(P, "w", encoding="utf-8", newline="").write(d)
