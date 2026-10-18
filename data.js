@@ -1458,6 +1458,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"18 Oct 2026",text:"Google Scholar refresh continues: Nam Sung Kim updated (h-index 65, 20,832 citations); the remaining profiles follow as Scholar allows."},
   {date:"7 Oct 2026",text:"Google Scholar figures refreshed for 161 researchers; the rest follow (Scholar limits how fast profiles can be read). The Scholar links of Jae W. Lee, Jonathan M. Baker, Chao Li and Kang Chen pointed to other people: their figures are off until their own profiles are read. Jean-Loup Baer (linked profile was someone else's, none of his own) and Amro Awad (profile no longer public) now show no figures."},
   {date:"6 Oct 2026",text:"Google Scholar figures taken off for three researchers whose Scholar link pointed to someone else: G. Jack Lipovski and Christos A. Papachristou (no Scholar profile of their own), and Amir Roth, whose own profile comes in with the next Scholar refresh."},
   {date:"6 Oct 2026",site:true,text:"Acceptance Rates: a second chart shows the papers submitted (or accepted) per year next to the acceptance-rate chart. Chart colours re-chosen and checked for colour-vision deficiency in both themes; HPCA and MICRO were hard to tell apart before."},
@@ -1756,7 +1757,7 @@ gs: {
   "Murali Annavaram":{gs:"NAntFXIAAAAJ",h:53,i10:141,c:11256,b:[29,10,5,0,0]},
   "Myoungsoo Jung":{gs:"sbWjyP4AAAAJ",h:36,i10:88,c:4334,b:[12,2,0,0,0]},
   "Nael Abu-Ghazaleh":{gs:"AN3f7iAAAAAJ",h:58,i10:176,c:15328,b:[34,17,7,2,1]},
-  "Nam Sung Kim":{gs:"iccBxJIAAAAJ",h:64,i10:195,c:19464,b:[40,18,9,3,3]},
+  "Nam Sung Kim":{gs:"iccBxJIAAAAJ",h:65,i10:205,c:20832,b:[43,20,9,4,3]},
   "Nandita Vijaykumar":{gs:"y7erynoAAAAJ",h:26,i10:36,c:3577,b:[12,3,1,0,0]},
   "Natalie D. Enright Jerger":{gs:"CpFoJ1gAAAAJ",h:39,i10:68,c:7111,b:[22,10,2,2,1]},
   "Nathan Beckmann":{gs:"zkdjit0AAAAJ",h:30,i10:47,c:4141,b:[11,5,1,0,0]},
