@@ -25,6 +25,7 @@ REMOVE = {
     "Christos A. Papachristou": "jmMI3eUAAAAJ is Christos Papachristos (robotics)",
     "Jean-Loup Baer": "5pWnG_oAAAAJ is John S. Baer (psychology, UW)",
     "Amro Awad": "jDmd7AoAAAAJ answers 404 since 6 Oct 2026 (also in a browser)",
+    "Shaojun Wei": "3dM-CBsAAAAJ answers 404 (18 Oct 2026)",
 }
 REPLACE = {
     "Amir Roth": "X-HEAfgAAAAJ",          # kLUQrrYAAAAJ is Aaron Roth (Penn, privacy); his own profile: US DOE
@@ -32,7 +33,18 @@ REPLACE = {
     "Jonathan M. Baker": "87cLl3gAAAAJ",  # Cn7wuysAAAAJ is Jonathan Baker (Met Office, climate); his own: UT Austin
     "Chao Li": "Yy-wQg4AAAAJ",            # gF8h0HMAAAAJ is Chao Li (Zhejiang Lab, edge AI); his own: SJTU, architecture
 }
-PENDING = {"Kang Chen": "rDXG570AAAAJ is Kang Chen (China University of Geosciences, geology); candidates being checked"}
+PENDING = {"Kang Chen": "rDXG570AAAAJ is Kang Chen (China University of Geosciences, geology); candidates being checked",
+    # 18 Oct 2026, verify_gs.py: stored ID is someone else's; own profile still to be found
+    "Daehoon Kim": "KLN5C3UAAAAJ is a cardiologist (Yonsei Severance)",
+    "Qi Guo": "IatRsPEAAAAJ is Qi Guo (LinkedIn, recommender systems)",
+    "Robert A. Mueller": "a0UkzyYAAAAJ is Robert Mueller (IPHT, physics)",
+    "Rui Hou": "PKHKqX0AAAAJ is Rui Hou (Meta, Llama 2)",
+    "Sanjay J. Patel": "5aISgD8AAAAJ is Sanjay V. Patel (Seacoast Science)",
+    "Shubhendu S. Mukherjee": "36OTdBcAAAAJ is Shubhendu Bhardwaj (RF harvesting)",
+    "Tianshi Chen": "b4GKcAsAAAAJ is Lin Chen (CASIA)",
+    "Xiaowei Jiang": "gPOG1E8AAAAJ is Xiaowei Jiang (networked control)",
+    "Tao Li": "_SuhcLEAAAAJ is Tao Li (FIU, data mining)",
+    "Rakesh Kumar": "HDGbYM0AAAAJ top papers are real-time networking, none of his architecture papers"}
 NEW = {"Minesh Patel": "om-NSbgAAAAJ", "André Seznec": "BHupl5EAAAAJ"}
 ENTRY = r'\n  "%s":\{gs:"[^"]+",h:\d+,i10:\d+,c:\d+,b:\[[\d,]+\]\},'
 def line(name, gid, r):
