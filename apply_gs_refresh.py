@@ -32,15 +32,16 @@ REPLACE = {
     "Jae W. Lee": "PA-QN6IAAAAJ",         # 6MspJJcAAAAJ is Jae Won Lee (Samsung Research, patents); his own: SNU
     "Jonathan M. Baker": "87cLl3gAAAAJ",  # Cn7wuysAAAAJ is Jonathan Baker (Met Office, climate); his own: UT Austin
     "Chao Li": "Yy-wQg4AAAAJ",            # gF8h0HMAAAAJ is Chao Li (Zhejiang Lab, edge AI); his own: SJTU, architecture
+    # 21 Oct 2026, found by search, checked by affiliation and top papers:
+    "Daehoon Kim": "zjxGtuoAAAAJ",        # KLN5C3UAAAAJ is a cardiologist; his own: Yonsei, architecture (dist-gem5, MCN)
+    "Rui Hou": "jEiMMjgAAAAJ",            # PKHKqX0AAAAJ is Rui Hou (Meta); his own: CAS (TensorFHE, Spectre defenses)
+    "Shubhendu S. Mukherjee": "tRaNOv4AAAAJ",  # 36OTdBcAAAAJ is Shubhendu Bhardwaj; his own: "Shubu Mukherjee", SiFive (AVF)
 }
 PENDING = {"Kang Chen": "rDXG570AAAAJ is Kang Chen (China University of Geosciences, geology); candidates being checked",
     # 18 Oct 2026, verify_gs.py: stored ID is someone else's; own profile still to be found
-    "Daehoon Kim": "KLN5C3UAAAAJ is a cardiologist (Yonsei Severance)",
     "Qi Guo": "IatRsPEAAAAJ is Qi Guo (LinkedIn, recommender systems)",
     "Robert A. Mueller": "a0UkzyYAAAAJ is Robert Mueller (IPHT, physics)",
-    "Rui Hou": "PKHKqX0AAAAJ is Rui Hou (Meta, Llama 2)",
     "Sanjay J. Patel": "5aISgD8AAAAJ is Sanjay V. Patel (Seacoast Science)",
-    "Shubhendu S. Mukherjee": "36OTdBcAAAAJ is Shubhendu Bhardwaj (RF harvesting)",
     "Tianshi Chen": "b4GKcAsAAAAJ is Lin Chen (CASIA)",
     "Xiaowei Jiang": "gPOG1E8AAAAJ is Xiaowei Jiang (networked control)",
     "Tao Li": "_SuhcLEAAAAJ is Tao Li (FIU, data mining)",

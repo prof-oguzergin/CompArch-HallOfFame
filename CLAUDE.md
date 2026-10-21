@@ -154,7 +154,10 @@ Program sayfasından (https://www.microarch.org/micro59/program/) eklendi, DBLP 
 - Sonuç: ISCA ve HPCA'da site DBLP ile birebir (yalnız belgeli KEEP istisnaları), MICRO'da farklar yalnızca programdan eklenen MICRO 2026 makaleleri. Yeni üye adayı yok (MICRO'da "Yuan Chou" adlı üç PID toplamda 8 ediyor ama UBC'deki Yuan-Hsi Chou ile Sun'daki Yuan C. Chou ayrı kişiler).
 - `recompute_crossvenue.py` artık EXTRA_PUBL'ı da okuyor. DBLP MICRO 2026'yı dizinleyene kadar `--apply` ile koşma, programdan gelen MICRO 2026 sayıları silinir.
 
-## Google Scholar yenilemesi, 7 Eki 2026 durumu (YARIM, önce bunu oku)
+## Google Scholar yenilemesi TAMAMLANDI (21 Eki 2026)
+- 250 kişi Ekim 2026 değerleriyle; 21 kişide Scholar sütunu boş (kendi profili yok, profil kaldırılmış ya da bulunamadı; liste apply_gs_refresh.py REMOVE/PENDING). Yanlış profil toplamı 24; doğru profili bulunanlar REPLACE'te. Bir sonraki yenilemede: `refresh_gs.py --max 75` günde bir, sonra verify_gs.py ve apply.
+
+## Google Scholar yenilemesi, 7 Eki 2026 durumu (ESKİ)
 - Scholar bu makineden günde ~85 profil okutuyor, sonra saatlerce 429. 6 Eki: 83 profil, 7 Eki: 88 profil (toplam 171/262). 7 Eki'de 161 profilin yeni değerleri YAYINDA; okunmayan 91 profil Nisan değerinde, Combined notu bunu söylüyor.
 - **Yarın sırayla:** önce düzeltmeler `python refresh_gs.py --ids X-HEAfgAAAAJ,PA-QN6IAAAAJ,87cLl3gAAAAJ,Yy-wQg4AAAAJ,KLN5C3UAAAAJ` (Amir Roth, Jae W. Lee, Jonathan M. Baker, Chao Li doğru profilleri; Daehoon Kim denetimi), sonra `python refresh_gs.py --max 75`; ertesi gün kalanı. Her okumadan sonra `python verify_gs.py`, `python apply_gs_refresh.py --apply`, yayın. Hepsi bitince Combined notunu "read <tarih>" biçimine çevir.
 - **Yanlış profiller (toplam 9, hepsinin rakamı kaldırıldı):** Lipovski (Jack Kramer), Papachristou (Papachristos, robotik), Baer (John S. Baer, psikoloji) kendi profili yok; Amir Roth (Aaron Roth), Jae W. Lee (Samsung'da Jae Won Lee), Jonathan M. Baker (Met Office'te Jonathan Baker), Chao Li (Zhejiang Lab'deki Chao Li) doğru profili bulundu, okununca girecek; Kang Chen (jeolog) doğru profili bulunamadı. Amro Awad profili 404.
