@@ -1458,6 +1458,7 @@ toppicks_papers: [
 ],
 toppicks: [], // kept for backward compat
 updates: [
+  {date:"2 Nov 2026",site:true,text:"Acceptance Rates: MICRO 2026 added, 213 of 842 regular-track submissions accepted (25.3%), from the program chairs' slides at the MICRO-59 opening. The 7 papers of the new Industry Track are not included. The same slides give 424 MICRO 2023 submissions (434 before)."},
   {date:"21 Oct 2026",text:"Google Scholar refresh complete: every profile re-read in October 2026. Own profiles now linked for Daehoon Kim, Rui Hou and Shubhendu S. Mukherjee; Minesh Patel and André Seznec added. No Scholar profile of their own could be found for Qi Guo, Tianshi Chen, Sanjay J. Patel, Rakesh Kumar, Tao Li, Xiaowei Jiang, Kang Chen and Robert A. Mueller, so they show no figures."},
   {date:"18 Oct 2026",text:"Google Scholar refresh: 62 more researchers updated; Amir Roth, Jae W. Lee, Jonathan M. Baker and Chao Li now show their own Scholar profiles. Ten more Scholar links turned out to point to other people (Daehoon Kim, Qi Guo, Robert A. Mueller, Rui Hou, Sanjay J. Patel, Shubhendu S. Mukherjee, Tianshi Chen, Xiaowei Jiang, Tao Li, Rakesh Kumar); their figures are off until their own profiles are found. 19 profiles are still to be re-read."},
   {date:"18 Oct 2026",text:"Google Scholar refresh continues: Nam Sung Kim updated (h-index 65, 20,832 citations); the remaining profiles follow as Scholar allows."},
@@ -1531,9 +1532,10 @@ acceptance: {
     {year:2020,sub:446,acc:82},
     {year:2021,sub:430,acc:94},
     {year:2022,sub:366,acc:83},
-    {year:2023,sub:434,acc:101},
+    {year:2023,sub:424,acc:101},
     {year:2024,sub:497,acc:113},
-    {year:2025,sub:597,acc:124}
+    {year:2025,sub:597,acc:124},
+    {year:2026,sub:842,acc:213}
   ],
   isca: [
     {year:2001,sub:163,acc:24},
