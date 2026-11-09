@@ -1,0 +1,50 @@
+{
+ "CORDOBA: Carbon-Efficient Optimization Framework for Computing Systems": {
+  "gs": 24,
+  "via": "Carole-Jean Wu"
+ },
+ "Dissecting and Modeling the Architecture of Modern GPU Cores": {
+  "gs": 29,
+  "via": "Antonio González"
+ },
+ "EMT: An OS Framework for New Memory Translation Architectures": {
+  "gs": 5,
+  "via": "Josep Torrellas"
+ },
+ "LithOS: An Operating System for Efficient Machine Learning on GPUs": {
+  "gs": 49,
+  "via": "Todd C. Mowry"
+ },
+ "Single-Address-Space FaaS with Jord": {
+  "gs": 4,
+  "via": "Babak Falsafi"
+ },
+ "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization": {
+  "gs": 8,
+  "via": "Nael Abu-Ghazaleh"
+ },
+ "TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms": {
+  "gs": 113,
+  "via": "Ricardo Bianchini"
+ },
+ "Forecasting GPU Performance for Deep Learning Training and Inference": {
+  "gs": 90,
+  "via": "Amar Phanishayee"
+ },
+ "Flexing RISC-V Instruction Subset Processors to Extreme Edge": {
+  "gs": 13,
+  "via": "Emre Ozer"
+ },
+ "GPUHammer: Rowhammer Attacks on GPU Memories Are Practical": {
+  "gs": 59,
+  "via": "Gururaj Saileshwar"
+ },
+ "Learning to Walk: Architecting Learned Virtual Memory Translation": {
+  "gs": 5,
+  "via": "Dimitrios Skarlatos"
+ },
+ "RT+SpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations": {
+  "gs": 11,
+  "via": "Hung-Wei Tseng"
+ }
+}
