@@ -1,0 +1,462 @@
+[
+ {
+  "type": "TP",
+  "want_venue": "ASPLOS",
+  "want_title": "Forecasting GPU Performance for Deep Learning Training and Inference",
+  "key": "https://dblp.org/rec/conf/asplos/LeeP025",
+  "title": "Forecasting GPU Performance for Deep Learning Training and Inference",
+  "venue": "ASPLOS (1)",
+  "doi": "10.1145/3669940.3707265",
+  "authors": [
+   [
+    "Seonho Lee",
+    "225/0239"
+   ],
+   [
+    "Amar Phanishayee",
+    "14/877"
+   ],
+   [
+    "Divya Mahajan",
+    "161/0102-1"
+   ]
+  ],
+  "cites": 69
+ },
+ {
+  "type": "HM",
+  "want_venue": "HPCA",
+  "want_title": "CORDOBA: Carbon-Efficient Optimization Framework for Computing Systems",
+  "key": "https://dblp.org/rec/conf/hpca/ElgamalCAZPMGW025",
+  "title": "CORDOBA: Carbon-Efficient Optimization Framework for Computing Systems",
+  "venue": "HPCA",
+  "doi": "10.1109/HPCA61900.2025.00098",
+  "authors": [
+   [
+    "Mariam Elgamal",
+    "321/3583"
+   ],
+   [
+    "Doug Carmean",
+    "11/4277"
+   ],
+   [
+    "Elnaz Ansari",
+    "127/7897"
+   ],
+   [
+    "Okay Zed",
+    "135/4710"
+   ],
+   [
+    "Ramesh Peri",
+    "26/3936"
+   ],
+   [
+    "Srilatha Manne",
+    "87/5027"
+   ],
+   [
+    "Udit Gupta",
+    "79/8759-1"
+   ],
+   [
+    "Gu-Yeon Wei",
+    "21/5583"
+   ],
+   [
+    "David Brooks",
+    "30/135"
+   ],
+   [
+    "Gage Hills",
+    "127/7667"
+   ],
+   [
+    "Carole-Jean Wu",
+    "26/9655"
+   ]
+  ],
+  "cites": 18
+ },
+ {
+  "type": "HM",
+  "want_venue": "MICRO",
+  "want_title": "Dissecting and Modeling the Architecture of Modern GPU Cores",
+  "key": "https://dblp.org/rec/conf/micro/HuertaSC025",
+  "title": "Dissecting and Modeling the Architecture of Modern GPU Cores",
+  "venue": "MICRO",
+  "doi": "10.1145/3725843.3756041",
+  "authors": [
+   [
+    "Rodrigo Huerta",
+    "131/0893"
+   ],
+   [
+    "Mojtaba Abaie Shoushtary",
+    "359/6135"
+   ],
+   [
+    "José-Lorenzo Cruz",
+    "76/954"
+   ],
+   [
+    "Antonio González",
+    "g/AntonioGonzalez1"
+   ]
+  ],
+  "cites": 16
+ },
+ {
+  "type": "HM",
+  "want_venue": "OSDI",
+  "want_title": "EMT: An OS Framework for New Memory Translation Architectures",
+  "key": "https://dblp.org/rec/conf/osdi/Chai00WCS00TX25",
+  "title": "EMT: An OS Framework for New Memory Translation Architectures",
+  "venue": "OSDI",
+  "doi": "",
+  "authors": [
+   [
+    "Siyuan Chai",
+    "314/7076-1"
+   ],
+   [
+    "Jiyuan Zhang",
+    "93/7807-3"
+   ],
+   [
+    "Jongyul Kim",
+    "206/4548"
+   ],
+   [
+    "Alan Wang",
+    "03/5773"
+   ],
+   [
+    "Fan Chung Graham",
+    "c/FRKChung"
+   ],
+   [
+    "Jovan Stojkovic",
+    "252/3245"
+   ],
+   [
+    "Weiwei Jia",
+    "61/9959-1"
+   ],
+   [
+    "Dimitrios Skarlatos",
+    "191/7793-2"
+   ],
+   [
+    "Josep Torrellas",
+    "t/JosepTorrellas"
+   ],
+   [
+    "Tianyin Xu",
+    "90/7566"
+   ]
+  ],
+  "cites": 3
+ },
+ {
+  "type": "HM",
+  "want_venue": "MICRO",
+  "want_title": "Flexing RISC-V Instruction Subset Processors to Extreme Edge",
+  "key": "https://dblp.org/rec/conf/micro/RaisiardaliIKGM25",
+  "title": "Flexing RISC-V Instruction Subset Processors to Extreme Edge",
+  "venue": "MICRO",
+  "doi": "10.1145/3725843.3756036",
+  "authors": [
+   [
+    "Alireza Raisiardali",
+    "387/8534"
+   ],
+   [
+    "Konstantinos Iordanou",
+    "233/1731"
+   ],
+   [
+    "Jedrzej Kufel",
+    "144/4603"
+   ],
+   [
+    "Kowshik Gudimetla",
+    "407/7581"
+   ],
+   [
+    "Kris Myny",
+    "62/8857"
+   ],
+   [
+    "Emre Ozer",
+    "35/4637-1"
+   ]
+  ],
+  "cites": 9
+ },
+ {
+  "type": "HM",
+  "want_venue": "USENIX Security",
+  "want_title": "GPUHammer: Rowhammer Attacks on GPU Memories Are Practical",
+  "key": "https://dblp.org/rec/conf/uss/LinQS25",
+  "title": "GPUHammer: Rowhammer Attacks on GPU Memories are Practical",
+  "venue": "USENIX Security Symposium",
+  "doi": "",
+  "authors": [
+   [
+    "Chris S. Lin",
+    "153/9238"
+   ],
+   [
+    "Joyce Qu",
+    "407/8198"
+   ],
+   [
+    "Gururaj Saileshwar",
+    "196/6747"
+   ]
+  ],
+  "cites": null
+ },
+ {
+  "type": "HM",
+  "want_venue": "MICRO",
+  "want_title": "Learning to Walk: Architecting Learned Virtual Memory Translation",
+  "key": "https://dblp.org/rec/conf/micro/0002CXSHVA025",
+  "title": "Learning to Walk: Architecting Learned Virtual Memory Translation",
+  "venue": "MICRO",
+  "doi": "10.1145/3725843.3756093",
+  "authors": [
+   [
+    "Kaiyang Zhao",
+    "260/8424-2"
+   ],
+   [
+    "Yuang Chen",
+    "164/1610"
+   ],
+   [
+    "Xenia Xu",
+    "426/4131"
+   ],
+   [
+    "Dan Schatzberg",
+    "150/5905"
+   ],
+   [
+    "Nastaran Hajinaza",
+    "426/3117"
+   ],
+   [
+    "Rupin Vakharwala",
+    "426/4281"
+   ],
+   [
+    "Andy Anderson",
+    "173/5694"
+   ],
+   [
+    "Dimitrios Skarlatos",
+    "191/7793-2"
+   ]
+  ],
+  "cites": 4
+ },
+ {
+  "type": "HM",
+  "want_venue": "SOSP",
+  "want_title": "LithOS: An Operating System for Efficient Machine Learning on GPUs",
+  "key": "https://dblp.org/rec/conf/sosp/CoppockZSKYSSM025",
+  "title": "LithOS: An Operating System for Efficient Machine Learning on GPUs",
+  "venue": "SOSP",
+  "doi": "10.1145/3731569.3764818",
+  "authors": [
+   [
+    "Patrick H. Coppock",
+    "405/6876"
+   ],
+   [
+    "Brian Zhang",
+    "200/8344"
+   ],
+   [
+    "Eliot H. Solomon",
+    "372/4787"
+   ],
+   [
+    "Vasilis Kypriotis",
+    "377/3418"
+   ],
+   [
+    "Leon Yang",
+    "203/0896"
+   ],
+   [
+    "Bikash Sharma",
+    "24/7446"
+   ],
+   [
+    "Dan Schatzberg",
+    "150/5905"
+   ],
+   [
+    "Todd C. Mowry",
+    "65/4120"
+   ],
+   [
+    "Dimitrios Skarlatos",
+    "191/7793-2"
+   ]
+  ],
+  "cites": 46
+ },
+ {
+  "type": "HM",
+  "want_venue": "ISCA",
+  "want_title": "RT+SpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations",
+  "key": "https://dblp.org/rec/conf/isca/ZhangZ025",
+  "title": "RTSpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations",
+  "venue": "ISCA",
+  "doi": "10.1145/3695053.3731072",
+  "authors": [
+   [
+    "Hongrui Zhang",
+    "122/2649"
+   ],
+   [
+    "Yunan Zhang",
+    "194/9832"
+   ],
+   [
+    "Hung-Wei Tseng",
+    "76/1857-1"
+   ]
+  ],
+  "cites": 8
+ },
+ {
+  "type": "HM",
+  "want_venue": "ISCA",
+  "want_title": "Single-Address-Space FaaS with Jord",
+  "key": "https://dblp.org/rec/conf/isca/LiBKBEFKP25",
+  "title": "Single-Address-Space FaaS with Jord",
+  "venue": "ISCA",
+  "doi": "10.1145/3695053.3731108",
+  "authors": [
+   [
+    "Yuanlong Li",
+    "97/1522"
+   ],
+   [
+    "Atri Bhattacharyya",
+    "237/9617"
+   ],
+   [
+    "Madhur Kumar",
+    "329/9732"
+   ],
+   [
+    "Abhishek Bhattacharjee",
+    "78/4478"
+   ],
+   [
+    "Yoav Etsion",
+    "89/6105"
+   ],
+   [
+    "Babak Falsafi",
+    "f/BabakFalsafi"
+   ],
+   [
+    "Sanidhya Kashyap",
+    "145/0912"
+   ],
+   [
+    "Mathias Payer",
+    "31/1273"
+   ]
+  ],
+  "cites": 6
+ },
+ {
+  "type": "HM",
+  "want_venue": "ISCA",
+  "want_title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization",
+  "key": "https://dblp.org/rec/conf/isca/GanjisaffarKZES25",
+  "title": "SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization",
+  "venue": "ISCA",
+  "doi": "10.1145/3695053.3731119",
+  "authors": [
+   [
+    "Saber Ganjisaffar",
+    "408/0806"
+   ],
+   [
+    "Esmaeil Mohammadian Koruyeh",
+    "222/1569"
+   ],
+   [
+    "Jason Zellmer",
+    "407/9524"
+   ],
+   [
+    "Hodjat Asghari Esfeden",
+    "202/9534"
+   ],
+   [
+    "Chengyu Song",
+    "69/6818"
+   ],
+   [
+    "Nael B. Abu-Ghazaleh",
+    "86/2654"
+   ]
+  ],
+  "cites": 5
+ },
+ {
+  "type": "HM",
+  "want_venue": "ASPLOS",
+  "want_title": "TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms",
+  "key": "https://dblp.org/rec/conf/asplos/StojkovicZGCQFT25",
+  "title": "TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms",
+  "venue": "ASPLOS (2)",
+  "doi": "10.1145/3676641.3716025",
+  "authors": [
+   [
+    "Jovan Stojkovic",
+    "252/3245"
+   ],
+   [
+    "Chaojie Zhang",
+    "166/7381-1"
+   ],
+   [
+    "Íñigo Goiri",
+    "47/3727"
+   ],
+   [
+    "Esha Choukse",
+    "184/8246"
+   ],
+   [
+    "Haoran Qiu",
+    "217/3886"
+   ],
+   [
+    "Rodrigo Fonseca",
+    "f/RFonseca"
+   ],
+   [
+    "Josep Torrellas",
+    "t/JosepTorrellas"
+   ],
+   [
+    "Ricardo Bianchini",
+    "85/2722"
+   ]
+  ],
+  "cites": 102
+ }
+]
