@@ -522,7 +522,7 @@ affiliations: {
   "Yu Feng": {inst:"SJTU",pid:"30/4550-7"},
   "Nika Mansouri-Ghiasi": {inst:"ETH Zurich",pid:"205/1623"},
   "Jovan Stojkovic": {inst:"UT Austin",pid:"252/3245"},
-  "Onur Mutlu": {inst:"ETH Zurich",pid:"m/OnurMutlu"},
+  "Onur Mutlu": {inst:"NYU / ETH Zurich",pid:"m/OnurMutlu"},
   "Josep Torrellas": {inst:"UIUC",pid:"t/JosepTorrellas"},
   "Yale N. Patt": {inst:"UT Austin",pid:"p/YaleNPatt"},
   "Nam Sung Kim": {inst:"UIUC",pid:"18/1402"},
